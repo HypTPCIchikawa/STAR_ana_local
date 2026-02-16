@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  SUMS job.xml for phi analysis (picoDst)
+  - Input: your local .list (filelist:)
+  - Split: 5 files per job
+  - Env: starver SL25a
+  - Macro: analyzePhiMeson.C
+      1st arg: config/mainconf/main.yaml
+      2nd arg: $JOBID
+      3rd arg: $FILELIST  (SUMS-generated per-job list)
+  - Output: write ROOT file into $SCRATCH (recommended), unique per job
+      e.g. $SCRATCH/phi_$JOBID.root
+-->
+
+<!-- <job name="phi_analysis" simulateSubmission="false" maxFilesPerProcess="1" fileListSyntax="paths"> -->
+<!--<job name="Dedx_analysis" simulateSubmission="false" maxFilesPerProcess="10" fileListSyntax="paths"> -->
+<job name="Dedx_analysis" simulateSubmission="false" maxFilesPerProcess="10" fileListSyntax="xrootd" copyInputLocally="true">
+
+  <command>
+    mkdir -p log
+    starver SL24y
+    root4star -q -b macro/Analysis_DedxVsP_M2_job.C\(0,\"$FILELIST\",\"$JOBID\"\)
+  </command>
+
+  <!-- Per-job logs (unique by $JOBID) -->
+
+  <stdout URL="file:/star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/$JOBID.out" />
+  <stderr URL="file:/star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/$JOBID.err" />
+
+
+  <!-- <stdout URL="file:$SCRATCH/stdout.$JOBID.txt" /> -->
+  <!-- <stderr URL="file:$SCRATCH/stderr.$JOBID.txt" /> -->
+
+  <!-- Input: replace with your .list absolute path -->
+
+  <!-- <input URL="filelist:/star/u/yichikawa/pwg/tmp_ana/Nuclear_id/test3_dd.list" /> -->
+  <!--<input
+      URL="catalog:star.bnl.gov?trgsetupname=production_3p85GeV_fixedTarget_2019,production=P24iy,filetype=daq_reco_picoDst,filename~st_physics,storage!=HPSS"
+      nFiles="all"
+      /> -->
+  
+  <input
+      URL="catalog:star.bnl.gov?trgsetupname=production_13p5GeV_fixedTarget_2020,production=P24iy,filetype=daq_reco_picoDst,filename~st_physics,storage!=HPSS"
+      nFiles="all"
+      />
+
+  <!--<input
+      URL="catalog:star.bnl.gov?trgsetupname=production_19GeV_2019,production=P24iy,filetype=daq_reco_picoDst,filename~st_physics,storage!=HPSS"
+      nFiles="all"
+      />--> 
+  <!-- Ship macro + config directory to worker node -->
+  
+  <SandBox>
+    <Package>
+      <File>file:./macro/Analysis_DedxVsP_M2_job.C</File>
+      <!-- <File>file:./config/</File> -->
+    </Package>
+  </SandBox>
+
+  <!-- Output collection:
+       Recommended: have the macro write exactly $SCRATCH/phi_$JOBID.root
+       Then SUMS will copy it back at job end.
+       Replace /ABS/PATH/TO/output_dir/ with your destination directory (absolute path, trailing /).
+  -->
+
+  <output fromScratch="Nuclear_id/DedxVsP_M2_$JOBID.root" toURL="file:/star/u/yichikawa/pwg/tmp_ana/Nuclear_id/rootfiles/" />
+
+</job>

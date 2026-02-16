@@ -1,0 +1,96 @@
+// LambdaInvMass_V0.C
+// ROOT5 / CINT macro
+// Lambda invariant mass using StPicoV0
+
+#include <TROOT.h>
+#include <TSystem.h>
+#include <TH1D.h>
+#include <TCanvas.h>
+#include <iostream>
+
+using namespace std;
+
+// forward declarations
+class StChain;
+class StPicoDstMaker;
+class StPicoDst;
+class StPicoEvent;
+class StPicoV0;
+
+StChain *chain = 0;
+
+void LambdaInvMass_V0(Int_t nEvents=1000,
+                      const char* inList="test2.list")
+{
+  // --- load STAR libs ---
+  gROOT->LoadMacro("$STAR/StRoot/StMuDSTMaker/COMMON/macros/loadSharedLibraries.C");
+  loadSharedLibraries();
+
+  gSystem->Load("StPicoEvent");
+  gSystem->Load("StPicoDstMaker");
+
+  // --- chain ---
+  chain = new StChain();
+  StPicoDstMaker *picoMaker =
+    new StPicoDstMaker(2, inList, "picoDst");
+
+  chain->Init();
+  StPicoDst *picoDst = picoMaker->picoDst();
+
+  int nEntries = picoMaker->chain()->GetEntries();
+  if (nEvents > nEntries) nEvents = nEntries;
+
+  cout << "[LambdaInvMass_V0] entries=" << nEntries
+       << " processing=" << nEvents << endl;
+
+  // --- histogram ---
+  TH1D *hLam = new TH1D("hLam",
+                        "Lambda invariant mass;M_{p#pi^{-}} (GeV/c^{2});Counts",
+                        200, 1.08, 1.16);
+
+  // =======================
+  // Event loop
+  // =======================
+  for (int iEvt=0; iEvt<nEvents; iEvt++) {
+    chain->Clear();
+    chain->Make(iEvt);
+
+    StPicoEvent *event = picoDst->event();
+    if (!event) continue;
+
+    int nV0 = picoDst->numberOfV0s();
+
+    for (int iV0=0; iV0<nV0; iV0++) {
+      StPicoV0 *v0 = picoDst->v0(iV0);
+      if (!v0) continue;
+
+      // -------------------
+      // Basic Lambda cuts
+      // -------------------
+
+      // decay length
+      if (v0->decayLength() < 5.0) continue;
+
+      // daughter DCA to PV
+      if (v0->dcaDaughters() > 1.0) continue;
+
+      // DCA V0 to PV
+      if (v0->dcaV0ToPV() > 1.0) continue;
+
+      // cosine of pointing angle
+      if (v0->cosTheta() < 0.995) continue;
+
+      // -------------------
+      // Fill Lambda mass
+      // -------------------
+      double mLam = v0->massLambda();
+      hLam->Fill(mLam);
+    }
+  }
+
+  // --- draw ---
+  TCanvas *c1 = new TCanvas("c1","Lambda",800,600);
+  hLam->Draw();
+
+  cout << "Done." << endl;
+}

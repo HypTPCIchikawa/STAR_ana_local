@@ -1,0 +1,115 @@
+// LambdaInvMass_gDCA.C
+// ROOT5 + ACLiC version
+// logic identical to CINT version
+
+#include <TROOT.h>
+#include <TSystem.h>
+#include <TVector3.h>
+#include <TLorentzVector.h>
+#include <TH1D.h>
+#include <TCanvas.h>
+#include <TFile.h>
+#include <iostream>
+using namespace std;
+
+// ===== STAR headers (required for ACLiC) =====
+#include "StChain.h"
+#include "StPicoDstMaker/StPicoDstMaker.h"
+#include "StPicoEvent/StPicoDst.h"
+#include "StPicoEvent/StPicoEvent.h"
+#include "StPicoEvent/StPicoTrack.h"
+
+// ============================================
+
+StChain *chain = 0;
+
+void LambdaInvMass_gDCA_ACLiC(const char* inList="test2.list",
+			      const char* outFile="lambda_gDCA.root",
+			      Int_t nEvents=100)
+{
+  // load STAR shared libs
+  //  gROOT->LoadMacro("$STAR/StRoot/StMuDSTMaker/COMMON/macros/loadSharedLibraries.C");
+  //  loadSharedLibraries();
+
+  gSystem->Load("StarClassLibrary");
+  gSystem->Load("StBase");
+  gSystem->Load("StChain");
+  gSystem->Load("StPicoEvent");
+  gSystem->Load("StPicoDstMaker");
+
+
+  chain = new StChain();
+  StPicoDstMaker* picoMaker =
+    new StPicoDstMaker(2, inList, "picoDst");
+
+  chain->Init();
+
+  StPicoDst* picoDst = picoMaker->picoDst();
+  int nEntries = picoMaker->chain()->GetEntries();
+  if (nEvents > nEntries) nEvents = nEntries;
+
+  cout << "[LambdaInvMass_gDCA] entries=" << nEntries
+       << " processing=" << nEvents << endl;
+
+  TH1D* hLam = new TH1D(
+			"hLam",
+			"Lambda invariant mass (gDCA cut);M_{p#pi^{-}} (GeV/c^{2});Counts",
+			200, 1.05, 1.25
+			);
+
+  const double mp  = 0.938272;
+  const double mpi = 0.139570;
+  const double dcaCut = 0.8; // cm
+
+  for (int ie = 0; ie < nEvents; ie++) {
+    chain->Clear();
+    if (chain->Make(ie)) break;
+
+    StPicoEvent* event = picoDst->event();
+    if (!event) continue;
+
+    TVector3 pv = event->primaryVertex();
+    int nTr = picoDst->numberOfTracks();
+
+    for (int i = 0; i < nTr; i++) {
+      StPicoTrack* trkP = picoDst->track(i);
+      if (!trkP) continue;
+
+      // proton candidate
+      if (trkP->charge() <= 0) continue;
+      if (fabs(trkP->nSigmaProton()) > 3.0) continue;
+      if (trkP->pPt() < 0.3) continue;
+      if (trkP->gDCA(pv.x(), pv.y(), pv.z()) < dcaCut) continue;
+
+      TVector3 pP = trkP->gMom();   // identical to CINT version
+      TLorentzVector lp(pP, sqrt(pP.Mag2() + mp*mp));
+
+      for (int j = 0; j < nTr; j++) {
+        if (j == i) continue;
+
+        StPicoTrack* trkPi = picoDst->track(j);
+        if (!trkPi) continue;
+
+        // pion candidate
+        if (trkPi->charge() >= 0) continue;
+        if (fabs(trkPi->nSigmaPion()) > 3.0) continue;
+        if (trkPi->pPt() < 0.15) continue;
+        if (trkPi->gDCA(pv.x(), pv.y(), pv.z()) < dcaCut) continue;
+
+        TVector3 pPi = trkPi->gMom();
+        TLorentzVector lpi(pPi, sqrt(pPi.Mag2() + mpi*mpi));
+
+        hLam->Fill((lp + lpi).M());
+      }
+    }
+  }
+
+  TFile* fout = new TFile(outFile, "RECREATE");
+  hLam->Write();
+  fout->Close();
+
+  TCanvas* c1 = new TCanvas("c1", "Lambda (gDCA cut)", 800, 600);
+  hLam->Draw();
+
+  cout << "[LambdaInvMass_gDCA] done" << endl;
+}

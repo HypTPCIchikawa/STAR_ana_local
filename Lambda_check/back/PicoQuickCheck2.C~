@@ -1,0 +1,55 @@
+// PicoQuickCheck2.C  (ROOT5/CINT で BIT() 回避)
+
+#ifndef BIT
+# define BIT(n) (1UL << (n))
+#endif
+
+#include "TROOT.h"
+#include "TSystem.h"
+#include "TVector3.h"
+
+#include "StChain.h"
+#include "StPicoDstMaker.h"
+#include "StPicoDst.h"
+#include "StPicoEvent.h"
+#include "StPicoTrack.h"
+
+StChain *chain = 0;
+
+void PicoQuickCheck2(Int_t nEvents=5, const char* inList="test2.list")
+{
+  gROOT->LoadMacro("$STAR/StRoot/StMuDSTMaker/COMMON/macros/loadSharedLibraries.C");
+  loadSharedLibraries();
+
+  gSystem->Load("StPicoEvent");
+  gSystem->Load("StPicoDstMaker");
+  gSystem->Load("StRefMultCorr");
+
+  chain = new StChain();
+  StPicoDstMaker* picoMaker = new StPicoDstMaker(2, inList, "picoDst");
+  chain->Init();
+
+  for (Int_t i=0; i<nEvents; i++){
+    if (chain->Make(i)) break;
+
+    StPicoDst* dst = picoMaker->picoDst();
+    StPicoEvent* ev = dst ? dst->event() : 0;
+    if (!ev) continue;
+
+    printf("RunId=%d EventId=%d PVz=%g nTracks=%d\n",
+           ev->runId(), ev->eventId(), ev->primaryVertex().Z(),
+           dst->numberOfTracks());
+
+    if (dst->numberOfTracks() > 0){
+      StPicoTrack* tr = dst->track(0);
+      if (tr){
+        TVector3 p = tr->gMom(); // or pMom()（どっちでもOKに後で直せます）
+        printf("track0 id=%d q=%d p=(%g,%g,%g) nSigPi=%g nSigP=%g\n",
+               tr->id(), tr->charge(), p.X(), p.Y(), p.Z(),
+               tr->nSigmaPion(), tr->nSigmaProton());
+      }
+    }
+  }
+
+  chain->Finish();
+}

@@ -1,0 +1,76 @@
+// LambdaInvMass_StV0Finder.C
+// ACLiC ONLY (NOT CINT)
+
+#include "StChain.h"
+#include "StBFChain.h"
+#include "StMuDstMaker/COMMON/macros/loadSharedLibraries.C"
+
+#include "StV0Maker/StV0FinderMaker.h"
+#include "StMuDSTMaker/COMMON/StMuDstMaker.h"
+#include "StMuDSTMaker/COMMON/StMuDst.h"
+#include "StMuDSTMaker/COMMON/StMuV0.h"
+
+#include <TH1D.h>
+#include <TCanvas.h>
+#include <TFile.h>
+#include <iostream>
+
+using namespace std;
+
+void LambdaInvMass_StV0Finder(const char* inList="mudst.list",
+			      Int_t nEvents=1000)
+{
+  // === STAR libraries ===
+  loadSharedLibraries();
+
+  // === bfc chain ===
+  StBFChain* chain = new StBFChain("bfc");
+  chain->SetInputFile(inList);
+
+  chain->LoadMacro("bfc.C");
+  chain->SetFlags("in,MuDst,V0Finder");
+  chain->Init();
+
+  // === Access MuDst ===
+  StMuDstMaker* muDstMaker =
+    (StMuDstMaker*) chain->GetMaker("MuDst");
+  if (!muDstMaker) {
+    cout << "MuDstMaker not found!" << endl;
+    return;
+  }
+
+  // === Histogram ===
+  TH1D* hLam = new TH1D("hLam",
+			"Lambda invariant mass (StV0Finder);M_{p#pi^{-}} (GeV/c^{2});Counts",
+			200, 1.05, 1.25);
+
+  cout << "[LambdaInvMass_StV0Finder] start" << endl;
+
+  for (int ie=0; ie<nEvents; ie++) {
+    if (chain->Make(ie)) break;
+
+    StMuDst* muDst = muDstMaker->muDst();
+    int nV0 = muDst->numberOfV0s();
+
+    for (int iv0=0; iv0<nV0; iv0++) {
+      StMuV0* v0 = muDst->v0(iv0);
+      if (!v0) continue;
+
+      // Lambda selection
+      if (v0->charge() != 0) continue;
+      if (v0->massLambda() < 1.05 || v0->massLambda() > 1.25) continue;
+
+      hLam->Fill(v0->massLambda());
+    }
+  }
+
+  // === Draw ===
+  TCanvas* c1 = new TCanvas("c1","Lambda",800,600);
+  hLam->Draw();
+
+  TFile* fout = new TFile("lambda_StV0Finder.root","RECREATE");
+  hLam->Write();
+  fout->Close();
+
+  cout << "[LambdaInvMass_StV0Finder] done" << endl;
+}

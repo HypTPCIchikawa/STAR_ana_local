@@ -1,0 +1,2042 @@
+*Tree    :PicoDst   : StPicoDst                                              *
+*Entries :     3275 : Total =       291300175 bytes  File  Size =  169356007 *
+*        :          : Tree compression factor =   1.72                       *
+******************************************************************************
+*Br    0 :Event     : Int_t Event_                                           *
+*Entries :     3275 : Total  Size=      77745 bytes  File Size  =       6214 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.30     *
+*............................................................................*
+*Br    1 :Event.mRunId : Int_t mRunId[Event_]                                *
+*Entries :     3275 : Total  Size=      27322 bytes  File Size  =       6278 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   4.26     *
+*............................................................................*
+*Br    2 :Event.mEventId : Int_t mEventId[Event_]                            *
+*Entries :     3275 : Total  Size=      27342 bytes  File Size  =      13863 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.93     *
+*............................................................................*
+*Br    3 :Event.mFillId : UShort_t mFillId[Event_]                           *
+*Entries :     3275 : Total  Size=      21166 bytes  File Size  =       6788 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   3.03     *
+*............................................................................*
+*Br    4 :Event.mBField : Float_t mBField[Event_]                            *
+*Entries :     3275 : Total  Size=      27332 bytes  File Size  =       6318 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   4.23     *
+*............................................................................*
+*Br    5 :Event.mTime : Int_t mTime[Event_]                                  *
+*Entries :     3275 : Total  Size=      27312 bytes  File Size  =       6828 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   3.92     *
+*............................................................................*
+*Br    6 :Event.mPrimaryVertexX : Float_t mPrimaryVertexX[Event_]            *
+*Entries :     3275 : Total  Size=      27412 bytes  File Size  =      20280 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.32     *
+*............................................................................*
+*Br    7 :Event.mPrimaryVertexY : Float_t mPrimaryVertexY[Event_]            *
+*Entries :     3275 : Total  Size=      27412 bytes  File Size  =      19999 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.34     *
+*............................................................................*
+*Br    8 :Event.mPrimaryVertexZ : Float_t mPrimaryVertexZ[Event_]            *
+*Entries :     3275 : Total  Size=      27412 bytes  File Size  =      20075 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.33     *
+*............................................................................*
+*Br    9 :Event.mPrimaryVertexErrorX : Float_t mPrimaryVertexErrorX[Event_]  *
+*Entries :     3275 : Total  Size=      27462 bytes  File Size  =      19950 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.34     *
+*............................................................................*
+*Br   10 :Event.mPrimaryVertexErrorY : Float_t mPrimaryVertexErrorY[Event_]  *
+*Entries :     3275 : Total  Size=      27462 bytes  File Size  =      19964 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.34     *
+*............................................................................*
+*Br   11 :Event.mPrimaryVertexErrorZ : Float_t mPrimaryVertexErrorZ[Event_]  *
+*Entries :     3275 : Total  Size=      27462 bytes  File Size  =      19958 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.34     *
+*............................................................................*
+*Br   12 :Event.mRanking : Float_t mRanking[Event_]                          *
+*Entries :     3275 : Total  Size=      27342 bytes  File Size  =      20029 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.34     *
+*............................................................................*
+*Br   13 :Event.mNBEMCMatch : UShort_t mNBEMCMatch[Event_]                   *
+*Entries :     3275 : Total  Size=      21222 bytes  File Size  =      10802 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.91     *
+*............................................................................*
+*Br   14 :Event.mNBTOFMatch : UShort_t mNBTOFMatch[Event_]                   *
+*Entries :     3275 : Total  Size=      21222 bytes  File Size  =      11039 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.87     *
+*............................................................................*
+*Br   15 :Event.mTriggerIds : vector<unsigned int> mTriggerIds[Event_]       *
+*Entries :     3275 : Total  Size=      73378 bytes  File Size  =      10932 *
+*Baskets :        6 : Basket Size=      22016 bytes  Compression=   6.66     *
+*............................................................................*
+*Br   16 :Event.mRefMultFtpcEast : UShort_t mRefMultFtpcEast[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =       7915 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   2.61     *
+*............................................................................*
+*Br   17 :Event.mRefMultFtpcWest : UShort_t mRefMultFtpcWest[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =       7915 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   2.61     *
+*............................................................................*
+*Br   18 :Event.mRefMultNeg : UShort_t mRefMultNeg[Event_]                   *
+*Entries :     3275 : Total  Size=      21222 bytes  File Size  =      10542 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.95     *
+*............................................................................*
+*Br   19 :Event.mRefMultPos : UShort_t mRefMultPos[Event_]                   *
+*Entries :     3275 : Total  Size=      21222 bytes  File Size  =      10701 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.93     *
+*............................................................................*
+*Br   20 :Event.mRefMult2NegEast : UShort_t mRefMult2NegEast[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10180 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   2.03     *
+*............................................................................*
+*Br   21 :Event.mRefMult2PosEast : UShort_t mRefMult2PosEast[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10368 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.99     *
+*............................................................................*
+*Br   22 :Event.mRefMult2NegWest : UShort_t mRefMult2NegWest[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10072 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   2.05     *
+*............................................................................*
+*Br   23 :Event.mRefMult2PosWest : UShort_t mRefMult2PosWest[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10239 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   2.02     *
+*............................................................................*
+*Br   24 :Event.mRefMult3NegEast : UShort_t mRefMult3NegEast[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10563 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.95     *
+*............................................................................*
+*Br   25 :Event.mRefMult3PosEast : UShort_t mRefMult3PosEast[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10558 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.96     *
+*............................................................................*
+*Br   26 :Event.mRefMult3NegWest : UShort_t mRefMult3NegWest[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10536 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.96     *
+*............................................................................*
+*Br   27 :Event.mRefMult3PosWest : UShort_t mRefMult3PosWest[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10507 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.97     *
+*............................................................................*
+*Br   28 :Event.mRefMult4NegEast : UShort_t mRefMult4NegEast[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10505 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.97     *
+*............................................................................*
+*Br   29 :Event.mRefMult4PosEast : UShort_t mRefMult4PosEast[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10706 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.93     *
+*............................................................................*
+*Br   30 :Event.mRefMult4NegWest : UShort_t mRefMult4NegWest[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10456 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.97     *
+*............................................................................*
+*Br   31 :Event.mRefMult4PosWest : UShort_t mRefMult4PosWest[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10639 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.94     *
+*............................................................................*
+*Br   32 :Event.mRefMultHalfNegEast : UShort_t mRefMultHalfNegEast[Event_]   *
+*Entries :     3275 : Total  Size=      21334 bytes  File Size  =      10620 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.95     *
+*............................................................................*
+*Br   33 :Event.mRefMultHalfPosEast : UShort_t mRefMultHalfPosEast[Event_]   *
+*Entries :     3275 : Total  Size=      21334 bytes  File Size  =      10800 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.91     *
+*............................................................................*
+*Br   34 :Event.mRefMultHalfNegWest : UShort_t mRefMultHalfNegWest[Event_]   *
+*Entries :     3275 : Total  Size=      21334 bytes  File Size  =      10563 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.96     *
+*............................................................................*
+*Br   35 :Event.mRefMultHalfPosWest : UShort_t mRefMultHalfPosWest[Event_]   *
+*Entries :     3275 : Total  Size=      21334 bytes  File Size  =      10748 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.92     *
+*............................................................................*
+*Br   36 :Event.mGRefMult : UShort_t mGRefMult[Event_]                       *
+*Entries :     3275 : Total  Size=      21194 bytes  File Size  =      10966 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.88     *
+*............................................................................*
+*Br   37 :Event.mNumberOfGlobalTracks :                                      *
+*         | UShort_t mNumberOfGlobalTracks[Event_]                           *
+*Entries :     3275 : Total  Size=      21362 bytes  File Size  =      12759 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.62     *
+*............................................................................*
+*Br   38 :Event.mbTofTrayMultiplicity :                                      *
+*         | UShort_t mbTofTrayMultiplicity[Event_]                           *
+*Entries :     3275 : Total  Size=      21362 bytes  File Size  =      12363 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.67     *
+*............................................................................*
+*Br   39 :Event.mNHitsHFT[4] : UShort_t mNHitsHFT[Event_]                    *
+*Entries :     3275 : Total  Size=      40473 bytes  File Size  =       6204 *
+*Baskets :        6 : Basket Size=      11776 bytes  Compression=   6.43     *
+*............................................................................*
+*Br   40 :Event.mNVpdHitsEast : UChar_t mNVpdHitsEast[Event_]                *
+*Entries :     3275 : Total  Size=      17975 bytes  File Size  =       9128 *
+*Baskets :       10 : Basket Size=       5120 bytes  Compression=   1.90     *
+*............................................................................*
+*Br   41 :Event.mNVpdHitsWest : UChar_t mNVpdHitsWest[Event_]                *
+*Entries :     3275 : Total  Size=      17975 bytes  File Size  =       8955 *
+*Baskets :       10 : Basket Size=       5120 bytes  Compression=   1.94     *
+*............................................................................*
+*Br   42 :Event.mNTofT0 : UShort_t mNTofT0[Event_]                           *
+*Entries :     3275 : Total  Size=      21166 bytes  File Size  =      10488 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.96     *
+*............................................................................*
+*Br   43 :Event.mVzVpd : Float_t mVzVpd[Event_]                              *
+*Entries :     3275 : Total  Size=      27322 bytes  File Size  =      16124 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.66     *
+*............................................................................*
+*Br   44 :Event.mNTofT0Can : UShort_t mNTofT0Can[Event_]                     *
+*Entries :     3275 : Total  Size=      21208 bytes  File Size  =      10556 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.95     *
+*............................................................................*
+*Br   45 :Event.mTStart : Int_t mTStart[Event_]                              *
+*Entries :     3275 : Total  Size=      27332 bytes  File Size  =      16316 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.64     *
+*............................................................................*
+*Br   46 :Event.mTCanFirst : Int_t mTCanFirst[Event_]                        *
+*Entries :     3275 : Total  Size=      27362 bytes  File Size  =      16349 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.64     *
+*............................................................................*
+*Br   47 :Event.mTCanLast : Int_t mTCanLast[Event_]                          *
+*Entries :     3275 : Total  Size=      27352 bytes  File Size  =      16369 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.63     *
+*............................................................................*
+*Br   48 :Event.mNVpdEGoodHits : UChar_t mNVpdEGoodHits[Event_]              *
+*Entries :     3275 : Total  Size=      17989 bytes  File Size  =       7569 *
+*Baskets :       10 : Basket Size=       5120 bytes  Compression=   2.29     *
+*............................................................................*
+*Br   49 :Event.mNVpdWGoodHits : UChar_t mNVpdWGoodHits[Event_]              *
+*Entries :     3275 : Total  Size=      17989 bytes  File Size  =       7462 *
+*Baskets :       10 : Basket Size=       5120 bytes  Compression=   2.33     *
+*............................................................................*
+*Br   50 :Event.mEarliestVpdEHit : Int_t mEarliestVpdEHit[Event_]            *
+*Entries :     3275 : Total  Size=      27422 bytes  File Size  =      18228 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.47     *
+*............................................................................*
+*Br   51 :Event.mEarliestVpdWHit : Int_t mEarliestVpdWHit[Event_]            *
+*Entries :     3275 : Total  Size=      27422 bytes  File Size  =      17313 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.55     *
+*............................................................................*
+*Br   52 :Event.mClosestVpdEHit : Int_t mClosestVpdEHit[Event_]              *
+*Entries :     3275 : Total  Size=      27412 bytes  File Size  =      15580 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.72     *
+*............................................................................*
+*Br   53 :Event.mClosestVpdWHit : Int_t mClosestVpdWHit[Event_]              *
+*Entries :     3275 : Total  Size=      27412 bytes  File Size  =      15142 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.77     *
+*............................................................................*
+*Br   54 :Event.mLatestVpdEHit : Int_t mLatestVpdEHit[Event_]                *
+*Entries :     3275 : Total  Size=      27402 bytes  File Size  =      18217 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.47     *
+*............................................................................*
+*Br   55 :Event.mLatestVpdWHit : Int_t mLatestVpdWHit[Event_]                *
+*Entries :     3275 : Total  Size=      27402 bytes  File Size  =      17290 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.55     *
+*............................................................................*
+*Br   56 :Event.mZDCx : UInt_t mZDCx[Event_]                                 *
+*Entries :     3275 : Total  Size=      27312 bytes  File Size  =       6668 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   4.01     *
+*............................................................................*
+*Br   57 :Event.mBBCx : UInt_t mBBCx[Event_]                                 *
+*Entries :     3275 : Total  Size=      27312 bytes  File Size  =       6773 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   3.95     *
+*............................................................................*
+*Br   58 :Event.mBackgroundRate : Float_t mBackgroundRate[Event_]            *
+*Entries :     3275 : Total  Size=      27412 bytes  File Size  =       6846 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   3.91     *
+*............................................................................*
+*Br   59 :Event.mBbcBlueBackgroundRate :                                     *
+*         | Float_t mBbcBlueBackgroundRate[Event_]                           *
+*Entries :     3275 : Total  Size=      27482 bytes  File Size  =       6909 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   3.88     *
+*............................................................................*
+*Br   60 :Event.mBbcYellowBackgroundRate :                                   *
+*         | Float_t mBbcYellowBackgroundRate[Event_]                         *
+*Entries :     3275 : Total  Size=      27502 bytes  File Size  =       6923 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   3.88     *
+*............................................................................*
+*Br   61 :Event.mBbcEastRate : Float_t mBbcEastRate[Event_]                  *
+*Entries :     3275 : Total  Size=      27382 bytes  File Size  =       6906 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   3.88     *
+*............................................................................*
+*Br   62 :Event.mBbcWestRate : Float_t mBbcWestRate[Event_]                  *
+*Entries :     3275 : Total  Size=      27382 bytes  File Size  =       6911 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   3.87     *
+*............................................................................*
+*Br   63 :Event.mZdcEastRate : Float_t mZdcEastRate[Event_]                  *
+*Entries :     3275 : Total  Size=      27382 bytes  File Size  =       6837 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   3.92     *
+*............................................................................*
+*Br   64 :Event.mZdcWestRate : Float_t mZdcWestRate[Event_]                  *
+*Entries :     3275 : Total  Size=      27382 bytes  File Size  =       6886 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   3.89     *
+*............................................................................*
+*Br   65 :Event.mZdcSumAdcEast : UShort_t mZdcSumAdcEast[Event_]             *
+*Entries :     3275 : Total  Size=      21264 bytes  File Size  =      10226 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   2.02     *
+*............................................................................*
+*Br   66 :Event.mZdcSumAdcWest : UShort_t mZdcSumAdcWest[Event_]             *
+*Entries :     3275 : Total  Size=      21264 bytes  File Size  =       9255 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   2.23     *
+*............................................................................*
+*Br   67 :Event.mZdcSmdEastHorizontal[8] :                                   *
+*         | UShort_t mZdcSmdEastHorizontal[Event_]                           *
+*Entries :     3275 : Total  Size=      66793 bytes  File Size  =      15026 *
+*Baskets :        6 : Basket Size=      19968 bytes  Compression=   4.40     *
+*............................................................................*
+*Br   68 :Event.mZdcSmdEastVertical[8] : UShort_t mZdcSmdEastVertical[Event_]*
+*Entries :     3275 : Total  Size=      66773 bytes  File Size  =      15446 *
+*Baskets :        6 : Basket Size=      19968 bytes  Compression=   4.28     *
+*............................................................................*
+*Br   69 :Event.mZdcSmdWestHorizontal[8] :                                   *
+*         | UShort_t mZdcSmdWestHorizontal[Event_]                           *
+*Entries :     3275 : Total  Size=      66793 bytes  File Size  =      13474 *
+*Baskets :        6 : Basket Size=      19968 bytes  Compression=   4.91     *
+*............................................................................*
+*Br   70 :Event.mZdcSmdWestVertical[8] : UShort_t mZdcSmdWestVertical[Event_]*
+*Entries :     3275 : Total  Size=      66773 bytes  File Size  =      13407 *
+*Baskets :        6 : Basket Size=      19968 bytes  Compression=   4.93     *
+*............................................................................*
+*Br   71 :Event.mBbcAdcEast[24] : UShort_t mBbcAdcEast[Event_]               *
+*Entries :     3275 : Total  Size=     171500 bytes  File Size  =      82110 *
+*Baskets :        6 : Basket Size=      51712 bytes  Compression=   2.08     *
+*............................................................................*
+*Br   72 :Event.mBbcAdcWest[24] : UShort_t mBbcAdcWest[Event_]               *
+*Entries :     3275 : Total  Size=     171500 bytes  File Size  =      81777 *
+*Baskets :        6 : Basket Size=      51712 bytes  Compression=   2.09     *
+*............................................................................*
+*Br   73 :Event.mHighTowerThreshold[4] : UChar_t mHighTowerThreshold[Event_] *
+*Entries :     3275 : Total  Size=      27473 bytes  File Size  =       6418 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   4.18     *
+*............................................................................*
+*Br   74 :Event.mJetPatchThreshold[4] : UChar_t mJetPatchThreshold[Event_]   *
+*Entries :     3275 : Total  Size=      27463 bytes  File Size  =       6371 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   4.21     *
+*............................................................................*
+*Br   75 :Event.mBunchCrossId : UChar_t mBunchCrossId[Event_]                *
+*Entries :     3275 : Total  Size=      17975 bytes  File Size  =      10438 *
+*Baskets :       10 : Basket Size=       5120 bytes  Compression=   1.66     *
+*............................................................................*
+*Br   76 :Event.mETofHitMultiplicity : UShort_t mETofHitMultiplicity[Event_] *
+*Entries :     3275 : Total  Size=      21348 bytes  File Size  =      11775 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.76     *
+*............................................................................*
+*Br   77 :Event.mETofDigiMultiplicity :                                      *
+*         | UShort_t mETofDigiMultiplicity[Event_]                           *
+*Entries :     3275 : Total  Size=      21362 bytes  File Size  =      12361 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.67     *
+*............................................................................*
+*Br   78 :Event.mETofGoodEventFlag[1728] : Bool_t mETofGoodEventFlag[Event_] *
+*Entries :     3275 : Total  Size=    5675444 bytes  File Size  =      16410 *
+*Baskets :       21 : Basket Size=    1422336 bytes  Compression= 345.80     *
+*............................................................................*
+*Br   79 :Event.mETofHasPulsersFlag[108] : Bool_t mETofHasPulsersFlag[Event_]*
+*Entries :     3275 : Total  Size=     368195 bytes  File Size  =       9488 *
+*Baskets :        7 : Basket Size=     111616 bytes  Compression=  38.74     *
+*............................................................................*
+*Br   80 :Event.mNumberOfPrimaryTracks :                                     *
+*         | UShort_t mNumberOfPrimaryTracks[Event_]                          *
+*Entries :     3275 : Total  Size=      20932 bytes  File Size  =      11299 *
+*Baskets :        6 : Basket Size=       6144 bytes  Compression=   1.80     *
+*............................................................................*
+*Br   81 :Event.mZdcUnAttenuated[2] : UShort_t mZdcUnAttenuated[Event_]      *
+*Entries :     3275 : Total  Size=      27443 bytes  File Size  =      13295 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   2.02     *
+*............................................................................*
+*Br   82 :Track     : Int_t Track_                                           *
+*Entries :     3275 : Total  Size=      51537 bytes  File Size  =      13616 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   1.96     *
+*............................................................................*
+*Br   83 :Track.mId : UShort_t mId[Track_]                                   *
+*Entries :     3275 : Total  Size=    2290626 bytes  File Size  =     441560 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=   5.19     *
+*............................................................................*
+*Br   84 :Track.mChi2 : UShort_t mChi2[Track_]                               *
+*Entries :     3275 : Total  Size=    2290658 bytes  File Size  =    1924580 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=   1.19     *
+*............................................................................*
+*Br   85 :Track.mPMomentumX : Float_t mPMomentumX[Track_]                    *
+*Entries :     3275 : Total  Size=    4567411 bytes  File Size  =    2015254 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   2.27     *
+*............................................................................*
+*Br   86 :Track.mPMomentumY : Float_t mPMomentumY[Track_]                    *
+*Entries :     3275 : Total  Size=    4567411 bytes  File Size  =    2015545 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   2.27     *
+*............................................................................*
+*Br   87 :Track.mPMomentumZ : Float_t mPMomentumZ[Track_]                    *
+*Entries :     3275 : Total  Size=    4567411 bytes  File Size  =    2026674 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   2.25     *
+*............................................................................*
+*Br   88 :Track.mGMomentumX : Float_t mGMomentumX[Track_]                    *
+*Entries :     3275 : Total  Size=    4567411 bytes  File Size  =    4290528 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   1.06     *
+*............................................................................*
+*Br   89 :Track.mGMomentumY : Float_t mGMomentumY[Track_]                    *
+*Entries :     3275 : Total  Size=    4567411 bytes  File Size  =    4290022 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   1.06     *
+*............................................................................*
+*Br   90 :Track.mGMomentumZ : Float_t mGMomentumZ[Track_]                    *
+*Entries :     3275 : Total  Size=    4567411 bytes  File Size  =    4322322 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   1.06     *
+*............................................................................*
+*Br   91 :Track.mOriginX : Float_t mOriginX[Track_]                          *
+*Entries :     3275 : Total  Size=    4567342 bytes  File Size  =    4346309 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   1.05     *
+*............................................................................*
+*Br   92 :Track.mOriginY : Float_t mOriginY[Track_]                          *
+*Entries :     3275 : Total  Size=    4567342 bytes  File Size  =    4317372 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   1.06     *
+*............................................................................*
+*Br   93 :Track.mOriginZ : Float_t mOriginZ[Track_]                          *
+*Entries :     3275 : Total  Size=    4567342 bytes  File Size  =    4076059 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   1.12     *
+*............................................................................*
+*Br   94 :Track.mDedx : Float16_t mDedx[Track_]                              *
+*Entries :     3275 : Total  Size=    3428911 bytes  File Size  =    2346002 *
+*Baskets :       15 : Basket Size=    1082880 bytes  Compression=   1.46     *
+*............................................................................*
+*Br   95 :Track.mDedxError : Float16_t mDedxError[Track_]                    *
+*Entries :     3275 : Total  Size=    3429006 bytes  File Size  =    2218984 *
+*Baskets :       15 : Basket Size=    1083392 bytes  Compression=   1.54     *
+*............................................................................*
+*Br   96 :Track.mDnDx : Float_t mDnDx[Track_]                                *
+*Entries :     3275 : Total  Size=    4567273 bytes  File Size  =      18026 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression= 253.33     *
+*............................................................................*
+*Br   97 :Track.mDnDxError : Float_t mDnDxError[Track_]                      *
+*Entries :     3275 : Total  Size=    4567388 bytes  File Size  =      18114 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression= 252.10     *
+*............................................................................*
+*Br   98 :Track.mNHitsFit : Char_t mNHitsFit[Track_]                         *
+*Entries :     3275 : Total  Size=    1152457 bytes  File Size  =     996722 *
+*Baskets :        9 : Basket Size=     363520 bytes  Compression=   1.16     *
+*............................................................................*
+*Br   99 :Track.mNHitsMax : UChar_t mNHitsMax[Track_]                        *
+*Entries :     3275 : Total  Size=    1152457 bytes  File Size  =     832771 *
+*Baskets :        9 : Basket Size=     363520 bytes  Compression=   1.38     *
+*............................................................................*
+*Br  100 :Track.mNHitsDedx : UChar_t mNHitsDedx[Track_]                      *
+*Entries :     3275 : Total  Size=    1152470 bytes  File Size  =     832859 *
+*Baskets :        9 : Basket Size=     363520 bytes  Compression=   1.38     *
+*............................................................................*
+*Br  101 :Track.mNSigmaPion : Short_t mNSigmaPion[Track_]                    *
+*Entries :     3275 : Total  Size=    2290754 bytes  File Size  =    2070383 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=   1.11     *
+*............................................................................*
+*Br  102 :Track.mNSigmaKaon : Short_t mNSigmaKaon[Track_]                    *
+*Entries :     3275 : Total  Size=    2290754 bytes  File Size  =    2087079 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=   1.10     *
+*............................................................................*
+*Br  103 :Track.mNSigmaProton : Short_t mNSigmaProton[Track_]                *
+*Entries :     3275 : Total  Size=    2290786 bytes  File Size  =    1831152 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=   1.25     *
+*............................................................................*
+*Br  104 :Track.mNSigmaElectron : Short_t mNSigmaElectron[Track_]            *
+*Entries :     3275 : Total  Size=    2290818 bytes  File Size  =    2088042 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=   1.10     *
+*............................................................................*
+*Br  105 :Track.mTopologyMap[2] : UInt_t mTopologyMap[Track_]                *
+*Entries :     3275 : Total  Size=    9121340 bytes  File Size  =    2235876 *
+*Baskets :       37 : Basket Size=    1422336 bytes  Compression=   4.08     *
+*............................................................................*
+*Br  106 :Track.mBEmcPidTraitsIndex : Short_t mBEmcPidTraitsIndex[Track_]    *
+*Entries :     3275 : Total  Size=    2290882 bytes  File Size  =      93581 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=  24.47     *
+*............................................................................*
+*Br  107 :Track.mBTofPidTraitsIndex : Short_t mBTofPidTraitsIndex[Track_]    *
+*Entries :     3275 : Total  Size=    2290882 bytes  File Size  =     306364 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=   7.48     *
+*............................................................................*
+*Br  108 :Track.mMtdPidTraitsIndex : Short_t mMtdPidTraitsIndex[Track_]      *
+*Entries :     3275 : Total  Size=    2290866 bytes  File Size  =      15218 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression= 150.49     *
+*............................................................................*
+*Br  109 :Track.mETofPidTraitsIndex : Short_t mETofPidTraitsIndex[Track_]    *
+*Entries :     3275 : Total  Size=    2290882 bytes  File Size  =      87226 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=  26.26     *
+*............................................................................*
+*Br  110 :Track.mBEmcMatchedTowerIndex :                                     *
+*         | Short_t mBEmcMatchedTowerIndex[Track_]                           *
+*Entries :     3275 : Total  Size=    2290930 bytes  File Size  =     951437 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=   2.41     *
+*............................................................................*
+*Br  111 :Track.mTopoMap_iTpc : ULong64_t mTopoMap_iTpc[Track_]              *
+*Entries :     3275 : Total  Size=    9121267 bytes  File Size  =    3921965 *
+*Baskets :       37 : Basket Size=    1422336 bytes  Compression=   2.33     *
+*............................................................................*
+*Br  112 :Track.mStatus : Char_t mStatus[Track_]                             *
+*Entries :     3275 : Total  Size=    1152431 bytes  File Size  =     168734 *
+*Baskets :        9 : Basket Size=     363520 bytes  Compression=   6.83     *
+*............................................................................*
+*Br  113 :Track.mIdTruth : UShort_t mIdTruth[Track_]                         *
+*Entries :     3275 : Total  Size=    2290706 bytes  File Size  =      14484 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression= 158.11     *
+*............................................................................*
+*Br  114 :Track.mQATruth : UShort_t mQATruth[Track_]                         *
+*Entries :     3275 : Total  Size=    2290706 bytes  File Size  =      14484 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression= 158.11     *
+*............................................................................*
+*Br  115 :Track.mVertexIndex : Char_t mVertexIndex[Track_]                   *
+*Entries :     3275 : Total  Size=    1152496 bytes  File Size  =      12112 *
+*Baskets :        9 : Basket Size=     363520 bytes  Compression=  95.10     *
+*............................................................................*
+*Br  116 :EmcTrigger : Int_t EmcTrigger_                                     *
+*Entries :     3275 : Total  Size=      30701 bytes  File Size  =       6281 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.26     *
+*............................................................................*
+*Br  117 :EmcTrigger.mFlag : UChar_t mFlag[EmcTrigger_]                      *
+*Entries :     3275 : Total  Size=      73232 bytes  File Size  =       8462 *
+*Baskets :        6 : Basket Size=      22016 bytes  Compression=   8.58     *
+*............................................................................*
+*Br  118 :EmcTrigger.mId : UShort_t mId[EmcTrigger_]                         *
+*Entries :     3275 : Total  Size=     132172 bytes  File Size  =       8510 *
+*Baskets :        6 : Basket Size=      39424 bytes  Compression=  15.46     *
+*............................................................................*
+*Br  119 :EmcTrigger.mAdc : UShort_t mAdc[EmcTrigger_]                       *
+*Entries :     3275 : Total  Size=     132182 bytes  File Size  =      61762 *
+*Baskets :        6 : Basket Size=      39424 bytes  Compression=   2.13     *
+*............................................................................*
+*Br  120 :EmcTrigger.mSmdE : vector<unsigned short> mSmdE[EmcTrigger_]       *
+*Entries :     3275 : Total  Size=     269762 bytes  File Size  =      10305 *
+*Baskets :        6 : Basket Size=      81408 bytes  Compression=  26.12     *
+*............................................................................*
+*Br  121 :EmcTrigger.mSmdP : vector<unsigned short> mSmdP[EmcTrigger_]       *
+*Entries :     3275 : Total  Size=     269762 bytes  File Size  =      10305 *
+*Baskets :        6 : Basket Size=      81408 bytes  Compression=  26.12     *
+*............................................................................*
+*Br  122 :MtdTrigger : Int_t MtdTrigger_                                     *
+*Entries :     3275 : Total  Size=      32162 bytes  File Size  =       6268 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.26     *
+*............................................................................*
+*Br  123 :MtdTrigger.mVpdTacSum : UShort_t mVpdTacSum[MtdTrigger_]           *
+*Entries :     3275 : Total  Size=      21288 bytes  File Size  =      13737 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.50     *
+*............................................................................*
+*Br  124 :MtdTrigger.mTHUBtime[2] : UInt_t mTHUBtime[MtdTrigger_]            *
+*Entries :     3275 : Total  Size=      40533 bytes  File Size  =      24599 *
+*Baskets :        6 : Basket Size=      11776 bytes  Compression=   1.62     *
+*............................................................................*
+*Br  125 :MtdTrigger.mQTtacSum[8][8] : UShort_t mQTtacSum[MtdTrigger_]       *
+*Entries :     3275 : Total  Size=     433658 bytes  File Size  =      10620 *
+*Baskets :        7 : Basket Size=     131584 bytes  Compression=  40.77     *
+*............................................................................*
+*Br  126 :MtdTrigger.mMT101Tac[8][2] : UShort_t mMT101Tac[MtdTrigger_]       *
+*Entries :     3275 : Total  Size=     119154 bytes  File Size  =      22790 *
+*Baskets :        6 : Basket Size=      35840 bytes  Compression=   5.20     *
+*............................................................................*
+*Br  127 :MtdTrigger.mMT101Id[8][2] : UChar_t mMT101Id[MtdTrigger_]          *
+*Entries :     3275 : Total  Size=      66744 bytes  File Size  =      10768 *
+*Baskets :        6 : Basket Size=      19968 bytes  Compression=   6.14     *
+*............................................................................*
+*Br  128 :MtdTrigger.mTF201TriggerBit : UInt_t mTF201TriggerBit[MtdTrigger_] *
+*Entries :     3275 : Total  Size=      27482 bytes  File Size  =       6447 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   4.16     *
+*............................................................................*
+*Br  129 :MtdTrigger.mShouldHaveRejectEvent :                                *
+*         | Char_t mShouldHaveRejectEvent[MtdTrigger_]                       *
+*Entries :     3275 : Total  Size=      18181 bytes  File Size  =       6977 *
+*Baskets :       10 : Basket Size=       5120 bytes  Compression=   2.51     *
+*............................................................................*
+*Br  130 :BTowHit   : Int_t BTowHit_                                         *
+*Entries :     3275 : Total  Size=      33148 bytes  File Size  =       6265 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.26     *
+*............................................................................*
+*Br  131 :BTowHit.mAdc : UShort_t mAdc[BTowHit_]                             *
+*Entries :     3275 : Total  Size=   31466376 bytes  File Size  =   13169135 *
+*Baskets :      117 : Basket Size=    1422336 bytes  Compression=   2.39     *
+*............................................................................*
+*Br  132 :BTowHit.mE : Short_t mE[BTowHit_]                                  *
+*Entries :     3275 : Total  Size=   31466134 bytes  File Size  =   17245695 *
+*Baskets :      117 : Basket Size=    1422336 bytes  Compression=   1.82     *
+*............................................................................*
+*Br  133 :BTofHit   : Int_t BTofHit_                                         *
+*Entries :     3275 : Total  Size=      28256 bytes  File Size  =      12942 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   2.06     *
+*............................................................................*
+*Br  134 :BTofHit.mId : Short_t mId[BTofHit_]                                *
+*Entries :     3275 : Total  Size=    1200189 bytes  File Size  =    1128675 *
+*Baskets :        9 : Basket Size=     379392 bytes  Compression=   1.06     *
+*............................................................................*
+*Br  135 :MtdHit    : Int_t MtdHit_                                          *
+*Entries :     3275 : Total  Size=      31447 bytes  File Size  =       7236 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   3.69     *
+*............................................................................*
+*Br  136 :MtdHit.mgChannel : Short_t mgChannel[MtdHit_]                      *
+*Entries :     3275 : Total  Size=      16286 bytes  File Size  =       4175 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   3.75     *
+*............................................................................*
+*Br  137 :MtdHit.mTriggerFlag : UChar_t mTriggerFlag[MtdHit_]                *
+*Entries :     3275 : Total  Size=      15515 bytes  File Size  =       2597 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   5.73     *
+*............................................................................*
+*Br  138 :MtdHit.mLeadingEdgeTime.first : Float_t first[MtdHit_]             *
+*Entries :     3275 : Total  Size=      18060 bytes  File Size  =       5947 *
+*Baskets :       10 : Basket Size=       4608 bytes  Compression=   2.93     *
+*............................................................................*
+*Br  139 :MtdHit.mLeadingEdgeTime.second : Float_t second[MtdHit_]           *
+*Entries :     3275 : Total  Size=      18074 bytes  File Size  =       5954 *
+*Baskets :       10 : Basket Size=       4608 bytes  Compression=   2.93     *
+*............................................................................*
+*Br  140 :MtdHit.mTrailingEdgeTime.first : Float_t first[MtdHit_]            *
+*Entries :     3275 : Total  Size=      18072 bytes  File Size  =       5985 *
+*Baskets :       10 : Basket Size=       4608 bytes  Compression=   2.91     *
+*............................................................................*
+*Br  141 :MtdHit.mTrailingEdgeTime.second : Float_t second[MtdHit_]          *
+*Entries :     3275 : Total  Size=      18086 bytes  File Size  =       5985 *
+*Baskets :       10 : Basket Size=       4608 bytes  Compression=   2.91     *
+*............................................................................*
+*Br  142 :BbcHit    : Int_t BbcHit_                                          *
+*Entries :     3275 : Total  Size=      28819 bytes  File Size  =      10403 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   2.57     *
+*............................................................................*
+*Br  143 :BbcHit.mId : Short_t mId[BbcHit_]                                  *
+*Entries :     3275 : Total  Size=     166408 bytes  File Size  =      25508 *
+*Baskets :        6 : Basket Size=      51200 bytes  Compression=   6.50     *
+*............................................................................*
+*Br  144 :BbcHit.mQTdata : Int_t mQTdata[BbcHit_]                            *
+*Entries :     3275 : Total  Size=     318652 bytes  File Size  =     271368 *
+*Baskets :        6 : Basket Size=      98304 bytes  Compression=   1.17     *
+*............................................................................*
+*Br  145 :EpdHit    : Int_t EpdHit_                                          *
+*Entries :     3275 : Total  Size=      29713 bytes  File Size  =      13228 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   2.02     *
+*............................................................................*
+*Br  146 :EpdHit.mId : Short_t mId[EpdHit_]                                  *
+*Entries :     3275 : Total  Size=    1761708 bytes  File Size  =     604351 *
+*Baskets :       11 : Basket Size=     551424 bytes  Compression=   2.91     *
+*............................................................................*
+*Br  147 :EpdHit.mQTdata : Int_t mQTdata[EpdHit_]                            *
+*Entries :     3275 : Total  Size=    3509352 bytes  File Size  =    2080310 *
+*Baskets :       16 : Basket Size=    1098752 bytes  Compression=   1.69     *
+*............................................................................*
+*Br  148 :EpdHit.mnMIP : Float_t mnMIP[EpdHit_]                              *
+*Entries :     3275 : Total  Size=    3509312 bytes  File Size  =    1637491 *
+*Baskets :       16 : Basket Size=    1098752 bytes  Compression=   2.14     *
+*............................................................................*
+*Br  149 :FmsHit    : Int_t FmsHit_                                          *
+*Entries :     3275 : Total  Size=      28907 bytes  File Size  =       6248 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.27     *
+*............................................................................*
+*Br  150 :FmsHit.mChannelDetectorId : UShort_t mChannelDetectorId[FmsHit_]   *
+*Entries :     3275 : Total  Size=      14786 bytes  File Size  =       1300 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  10.87     *
+*............................................................................*
+*Br  151 :FmsHit.mAdc : UShort_t mAdc[FmsHit_]                               *
+*Entries :     3275 : Total  Size=      14590 bytes  File Size  =       1160 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  12.06     *
+*............................................................................*
+*Br  152 :EmcPidTraits : Int_t EmcPidTraits_                                 *
+*Entries :     3275 : Total  Size=      37806 bytes  File Size  =       9450 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   2.83     *
+*............................................................................*
+*Br  153 :EmcPidTraits.mTrackIndex : Short_t mTrackIndex[EmcPidTraits_]      *
+*Entries :     3275 : Total  Size=      69422 bytes  File Size  =      44574 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.54     *
+*............................................................................*
+*Br  154 :EmcPidTraits.mBemcId : Short_t mBemcId[EmcPidTraits_]              *
+*Entries :     3275 : Total  Size=      69382 bytes  File Size  =      34806 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.98     *
+*............................................................................*
+*Br  155 :EmcPidTraits.mBemcAdc0 : Short_t mBemcAdc0[EmcPidTraits_]          *
+*Entries :     3275 : Total  Size=      69402 bytes  File Size  =      35656 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.93     *
+*............................................................................*
+*Br  156 :EmcPidTraits.mBemcE0 : Short_t mBemcE0[EmcPidTraits_]              *
+*Entries :     3275 : Total  Size=      69382 bytes  File Size  =      46497 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.48     *
+*............................................................................*
+*Br  157 :EmcPidTraits.mBemcE : Short_t mBemcE[EmcPidTraits_]                *
+*Entries :     3275 : Total  Size=      69372 bytes  File Size  =      49112 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.40     *
+*............................................................................*
+*Br  158 :EmcPidTraits.mBemcZDist : Short_t mBemcZDist[EmcPidTraits_]        *
+*Entries :     3275 : Total  Size=      69412 bytes  File Size  =      52023 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.32     *
+*............................................................................*
+*Br  159 :EmcPidTraits.mBemcPhiDist : Short_t mBemcPhiDist[EmcPidTraits_]    *
+*Entries :     3275 : Total  Size=      69432 bytes  File Size  =      47908 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.44     *
+*............................................................................*
+*Br  160 :EmcPidTraits.mBemcSmdNEta : UChar_t mBemcSmdNEta[EmcPidTraits_]    *
+*Entries :     3275 : Total  Size=      41899 bytes  File Size  =       4712 *
+*Baskets :        6 : Basket Size=      12288 bytes  Compression=   8.75     *
+*............................................................................*
+*Br  161 :EmcPidTraits.mBemcSmdNPhi : UChar_t mBemcSmdNPhi[EmcPidTraits_]    *
+*Entries :     3275 : Total  Size=      41899 bytes  File Size  =       4712 *
+*Baskets :        6 : Basket Size=      12288 bytes  Compression=   8.75     *
+*............................................................................*
+*Br  162 :EmcPidTraits.mBtowId : Short_t mBtowId[EmcPidTraits_]              *
+*Entries :     3275 : Total  Size=      69382 bytes  File Size  =      53045 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.30     *
+*............................................................................*
+*Br  163 :EmcPidTraits.mBtowId23 : Char_t mBtowId23[EmcPidTraits_]           *
+*Entries :     3275 : Total  Size=      41869 bytes  File Size  =      24192 *
+*Baskets :        6 : Basket Size=      12288 bytes  Compression=   1.70     *
+*............................................................................*
+*Br  164 :EmcPidTraits.mBtowE : Short_t mBtowE[EmcPidTraits_]                *
+*Entries :     3275 : Total  Size=      69372 bytes  File Size  =      40016 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.72     *
+*............................................................................*
+*Br  165 :EmcPidTraits.mBtowE2 : Short_t mBtowE2[EmcPidTraits_]              *
+*Entries :     3275 : Total  Size=      69382 bytes  File Size  =      44709 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.54     *
+*............................................................................*
+*Br  166 :EmcPidTraits.mBtowE3 : Short_t mBtowE3[EmcPidTraits_]              *
+*Entries :     3275 : Total  Size=      69382 bytes  File Size  =      32745 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   2.10     *
+*............................................................................*
+*Br  167 :EmcPidTraits.mBtowEtaDist : Short_t mBtowEtaDist[EmcPidTraits_]    *
+*Entries :     3275 : Total  Size=      69432 bytes  File Size  =      37474 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.84     *
+*............................................................................*
+*Br  168 :EmcPidTraits.mBtowPhiDist : Short_t mBtowPhiDist[EmcPidTraits_]    *
+*Entries :     3275 : Total  Size=      69432 bytes  File Size  =      37474 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.84     *
+*............................................................................*
+*Br  169 :BTofPidTraits : Int_t BTofPidTraits_                               *
+*Entries :     3275 : Total  Size=      36738 bytes  File Size  =      11769 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   2.27     *
+*............................................................................*
+*Br  170 :BTofPidTraits.mTrackIndex : Short_t mTrackIndex[BTofPidTraits_]    *
+*Entries :     3275 : Total  Size=     404377 bytes  File Size  =     183969 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   2.19     *
+*............................................................................*
+*Br  171 :BTofPidTraits.mBTofCellId : Short_t mBTofCellId[BTofPidTraits_]    *
+*Entries :     3275 : Total  Size=     404377 bytes  File Size  =     386167 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   1.05     *
+*............................................................................*
+*Br  172 :BTofPidTraits.mBTofMatchFlag :                                     *
+*         | UChar_t mBTofMatchFlag[BTofPidTraits_]                           *
+*Entries :     3275 : Total  Size=     209351 bytes  File Size  =      37582 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   5.55     *
+*............................................................................*
+*Br  173 :BTofPidTraits.mBTof : Float_t mBTof[BTofPidTraits_]                *
+*Entries :     3275 : Total  Size=     794314 bytes  File Size  =     646230 *
+*Baskets :        8 : Basket Size=     250368 bytes  Compression=   1.23     *
+*............................................................................*
+*Br  174 :BTofPidTraits.mBTofBeta : UShort_t mBTofBeta[BTofPidTraits_]       *
+*Entries :     3275 : Total  Size=     404355 bytes  File Size  =     312981 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   1.29     *
+*............................................................................*
+*Br  175 :BTofPidTraits.mBTofYLocal : Short_t mBTofYLocal[BTofPidTraits_]    *
+*Entries :     3275 : Total  Size=     404377 bytes  File Size  =     348508 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   1.16     *
+*............................................................................*
+*Br  176 :BTofPidTraits.mBTofZLocal : Short_t mBTofZLocal[BTofPidTraits_]    *
+*Entries :     3275 : Total  Size=     404377 bytes  File Size  =     356956 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   1.13     *
+*............................................................................*
+*Br  177 :BTofPidTraits.mBTofHitPosX : Short_t mBTofHitPosX[BTofPidTraits_]  *
+*Entries :     3275 : Total  Size=     404388 bytes  File Size  =     392485 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   1.03     *
+*............................................................................*
+*Br  178 :BTofPidTraits.mBTofHitPosY : Short_t mBTofHitPosY[BTofPidTraits_]  *
+*Entries :     3275 : Total  Size=     404388 bytes  File Size  =     392472 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   1.03     *
+*............................................................................*
+*Br  179 :BTofPidTraits.mBTofHitPosZ : Short_t mBTofHitPosZ[BTofPidTraits_]  *
+*Entries :     3275 : Total  Size=     404388 bytes  File Size  =     396471 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   1.02     *
+*............................................................................*
+*Br  180 :BTofPidTraits.mNSigmaElectron :                                    *
+*         | Short_t mNSigmaElectron[BTofPidTraits_]                          *
+*Entries :     3275 : Total  Size=     404421 bytes  File Size  =     317202 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   1.27     *
+*............................................................................*
+*Br  181 :BTofPidTraits.mNSigmaPion : Short_t mNSigmaPion[BTofPidTraits_]    *
+*Entries :     3275 : Total  Size=     404377 bytes  File Size  =     304891 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   1.32     *
+*............................................................................*
+*Br  182 :BTofPidTraits.mNSigmaKaon : Short_t mNSigmaKaon[BTofPidTraits_]    *
+*Entries :     3275 : Total  Size=     404377 bytes  File Size  =     196246 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   2.06     *
+*............................................................................*
+*Br  183 :BTofPidTraits.mNSigmaProton : Short_t mNSigmaProton[BTofPidTraits_]*
+*Entries :     3275 : Total  Size=     404399 bytes  File Size  =     101663 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   3.97     *
+*............................................................................*
+*Br  184 :MtdPidTraits : Int_t MtdPidTraits_                                 *
+*Entries :     3275 : Total  Size=      32953 bytes  File Size  =       6508 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.11     *
+*............................................................................*
+*Br  185 :MtdPidTraits.mTrackIndex : Short_t mTrackIndex[MtdPidTraits_]      *
+*Entries :     3275 : Total  Size=      15054 bytes  File Size  =       1827 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   7.88     *
+*............................................................................*
+*Br  186 :MtdPidTraits.mMtdHitIndex : Short_t mMtdHitIndex[MtdPidTraits_]    *
+*Entries :     3275 : Total  Size=      15068 bytes  File Size  =       1650 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   8.73     *
+*............................................................................*
+*Br  187 :MtdPidTraits.mMatchFlag : Char_t mMatchFlag[MtdPidTraits_]         *
+*Entries :     3275 : Total  Size=      14905 bytes  File Size  =       1627 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   8.76     *
+*............................................................................*
+*Br  188 :MtdPidTraits.mDeltaY : Short_t mDeltaY[MtdPidTraits_]              *
+*Entries :     3275 : Total  Size=      14998 bytes  File Size  =       1808 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   7.94     *
+*............................................................................*
+*Br  189 :MtdPidTraits.mDeltaZ : Short_t mDeltaZ[MtdPidTraits_]              *
+*Entries :     3275 : Total  Size=      14998 bytes  File Size  =       1809 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   7.93     *
+*............................................................................*
+*Br  190 :MtdPidTraits.mDeltaTimeOfFlight :                                  *
+*         | Float_t mDeltaTimeOfFlight[MtdPidTraits_]                        *
+*Entries :     3275 : Total  Size=      15422 bytes  File Size  =       2182 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   6.75     *
+*............................................................................*
+*Br  191 :MtdPidTraits.mBeta : UShort_t mBeta[MtdPidTraits_]                 *
+*Entries :     3275 : Total  Size=      14970 bytes  File Size  =       1777 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   8.06     *
+*............................................................................*
+*Br  192 :MtdPidTraits.mMtdHitChan : Short_t mMtdHitChan[MtdPidTraits_]      *
+*Entries :     3275 : Total  Size=      15054 bytes  File Size  =       1831 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   7.86     *
+*............................................................................*
+*Br  193 :TrackCovMatrix : Int_t TrackCovMatrix_                             *
+*Entries :     3275 : Total  Size=      37794 bytes  File Size  =      13724 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   1.95     *
+*............................................................................*
+*Br  194 :TrackCovMatrix.mImp : Float16_t mImp[TrackCovMatrix_]              *
+*Entries :     3275 : Total  Size=    3429081 bytes  File Size  =    2945109 *
+*Baskets :       15 : Basket Size=    1083392 bytes  Compression=   1.16     *
+*............................................................................*
+*Br  195 :TrackCovMatrix.mZ : Float16_t mZ[TrackCovMatrix_]                  *
+*Entries :     3275 : Total  Size=    3429043 bytes  File Size  =    2599677 *
+*Baskets :       15 : Basket Size=    1083392 bytes  Compression=   1.32     *
+*............................................................................*
+*Br  196 :TrackCovMatrix.mPsi : Float16_t mPsi[TrackCovMatrix_]              *
+*Entries :     3275 : Total  Size=    4567475 bytes  File Size  =    3609147 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   1.27     *
+*............................................................................*
+*Br  197 :TrackCovMatrix.mPti : Float16_t mPti[TrackCovMatrix_]              *
+*Entries :     3275 : Total  Size=    3429081 bytes  File Size  =    2821426 *
+*Baskets :       15 : Basket Size=    1083392 bytes  Compression=   1.22     *
+*............................................................................*
+*Br  198 :TrackCovMatrix.mTan : Float16_t mTan[TrackCovMatrix_]              *
+*Entries :     3275 : Total  Size=    4567475 bytes  File Size  =    3372185 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   1.35     *
+*............................................................................*
+*Br  199 :TrackCovMatrix.mCurv : Float16_t mCurv[TrackCovMatrix_]            *
+*Entries :     3275 : Total  Size=    3429100 bytes  File Size  =    2824579 *
+*Baskets :       15 : Basket Size=    1083392 bytes  Compression=   1.21     *
+*............................................................................*
+*Br  200 :TrackCovMatrix.mSigma[5] : Float16_t mSigma[TrackCovMatrix_]       *
+*Entries :     3275 : Total  Size=   17090501 bytes  File Size  =   13577974 *
+*Baskets :       66 : Basket Size=    1422336 bytes  Compression=   1.26     *
+*............................................................................*
+*Br  201 :TrackCovMatrix.mCorr[10] : Float16_t mCorr[TrackCovMatrix_]        *
+*Entries :     3275 : Total  Size=   45550238 bytes  File Size  =   35440520 *
+*Baskets :      161 : Basket Size=    1422336 bytes  Compression=   1.29     *
+*............................................................................*
+*Br  202 :BEmcSmdEHit : Int_t BEmcSmdEHit_                                   *
+*Entries :     3275 : Total  Size=      29604 bytes  File Size  =       6279 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.26     *
+*............................................................................*
+*Br  203 :BEmcSmdEHit.mId : Short_t mId[BEmcSmdEHit_]                        *
+*Entries :     3275 : Total  Size=      14656 bytes  File Size  =       1200 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.69     *
+*............................................................................*
+*Br  204 :BEmcSmdEHit.mAdc : Short_t mAdc[BEmcSmdEHit_]                      *
+*Entries :     3275 : Total  Size=      14670 bytes  File Size  =       1210 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.60     *
+*............................................................................*
+*Br  205 :BEmcSmdEHit.mEnergy : Float_t mEnergy[BEmcSmdEHit_]                *
+*Entries :     3275 : Total  Size=      14712 bytes  File Size  =       1240 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.35     *
+*............................................................................*
+*Br  206 :BEmcSmdPHit : Int_t BEmcSmdPHit_                                   *
+*Entries :     3275 : Total  Size=      29604 bytes  File Size  =       6279 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.26     *
+*............................................................................*
+*Br  207 :BEmcSmdPHit.mId : Short_t mId[BEmcSmdPHit_]                        *
+*Entries :     3275 : Total  Size=      14656 bytes  File Size  =       1200 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.69     *
+*............................................................................*
+*Br  208 :BEmcSmdPHit.mAdc : Short_t mAdc[BEmcSmdPHit_]                      *
+*Entries :     3275 : Total  Size=      14670 bytes  File Size  =       1210 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.60     *
+*............................................................................*
+*Br  209 :BEmcSmdPHit.mEnergy : Float_t mEnergy[BEmcSmdPHit_]                *
+*Entries :     3275 : Total  Size=      14712 bytes  File Size  =       1240 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.35     *
+*............................................................................*
+*Br  210 :ETofHit   : Int_t ETofHit_                                         *
+*Entries :     3275 : Total  Size=      31312 bytes  File Size  =      11914 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   2.24     *
+*............................................................................*
+*Br  211 :ETofHit.mGeomId : UChar_t mGeomId[ETofHit_]                        *
+*Entries :     3275 : Total  Size=     231128 bytes  File Size  =     110477 *
+*Baskets :        6 : Basket Size=      71680 bytes  Compression=   2.09     *
+*............................................................................*
+*Br  212 :ETofHit.mLocalX : Short_t mLocalX[ETofHit_]                        *
+*Entries :     3275 : Total  Size=     448093 bytes  File Size  =     261289 *
+*Baskets :        7 : Basket Size=     139776 bytes  Compression=   1.71     *
+*............................................................................*
+*Br  213 :ETofHit.mLocalY : Short_t mLocalY[ETofHit_]                        *
+*Entries :     3275 : Total  Size=     448093 bytes  File Size  =     377550 *
+*Baskets :        7 : Basket Size=     139776 bytes  Compression=   1.19     *
+*............................................................................*
+*Br  214 :ETofHit.mClusterSize : UChar_t mClusterSize[ETofHit_]              *
+*Entries :     3275 : Total  Size=     231178 bytes  File Size  =      72336 *
+*Baskets :        6 : Basket Size=      71680 bytes  Compression=   3.19     *
+*............................................................................*
+*Br  215 :ETofHit.mLeadingEdgeTime : Float_t mLeadingEdgeTime[ETofHit_]      *
+*Entries :     3275 : Total  Size=     882038 bytes  File Size  =     542237 *
+*Baskets :        8 : Basket Size=     275968 bytes  Compression=   1.63     *
+*............................................................................*
+*Br  216 :ETofHit.mTimeOverThreshold : UShort_t mTimeOverThreshold[ETofHit_] *
+*Entries :     3275 : Total  Size=     448214 bytes  File Size  =     368375 *
+*Baskets :        7 : Basket Size=     139776 bytes  Compression=   1.21     *
+*............................................................................*
+*Br  217 :ETofPidTraits : Int_t ETofPidTraits_                               *
+*Entries :     3275 : Total  Size=      34090 bytes  File Size  =       9978 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   2.68     *
+*............................................................................*
+*Br  218 :ETofPidTraits.mTrackIndex : Short_t mTrackIndex[ETofPidTraits_]    *
+*Entries :     3275 : Total  Size=      67996 bytes  File Size  =      46793 *
+*Baskets :        6 : Basket Size=      19456 bytes  Compression=   1.44     *
+*............................................................................*
+*Br  219 :ETofPidTraits.mHitIndex : Short_t mHitIndex[ETofPidTraits_]        *
+*Entries :     3275 : Total  Size=      67976 bytes  File Size  =      41895 *
+*Baskets :        6 : Basket Size=      19456 bytes  Compression=   1.61     *
+*............................................................................*
+*Br  220 :ETofPidTraits.mMatchFlag : Char_t mMatchFlag[ETofPidTraits_]       *
+*Entries :     3275 : Total  Size=      41172 bytes  File Size  =      19224 *
+*Baskets :        6 : Basket Size=      11776 bytes  Compression=   2.11     *
+*............................................................................*
+*Br  221 :ETofPidTraits.mTimeOfFlight : Float_t mTimeOfFlight[ETofPidTraits_]*
+*Entries :     3275 : Total  Size=     121644 bytes  File Size  =      74613 *
+*Baskets :        6 : Basket Size=      34816 bytes  Compression=   1.62     *
+*............................................................................*
+*Br  222 :ETofPidTraits.mBeta : UShort_t mBeta[ETofPidTraits_]               *
+*Entries :     3275 : Total  Size=      67936 bytes  File Size  =      49521 *
+*Baskets :        6 : Basket Size=      19456 bytes  Compression=   1.36     *
+*............................................................................*
+*Br  223 :ETofPidTraits.mDeltaX : Short_t mDeltaX[ETofPidTraits_]            *
+*Entries :     3275 : Total  Size=      67956 bytes  File Size  =      55196 *
+*Baskets :        6 : Basket Size=      19456 bytes  Compression=   1.22     *
+*............................................................................*
+*Br  224 :ETofPidTraits.mDeltaY : Short_t mDeltaY[ETofPidTraits_]            *
+*Entries :     3275 : Total  Size=      67956 bytes  File Size  =      52860 *
+*Baskets :        6 : Basket Size=      19456 bytes  Compression=   1.27     *
+*............................................................................*
+*Br  225 :ETofPidTraits.mCrossingX : Short_t mCrossingX[ETofPidTraits_]      *
+*Entries :     3275 : Total  Size=      67986 bytes  File Size  =      60287 *
+*Baskets :        6 : Basket Size=      19456 bytes  Compression=   1.12     *
+*............................................................................*
+*Br  226 :ETofPidTraits.mCrossingY : Short_t mCrossingY[ETofPidTraits_]      *
+*Entries :     3275 : Total  Size=      67986 bytes  File Size  =      60292 *
+*Baskets :        6 : Basket Size=      19456 bytes  Compression=   1.12     *
+*............................................................................*
+*Br  227 :ETofPidTraits.mCrossingZ : Short_t mCrossingZ[ETofPidTraits_]      *
+*Entries :     3275 : Total  Size=      67986 bytes  File Size  =      50773 *
+*Baskets :        6 : Basket Size=      19456 bytes  Compression=   1.33     *
+*............................................................................*
+*Br  228 :McVertex  : Int_t McVertex_                                        *
+*Entries :     3275 : Total  Size=      32573 bytes  File Size  =       6232 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.29     *
+*............................................................................*
+*Br  229 :McVertex.mId : Int_t mId[McVertex_]                                *
+*Entries :     3275 : Total  Size=      14608 bytes  File Size  =       1170 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.97     *
+*............................................................................*
+*Br  230 :McVertex.mNoDaughters : UShort_t mNoDaughters[McVertex_]           *
+*Entries :     3275 : Total  Size=      14734 bytes  File Size  =       1260 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.18     *
+*............................................................................*
+*Br  231 :McVertex.mIdParTrk : Int_t mIdParTrk[McVertex_]                    *
+*Entries :     3275 : Total  Size=      14692 bytes  File Size  =       1218 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.54     *
+*............................................................................*
+*Br  232 :McVertex.mIsInterm : Int_t mIsInterm[McVertex_]                    *
+*Entries :     3275 : Total  Size=      14692 bytes  File Size  =       1218 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.54     *
+*............................................................................*
+*Br  233 :McVertex.mTime : Float_t mTime[McVertex_]                          *
+*Entries :     3275 : Total  Size=      14636 bytes  File Size  =       1190 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.78     *
+*............................................................................*
+*Br  234 :McVertex.mVx : Float_t mVx[McVertex_]                              *
+*Entries :     3275 : Total  Size=      14608 bytes  File Size  =       1170 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.97     *
+*............................................................................*
+*Br  235 :McVertex.mVy : Float_t mVy[McVertex_]                              *
+*Entries :     3275 : Total  Size=      14608 bytes  File Size  =       1170 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.97     *
+*............................................................................*
+*Br  236 :McVertex.mVz : Float_t mVz[McVertex_]                              *
+*Entries :     3275 : Total  Size=      14608 bytes  File Size  =       1170 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.97     *
+*............................................................................*
+*Br  237 :McTrack   : Int_t McTrack_                                         *
+*Entries :     3275 : Total  Size=      34956 bytes  File Size  =       6255 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.27     *
+*............................................................................*
+*Br  238 :McTrack.mId : UShort_t mId[McTrack_]                               *
+*Entries :     3275 : Total  Size=      14592 bytes  File Size  =       1160 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  12.06     *
+*............................................................................*
+*Br  239 :McTrack.mGePid : Int_t mGePid[McTrack_]                            *
+*Entries :     3275 : Total  Size=      14634 bytes  File Size  =       1190 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.78     *
+*............................................................................*
+*Br  240 :McTrack.mCharge : Char_t mCharge[McTrack_]                         *
+*Entries :     3275 : Total  Size=      14648 bytes  File Size  =       1200 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.69     *
+*............................................................................*
+*Br  241 :McTrack.mHits[30] : UChar_t mHits[McTrack_]                        *
+*Entries :     3275 : Total  Size=      14664 bytes  File Size  =       1208 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.63     *
+*............................................................................*
+*Br  242 :McTrack.mPx : Float_t mPx[McTrack_]                                *
+*Entries :     3275 : Total  Size=      14592 bytes  File Size  =       1160 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  12.06     *
+*............................................................................*
+*Br  243 :McTrack.mPy : Float_t mPy[McTrack_]                                *
+*Entries :     3275 : Total  Size=      14592 bytes  File Size  =       1160 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  12.06     *
+*............................................................................*
+*Br  244 :McTrack.mPz : Float_t mPz[McTrack_]                                *
+*Entries :     3275 : Total  Size=      14592 bytes  File Size  =       1160 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  12.06     *
+*............................................................................*
+*Br  245 :McTrack.mE : Float_t mE[McTrack_]                                  *
+*Entries :     3275 : Total  Size=      14578 bytes  File Size  =       1148 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  12.18     *
+*............................................................................*
+*Br  246 :McTrack.mIsFromShower : Bool_t mIsFromShower[McTrack_]             *
+*Entries :     3275 : Total  Size=      14732 bytes  File Size  =       1260 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.18     *
+*............................................................................*
+*Br  247 :McTrack.mIdVtxStart : Short_t mIdVtxStart[McTrack_]                *
+*Entries :     3275 : Total  Size=      14704 bytes  File Size  =       1240 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.35     *
+*............................................................................*
+*Br  248 :McTrack.mIdVtxStop : Short_t mIdVtxStop[McTrack_]                  *
+*Entries :     3275 : Total  Size=      14690 bytes  File Size  =       1218 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.54     *
+*............................................................................*
+*Br  249 :McTrack.mIdVtxItrmd : Short_t mIdVtxItrmd[McTrack_]                *
+*Entries :     3275 : Total  Size=      14704 bytes  File Size  =       1240 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.35     *
+*............................................................................*
+Error: Invalid type 'grep' in declaration of 'Track' (tmpfile):1:
+Error: Invalid type 'grep' in declaration of 'Track' (tmpfile):1:
+Error: Symbol grep Track is not defined in current scope  (tmpfile):1:
+Error: Failed to evaluate grep Track.mCharge
+(const int)0
+*** Interpreter error recovered ***
+root [3] PicoDst->Print()|grep Track.mCharge
+******************************************************************************
+*Tree    :PicoDst   : StPicoDst                                              *
+*Entries :     3275 : Total =       291300175 bytes  File  Size =  169356007 *
+*        :          : Tree compression factor =   1.72                       *
+******************************************************************************
+*Br    0 :Event     : Int_t Event_                                           *
+*Entries :     3275 : Total  Size=      77745 bytes  File Size  =       6214 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.30     *
+*............................................................................*
+*Br    1 :Event.mRunId : Int_t mRunId[Event_]                                *
+*Entries :     3275 : Total  Size=      27322 bytes  File Size  =       6278 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   4.26     *
+*............................................................................*
+*Br    2 :Event.mEventId : Int_t mEventId[Event_]                            *
+*Entries :     3275 : Total  Size=      27342 bytes  File Size  =      13863 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.93     *
+*............................................................................*
+*Br    3 :Event.mFillId : UShort_t mFillId[Event_]                           *
+*Entries :     3275 : Total  Size=      21166 bytes  File Size  =       6788 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   3.03     *
+*............................................................................*
+*Br    4 :Event.mBField : Float_t mBField[Event_]                            *
+*Entries :     3275 : Total  Size=      27332 bytes  File Size  =       6318 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   4.23     *
+*............................................................................*
+*Br    5 :Event.mTime : Int_t mTime[Event_]                                  *
+*Entries :     3275 : Total  Size=      27312 bytes  File Size  =       6828 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   3.92     *
+*............................................................................*
+*Br    6 :Event.mPrimaryVertexX : Float_t mPrimaryVertexX[Event_]            *
+*Entries :     3275 : Total  Size=      27412 bytes  File Size  =      20280 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.32     *
+*............................................................................*
+*Br    7 :Event.mPrimaryVertexY : Float_t mPrimaryVertexY[Event_]            *
+*Entries :     3275 : Total  Size=      27412 bytes  File Size  =      19999 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.34     *
+*............................................................................*
+*Br    8 :Event.mPrimaryVertexZ : Float_t mPrimaryVertexZ[Event_]            *
+*Entries :     3275 : Total  Size=      27412 bytes  File Size  =      20075 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.33     *
+*............................................................................*
+*Br    9 :Event.mPrimaryVertexErrorX : Float_t mPrimaryVertexErrorX[Event_]  *
+*Entries :     3275 : Total  Size=      27462 bytes  File Size  =      19950 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.34     *
+*............................................................................*
+*Br   10 :Event.mPrimaryVertexErrorY : Float_t mPrimaryVertexErrorY[Event_]  *
+*Entries :     3275 : Total  Size=      27462 bytes  File Size  =      19964 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.34     *
+*............................................................................*
+*Br   11 :Event.mPrimaryVertexErrorZ : Float_t mPrimaryVertexErrorZ[Event_]  *
+*Entries :     3275 : Total  Size=      27462 bytes  File Size  =      19958 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.34     *
+*............................................................................*
+*Br   12 :Event.mRanking : Float_t mRanking[Event_]                          *
+*Entries :     3275 : Total  Size=      27342 bytes  File Size  =      20029 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.34     *
+*............................................................................*
+*Br   13 :Event.mNBEMCMatch : UShort_t mNBEMCMatch[Event_]                   *
+*Entries :     3275 : Total  Size=      21222 bytes  File Size  =      10802 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.91     *
+*............................................................................*
+*Br   14 :Event.mNBTOFMatch : UShort_t mNBTOFMatch[Event_]                   *
+*Entries :     3275 : Total  Size=      21222 bytes  File Size  =      11039 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.87     *
+*............................................................................*
+*Br   15 :Event.mTriggerIds : vector<unsigned int> mTriggerIds[Event_]       *
+*Entries :     3275 : Total  Size=      73378 bytes  File Size  =      10932 *
+*Baskets :        6 : Basket Size=      22016 bytes  Compression=   6.66     *
+*............................................................................*
+*Br   16 :Event.mRefMultFtpcEast : UShort_t mRefMultFtpcEast[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =       7915 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   2.61     *
+*............................................................................*
+*Br   17 :Event.mRefMultFtpcWest : UShort_t mRefMultFtpcWest[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =       7915 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   2.61     *
+*............................................................................*
+*Br   18 :Event.mRefMultNeg : UShort_t mRefMultNeg[Event_]                   *
+*Entries :     3275 : Total  Size=      21222 bytes  File Size  =      10542 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.95     *
+*............................................................................*
+*Br   19 :Event.mRefMultPos : UShort_t mRefMultPos[Event_]                   *
+*Entries :     3275 : Total  Size=      21222 bytes  File Size  =      10701 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.93     *
+*............................................................................*
+*Br   20 :Event.mRefMult2NegEast : UShort_t mRefMult2NegEast[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10180 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   2.03     *
+*............................................................................*
+*Br   21 :Event.mRefMult2PosEast : UShort_t mRefMult2PosEast[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10368 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.99     *
+*............................................................................*
+*Br   22 :Event.mRefMult2NegWest : UShort_t mRefMult2NegWest[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10072 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   2.05     *
+*............................................................................*
+*Br   23 :Event.mRefMult2PosWest : UShort_t mRefMult2PosWest[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10239 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   2.02     *
+*............................................................................*
+*Br   24 :Event.mRefMult3NegEast : UShort_t mRefMult3NegEast[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10563 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.95     *
+*............................................................................*
+*Br   25 :Event.mRefMult3PosEast : UShort_t mRefMult3PosEast[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10558 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.96     *
+*............................................................................*
+*Br   26 :Event.mRefMult3NegWest : UShort_t mRefMult3NegWest[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10536 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.96     *
+*............................................................................*
+*Br   27 :Event.mRefMult3PosWest : UShort_t mRefMult3PosWest[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10507 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.97     *
+*............................................................................*
+*Br   28 :Event.mRefMult4NegEast : UShort_t mRefMult4NegEast[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10505 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.97     *
+*............................................................................*
+*Br   29 :Event.mRefMult4PosEast : UShort_t mRefMult4PosEast[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10706 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.93     *
+*............................................................................*
+*Br   30 :Event.mRefMult4NegWest : UShort_t mRefMult4NegWest[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10456 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.97     *
+*............................................................................*
+*Br   31 :Event.mRefMult4PosWest : UShort_t mRefMult4PosWest[Event_]         *
+*Entries :     3275 : Total  Size=      21292 bytes  File Size  =      10639 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.94     *
+*............................................................................*
+*Br   32 :Event.mRefMultHalfNegEast : UShort_t mRefMultHalfNegEast[Event_]   *
+*Entries :     3275 : Total  Size=      21334 bytes  File Size  =      10620 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.95     *
+*............................................................................*
+*Br   33 :Event.mRefMultHalfPosEast : UShort_t mRefMultHalfPosEast[Event_]   *
+*Entries :     3275 : Total  Size=      21334 bytes  File Size  =      10800 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.91     *
+*............................................................................*
+*Br   34 :Event.mRefMultHalfNegWest : UShort_t mRefMultHalfNegWest[Event_]   *
+*Entries :     3275 : Total  Size=      21334 bytes  File Size  =      10563 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.96     *
+*............................................................................*
+*Br   35 :Event.mRefMultHalfPosWest : UShort_t mRefMultHalfPosWest[Event_]   *
+*Entries :     3275 : Total  Size=      21334 bytes  File Size  =      10748 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.92     *
+*............................................................................*
+*Br   36 :Event.mGRefMult : UShort_t mGRefMult[Event_]                       *
+*Entries :     3275 : Total  Size=      21194 bytes  File Size  =      10966 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.88     *
+*............................................................................*
+*Br   37 :Event.mNumberOfGlobalTracks :                                      *
+*         | UShort_t mNumberOfGlobalTracks[Event_]                           *
+*Entries :     3275 : Total  Size=      21362 bytes  File Size  =      12759 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.62     *
+*............................................................................*
+*Br   38 :Event.mbTofTrayMultiplicity :                                      *
+*         | UShort_t mbTofTrayMultiplicity[Event_]                           *
+*Entries :     3275 : Total  Size=      21362 bytes  File Size  =      12363 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.67     *
+*............................................................................*
+*Br   39 :Event.mNHitsHFT[4] : UShort_t mNHitsHFT[Event_]                    *
+*Entries :     3275 : Total  Size=      40473 bytes  File Size  =       6204 *
+*Baskets :        6 : Basket Size=      11776 bytes  Compression=   6.43     *
+*............................................................................*
+*Br   40 :Event.mNVpdHitsEast : UChar_t mNVpdHitsEast[Event_]                *
+*Entries :     3275 : Total  Size=      17975 bytes  File Size  =       9128 *
+*Baskets :       10 : Basket Size=       5120 bytes  Compression=   1.90     *
+*............................................................................*
+*Br   41 :Event.mNVpdHitsWest : UChar_t mNVpdHitsWest[Event_]                *
+*Entries :     3275 : Total  Size=      17975 bytes  File Size  =       8955 *
+*Baskets :       10 : Basket Size=       5120 bytes  Compression=   1.94     *
+*............................................................................*
+*Br   42 :Event.mNTofT0 : UShort_t mNTofT0[Event_]                           *
+*Entries :     3275 : Total  Size=      21166 bytes  File Size  =      10488 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.96     *
+*............................................................................*
+*Br   43 :Event.mVzVpd : Float_t mVzVpd[Event_]                              *
+*Entries :     3275 : Total  Size=      27322 bytes  File Size  =      16124 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.66     *
+*............................................................................*
+*Br   44 :Event.mNTofT0Can : UShort_t mNTofT0Can[Event_]                     *
+*Entries :     3275 : Total  Size=      21208 bytes  File Size  =      10556 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.95     *
+*............................................................................*
+*Br   45 :Event.mTStart : Int_t mTStart[Event_]                              *
+*Entries :     3275 : Total  Size=      27332 bytes  File Size  =      16316 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.64     *
+*............................................................................*
+*Br   46 :Event.mTCanFirst : Int_t mTCanFirst[Event_]                        *
+*Entries :     3275 : Total  Size=      27362 bytes  File Size  =      16349 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.64     *
+*............................................................................*
+*Br   47 :Event.mTCanLast : Int_t mTCanLast[Event_]                          *
+*Entries :     3275 : Total  Size=      27352 bytes  File Size  =      16369 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.63     *
+*............................................................................*
+*Br   48 :Event.mNVpdEGoodHits : UChar_t mNVpdEGoodHits[Event_]              *
+*Entries :     3275 : Total  Size=      17989 bytes  File Size  =       7569 *
+*Baskets :       10 : Basket Size=       5120 bytes  Compression=   2.29     *
+*............................................................................*
+*Br   49 :Event.mNVpdWGoodHits : UChar_t mNVpdWGoodHits[Event_]              *
+*Entries :     3275 : Total  Size=      17989 bytes  File Size  =       7462 *
+*Baskets :       10 : Basket Size=       5120 bytes  Compression=   2.33     *
+*............................................................................*
+*Br   50 :Event.mEarliestVpdEHit : Int_t mEarliestVpdEHit[Event_]            *
+*Entries :     3275 : Total  Size=      27422 bytes  File Size  =      18228 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.47     *
+*............................................................................*
+*Br   51 :Event.mEarliestVpdWHit : Int_t mEarliestVpdWHit[Event_]            *
+*Entries :     3275 : Total  Size=      27422 bytes  File Size  =      17313 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.55     *
+*............................................................................*
+*Br   52 :Event.mClosestVpdEHit : Int_t mClosestVpdEHit[Event_]              *
+*Entries :     3275 : Total  Size=      27412 bytes  File Size  =      15580 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.72     *
+*............................................................................*
+*Br   53 :Event.mClosestVpdWHit : Int_t mClosestVpdWHit[Event_]              *
+*Entries :     3275 : Total  Size=      27412 bytes  File Size  =      15142 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.77     *
+*............................................................................*
+*Br   54 :Event.mLatestVpdEHit : Int_t mLatestVpdEHit[Event_]                *
+*Entries :     3275 : Total  Size=      27402 bytes  File Size  =      18217 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.47     *
+*............................................................................*
+*Br   55 :Event.mLatestVpdWHit : Int_t mLatestVpdWHit[Event_]                *
+*Entries :     3275 : Total  Size=      27402 bytes  File Size  =      17290 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   1.55     *
+*............................................................................*
+*Br   56 :Event.mZDCx : UInt_t mZDCx[Event_]                                 *
+*Entries :     3275 : Total  Size=      27312 bytes  File Size  =       6668 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   4.01     *
+*............................................................................*
+*Br   57 :Event.mBBCx : UInt_t mBBCx[Event_]                                 *
+*Entries :     3275 : Total  Size=      27312 bytes  File Size  =       6773 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   3.95     *
+*............................................................................*
+*Br   58 :Event.mBackgroundRate : Float_t mBackgroundRate[Event_]            *
+*Entries :     3275 : Total  Size=      27412 bytes  File Size  =       6846 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   3.91     *
+*............................................................................*
+*Br   59 :Event.mBbcBlueBackgroundRate :                                     *
+*         | Float_t mBbcBlueBackgroundRate[Event_]                           *
+*Entries :     3275 : Total  Size=      27482 bytes  File Size  =       6909 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   3.88     *
+*............................................................................*
+*Br   60 :Event.mBbcYellowBackgroundRate :                                   *
+*         | Float_t mBbcYellowBackgroundRate[Event_]                         *
+*Entries :     3275 : Total  Size=      27502 bytes  File Size  =       6923 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   3.88     *
+*............................................................................*
+*Br   61 :Event.mBbcEastRate : Float_t mBbcEastRate[Event_]                  *
+*Entries :     3275 : Total  Size=      27382 bytes  File Size  =       6906 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   3.88     *
+*............................................................................*
+*Br   62 :Event.mBbcWestRate : Float_t mBbcWestRate[Event_]                  *
+*Entries :     3275 : Total  Size=      27382 bytes  File Size  =       6911 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   3.87     *
+*............................................................................*
+*Br   63 :Event.mZdcEastRate : Float_t mZdcEastRate[Event_]                  *
+*Entries :     3275 : Total  Size=      27382 bytes  File Size  =       6837 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   3.92     *
+*............................................................................*
+*Br   64 :Event.mZdcWestRate : Float_t mZdcWestRate[Event_]                  *
+*Entries :     3275 : Total  Size=      27382 bytes  File Size  =       6886 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   3.89     *
+*............................................................................*
+*Br   65 :Event.mZdcSumAdcEast : UShort_t mZdcSumAdcEast[Event_]             *
+*Entries :     3275 : Total  Size=      21264 bytes  File Size  =      10226 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   2.02     *
+*............................................................................*
+*Br   66 :Event.mZdcSumAdcWest : UShort_t mZdcSumAdcWest[Event_]             *
+*Entries :     3275 : Total  Size=      21264 bytes  File Size  =       9255 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   2.23     *
+*............................................................................*
+*Br   67 :Event.mZdcSmdEastHorizontal[8] :                                   *
+*         | UShort_t mZdcSmdEastHorizontal[Event_]                           *
+*Entries :     3275 : Total  Size=      66793 bytes  File Size  =      15026 *
+*Baskets :        6 : Basket Size=      19968 bytes  Compression=   4.40     *
+*............................................................................*
+*Br   68 :Event.mZdcSmdEastVertical[8] : UShort_t mZdcSmdEastVertical[Event_]*
+*Entries :     3275 : Total  Size=      66773 bytes  File Size  =      15446 *
+*Baskets :        6 : Basket Size=      19968 bytes  Compression=   4.28     *
+*............................................................................*
+*Br   69 :Event.mZdcSmdWestHorizontal[8] :                                   *
+*         | UShort_t mZdcSmdWestHorizontal[Event_]                           *
+*Entries :     3275 : Total  Size=      66793 bytes  File Size  =      13474 *
+*Baskets :        6 : Basket Size=      19968 bytes  Compression=   4.91     *
+*............................................................................*
+*Br   70 :Event.mZdcSmdWestVertical[8] : UShort_t mZdcSmdWestVertical[Event_]*
+*Entries :     3275 : Total  Size=      66773 bytes  File Size  =      13407 *
+*Baskets :        6 : Basket Size=      19968 bytes  Compression=   4.93     *
+*............................................................................*
+*Br   71 :Event.mBbcAdcEast[24] : UShort_t mBbcAdcEast[Event_]               *
+*Entries :     3275 : Total  Size=     171500 bytes  File Size  =      82110 *
+*Baskets :        6 : Basket Size=      51712 bytes  Compression=   2.08     *
+*............................................................................*
+*Br   72 :Event.mBbcAdcWest[24] : UShort_t mBbcAdcWest[Event_]               *
+*Entries :     3275 : Total  Size=     171500 bytes  File Size  =      81777 *
+*Baskets :        6 : Basket Size=      51712 bytes  Compression=   2.09     *
+*............................................................................*
+*Br   73 :Event.mHighTowerThreshold[4] : UChar_t mHighTowerThreshold[Event_] *
+*Entries :     3275 : Total  Size=      27473 bytes  File Size  =       6418 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   4.18     *
+*............................................................................*
+*Br   74 :Event.mJetPatchThreshold[4] : UChar_t mJetPatchThreshold[Event_]   *
+*Entries :     3275 : Total  Size=      27463 bytes  File Size  =       6371 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   4.21     *
+*............................................................................*
+*Br   75 :Event.mBunchCrossId : UChar_t mBunchCrossId[Event_]                *
+*Entries :     3275 : Total  Size=      17975 bytes  File Size  =      10438 *
+*Baskets :       10 : Basket Size=       5120 bytes  Compression=   1.66     *
+*............................................................................*
+*Br   76 :Event.mETofHitMultiplicity : UShort_t mETofHitMultiplicity[Event_] *
+*Entries :     3275 : Total  Size=      21348 bytes  File Size  =      11775 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.76     *
+*............................................................................*
+*Br   77 :Event.mETofDigiMultiplicity :                                      *
+*         | UShort_t mETofDigiMultiplicity[Event_]                           *
+*Entries :     3275 : Total  Size=      21362 bytes  File Size  =      12361 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.67     *
+*............................................................................*
+*Br   78 :Event.mETofGoodEventFlag[1728] : Bool_t mETofGoodEventFlag[Event_] *
+*Entries :     3275 : Total  Size=    5675444 bytes  File Size  =      16410 *
+*Baskets :       21 : Basket Size=    1422336 bytes  Compression= 345.80     *
+*............................................................................*
+*Br   79 :Event.mETofHasPulsersFlag[108] : Bool_t mETofHasPulsersFlag[Event_]*
+*Entries :     3275 : Total  Size=     368195 bytes  File Size  =       9488 *
+*Baskets :        7 : Basket Size=     111616 bytes  Compression=  38.74     *
+*............................................................................*
+*Br   80 :Event.mNumberOfPrimaryTracks :                                     *
+*         | UShort_t mNumberOfPrimaryTracks[Event_]                          *
+*Entries :     3275 : Total  Size=      20932 bytes  File Size  =      11299 *
+*Baskets :        6 : Basket Size=       6144 bytes  Compression=   1.80     *
+*............................................................................*
+*Br   81 :Event.mZdcUnAttenuated[2] : UShort_t mZdcUnAttenuated[Event_]      *
+*Entries :     3275 : Total  Size=      27443 bytes  File Size  =      13295 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   2.02     *
+*............................................................................*
+*Br   82 :Track     : Int_t Track_                                           *
+*Entries :     3275 : Total  Size=      51537 bytes  File Size  =      13616 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   1.96     *
+*............................................................................*
+*Br   83 :Track.mId : UShort_t mId[Track_]                                   *
+*Entries :     3275 : Total  Size=    2290626 bytes  File Size  =     441560 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=   5.19     *
+*............................................................................*
+*Br   84 :Track.mChi2 : UShort_t mChi2[Track_]                               *
+*Entries :     3275 : Total  Size=    2290658 bytes  File Size  =    1924580 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=   1.19     *
+*............................................................................*
+*Br   85 :Track.mPMomentumX : Float_t mPMomentumX[Track_]                    *
+*Entries :     3275 : Total  Size=    4567411 bytes  File Size  =    2015254 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   2.27     *
+*............................................................................*
+*Br   86 :Track.mPMomentumY : Float_t mPMomentumY[Track_]                    *
+*Entries :     3275 : Total  Size=    4567411 bytes  File Size  =    2015545 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   2.27     *
+*............................................................................*
+*Br   87 :Track.mPMomentumZ : Float_t mPMomentumZ[Track_]                    *
+*Entries :     3275 : Total  Size=    4567411 bytes  File Size  =    2026674 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   2.25     *
+*............................................................................*
+*Br   88 :Track.mGMomentumX : Float_t mGMomentumX[Track_]                    *
+*Entries :     3275 : Total  Size=    4567411 bytes  File Size  =    4290528 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   1.06     *
+*............................................................................*
+*Br   89 :Track.mGMomentumY : Float_t mGMomentumY[Track_]                    *
+*Entries :     3275 : Total  Size=    4567411 bytes  File Size  =    4290022 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   1.06     *
+*............................................................................*
+*Br   90 :Track.mGMomentumZ : Float_t mGMomentumZ[Track_]                    *
+*Entries :     3275 : Total  Size=    4567411 bytes  File Size  =    4322322 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   1.06     *
+*............................................................................*
+*Br   91 :Track.mOriginX : Float_t mOriginX[Track_]                          *
+*Entries :     3275 : Total  Size=    4567342 bytes  File Size  =    4346309 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   1.05     *
+*............................................................................*
+*Br   92 :Track.mOriginY : Float_t mOriginY[Track_]                          *
+*Entries :     3275 : Total  Size=    4567342 bytes  File Size  =    4317372 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   1.06     *
+*............................................................................*
+*Br   93 :Track.mOriginZ : Float_t mOriginZ[Track_]                          *
+*Entries :     3275 : Total  Size=    4567342 bytes  File Size  =    4076059 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   1.12     *
+*............................................................................*
+*Br   94 :Track.mDedx : Float16_t mDedx[Track_]                              *
+*Entries :     3275 : Total  Size=    3428911 bytes  File Size  =    2346002 *
+*Baskets :       15 : Basket Size=    1082880 bytes  Compression=   1.46     *
+*............................................................................*
+*Br   95 :Track.mDedxError : Float16_t mDedxError[Track_]                    *
+*Entries :     3275 : Total  Size=    3429006 bytes  File Size  =    2218984 *
+*Baskets :       15 : Basket Size=    1083392 bytes  Compression=   1.54     *
+*............................................................................*
+*Br   96 :Track.mDnDx : Float_t mDnDx[Track_]                                *
+*Entries :     3275 : Total  Size=    4567273 bytes  File Size  =      18026 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression= 253.33     *
+*............................................................................*
+*Br   97 :Track.mDnDxError : Float_t mDnDxError[Track_]                      *
+*Entries :     3275 : Total  Size=    4567388 bytes  File Size  =      18114 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression= 252.10     *
+*............................................................................*
+*Br   98 :Track.mNHitsFit : Char_t mNHitsFit[Track_]                         *
+*Entries :     3275 : Total  Size=    1152457 bytes  File Size  =     996722 *
+*Baskets :        9 : Basket Size=     363520 bytes  Compression=   1.16     *
+*............................................................................*
+*Br   99 :Track.mNHitsMax : UChar_t mNHitsMax[Track_]                        *
+*Entries :     3275 : Total  Size=    1152457 bytes  File Size  =     832771 *
+*Baskets :        9 : Basket Size=     363520 bytes  Compression=   1.38     *
+*............................................................................*
+*Br  100 :Track.mNHitsDedx : UChar_t mNHitsDedx[Track_]                      *
+*Entries :     3275 : Total  Size=    1152470 bytes  File Size  =     832859 *
+*Baskets :        9 : Basket Size=     363520 bytes  Compression=   1.38     *
+*............................................................................*
+*Br  101 :Track.mNSigmaPion : Short_t mNSigmaPion[Track_]                    *
+*Entries :     3275 : Total  Size=    2290754 bytes  File Size  =    2070383 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=   1.11     *
+*............................................................................*
+*Br  102 :Track.mNSigmaKaon : Short_t mNSigmaKaon[Track_]                    *
+*Entries :     3275 : Total  Size=    2290754 bytes  File Size  =    2087079 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=   1.10     *
+*............................................................................*
+*Br  103 :Track.mNSigmaProton : Short_t mNSigmaProton[Track_]                *
+*Entries :     3275 : Total  Size=    2290786 bytes  File Size  =    1831152 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=   1.25     *
+*............................................................................*
+*Br  104 :Track.mNSigmaElectron : Short_t mNSigmaElectron[Track_]            *
+*Entries :     3275 : Total  Size=    2290818 bytes  File Size  =    2088042 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=   1.10     *
+*............................................................................*
+*Br  105 :Track.mTopologyMap[2] : UInt_t mTopologyMap[Track_]                *
+*Entries :     3275 : Total  Size=    9121340 bytes  File Size  =    2235876 *
+*Baskets :       37 : Basket Size=    1422336 bytes  Compression=   4.08     *
+*............................................................................*
+*Br  106 :Track.mBEmcPidTraitsIndex : Short_t mBEmcPidTraitsIndex[Track_]    *
+*Entries :     3275 : Total  Size=    2290882 bytes  File Size  =      93581 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=  24.47     *
+*............................................................................*
+*Br  107 :Track.mBTofPidTraitsIndex : Short_t mBTofPidTraitsIndex[Track_]    *
+*Entries :     3275 : Total  Size=    2290882 bytes  File Size  =     306364 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=   7.48     *
+*............................................................................*
+*Br  108 :Track.mMtdPidTraitsIndex : Short_t mMtdPidTraitsIndex[Track_]      *
+*Entries :     3275 : Total  Size=    2290866 bytes  File Size  =      15218 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression= 150.49     *
+*............................................................................*
+*Br  109 :Track.mETofPidTraitsIndex : Short_t mETofPidTraitsIndex[Track_]    *
+*Entries :     3275 : Total  Size=    2290882 bytes  File Size  =      87226 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=  26.26     *
+*............................................................................*
+*Br  110 :Track.mBEmcMatchedTowerIndex :                                     *
+*         | Short_t mBEmcMatchedTowerIndex[Track_]                           *
+*Entries :     3275 : Total  Size=    2290930 bytes  File Size  =     951437 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression=   2.41     *
+*............................................................................*
+*Br  111 :Track.mTopoMap_iTpc : ULong64_t mTopoMap_iTpc[Track_]              *
+*Entries :     3275 : Total  Size=    9121267 bytes  File Size  =    3921965 *
+*Baskets :       37 : Basket Size=    1422336 bytes  Compression=   2.33     *
+*............................................................................*
+*Br  112 :Track.mStatus : Char_t mStatus[Track_]                             *
+*Entries :     3275 : Total  Size=    1152431 bytes  File Size  =     168734 *
+*Baskets :        9 : Basket Size=     363520 bytes  Compression=   6.83     *
+*............................................................................*
+*Br  113 :Track.mIdTruth : UShort_t mIdTruth[Track_]                         *
+*Entries :     3275 : Total  Size=    2290706 bytes  File Size  =      14484 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression= 158.11     *
+*............................................................................*
+*Br  114 :Track.mQATruth : UShort_t mQATruth[Track_]                         *
+*Entries :     3275 : Total  Size=    2290706 bytes  File Size  =      14484 *
+*Baskets :       12 : Basket Size=     723456 bytes  Compression= 158.11     *
+*............................................................................*
+*Br  115 :Track.mVertexIndex : Char_t mVertexIndex[Track_]                   *
+*Entries :     3275 : Total  Size=    1152496 bytes  File Size  =      12112 *
+*Baskets :        9 : Basket Size=     363520 bytes  Compression=  95.10     *
+*............................................................................*
+*Br  116 :EmcTrigger : Int_t EmcTrigger_                                     *
+*Entries :     3275 : Total  Size=      30701 bytes  File Size  =       6281 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.26     *
+*............................................................................*
+*Br  117 :EmcTrigger.mFlag : UChar_t mFlag[EmcTrigger_]                      *
+*Entries :     3275 : Total  Size=      73232 bytes  File Size  =       8462 *
+*Baskets :        6 : Basket Size=      22016 bytes  Compression=   8.58     *
+*............................................................................*
+*Br  118 :EmcTrigger.mId : UShort_t mId[EmcTrigger_]                         *
+*Entries :     3275 : Total  Size=     132172 bytes  File Size  =       8510 *
+*Baskets :        6 : Basket Size=      39424 bytes  Compression=  15.46     *
+*............................................................................*
+*Br  119 :EmcTrigger.mAdc : UShort_t mAdc[EmcTrigger_]                       *
+*Entries :     3275 : Total  Size=     132182 bytes  File Size  =      61762 *
+*Baskets :        6 : Basket Size=      39424 bytes  Compression=   2.13     *
+*............................................................................*
+*Br  120 :EmcTrigger.mSmdE : vector<unsigned short> mSmdE[EmcTrigger_]       *
+*Entries :     3275 : Total  Size=     269762 bytes  File Size  =      10305 *
+*Baskets :        6 : Basket Size=      81408 bytes  Compression=  26.12     *
+*............................................................................*
+*Br  121 :EmcTrigger.mSmdP : vector<unsigned short> mSmdP[EmcTrigger_]       *
+*Entries :     3275 : Total  Size=     269762 bytes  File Size  =      10305 *
+*Baskets :        6 : Basket Size=      81408 bytes  Compression=  26.12     *
+*............................................................................*
+*Br  122 :MtdTrigger : Int_t MtdTrigger_                                     *
+*Entries :     3275 : Total  Size=      32162 bytes  File Size  =       6268 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.26     *
+*............................................................................*
+*Br  123 :MtdTrigger.mVpdTacSum : UShort_t mVpdTacSum[MtdTrigger_]           *
+*Entries :     3275 : Total  Size=      21288 bytes  File Size  =      13737 *
+*Baskets :       10 : Basket Size=       5632 bytes  Compression=   1.50     *
+*............................................................................*
+*Br  124 :MtdTrigger.mTHUBtime[2] : UInt_t mTHUBtime[MtdTrigger_]            *
+*Entries :     3275 : Total  Size=      40533 bytes  File Size  =      24599 *
+*Baskets :        6 : Basket Size=      11776 bytes  Compression=   1.62     *
+*............................................................................*
+*Br  125 :MtdTrigger.mQTtacSum[8][8] : UShort_t mQTtacSum[MtdTrigger_]       *
+*Entries :     3275 : Total  Size=     433658 bytes  File Size  =      10620 *
+*Baskets :        7 : Basket Size=     131584 bytes  Compression=  40.77     *
+*............................................................................*
+*Br  126 :MtdTrigger.mMT101Tac[8][2] : UShort_t mMT101Tac[MtdTrigger_]       *
+*Entries :     3275 : Total  Size=     119154 bytes  File Size  =      22790 *
+*Baskets :        6 : Basket Size=      35840 bytes  Compression=   5.20     *
+*............................................................................*
+*Br  127 :MtdTrigger.mMT101Id[8][2] : UChar_t mMT101Id[MtdTrigger_]          *
+*Entries :     3275 : Total  Size=      66744 bytes  File Size  =      10768 *
+*Baskets :        6 : Basket Size=      19968 bytes  Compression=   6.14     *
+*............................................................................*
+*Br  128 :MtdTrigger.mTF201TriggerBit : UInt_t mTF201TriggerBit[MtdTrigger_] *
+*Entries :     3275 : Total  Size=      27482 bytes  File Size  =       6447 *
+*Baskets :        6 : Basket Size=       7680 bytes  Compression=   4.16     *
+*............................................................................*
+*Br  129 :MtdTrigger.mShouldHaveRejectEvent :                                *
+*         | Char_t mShouldHaveRejectEvent[MtdTrigger_]                       *
+*Entries :     3275 : Total  Size=      18181 bytes  File Size  =       6977 *
+*Baskets :       10 : Basket Size=       5120 bytes  Compression=   2.51     *
+*............................................................................*
+*Br  130 :BTowHit   : Int_t BTowHit_                                         *
+*Entries :     3275 : Total  Size=      33148 bytes  File Size  =       6265 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.26     *
+*............................................................................*
+*Br  131 :BTowHit.mAdc : UShort_t mAdc[BTowHit_]                             *
+*Entries :     3275 : Total  Size=   31466376 bytes  File Size  =   13169135 *
+*Baskets :      117 : Basket Size=    1422336 bytes  Compression=   2.39     *
+*............................................................................*
+*Br  132 :BTowHit.mE : Short_t mE[BTowHit_]                                  *
+*Entries :     3275 : Total  Size=   31466134 bytes  File Size  =   17245695 *
+*Baskets :      117 : Basket Size=    1422336 bytes  Compression=   1.82     *
+*............................................................................*
+*Br  133 :BTofHit   : Int_t BTofHit_                                         *
+*Entries :     3275 : Total  Size=      28256 bytes  File Size  =      12942 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   2.06     *
+*............................................................................*
+*Br  134 :BTofHit.mId : Short_t mId[BTofHit_]                                *
+*Entries :     3275 : Total  Size=    1200189 bytes  File Size  =    1128675 *
+*Baskets :        9 : Basket Size=     379392 bytes  Compression=   1.06     *
+*............................................................................*
+*Br  135 :MtdHit    : Int_t MtdHit_                                          *
+*Entries :     3275 : Total  Size=      31447 bytes  File Size  =       7236 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   3.69     *
+*............................................................................*
+*Br  136 :MtdHit.mgChannel : Short_t mgChannel[MtdHit_]                      *
+*Entries :     3275 : Total  Size=      16286 bytes  File Size  =       4175 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   3.75     *
+*............................................................................*
+*Br  137 :MtdHit.mTriggerFlag : UChar_t mTriggerFlag[MtdHit_]                *
+*Entries :     3275 : Total  Size=      15515 bytes  File Size  =       2597 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   5.73     *
+*............................................................................*
+*Br  138 :MtdHit.mLeadingEdgeTime.first : Float_t first[MtdHit_]             *
+*Entries :     3275 : Total  Size=      18060 bytes  File Size  =       5947 *
+*Baskets :       10 : Basket Size=       4608 bytes  Compression=   2.93     *
+*............................................................................*
+*Br  139 :MtdHit.mLeadingEdgeTime.second : Float_t second[MtdHit_]           *
+*Entries :     3275 : Total  Size=      18074 bytes  File Size  =       5954 *
+*Baskets :       10 : Basket Size=       4608 bytes  Compression=   2.93     *
+*............................................................................*
+*Br  140 :MtdHit.mTrailingEdgeTime.first : Float_t first[MtdHit_]            *
+*Entries :     3275 : Total  Size=      18072 bytes  File Size  =       5985 *
+*Baskets :       10 : Basket Size=       4608 bytes  Compression=   2.91     *
+*............................................................................*
+*Br  141 :MtdHit.mTrailingEdgeTime.second : Float_t second[MtdHit_]          *
+*Entries :     3275 : Total  Size=      18086 bytes  File Size  =       5985 *
+*Baskets :       10 : Basket Size=       4608 bytes  Compression=   2.91     *
+*............................................................................*
+*Br  142 :BbcHit    : Int_t BbcHit_                                          *
+*Entries :     3275 : Total  Size=      28819 bytes  File Size  =      10403 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   2.57     *
+*............................................................................*
+*Br  143 :BbcHit.mId : Short_t mId[BbcHit_]                                  *
+*Entries :     3275 : Total  Size=     166408 bytes  File Size  =      25508 *
+*Baskets :        6 : Basket Size=      51200 bytes  Compression=   6.50     *
+*............................................................................*
+*Br  144 :BbcHit.mQTdata : Int_t mQTdata[BbcHit_]                            *
+*Entries :     3275 : Total  Size=     318652 bytes  File Size  =     271368 *
+*Baskets :        6 : Basket Size=      98304 bytes  Compression=   1.17     *
+*............................................................................*
+*Br  145 :EpdHit    : Int_t EpdHit_                                          *
+*Entries :     3275 : Total  Size=      29713 bytes  File Size  =      13228 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   2.02     *
+*............................................................................*
+*Br  146 :EpdHit.mId : Short_t mId[EpdHit_]                                  *
+*Entries :     3275 : Total  Size=    1761708 bytes  File Size  =     604351 *
+*Baskets :       11 : Basket Size=     551424 bytes  Compression=   2.91     *
+*............................................................................*
+*Br  147 :EpdHit.mQTdata : Int_t mQTdata[EpdHit_]                            *
+*Entries :     3275 : Total  Size=    3509352 bytes  File Size  =    2080310 *
+*Baskets :       16 : Basket Size=    1098752 bytes  Compression=   1.69     *
+*............................................................................*
+*Br  148 :EpdHit.mnMIP : Float_t mnMIP[EpdHit_]                              *
+*Entries :     3275 : Total  Size=    3509312 bytes  File Size  =    1637491 *
+*Baskets :       16 : Basket Size=    1098752 bytes  Compression=   2.14     *
+*............................................................................*
+*Br  149 :FmsHit    : Int_t FmsHit_                                          *
+*Entries :     3275 : Total  Size=      28907 bytes  File Size  =       6248 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.27     *
+*............................................................................*
+*Br  150 :FmsHit.mChannelDetectorId : UShort_t mChannelDetectorId[FmsHit_]   *
+*Entries :     3275 : Total  Size=      14786 bytes  File Size  =       1300 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  10.87     *
+*............................................................................*
+*Br  151 :FmsHit.mAdc : UShort_t mAdc[FmsHit_]                               *
+*Entries :     3275 : Total  Size=      14590 bytes  File Size  =       1160 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  12.06     *
+*............................................................................*
+*Br  152 :EmcPidTraits : Int_t EmcPidTraits_                                 *
+*Entries :     3275 : Total  Size=      37806 bytes  File Size  =       9450 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   2.83     *
+*............................................................................*
+*Br  153 :EmcPidTraits.mTrackIndex : Short_t mTrackIndex[EmcPidTraits_]      *
+*Entries :     3275 : Total  Size=      69422 bytes  File Size  =      44574 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.54     *
+*............................................................................*
+*Br  154 :EmcPidTraits.mBemcId : Short_t mBemcId[EmcPidTraits_]              *
+*Entries :     3275 : Total  Size=      69382 bytes  File Size  =      34806 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.98     *
+*............................................................................*
+*Br  155 :EmcPidTraits.mBemcAdc0 : Short_t mBemcAdc0[EmcPidTraits_]          *
+*Entries :     3275 : Total  Size=      69402 bytes  File Size  =      35656 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.93     *
+*............................................................................*
+*Br  156 :EmcPidTraits.mBemcE0 : Short_t mBemcE0[EmcPidTraits_]              *
+*Entries :     3275 : Total  Size=      69382 bytes  File Size  =      46497 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.48     *
+*............................................................................*
+*Br  157 :EmcPidTraits.mBemcE : Short_t mBemcE[EmcPidTraits_]                *
+*Entries :     3275 : Total  Size=      69372 bytes  File Size  =      49112 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.40     *
+*............................................................................*
+*Br  158 :EmcPidTraits.mBemcZDist : Short_t mBemcZDist[EmcPidTraits_]        *
+*Entries :     3275 : Total  Size=      69412 bytes  File Size  =      52023 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.32     *
+*............................................................................*
+*Br  159 :EmcPidTraits.mBemcPhiDist : Short_t mBemcPhiDist[EmcPidTraits_]    *
+*Entries :     3275 : Total  Size=      69432 bytes  File Size  =      47908 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.44     *
+*............................................................................*
+*Br  160 :EmcPidTraits.mBemcSmdNEta : UChar_t mBemcSmdNEta[EmcPidTraits_]    *
+*Entries :     3275 : Total  Size=      41899 bytes  File Size  =       4712 *
+*Baskets :        6 : Basket Size=      12288 bytes  Compression=   8.75     *
+*............................................................................*
+*Br  161 :EmcPidTraits.mBemcSmdNPhi : UChar_t mBemcSmdNPhi[EmcPidTraits_]    *
+*Entries :     3275 : Total  Size=      41899 bytes  File Size  =       4712 *
+*Baskets :        6 : Basket Size=      12288 bytes  Compression=   8.75     *
+*............................................................................*
+*Br  162 :EmcPidTraits.mBtowId : Short_t mBtowId[EmcPidTraits_]              *
+*Entries :     3275 : Total  Size=      69382 bytes  File Size  =      53045 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.30     *
+*............................................................................*
+*Br  163 :EmcPidTraits.mBtowId23 : Char_t mBtowId23[EmcPidTraits_]           *
+*Entries :     3275 : Total  Size=      41869 bytes  File Size  =      24192 *
+*Baskets :        6 : Basket Size=      12288 bytes  Compression=   1.70     *
+*............................................................................*
+*Br  164 :EmcPidTraits.mBtowE : Short_t mBtowE[EmcPidTraits_]                *
+*Entries :     3275 : Total  Size=      69372 bytes  File Size  =      40016 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.72     *
+*............................................................................*
+*Br  165 :EmcPidTraits.mBtowE2 : Short_t mBtowE2[EmcPidTraits_]              *
+*Entries :     3275 : Total  Size=      69382 bytes  File Size  =      44709 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.54     *
+*............................................................................*
+*Br  166 :EmcPidTraits.mBtowE3 : Short_t mBtowE3[EmcPidTraits_]              *
+*Entries :     3275 : Total  Size=      69382 bytes  File Size  =      32745 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   2.10     *
+*............................................................................*
+*Br  167 :EmcPidTraits.mBtowEtaDist : Short_t mBtowEtaDist[EmcPidTraits_]    *
+*Entries :     3275 : Total  Size=      69432 bytes  File Size  =      37474 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.84     *
+*............................................................................*
+*Br  168 :EmcPidTraits.mBtowPhiDist : Short_t mBtowPhiDist[EmcPidTraits_]    *
+*Entries :     3275 : Total  Size=      69432 bytes  File Size  =      37474 *
+*Baskets :        6 : Basket Size=      20992 bytes  Compression=   1.84     *
+*............................................................................*
+*Br  169 :BTofPidTraits : Int_t BTofPidTraits_                               *
+*Entries :     3275 : Total  Size=      36738 bytes  File Size  =      11769 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   2.27     *
+*............................................................................*
+*Br  170 :BTofPidTraits.mTrackIndex : Short_t mTrackIndex[BTofPidTraits_]    *
+*Entries :     3275 : Total  Size=     404377 bytes  File Size  =     183969 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   2.19     *
+*............................................................................*
+*Br  171 :BTofPidTraits.mBTofCellId : Short_t mBTofCellId[BTofPidTraits_]    *
+*Entries :     3275 : Total  Size=     404377 bytes  File Size  =     386167 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   1.05     *
+*............................................................................*
+*Br  172 :BTofPidTraits.mBTofMatchFlag :                                     *
+*         | UChar_t mBTofMatchFlag[BTofPidTraits_]                           *
+*Entries :     3275 : Total  Size=     209351 bytes  File Size  =      37582 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   5.55     *
+*............................................................................*
+*Br  173 :BTofPidTraits.mBTof : Float_t mBTof[BTofPidTraits_]                *
+*Entries :     3275 : Total  Size=     794314 bytes  File Size  =     646230 *
+*Baskets :        8 : Basket Size=     250368 bytes  Compression=   1.23     *
+*............................................................................*
+*Br  174 :BTofPidTraits.mBTofBeta : UShort_t mBTofBeta[BTofPidTraits_]       *
+*Entries :     3275 : Total  Size=     404355 bytes  File Size  =     312981 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   1.29     *
+*............................................................................*
+*Br  175 :BTofPidTraits.mBTofYLocal : Short_t mBTofYLocal[BTofPidTraits_]    *
+*Entries :     3275 : Total  Size=     404377 bytes  File Size  =     348508 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   1.16     *
+*............................................................................*
+*Br  176 :BTofPidTraits.mBTofZLocal : Short_t mBTofZLocal[BTofPidTraits_]    *
+*Entries :     3275 : Total  Size=     404377 bytes  File Size  =     356956 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   1.13     *
+*............................................................................*
+*Br  177 :BTofPidTraits.mBTofHitPosX : Short_t mBTofHitPosX[BTofPidTraits_]  *
+*Entries :     3275 : Total  Size=     404388 bytes  File Size  =     392485 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   1.03     *
+*............................................................................*
+*Br  178 :BTofPidTraits.mBTofHitPosY : Short_t mBTofHitPosY[BTofPidTraits_]  *
+*Entries :     3275 : Total  Size=     404388 bytes  File Size  =     392472 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   1.03     *
+*............................................................................*
+*Br  179 :BTofPidTraits.mBTofHitPosZ : Short_t mBTofHitPosZ[BTofPidTraits_]  *
+*Entries :     3275 : Total  Size=     404388 bytes  File Size  =     396471 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   1.02     *
+*............................................................................*
+*Br  180 :BTofPidTraits.mNSigmaElectron :                                    *
+*         | Short_t mNSigmaElectron[BTofPidTraits_]                          *
+*Entries :     3275 : Total  Size=     404421 bytes  File Size  =     317202 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   1.27     *
+*............................................................................*
+*Br  181 :BTofPidTraits.mNSigmaPion : Short_t mNSigmaPion[BTofPidTraits_]    *
+*Entries :     3275 : Total  Size=     404377 bytes  File Size  =     304891 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   1.32     *
+*............................................................................*
+*Br  182 :BTofPidTraits.mNSigmaKaon : Short_t mNSigmaKaon[BTofPidTraits_]    *
+*Entries :     3275 : Total  Size=     404377 bytes  File Size  =     196246 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   2.06     *
+*............................................................................*
+*Br  183 :BTofPidTraits.mNSigmaProton : Short_t mNSigmaProton[BTofPidTraits_]*
+*Entries :     3275 : Total  Size=     404399 bytes  File Size  =     101663 *
+*Baskets :        7 : Basket Size=     126976 bytes  Compression=   3.97     *
+*............................................................................*
+*Br  184 :MtdPidTraits : Int_t MtdPidTraits_                                 *
+*Entries :     3275 : Total  Size=      32953 bytes  File Size  =       6508 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.11     *
+*............................................................................*
+*Br  185 :MtdPidTraits.mTrackIndex : Short_t mTrackIndex[MtdPidTraits_]      *
+*Entries :     3275 : Total  Size=      15054 bytes  File Size  =       1827 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   7.88     *
+*............................................................................*
+*Br  186 :MtdPidTraits.mMtdHitIndex : Short_t mMtdHitIndex[MtdPidTraits_]    *
+*Entries :     3275 : Total  Size=      15068 bytes  File Size  =       1650 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   8.73     *
+*............................................................................*
+*Br  187 :MtdPidTraits.mMatchFlag : Char_t mMatchFlag[MtdPidTraits_]         *
+*Entries :     3275 : Total  Size=      14905 bytes  File Size  =       1627 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   8.76     *
+*............................................................................*
+*Br  188 :MtdPidTraits.mDeltaY : Short_t mDeltaY[MtdPidTraits_]              *
+*Entries :     3275 : Total  Size=      14998 bytes  File Size  =       1808 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   7.94     *
+*............................................................................*
+*Br  189 :MtdPidTraits.mDeltaZ : Short_t mDeltaZ[MtdPidTraits_]              *
+*Entries :     3275 : Total  Size=      14998 bytes  File Size  =       1809 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   7.93     *
+*............................................................................*
+*Br  190 :MtdPidTraits.mDeltaTimeOfFlight :                                  *
+*         | Float_t mDeltaTimeOfFlight[MtdPidTraits_]                        *
+*Entries :     3275 : Total  Size=      15422 bytes  File Size  =       2182 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   6.75     *
+*............................................................................*
+*Br  191 :MtdPidTraits.mBeta : UShort_t mBeta[MtdPidTraits_]                 *
+*Entries :     3275 : Total  Size=      14970 bytes  File Size  =       1777 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   8.06     *
+*............................................................................*
+*Br  192 :MtdPidTraits.mMtdHitChan : Short_t mMtdHitChan[MtdPidTraits_]      *
+*Entries :     3275 : Total  Size=      15054 bytes  File Size  =       1831 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=   7.86     *
+*............................................................................*
+*Br  193 :TrackCovMatrix : Int_t TrackCovMatrix_                             *
+*Entries :     3275 : Total  Size=      37794 bytes  File Size  =      13724 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   1.95     *
+*............................................................................*
+*Br  194 :TrackCovMatrix.mImp : Float16_t mImp[TrackCovMatrix_]              *
+*Entries :     3275 : Total  Size=    3429081 bytes  File Size  =    2945109 *
+*Baskets :       15 : Basket Size=    1083392 bytes  Compression=   1.16     *
+*............................................................................*
+*Br  195 :TrackCovMatrix.mZ : Float16_t mZ[TrackCovMatrix_]                  *
+*Entries :     3275 : Total  Size=    3429043 bytes  File Size  =    2599677 *
+*Baskets :       15 : Basket Size=    1083392 bytes  Compression=   1.32     *
+*............................................................................*
+*Br  196 :TrackCovMatrix.mPsi : Float16_t mPsi[TrackCovMatrix_]              *
+*Entries :     3275 : Total  Size=    4567475 bytes  File Size  =    3609147 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   1.27     *
+*............................................................................*
+*Br  197 :TrackCovMatrix.mPti : Float16_t mPti[TrackCovMatrix_]              *
+*Entries :     3275 : Total  Size=    3429081 bytes  File Size  =    2821426 *
+*Baskets :       15 : Basket Size=    1083392 bytes  Compression=   1.22     *
+*............................................................................*
+*Br  198 :TrackCovMatrix.mTan : Float16_t mTan[TrackCovMatrix_]              *
+*Entries :     3275 : Total  Size=    4567475 bytes  File Size  =    3372185 *
+*Baskets :       19 : Basket Size=    1422336 bytes  Compression=   1.35     *
+*............................................................................*
+*Br  199 :TrackCovMatrix.mCurv : Float16_t mCurv[TrackCovMatrix_]            *
+*Entries :     3275 : Total  Size=    3429100 bytes  File Size  =    2824579 *
+*Baskets :       15 : Basket Size=    1083392 bytes  Compression=   1.21     *
+*............................................................................*
+*Br  200 :TrackCovMatrix.mSigma[5] : Float16_t mSigma[TrackCovMatrix_]       *
+*Entries :     3275 : Total  Size=   17090501 bytes  File Size  =   13577974 *
+*Baskets :       66 : Basket Size=    1422336 bytes  Compression=   1.26     *
+*............................................................................*
+*Br  201 :TrackCovMatrix.mCorr[10] : Float16_t mCorr[TrackCovMatrix_]        *
+*Entries :     3275 : Total  Size=   45550238 bytes  File Size  =   35440520 *
+*Baskets :      161 : Basket Size=    1422336 bytes  Compression=   1.29     *
+*............................................................................*
+*Br  202 :BEmcSmdEHit : Int_t BEmcSmdEHit_                                   *
+*Entries :     3275 : Total  Size=      29604 bytes  File Size  =       6279 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.26     *
+*............................................................................*
+*Br  203 :BEmcSmdEHit.mId : Short_t mId[BEmcSmdEHit_]                        *
+*Entries :     3275 : Total  Size=      14656 bytes  File Size  =       1200 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.69     *
+*............................................................................*
+*Br  204 :BEmcSmdEHit.mAdc : Short_t mAdc[BEmcSmdEHit_]                      *
+*Entries :     3275 : Total  Size=      14670 bytes  File Size  =       1210 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.60     *
+*............................................................................*
+*Br  205 :BEmcSmdEHit.mEnergy : Float_t mEnergy[BEmcSmdEHit_]                *
+*Entries :     3275 : Total  Size=      14712 bytes  File Size  =       1240 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.35     *
+*............................................................................*
+*Br  206 :BEmcSmdPHit : Int_t BEmcSmdPHit_                                   *
+*Entries :     3275 : Total  Size=      29604 bytes  File Size  =       6279 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.26     *
+*............................................................................*
+*Br  207 :BEmcSmdPHit.mId : Short_t mId[BEmcSmdPHit_]                        *
+*Entries :     3275 : Total  Size=      14656 bytes  File Size  =       1200 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.69     *
+*............................................................................*
+*Br  208 :BEmcSmdPHit.mAdc : Short_t mAdc[BEmcSmdPHit_]                      *
+*Entries :     3275 : Total  Size=      14670 bytes  File Size  =       1210 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.60     *
+*............................................................................*
+*Br  209 :BEmcSmdPHit.mEnergy : Float_t mEnergy[BEmcSmdPHit_]                *
+*Entries :     3275 : Total  Size=      14712 bytes  File Size  =       1240 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.35     *
+*............................................................................*
+*Br  210 :ETofHit   : Int_t ETofHit_                                         *
+*Entries :     3275 : Total  Size=      31312 bytes  File Size  =      11914 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   2.24     *
+*............................................................................*
+*Br  211 :ETofHit.mGeomId : UChar_t mGeomId[ETofHit_]                        *
+*Entries :     3275 : Total  Size=     231128 bytes  File Size  =     110477 *
+*Baskets :        6 : Basket Size=      71680 bytes  Compression=   2.09     *
+*............................................................................*
+*Br  212 :ETofHit.mLocalX : Short_t mLocalX[ETofHit_]                        *
+*Entries :     3275 : Total  Size=     448093 bytes  File Size  =     261289 *
+*Baskets :        7 : Basket Size=     139776 bytes  Compression=   1.71     *
+*............................................................................*
+*Br  213 :ETofHit.mLocalY : Short_t mLocalY[ETofHit_]                        *
+*Entries :     3275 : Total  Size=     448093 bytes  File Size  =     377550 *
+*Baskets :        7 : Basket Size=     139776 bytes  Compression=   1.19     *
+*............................................................................*
+*Br  214 :ETofHit.mClusterSize : UChar_t mClusterSize[ETofHit_]              *
+*Entries :     3275 : Total  Size=     231178 bytes  File Size  =      72336 *
+*Baskets :        6 : Basket Size=      71680 bytes  Compression=   3.19     *
+*............................................................................*
+*Br  215 :ETofHit.mLeadingEdgeTime : Float_t mLeadingEdgeTime[ETofHit_]      *
+*Entries :     3275 : Total  Size=     882038 bytes  File Size  =     542237 *
+*Baskets :        8 : Basket Size=     275968 bytes  Compression=   1.63     *
+*............................................................................*
+*Br  216 :ETofHit.mTimeOverThreshold : UShort_t mTimeOverThreshold[ETofHit_] *
+*Entries :     3275 : Total  Size=     448214 bytes  File Size  =     368375 *
+*Baskets :        7 : Basket Size=     139776 bytes  Compression=   1.21     *
+*............................................................................*
+*Br  217 :ETofPidTraits : Int_t ETofPidTraits_                               *
+*Entries :     3275 : Total  Size=      34090 bytes  File Size  =       9978 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   2.68     *
+*............................................................................*
+*Br  218 :ETofPidTraits.mTrackIndex : Short_t mTrackIndex[ETofPidTraits_]    *
+*Entries :     3275 : Total  Size=      67996 bytes  File Size  =      46793 *
+*Baskets :        6 : Basket Size=      19456 bytes  Compression=   1.44     *
+*............................................................................*
+*Br  219 :ETofPidTraits.mHitIndex : Short_t mHitIndex[ETofPidTraits_]        *
+*Entries :     3275 : Total  Size=      67976 bytes  File Size  =      41895 *
+*Baskets :        6 : Basket Size=      19456 bytes  Compression=   1.61     *
+*............................................................................*
+*Br  220 :ETofPidTraits.mMatchFlag : Char_t mMatchFlag[ETofPidTraits_]       *
+*Entries :     3275 : Total  Size=      41172 bytes  File Size  =      19224 *
+*Baskets :        6 : Basket Size=      11776 bytes  Compression=   2.11     *
+*............................................................................*
+*Br  221 :ETofPidTraits.mTimeOfFlight : Float_t mTimeOfFlight[ETofPidTraits_]*
+*Entries :     3275 : Total  Size=     121644 bytes  File Size  =      74613 *
+*Baskets :        6 : Basket Size=      34816 bytes  Compression=   1.62     *
+*............................................................................*
+*Br  222 :ETofPidTraits.mBeta : UShort_t mBeta[ETofPidTraits_]               *
+*Entries :     3275 : Total  Size=      67936 bytes  File Size  =      49521 *
+*Baskets :        6 : Basket Size=      19456 bytes  Compression=   1.36     *
+*............................................................................*
+*Br  223 :ETofPidTraits.mDeltaX : Short_t mDeltaX[ETofPidTraits_]            *
+*Entries :     3275 : Total  Size=      67956 bytes  File Size  =      55196 *
+*Baskets :        6 : Basket Size=      19456 bytes  Compression=   1.22     *
+*............................................................................*
+*Br  224 :ETofPidTraits.mDeltaY : Short_t mDeltaY[ETofPidTraits_]            *
+*Entries :     3275 : Total  Size=      67956 bytes  File Size  =      52860 *
+*Baskets :        6 : Basket Size=      19456 bytes  Compression=   1.27     *
+*............................................................................*
+*Br  225 :ETofPidTraits.mCrossingX : Short_t mCrossingX[ETofPidTraits_]      *
+*Entries :     3275 : Total  Size=      67986 bytes  File Size  =      60287 *
+*Baskets :        6 : Basket Size=      19456 bytes  Compression=   1.12     *
+*............................................................................*
+*Br  226 :ETofPidTraits.mCrossingY : Short_t mCrossingY[ETofPidTraits_]      *
+*Entries :     3275 : Total  Size=      67986 bytes  File Size  =      60292 *
+*Baskets :        6 : Basket Size=      19456 bytes  Compression=   1.12     *
+*............................................................................*
+*Br  227 :ETofPidTraits.mCrossingZ : Short_t mCrossingZ[ETofPidTraits_]      *
+*Entries :     3275 : Total  Size=      67986 bytes  File Size  =      50773 *
+*Baskets :        6 : Basket Size=      19456 bytes  Compression=   1.33     *
+*............................................................................*
+*Br  228 :McVertex  : Int_t McVertex_                                        *
+*Entries :     3275 : Total  Size=      32573 bytes  File Size  =       6232 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.29     *
+*............................................................................*
+*Br  229 :McVertex.mId : Int_t mId[McVertex_]                                *
+*Entries :     3275 : Total  Size=      14608 bytes  File Size  =       1170 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.97     *
+*............................................................................*
+*Br  230 :McVertex.mNoDaughters : UShort_t mNoDaughters[McVertex_]           *
+*Entries :     3275 : Total  Size=      14734 bytes  File Size  =       1260 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.18     *
+*............................................................................*
+*Br  231 :McVertex.mIdParTrk : Int_t mIdParTrk[McVertex_]                    *
+*Entries :     3275 : Total  Size=      14692 bytes  File Size  =       1218 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.54     *
+*............................................................................*
+*Br  232 :McVertex.mIsInterm : Int_t mIsInterm[McVertex_]                    *
+*Entries :     3275 : Total  Size=      14692 bytes  File Size  =       1218 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.54     *
+*............................................................................*
+*Br  233 :McVertex.mTime : Float_t mTime[McVertex_]                          *
+*Entries :     3275 : Total  Size=      14636 bytes  File Size  =       1190 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.78     *
+*............................................................................*
+*Br  234 :McVertex.mVx : Float_t mVx[McVertex_]                              *
+*Entries :     3275 : Total  Size=      14608 bytes  File Size  =       1170 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.97     *
+*............................................................................*
+*Br  235 :McVertex.mVy : Float_t mVy[McVertex_]                              *
+*Entries :     3275 : Total  Size=      14608 bytes  File Size  =       1170 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.97     *
+*............................................................................*
+*Br  236 :McVertex.mVz : Float_t mVz[McVertex_]                              *
+*Entries :     3275 : Total  Size=      14608 bytes  File Size  =       1170 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.97     *
+*............................................................................*
+*Br  237 :McTrack   : Int_t McTrack_                                         *
+*Entries :     3275 : Total  Size=      34956 bytes  File Size  =       6255 *
+*Baskets :        6 : Basket Size=      65536 bytes  Compression=   4.27     *
+*............................................................................*
+*Br  238 :McTrack.mId : UShort_t mId[McTrack_]                               *
+*Entries :     3275 : Total  Size=      14592 bytes  File Size  =       1160 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  12.06     *
+*............................................................................*
+*Br  239 :McTrack.mGePid : Int_t mGePid[McTrack_]                            *
+*Entries :     3275 : Total  Size=      14634 bytes  File Size  =       1190 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.78     *
+*............................................................................*
+*Br  240 :McTrack.mCharge : Char_t mCharge[McTrack_]                         *
+*Entries :     3275 : Total  Size=      14648 bytes  File Size  =       1200 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.69     *
+*............................................................................*
+*Br  241 :McTrack.mHits[30] : UChar_t mHits[McTrack_]                        *
+*Entries :     3275 : Total  Size=      14664 bytes  File Size  =       1208 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.63     *
+*............................................................................*
+*Br  242 :McTrack.mPx : Float_t mPx[McTrack_]                                *
+*Entries :     3275 : Total  Size=      14592 bytes  File Size  =       1160 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  12.06     *
+*............................................................................*
+*Br  243 :McTrack.mPy : Float_t mPy[McTrack_]                                *
+*Entries :     3275 : Total  Size=      14592 bytes  File Size  =       1160 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  12.06     *
+*............................................................................*
+*Br  244 :McTrack.mPz : Float_t mPz[McTrack_]                                *
+*Entries :     3275 : Total  Size=      14592 bytes  File Size  =       1160 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  12.06     *
+*............................................................................*
+*Br  245 :McTrack.mE : Float_t mE[McTrack_]                                  *
+*Entries :     3275 : Total  Size=      14578 bytes  File Size  =       1148 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  12.18     *
+*............................................................................*
+*Br  246 :McTrack.mIsFromShower : Bool_t mIsFromShower[McTrack_]             *
+*Entries :     3275 : Total  Size=      14732 bytes  File Size  =       1260 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.18     *
+*............................................................................*
+*Br  247 :McTrack.mIdVtxStart : Short_t mIdVtxStart[McTrack_]                *
+*Entries :     3275 : Total  Size=      14704 bytes  File Size  =       1240 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.35     *
+*............................................................................*
+*Br  248 :McTrack.mIdVtxStop : Short_t mIdVtxStop[McTrack_]                  *
+*Entries :     3275 : Total  Size=      14690 bytes  File Size  =       1218 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.54     *
+*............................................................................*
+*Br  249 :McTrack.mIdVtxItrmd : Short_t mIdVtxItrmd[McTrack_]                *
+*Entries :     3275 : Total  Size=      14704 bytes  File Size  =       1240 *
+*Baskets :       10 : Basket Size=       4096 bytes  Compression=  11.35     *
+*............................................................................*

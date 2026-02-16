@@ -1,0 +1,44 @@
+Simple Unified Meta Scheduler 1.10.50
+File generated at : Sun Jan 18 15:09:42 EST 2026
+This file is a detailed report of SUMS meta job 451E6FD2DEA592D29281752EDA01A636 and its 2 processes.
+
+Jobs table :
++--------------------------------------------------------------------Jobs Of Request 451E6FD2DEA592D29281752EDA01A636---------------------------------------------------------------------+
++------------------------------------+-------------------------+-------+--------+------------+--------------------+-----------------------+----------------------+---------+--------------+
+| Job_ID                             | Queue                   | Files | Events | estRunTime | Target             | SubmitTime            | Dispatcher           | Success | DispatchTime |
++------------------------------------+-------------------------+-------+--------+------------+--------------------+-----------------------+----------------------+---------+--------------+
+| 451E6FD2DEA592D29281752EDA01A636_0 | bnl_condor_medium_quick | 1     | 18404  | n/a        | qgp019.rcf.bnl.gov | 18/01/2026 03:09:42午後 | CondorFastDispatcher | YES     | 1ms          |
+| 451E6FD2DEA592D29281752EDA01A636_1 | bnl_condor_medium_quick | 3     | 21498  | n/a        | qgp032.rcf.bnl.gov | 18/01/2026 03:09:42午後 | CondorFastDispatcher | YES     | 1ms          |
++------------------------------------+-------------------------+-------+--------+------------+--------------------+-----------------------+----------------------+---------+--------------+
+Request object report :
+ 
++----------------------------------------------Queues-----------------------------------------------+
++-------------------------+------+--------+-----------+---------+-------+--------+------------------+
+| ID                      | Name | Type   | TimeLimit | MaxMem  | Local | S.O.P. | Cluster          |
++-------------------------+------+--------+-----------+---------+-------+--------+------------------+
+| bnl_condor_medium_quick |      | CONDOR | 4320min   | 50000MB | N     | 50     | rcrs.rcf.bnl.gov |
++-------------------------+------+--------+-----------+---------+-------+--------+------------------+
+
+*************************************************************************
+
+*   This is a history of Job assignments.                               *
+
+*   If your Jobs are going to the wrong queue, this may tell you why.   *
+
+*************************************************************************
+
+
+
+
+Job object 451E6FD2DEA592D29281752EDA01A636_0 report :
+ 451E6FD2DEA592D29281752EDA01A636_0 trying (bnl_condor_medium_quick)
+451E6FD2DEA592D29281752EDA01A636_0 assigned to (bnl_condor_medium_quick)
+ 
+
+Job object 451E6FD2DEA592D29281752EDA01A636_1 report :
+ 451E6FD2DEA592D29281752EDA01A636_1 trying (bnl_condor_medium_quick)
+451E6FD2DEA592D29281752EDA01A636_1 assigned to (bnl_condor_medium_quick)
+ 
+
+End of Report
+

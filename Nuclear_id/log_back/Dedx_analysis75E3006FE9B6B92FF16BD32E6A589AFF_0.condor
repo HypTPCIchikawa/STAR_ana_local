@@ -1,0 +1,14 @@
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis75E3006FE9B6B92FF16BD32E6A589AFF_0.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/75E3006FE9B6B92FF16BD32E6A589AFF_0.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/75E3006FE9B6B92FF16BD32E6A589AFF_0.err
+Log              = /tmp/yichikawa/sched75E3006FE9B6B92FF16BD32E6A589AFF.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+

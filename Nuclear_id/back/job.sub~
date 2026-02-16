@@ -1,0 +1,20 @@
+universe              = vanilla
+executable            = run_root.csh
+arguments             = 0 test3_dd.list out
+
+output                = log/job.$(Cluster).$(Process).out
+error                 = log/job.$(Cluster).$(Process).err
+log                   = log/job.$(Cluster).log
+initialdir            = .
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files  = Analysis_DedxVsP.C,test3_dd.list,run_root.csh
+
++Experiment = "star"
++Job_Type   = "cas"
+Requirements = (CPU_Experiment == "star")
+
+request_memory = 2000MB
+
+queue 1

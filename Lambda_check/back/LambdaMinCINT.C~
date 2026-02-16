@@ -1,0 +1,110 @@
+// LambdaMinCINT.C  (ROOT5 / CINT only)
+
+#include <TROOT.h>
+#include <TSystem.h>
+#include <TVector3.h>
+#include <TMath.h>
+#include <iostream>
+
+class StChain;
+class StPicoDstMaker;
+class StPicoDst;
+class StPicoEvent;
+class StPicoTrack;
+class StPhysicalHelix;
+
+StChain *chain = 0;
+
+void LambdaMinCINT(
+		   Int_t nEvents = 10,
+		   const char* inList = "test2.list",
+  const char* outFile = "lambda_min.root"
+		   )
+{
+  // --- STAR shared libs ---
+  gROOT->LoadMacro("$STAR/StRoot/StMuDSTMaker/COMMON/macros/loadSharedLibraries.C");
+  loadSharedLibraries();
+  gSystem->Load("StPicoEvent");
+
+  chain = new StChain();
+  StPicoDstMaker *picoMaker =
+    new StPicoDstMaker(2, inList, "picoDst");
+
+  chain->Init();
+
+  Long64_t nChain = chain->GetNEntries();
+  Int_t nRun = (nEvents > 0 && nEvents < nChain) ? nEvents : nChain;
+
+  std::cout << "[LambdaMinCINT] entries in chain = "
+            << nChain << ", processing = " << nRun << std::endl;
+
+  // --- loop ---
+  for (Int_t i = 0; i < nRun; i++) {
+    chain->Clear();
+    chain->Make(i);
+
+    StPicoDst *dst = picoMaker->picoDst();
+    if (!dst) continue;
+
+    StPicoEvent *ev = dst->event();
+    TVector3 pv(ev->primaryVertex());
+
+    int nTrk = dst->numberOfTracks();
+
+    for (int i1 = 0; i1 < nTrk; i1++) {
+      StPicoTrack *t1 = dst->track(i1);
+      if (!t1 || t1->charge() <= 0) continue;
+
+      if (fabs(t1->nSigmaProton()) > 3.0) continue;
+
+      StPicoPhysicalHelix h1 = t1->helix();
+      StPhysicalHelix helix1(
+			     h1.origin(),
+			     h1.momentum(),
+			     h1.charge(),
+			     h1.bField()
+			     );
+
+      for (int i2 = 0; i2 < nTrk; i2++) {
+        StPicoTrack *t2 = dst->track(i2);
+        if (!t2 || t2->charge() >= 0) continue;
+
+        if (fabs(t2->nSigmaPion()) > 3.0) continue;
+
+        StPicoPhysicalHelix h2 = t2->helix();
+        StPhysicalHelix helix2(
+			       h2.origin(),
+			       h2.momentum(),
+			       h2.charge(),
+			       h2.bField()
+			       );
+
+        // --- closest approach ---
+        pair<double,double> ss = helix1.pathLengths(helix2);
+        TVector3 x1 = helix1.at(ss.first);
+        TVector3 x2 = helix2.at(ss.second);
+
+        TVector3 v0 = 0.5 * (x1 + x2);
+
+        if ((v0 - pv).Mag() < 1.0) continue;
+
+        TVector3 p = t1->pMom() + t2->pMom();
+
+        double mp = 0.938272;
+        double mpi = 0.139570;
+
+        double e1 = sqrt(t1->pMom().Mag2() + mp*mp);
+        double e2 = sqrt(t2->pMom().Mag2() + mpi*mpi);
+
+        double m = sqrt((e1+e2)*(e1+e2) - p.Mag2());
+
+        if (fabs(m - 1.11568) < 0.01) {
+	  std::cout << "Lambda candidate: M=" << m
+                    << " r=" << (v0-pv).Mag() << std::endl;
+        }
+      }
+    }
+  }
+
+  chain->Finish();
+}

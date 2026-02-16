@@ -1,0 +1,41 @@
+#include <iostream>
+#include "/afs/rhic.bnl.gov/star/packages/SL24a/StRoot/StPicoEvent/StPicoDstReader.h"
+#include "/afs/rhic.bnl.gov/star/packages/SL24a/StRoot/StPicoEvent/StPicoDst.h"
+#include "/afs/rhic.bnl.gov/star/packages/SL24a/StRoot/StPicoEvent/StPicoEvent.h"
+
+#include "TROOT.h"
+#include "TSystem.h"
+
+//#include "StPicoV0.h"
+
+void checkNV0() {
+
+  // 必須：STAR ライブラリ一式
+  gROOT->LoadMacro("$STAR/StRoot/StMuDSTMaker/COMMON/macros/loadSharedLibraries.C");
+  loadSharedLibraries();
+
+  gSystem->Load("libStPicoEvent");
+
+  const char* infile =
+    "/star/data107/reco/production_7p3GeV_fixedTarget_2020/"
+    "ReversedFullField/P24ia/2020/035/21035003/"
+    "st_physics_21035003_raw_1000019.picoDst.root";
+
+  StPicoDstReader* reader = new StPicoDstReader(infile);
+  reader->Init();
+
+  int nEvents = 0;
+
+  while ( reader->readPicoEvent() ) {
+
+    StPicoDst* picoDst = reader->picoDst();
+    if (!picoDst) continue;
+
+    unsigned int nV0 = picoDst->numberOfV0s();
+    cout << "Event " << nEvents << "  nV0 = " << nV0 << endl;
+
+    nEvents++;
+  }
+
+  cout << "Processed events = " << nEvents << endl;
+}

@@ -1,0 +1,574 @@
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_40.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_40.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_40.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_39.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_39.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_39.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_38.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_38.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_38.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_37.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_37.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_37.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_36.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_36.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_36.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_35.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_35.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_35.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_34.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_34.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_34.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_33.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_33.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_33.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_32.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_32.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_32.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_31.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_31.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_31.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_30.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_30.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_30.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_29.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_29.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_29.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_28.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_28.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_28.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_27.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_27.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_27.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_26.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_26.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_26.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_25.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_25.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_25.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_24.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_24.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_24.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_23.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_23.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_23.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_22.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_22.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_22.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_21.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_21.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_21.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_20.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_20.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_20.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_19.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_19.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_19.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_18.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_18.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_18.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_17.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_17.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_17.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_16.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_16.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_16.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_15.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_15.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_15.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_14.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_14.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_14.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_13.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_13.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_13.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_12.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_12.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_12.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_11.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_11.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_11.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_10.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_10.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_10.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_9.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_9.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_9.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_8.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_8.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_8.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_7.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_7.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_7.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_6.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_6.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_6.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_5.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_5.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_5.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_4.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_4.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_4.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_3.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_3.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_3.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_2.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_2.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_2.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_1.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_1.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_1.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+
+Universe         = vanilla
+Notification     = never
+Executable       = /bin/sh
+Arguments        = "-c 'exec /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/Dedx_analysis8DC7EA107675029C30CE30DDB2769867_0.csh'"
+Output           = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/log/8DC7EA107675029C30CE30DDB2769867_0.out
+Error            = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id/err/8DC7EA107675029C30CE30DDB2769867_0.err
+Log              = /tmp/yichikawa/sched8DC7EA107675029C30CE30DDB2769867.condor.log
+Initialdir       = /star/u/yichikawa/pwg/tmp_ana/Nuclear_id
+kill_sig         = SIGINT
+PeriodicRemove   = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Accounting_group = group_star.cas
+Priority         = +10
+Queue
+

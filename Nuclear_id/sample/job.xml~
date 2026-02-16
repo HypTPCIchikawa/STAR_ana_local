@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  SUMS job.xml for phi analysis (picoDst)
+  - Input: your local .list (filelist:)
+  - Split: 5 files per job
+  - Env: starver SL25a
+  - Macro: analyzePhiMeson.C
+      1st arg: config/mainconf/main.yaml
+      2nd arg: $JOBID
+      3rd arg: $FILELIST  (SUMS-generated per-job list)
+  - Output: write ROOT file into $SCRATCH (recommended), unique per job
+      e.g. $SCRATCH/phi_$JOBID.root
+-->
+
+<job name="phi_analysis" simulateSubmission="false" maxFilesPerProcess="1" fileListSyntax="paths">
+
+  <command>
+    mkdir -p log
+    starver SL25a
+    # Run ROOT macro in batch mode
+    root4star -q -b 'common/macro/analyzePhiMeson.C\(\"config/mainconf/main.yaml\",\"$JOBID\",\"$FILELIST\"\)'
+  </command>
+
+  <!-- Per-job logs (unique by $JOBID) -->
+
+  <stdout URL="file:/star/u/oura/work/starana/analysis_phi_pp500/log/$JOBID.out" />
+  <stdout URL="file:/star/u/oura/work/starana/analysis_phi_pp500/err/$JOBID.err" />
+  <!-- <stdout URL="file:$SCRATCH/stdout.$JOBID.txt" /> -->
+  <!-- <stderr URL="file:$SCRATCH/stderr.$JOBID.txt" /> -->
+
+  <!-- Input: replace with your .list absolute path -->
+
+  <input URL="filelist:/star/u/oura/work/starana/analysis_phi_pp500/config/picoDstList/pp500_2022_5file.list" />
+
+  <!-- Ship macro + config directory to worker node -->
+
+  <SandBox>
+    <Package>
+      <File>file:./common/macro/analyzePhiMeson.C</File>
+      <File>file:./config/</File>
+    </Package>
+  </SandBox>
+
+  <!-- Output collection:
+       Recommended: have the macro write exactly $SCRATCH/phi_$JOBID.root
+       Then SUMS will copy it back at job end.
+       Replace /ABS/PATH/TO/output_dir/ with your destination directory (absolute path, trailing /).
+  -->
+
+  <output fromScratch="phi_pp500_2022/phi_pp500_2022_analyzePhiMeson_$JOBID.root" toURL="file:/star/u/oura/work/starana/analysis_phi_pp500/rootfile/phi_pp500_2022/" />
+
+</job>

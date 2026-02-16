@@ -1,0 +1,147 @@
+// LambdaFromPico.C
+#include <TSystem.h>
+#include <TFile.h>
+#include <TH1D.h>
+#include <TMath.h>
+#include <TLorentzVector.h>
+
+class StChain;
+class StPicoDstMaker;
+class StPicoDst;
+class StPicoEvent;
+class StPicoTrack;
+
+StChain *chain = 0;
+
+void LambdaFromPico(Int_t nEvents=100, const char* inList="test2.list",
+                    const char* outFile="LambdaQA.root")
+{
+  // load STAR libs
+  gROOT->LoadMacro("$STAR/StRoot/StMuDSTMaker/COMMON/macros/loadSharedLibraries.C");
+  loadSharedLibraries();
+
+  gSystem->Load("StPicoEvent");
+  gSystem->Load("StPicoDstMaker");
+  gSystem->Load("StRefMultCorr");
+
+  chain = new StChain();
+  StPicoDstMaker* picoMaker = new StPicoDstMaker(2, inList, "picoDst");
+
+  if (chain->Init() == kStErr) { printf("chain->Init() failed\n"); return; }
+
+  // histograms
+  TFile *fout = new TFile(outFile,"RECREATE");
+  TH1D *hM = new TH1D("hM","p#pi^{-} invariant mass;M(p#pi^{-}) [GeV/c^{2}];counts", 200, 1.05, 1.25);
+  TH1D *hCosPA = new TH1D("hCosPA","cos(pointing angle);cosPA;counts", 200, -1, 1);
+  TH1D *hDL = new TH1D("hDL","decay length;L [cm];counts", 200, 0, 50);
+
+  Int_t total = picoMaker->chain()->GetEntries();
+  if (nEvents<=0 || nEvents>total) nEvents = total;
+  printf("Total entries = %d, processing = %d\n", total, nEvents);
+
+  int nCand = 0;
+
+  for (Int_t i=0; i<nEvents; i++) {
+    chain->Clear();
+    int iret = chain->Make(i);
+    if (iret) { printf("Bad return code %d at event %d\n", iret, i); break; }
+
+    StPicoDst* dst = picoMaker->picoDst();
+    if (!dst) continue;
+
+    StPicoEvent* ev = dst->event();
+    if (!ev) continue;
+
+    // PV and B-field
+    // NOTE: method names can differ slightly depending on pico version
+    TVector3 pv(ev->primaryVertex().x(), ev->primaryVertex().y(), ev->primaryVertex().z());
+    double B = ev->bField(); // if this fails, try ev->bField() equivalent in your version
+
+    const int nTrk = dst->numberOfTracks();
+    for (int ip=0; ip<nTrk; ip++) {
+      StPicoTrack* tp = dst->track(ip);
+      if (!tp) continue;
+
+      // basic quality (adjust to your analysis)
+      if (tp->charge() <= 0) continue;
+      if (tp->nHitsFit() < 15) continue;
+      if (tp->nHitsMax() > 0 && (double)tp->nHitsFit()/tp->nHitsMax() < 0.52) continue;
+
+      // PID proton
+      if (TMath::Abs(tp->nSigmaProton()) > 3.0) continue;
+
+      // momentum (global) at PV
+      // NOTE: depending on version: tp->gMom(pv, B) or tp->gMom(ev->primaryVertex(), B)
+      TVector3 pP(tp->gMom(pv, B).x(), tp->gMom(pv, B).y(), tp->gMom(pv, B).z());
+
+      // DCA to PV (needs method; if missing, skip or compute from helix)
+      // NOTE: depending on version: tp->gDCA(pv) or tp->dcaPoint(pv)
+      double dcaP = tp->gDCA(pv);
+      if (dcaP < 0.5) continue; // loosen/tighten later
+
+      for (int ipi=0; ipi<nTrk; ipi++) {
+        StPicoTrack* tpi = dst->track(ipi);
+        if (!tpi) continue;
+
+        if (tpi->charge() >= 0) continue;
+        if (tpi->nHitsFit() < 15) continue;
+        if (tpi->nHitsMax() > 0 && (double)tpi->nHitsFit()/tpi->nHitsMax() < 0.52) continue;
+
+        // PID pion
+        if (TMath::Abs(tpi->nSigmaPion()) > 3.0) continue;
+
+        TVector3 pPi(tpi->gMom(pv, B).x(), tpi->gMom(pv, B).y(), tpi->gMom(pv, B).z());
+        double dcaPi = tpi->gDCA(pv);
+        if (dcaPi < 0.5) continue;
+
+        // --- Secondary vertex from two helices (key part) ---
+        // We use StPhysicalHelixD if available via pico track helix methods.
+        // NOTE: method names vary: tp->helix(B) / tp->gHelix(B) etc.
+        StPhysicalHelixD helP = tp->helix(B);
+        StPhysicalHelixD helPi = tpi->helix(B);
+
+        // distance of closest approach between helices
+        pair<double,double> s = helP.pathLengths(helPi);
+        TVector3 xP( helP.at(s.first).x(),  helP.at(s.first).y(),  helP.at(s.first).z() );
+        TVector3 xPi(helPi.at(s.second).x(), helPi.at(s.second).y(), helPi.at(s.second).z());
+
+        TVector3 v0 = 0.5*(xP + xPi);
+        double dcaDau = (xP - xPi).Mag();
+        if (dcaDau > 1.0) continue; // tighten later
+
+        // decay length
+        TVector3 r = v0 - pv;
+        double dl = r.Mag();
+        if (dl < 1.0) continue;
+
+        // pointing angle
+        TVector3 pV0 = pP + pPi;
+        double cosPA = (pV0.Dot(r)) / (pV0.Mag()*r.Mag() + 1e-12);
+        if (cosPA < 0.995) continue;
+
+        // invariant mass
+        const double mp = 0.938272;
+        const double mpi = 0.139570;
+        TLorentzVector lp, lpi;
+        lp.SetVectM(pP, mp);
+        lpi.SetVectM(pPi, mpi);
+        double m = (lp + lpi).M();
+
+        hM->Fill(m);
+        hCosPA->Fill(cosPA);
+        hDL->Fill(dl);
+        nCand++;
+      }
+    }
+  }
+
+  fout->Write();
+  fout->Close();
+
+  printf("Done. Candidates filled = %d\n", nCand);
+
+  chain->Finish();
+  delete picoMaker;
+  delete chain;
+  chain = 0;
+}

@@ -1,0 +1,128 @@
+// LambdaInvMass_Helix.C
+// ROOT5 / CINT macro
+// picoDst + helix minimal V0 finder (Lambda)
+
+#include <TROOT.h>
+#include <TSystem.h>
+#include <TVector3.h>
+#include <TLorentzVector.h>
+#include <TH1D.h>
+#include <TCanvas.h>
+#include <iostream>
+
+using namespace std;
+
+// forward declarations (CINT safe)
+class StChain;
+class StPicoDstMaker;
+class StPicoDst;
+class StPicoEvent;
+class StPicoTrack;
+class StPhysicalHelix;
+
+StChain *chain = 0;
+
+void LambdaInvMass_Helix(Int_t nEvents = 100,
+                         const char* inList = "test2.list")
+{
+  // === load STAR libs ===
+  gROOT->LoadMacro("$STAR/StRoot/StMuDSTMaker/COMMON/macros/loadSharedLibraries.C");
+  loadSharedLibraries();
+
+  gSystem->Load("StPicoEvent");
+  gSystem->Load("StPicoDstMaker");
+
+  // === chain ===
+  chain = new StChain();
+  StPicoDstMaker *picoMaker =
+    new StPicoDstMaker(2, inList, "picoDst");
+
+  chain->Init();
+  StPicoDst *picoDst = picoMaker->picoDst();
+
+  int nEntries = picoMaker->chain()->GetEntries();
+  if (nEvents > nEntries) nEvents = nEntries;
+
+  cout << "[LambdaInvMass_Helix] entries=" << nEntries
+       << " processing=" << nEvents << endl;
+
+  // === histogram ===
+  TH1D *hMinv =
+    new TH1D("hMinv", "Lambda invariant mass;M(p#pi^{-}) [GeV/c^{2}]", 400, 1.05, 1.25);
+
+  const double mp  = 0.938272;
+  const double mpi = 0.139570;
+
+  // === event loop ===
+  for (int iEvt = 0; iEvt < nEvents; iEvt++) {
+    chain->Clear();
+    chain->Make(iEvt);
+
+    StPicoEvent *event = picoDst->event();
+    if (!event) continue;
+
+    TVector3 PV(event->primaryVertex().X(),
+                event->primaryVertex().Y(),
+                event->primaryVertex().Z());
+
+    int nTrk = picoDst->numberOfTracks();
+
+    // === track pairs ===
+    for (int i = 0; i < nTrk; i++) {
+      StPicoTrack *pTrk = picoDst->track(i);
+      if (!pTrk) continue;
+
+      // proton candidate
+      if (pTrk->charge() <= 0) continue;
+      if (fabs(pTrk->nSigmaProton()) > 3.0) continue;
+      if (pTrk->gDCA(PV.X(), PV.Y(), PV.Z()) < 0.5) continue;
+
+      StPhysicalHelix hP = pTrk->helix();
+
+      for (int j = 0; j < nTrk; j++) {
+        if (j == i) continue;
+        StPicoTrack *piTrk = picoDst->track(j);
+        if (!piTrk) continue;
+
+        // pion candidate
+        if (piTrk->charge() >= 0) continue;
+        if (fabs(piTrk->nSigmaPion()) > 3.0) continue;
+        if (piTrk->gDCA(PV.X(), PV.Y(), PV.Z()) < 0.5) continue;
+
+        StPhysicalHelix hPi = piTrk->helix();
+
+        // === helix DCA ===
+        pair<double,double> s =
+          hP.pathLengths(hPi);
+
+        TVector3 xP  = hP.at(s.first);
+        TVector3 xPi = hPi.at(s.second);
+
+        TVector3 v0 = 0.5 * (xP + xPi);
+
+        // daughters must be close
+        if ((xP - xPi).Mag() > 1.0) continue;
+
+        // V0 must be displaced
+        if ((v0 - PV).Mag() < 1.0) continue;
+
+        // === momenta at secondary vertex ===
+        TVector3 pP  = hP.momentumAt(s.first,  event->bField());
+        TVector3 pPi = hPi.momentumAt(s.second, event->bField());
+
+        TLorentzVector lp, lpi;
+        lp.SetVectM(pP, mp);
+        lpi.SetVectM(pPi, mpi);
+
+        double minv = (lp + lpi).M();
+        hMinv->Fill(minv);
+      }
+    }
+  }
+
+  // === draw ===
+  TCanvas *c1 = new TCanvas("c1","Lambda",800,600);
+  hMinv->Draw();
+
+  cout << "[LambdaInvMass_Helix] done" << endl;
+}

@@ -1,0 +1,410 @@
+  *******************************************
+  *                                         *
+  *        W E L C O M E  to  R O O T       *
+  *                                         *
+  *   Version   5.34/38     12 March 2018   *
+  *                                         *
+  *  You are welcome to visit our Web site  *
+  *          http://root.cern.ch            *
+  *                                         *
+  *******************************************
+
+ROOT 5.34/38 (v5-34-38@v5-34-38, Mar 12 2018, 15:49:39 on linux)
+
+CINT/ROOT C/C++ Interpreter version 5.18.00, July 2, 2010
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+ *** Start at Date : Wed Feb 26 06:42:04 2025
+
+Processing readPicoDst.C("21035003a.list","21035003a.root")...
+Note: File "/afs/rhic.bnl.gov/star/packages/SL24a/.sl73_gcc485/lib/StarClassLibrary.so" already loaded
+strangeArrayNames-arrayNames-__NARRAYS__ = 0
+ loading of shared libraries done
+StInfo: StPicoDstMaker::SetStatus 0 to Event
+StInfo: StPicoDstMaker::SetStatus 0 to Track
+StInfo: StPicoDstMaker::SetStatus 0 to EmcTrigger
+StInfo: StPicoDstMaker::SetStatus 0 to MtdTrigger
+StInfo: StPicoDstMaker::SetStatus 0 to BTowHit
+StInfo: StPicoDstMaker::SetStatus 0 to BTofHit
+StInfo: StPicoDstMaker::SetStatus 0 to MtdHit
+StInfo: StPicoDstMaker::SetStatus 0 to BbcHit
+StInfo: StPicoDstMaker::SetStatus 0 to EpdHit
+StInfo: StPicoDstMaker::SetStatus 0 to FmsHit
+StInfo: StPicoDstMaker::SetStatus 0 to EmcPidTraits
+StInfo: StPicoDstMaker::SetStatus 0 to BTofPidTraits
+StInfo: StPicoDstMaker::SetStatus 0 to MtdPidTraits
+StInfo: StPicoDstMaker::SetStatus 0 to TrackCovMatrix
+StInfo: StPicoDstMaker::SetStatus 0 to BEmcSmdEHit
+StInfo: StPicoDstMaker::SetStatus 0 to BEmcSmdPHit
+StInfo: StPicoDstMaker::SetStatus 0 to ETofHit
+StInfo: StPicoDstMaker::SetStatus 0 to ETofPidTraits
+StInfo: StPicoDstMaker::SetStatus 0 to McVertex
+StInfo: StPicoDstMaker::SetStatus 0 to McTrack
+StInfo: StPicoDstMaker::SetStatus 1 to Event
+StInfo: StPicoDstMaker::SetStatus 1 to Track
+StInfo: StPicoDstMaker::SetStatus 1 to BTofHit
+StInfo: StPicoDstMaker::SetStatus 1 to BTofPidTraits
+StInfo: StPicoDstMaker::SetStatus 1 to BbcHit
+StInfo: StPicoDstMaker::SetStatus 1 to EpdHit
+StInfo: StPicoDstMaker::SetStatus 1 to MtdHit
+StInfo: StPicoDstMaker::SetStatus 1 to BTowHit
+StInfo: StPicoDstMaker::SetStatus 1 to ETofPidTraits
+StBES2QaMaker: CalibrationMode = 1
+StBES2QaMaker: Data set = 14
+StBES2QaMaker: Set z-vertex cut parameter to be  vz<=70
+StBES2QaMaker: SetRunRange(21035000,21036020)
+StBES2QaMaker: SetFixedMode(1)  0=collider 1=fixed-target
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_1000008.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_1500006.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_2500007.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_3500007.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_3500011.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_4500004.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_4500012.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_5000009.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_6000014.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_7000004.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_7000018.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_adc_21035003_raw_6500002.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_adc_21035003_raw_7000019.picoDst.root
+StInfo:  Total 13 files have been read in.
+qvProf.txt has been opened to read
+LoadBBCalibParam(): File does not exist : (null)/21035003.root
+Could not open a calibration file for BBC gain correction !! Gain correction factors were set to 1.
+=============================================================
+ Data setup = Run20AuAu7p3
+ Calibration mode = 1
+ Selected trigger ID = 0  (all MB triggers)
+ Trigger efficiency correction = 0
+ Track efficiency correction = 0
+ z-vertex cut:  |vz|<=70
+ radial vertex cut:  vr<=2
+ DCA cut     :  dca<=3 (not for run16)
+ nHitsFit cut:  nHitsFit>=15
+ Track type (0=primary, 1=global) : 0
+=============================================================
+ Total entries = 297781
+Working on eventNumber 0
+Working on eventNumber 1000
+Working on eventNumber 2000
+Working on eventNumber 3000
+Working on eventNumber 4000
+Working on eventNumber 5000
+Working on eventNumber 6000
+Working on eventNumber 7000
+Working on eventNumber 8000
+Working on eventNumber 9000
+Working on eventNumber 10000
+Working on eventNumber 11000
+Working on eventNumber 12000
+Working on eventNumber 13000
+Working on eventNumber 14000
+Working on eventNumber 15000
+Working on eventNumber 16000
+Working on eventNumber 17000
+Working on eventNumber 18000
+Working on eventNumber 19000
+Working on eventNumber 20000
+Working on eventNumber 21000
+Working on eventNumber 22000
+Working on eventNumber 23000
+Working on eventNumber 24000
+Working on eventNumber 25000
+Working on eventNumber 26000
+Working on eventNumber 27000
+Working on eventNumber 28000
+Working on eventNumber 29000
+Working on eventNumber 30000
+Working on eventNumber 31000
+Working on eventNumber 32000
+Working on eventNumber 33000
+Working on eventNumber 34000
+Working on eventNumber 35000
+Working on eventNumber 36000
+Working on eventNumber 37000
+Working on eventNumber 38000
+Working on eventNumber 39000
+Working on eventNumber 40000
+Working on eventNumber 41000
+Working on eventNumber 42000
+Working on eventNumber 43000
+Working on eventNumber 44000
+Working on eventNumber 45000
+Working on eventNumber 46000
+Working on eventNumber 47000
+Working on eventNumber 48000
+Working on eventNumber 49000
+Working on eventNumber 50000
+Working on eventNumber 51000
+Working on eventNumber 52000
+Working on eventNumber 53000
+Working on eventNumber 54000
+Working on eventNumber 55000
+Working on eventNumber 56000
+Working on eventNumber 57000
+Working on eventNumber 58000
+Working on eventNumber 59000
+Working on eventNumber 60000
+Working on eventNumber 61000
+Working on eventNumber 62000
+Working on eventNumber 63000
+Working on eventNumber 64000
+Working on eventNumber 65000
+Working on eventNumber 66000
+Working on eventNumber 67000
+Working on eventNumber 68000
+Working on eventNumber 69000
+Working on eventNumber 70000
+Working on eventNumber 71000
+Working on eventNumber 72000
+Working on eventNumber 73000
+Working on eventNumber 74000
+Working on eventNumber 75000
+Working on eventNumber 76000
+Working on eventNumber 77000
+Working on eventNumber 78000
+Working on eventNumber 79000
+Working on eventNumber 80000
+Working on eventNumber 81000
+Working on eventNumber 82000
+Working on eventNumber 83000
+Working on eventNumber 84000
+Working on eventNumber 85000
+Working on eventNumber 86000
+Working on eventNumber 87000
+Working on eventNumber 88000
+Working on eventNumber 89000
+Working on eventNumber 90000
+Working on eventNumber 91000
+Working on eventNumber 92000
+Working on eventNumber 93000
+Working on eventNumber 94000
+Working on eventNumber 95000
+Working on eventNumber 96000
+Working on eventNumber 97000
+Working on eventNumber 98000
+Working on eventNumber 99000
+Working on eventNumber 100000
+Working on eventNumber 101000
+Working on eventNumber 102000
+Working on eventNumber 103000
+Working on eventNumber 104000
+Working on eventNumber 105000
+Working on eventNumber 106000
+Working on eventNumber 107000
+Working on eventNumber 108000
+Working on eventNumber 109000
+Working on eventNumber 110000
+Working on eventNumber 111000
+Working on eventNumber 112000
+Working on eventNumber 113000
+Working on eventNumber 114000
+Working on eventNumber 115000
+Working on eventNumber 116000
+Working on eventNumber 117000
+Working on eventNumber 118000
+Working on eventNumber 119000
+Working on eventNumber 120000
+Working on eventNumber 121000
+Working on eventNumber 122000
+Working on eventNumber 123000
+Working on eventNumber 124000
+Working on eventNumber 125000
+Working on eventNumber 126000
+Working on eventNumber 127000
+Working on eventNumber 128000
+Working on eventNumber 129000
+Working on eventNumber 130000
+Working on eventNumber 131000
+Working on eventNumber 132000
+Working on eventNumber 133000
+Working on eventNumber 134000
+Working on eventNumber 135000
+Working on eventNumber 136000
+Working on eventNumber 137000
+Working on eventNumber 138000
+Working on eventNumber 139000
+Working on eventNumber 140000
+Working on eventNumber 141000
+Working on eventNumber 142000
+Working on eventNumber 143000
+Working on eventNumber 144000
+Working on eventNumber 145000
+Working on eventNumber 146000
+Working on eventNumber 147000
+Working on eventNumber 148000
+Working on eventNumber 149000
+Working on eventNumber 150000
+Working on eventNumber 151000
+Working on eventNumber 152000
+Working on eventNumber 153000
+Working on eventNumber 154000
+Working on eventNumber 155000
+Working on eventNumber 156000
+Working on eventNumber 157000
+Working on eventNumber 158000
+Working on eventNumber 159000
+Working on eventNumber 160000
+Working on eventNumber 161000
+Working on eventNumber 162000
+Working on eventNumber 163000
+Working on eventNumber 164000
+Working on eventNumber 165000
+Working on eventNumber 166000
+Working on eventNumber 167000
+Working on eventNumber 168000
+Working on eventNumber 169000
+Working on eventNumber 170000
+Working on eventNumber 171000
+Working on eventNumber 172000
+Working on eventNumber 173000
+Working on eventNumber 174000
+Working on eventNumber 175000
+Working on eventNumber 176000
+Working on eventNumber 177000
+Working on eventNumber 178000
+Working on eventNumber 179000
+Working on eventNumber 180000
+Working on eventNumber 181000
+Working on eventNumber 182000
+Working on eventNumber 183000
+Working on eventNumber 184000
+Working on eventNumber 185000
+Working on eventNumber 186000
+Working on eventNumber 187000
+Working on eventNumber 188000
+Working on eventNumber 189000
+Working on eventNumber 190000
+Working on eventNumber 191000
+Working on eventNumber 192000
+Working on eventNumber 193000
+Working on eventNumber 194000
+Working on eventNumber 195000
+Working on eventNumber 196000
+Working on eventNumber 197000
+Working on eventNumber 198000
+Working on eventNumber 199000
+Working on eventNumber 200000
+Working on eventNumber 201000
+Working on eventNumber 202000
+Working on eventNumber 203000
+Working on eventNumber 204000
+Working on eventNumber 205000
+Working on eventNumber 206000
+Working on eventNumber 207000
+Working on eventNumber 208000
+Working on eventNumber 209000
+Working on eventNumber 210000
+Working on eventNumber 211000
+Working on eventNumber 212000
+Working on eventNumber 213000
+Working on eventNumber 214000
+Working on eventNumber 215000
+Working on eventNumber 216000
+Working on eventNumber 217000
+Working on eventNumber 218000
+Working on eventNumber 219000
+Working on eventNumber 220000
+Working on eventNumber 221000
+Working on eventNumber 222000
+Working on eventNumber 223000
+Working on eventNumber 224000
+Working on eventNumber 225000
+Working on eventNumber 226000
+Working on eventNumber 227000
+Working on eventNumber 228000
+Working on eventNumber 229000
+Working on eventNumber 230000
+Working on eventNumber 231000
+Working on eventNumber 232000
+Working on eventNumber 233000
+Working on eventNumber 234000
+Working on eventNumber 235000
+Working on eventNumber 236000
+Working on eventNumber 237000
+Working on eventNumber 238000
+Working on eventNumber 239000
+Working on eventNumber 240000
+Working on eventNumber 241000
+Working on eventNumber 242000
+Working on eventNumber 243000
+Working on eventNumber 244000
+Working on eventNumber 245000
+Working on eventNumber 246000
+Working on eventNumber 247000
+Working on eventNumber 248000
+Working on eventNumber 249000
+Working on eventNumber 250000
+Working on eventNumber 251000
+Working on eventNumber 252000
+Working on eventNumber 253000
+Working on eventNumber 254000
+Working on eventNumber 255000
+Working on eventNumber 256000
+Working on eventNumber 257000
+Working on eventNumber 258000
+Working on eventNumber 259000
+Working on eventNumber 260000
+Working on eventNumber 261000
+Working on eventNumber 262000
+Working on eventNumber 263000
+Working on eventNumber 264000
+Working on eventNumber 265000
+Working on eventNumber 266000
+Working on eventNumber 267000
+Working on eventNumber 268000
+Working on eventNumber 269000
+Working on eventNumber 270000
+Working on eventNumber 271000
+Working on eventNumber 272000
+Working on eventNumber 273000
+Working on eventNumber 274000
+Working on eventNumber 275000
+Working on eventNumber 276000
+Working on eventNumber 277000
+Working on eventNumber 278000
+Working on eventNumber 279000
+Working on eventNumber 280000
+Working on eventNumber 281000
+Working on eventNumber 282000
+Working on eventNumber 283000
+Working on eventNumber 284000
+Working on eventNumber 285000
+Working on eventNumber 286000
+Working on eventNumber 287000
+Working on eventNumber 288000
+Working on eventNumber 289000
+Working on eventNumber 290000
+Working on eventNumber 291000
+Working on eventNumber 292000
+Working on eventNumber 293000
+Working on eventNumber 294000
+Working on eventNumber 295000
+Working on eventNumber 296000
+Working on eventNumber 297000
+****************************************** 
+Work done... now its time to close up shop!
+****************************************** 
+StQAInfo: =================================================================================
+StQAInfo: QAInfo:Chain              StChain::bfcChain             Ast =23882.73        Cpu =23751.47
+StQAInfo: QAInfo:Maker        StBES2QaMaker::ana                  Ast =23605.42(98.8%) Cpu =23501.81(98.9%)
+StQAInfo: QAInfo:Maker       StPicoDstMaker::picoDst              Ast =277.31( 1.2%) Cpu =249.66( 1.1%)
+StBES2QaMaker::Finish()
+# of processed events = 297781
+StInfo: --------------Error Codes-------------------------
+StInfo:      nStOK   nStWarn    nStEOF    nStErr  nStFatal
+StInfo:     595562         0         0         0         0
+StInfo: --------------------------------------------------
+               StMemStat::Summary(calls)        Min        Aver         Max         RMS 
+=============================================================================================
+               StBES2QaMaker(ana)::Clear(297759)    0.000000    0.000000    0.000000    0.000000
+               StBES2QaMaker(ana)::Make (297760)-4095.987885   -0.001660    0.012131    7.506302
+          StPicoDstMaker(picoDst)::Clear(297759)    0.000000    0.000000    0.000000    0.000000
+          StPicoDstMaker(picoDst)::Make (297760)   -0.441902    0.000031    1.745628    0.007003
+---------------------------------------------------------------------------------------------
+                                   Total(4)-4095.987885   -0.001629    1.745628    7.506305
+=============================================================================================
+****************************************** 
+total number of events  297781
+****************************************** 
+RealTime: 23899.9 CpuTime: 23766.5

@@ -1,0 +1,174 @@
+// double BBscale(double p, double m_ref, double dedx_ref, double m_new, double Z)
+// {
+//   double beta_ref = p / sqrt(p*p + m_ref*m_ref);
+//   double beta_new = p / sqrt(p*p + m_new*m_new);
+
+//   return dedx_ref * (Z) * (beta_ref*beta_ref) / (beta_new*beta_new);
+// }
+
+double BBguess(double p,
+               double m_ref1, double dedx_ref1,   // pion
+               double m_ref2, double dedx_ref2,   // proton
+               double m_new,
+               double Z)
+{
+ 
+  double b1 = p / sqrt(p*p + m_ref1*m_ref1);
+  double b2 = p / sqrt(p*p + m_ref2*m_ref2);
+  double g1 = 1.0 / sqrt(1.0-b1*b1);
+  double g2 = 1.0 / sqrt(1.0-b2*b2);
+
+  double x1 = (1.0/(b1*b1))*(log(b1*b1*g1*g1 + 1.0) - b1*b1);
+  double x2 = (1.0/(b2*b2))*(log(b2*b2*g2*g2 + 1.0) - b2*b2);
+
+  // linear solve: dedx = A * x
+  double A = (dedx_ref2 - dedx_ref1) / (x2 - x1);
+
+  double b =  p / sqrt(p*p + m_new*m_new);
+  double g =  1.0 / sqrt(1.0-b*b);
+
+  double x = (1.0/(b*b))*(log(b*b*g*g + 1.0) - b*b);
+
+  return A * Z*Z * x;
+}
+
+
+
+void FitPID_LogPoly_Final(const char* infile = "DedxVsP_M2_production_3p85GeV_fixedTarget_2019.root" )
+{
+  TFile *fin = new TFile(infile);
+
+  TH2D *hAll = (TH2D*)fin->Get("hDedxP");
+
+  TH2D *hPID[4];
+  hPID[0] = (TH2D*)fin->Get("hDedxP_e");
+  hPID[1] = (TH2D*)fin->Get("hDedxP_pi");
+  hPID[2] = (TH2D*)fin->Get("hDedxP_K");
+  hPID[3] = (TH2D*)fin->Get("hDedxP_p");
+
+  const char* pname[8] = {"e","pi","K","p","d","t","He3","He4"};
+
+  // masses [GeV]
+  double m[8] = {
+    0.000511,  // e
+    0.13957,   // pi
+    0.49367,   // K
+    0.93827,   // p
+    1.8756,    // d
+    2.8089,    // t
+    2.8084,    // He3
+    3.7274     // He4
+  };
+  
+  TCanvas *c0 = new TCanvas("c0","Slice hist",900,700);
+  c0->SetLogy();
+  double Z[8] = {1,1,1,1,1,1,2,2};
+
+  int nbinX = hAll->GetNbinsX();
+
+  // output graphs
+  TGraphErrors *gr[8];
+  for(int i=0;i<8;i++) gr[i] = new TGraphErrors();
+
+  for(int ib=1; ib<=nbinX; ib++)
+    {
+      double p = hAll->GetXaxis()->GetBinCenter(ib);
+      if(p<0.4 || p>6.0) continue;
+
+      TH1D *hproj = hAll->ProjectionY(Form("hproj_%d",ib),ib,ib+1);
+      if(hproj->GetEntries()<100) continue;
+
+      // --- reference dedx from pi & p ---
+      double dedx_pi=-1, dedx_p=-1, sig_pi=1, sig_p=1;
+
+      for(int i=1;i<=3;i+=2) { // pi & p
+	TH1D *hp = hPID[i]->ProjectionY("tmp",ib,ib+1);
+	if(hp->GetEntries()<50) continue;
+
+	TF1 g("g","gaus",0,60);
+	//hp->Fit(&g,"QNR");
+	double peak = hp->GetBinCenter(hp->GetMaximumBin());
+	hp->Fit(&g,"QNR","",peak -2, peak + 2);
+
+	// c0->Update();
+	// getchar();
+	if(i==1){ dedx_pi=g.GetParameter(1); sig_pi=g.GetParameter(2); }
+	if(i==3){ dedx_p =g.GetParameter(1); sig_p =g.GetParameter(2); }
+	delete hp;
+      }
+
+      if(dedx_pi<0 || dedx_p<0) continue;
+
+      // --- build multi-gaussian ---
+      TString formula;
+      for(int i=0;i<8;i++){
+	formula += Form("gaus(%d)",3*i);
+	if(i!=7) formula += "+";
+      }
+
+      TF1 *f = new TF1("f",formula,0,150);
+
+      // --- initial parameters ---
+      for(int i=0;i<4;i++){
+	TH1D *hp = hPID[i]->ProjectionY("tmp2",ib,ib+1);
+	TF1 g("g","gaus",0,60);
+	//hp->Fit(&g,"QNR");
+	double peak = hp->GetBinCenter(hp->GetMaximumBin());
+	hp->Fit(&g,"","",peak -2, peak + 2);
+	hp->Fit(&g,"","",peak -2, peak + 2);
+	c0->Update();
+	getchar();
+	f->FixParameter(3*i,   g.GetParameter(0));
+	//f->SetParameter(3*i+1, g.GetParameter(1));
+	f->FixParameter(3*i+1, g.GetParameter(1));
+	f->FixParameter(3*i+2, g.GetParameter(2));
+	delete hp;
+      }
+
+      // --- infer d, t, He3, He4 from pi ---
+    
+
+      for(int i=4;i<8;i++){
+	//double mu = BBscale(p,mref,dedx_ref,m[i],Z[i]);
+	double mu = BBguess(p,
+			    m[1],dedx_pi,
+			    m[3],dedx_p, m[i],Z[i]);
+	f->SetParameter(3*i,   hproj->GetMaximum()/50);
+	f->SetParameter(3*i+1, mu);
+	f->SetParameter(3*i+2, 0.15*mu);
+	std::cout<<"i="<<i<<", mu="<<mu<<std::endl;
+      }
+
+      //hproj->Fit(f,"QNR");
+      hproj->Fit(f,"");
+      c0->Update();
+      getchar();
+      // --- store result ---
+      for(int i=0;i<8;i++){
+	gr[i]->SetPoint(gr[i]->GetN(), p, f->GetParameter(3*i+1));
+	gr[i]->SetPointError(gr[i]->GetN()-1, 0, f->GetParError(3*i+1));
+      }
+
+      delete hproj;
+      delete f;
+    }
+
+  // --- Bethe-Bloch log-polynomial fit ---
+  TCanvas *c = new TCanvas("c","BB",1600,800);
+  c->Divide(4,2);
+
+  for(int i=0;i<8;i++){
+    c->cd(i+1);
+    gr[i]->SetTitle(pname[i]);
+    gr[i]->SetMarkerStyle(20);
+
+    TF1 *fbb = new TF1(
+		       Form("fbb_%s",pname[i]),
+		       "[0]+[1]*log(x)+[2]*log(x)*log(x)",
+		       0.2,6.0);
+
+    fbb->SetParameters(1,1,0);
+    gr[i]->Fit(fbb,"R");
+    gr[i]->Draw("AP");
+  }
+}

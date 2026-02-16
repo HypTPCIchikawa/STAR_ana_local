@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ROOT
 *.root
 *.so
@@ -7,3 +8,40 @@
 
 # outputfile
 log/
+=======
+*.o
+*.so
+*.dylib
+*.pcm
+*.d
+CMakeCache.txt
+CMakeFiles/
+# Makefile
+cmake_install.cmake
+
+# binary
+build/
+bin/
+*.cpp~
+
+# ROOT
+*.root
+rootfile
+
+# ログ・出力テキスト
+*.log
+*.out
+*.pdf
+output/
+picodst
+log
+err
+output
+share
+
+# エディタ設定（VSCode）
+.vscode/
+
+# システムファイル
+.DS_Store
+>>>>>>> 7b67166... first commit

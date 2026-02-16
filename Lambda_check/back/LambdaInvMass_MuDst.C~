@@ -1,0 +1,80 @@
+#include "TChain.h"
+#include "TFile.h"
+#include "TH1D.h"
+#include "TSystem.h"
+#include "TMath.h"
+
+#include "StMuDSTMaker/COMMON/StMuDstMaker.h"
+#include "StMuDSTMaker/COMMON/StMuDst.h"
+#include "StMuDSTMaker/COMMON/StMuEvent.h"
+#include "StMuDSTMaker/COMMON/StV0MuDst.h"
+#include "StarClassLibrary/SystemOfUnits.h"
+
+void LambdaInvMass_MuDst(const char* list = "mudst.list",
+                         int nEvents = 100000)
+{
+  // ===============================
+  // Load STAR libraries explicitly
+  // ===============================
+  gSystem->Load("libStar");
+  gSystem->Load("libPhysics");
+  gSystem->Load("St_base");
+  gSystem->Load("StChain");
+  gSystem->Load("StUtilities");
+  gSystem->Load("StMuDSTMaker");
+
+  // ===============================
+  // MuDst chain
+  // ===============================
+  TChain* chain = new TChain("MuDst");
+  chain->Add(list);
+
+  StMuDstMaker* muDstMaker =
+    new StMuDstMaker(0, 0, "", list, "MuDst", nEvents);
+
+  muDstMaker->SetStatus("*", 1);
+  muDstMaker->Init();
+
+  // ===============================
+  // Histogram
+  // ===============================
+  TH1D* hLambda =
+    new TH1D("hLambda", "#Lambda invariant mass;M_{p#pi^{-}} (GeV/c^{2});Counts",
+             500, 1.05, 1.25);
+
+  // ===============================
+  // Event loop
+  // ===============================
+  int nEvt = muDstMaker->chain()->GetEntries();
+  if (nEvents > 0 && nEvents < nEvt) nEvt = nEvents;
+
+  for (int i = 0; i < nEvt; i++) {
+    muDstMaker->Make();
+    StMuDst* muDst = muDstMaker->muDst();
+    if (!muDst) continue;
+
+    int nV0 = muDst->numberOfV0s();
+    for (int iv0 = 0; iv0 < nV0; iv0++) {
+      StV0MuDst* v0 = muDst->v0(iv0);
+      if (!v0) continue;
+
+      // ===== basic quality cuts =====
+      if (v0->dcaDaughters() > 1.0) continue;
+      if (v0->decayLength() < 5.0) continue;
+      if (v0->cosTheta() < 0.995) continue;
+
+      // invariant mass (p + pi- hypothesis)
+      double m = v0->massLambda();
+      hLambda->Fill(m);
+    }
+  }
+
+  // ===============================
+  // Output
+  // ===============================
+  TFile* fout = new TFile("LambdaInvMass_MuDst.root", "RECREATE");
+  hLambda->Write();
+  fout->Close();
+
+  std::cout << "Finished. Output: LambdaInvMass_MuDst.root" << std::endl;
+}

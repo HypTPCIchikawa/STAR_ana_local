@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!DOCTYPE note [
+<!ENTITY run "21036013">
+]>
+<!-- Created on Thu Dec 18 03:29:56 2025 -->
+<job maxFilesPerProcess="10" fileListSyntax="xrootd" copyInputLocally="true">
+<command>
+starver SL24a
+pwd
+ls -l
+mv &run;aoutput1.txt aoutput1.txt
+ls -l
+root -q -b readPicoDst.C\(\"$FILELIST\",\"&run;_$JOBID.root\"\)
+ls -l
+pwd
+</command>
+<Generator>
+	<Location>/star/data01/pwg/onoritaka/Job/log/</Location>
+</Generator>
+<stdout URL="file:/star/data01/pwg/onoritaka/Job/out/&run;_$JOBID.out" />
+<stderr URL="file:/star/data01/pwg/onoritaka/Job/err/&run;_$JOBID.err"/>
+<input URL="catalog:star.bnl.gov?trgsetupname=production_7p3GeV_fixedTarget_2020,filetype=daq_reco_picoDst,filename~st_physics,production=P23ie,runnumber=&run;,storage!=HPSS" nFiles="all" />
+<output fromScratch="*.root" toURL="file:/star/data01/pwg/onoritaka/Job/file/" />
+<SandBox>
+	<Package> 
+		<File>file:/star/u/onoritaka/onoritaka/readPicoDst.C </File>
+		<File>file:/star/u/onoritaka/onoritaka/StRoot </File>
+		<File>file:/star/u/onoritaka/onoritaka/.sl73_gcc485</File>
+		<File>file:/star/u/onoritaka/onoritaka/&run;aoutput1.txt</File>
+	</Package>
+</SandBox>
+</job>

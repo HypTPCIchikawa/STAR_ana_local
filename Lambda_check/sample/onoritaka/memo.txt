@@ -1,0 +1,1 @@
+get_file_list.pl -keys path,filename -cond 'trgsetupname=production_7p3GeV_fixedTarget_2020,production=P24ia,filetype=daq_reco_picoDst,filename~st_physics,storage=nfs' -delim /

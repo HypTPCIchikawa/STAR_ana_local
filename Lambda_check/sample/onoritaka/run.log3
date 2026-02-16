@@ -1,0 +1,118 @@
+  *******************************************
+  *                                         *
+  *        W E L C O M E  to  R O O T       *
+  *                                         *
+  *   Version   5.34/38     12 March 2018   *
+  *                                         *
+  *  You are welcome to visit our Web site  *
+  *          http://root.cern.ch            *
+  *                                         *
+  *******************************************
+
+ROOT 5.34/38 (v5-34-38@v5-34-38, Mar 12 2018, 15:49:39 on linux)
+
+CINT/ROOT C/C++ Interpreter version 5.18.00, July 2, 2010
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+ *** Start at Date : Sat Jul 19 01:23:54 2025
+
+Processing readPicoDst.C("21035003a.list","21035003a.root")...
+Note: File "/afs/rhic.bnl.gov/star/packages/SL24a/.sl73_gcc485/lib/StarClassLibrary.so" already loaded
+strangeArrayNames-arrayNames-__NARRAYS__ = 0
+ loading of shared libraries done
+StInfo: StPicoDstMaker::SetStatus 0 to Event
+StInfo: StPicoDstMaker::SetStatus 0 to Track
+StInfo: StPicoDstMaker::SetStatus 0 to EmcTrigger
+StInfo: StPicoDstMaker::SetStatus 0 to MtdTrigger
+StInfo: StPicoDstMaker::SetStatus 0 to BTowHit
+StInfo: StPicoDstMaker::SetStatus 0 to BTofHit
+StInfo: StPicoDstMaker::SetStatus 0 to MtdHit
+StInfo: StPicoDstMaker::SetStatus 0 to BbcHit
+StInfo: StPicoDstMaker::SetStatus 0 to EpdHit
+StInfo: StPicoDstMaker::SetStatus 0 to FmsHit
+StInfo: StPicoDstMaker::SetStatus 0 to EmcPidTraits
+StInfo: StPicoDstMaker::SetStatus 0 to BTofPidTraits
+StInfo: StPicoDstMaker::SetStatus 0 to MtdPidTraits
+StInfo: StPicoDstMaker::SetStatus 0 to TrackCovMatrix
+StInfo: StPicoDstMaker::SetStatus 0 to BEmcSmdEHit
+StInfo: StPicoDstMaker::SetStatus 0 to BEmcSmdPHit
+StInfo: StPicoDstMaker::SetStatus 0 to ETofHit
+StInfo: StPicoDstMaker::SetStatus 0 to ETofPidTraits
+StInfo: StPicoDstMaker::SetStatus 0 to McVertex
+StInfo: StPicoDstMaker::SetStatus 0 to McTrack
+StInfo: StPicoDstMaker::SetStatus 1 to Event
+StInfo: StPicoDstMaker::SetStatus 1 to Track
+StInfo: StPicoDstMaker::SetStatus 1 to BTofHit
+StInfo: StPicoDstMaker::SetStatus 1 to BTofPidTraits
+StInfo: StPicoDstMaker::SetStatus 1 to BbcHit
+StInfo: StPicoDstMaker::SetStatus 1 to EpdHit
+StInfo: StPicoDstMaker::SetStatus 1 to MtdHit
+StInfo: StPicoDstMaker::SetStatus 1 to BTowHit
+StInfo: StPicoDstMaker::SetStatus 1 to ETofPidTraits
+StBES2QaMaker: CalibrationMode = 1
+StBES2QaMaker: Data set = 14
+StBES2QaMaker: Set z-vertex cut parameter to be  vz<=70
+StBES2QaMaker: SetRunRange(21035000,21036020)
+StBES2QaMaker: SetFixedMode(1)  0=collider 1=fixed-target
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_1000008.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_1500006.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_2500007.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_3500007.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_3500011.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_4500004.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_4500012.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_5000009.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_6000014.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_7000004.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_21035003_raw_7000018.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_adc_21035003_raw_6500002.picoDst.root
+StInfo:  Read in picoDst file /star/data90/reco/production_7p3GeV_fixedTarget_2020/ReversedFullField/P24ia/2020/035/21035003/st_physics_adc_21035003_raw_7000019.picoDst.root
+StInfo:  Total 13 files have been read in.
+aoutput1.txt has been opened to read
+0.024207 0.014827 -0.005040 0.003763 0.039140 -0.013294 0.016042 0.022229
+-0.019790 -0.029669 0.035294 -0.014787 -0.016482 -0.007549 -0.004086 0.015214
+LoadBBCalibParam(): File does not exist : (null)/21035003.root
+Could not open a calibration file for BBC gain correction !! Gain correction factors were set to 1.
+=============================================================
+ Data setup = Run20AuAu7p3
+ Calibration mode = 1
+ Selected trigger ID = 0  (all MB triggers)
+ Trigger efficiency correction = 0
+ Track efficiency correction = 0
+ z-vertex cut:  |vz|<=70
+ radial vertex cut:  vr<=2
+ DCA cut     :  dca<=3 (not for run16)
+ nHitsFit cut:  nHitsFit>=15
+ Track type (0=primary, 1=global) : 0
+=============================================================
+ Total entries = 297781
+Working on eventNumber 0
+****************************************** 
+Work done... now its time to close up shop!
+****************************************** 
+StQAInfo: =================================================================================
+StQAInfo: QAInfo:Chain              StChain::bfcChain             Ast = 45.28        Cpu = 43.63
+StQAInfo: QAInfo:Maker        StBES2QaMaker::ana                  Ast = 42.98(94.9%) Cpu = 42.93(98.4%)
+StQAInfo: QAInfo:Maker       StPicoDstMaker::picoDst              Ast =  2.30( 5.1%) Cpu =  0.70( 1.6%)
+StBES2QaMaker::Finish()
+# of processed events = 500
+StInfo: --------------Error Codes-------------------------
+StInfo:      nStOK   nStWarn    nStEOF    nStErr  nStFatal
+StInfo:       1000         0         0         0         0
+StInfo: --------------------------------------------------
+               StMemStat::Summary(calls)        Min        Aver         Max         RMS 
+=============================================================================================
+               StBES2QaMaker(ana)::Clear(478)    0.000000    0.000000    0.000000    0.000000
+               StBES2QaMaker(ana)::Make (479)    0.006058    0.012103    0.012115    0.000276
+          StPicoDstMaker(picoDst)::Clear(478)    0.000000    0.000000    0.000000    0.000000
+          StPicoDstMaker(picoDst)::Make (479)   -0.000496    0.000235    0.095589    0.004391
+---------------------------------------------------------------------------------------------
+                                   Total(4)   -0.000496    0.012338    0.095589    0.004399
+=============================================================================================
+****************************************** 
+total number of events  500
+****************************************** 
+RealTime: 50.1235 CpuTime: 45.7
+
+This is the end of STAR ROOT -- Goodbye
+

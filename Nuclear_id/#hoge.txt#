@@ -1,0 +1,15 @@
+#-------------------------------------------
+# Create a tiny ROOT macro to avoid quoting issues
+#-------------------------------------------
+cat > run_tmp.C << EOF
+void run_tmp() {
+  Analysis($NEVT, "$LIST", "$OUTDIR");
+}
+EOF
+
+echo "=== run_tmp.C ==="
+cat run_tmp.C
+echo "================="
+
+# Run
+root -l -b -q run_tmp.C
