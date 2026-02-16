@@ -1,0 +1,9 @@
+# ROOT
+*.root
+*.so
+*.d
+*.pcm
+*.out
+
+# outputfile
+log/
