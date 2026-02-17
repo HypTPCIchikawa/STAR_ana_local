@@ -1,6 +1,7 @@
 //============================================================
 // STAR picoDst analysis macro
 //  p vs dE/dx correlation
+//  (ACLiC なし .L のみで実行可能：NuclearPID をマクロ内に定義)
 //============================================================
 
 class StMaker;
@@ -14,8 +15,78 @@ class StPicoTrack;
 #include "TCanvas.h"
 #include "TVector3.h"
 #include <iostream>
+#include <cmath>
 
 using namespace std;
+
+//---- NuclearPID: マクロ内定義（NuclearPID.h と同期、コンパイルなし実行用） ----
+struct NuclearPID {
+  enum ParticleType { kDeuteron = 0, kTriton, kHe3, kHe4 };
+  double fMeanParams[4][4];   // [type][p0..p3]
+  double fSigmaParams[4][4];
+  double fRange[4][2];       // [type][0]=pMin, [1]=pMax
+
+  NuclearPID() {
+    // Mean (p0,p1,p2,p3): deuteron, triton, He3, He4
+    double mean[4][4] = {
+      {10.2875, -36.6639, 67.63, -45.2483},
+      {19.2177, -70.3198, 113.876, -67.0591},
+      {28.8747, -68.8637, 104.455, -56.9342},
+      {39.974, -103.365, 139.182, -67.1446}
+    };
+    // Sigma (p0,p1,p2,p3)
+    double sigma[4][4] = {
+      {0.771189, -2.63609, 2.8044, 0.0},
+      {1.40996, -4.97147, 4.97608, 0.0},
+      {1.636, -4.35588, 4.40594, 0.0},
+      {2.24127, -7.08328, 8.07124, 0.0}
+    };
+    // Momentum range [pMin, pMax]
+    double range[4][2] = {
+      {0.2, 6.0},
+      {0.2, 6.0},
+      {0.4, 5.0},
+      {0.4, 5.0}
+    };
+    for (int i = 0; i < 4; i++) {
+      for (int j = 0; j < 4; j++) {
+        fMeanParams[i][j] = mean[i][j];
+        fSigmaParams[i][j] = sigma[i][j];
+      }
+      fRange[i][0] = range[i][0];
+      fRange[i][1] = range[i][1];
+    }
+  }
+
+  bool IsValid(ParticleType type, double p) const {
+    int t = (int)type;
+    return (p >= fRange[t][0] && p <= fRange[t][1]);
+  }
+
+  double LogPoly(double p, const double* par) const {
+    if (p <= 0) return 0;
+    double lp = log10(p);
+    return par[0] + par[1]*lp + par[2]*lp*lp + par[3]*lp*lp*lp;
+  }
+
+  double GetMean(ParticleType type, double p) const {
+    if (!IsValid(type, p)) return 0;
+    return LogPoly(p, fMeanParams[(int)type]);
+  }
+
+  double GetSigma(ParticleType type, double p) const {
+    if (!IsValid(type, p)) return 0;
+    return LogPoly(p, fSigmaParams[(int)type]);
+  }
+
+  double GetNSigma(ParticleType type, double p, double dedx) const {
+    if (!IsValid(type, p)) return 999.0;
+    double mean = GetMean(type, p);
+    double sigma = GetSigma(type, p);
+    if (sigma <= 0) return 999.0;
+    return (dedx - mean) / sigma;
+  }
+};
 
 StChain *chain = 0;
 
@@ -24,16 +95,18 @@ void Analysis_DedxVsP_M2_job(Int_t nEvents,
 			     const char* jobid)
 {
 
-  double d_mean= 3.48096e+00;
-  double d_sigma= 1.41458e-01;
-
-  double He3_mean= 1.92385e+00;
+  // M2 cut parameters (TOF mass squared)
+  double d_mean   = 3.48096e+00;
+  double d_sigma  = 1.41458e-01;
+  double He3_mean = 1.92385e+00;
   double He3_sigma= 0.94e-01;
-
-  double t_mean= 7.76906e+00;
-  double t_sigma= 3.41755e-01;
+  double t_mean   = 7.76906e+00;
+  double t_sigma  = 3.41755e-01;
 
   if (nEvents == 0) nEvents = 1000000000;
+
+  // Nuclear PID (dE/dx nSigma for deuteron, triton, 3He, 4He)
+  NuclearPID pid;
 
   //============================================================
   // Load STAR libraries
@@ -164,7 +237,29 @@ void Analysis_DedxVsP_M2_job(Int_t nEvents,
 			      "TPC dE/dx vs p; p (GeV/c); dE/dx (keV/cm)",
 			      600, 0.0, 6.0,
 			      1200, 0.0, 120.0);
-  
+
+  TH2D *hDedxP_4He = new TH2D(
+			      "hDedxP_4He",
+			      "TPC dE/dx vs p; p (GeV/c); dE/dx (keV/cm)",
+			      600, 0.0, 6.0,
+			      1200, 0.0, 120.0);
+
+  // M2-selected (TOF mass squared cut)
+  TH2D *hDedxP_d_m2 = new TH2D(
+			       "hDedxP_d_m2",
+			       "TPC dE/dx vs p (M2 cut); p (GeV/c); dE/dx (keV/cm)",
+			       600, 0.0, 6.0,
+			       1200, 0.0, 120.0);
+  TH2D *hDedxP_t_m2 = new TH2D(
+			       "hDedxP_t_m2",
+			       "TPC dE/dx vs p (M2 cut); p (GeV/c); dE/dx (keV/cm)",
+			       600, 0.0, 6.0,
+			       1200, 0.0, 120.0);
+  TH2D *hDedxP_3He_m2 = new TH2D(
+				"hDedxP_3He_m2",
+				"TPC dE/dx vs p (M2 cut); p (GeV/c); dE/dx (keV/cm)",
+				600, 0.0, 6.0,
+				1200, 0.0, 120.0);
   
   
   TH2D *hM2P = new TH2D(
@@ -230,7 +325,18 @@ void Analysis_DedxVsP_M2_job(Int_t nEvents,
 	  fabs(trk->nSigmaKaon()) >2 && 
 	  fabs(trk->nSigmaProton()) >2) 
 	hDedxP_else->Fill(p, dedx);
-      
+
+      // dE/dx 2sigma selection (NuclearPID)
+      double nSigma_d   = pid.GetNSigma(NuclearPID::kDeuteron, p, dedx);
+      double nSigma_t   = pid.GetNSigma(NuclearPID::kTriton,  p, dedx);
+      double nSigma_3He = pid.GetNSigma(NuclearPID::kHe3,     p, dedx);
+      double nSigma_4He = pid.GetNSigma(NuclearPID::kHe4,     p, dedx);
+
+      if (fabs(nSigma_d)   < 2.0) hDedxP_d->Fill(p, dedx);
+      if (fabs(nSigma_t)   < 2.0) hDedxP_t->Fill(p, dedx);
+      if (fabs(nSigma_3He) < 2.0) hDedxP_3He->Fill(p, dedx);
+      if (fabs(nSigma_4He) < 2.0) hDedxP_4He->Fill(p, dedx);
+
       // ---- TOF m^2 ----
       if (!trk->isTofTrack()){
 	hDedxP_cut->Fill(p, dedx);
@@ -256,14 +362,11 @@ void Analysis_DedxVsP_M2_job(Int_t nEvents,
       double m2 = p*p*(1.0/(beta*beta) - 1.0);
       hM2P->Fill(p,m2);
 
-      if(m2>d_mean-1.5*d_sigma&&m2<d_mean+1.5*d_sigma)
-	hDedxP_d->Fill(p, dedx);
 
-      if(m2>t_mean-1.5*d_sigma&&m2<t_mean+1.5*d_sigma)
-	hDedxP_t->Fill(p, dedx);
-
-      if(m2>He3_mean-1.5*He3_sigma&&m2<He3_mean+1.5*He3_sigma)
-	hDedxP_3He->Fill(p, dedx);
+      // M2 selection (TOF mass squared)
+      if (m2 > d_mean   - 1.5 * d_sigma   && m2 < d_mean   + 1.5 * d_sigma)   hDedxP_d_m2->Fill(p, dedx);
+      if (m2 > t_mean   - 1.5 * t_sigma   && m2 < t_mean   + 1.5 * t_sigma)   hDedxP_t_m2->Fill(p, dedx);
+      if (m2 > He3_mean - 1.5 * He3_sigma && m2 < He3_mean + 1.5 * He3_sigma) hDedxP_3He_m2->Fill(p, dedx);
       
       if(m2>0.01&&m2<10.&&p>0.2) continue;
       else hDedxP_cut->Fill(p, dedx);
@@ -291,6 +394,10 @@ void Analysis_DedxVsP_M2_job(Int_t nEvents,
   hDedxP_d->Write();
   hDedxP_t->Write();
   hDedxP_3He->Write();
+  hDedxP_4He->Write();
+  hDedxP_d_m2->Write();
+  hDedxP_t_m2->Write();
+  hDedxP_3He_m2->Write();
   hM2P->Write();
   fout->Close();
 
