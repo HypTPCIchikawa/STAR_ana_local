@@ -244,6 +244,20 @@ void Analysis_DedxVsP_M2_job(Int_t nEvents,
 			      600, 0.0, 6.0,
 			      1200, 0.0, 120.0);
 
+  // 2sigma-selected: p vs PseudoRapidity, p vs Rapidity, p vs pT (d, t, 3He, 4He)
+  TH2D *hPvsEta_d   = new TH2D("hPvsEta_d",   "p vs #eta (2#sigma); p (GeV/c); #eta",   600, 0., 6., 100, -3., 3.);
+  TH2D *hPvsEta_t   = new TH2D("hPvsEta_t",   "p vs #eta (2#sigma); p (GeV/c); #eta",   600, 0., 6., 100, -3., 3.);
+  TH2D *hPvsEta_3He = new TH2D("hPvsEta_3He", "p vs #eta (2#sigma); p (GeV/c); #eta",   600, 0., 6., 100, -3., 3.);
+  TH2D *hPvsEta_4He = new TH2D("hPvsEta_4He", "p vs #eta (2#sigma); p (GeV/c); #eta",   600, 0., 6., 100, -3., 3.);
+  TH2D *hPvsY_d    = new TH2D("hPvsY_d",    "p vs y (2#sigma); p (GeV/c); y",           600, 0., 6., 100, -3., 3.);
+  TH2D *hPvsY_t    = new TH2D("hPvsY_t",    "p vs y (2#sigma); p (GeV/c); y",           600, 0., 6., 100, -3., 3.);
+  TH2D *hPvsY_3He  = new TH2D("hPvsY_3He",  "p vs y (2#sigma); p (GeV/c); y",           600, 0., 6., 100, -3., 3.);
+  TH2D *hPvsY_4He  = new TH2D("hPvsY_4He",  "p vs y (2#sigma); p (GeV/c); y",           600, 0., 6., 100, -3., 3.);
+  TH2D *hPvsPt_d   = new TH2D("hPvsPt_d",   "p vs p_{T} (2#sigma); p (GeV/c); p_{T} (GeV/c)", 600, 0., 6., 600, 0., 6.);
+  TH2D *hPvsPt_t   = new TH2D("hPvsPt_t",   "p vs p_{T} (2#sigma); p (GeV/c); p_{T} (GeV/c)", 600, 0., 6., 600, 0., 6.);
+  TH2D *hPvsPt_3He = new TH2D("hPvsPt_3He", "p vs p_{T} (2#sigma); p (GeV/c); p_{T} (GeV/c)", 600, 0., 6., 600, 0., 6.);
+  TH2D *hPvsPt_4He = new TH2D("hPvsPt_4He", "p vs p_{T} (2#sigma); p (GeV/c); p_{T} (GeV/c)", 600, 0., 6., 600, 0., 6.);
+
   // M2-selected (TOF mass squared cut)
   TH2D *hDedxP_d_m2 = new TH2D(
 			       "hDedxP_d_m2",
@@ -337,6 +351,43 @@ void Analysis_DedxVsP_M2_job(Int_t nEvents,
       if (fabs(nSigma_3He) < 2.0) hDedxP_3He->Fill(p, dedx);
       if (fabs(nSigma_4He) < 2.0) hDedxP_4He->Fill(p, dedx);
 
+      // p vs eta, p vs y, p vs pT (2sigma selection; masses in GeV/c^2)
+      const double M_d   = 1.87561;
+      const double M_t   = 2.80892;
+      const double M_3He = 2.80839;
+      const double M_4He = 3.72742;
+      double eta = pMom.PseudoRapidity();
+      double pT  = pMom.Perp();
+      double pz  = pMom.Z();
+      if (fabs(nSigma_d) < 2.0) {
+        double E = TMath::Sqrt(M_d*M_d + p*p);
+        double y = 0.5 * TMath::Log((E + pz) / (E - pz));
+        hPvsEta_d->Fill(p, eta);
+        hPvsY_d->Fill(p, y);
+        hPvsPt_d->Fill(p, pT);
+      }
+      if (fabs(nSigma_t) < 2.0) {
+        double E = TMath::Sqrt(M_t*M_t + p*p);
+        double y = 0.5 * TMath::Log((E + pz) / (E - pz));
+        hPvsEta_t->Fill(p, eta);
+        hPvsY_t->Fill(p, y);
+        hPvsPt_t->Fill(p, pT);
+      }
+      if (fabs(nSigma_3He) < 2.0) {
+        double E = TMath::Sqrt(M_3He*M_3He + p*p);
+        double y = 0.5 * TMath::Log((E + pz) / (E - pz));
+        hPvsEta_3He->Fill(p, eta);
+        hPvsY_3He->Fill(p, y);
+        hPvsPt_3He->Fill(p, pT);
+      }
+      if (fabs(nSigma_4He) < 2.0) {
+        double E = TMath::Sqrt(M_4He*M_4He + p*p);
+        double y = 0.5 * TMath::Log((E + pz) / (E - pz));
+        hPvsEta_4He->Fill(p, eta);
+        hPvsY_4He->Fill(p, y);
+        hPvsPt_4He->Fill(p, pT);
+      }
+
       // ---- TOF m^2 ----
       if (!trk->isTofTrack()){
 	hDedxP_cut->Fill(p, dedx);
@@ -398,6 +449,18 @@ void Analysis_DedxVsP_M2_job(Int_t nEvents,
   hDedxP_d_m2->Write();
   hDedxP_t_m2->Write();
   hDedxP_3He_m2->Write();
+  hPvsEta_d->Write();
+  hPvsEta_t->Write();
+  hPvsEta_3He->Write();
+  hPvsEta_4He->Write();
+  hPvsY_d->Write();
+  hPvsY_t->Write();
+  hPvsY_3He->Write();
+  hPvsY_4He->Write();
+  hPvsPt_d->Write();
+  hPvsPt_t->Write();
+  hPvsPt_3He->Write();
+  hPvsPt_4He->Write();
   hM2P->Write();
   fout->Close();
 
