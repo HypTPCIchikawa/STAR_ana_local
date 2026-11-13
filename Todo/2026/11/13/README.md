@@ -1,6 +1,6 @@
 # 2026-11-13 作業記録
 
-**最新更新（2026-11-14 JST）**：[quota整理と個人submodule公開](quota_cleanup_and_local_push.md)。指定7.7 GeV clone・旧テストROOT84本・旧ログ181,376件の削除は完了。圧縮ログと必要な基準データは保持し、Git公開の最終工程へ進んでいる。
+**最新更新（2026-11-14 JST）**：[quota整理と個人submodule公開](quota_cleanup_and_local_push.md)。指定7.7 GeV clone・旧テストROOT84本・旧ログ181,376件の削除は完了。圧縮ログと必要な基準データは保持し、個人submoduleへのpushとremote HEAD一致の確認まで完了。
 
 - [Λ–⁴He EP・YLab・track-merging解析コード修正](../../../../analysisnote/20261113/summary20261113.md)：実装とbatch build／回帰PASS、実Pico最終closure確認中。
 - [EP較正のrun coverage](../../../../rootfile/femto_lambda_epd_ylab_merging_validation_20261112_001/epd_run_coverage.json)：既存全投入snapshotの約90.2%のfilesに対応。残り81runsの追加較正が必要。

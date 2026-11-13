@@ -35,6 +35,11 @@
   "initialStagedPolicyCheckedFiles": 13431,
   "snapshotFileCount": 22454,
   "push": {
-    "state": "pending"
+    "verifiedAtJst": "2026-11-14T01:11:26.657437+09:00",
+    "initialSnapshotCommit": "e6529ae891770e981126e53fc7617391adf529b6",
+    "remoteHeadAtInitialVerification": "e6529ae891770e981126e53fc7617391adf529b6",
+    "remote": "git@github.com:HypTPCIchikawa/star_local_submodule.git",
+    "branch": "main",
+    "state": "published_and_remote_verified"
   }
 }
