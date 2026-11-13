@@ -1,5 +1,10 @@
 # Au+Au 13p5 GeV KFParticle Λ–4He解析の出力
 
+## 2026-11-04：明示承認後の容量整理
+
+統合済み元ROOT542本・hadd中間ROOT7本と成功ログ/SUMS生成物を削除した。最終統合ROOTはSHA256一致を確認して保持し、除外149・250・251と失敗記録・圧縮provenanceも保持。[削除明細と容量集計](/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/Todo/2026/11/04/storage_cleanup_20261104.md)。以下の非削除・保存の記述は整理前の履歴。
+
+
 ## KFParticle版summary（2026-10-03）
 
 - [まとめレポート：summary_4He_KFParticle.pdf](pdf/summary_4He_KFParticle.pdf)

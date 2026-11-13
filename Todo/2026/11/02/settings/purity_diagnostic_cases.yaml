@@ -1,0 +1,101 @@
+inspection_range: [0.0, 0.3]
+mass_display_range: [1.08, 1.15]
+model_warning_chi2_ndf: 3.0
+fine_centrality_labels:
+  0: "70-80%"
+  1: "60-70%"
+  2: "50-60%"
+  3: "40-50%"
+  4: "30-40%"
+  5: "20-30%"
+  6: "10-20%"
+  7: "5-10%"
+  8: "0-5%"
+group_labels:
+  cent20_80: "20-80%"
+  cent0_20: "0-20%"
+  cent0_10: "0-10%"
+  cent10_20: "10-20%"
+  cent20_60: "20-60%"
+source_figures:
+  method3:
+    figure: 13
+    pdf: kstar_cent_CFsub_method3_4He.pdf
+    page: 2
+  method5:
+    figure: 14
+    pdf: kstar_cent_CFsub_method5_4He.pdf
+    page: 2
+explicit_cases:
+  - source: grouped
+    method: method5
+    group: cent20_80
+    bin: 7
+    category: normalization_failure
+selection_rules:
+  - category: method3_low_statistics_difference
+    method: method3
+    count: 2
+    require_valid_se: true
+    require_valid_me: true
+    minimum_se_fit_count: null
+    maximum_se_fit_count: 500
+    minimum_abs_delta: 0.03
+    maximum_abs_delta: null
+    distinct_centralities: true
+    ranking: largest_difference
+  - category: method3_high_statistics_agreement
+    method: method3
+    count: 1
+    require_valid_se: true
+    require_valid_me: true
+    minimum_se_fit_count: 500
+    maximum_se_fit_count: null
+    minimum_abs_delta: null
+    maximum_abs_delta: 0.01
+    distinct_centralities: true
+    ranking: smallest_difference
+  - category: method3_low_statistics_failure
+    method: method3
+    count: 1
+    require_valid_se: false
+    require_valid_me: true
+    minimum_se_fit_count: 1
+    maximum_se_fit_count: 50
+    minimum_abs_delta: null
+    maximum_abs_delta: null
+    distinct_centralities: true
+    ranking: largest_se_count
+  - category: method5_large_difference
+    method: method5
+    count: 2
+    require_valid_se: true
+    require_valid_me: true
+    minimum_se_fit_count: null
+    maximum_se_fit_count: null
+    minimum_abs_delta: 0.02
+    maximum_abs_delta: null
+    distinct_centralities: true
+    ranking: largest_difference
+  - category: method5_high_statistics_agreement
+    method: method5
+    count: 2
+    require_valid_se: true
+    require_valid_me: true
+    minimum_se_fit_count: 1000
+    maximum_se_fit_count: null
+    minimum_abs_delta: null
+    maximum_abs_delta: 0.003
+    distinct_centralities: true
+    ranking: smallest_difference
+  - category: method5_high_statistics_difference
+    method: method5
+    count: 1
+    require_valid_se: true
+    require_valid_me: true
+    minimum_se_fit_count: 1000
+    maximum_se_fit_count: null
+    minimum_abs_delta: 0.005
+    maximum_abs_delta: null
+    distinct_centralities: true
+    ranking: largest_difference

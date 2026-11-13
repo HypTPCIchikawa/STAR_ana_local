@@ -1,0 +1,23 @@
+sourceMainconf: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_candidateStoreWriteNoJointSparse.yaml
+angularBins: 80
+angularHalfWidth: 0.25
+radiusM: 1.4
+tpcHalfLengthCm: 210.107
+prePidControl: true
+cent9Min: 0
+cent9Max: 8
+commonRadiiM:
+- 0.6
+- 0.8
+- 1.0
+- 1.2
+- 1.4
+- 1.6
+- 1.8
+kstarMax:
+- 0.2
+- 0.5
+candidateRoot: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/tests/candidate_store_no_joint_20261102_001/smoke.root
+picoList: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_quickcheck_20261111_001/smoke/pico.list
+outputRoot: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_quickcheck_20261111_001/smoke/qa.root
+outputJson: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_quickcheck_20261111_001/smoke/summary.json

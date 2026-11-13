@@ -14,6 +14,7 @@ import yaml
 
 from mass_half_statistics import (ErrorModel, normalized_cf, integrated_cf,
                                   purity_corrected_cf, contrast)
+from sample_provenance import resolve_sample
 
 HERE = Path(__file__).resolve().parent
 PROJECT = HERE.parents[1]
@@ -293,16 +294,20 @@ def settings_text(maker, settings, base):
     return text+''.join('group %s %d %d\n' % (g['id'],g['min'],g['max']) for g in settings['groups'])
 
 
-def main():
+def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--mainconf',required=True,type=Path)
     parser.add_argument('--input-root',required=True,type=Path)
     parser.add_argument('--energy',required=True,choices=['13p5','3p85'])
     parser.add_argument('--settings',type=Path,default=HERE/'mass_half_settings.yaml')
     parser.add_argument('--output-dir',type=Path)
+    parser.add_argument('--output-manifest',type=Path)
+    parser.add_argument('--runmeta',type=Path)
     parser.add_argument('--resume',action='store_true')
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
     source = args.input_root.resolve(strict=True)
+    sample = resolve_sample(args.energy, source, output_manifest=args.output_manifest,
+                            runmeta=args.runmeta)
     mainconf = args.mainconf.resolve(strict=True)
     config = yaml.safe_load(mainconf.read_text())
     maker_path = (PROJECT/'config'/config['maker']).resolve(strict=True)
@@ -312,7 +317,7 @@ def main():
     base_path = (settings_path.parent/settings['summary_settings']).resolve(strict=True)
     base = yaml.safe_load(base_path.read_text())
     out = (args.output_dir or source.parent/'pdf'/'mass_halves').resolve()
-    context = dict(input=fingerprint(source),energy=args.energy,config_hashes={str(p):digest(p) for p in
+    context = dict(input=fingerprint(source),energy=args.energy,sample=sample,config_hashes={str(p):digest(p) for p in
                    (mainconf,maker_path,settings_path,base_path)},mainconf=str(mainconf),settings=settings,base=base)
     context_path = out/'context.json'
     if context_path.exists():
@@ -350,7 +355,7 @@ def main():
     command([sys.executable,str(HERE/'report_mass_halves.py'),'--output-dir',str(out)],out/'logs/report.log')
     if fingerprint(source)!=context['input']: raise RuntimeError('Input ROOT changed during comparison.')
     save(out/'completed.json',dict(phase='complete',input_unchanged=True,
-        sources={str(p):digest(p) for p in (Path(__file__),extract_source,plot_source,HERE/'mass_half_statistics.py',HERE/'report_mass_halves.py')},
+        sources={str(p):digest(p) for p in (Path(__file__),extract_source,plot_source,HERE/'mass_half_statistics.py',HERE/'report_mass_halves.py',HERE/'sample_provenance.py')},
         extract_sha256=digest(extracted),comparison_sha256=digest(out/'comparison.json')))
     print('COMPLETE',out,flush=True)
 

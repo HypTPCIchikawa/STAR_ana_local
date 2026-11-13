@@ -1,0 +1,46 @@
+{
+  "campaign": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/validation/monitor_route_smoke_001",
+  "project": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer",
+  "inventory": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/validation/monitor_smoke_001/candidates.tsv",
+  "inventory_sha256": "bd3b318be7fe8983b8aa1c1ffa4f60dc0f3153b3c11b8aee6c16e49a8fee6bed",
+  "owner": "yichikawa",
+  "campaign_tag": "track_merging_monitor_fixture_20261111_001",
+  "poll_seconds": 30,
+  "merge_min_new_jobs": 64,
+  "merge_interval_seconds": 600,
+  "merge_batch_size": 128,
+  "root_batch_wrapper": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/script/singularity_root_batch.sh",
+  "frozen_mainconf": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/runtime_v2/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_candidateStoreWriteNoJointSparse.yaml",
+  "existing_histogram_exporter": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_audit_20261111_001/source/ExportMergingHistograms.C",
+  "origin_halfwidths": [
+    0.0125,
+    0.025,
+    0.05
+  ],
+  "species": [
+    "4He",
+    "3He",
+    "3HeAs4He"
+  ],
+  "daughters": [
+    "proton",
+    "pion"
+  ],
+  "expected_counter_templates": {
+    "GlobalMinusAsin": "global_formula_valid_hDphiDeta_selected_{species}_{daughter}",
+    "HelixFixedGlobalEta": "helix_fixed_valid_hDphiDeta_selected_{species}_{daughter}",
+    "HelixFixedSpatialEta": "helix_fixed_valid_hDphiDeta_selected_{species}_{daughter}",
+    "HelixClosestGlobalEta": "helix_common_valid_hDphiDeta_selected_{species}_{daughter}",
+    "HelixClosestSpatialEta": "helix_common_valid_hDphiDeta_selected_{species}_{daughter}"
+  },
+  "results_dir": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/validation/monitor_route_smoke_001/intentionally_absent_default_store",
+  "runtime_manifest_sha256": "64d10f4f3d1af2360ae5d952cfb66b24ceac5b708bd70b487344103e06daca7c",
+  "policy_sha256": "7883a51a8e90302fc4be4c5ec40ecfe920d9dd4f21192b464114749595f68fc9",
+  "source_result_routes": {
+    "0": {
+      "results_dir": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/validation/monitor_smoke_001/results",
+      "runtime_manifest_sha256": "64d10f4f3d1af2360ae5d952cfb66b24ceac5b708bd70b487344103e06daca7c",
+      "policy_sha256": "7883a51a8e90302fc4be4c5ec40ecfe920d9dd4f21192b464114749595f68fc9"
+    }
+  }
+}

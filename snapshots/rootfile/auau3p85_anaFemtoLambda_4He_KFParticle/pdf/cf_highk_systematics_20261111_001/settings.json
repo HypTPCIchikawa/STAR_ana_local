@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "input_export": "histograms.json",
+  "old_export": "histograms_04BF.json",
+  "normalization": [
+    0.4,
+    0.5
+  ],
+  "rebin_factor": 4,
+  "closure_rtol": 2e-07,
+  "slope_range": [
+    0.5,
+    0.8
+  ],
+  "high_windows": {
+    "high07_08": [
+      0.7,
+      0.8
+    ],
+    "high08_10": [
+      0.8,
+      1.0
+    ]
+  },
+  "species": [
+    "4He",
+    "3He",
+    "3HeAs4He"
+  ],
+  "stages": [
+    "selected",
+    "prePID"
+  ],
+  "groups": [
+    {
+      "id": "cent0_20",
+      "label": "0-20%",
+      "bins": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "cent20_80",
+      "label": "20-80%",
+      "bins": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "cent0_10",
+      "label": "0-10%",
+      "bins": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "cent10_20",
+      "label": "10-20%",
+      "bins": [
+        6
+      ]
+    },
+    {
+      "id": "cent20_60",
+      "label": "20-60%",
+      "bins": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "cent0",
+      "label": "70-80%",
+      "bins": [
+        0
+      ]
+    },
+    {
+      "id": "cent1",
+      "label": "60-70%",
+      "bins": [
+        1
+      ]
+    },
+    {
+      "id": "cent2",
+      "label": "50-60%",
+      "bins": [
+        2
+      ]
+    },
+    {
+      "id": "cent3",
+      "label": "40-50%",
+      "bins": [
+        3
+      ]
+    },
+    {
+      "id": "cent4",
+      "label": "30-40%",
+      "bins": [
+        4
+      ]
+    },
+    {
+      "id": "cent5",
+      "label": "20-30%",
+      "bins": [
+        5
+      ]
+    },
+    {
+      "id": "cent6",
+      "label": "10-20%",
+      "bins": [
+        6
+      ]
+    },
+    {
+      "id": "cent7",
+      "label": "5-10%",
+      "bins": [
+        7
+      ]
+    },
+    {
+      "id": "cent8",
+      "label": "0-5%",
+      "bins": [
+        8
+      ]
+    }
+  ],
+  "mass_suffixes": {
+    "signal": "",
+    "SBNeg": "_SBNeg",
+    "SBPos": "_SBPos",
+    "signalLow": "_signalLow",
+    "signalHigh": "_signalHigh"
+  },
+  "baseline_species": {
+    "4He": "he4",
+    "3He": "he3",
+    "3HeAs4He": "he3_as_he4"
+  },
+  "baseline_mass_suffixes": {
+    "signal": "signal",
+    "SBNeg": "leftSB",
+    "SBPos": "rightSB",
+    "signalLow": "signalLow",
+    "signalHigh": "signalHigh"
+  },
+  "nsigma_windows": {
+    "abs06": [
+      -0.6,
+      0.6
+    ],
+    "abs10": [
+      -1.0,
+      1.0
+    ],
+    "abs14": [
+      -1.4,
+      1.4
+    ],
+    "abs20": [
+      -2.0,
+      2.0
+    ],
+    "negative": [
+      -2.0,
+      0.0
+    ],
+    "positive": [
+      0.0,
+      2.0
+    ]
+  },
+  "rigidity_windows": {
+    "Rlow": [
+      0.0,
+      2.0
+    ],
+    "Rhigh": [
+      2.0,
+      5.0
+    ],
+    "Rlt10": [
+      0.0,
+      1.0
+    ],
+    "R10_15": [
+      1.0,
+      1.5
+    ],
+    "R15_20": [
+      1.5,
+      2.0
+    ],
+    "R20_50": [
+      2.0,
+      5.0
+    ]
+  },
+  "normalization_windows": {
+    "norm30_40": [
+      0.3,
+      0.4
+    ],
+    "norm40_50": [
+      0.4,
+      0.5
+    ],
+    "norm50_60": [
+      0.5,
+      0.6
+    ],
+    "norm50_80": [
+      0.5,
+      0.8
+    ]
+  },
+  "limitations": [
+    "Raw Lambda mass-gate pair CF, no purity correction or physical plateau claim.",
+    "Independent one-dimensional NSigma and rigidity selections; no simultaneous R/NSigma cut from these TH2s.",
+    "prePID removes TPC pull/best-species only; quality/R/TOF preserved, existing physical pool unchanged.",
+    "Rigidity from Float-stored physical P4 divided by two; slices exactly follow stored histogram bins.",
+    "Counts from 26945/26994 subjobs (49 excluded), 2021 P24iy only.",
+    "Statistical uncertainties omit event reuse and shared mixed-pair correlations.",
+    "QA TH2D counts are used for this diagnostic and matching old/new comparison. Legacy physical TH2F projections retain original regular-bin tolerance; kstar flow bins allow at most eight Float32 ULP and exact discrepancies are recorded."
+  ],
+  "mt_windows": {
+    "4He": {
+      "mt24_26": [
+        2.4,
+        2.6
+      ],
+      "mt26_28": [
+        2.6,
+        2.8
+      ],
+      "mt28_30": [
+        2.8,
+        3.0
+      ],
+      "mt30_32": [
+        3.0,
+        3.2
+      ]
+    },
+    "3HeAs4He": {
+      "mt24_26": [
+        2.4,
+        2.6
+      ],
+      "mt26_28": [
+        2.6,
+        2.8
+      ],
+      "mt28_30": [
+        2.8,
+        3.0
+      ],
+      "mt30_32": [
+        3.0,
+        3.2
+      ]
+    },
+    "3He": {
+      "mt20_22": [
+        2.0,
+        2.2
+      ],
+      "mt22_24": [
+        2.2,
+        2.4
+      ],
+      "mt24_26": [
+        2.4,
+        2.6
+      ],
+      "mt26_28": [
+        2.6,
+        2.8
+      ]
+    }
+  },
+  "legacy_float_flow_max_ulps": 8
+}

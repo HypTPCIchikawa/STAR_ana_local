@@ -1,5 +1,10 @@
 # 2021 P24iy：通常ヒスト統合ROOTと8次元PID分割ROOT
 
+## 2026-11-04：容量整理済み
+
+ユーザー指示により、検証済みの統合前ROOT・hadd中間ROOTと成功ログを削除した。最終通常ROOT・Sparse3part・旧部分統合ROOTは保持。今回2AFの未統合ROOTは保持。[削除明細と容量見積もり](/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/Todo/2026/11/04/storage_cleanup_20261104.md)。以下の保存・非削除の記述は整理前の履歴。
+
+
 この保存形式は2026-10-26にユーザー承認。データはSUMS 04BF2DAE47164B6F040E3A460E539289の正常終了26,955/26,994 subjobs。解析コード・PID・選択条件は変更していない。ファイルの完成判定は同じ出力先のmanifestと監視記録result.json（phase=merged）、archive_result.json、sent.jsonを確認する。
 
 - 通常の1,786ヒスト：`auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_merge.root`。巨大な`hNuclearPidPairJoint`はこのROOTから除き、代わりに`NuclearPidPairJointSplitManifest`を保存する。

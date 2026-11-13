@@ -1,0 +1,95 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=18mm]{geometry}
+\usepackage{amsmath,booktabs,hyperref,pdfpages}
+\hypersetup{colorlinks=true,urlcolor=blue,linkcolor=blue}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
+\begin{document}
+\begin{center}{\Large $\Lambda$--He track-merging histogram audit}\\[4pt]
+3.85 GeV fixed target, 2021 P24iy \quad 11 November 2026 (JST)\end{center}
+\textbf{Finding.} The absence of a peak at $(\Delta\varphi^*,\Delta\eta)=(0,0)$ is reproduced in the saved histograms.
+However, their construction has confirmed problems. The existing maps cannot establish that close-track effects are absent.
+
+\textbf{1. Wrong curvature sign, including the \texttt{EventField} variant.}
+\texttt{FemtoLambdaLegacy.cxx:997--998} uses
+\[\Delta\varphi^*_{\rm current}=\varphi_p-\varphi_{\rm He}
+ +\arcsin(A_p)-\arcsin(A_{\rm He}),\qquad A_i=\frac{0.3q_iBr}{2p_{T,i}}.\]
+A direct SL24y \texttt{StPhysicalHelixD} position-at-radius calculation instead gives
+\[\varphi(r)=\varphi_0-\arcsin\!\left(\frac{0.299792458qBr}{2p_T}\right),\]
+for an outgoing track starting at the origin; $B$ is in T, $r$ in m, and physical $p_T$ in GeV/$c$.
+The required curvature terms in the difference therefore have the opposite signs.
+
+A ROOT 5.34/38 test of 192 tracks with both field polarities and charge signs verified this:
+\begin{center}\begin{tabular}{lc}\toprule
+Formula versus STAR helix spatial azimuth & Maximum difference [rad]\\\midrule
+Current positive asin & 0.8665705\\
+Negative asin with conventional coefficient 0.3 & 0.0003201\\
+Negative asin with coefficient 0.299792458 & $1.33\times10^{-15}$\\\bottomrule\end{tabular}\end{center}
+An ideal proton--He pair placed at exactly the same azimuth at $r=1.4$ m has real
+$\Delta\varphi^*\simeq0$, but the current expression gives $+0.17935$ rad.
+This is not an overall sign convention for the axis: reversing an axis would leave zero at zero.
+This test proves the formula issue; it does not regenerate the measured sample.
+
+\textbf{2. Primary-fit requirement on the secondary proton daughter.}
+Lines 987--988 require \texttt{p->pPt()>0} and use \texttt{pMom()} for the $\Lambda$ daughter.
+SL24y \texttt{StPicoTrack.h:72,178} returns zero primary momentum when no primary fit is stored.
+The same analysis correctly uses \texttt{gMom()} for daughter acceptance at lines 848--850.
+The angular QA consequently uses a different subset and daughter momentum from the selected $\Lambda$ sample.
+
+\textbf{3. Additional legacy-only charge/rigidity issue.}
+The unsuffixed histogram uses a fixed $+0.5$ T and $Z=2$ with unscaled nuclear rigidity $p_T$.
+For physical nuclear charge and momentum, $2/(2p_T^{\rm rigidity})=1/p_T^{\rm rigidity}$;
+the old expression doubles the nuclear curvature term. \texttt{EventField} fixes this factor and uses the event field,
+but retains issues 1 and 2.
+
+\textbf{Further geometric limitation.} The radius is fixed at 1.4 m. The asin argument is clamped without checking whether
+both tracks reach that radius inside the TPC. The FXT vertex near $z=2$ m and secondary-track origins make this relevant.
+A valid close-pair QA should use global track geometry and a common reachable radius, including TPC endcaps.
+\newpage
+\textbf{Saved-data audit.} The actual 1CE runtime source, Maker and histogram configuration were compared byte for byte
+with the current files; all five checked files match. These are production issues, not later local changes.
+The merge is the verified partial 2021 P24iy sample, SUMS
+\texttt{1CE33994716F7896423A80AB994BAB14}; 26,945/26,994 subjobs, 49 excluded.
+
+\begin{center}\begin{tabular}{lrr}\toprule
+$^4$He QA quantity & Legacy & EventField\\\midrule
+All $\Lambda$ signal SE pairs, all $k^*$ & 2,641,987 & 2,641,987\\
+Merging histogram Entries, including flow & 2,253,813 & 2,253,813\\
+QA fill fraction of selected signal pairs & 85.3075\% & 85.3075\%\\
+Counts in displayed square $[-0.25,0.25)^2$ & 58,100 & 57,813\\
+Fraction in displayed square & 2.5779\% & 2.5651\%\\
+Counts in origin square $[-0.005,0.005)^2$ & 19 & 18\\
+Counts in origin square $[-0.01,0.01)^2$ & 89 & 80\\
+Counts in origin square $[-0.02,0.02)^2$ & 368 & 320\\\bottomrule\end{tabular}\end{center}
+Both axes have 200 bins over $[-0.25,0.25)$: width 0.0025.
+The $^4$He map averages about 1.45 entries per displayed bin; its origin $\pm0.01$ square contains only 64 bins.
+The EventField central-to-adjacent-square-ring density ratio is $1.00\pm0.13$ there, using count-only errors.
+The narrow range naturally puts most unrelated pairs in flow; flow is retained, not discarded data.
+The 85.3\% fill rate is QA admission, not evidence for 14.7\% detector pair loss.
+
+All six histograms have total-bin sums equal to Entries. The two conventions have equal Entries for each species.
+Physical $^3$He and $^3$He with $^4$He mass are exactly identical, bin by bin, as geometry requires.
+Global maps, origin zooms and projections confirm the lack of a sharp excess in the current definitions.
+
+\textbf{Scope.} These are raw SE signal-window maps, integrated over all $k^*$ and centralities, for
+proton daughter versus nucleus only. There is no pion-daughter map, angular ME reference,
+or $k^*$--centrality--rigidity angular information in these histograms.
+Track merging can reduce close-pair reconstruction efficiency; a peak in raw SE is not required.
+Splitting and merging are distinct effects; see the detector-effects discussion in
+\href{https://arxiv.org/pdf/1507.06842}{ALICE, arXiv:1507.06842, Sections 2 and 3.3}.
+No ALICE cut value is transferred to this STAR sample.
+
+\textbf{Relation to the high-$k^*$ CF.} The physical pair histograms are filled before this QA function,
+and the current configuration has \texttt{closePairEnabled:false}.
+The wrong QA formula therefore does not directly cut existing CF pairs.
+The actual effect of detector pair efficiency on that CF remains unmeasured here.
+
+\textbf{Required next validation.} Recalculate the angular QA from global daughter/nuclear track geometry,
+with the correct field sign and charge/rigidity convention, and test reachable TPC radii.
+Include both $\Lambda$ daughters and matched SE/ME views with $k^*$ and centrality information.
+Validate with STAR helix and a small unchanged-selection PicoDst sample before any full production rerun or close-pair cut.
+Existing two-dimensional maps cannot be corrected by a single axis flip or fixed shift, and cannot recover omitted tracks.
+
+Production source, cuts and ROOTs were not modified. The accompanying nine atlas pages show the existing, uncorrected
+histograms: three pages each for $^4$He, $^3$He, and mapped $^3$He.
+\includepdf[pages=-,landscape=true,pagebox=cropbox]{merging_histograms_20261111.pdf}
+\end{document}

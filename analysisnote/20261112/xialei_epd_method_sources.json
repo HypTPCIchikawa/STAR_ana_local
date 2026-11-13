@@ -1,0 +1,67 @@
+{
+  "created_at_jst": "2026-11-12T23:13:17.332691+09:00",
+  "run_count": 388,
+  "first_runs": [
+    22158032,
+    22158033,
+    22158036,
+    22159001,
+    22159003
+  ],
+  "last_runs": [
+    22178012,
+    22178013,
+    22179020,
+    22179021,
+    22179022
+  ],
+  "files": [
+    {
+      "path": "/gpfs01/star/pwg/xjiang2/jxl/tree_p24iy/StRoot_v2/Shift/Shift.cxx",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/xjiang2/jxl/tree_p24iy/StRoot_v2/Shift/Shift.cxx",
+      "size": 45671,
+      "mtime_ns": 1784836617918294129,
+      "sha256": "7b906ae39311a83d4919f0b8a2ea2efe9ea6058307e7f828345c08e620bf2d44"
+    },
+    {
+      "path": "/gpfs01/star/pwg/xjiang2/jxl/tree_p24iy/StRoot_v2/run/run.h",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/xjiang2/jxl/tree_p24iy/StRoot_v2/run/run.h",
+      "size": 5492,
+      "mtime_ns": 1784836618109301405,
+      "sha256": "469832f406e0b24aab45830bfb052d927f9f250ce7160cba408441107acd1e93"
+    },
+    {
+      "path": "/gpfs01/star/pwg/xjiang2/jxl/tree_p24iy/StRoot_v2/StEpdUtil/StEpdEpInfo.cxx",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/xjiang2/jxl/tree_p24iy/StRoot_v2/StEpdUtil/StEpdEpInfo.cxx",
+      "size": 8244,
+      "mtime_ns": 1784836617941295005,
+      "sha256": "e16ef29a1504f98305afda24d81cf1837847a85394e3459119badb6b7b7d4e14"
+    },
+    {
+      "path": "/gpfs01/star/pwg/xjiang2/jxl/correlation/dlambda/CorrAna.cxx",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/xjiang2/jxl/correlation/dlambda/CorrAna.cxx",
+      "size": 80013,
+      "mtime_ns": 1784841115473568921,
+      "sha256": "178e4d8881332c181730520174cdc50e63f4bb80e61a93e179b890f383ce7ed3"
+    },
+    {
+      "path": "/star/u/jhan1/pwgdata/3p0/EP_P24iy/recenter/recenterpar.root",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/jhan1/3p0/EP_P24iy/recenter/recenterpar.root",
+      "size": 3827598,
+      "mtime_ns": 1763719461580940000,
+      "sha256": "03b4e70b5af1143e628b09a69a8aca791f0ec39b4ddb2ab842bbac13372dd5d0"
+    },
+    {
+      "path": "/star/u/jhan1/pwgdata/3p0/EP_P24iy/shiftpar/shiftpar.root",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/jhan1/3p0/EP_P24iy/shiftpar/shiftpar.root",
+      "size": 40788318,
+      "mtime_ns": 1763920653204931087,
+      "sha256": "75621a71e6a90b161e5e45eeda76754c0aac30ab312540abea07b8b18e85d5e0"
+    }
+  ],
+  "calibration_files_readable": true,
+  "calibration_root_objects_validated": false,
+  "implementation_applied": false,
+  "jobs_submitted": false,
+  "root_files_opened_with_ROOT": false
+}

@@ -1,0 +1,51 @@
+summary_settings: summary_settings.yaml
+groups:
+- id: cent20_80
+  label: 20-80%
+  min: 0
+  max: 5
+- id: cent0_20
+  label: 0-20%
+  min: 6
+  max: 8
+- id: cent0_10
+  label: 0-10%
+  min: 7
+  max: 8
+- id: cent10_20
+  label: 10-20%
+  min: 6
+  max: 6
+- id: cent20_60
+  label: 20-60%
+  min: 2
+  max: 5
+group_sets:
+- - cent20_80
+  - cent0_20
+- - cent0_10
+  - cent10_20
+  - cent20_60
+comparison_range:
+- 0.0
+- 0.2
+inspection_range:
+- 0.0
+- 0.4
+extract_kstar_max: 1.0
+method6_purity_source: method5_ME
+representative_bins:
+  method3:
+  - 1
+  - 6
+  - 16
+  method5:
+  - 1
+  - 3
+  - 7
+fit_model: gaus(0)+pol2(3)
+mass_display_range:
+- 1.08
+- 1.15
+shared_purity_error: true
+report_stem: method6_cf_purity_report_20261031

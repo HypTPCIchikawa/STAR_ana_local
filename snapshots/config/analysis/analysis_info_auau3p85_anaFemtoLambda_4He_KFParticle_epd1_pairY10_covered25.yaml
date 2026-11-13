@@ -1,0 +1,44 @@
+# Use the frozen covered-run list with generate_joblist_from_list.py.
+# The same input grouping is required for EP1 and EP8 comparisons.
+analysis:
+  anaName: auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10
+  baseAnaMacro: anaFemtoLambda_4He
+  baseRunMacro: run_anaFemtoLambda_4He
+  decayChannel: p+pi-
+  errDir: /star/u/yichikawa/pwg/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10
+  filesPerJob: 25
+  jobName: auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10
+  logDir: /star/u/yichikawa/pwg/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10
+  maxEvents: -1
+  mode: fxtmult
+  nFiles: all
+  name: auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10
+  outputFileStem: auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10
+  scratchSubdir: auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10
+  targetParticle: Lambda-he4
+  type: femto
+  workDir: /star/u/yichikawa/pwg/git_STAR_3/star-analyzer
+analyst:
+  email: yudai.ichikawa.d3@tohoku.ac.jp
+  institute: Tohoku University
+  name: Yudai Ichikawa
+dataset:
+  allPicoDstList: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_pair_rapidity_validation_20261113_001/covered388_pico_files.list
+  collisionSystem: Au+Au
+  dataFormat: picoDst
+  dataQuality: production
+  goodRunList: ''
+  runRange:
+    min: 22158032
+    max: 22179022
+starTag:
+  collision: auau3p85
+  filenameFilter: st_physics
+  filenameNotFilter: adc
+  filetype: daq_reco_picoDst
+  libraryTag: SL24y
+  productionTag: P24iy
+  storage: local
+  stream: st_physics
+  triggerSets: production_3p85GeV_fixedTarget_2021
+  year: year2021

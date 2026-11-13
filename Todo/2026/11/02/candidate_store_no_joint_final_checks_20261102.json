@@ -1,0 +1,30 @@
+{
+  "phase": "passed_for_validation_and_durable_submission_start",
+  "recordedAtJst": "2026-11-02T22:42:51.021494+09:00",
+  "sourceHashesMatch": true,
+  "validatedLibrariesStillMatch": true,
+  "exactDenseAndCandidateClosure": true,
+  "noSparseInSmoke": true,
+  "tmuxAlive": true,
+  "submissionPhase": "submitting",
+  "notificationPipelineConfigured": true,
+  "notificationWorkerStarted": false,
+  "noDuplicateSubmission": true,
+  "noMerge": true,
+  "sourceSnapshotRecord": "candidate_store_no_joint_snapshot_20261102.json",
+  "finalOutputSnapshots": [
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/tests/candidate_store_no_joint_20261102_001/validation.json",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/tests/candidate_store_no_joint_20261102_001/README.md"
+  ],
+  "allPreviousSnapshotKeysPreserved": true,
+  "lastOperationalCheckAtJst": "2026-11-02T22:45:36.696208+09:00",
+  "validatedFingerprintsStillMatch": true,
+  "liveRuntimeSourceConstraintDocumented": true,
+  "condorQueueAtCheck": {
+    "returnCode": 0,
+    "jobStatusCounts": {
+      "2": 333,
+      "1": 65
+    }
+  }
+}

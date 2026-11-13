@@ -1,0 +1,12 @@
+{
+  "phase": "published",
+  "publishedAtJst": "2026-11-02T10:11:44.922686+09:00",
+  "target": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_4He_KFParticle_3p85.pdf",
+  "sha256": "ad10015407c2432e4fb17d1c655755999d0418fb0be82ec1b7ca988d251a3e3f",
+  "pages": 34,
+  "bytes": 1418485,
+  "backup": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/revisions/before_norm_diagnostics_20261102_001/summary_4He_KFParticle_3p85.pdf",
+  "backupSha256": "ce60cb469fd305f4cae0db79f9b57280746e03b09d416c23d45c562e099a3cbd",
+  "stagedSource": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/summary_4He_KFParticle_3p85_updated_20261102.pdf",
+  "validationSha256": "bb7f303e626c753c0b598e70433047434331939d0ca3a23fc3ea146fb16e472c"
+}

@@ -144,12 +144,21 @@ def adapt(original, name, input_root, outdir, purity, window, settings):
 }'''
         text = text[:purity_match.start()]+wrapper+text[end:]
         changes.append(dict(label='audited_mass_fit', count=1))
+        sub('require_complete_normalization',
+            r'(double intMix\s*=\s*hSigMix->Integral\(bin1, bin2\);)',
+            lambda m: m.group(1)+'\n'+NORMALIZATION_GUARD, 1)
+        sub('normalize_only_complete_interval', r'if\s*\(intMix\s*>\s*0\)',
+            'if (kfNormValid)', 1)
         sub('safe_CF_division', r'if\s*\(nm\s*>\s*0\)',
-            'if (nt > 0 && nm > 0 && TMath::Finite(nt) && TMath::Finite(nm) && TMath::Finite(et) && TMath::Finite(em))', 1)
+            'if (kfNormValid && nt > 0 && nm > 0 && TMath::Finite(nt) && TMath::Finite(nm) && TMath::Finite(et) && TMath::Finite(em))', 1)
         sub('safe_CF_error', r'double err_cf\s*=\s*cf\s*\*\s*TMath::Sqrt\([^;]+;',
             'double err_cf = TMath::Sqrt(TMath::Power(et/nm,2)+TMath::Power(nt*em/(nm*nm),2));', 1)
         sub('mask_missing_points', r'(hCF|hPTrue|hPMix)->Draw\("(E1(?: SAME)?)"\);',
-            lambda m: 'KFReport::DrawMeasured(%s,"%s");' % m.groups())
+            lambda m: 'KFReport::DrawMeasured(%s,"%s");' % m.groups() + (
+                ' if(!kfNormValid){TPaveText* kfNormWarning=new TPaveText(.16,.68,.90,.79,"NDC");'
+                'kfNormWarning->SetFillColor(kWhite);kfNormWarning->SetBorderSize(0);'
+                'kfNormWarning->SetTextSize(.035);kfNormWarning->AddText("NA: invalid fit in normalization interval");kfNormWarning->Draw();}'
+                if m.group(1)=='hCF' else ''))
     ll = settings['ll_fit']
     for variable, key in [('a0','fixed_a0'),('reff','fixed_reff'),('fit_max',None)]:
         sub('configured_LL_'+variable, r'(double\s+'+variable+r'\s*=\s*)[0-9.]+;',
@@ -183,6 +192,20 @@ def adapt(original, name, input_root, outdir, purity, window, settings):
     if 'anaLambdaNuclearId/' in text or 'nSpecies = 4' in text or 'fIn->Get("nuclearid")' in text:
         raise ValueError(name+': legacy input/species survived adaptation')
     return text, changes, audit
+
+NORMALIZATION_GUARD = r"""
+bool kfNormValid = intTrue>0 && intMix>0 && TMath::Finite(intTrue) && TMath::Finite(intMix);
+for(int kfBin=bin1; kfBin<=bin2; ++kfBin) {
+  const double kfSE=hSigTrue->GetBinContent(kfBin), kfME=hSigMix->GetBinContent(kfBin);
+  const double kfSEError=hSigTrue->GetBinError(kfBin), kfMEError=hSigMix->GetBinError(kfBin);
+  if (!(kfSE>0 && kfME>0 && kfSEError>0 && kfMEError>0 &&
+        TMath::Finite(kfSE) && TMath::Finite(kfME) &&
+        TMath::Finite(kfSEError) && TMath::Finite(kfMEError))) kfNormValid=false;
+}
+KFReport::Record("normalization",hCF->GetName(),kfNormValid?0:-1,-1,false,
+  kfNormValid?"complete_normalization_interval":"invalid_normalization_bin",
+  intTrue,intMix,bin2-bin1+1);
+"""
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)

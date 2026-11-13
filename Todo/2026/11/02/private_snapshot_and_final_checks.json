@@ -1,0 +1,390 @@
+{
+  "phase": "verified",
+  "completedAtJst": "2026-11-02T10:15:28.193079+09:00",
+  "publishedReportSha256": "ad10015407c2432e4fb17d1c655755999d0418fb0be82ec1b7ca988d251a3e3f",
+  "originalReferencePagesVisuallyPreserved": true,
+  "exactReferencePageRenderMatches": 0,
+  "referencePageCount": 10,
+  "copied": [
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/README.md",
+      "sha256": "bb2a4260cf47bbe9112347f59c1036c1241ebdbd3c20f37fc64fe7dd88de6729",
+      "bytes": 4317,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/all_purity_case_candidates.tsv",
+      "sha256": "76207fba2fe64900886a698eef7c367b2500ff18346e08eeb6085c61bb23b273",
+      "bytes": 179266,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/cases_fit_bins.tsv",
+      "sha256": "e1f2d2fb787977fd11e90531cd9d410c45f1cc2743c1ac169949e95ac09cb642",
+      "bytes": 156397,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/cases_fit_meta.tsv",
+      "sha256": "cd90abe4ab22411bf36328384dfbfafa3d1953c2ef6112077daa4c49ae56ae81",
+      "bytes": 5084,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/cf_points.tsv",
+      "sha256": "6101130a3b45c313867d9b7ff931b7824396a060c8bbf2d459c83632219f3bfc",
+      "bytes": 57939,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/cited_sources.json",
+      "sha256": "75db73b4c768e3d63c1798fcc75a73e5bb4a946cba92929156b869401d7d6476",
+      "bytes": 2140,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/diagnostic_report_metadata.json",
+      "sha256": "530dd677a29543de506bc223bfd4fb78e6b09755d068eadb260e3c063a024f0f",
+      "bytes": 6996,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/diagnostic_source_code.json",
+      "sha256": "1adc966755d509a5d2609c2ed5f623a256061895c97b9d9bbf0e1d29a8fde1d9",
+      "bytes": 2575,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/draw_cases_command.json",
+      "sha256": "7bd27e09a48c246bbb0c9a136d47d33d287e9b27a56595e7fade6fccd8120903",
+      "bytes": 808,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/draw_cf_command.json",
+      "sha256": "342bbb09668fe430a02370518b537aa7f94d8821f5e9ff53afcfafc5a931a780",
+      "bytes": 772,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/draw_raw_ratio_command.json",
+      "sha256": "3fd05e4bda6e6a0720c02a07ffdc0ebecc5570a6496c6ebd0a283aa7fd7af3a3",
+      "bytes": 695,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/failed_norm_command.json",
+      "sha256": "071c444b587177b742439a5a3cd8a7e09a39ba25c5024b384f9ccee08bb84692",
+      "bytes": 816,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/failure_fit_bins.tsv",
+      "sha256": "6d4a640fd1417f9ee24fa854b1eb5edf5ca9c35c47807e6e5fa880e77875e599",
+      "bytes": 24909,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/failure_fit_meta.tsv",
+      "sha256": "d708e23b7ff8ebe4e0dcdbbd487ed782d750f7b83e14f91ce6623004dd39d0a4",
+      "bytes": 802,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/cf_methods_3_5_6.pdf",
+      "sha256": "03e18a95ca049c41ec2aec0b32edc10bb033d004f9738c3a910184e84ed16cc5",
+      "bytes": 28953,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/crop_manifest.json",
+      "sha256": "78e03e7fd2be4db5b7f3d214bfb236a789f25ad8c981bdef03277ec3584cb71d",
+      "bytes": 12875,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/normalized_case_001.pdf",
+      "sha256": "92cd0bed0fdef0be85df409b57d155be9aecc803ed17eec60ad1c22e968631df",
+      "bytes": 62658,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/normalized_case_002.pdf",
+      "sha256": "cf5f669c64880e3a39600796197cfe5bac8bbeb6adb3c2c2da89f564a27bbc6c",
+      "bytes": 51639,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/normalized_case_003.pdf",
+      "sha256": "aafc07d51c7706867fdc4e4eb05311d2b82adb1ea57f2cd0101c8cf680411cb8",
+      "bytes": 52710,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/normalized_case_004.pdf",
+      "sha256": "b39b5cfdef28f4d3f628650ac8231679feea73c1f9da9bd4de26050928704a02",
+      "bytes": 62331,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/normalized_case_005.pdf",
+      "sha256": "41d9f3a6ee60751090525eae2844e5e16b27cafe89189e8f41b3a0a89195dc7c",
+      "bytes": 52440,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/normalized_case_006.pdf",
+      "sha256": "c57d8cca2568dd9e277388b2c757c11ce222ca539191b339588d3ea276d21216",
+      "bytes": 52420,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/normalized_case_007.pdf",
+      "sha256": "048ffe18064d4e5a0ad404a3a3969b415d49dbd506ad3a2dd62a7a1e939a2dbe",
+      "bytes": 51322,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/normalized_case_008.pdf",
+      "sha256": "6c0350632bfb48666642a33e631bcb9321401f37b18b9c66fee2b73b3dcab0df",
+      "bytes": 61493,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/normalized_case_009.pdf",
+      "sha256": "8daf637ae94f0a71edf243bae5efaf1a6557227caa51e4508dbeb868746348ac",
+      "bytes": 63446,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/normalized_purity_cases.pdf",
+      "sha256": "3963783fa489f65bc82e8a760fc00bf4a39dee5f3bd2cba5c17abd071928e5ba",
+      "bytes": 443869,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/purity_se_me.pdf",
+      "sha256": "1ea2648d4a0d1d8b325f904450821b1da30be4af4e60ac611174130324f53d80",
+      "bytes": 30682,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/raw_ratio_normalization.pdf",
+      "sha256": "ebf00c830ee7a145140095ee95f9bca9b343155f6535b1ba283b57ecbb026638",
+      "bytes": 31129,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/fine_extract/extraction_command.json",
+      "sha256": "992934bc6448fe3cbe19234e96f58de84f1de11b1a946f19bac3423215a1c869",
+      "bytes": 1449,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/normalization_audit.json",
+      "sha256": "2e8db77a6cbe1fa2e0eebacc75086082fcf801a26a66dda527526b75dd92c115",
+      "bytes": 261800,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/normalization_audit.partial.json",
+      "sha256": "5539adcbd2e8c51dfb62e670a3518b6bcaa3c8af34a9263955e9da33dd49cf89",
+      "bytes": 255533,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/normalization_audit.tsv",
+      "sha256": "09d7141ef4931973cfee19d6a3ca09a7626c1ba1e52025780265e9572a457013",
+      "bytes": 9918,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/normalization_sensitivity.tsv",
+      "sha256": "1010822d227211ccd9d138ae88579e99b4efead6105d69c4724268cc2f0b1fb3",
+      "bytes": 4364,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/normalization_settings.yaml",
+      "sha256": "057fb551a07c2fa6ce8f66d74b50432eed4f5900bd34a3d1692f2b9cd67d36fa",
+      "bytes": 775,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/publication.json",
+      "sha256": "25595ecbb181b80883c01f5b14438493a85cc9f0f3fc2ba9e7e02ea5f864c664",
+      "bytes": 1033,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/purity_points.tsv",
+      "sha256": "4d2e6bff44e40e240b784499738b8ed2481f92962a2ab9b2110dda9ddac8f20b",
+      "bytes": 74328,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/quoted_figures/crop_manifest.json",
+      "sha256": "78a4c903692ff024d79b17baafe24e41e67e0950f7a930071aff48e2d9e2e796",
+      "bytes": 4737,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/quoted_figures/historical_method3.pdf",
+      "sha256": "53468a98d544769aa6948c75351495b50fd55393c6184c65f5d50dc1518f8069",
+      "bytes": 53282,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/quoted_figures/historical_method5.pdf",
+      "sha256": "2868bbe5913b4a9607180e90a41532daa46bd89a9b035f13b2aba27c339a82aa",
+      "bytes": 57263,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/quoted_figures/updated_method3.pdf",
+      "sha256": "e192d28288cb7297eaff1395d1414ec95570f2f96ded39bb781de408e140c8ac",
+      "bytes": 54223,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/quoted_figures/updated_method5.pdf",
+      "sha256": "24aa193bc1c1a31c7ebb268b5f50fbf3d544fbbd3bdb8afbd7f83134cbc122a3",
+      "bytes": 58577,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/raw_ratio_points.tsv",
+      "sha256": "5a8d7a72d994be85d819389dccc523f298730fe7124e87a057b570379da59871",
+      "bytes": 29517,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/report_content.json",
+      "sha256": "3e05c1f780a66ef592dce89ee6382df0300d2f6bd4ec68fc48e9bcba7d2d785f",
+      "bytes": 23654,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/selected_purity_cases.json",
+      "sha256": "26d45b3733f336176d0c1f625faf634e6e13bc1f063d0f6b874b6d46da34e43c",
+      "bytes": 78549,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/summary_4He_KFParticle_3p85_updated_20261102.tex",
+      "sha256": "d37e6703d331181e811dab7fe48f0ba94b49e20514f9f021f8efde440fa9126b",
+      "bytes": 2077,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/summary_4He_KFParticle_3p85_updated_20261102_addendum.pdf",
+      "sha256": "d8f069975d03c18cb14b21e718485b82ec69d42c63a3591f24141c8bb13c8dac",
+      "bytes": 849983,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/summary_4He_KFParticle_3p85_updated_20261102_addendum.tex",
+      "sha256": "79b805703635f27074bbd1024f00ac295472e450574f405ff4e0d8466e63cc84",
+      "bytes": 20322,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/validation.json",
+      "sha256": "bb7f303e626c753c0b598e70433047434331939d0ca3a23fc3ea146fb16e472c",
+      "bytes": 755,
+      "kind": "personal_document"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/revisions/before_norm_diagnostics_20261102_001/summary_4He_KFParticle_3p85.pdf",
+      "sha256": "ce60cb469fd305f4cae0db79f9b57280746e03b09d416c23d45c562e099a3cbd",
+      "bytes": 645978,
+      "kind": "personal_document"
+    },
+    {
+      "path": "tools/kfparticle_summary/DrawNormalizationRatioAudit.C",
+      "sha256": "904a7b95811a222a99addce0c0090c30d3acaa6418c345e9aa32ae2d068f98a1",
+      "bytes": 4131,
+      "kind": "private_source"
+    },
+    {
+      "path": "tools/kfparticle_summary/DrawNormalizedPurityCases.C",
+      "sha256": "a81084c4fe9954d895918c8e1db7bc40ab90f11e9606bdc37dc747537bc3c446",
+      "bytes": 5389,
+      "kind": "private_source"
+    },
+    {
+      "path": "tools/kfparticle_summary/audit_normalization_ranges.py",
+      "sha256": "a362f4ff0f7dd1189cf1b3666b1ba58bd4b9f4dbfd6672dbfc35ab14bcbaf481",
+      "bytes": 12048,
+      "kind": "private_source"
+    },
+    {
+      "path": "tools/kfparticle_summary/build_purity_diagnostic_update.py",
+      "sha256": "ad64a9890583ba26854b8a1ffa80ac5fbee79b2e20f2ba2e666e729e1f2992ae",
+      "bytes": 6888,
+      "kind": "private_source"
+    },
+    {
+      "path": "tools/kfparticle_summary/method6_statistics.py",
+      "sha256": "5d2eb90d4d767ace971ac81166b90d207e26b8f2ca454d40407e8822acb3022b",
+      "bytes": 16589,
+      "kind": "private_source"
+    },
+    {
+      "path": "tools/kfparticle_summary/prepare_purity_diagnostic_report.py",
+      "sha256": "f927f7fc5cc25bc9f9f8d8fb784e0ed21ee4a410a11b0292e02f8bee5be57b2c",
+      "bytes": 16481,
+      "kind": "private_source"
+    },
+    {
+      "path": "tools/kfparticle_summary/publish_purity_diagnostic_update.py",
+      "sha256": "b1b6ad770c3ace35323a48aa5b35e34d9641763442bfa08909ab347a03d25c1e",
+      "bytes": 4137,
+      "kind": "private_source"
+    },
+    {
+      "path": "tools/kfparticle_summary/purity_diagnostic_cases.yaml",
+      "sha256": "5ea7f7e599498c7a3210b656e138737f00e3b23d38eebe150d6ab2dce5e4e68c",
+      "bytes": 2561,
+      "kind": "personal_document"
+    },
+    {
+      "path": "tools/kfparticle_summary/select_purity_diagnostic_cases.py",
+      "sha256": "d53edf3f94c3c6249bd8745c13242287dbc00725fb7df87a013764b6d995c833",
+      "bytes": 16324,
+      "kind": "private_source"
+    },
+    {
+      "path": "tools/kfparticle_summary/validate_purity_diagnostic_update.py",
+      "sha256": "63516af5a5ae0743dfde0d3ddfec822261cbe78c680f1d5231af0ee622c89203",
+      "bytes": 7098,
+      "kind": "private_source"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/fine_extract/purity_fit_review.json",
+      "bytes": 8524081,
+      "reason": "Existing 1 MiB personal snapshot limit"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/methods_comparison_selected.json",
+      "bytes": 6583798,
+      "reason": "Existing 1 MiB personal snapshot limit"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/summary_4He_KFParticle_3p85_updated_20261102.pdf",
+      "bytes": 1418485,
+      "reason": "Existing 1 MiB personal snapshot limit"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_4He_KFParticle_3p85.pdf",
+      "bytes": 1418485,
+      "reason": "Existing 1 MiB personal snapshot limit"
+    }
+  ],
+  "gitCommitOrPush": false,
+  "referencePagePixelStreamMatches": 0,
+  "rasterCheck": "PNG IHDR and decompressed IDAT scanline streams compared; file hashes can differ due to ancillary metadata.",
+  "checkedDocumentLinks": 27
+}

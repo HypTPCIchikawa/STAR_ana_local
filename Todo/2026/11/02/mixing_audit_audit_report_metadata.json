@@ -1,0 +1,79 @@
+{
+  "phase": "built",
+  "report": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/lambda_he4_mixing_kstar_audit_20261102.pdf",
+    "sha256": "2b329df7d60c030b3d88d2e7d3421b58d802e0e6552e284522ae58d3a91851a2",
+    "bytes": 354643,
+    "pages": 8
+  },
+  "figures": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/plots/baseline_group_L.pdf",
+      "sha256": "dbe24409bafe7925153d07165bd9219d939c3e2b3602319c9ef6f6534a0c1952",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/plots/baseline_fine_L.pdf",
+      "sha256": "249e6999c5bee9d2c9fcf296fdfc48b0221ecb41c50abdb1850703b5f83318d1",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/plots/baseline_cent_exposure.pdf",
+      "sha256": "bf2e430eb3093ed80753be5fea68cefda111a8cec1bb057354f89590b42fb1b1",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/plots/baseline_species_control.pdf",
+      "sha256": "ebeccef5c8c448789c319c7f59f0d907b432a1fd308368d62e54d3f874ec4da5",
+      "pages": 1
+    }
+  ],
+  "sourceRecords": {
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/baseline_audit.json": {
+      "sha256": "8aa290c7afbfc31d635e397ec77c581774516d4ee73481f23c101815276ea74e",
+      "bytes": 270179
+    },
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/mixing_qa_summary.json": {
+      "sha256": "36b308c3431dffba175cc84ad4a233f6bd22fb3a72dbf4a0015611173d562494",
+      "bytes": 911
+    },
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/control_summary.json": {
+      "sha256": "d7780b17fb0c991082bf6b58ba3877c7985473a4d56ae2e3881b70c9e73f1ef4",
+      "bytes": 2131
+    },
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/runtime_functions_verified.json": {
+      "sha256": "e7c531025c6f82e1519ca1797a068f05f1d6245da9a8a176116a3bf670379f76",
+      "bytes": 927
+    },
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/kstar_prf_math_audit_20261102_result.json": {
+      "sha256": "b31632cecc8d86275305871395bb9ffee50c9b014481ff4ac8d4d4f913aca38c",
+      "bytes": 1485
+    },
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/baseline_settings.yaml": {
+      "sha256": "a32f9f7a208db45f70f34eda976fd9b73f7753a43387d24da2f2bd84831fd1ca",
+      "bytes": 1167
+    },
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/plot_settings.yaml": {
+      "sha256": "c85b57edf366b97b27ac1ffb62c7b0f2a1a503aca86e4b1c9d712d7a75d83b1f",
+      "bytes": 76
+    },
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_4He_KFParticle_3p85_org.pdf": {
+      "sha256": "ad10015407c2432e4fb17d1c655755999d0418fb0be82ec1b7ca988d251a3e3f",
+      "bytes": 1418485
+    },
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle.yaml": {
+      "sha256": "1f9b5cba00812775b414e621422bb6a8667a50d0334056a78d5d0171bb905616",
+      "bytes": 781
+    },
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runtime_bundle_auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289.tar.gz": {
+      "sha256": "3fbbe9de571ff627630c3c2582853132b13bd63742728d530034efde0e913dfb",
+      "bytes": 7303345
+    }
+  },
+  "sourceCode": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/build_mixing_kstar_audit_report.py",
+    "sha256": "01fa1b24eea092326c147098d09426190f19158973bc773cb9326c3dad6a97d5"
+  },
+  "normalizationStatus": "reference scale only; plateau not established",
+  "causeStatus": "unresolved; no tested kstar or elementary ME bookkeeping bug found"
+}

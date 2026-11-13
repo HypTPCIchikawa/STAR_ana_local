@@ -70,10 +70,12 @@ def files_under(path):
     if path.is_file():
         yield path
         return
-    if not path.is_dir():
+    if not path.is_dir() or path.name.endswith('.package'):
         return
     for base, dirs, names in os.walk(str(path), followlinks=False):
-        dirs[:] = sorted(d for d in dirs if d not in PRUNE and not (Path(base) / d).is_symlink())
+        # SUMS packages are generated runtime copies of the workspace sources.
+        dirs[:] = sorted(d for d in dirs if d not in PRUNE and not d.endswith('.package')
+                         and not (Path(base) / d).is_symlink())
         for name in sorted(names):
             yield Path(base) / name
 

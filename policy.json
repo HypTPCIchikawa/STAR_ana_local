@@ -22,6 +22,9 @@
   ],
   "extraPaths": [
     "AGENTS.md",
+    "Makefile",
+    "docs/REFERENCE.md",
+    "job/run/README.md",
     "Todo/20261013/task1_git_cleanup_plan.md",
     "Todo/20261013/task1_git_cleanup_report.md",
     "Todo/20261013/task1_quarantine_manifest.json",

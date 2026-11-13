@@ -1,0 +1,168 @@
+{
+  "status": "passed",
+  "createdAtUtc": "2026-11-11T06:31:10.472907+00:00",
+  "sourceManifest": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/local_extension/aggregate/latest.json",
+  "sourceManifestSha256": "55ba8920b8e35fb93a5576dcc5002308dc805d8166f10e6988a22760313d243f",
+  "sourceRoot": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/local_extension/aggregate/qa_00004_96167709a94f.root",
+  "sourceRootSha256": "e46f8399caba29f886842c3c08c4778cdaf89d0cd8061e5640d3e32313fa6cf3",
+  "histogramExport": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/local_extension/aggregate/qa_00004_96167709a94f.histograms.json",
+  "histogramExportSha256": "48e52d8e9e10ac5011e6af0d519876d64a5e35482a2864eba9ebc45a1b8d942d",
+  "sourceJobs": [
+    "0",
+    "1",
+    "2",
+    "3"
+  ],
+  "sourceCount": 4,
+  "selectedHe4Pairs": 124,
+  "sourceInputEventsRepresented": 86611,
+  "sourceAcceptedEventsRepresented": 82944,
+  "pages": 4,
+  "artifacts": {
+    "merging_maps.pdf": {
+      "bytes": 42719,
+      "sha256": "7146c6482a031d85069104889f6e1b34bafb7d1695b8deff3f3c82d2deea0125"
+    },
+    "proton_global.png": {
+      "bytes": 58819,
+      "sha256": "327f4807a068f22e73202076673232dc9d589277486fe77dbc8944de62fb61f5"
+    },
+    "proton_zoom.png": {
+      "bytes": 57848,
+      "sha256": "d6547e82f2ab1b4ecfb20a9922765d2a965a73a49272685a3f07661911724f72"
+    },
+    "pion_global.png": {
+      "bytes": 58360,
+      "sha256": "22c9daee60f8cbe3ac998fc65dfacff0ec4c48fe6d686accd0c531bbd339f124"
+    },
+    "pion_zoom.png": {
+      "bytes": 58064,
+      "sha256": "015b327693a3dc3d9431ef3444b5418351cceaf610d6e3cc1626051d2f1d4aa0"
+    }
+  },
+  "histogramMetrics": {
+    "hDphiDeta_selected_4He_proton_GlobalMinusAsin": {
+      "entries": 124,
+      "regular": 5,
+      "flow": 119,
+      "originBoxes": {
+        "0.0125": 0,
+        "0.025": 0,
+        "0.05": 0
+      },
+      "nx": 80,
+      "ny": 80
+    },
+    "hDphiDeta_selected_4He_proton_HelixFixedGlobalEta": {
+      "entries": 111,
+      "regular": 5,
+      "flow": 106,
+      "originBoxes": {
+        "0.0125": 0,
+        "0.025": 0,
+        "0.05": 0
+      },
+      "nx": 80,
+      "ny": 80
+    },
+    "hDphiDeta_selected_4He_proton_HelixFixedSpatialEta": {
+      "entries": 111,
+      "regular": 5,
+      "flow": 106,
+      "originBoxes": {
+        "0.0125": 0,
+        "0.025": 0,
+        "0.05": 0
+      },
+      "nx": 80,
+      "ny": 80
+    },
+    "hDphiDeta_selected_4He_proton_HelixClosestSpatialEta": {
+      "entries": 124,
+      "regular": 5,
+      "flow": 119,
+      "originBoxes": {
+        "0.0125": 0,
+        "0.025": 0,
+        "0.05": 0
+      },
+      "nx": 80,
+      "ny": 80
+    },
+    "hDphiDeta_selected_4He_pion_GlobalMinusAsin": {
+      "entries": 121,
+      "regular": 7,
+      "flow": 114,
+      "originBoxes": {
+        "0.0125": 0,
+        "0.025": 0,
+        "0.05": 1
+      },
+      "nx": 80,
+      "ny": 80
+    },
+    "hDphiDeta_selected_4He_pion_HelixFixedGlobalEta": {
+      "entries": 114,
+      "regular": 6,
+      "flow": 108,
+      "originBoxes": {
+        "0.0125": 0,
+        "0.025": 0,
+        "0.05": 1
+      },
+      "nx": 80,
+      "ny": 80
+    },
+    "hDphiDeta_selected_4He_pion_HelixFixedSpatialEta": {
+      "entries": 114,
+      "regular": 5,
+      "flow": 109,
+      "originBoxes": {
+        "0.0125": 0,
+        "0.025": 0,
+        "0.05": 1
+      },
+      "nx": 80,
+      "ny": 80
+    },
+    "hDphiDeta_selected_4He_pion_HelixClosestSpatialEta": {
+      "entries": 124,
+      "regular": 9,
+      "flow": 115,
+      "originBoxes": {
+        "0.0125": 0,
+        "0.025": 0,
+        "0.05": 2
+      },
+      "nx": 80,
+      "ny": 80
+    },
+    "hDphiDeta_proton_4He_EventField": {
+      "entries": 104,
+      "regular": 4,
+      "flow": 100,
+      "originBoxes": {
+        "0.0125": 0,
+        "0.025": 0,
+        "0.05": 1
+      },
+      "nx": 200,
+      "ny": 200
+    }
+  },
+  "inputUnchanged": true,
+  "sourceSha256": "e8adcbed0b3e172dea54ad464e3a4f6d1ecebc5ec17f9fd41603455d22756f45",
+  "plotSettingsSha256": "c8bcd8da70e9c8ab3d83064c6e16c290c1a966d5a744297ce0742a0396a0634f",
+  "rootCommand": [
+    "bash",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/script/singularity_root_batch.sh",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/runtime_v2/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_candidateStoreWriteNoJointSparse.yaml",
+    "root4star",
+    "-l",
+    "-b"
+  ],
+  "rootStdinSha256": "ada7db425b8d4e93272275493b4f52b53eec48485dc2031ab3f601ea36b81c60",
+  "originPeakAssessment": "not assessed",
+  "efficiencyAssessment": "not assessed; raw SE without ME",
+  "methodCaveat": "Closest radius is pair-conditioned; spatial eta differs from track eta; old QA has a primary-fit gate."
+}

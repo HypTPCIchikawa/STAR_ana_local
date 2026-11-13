@@ -14,6 +14,8 @@ import threading
 
 import yaml
 
+from sample_provenance import resolve_sample, validate_sample_counters
+
 HERE = Path(__file__).resolve().parent
 PROJECT = HERE.parents[1]
 
@@ -212,6 +214,8 @@ def main():
     parser.add_argument('--mainconf', required=True, type=Path)
     parser.add_argument('--input-root', required=True, type=Path)
     parser.add_argument('--output-dir', type=Path)
+    parser.add_argument('--output-manifest', type=Path, help='Explicit completed production output manifest.')
+    parser.add_argument('--runmeta', type=Path, help='Submission metadata validating the manifest production.')
     parser.add_argument('--settings', type=Path, default=HERE / 'summary_settings.yaml',
                         help='Explicit downstream plot/fit YAML; never changes production cuts.')
     parser.add_argument('--resume', action='store_true',
@@ -234,6 +238,7 @@ def main():
     if args.archive_only and not args.archive_previous:
         parser.error('--archive-only requires --archive-previous')
     source = args.input_root.resolve(strict=True)
+    sample = resolve_sample(args.energy, source, args.output_manifest, args.runmeta)
     mainconf = args.mainconf.resolve(strict=True)
     summary_settings = args.settings.resolve(strict=True)
     plotting = yaml.safe_load(summary_settings.read_text())
@@ -255,6 +260,12 @@ def main():
             config_hashes[str(cfg)] = digest(cfg)
     provenance = dict(energy=args.energy, input=fingerprint(source),
                       configs=config_hashes, gate=gate)
+    if args.output_manifest is not None:
+        provenance['sample'] = sample
+        calibration = yaml.safe_load((PROJECT/'config'/mainconfig['nuclearid']).read_text()).get('dedxCalibration', {})
+        if calibration.get('enabled'):
+            calibration_path = (PROJECT/'config'/calibration['calibrationFile']).resolve(strict=True)
+            config_hashes[str(calibration_path)] = digest(calibration_path)
     previous_revision = None
     if args.archive_previous:
         previous_revision = archive_previous(out,args.archive_previous,source,
@@ -310,6 +321,7 @@ def main():
             [repr(x) for x in gate + plotting['mass_fit']['range']]) + ')'
         stage('inspect', digest(inspect_source), root_prefix + [call], [out / 'inspect.json'])
         info = json.loads((out / 'inspect.json').read_text())
+        validate_sample_counters(sample, info)
         purity = info['purity_for_cfsub']
         if not isinstance(purity, (float, int)) or not 0 < purity < 1:
             raise RuntimeError('No physical inclusive-purity proxy; inspect diagnostics before CFsub.')
@@ -334,8 +346,11 @@ def main():
         with ThreadPoolExecutor(max_workers=args.workers) as pool:
             list(pool.map(macro_stage,manifest['macros']))
         report = HERE / 'build_report.py'
-        run([sys.executable, str(report), '--output-dir', str(out), '--energy', args.energy],
-            out / 'logs' / 'build_report.log')
+        report_command = [sys.executable, str(report), '--output-dir', str(out), '--energy', args.energy]
+        if args.output_manifest is not None:
+            report_command += ['--output-manifest', str(args.output_manifest.resolve(strict=True)),
+                               '--runmeta', str(args.runmeta.resolve(strict=True))]
+        run(report_command, out / 'logs' / 'build_report.log')
         if fingerprint(source) != provenance['input']:
             raise RuntimeError('Input ROOT fingerprint changed during reporting.')
         state.pop('error', None)

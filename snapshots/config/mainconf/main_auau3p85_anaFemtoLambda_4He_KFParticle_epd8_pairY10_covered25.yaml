@@ -1,0 +1,15 @@
+# Pair rapidity is lab-frame (Lambda P4 + physical He4 P4), with ten bins.
+# EP variants require covered-run input; candidate-event storage remains disabled.
+# Histogram-only reconstruction; no candidate-event tree and no joint 8D PID histogram.
+# All species: R<2 no TOF requirement; R>=2 valid TOF and species mass2 window.
+analysis: analysis/analysis_info_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_covered25.yaml
+event: cuts/event/event_femtoLambda_imp5.yaml
+centrality: cuts/centrality/centrality_auau3p85_femtoLambda.yaml
+kf: cuts/kf/kf_auau3p85_anaLambda_KFParticle_highpurity.yaml
+nuclearid: cuts/nuclearid/nuclearid_femtoLambda_auau3p85_he4_accepted_20261022.yaml
+maker: maker/maker_auau3p85_anaFemtoLambda_4He_KFParticle_epdPairY10YLabMerging20261113.yaml
+mixing: cuts/mixing/mixing_femtoLambda_epd8.yaml
+femtoHist: hist/hist_auau3p85_femtoLambda_he4_he3_control_epdPairY10YLabMerging20261113_kf.yaml
+nuclearHist: hist/hist_auau3p85_femtoLambda_he4_he3_control_epdPairY10YLabMerging20261113_nuclear.yaml
+nuclearPidPairQaHist: hist/hist_auau3p85_femtoLambda_he4_he3_pid_pair_qa_noJointSparse.yaml
+eventPlane: event_plane/lambda_he4_xialei_epd8.yaml

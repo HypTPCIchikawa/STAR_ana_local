@@ -200,6 +200,16 @@ void InspectKFSummary(const char *input_root, const char *output_dir,
   for(unsigned i=0;i<4;++i) {
     if(i) o<<','; o<<Quote(counters[i])<<':';
     TParameter<Long64_t> *p=dynamic_cast<TParameter<Long64_t>*>(f->Get(counters[i]));
+    TH1 *counterHist=i==0?GetHistogram(f,"hRefMult"):(i==1?GetHistogram(f,"hRefMultCorr"):0);
+    if(counterHist) Num(o,counterHist->GetEntries());
+    else if(p) o<<p->GetVal(); else o<<"null";
+  }
+  o << "},\n\"eventCounterSources\":{\"inputEvents\":\"hRefMult Entries when present, otherwise stored TParameter\","
+       "\"reconstructedEvents\":\"hRefMultCorr Entries when present, otherwise stored TParameter\"},\n"
+       "\"eventCounterParameters\":{";
+  for(unsigned i=0;i<4;++i) {
+    if(i) o<<','; o<<Quote(counters[i])<<':';
+    TParameter<Long64_t> *p=dynamic_cast<TParameter<Long64_t>*>(f->Get(counters[i]));
     if(p) o<<p->GetVal(); else o<<"null";
   }
   o << "},\n\"histograms\":[\n";

@@ -1,0 +1,614 @@
+{
+  "provisional": false,
+  "records": [
+    {
+      "macro": "Draw_LambdaInvMass_fit_audit.tsv",
+      "massFitReasonCounts": {},
+      "normalizationFailures": [],
+      "finalLLFits": []
+    },
+    {
+      "macro": "Fit_LambdaNuclearId_relamom_sum_CFsub_fit_audit.tsv",
+      "massFitReasonCounts": {},
+      "normalizationFailures": [],
+      "finalLLFits": [
+        {
+          "type": "ll_fit",
+          "object": "fit1_0_0",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "1",
+          "reason": "unreliable_fit",
+          "value": "5.9999999999995888",
+          "error": "5.6133045394060126",
+          "normalization": "18"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_0_0",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "2.2582785891097519",
+          "error": "1.0726459003416495",
+          "normalization": "16"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit1_0_1",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "5.8300782359263605",
+          "error": "4.5369387005837236",
+          "normalization": "18"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_0_1",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "1.9494353736144103",
+          "error": "0.48985253193716805",
+          "normalization": "16"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit1_1_0",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "5.9230571768096976",
+          "error": "5.5468113826987855",
+          "normalization": "18"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_1_0",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "1.8213433379446329",
+          "error": "0.49923720652544468",
+          "normalization": "16"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit1_1_1",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "5.3194933076292861",
+          "error": "4.529088462417648",
+          "normalization": "18"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_1_1",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "2.3476861471107355",
+          "error": "1.0476483863727286",
+          "normalization": "16"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit1_1_2",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "1",
+          "reason": "unreliable_fit",
+          "value": "5.9999999999999805",
+          "error": "5.8998274402704656",
+          "normalization": "18"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_1_2",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "2.2569681413837515",
+          "error": "1.0889773946176526",
+          "normalization": "16"
+        }
+      ]
+    },
+    {
+      "macro": "Fit_LambdaNuclearId_relamom_sum_CFsub_method3_fit_audit.tsv",
+      "massFitReasonCounts": {
+        "insufficient_entries": 3,
+        "valid_boundary_warning": 7,
+        "nonphysical_background": 5,
+        "valid": 485
+      },
+      "normalizationFailures": [],
+      "finalLLFits": [
+        {
+          "type": "ll_fit",
+          "object": "fit1_0_0",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "3.0878546641023195",
+          "error": "0.64820113611734209",
+          "normalization": "16"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_0_0",
+          "status": "4",
+          "covariance": "2",
+          "boundary": "0",
+          "reason": "unreliable_fit",
+          "value": "2.1075247381609996",
+          "error": "1.227358407527303",
+          "normalization": "14"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit1_0_1",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "4.8301346614402583",
+          "error": "0.70482274702002856",
+          "normalization": "17"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_0_1",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "2.2466611096760696",
+          "error": "0.49672621558193875",
+          "normalization": "15"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit1_1_0",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "4.2739335028830476",
+          "error": "0.55512776342189452",
+          "normalization": "17"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_1_0",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "2.1693560831442729",
+          "error": "0.47743561898266484",
+          "normalization": "15"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit1_1_1",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "3.5527371142957738",
+          "error": "0.83284576237135099",
+          "normalization": "16"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_1_1",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "1.9930928869870617",
+          "error": "0.63407664245897444",
+          "normalization": "14"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit1_1_2",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "3.2289089102051847",
+          "error": "0.77436405466931424",
+          "normalization": "16"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_1_2",
+          "status": "0",
+          "covariance": "2",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "2.9007954340378284",
+          "error": "1.566264443598969",
+          "normalization": "14"
+        }
+      ]
+    },
+    {
+      "macro": "Fit_LambdaNuclearId_relamom_sum_CFsub_method5_fit_audit.tsv",
+      "massFitReasonCounts": {
+        "valid": 199,
+        "invalid_fit_or_covariance": 1
+      },
+      "normalizationFailures": [
+        {
+          "type": "normalization",
+          "object": "hCF_4He_GS0_G0",
+          "status": "-1",
+          "covariance": "-1",
+          "boundary": "0",
+          "reason": "invalid_normalization_bin",
+          "value": "10920.209444062664",
+          "error": "178882.45587154198",
+          "normalization": "5"
+        }
+      ],
+      "finalLLFits": [
+        {
+          "type": "ll_fit",
+          "object": "fit1_0_0",
+          "status": "-1",
+          "covariance": "-1",
+          "boundary": "0",
+          "reason": "insufficient_valid_points",
+          "value": "0",
+          "error": "0",
+          "normalization": "0"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_0_0",
+          "status": "-1",
+          "covariance": "-1",
+          "boundary": "0",
+          "reason": "insufficient_valid_points",
+          "value": "0",
+          "error": "0",
+          "normalization": "0"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit1_0_1",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "1",
+          "reason": "unreliable_fit",
+          "value": "5.9999999999999964",
+          "error": "4.3396560376581457",
+          "normalization": "18"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_0_1",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "2.003648427607116",
+          "error": "0.53256955396136196",
+          "normalization": "16"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit1_1_0",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "1",
+          "reason": "unreliable_fit",
+          "value": "5.9999999999999964",
+          "error": "4.311072664269429",
+          "normalization": "18"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_1_0",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "1.8341544309217268",
+          "error": "0.52860268939895938",
+          "normalization": "16"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit1_1_1",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "1",
+          "reason": "unreliable_fit",
+          "value": "6",
+          "error": "4.4362237653593972",
+          "normalization": "18"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_1_1",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "2.5043917126569237",
+          "error": "1.1291806532003323",
+          "normalization": "16"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit1_1_2",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "1",
+          "reason": "unreliable_fit",
+          "value": "6",
+          "error": "4.1253184193043495",
+          "normalization": "18"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_1_2",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "2.2048808620682685",
+          "error": "1.1077674599786305",
+          "normalization": "16"
+        }
+      ]
+    },
+    {
+      "macro": "Fit_LambdaNuclearId_relamom_sum_fit_audit.tsv",
+      "massFitReasonCounts": {},
+      "normalizationFailures": [],
+      "finalLLFits": [
+        {
+          "type": "ll_fit",
+          "object": "fit1_0_0",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "1",
+          "reason": "unreliable_fit",
+          "value": "5.9999999999991553",
+          "error": "3.4314218838871562",
+          "normalization": "18"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_0_0",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "2.1901444390583467",
+          "error": "1.0249388592595925",
+          "normalization": "16"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit1_0_1",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "5.4016660223736181",
+          "error": "1.0203774835096553",
+          "normalization": "18"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_0_1",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "1.9309883091896265",
+          "error": "0.46515124735702851",
+          "normalization": "16"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit1_1_0",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "5.4860909964187208",
+          "error": "1.1305469426256161",
+          "normalization": "18"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_1_0",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "1.8210999907396601",
+          "error": "0.48317713700164355",
+          "normalization": "16"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit1_1_1",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "5.3396421174286104",
+          "error": "4.6499178076255809",
+          "normalization": "18"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_1_1",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "2.2760981714780679",
+          "error": "1.0247350999432008",
+          "normalization": "16"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit1_1_2",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "1",
+          "reason": "unreliable_fit",
+          "value": "5.9999999999999343",
+          "error": "5.2762338839890708",
+          "normalization": "18"
+        },
+        {
+          "type": "ll_fit",
+          "object": "fit2_1_2",
+          "status": "0",
+          "covariance": "3",
+          "boundary": "0",
+          "reason": "valid_exploratory",
+          "value": "2.1884974003215816",
+          "error": "1.0400207954917395",
+          "normalization": "16"
+        }
+      ]
+    },
+    {
+      "macro": "draw_LambdaNuclearId_relamom_CFsub_fit_audit.tsv",
+      "massFitReasonCounts": {},
+      "normalizationFailures": [],
+      "finalLLFits": []
+    },
+    {
+      "macro": "draw_LambdaNuclearId_relamom_CFsub_method3_fit_audit.tsv",
+      "massFitReasonCounts": {
+        "insufficient_entries": 87,
+        "nonphysical_background": 61,
+        "invalid_fit_or_covariance": 9,
+        "valid": 695,
+        "valid_boundary_warning": 48
+      },
+      "normalizationFailures": [
+        {
+          "type": "normalization",
+          "object": "hCF_4He_Cent0",
+          "status": "-1",
+          "covariance": "-1",
+          "boundary": "0",
+          "reason": "invalid_normalization_bin",
+          "value": "0",
+          "error": "39.281387234706415",
+          "normalization": "5"
+        },
+        {
+          "type": "normalization",
+          "object": "hCF_4He_Cent1",
+          "status": "-1",
+          "covariance": "-1",
+          "boundary": "0",
+          "reason": "invalid_normalization_bin",
+          "value": "0",
+          "error": "1146.5894585916972",
+          "normalization": "5"
+        }
+      ],
+      "finalLLFits": []
+    },
+    {
+      "macro": "draw_LambdaNuclearId_relamom_CFsub_method5_fit_audit.tsv",
+      "massFitReasonCounts": {
+        "insufficient_entries": 8,
+        "nonphysical_background": 16,
+        "invalid_fit_or_covariance": 3,
+        "valid_boundary_warning": 12,
+        "valid": 321
+      },
+      "normalizationFailures": [
+        {
+          "type": "normalization",
+          "object": "hCF_4He_Cent0",
+          "status": "-1",
+          "covariance": "-1",
+          "boundary": "0",
+          "reason": "invalid_normalization_bin",
+          "value": "0",
+          "error": "94.038432886669952",
+          "normalization": "5"
+        }
+      ],
+      "finalLLFits": []
+    },
+    {
+      "macro": "draw_LambdaNuclearId_relamom_fit_audit.tsv",
+      "massFitReasonCounts": {},
+      "normalizationFailures": [],
+      "finalLLFits": []
+    },
+    {
+      "macro": "draw_LambdaNuclearId_relamom_sum_CFsub_fit_audit.tsv",
+      "massFitReasonCounts": {},
+      "normalizationFailures": [],
+      "finalLLFits": []
+    },
+    {
+      "macro": "draw_LambdaNuclearId_relamom_sum_CFsub_method3_fit_audit.tsv",
+      "massFitReasonCounts": {
+        "insufficient_entries": 3,
+        "valid_boundary_warning": 7,
+        "nonphysical_background": 5,
+        "valid": 485
+      },
+      "normalizationFailures": [],
+      "finalLLFits": []
+    },
+    {
+      "macro": "draw_LambdaNuclearId_relamom_sum_CFsub_method5_fit_audit.tsv",
+      "massFitReasonCounts": {
+        "valid": 199,
+        "invalid_fit_or_covariance": 1
+      },
+      "normalizationFailures": [
+        {
+          "type": "normalization",
+          "object": "hCF_4He_GS0_G0",
+          "status": "-1",
+          "covariance": "-1",
+          "boundary": "0",
+          "reason": "invalid_normalization_bin",
+          "value": "10920.209444062664",
+          "error": "178882.45587154198",
+          "normalization": "5"
+        }
+      ],
+      "finalLLFits": []
+    },
+    {
+      "macro": "draw_LambdaNuclearId_relamom_sum_fit_audit.tsv",
+      "massFitReasonCounts": {},
+      "normalizationFailures": [],
+      "finalLLFits": []
+    }
+  ]
+}

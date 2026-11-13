@@ -1,0 +1,31 @@
+{
+  "phase": "validated",
+  "input_unchanged": true,
+  "macros": 13,
+  "figures": 14,
+  "report_pages": 10,
+  "output_dir": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf",
+  "normalization_na": [
+    {
+      "macro": "draw_LambdaNuclearId_relamom_sum_CFsub_method5.C",
+      "object": "hCF_4He_GS0_G0"
+    },
+    {
+      "macro": "draw_LambdaNuclearId_relamom_CFsub_method3.C",
+      "object": "hCF_4He_Cent0"
+    },
+    {
+      "macro": "draw_LambdaNuclearId_relamom_CFsub_method3.C",
+      "object": "hCF_4He_Cent1"
+    },
+    {
+      "macro": "draw_LambdaNuclearId_relamom_CFsub_method5.C",
+      "object": "hCF_4He_Cent0"
+    },
+    {
+      "macro": "Fit_LambdaNuclearId_relamom_sum_CFsub_method5.C",
+      "object": "hCF_4He_GS0_G0"
+    }
+  ],
+  "historical_snapshots_used": []
+}

@@ -1,0 +1,42 @@
+{
+  "status": "current_statistics_test_completed",
+  "completedAtJst": "2026-11-12T00:37:14.728485+09:00",
+  "campaignFinished": false,
+  "sourceCount": 9272,
+  "sourceInputEventsRepresented": 741914173,
+  "selectedHe4Pairs": 932826,
+  "sourceRoot": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09272_20261111T153134Z.root",
+  "sourceRootSha256": "0712dd157070f18ab5dc1dfe69c9bc9a05ab16f021dd3d0523562af4367bd12d",
+  "comparisonPdf": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/quicklook_20261112_003/jobs_09272_0712dd157070_ba5ba010af/merging_maps.pdf",
+  "summaryPdf": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/quicklook_20261112_003/focused_fixed_radius/merging_fixed_radius.pdf",
+  "summaryPng": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/quicklook_20261112_003/focused_fixed_radius/merging_fixed_radius.png",
+  "inputUnchanged": true,
+  "fixedRadiusOriginRatios": {
+    "proton": {
+      "0.0125": {
+        "innerCount": 26,
+        "outerRingCount": 99,
+        "innerToRingAreaNormalizedDensityRatio": 0.7878787878787878
+      },
+      "0.025": {
+        "innerCount": 125,
+        "outerRingCount": 664,
+        "innerToRingAreaNormalizedDensityRatio": 0.5647590361445783
+      }
+    },
+    "pion": {
+      "0.0125": {
+        "innerCount": 71,
+        "outerRingCount": 196,
+        "innerToRingAreaNormalizedDensityRatio": 1.086734693877551
+      },
+      "0.025": {
+        "innerCount": 267,
+        "outerRingCount": 786,
+        "innerToRingAreaNormalizedDensityRatio": 1.0190839694656488
+      }
+    }
+  },
+  "finding": "No sharp origin excess visible in the fixed-radius raw-SE maps at these scales; no efficiency/cut inference without ME",
+  "ongoingJobsAndCompletionNotificationChanged": false
+}

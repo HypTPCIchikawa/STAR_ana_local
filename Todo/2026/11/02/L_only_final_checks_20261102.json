@@ -1,0 +1,104 @@
+{
+  "phase": "complete",
+  "checkedAtJst": "2026-11-02T14:24:11.693838+09:00",
+  "reportSha256": "a1e1e2410ecef0e4fc7d4057d3c378c88b7ac2fef71a863fde7f2e05956f2bde",
+  "reportPages": 20,
+  "fitOptions": "SLQNR0",
+  "nonLFiguresIncluded": 0,
+  "all15FigurePagesLabeledL": true,
+  "all20PagesVisuallyChecked": true,
+  "previousReportPreserved": true,
+  "sourceFigureHashesVerified": true,
+  "scientificResultsUnchanged": true,
+  "privateSnapshotFiles": 9,
+  "privateSnapshotBytes": 2391964,
+  "files": {
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/revisions/before_L_only_20261102_001/summary_4He_KFParticle_3p85.pdf": {
+      "sha256": "615bf8a79424733de35658ffffbc92835a0b530135b3568e8dd4f36c2fad9524",
+      "bytes": 807570,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_4He_KFParticle_3p85.pdf": {
+      "sha256": "a1e1e2410ecef0e4fc7d4057d3c378c88b7ac2fef71a863fde7f2e05956f2bde",
+      "bytes": 771189,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_poisson_update.md": {
+      "sha256": "c385e22428907f6490967f700db3d6d7ab28bc23254ce223e7d0aa57fc51a75f",
+      "bytes": 967,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/README.md": {
+      "sha256": "63e28fc0bd82f64eac5b72047265fa8b07130334a45bf963f4991fc7bb7ced9e",
+      "bytes": 5118,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/l_only_report_20261102_001/README.md": {
+      "sha256": "3b046e469fc63542ddb4c733205db6353ebb8282d094f1cc7a44be5031f9f46e",
+      "bytes": 1682,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/l_only_report_20261102_001/summary_4He_KFParticle_3p85_PoissonL_only_20261102.pdf": {
+      "sha256": "a1e1e2410ecef0e4fc7d4057d3c378c88b7ac2fef71a863fde7f2e05956f2bde",
+      "bytes": 771189,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/l_only_report_20261102_001/summary_4He_KFParticle_3p85_PoissonL_only_20261102.tex": {
+      "sha256": "ed480dc9e4a79c77058716e7af8bc228817005c1b4fc4b669ddf56c38f01e9d5",
+      "bytes": 20382,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/l_only_report_20261102_001/validation.json": {
+      "sha256": "fafdc9d1396051af69f94dfad14121ad95f09599f68f7a5194ad66172e934849",
+      "bytes": 1423,
+      "kind": "small_output"
+    },
+    "tools/kfparticle_summary/build_poisson_l_only_report.py": {
+      "sha256": "9e0bfda2b1bdf53ff008b01e35618432000ce77bee4a03df33260d1cedb97a08",
+      "bytes": 12444,
+      "kind": "private_source"
+    }
+  },
+  "excluded": [
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/l_only_report_20261102_001/poisson_report_metadata.json",
+      "reason": "numeric_output",
+      "bytes": 16801
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/l_only_report_20261102_001/publication.json",
+      "reason": "numeric_output",
+      "bytes": 1057
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/l_only_report_20261102_001/report_content.json",
+      "reason": "numeric_output",
+      "bytes": 26313
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/l_only_report_20261102_001/summary_4He_KFParticle_3p85_PoissonL_only_20261102.aux",
+      "reason": "generated",
+      "bytes": 1783
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/l_only_report_20261102_001/summary_4He_KFParticle_3p85_PoissonL_only_20261102.build.log",
+      "reason": "generated",
+      "bytes": 14351
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/l_only_report_20261102_001/summary_4He_KFParticle_3p85_PoissonL_only_20261102.log",
+      "reason": "generated",
+      "bytes": 40827
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/l_only_report_20261102_001/summary_4He_KFParticle_3p85_PoissonL_only_20261102.out",
+      "reason": "generated",
+      "bytes": 0
+    }
+  ],
+  "allPreviousSnapshotKeysPreserved": true,
+  "commitOrPushPerformed": false,
+  "markdownLinksChecked": 59,
+  "missingMarkdownLinks": [],
+  "publicationValidationHashVerified": true
+}

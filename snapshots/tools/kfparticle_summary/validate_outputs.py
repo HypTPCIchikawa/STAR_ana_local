@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """Validate saved report/figure/source hashes and unchanged ROOT fingerprint."""
 import argparse
+import csv
 import hashlib
 import json
 from pathlib import Path
+
+from sample_provenance import resolve_sample, validate_sample_counters
 
 
 def sha(path):
@@ -52,6 +55,14 @@ def main():
             raise RuntimeError('Macro stage does not match generated source: ' + macro['name'])
     if sha(out / 'macros/KFSummarySupport.h') != manifest['support']['sha256']:
         raise RuntimeError('Generated helper hash mismatch.')
+    sample = report.get('sample', {})
+    if sample.get('provenance'):
+        proof = sample['provenance']
+        fresh = resolve_sample(report['energy'], original['path'], proof['outputManifest']['path'], proof['runmeta']['path'])
+        if fresh != sample or state['provenance'].get('sample') != sample:
+            raise RuntimeError('Sample provenance changed or disagrees with report/run state.')
+        validate_sample_counters(sample, json.loads((out/'inspect.json').read_text()))
+        check_source(Path(__file__).with_name('sample_provenance.py'), report['sample_provenance_sha256'])
     if report['phase'] != 'complete' or report['inputRoot'] != original['path']:
         raise RuntimeError('Report input/state does not match the completed run.')
     checks = {out / 'inspect.json': report['inspect_sha256'],
@@ -66,9 +77,31 @@ def main():
     for path, expected in checks.items():
         if sha(path) != expected:
             raise RuntimeError('Report dependency hash mismatch: ' + str(path))
+    normalization_na = []
+    info = json.loads((out/'inspect.json').read_text())
+    kstar = next(h for h in info['histograms'] if h['name']=='true/hKstar_4He_CentBin0' and h['present'])
+    bins = kstar['xBins']//manifest['settings']['rebin_group']
+    for macro in manifest['macros']:
+        audit_path = macro.get('audit_file')
+        if not audit_path:
+            continue
+        rows = list(csv.DictReader(Path(audit_path).open(), delimiter='\t'))
+        failed = {row['object'] for row in rows if row['type']=='normalization' and row['status']!='0'}
+        for obj in sorted(failed):
+            masked = {int(row['status']) for row in rows if row['type']=='masked_bin' and row['object']==obj and float(row['error'])==0}
+            if masked != set(range(1,bins+1)):
+                raise RuntimeError('Incomplete normalization must mask the entire CF: '+macro['name']+':'+obj)
+            normalization_na.append(dict(macro=macro['name'], object=obj))
+        current_invalid = False
+        for row in rows:
+            if row['type']=='normalization':
+                current_invalid = row['status']!='0'
+            elif row['type']=='ll_fit' and current_invalid and row['reason']!='insufficient_valid_points':
+                raise RuntimeError('LL fit attempted after invalid normalization: '+macro['name'])
     print(json.dumps(dict(phase='validated', input_unchanged=True,
                          macros=len(manifest['macros']), figures=len(report['figures']),
                          report_pages=report['report']['pages'], output_dir=str(out),
+                         normalization_na=normalization_na,
                          historical_snapshots_used=snapshots_used), indent=2))
 
 

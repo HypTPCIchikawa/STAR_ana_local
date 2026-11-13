@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "phase": "completed_3p85_cleanup",
+  "completedAtJst": "2026-11-04T13:35:26.435802+09:00",
+  "deletedFiles": 216679,
+  "deletedRootFiles": 54463,
+  "deletedSuccessfulLogAndJobFiles": 162216,
+  "reclaimedAllocatedBytes": 417424998400,
+  "quotaDecreaseMatchesDeletedAllocationExactly": true,
+  "currentUsageBytes": 2225784225792,
+  "availableSoftQuotaBytes": 371622412288,
+  "fullJobRootEstimateBytes": 5281223391380.112,
+  "fullLogJobAllocatedEstimateBytes": 21299724288,
+  "fullIncludingStderrAllocatedEstimateBytes": 28376039424,
+  "retainedFiveMergedProductsFingerprintUnchanged": true,
+  "retainedCurrentSizeSamples": 21,
+  "deletedArchiveGroupsNowContainNoRootFiles": true,
+  "current2AFExcludedFromAllDeletePlans": true,
+  "auditArchiveGzipCrcPassed": true,
+  "auditMembers": 36,
+  "auditArchive": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/tests/storage_cleanup_20261104_001/cleanup_audit_records.tar.gz",
+    "bytes": 7678971,
+    "sha256": "62be9597e420cc635bb5cd78fabb21bc3ec59a66c4e954ea81beca1f29398477"
+  },
+  "different13p5Analysis": {
+    "phase": "not_deleted_scope_approval_pending",
+    "reason": "auto-review rejected expanding deletion to a separate analysis"
+  },
+  "analysisCodeOrPidChanged": false,
+  "jobsResubmitted": false,
+  "gitCommitOrPush": false
+}

@@ -1,0 +1,12 @@
+{
+  "phase": "published",
+  "publishedAtJst": "2026-11-02T14:22:53.411020+09:00",
+  "target": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_4He_KFParticle_3p85.pdf",
+  "sha256": "a1e1e2410ecef0e4fc7d4057d3c378c88b7ac2fef71a863fde7f2e05956f2bde",
+  "pages": 20,
+  "bytes": 771189,
+  "backup": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/revisions/before_L_only_20261102_001/summary_4He_KFParticle_3p85.pdf",
+  "backupSha256": "615bf8a79424733de35658ffffbc92835a0b530135b3568e8dd4f36c2fad9524",
+  "stagedSource": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/l_only_report_20261102_001/summary_4He_KFParticle_3p85_PoissonL_only_20261102.pdf",
+  "validationSha256": "fafdc9d1396051af69f94dfad14121ad95f09599f68f7a5194ad66172e934849"
+}

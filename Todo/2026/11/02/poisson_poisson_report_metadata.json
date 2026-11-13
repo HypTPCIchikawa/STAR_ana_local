@@ -1,0 +1,109 @@
+{
+  "phase": "staged",
+  "layout": "standalone_poisson",
+  "builtAtJst": "2026-11-02T13:19:58.417365+09:00",
+  "report": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/summary_4He_KFParticle_3p85_PoissonL_20261102.pdf",
+    "sha256": "615bf8a79424733de35658ffffbc92835a0b530135b3568e8dd4f36c2fad9524",
+    "bytes": 807570,
+    "pages": 24
+  },
+  "originalReport": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_4He_KFParticle_3p85.pdf",
+    "sha256": "ad10015407c2432e4fb17d1c655755999d0418fb0be82ec1b7ca988d251a3e3f"
+  },
+  "figures": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_fine_method3_L.pdf",
+      "sha256": "395aba56a44cd622d7b7140d39210761f0b7a974a16cdd6c905ae2b54a0b0c67",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_fine_method3_comparison.pdf",
+      "sha256": "ce1cf9212f2f5866fadc3591b0945d3c81a93e407c6395265a59012e908451df",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_fine_method5_L.pdf",
+      "sha256": "630b23512eca75ed1e0b9ced52ac39ffc6da13d4abad7bfab8961fdefa936241",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_fine_method5_comparison.pdf",
+      "sha256": "e1231146ea42aadd35e7b20215a5f454bf4495233bf4d10e9e8a4c34c05da988",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/cf_methods_3_5_6.pdf",
+      "sha256": "3b986b5781e335cc84b6535c3f549963aad5d52969ebbb553e9aad0e2579672b",
+      "pages": 2
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/cf_objective_comparison.pdf",
+      "sha256": "bb0183abaf8554307a5d7f497c7c3ca3c77e75623b78e23c92b49a138bfd872c",
+      "pages": 2
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_se_me.pdf",
+      "sha256": "8c303ebc9217002fc08cfe71f8a24452386ba21ec5e3998fd3b59380bca76929",
+      "pages": 2
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent20_80_007.pdf",
+      "sha256": "e4cedc5bb8444b056710d20439255a41b260e129d1ad980c9ca3b85299ff4faf",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method3_cent2_014.pdf",
+      "sha256": "3bac2f79cb30b588a7def98a4d6f134a5a5be6dc6717cfaa9d6f19528cfeea77",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method3_cent3_008.pdf",
+      "sha256": "e1d47bd2cb876a4ca66a274f820f5460a49de48020d1bd6d0a7905c58f3b1129",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method3_cent8_004.pdf",
+      "sha256": "d14cae663ab77294299ecdeb99941a8330cab9249801c847b4b8e5419da4f1c2",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method3_cent2_015.pdf",
+      "sha256": "588b198405b5e89a032077a23a370d0755d8cd039bea75e78426f0532d3d5b7b",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent1_006.pdf",
+      "sha256": "992e63fdb9bd8b1f2afd20863a4b68f00d3c09366b4e7446e80dfc6b7aff2253",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent2_002.pdf",
+      "sha256": "1bb1ebd383a7b88db421f4e74aea81ad8a76da4f9b6d584fbeba35965f41c20e",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent8_006.pdf",
+      "sha256": "294cf3be3f47d27c5e05054e27da314d17977093199dcaaa4eb6e1b78a8e6b12",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent3_005.pdf",
+      "sha256": "34dc89c27f5b03eb33ce090d4618ebac225083aa0ff220f24bde602d8dd9cbe6",
+      "pages": 1
+    }
+  ],
+  "content": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/report_content.json",
+    "sha256": "2b66271253459981e2de2ca6676b1de0858a22b9654d6fbc2b4d1c10970afcbc"
+  },
+  "tex": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/summary_4He_KFParticle_3p85_PoissonL_20261102.tex",
+    "sha256": "0d38284f56033c8e0e92228f8278db274eb6fd9df58bfd616f2312b6884f3a89"
+  },
+  "sourceCode": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/build_poisson_lambda_report.py",
+    "sha256": "f350ab00319cda1fa8430b6a0b3aea71921f8ff394bb595e8e5a45e02d5e0c84"
+  }
+}

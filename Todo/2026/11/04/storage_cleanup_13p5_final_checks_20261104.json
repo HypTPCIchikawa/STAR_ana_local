@@ -1,0 +1,12 @@
+{
+  "phase": "passed",
+  "completedAtJst": "2026-11-04T13:43:49.157266+09:00",
+  "explicitApprovalReceived": true,
+  "additionalDeletedFiles": 2179,
+  "additionalReclaimedAllocatedBytes": 1751646208,
+  "cumulativeReclaimedAllocatedBytes": 419176644608,
+  "retainedMergedSha256BeforeAfterMatch": true,
+  "excludedWorkerArtifactsAndFailedStagingRetained": true,
+  "independentPostcheck": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau13p5_anaFemtoLambda_4He_KFParticle/tests/storage_cleanup_20261104_001/independent_postcheck.json",
+  "reportUpdated": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/Todo/2026/11/04/storage_cleanup_20261104.md"
+}

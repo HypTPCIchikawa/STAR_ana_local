@@ -1,0 +1,40 @@
+{
+  "cleanupCompletedAtJst": "2026-11-14T01:03:05.741133+09:00",
+  "cleanupComplete": true,
+  "removedDirectory": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer_auau7p7_2021_P22ib",
+  "obsoleteDirectoryBackupBytes": 432531,
+  "deletedOldLogs": 181376,
+  "oldLogAllocatedBytes": 45516089344,
+  "compressedLogArchiveBytes": 340001964,
+  "archiveManifestSha256": "a902e1e06b42ae782f900c5d9ec2b88bd1405f4fa4b452ba13ab0d84621bf13b",
+  "deletedTestRootFiles": 84,
+  "protectedBaselinesUnchanged": true,
+  "quotaUsedBytes": 2291299254272,
+  "quotaSoftHeadroomAfterInDoubtBytes": 141367443456,
+  "usageDecreaseSinceBeforeDirectoryDeletionBytes": 21592014848,
+  "quotaSnapshotIncludesConcurrentProductionWrites": true,
+  "notificationMonitors": [
+    {
+      "series": "epd8",
+      "jobid": "DA0DEB4347BD834F1096F8D8798F2133",
+      "monitorAlive": true,
+      "notificationSentRecordExists": false,
+      "expectedSubjobs": 4058
+    },
+    {
+      "series": "epd1",
+      "jobid": "FD44A5EB1B0AA22C546F169E86482587",
+      "monitorAlive": true,
+      "notificationSentRecordExists": false,
+      "expectedSubjobs": 4058
+    }
+  ],
+  "gitIndexAndRefsUnchangedByPacking": true,
+  "gitConnectivityCheck": "PASS",
+  "privateSyncTestsPassed": 10,
+  "initialStagedPolicyCheckedFiles": 13431,
+  "snapshotFileCount": 22454,
+  "push": {
+    "state": "pending"
+  }
+}

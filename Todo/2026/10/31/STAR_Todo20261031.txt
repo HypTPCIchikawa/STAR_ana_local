@@ -1,0 +1,52 @@
+STAR Todo — 2026/10/31（日本時間）
+追加依頼の状態：10/31停止後、11/02に詳細比較・規格化変更・指定総合PDF更新を完了。詳細はcf_normalization_followup_20261031.mdおよびTodo/2026/11/02/README.md。下記の「全作業完了」は先行Method6依頼に対する完了であり、この追加依頼を含まない。
+対象：2021 P24iy Au+Au 3.85 GeV Λ–4He CF：SE/ME純度fit点検とMethod6
+状態：全作業完了。Method3/5/6 CF比較、massfit atlas140頁、図付きreport20頁、来歴・数値・図の検証を完了。
+
+■ 依頼と評価方針
+・10/30総合report Fig.13/14のSE(true)・ME(mix)のk*依存Λ purity差を、実際のΛ invariant-massヒストとfitで検証する。
+・SEの低統計、fit収束/境界/共分散、背景形状の適合、SE/MEの規格化質量形状を調べ、SE純度の信頼性を判定する。
+・Method6：Method5と同じ50 MeV純度格子・滑動fit窓でMEから求めたP_MEとその誤差を、SE/MEの両方へ共通適用する。
+・共通のME純度と誤差は同じ推定量として扱い、CFでの相関・相殺を伝播する。共通Pを独立誤差として二重加算しない。
+・Method3/5/6をCF20 MeV、表示0–0.3、規格化0.3–0.4 GeV/cの同条件で比較する。
+・2分割：20–80%(cent9 0–5)、0–20%(6–8)。3分割：0–10%(7–8)、10–20%(6)、20–60%(2–5)。
+・SE/MEの一致は検証対象とし、差だけで統計不足と断定しない。Method6はME形状をSEへ移す仮定として明記する。
+・元ROOT、10/30の結果、確定4He PID、Maker、mixingは保持する。解析job再投入は行わない。
+
+■ 1. 入力・既存結果の固定
+[x] 新input ROOT/SUMS 04BF2DAE47164B6F040E3A460E539289と10/30設定・hashを照合。
+[x] 既存Method3/5のfit結果・純度格子・質量窓・centrality group対応を確認。
+[x] 独立出力先と明示設定・provenanceを用意。
+
+■ 2. SE/ME質量fitの検証
+[x] 全5centrality群についてM3各20MeV binとM5各50MeV格子のSE/ME投影・fitを図示。
+[x] 表示0–0.3に加え規格化0.3–0.4も検査。
+[x] entries、signal数、P±error、fit status/cov/boundary、χ²/NDF、pull/residualを記録。
+[x] 同じk*域で規格化SE/ME mass shapeとfitモデルを比較し、差の原因と限界をまとめる。
+
+■ 3. Method6とCF比較
+[x] ME Pと同じME errorを両SE/MEへ共有適用。元5MeV countへ重み付け後20MeVへ合算。
+[x] 規格化の全bin必須、ME fit不成立の欠測伝播、共通P誤差の相関を実装・検証。
+[x] Method3/5/6の2分割・3分割CF重ね描き、純度重ね描き、計算点/誤差/欠測理由を出力。
+[x] 10/30 Method3/5との同条件再現性と、toyでの共通P相殺・格子境界・規格化を検証。
+
+■ 4. 図付きreportと記録
+[x] CF比較・代表質量fit・SE/ME形状・診断表を含む新PDF reportを作成。
+[x] 全k*質量fit atlas PDFとREADME、設定・検証・未評価の相関をまとめる。
+[x] Todo/README、月索引、日報を更新し、個人資料として保存。共有Gitへのpushは行わない。
+
+作成時刻：2026-10-31T11:55:00.390082+09:00。
+
+ユーザー確定：Method6はMethod5のME純度（50 MeV格子・滑動fit）を使用。
+M3/M5 500bin再現、共有P局所相殺198bin、642有効CF点/共分散を検証。
+結果：method6_study_20261031.md。
+
+完了結果：
+・全5centralityを指定の2分割/3分割としてCF・純度を比較。M3 100頁/M5 40頁のfit atlasと20頁report、145PDFを生成。
+・低k* M3はSE低統計で不成立。M5は十分な滑動窓統計でもSE/ME双方にmodel不適合があり、差をSE低統計だけと断定しない。
+・Method6はME P/errorを同一変数として共有。198binで局所相殺を検証。ME→SE移行系統は未含有。
+・20–80%のM5/6はME norm fit不成立で全CFをNA。失敗fitを0や別区間で補わない。
+・12tests、M3/5 500bin再現、642有効点と共分散、input/source/hash、旧CF21PDF不変を検証。
+・図の余白は元PDFを保存してCropBoxで調整。数値・fitは変更していない。
+・結果とPDF索引：README.md / method6_study_20261031.md。
+完了時刻：2026-10-31T13:02:48.744193+09:00。

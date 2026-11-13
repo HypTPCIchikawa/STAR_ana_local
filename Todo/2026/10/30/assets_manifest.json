@@ -1,0 +1,223 @@
+{
+  "oldInputRoot": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/auau3p85_anaFemtoLambda_4He_KFParticle_2021P24iy_partial_merge.root",
+  "oldSample": {
+    "year": 2021,
+    "included": 26956,
+    "expected": 26994,
+    "jobid": "0BEFC64E62F19BBA534A129CABC9B106",
+    "beam": "3.85",
+    "stem": "summary_4He_KFParticle_3p85"
+  },
+  "pdfs": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/Fit_LL_4He.pdf",
+      "role": "old_cf_figure",
+      "exists": true,
+      "bytes": 31776,
+      "pages": 2,
+      "sha256": "5fc87f4ba9d5b6a576acbe29ec2a7ee8452dd5ac6ae5403d0d523369d1265219",
+      "recordedShaMatches": true,
+      "recordedPagesMatch": true
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/Fit_LL_CFsub_4He.pdf",
+      "role": "old_cf_figure",
+      "exists": true,
+      "bytes": 31286,
+      "pages": 2,
+      "sha256": "ac173ad1242aea5c4ab5a28992b75649c301bdce3648d5bb03901dd4d0e27e02",
+      "recordedShaMatches": true,
+      "recordedPagesMatch": true
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/Fit_LL_method3_4He.pdf",
+      "role": "old_cf_figure",
+      "exists": true,
+      "bytes": 29470,
+      "pages": 2,
+      "sha256": "c16768250c6ca5a4b56e10b92b1b58d2b86d445732be4b7335c3ee86014cd9f2",
+      "recordedShaMatches": true,
+      "recordedPagesMatch": true
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/Fit_LL_method5_4He.pdf",
+      "role": "old_cf_figure",
+      "exists": true,
+      "bytes": 27677,
+      "pages": 2,
+      "sha256": "82958df658987fd2e59d329558cdaaa79bc89fa55bb60f5d58cef27972369e5a",
+      "recordedShaMatches": true,
+      "recordedPagesMatch": true
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/Lambda_InvMass.pdf",
+      "role": "old_cf_figure",
+      "exists": true,
+      "bytes": 20451,
+      "pages": 1,
+      "sha256": "415f89317f238f9a64cfb11b1a2214bd5f705179827d4c0811ea82c76b5b5b15",
+      "recordedShaMatches": true,
+      "recordedPagesMatch": true
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/Lambda_InvMass_legacy.pdf",
+      "role": "old_cf_figure",
+      "exists": true,
+      "bytes": 15357,
+      "pages": 1,
+      "sha256": "48d811819ad15f6220e11cac9f1ebf81d91e4a2d5d55742b3991baa219be3b61",
+      "recordedShaMatches": true,
+      "recordedPagesMatch": true
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/kstar_4He.pdf",
+      "role": "old_cf_figure",
+      "exists": true,
+      "bytes": 172110,
+      "pages": 6,
+      "sha256": "3bdb67f83b9bfccb43f1ceb104bfdfe05f0643ba7c248e83d40503d80e3e100c",
+      "recordedShaMatches": true,
+      "recordedPagesMatch": true
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/kstar_CFsub_4He.pdf",
+      "role": "old_cf_figure",
+      "exists": true,
+      "bytes": 173533,
+      "pages": 6,
+      "sha256": "6dfe5d69cb2760b697c65c5d4732f6669c792600c78a89fcfb63a479ab6ef053",
+      "recordedShaMatches": true,
+      "recordedPagesMatch": true
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/kstar_cent_CFsub_method3_4He.pdf",
+      "role": "old_cf_figure",
+      "exists": true,
+      "bytes": 57394,
+      "pages": 3,
+      "sha256": "b248aabc91d6218c55badf1b8e764a73d8fbae947745899c6e93425a57f09536",
+      "recordedShaMatches": true,
+      "recordedPagesMatch": true
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/kstar_cent_CFsub_method5_4He.pdf",
+      "role": "old_cf_figure",
+      "exists": true,
+      "bytes": 61145,
+      "pages": 3,
+      "sha256": "08fe9f1d5d7091e0e06a125d37b1fbc80d687a78ce9e1c80887075218e4a447e",
+      "recordedShaMatches": true,
+      "recordedPagesMatch": true
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/kstar_sum_4He.pdf",
+      "role": "old_cf_figure",
+      "exists": true,
+      "bytes": 132949,
+      "pages": 12,
+      "sha256": "b301601b24bf167f3f5fd6c83e6884a51bc2f9d7e9ad988dddf85ebf70dc6ba5",
+      "recordedShaMatches": true,
+      "recordedPagesMatch": true
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/kstar_sum_CFsub_4He.pdf",
+      "role": "old_cf_figure",
+      "exists": true,
+      "bytes": 137236,
+      "pages": 12,
+      "sha256": "9669be5f8611755c421481fb1ecf4b708183e0aa50a3a1126b28f4692e3a1882",
+      "recordedShaMatches": true,
+      "recordedPagesMatch": true
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/kstar_sum_CFsub_method3_4He.pdf",
+      "role": "old_cf_figure",
+      "exists": true,
+      "bytes": 47167,
+      "pages": 6,
+      "sha256": "7c3f9cbeba196141797c4f8e46a75ba89bab6c5b2b7c20686f146459d444b43c",
+      "recordedShaMatches": true,
+      "recordedPagesMatch": true
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/kstar_sum_CFsub_method5_4He.pdf",
+      "role": "old_cf_figure",
+      "exists": true,
+      "bytes": 47902,
+      "pages": 6,
+      "sha256": "620d421209b8391a89f9c22d45caecb2ea990079b933547240d2273905e230ee",
+      "recordedShaMatches": true,
+      "recordedPagesMatch": true
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/summary_4He_KFParticle_3p85.pdf",
+      "role": "old_main_illustrated_report",
+      "exists": true,
+      "bytes": 655449,
+      "pages": 10,
+      "sha256": "92abc2301b8a0f6119c7cc8cb896c9b69574ca7de5078975edebb53e9961f198",
+      "recordedShaMatches": true,
+      "recordedPagesMatch": true
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/mass_halves/mass_halves_comparison.pdf",
+      "role": "old_comparison_illustrated_report",
+      "exists": true,
+      "bytes": 415356,
+      "pages": 13,
+      "sha256": "8202a378c75f693a8266d9d25cde60114a452db4a4e64bcce1bc97c97a228d41",
+      "recordedShaMatches": null,
+      "recordedPagesMatch": null
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/mt_cent0_10/cf_mt_cent0_10_constant_vs_method5.pdf",
+      "role": "old_comparison_illustrated_report",
+      "exists": true,
+      "bytes": 274666,
+      "pages": 8,
+      "sha256": "1f2f147ec45e417d7a7af6f12114c81cab9ed891fbf31139277ec96aa3eeb321",
+      "recordedShaMatches": null,
+      "recordedPagesMatch": null
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/mt_cent0_20/cf_mt_cent0_20_constant_vs_method5.pdf",
+      "role": "old_comparison_illustrated_report",
+      "exists": true,
+      "bytes": 274420,
+      "pages": 8,
+      "sha256": "6acd67d93915b11ccb0ceed367a9d555ba4e1afa6a13da2ae15f1e3a0fe26adf",
+      "recordedShaMatches": null,
+      "recordedPagesMatch": null
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/summary_4He.pdf",
+      "role": "other_dataset_or_legacy_reference",
+      "exists": true,
+      "bytes": 475121,
+      "pages": 10,
+      "sha256": "734cc3f76de17fa0177f1bbf494dfc1f6009f34246cec9099d9538b83a739c55",
+      "recordedShaMatches": null,
+      "recordedPagesMatch": null
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/summary_4He_3p85.pdf",
+      "role": "other_dataset_or_legacy_reference",
+      "exists": true,
+      "bytes": 476413,
+      "pages": 10,
+      "sha256": "998a2f6b97f657a3f6aec08d92b7b8a2a572a7aafb2aca8f6cf0c7bc410b9f2d",
+      "recordedShaMatches": null,
+      "recordedPagesMatch": null
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau13p5_anaFemtoLambda_4He_KFParticle/pdf/summary_4He_KFParticle.pdf",
+      "role": "other_dataset_or_legacy_reference",
+      "exists": true,
+      "bytes": 619971,
+      "pages": 10,
+      "sha256": "7bc8dc1541902340fc13a4e1662427643dfbe87a8810f4e5972c1427d94abec4",
+      "recordedShaMatches": null,
+      "recordedPagesMatch": null
+    }
+  ]
+}

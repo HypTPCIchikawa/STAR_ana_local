@@ -1,0 +1,107 @@
+{
+  "prepare_poisson_lambda_study.py": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/prepare_poisson_lambda_study.py",
+    "sha256": "5cff556489206ddf71e2ddee434493f869441568613078fa3af0557d6fbb56fc",
+    "bytes": 19555
+  },
+  "analyze_poisson_lambda_study.py": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/analyze_poisson_lambda_study.py",
+    "sha256": "cdb512c2aa881dfca7ad2c16daed922a582aedaa31be378c32e1bf8a22b09757",
+    "bytes": 10055
+  },
+  "draw_poisson_lambda_study.py": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/draw_poisson_lambda_study.py",
+    "sha256": "78a76ccff421fecf6322e8fa909db1b8f6091a80f7d58f1a6c42ae061976a6f7",
+    "bytes": 4644
+  },
+  "prepare_poisson_report_content.py": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/prepare_poisson_report_content.py",
+    "sha256": "654105aa227299385b71be96fd7a4e4561fd8cbd5c06953e328853da4574c375",
+    "bytes": 13553
+  },
+  "build_poisson_lambda_report.py": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/build_poisson_lambda_report.py",
+    "sha256": "f350ab00319cda1fa8430b6a0b3aea71921f8ff394bb595e8e5a45e02d5e0c84",
+    "bytes": 3573
+  },
+  "validate_poisson_lambda_study.py": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/validate_poisson_lambda_study.py",
+    "sha256": "c7da8fde0e08a32513acc46e5bf52e792ad8b0def0149fe84427d554890c2a9e",
+    "bytes": 6921
+  },
+  "publish_poisson_lambda_report.py": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/publish_poisson_lambda_report.py",
+    "sha256": "cb4741827c684ad02c026716a07ccce7ea93bbb7719c160a1632323ba3d82d97",
+    "bytes": 2981
+  },
+  "DrawPoissonPurityReview.C": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/DrawPoissonPurityReview.C",
+    "sha256": "8ef15bb31727e0f6ccbc4185c7ff9dc768feaf7697421cc922ad5484d4005352",
+    "bytes": 8753
+  },
+  "DrawPoissonFinePurity.C": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/DrawPoissonFinePurity.C",
+    "sha256": "177c48224b590f50519b674bd569a1584495d5ed661477bc5c61526e2669ec7a",
+    "bytes": 5121
+  },
+  "DrawPoissonCFComparison.C": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/DrawPoissonCFComparison.C",
+    "sha256": "ce941f4993d1d7be2de868acda88b9b8c0d48a44335a58a553855d336dea7476",
+    "bytes": 4636
+  },
+  "DrawNormalizedPurityCases.C": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/DrawNormalizedPurityCases.C",
+    "sha256": "a81084c4fe9954d895918c8e1db7bc40ab90f11e9606bdc37dc747537bc3c446",
+    "bytes": 5389
+  },
+  "DrawPurityFitReview.C": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/DrawPurityFitReview.C",
+    "sha256": "28045133cf407ecef488ac5e15b28fc52cfde5ebb6c3897af71fada02dba64e8",
+    "bytes": 19594
+  },
+  "DrawMethod6Comparison.C": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/DrawMethod6Comparison.C",
+    "sha256": "f85231f80f4be53c92036a47f5c4005313a94e29c9006b49749bf5b7362b02df",
+    "bytes": 6888
+  },
+  "method6_statistics.py": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/method6_statistics.py",
+    "sha256": "5d2eb90d4d767ace971ac81166b90d207e26b8f2ca454d40407e8822acb3022b",
+    "bytes": 16589
+  },
+  "mass_half_statistics.py": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/mass_half_statistics.py",
+    "sha256": "59ead9d43e7e3bb7806753d8c9152cbc713f4c69d504c9af36ed025820e87165",
+    "bytes": 14009
+  },
+  "compare_mass_halves.py": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/compare_mass_halves.py",
+    "sha256": "2464c8b75ddd24111601d2f16da70b9835670c7aa987b9e43c90274be41c68ee",
+    "bytes": 19956
+  },
+  "select_purity_diagnostic_cases.py": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/select_purity_diagnostic_cases.py",
+    "sha256": "d53edf3f94c3c6249bd8745c13242287dbc00725fb7df87a013764b6d995c833",
+    "bytes": 16324
+  },
+  "crop_method6_figures.py": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/crop_method6_figures.py",
+    "sha256": "6b9f0f87ec35bae5500a69b729cc4878a0d281d9cb107e85f2d1280f6c0a071e",
+    "bytes": 3332
+  },
+  "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/macros/ExtractMassHalfCF.C": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/macros/ExtractMassHalfCF.C",
+    "sha256": "3a3a6882135d7b9bbbfd170186b9c37ccb5f0a0a3391ebd29fafa25689953a0a",
+    "bytes": 32954
+  },
+  "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/macros/ExtractPurityFitReviewPoisson.C": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/macros/ExtractPurityFitReviewPoisson.C",
+    "sha256": "3dfc26355e34329021d0a4a11e73e331b18181195e4c61767238da1a422d54a5",
+    "bytes": 7665
+  },
+  "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/macros/CheckPoissonEmptyBins.C": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/macros/CheckPoissonEmptyBins.C",
+    "sha256": "347b6361e66bc521a315fa4e3ed336ecc9ca4eb2e12858cafc87fc08c7d1db99",
+    "bytes": 876
+  }
+}

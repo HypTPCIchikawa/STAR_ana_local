@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "mainconf": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_histOnlyNoJointSparse.yaml",
+  "input_root": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/auau3p85_anaFemtoLambda_4He_KFParticle_1CE33994716F7896423A80AB994BAB14_merge.root",
+  "input_fingerprint": {
+    "size": 11019456466,
+    "mtimeNs": 1793978966351719773,
+    "ino": 438719630,
+    "device": 48
+  },
+  "input_uuid": "d61fb55c-d9ee-11f1-9717-b730c782beef",
+  "input_sums_jobid": "1CE33994716F7896423A80AB994BAB14",
+  "dataset": "2021 P24iy production_3p85GeV_fixedTarget_2021",
+  "source_cf_study": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_highk_systematics_20261111_001",
+  "normalization": [
+    0.4,
+    0.5
+  ],
+  "normalization_interval": "[low, high); regular k* bins only",
+  "normalization_method": "Leave SE raw; multiply ME by integral(SE)/integral(ME) in normalization interval",
+  "rebin_factor": 4,
+  "display_ranges": [
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.3,
+      1.0
+    ]
+  ],
+  "se_histogram": "hKstarSEVsCent_lambda_he4_signal",
+  "me_histogram": "hKstarMEVsCent_lambda_he4_signal",
+  "se_qa_template": "true/hKstarNSigma_4He_CentBin%d",
+  "me_qa_template": "mix/hKstarNSigma_Mixed_4He_CentBin%d",
+  "groups": [
+    {
+      "id": "cent0_20",
+      "label": "0-20%",
+      "cent9": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "cent20_80",
+      "label": "20-80%",
+      "cent9": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "cent0_80",
+      "label": "0-80%",
+      "cent9": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "selection": "Selected inclusive 4He and Lambda signal mass gate; no extra nSigma, rigidity, mT or pair cuts",
+  "lambda_signal_mass_gate_GeV": [
+    1.10708,
+    1.12484
+  ],
+  "background_subtracted": false,
+  "purity_corrected": false,
+  "uncertainty": "SE point errors from original projected bin errors; ME displayed as line. ME normalization treated as fixed for stored scaled errors.",
+  "reference_norm_counts": {
+    "cent0_20": [
+      122358,
+      4461431
+    ],
+    "cent20_80": [
+      18213,
+      666345
+    ],
+    "cent0_80": [
+      140571,
+      5127776
+    ]
+  },
+  "regular_bin_closure_atol": 0.0,
+  "numeric_rtol": 1e-12
+}

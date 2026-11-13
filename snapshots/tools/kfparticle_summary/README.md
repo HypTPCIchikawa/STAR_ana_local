@@ -212,3 +212,95 @@ python3 tools/kfparticle_summary/run_acceptance.py \
 - これは候補の運動学的な占有範囲であり、生成粒子数で割ったアクセプタンス／効率ではありません。
 - 共通Y_Lab範囲・粒子別pT範囲は全regular-bin候補を含むように自動設定します。flowは別計上し、rebin・規格化・cut変更はしません。
 - 完成した元summaryの入力fingerprintとmainconf hashを照合します。既存出力は上書きせず、再作成する場合は新しい `--output-dir` を指定してください。
+
+## 明示manifestによる新しい統合試料
+
+旧試料と異なるjobのROOTには `--output-manifest` と `--runmeta` を両方指定します。
+manifestのROOT実path、SUMS ID、採用件数・除外番号・分割件数を照合し、runmetaに記録されたhashと一致するruntime bundle内のanalysis_infoから年度・productionを検証します。
+3.85 GeVは2021 P24iyだけを受け付けます。引数なしの旧ROOT再現は、従来の正確なファイル名・coverageに限定されます。
+
+```bash
+python3 tools/kfparticle_summary/run_summary.py \
+  --energy 3p85 --mainconf MAINCONF \
+  --input-root UPDATED_ROOT \
+  --output-manifest OUTPUTS_JSON --runmeta RUNMETA_JSON \
+  --settings SUMMARY_SETTINGS_YAML --output-dir NEW_STUDY/pdf
+
+python3 tools/kfparticle_summary/compare_mass_halves.py \
+  --energy 3p85 --mainconf MAINCONF \
+  --input-root UPDATED_ROOT \
+  --output-manifest OUTPUTS_JSON --runmeta RUNMETA_JSON \
+  --settings MASS_HALF_SETTINGS_YAML --output-dir NEW_STUDY/pdf/mass_halves
+
+python3 tools/kfparticle_summary/build_report.py \
+  --energy 3p85 --output-dir NEW_STUDY/pdf \
+  --output-manifest OUTPUTS_JSON --runmeta RUNMETA_JSON
+```
+
+試料情報はrun_state/context/report metadataへ保存されます。report再生成・検証でも同じ来歴を再検証し、別manifestやrunmetaへの変更を拒否します。
+旧contextにsample記録がない場合、質量窓report単体の再生成は旧入力の厳密なファイル名で動作しますが、比較runnerのresumeには新しいcontextが必要です。
+
+`InspectKFSummary.C`は入力／再構成event数を`hRefMult`／`hRefMultCorr`のEntriesから読み、manifestの値と照合します。histがない旧入力だけ保存TParameterへfallbackします。
+元のTParameter値は`eventCounterParameters`に別記し、候補数・catalog event値・event Entriesを混同しません。
+
+`sample_provenance.py`はROOTをimportせず、tarからファイルを展開しません。検証テスト：
+
+```bash
+python3 -m unittest discover -s tools/kfparticle_summary/tests -p test_sample_provenance.py
+python3 -m unittest discover -s tests -p 'test_mass_half*.py'
+```
+
+Method3/5では、規格化区間の全CF binに有限で正のSE/ME信号推定と誤差が必要です。
+一部のmass fitが不成立なら、その中央度のCF全体をNAとし、LL fitも行いません。
+残りbinだけで規格化せず、`normalization`監査行と図中のNA表示に理由を残します。
+Method5の出力binは、寄与する元binのpure fitが一部でも無効ならbin全体が無効です。
+`validate_outputs.py`はこのNA伝播とLL fitの非実行も確認します。
+
+## SE/ME mass-fit点検と共有ME純度のMethod6
+
+Method6はMethod5のME純度と同じ統計誤差をSE/MEへ共通適用します。
+同一Quantityを共有し、native binsへ重み付け後CF binへ合算するため、純度cell内の比ではP誤差が相殺し、境界を跨ぐbinと規格化では依存が残ります。
+ME→SE移行仮定や質量モデルの系統誤差は、この統計誤差に含みません。SE/ME純度の一致をfitの必須条件にはしません。
+
+| 処理 | 実装と入力 |
+|---|---|
+| mass分布・fitの読取抽出 | `ExtractPurityFitReview.C`。`ExtractMassHalfCF.C`のfit/validityを再利用し1row1fit。input ROOT, output dir, explicit flat settings, kstarMaxを指定 |
+| 共有純度とCF/covariance | `method6_statistics.py`。同じfit JSONとnative countsを使用 |
+| provenance/TSV/診断表 | `prepare_method6_study.py`。sample manifest/runmetaとconfig/source/copy/referenceを検証 |
+| CF/SEME純度の描画 | `DrawMethod6Comparison.C`。数値TSVと表示/規格化範囲を明示 |
+| 全massfitの描画 | `DrawPurityFitReview.C`。保存parameter/窓countsからmass/model/BG/pullを描く。refitなし |
+| vector図の余白 | `crop_method6_figures.py`。raw PDFを保持し、visible marksのCropBoxだけを指定 |
+| 図付きreport | `build_method6_report.py`。CF/純度各2頁、代表massfit、診断・仮定・限界をまとめる |
+| 成果物検証 | `validate_method6_study.py`。sample/source/hash・norm NA・shared P/covariance・局所相殺を実データで確認 |
+
+study YAMLはsummary_settingsへの相対参照、5groupと2/3分割、inspection/comparison範囲、M6 source、代表fit bins、report_stemを明示します。
+抽出のflat settingsは `compare_mass_halves.settings_text(maker, study, summary)` で生成し、prepare時に元YAMLとの完全一致を要求します。
+ROOTの描画sourceは専用outputのmacrosへコピーしてACLiCで実行します。native fit結果は `purity_fit_review.json` に保存し、CFと図の両方へ使います。
+
+既存の保存抽出から数値・図表TSVを作成：
+
+```bash
+python3 tools/kfparticle_summary/prepare_method6_study.py \
+  --input-root INPUT_ROOT --mainconf MAINCONF \
+  --output-manifest OUTPUTS_JSON --runmeta RUNMETA_JSON \
+  --settings STUDY_SETTINGS_YAML --output-dir NEW_STUDY/pdf \
+  --reference-study PREVIOUS_STUDY/pdf
+```
+
+`DrawMethod6Comparison`の引数順はcf TSV, purity TSV, raw output dir, CF表示下限/上限, norm下限/上限, purity表示上限。
+`DrawPurityFitReview`はmetadata TSV, mass-bin TSV, raw output dir, fit下限/上限, signal下限/上限。
+範囲はstudy/summary/Maker YAMLから取り、ROOT5 batch wrapperへmainconfを明示します。
+raw outputと最終outputは分けます。
+
+```bash
+python3 tools/kfparticle_summary/crop_method6_figures.py \
+  --input-dir RAW_FIGURE_DIR --output-dir NEW_STUDY/pdf --margin-points 6
+python3 tools/kfparticle_summary/build_method6_report.py \
+  --output-dir NEW_STUDY/pdf --settings STUDY_SETTINGS_YAML
+python3 tools/kfparticle_summary/validate_method6_study.py --output-dir NEW_STUDY/pdf
+python3 -m unittest discover -s tools/kfparticle_summary/tests -p test_method6_statistics.py
+```
+
+規格化に必要なME fitが不成立ならMethod6も両sideを共通maskし、CF全体をNAとします。
+共通Pの誤差を独立に二重加算せず、数値的に成立したfitでもχ²や形状を別途点検します。
+fit-background/count、異なるfitの背景共分散、event/mixed-pair再利用の未保存相関は完全には復元できません。

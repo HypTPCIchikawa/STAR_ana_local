@@ -1,0 +1,109 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry,amsmath,longtable,graphicx,pdfpages,hyperref}
+\geometry{margin=1.7cm}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\title{KFParticle $\Lambda$--$^{4}\mathrm{He}$\\Low / High Invariant-Mass CF Comparison}
+\author{Post-processing QA report}
+\date{2026-10-30 15:12 JST}
+\begin{document}
+\maketitle
+\section{Sample, scope and common choices}
+Au+Au fixed-target sample, beam-energy label 3.85 GeV; 2021 P24iy only. The beam label is not $\sqrt{s_{NN}}$. Partial merge: 26,955/26,994 subjobs; 39 excluded or missing.
+SUMS ID: \texttt{04BF2DAE47164B6F040E3A460E539289}.
+Input: {\small\path{auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_merge.root}}. No event reanalysis, selection-cut change or original ROOT modification.
+$k^*$ bin width: 20 MeV/$c$; display: $0$--$0.3$ GeV/$c$; normalization: $0.3$--$0.4$ GeV/$c$. The normalization interval remains in use even outside the displayed range.
+The integrated comparison uses $0\leq k^*<0.2$ GeV/$c$. It is the normalized ratio of summed counts, not an arithmetic average of CF points. Each mass window is independently normalized.
+\section{Inclusive 0--80\% comparison}
+Ratios compare each half to full within the same background method. NA means unavailable, not zero or agreement. Errors are approximate (see limitations below).
+\begin{itemize}
+\item Raw: low/full = $0.9958\pm0.00708$; high/full = $1.005\pm0.00871$.
+\item SBsub: low/full = $0.9959\pm0.00747$; high/full = $1.005\pm0.0093$.
+\item CFsub: low/full = $0.996\pm0.00731$; high/full = $1.005\pm0.00909$.
+\item Method 3: low/full = NA; high/full = NA.
+\item Method 5: low/full = $0.9953\pm0.00707$; high/full = $1.006\pm0.0093$.
+\end{itemize}\section{Mass windows and methods}
+Exact gates use candidate masses. Mass-fit projections and inclusive purity use whole stored mass bins, without split-bin interpolation:
+\begin{center}\begin{tabular}{lcc}\hline Window & Exact nominal edges & Whole-bin edges\\\hline
+full & 1.10708--1.12484 & 1.107--1.125\\
+low & 1.10708--1.11596 & 1.107--1.116\\
+high & 1.11596--1.12484 & 1.116--1.125\\
+leftSB & 1.08044--1.10708 & 1.08--1.107\\
+rightSB & 1.12484--1.15148 & 1.125--1.151\\
+\hline\end{tabular}\end{center}
+Edges are in GeV/$c^2$. Exact low excludes the mean, exact high includes it; the full outer edges are included. Whole-bin intervals are disjoint and half-open. Raw/SBsub/CFsub signal histograms use exact gates, while Methods 3/5 include this documented mass-binning difference.
+\begin{description}
+\item[Raw] Normalized signal SE/ME, without background correction.
+\item[SBsub] Subtract summed sideband counts from SE and ME before normalization, using $1/3$ for full and $1/6$ for each half. A locally flat background is assumed.
+\item[CFsub] $C_r^{\rm corr}=[C_r-(1-P_r)C_{\rm SB}]/P_r$. Each window uses its own current inclusive purity proxy.
+\item[Method 3] Fit each SE/ME mass projection with Gaussian plus quadratic, then form the normalized ratio of $N-B$. Low/high background integrals share one fit; full uses their sum.
+\item[Method 5] Purity fits use 50 MeV/$c$ coarse bins and $W=2$ neighbors per side: interior window 250 MeV/$c$, truncated at edges. Each original 5 MeV/$c$ count receives the purity of its containing coarse bin, then contributes to the 20 MeV/$c$ CF bin. No fine-bin refit is performed. Full has its own window purity; its corrected yield need not equal the sum of corrected half yields.
+\end{description}
+\begin{center}\begin{tabular}{lcc}\hline Window & Inclusive purity proxy & Actual width factor\\\hline
+full & $0.9672\pm2.14e-05$ & 0.3396226\\
+low & $0.9716\pm1.91e-05$ & 0.1698113\\
+high & $0.9612\pm2.68e-05$ & 0.1698113\\
+\hline\end{tabular}\end{center}
+These purity errors are not propagated into CFsub. These are inclusive proxies, not measured pair-, centrality- or momentum-dependent purities; sideband asymmetry and background-model systematics remain.
+\clearpage\section{Integrated CF values and half/full ratios}
+Valid bins lists full/low/high counts in the displayed interval. A partial curve does not guarantee that the complete integration interval is valid. Invalid bins are not silently removed from the requested integration.
+{\scriptsize\setlength{\tabcolsep}{3pt}\begin{longtable}{lrrrrrl}
+\hline Method & $C_{\rm full}$ & $C_{\rm low}$ & $C_{\rm high}$ & Low/Full & High/Full & Valid bins\\\hline\endhead
+\multicolumn{7}{l}{\textbf{Centrality 0-80\%}}\\
+Raw & $1.031\pm0.00809$ & $1.027\pm0.0109$ & $1.037\pm0.0121$ & $0.9958\pm0.00708$ & $1.005\pm0.00871$ & 15/15/15 of 15\\
+SBsub & $1.028\pm0.00864$ & $1.023\pm0.0115$ & $1.033\pm0.013$ & $0.9959\pm0.00747$ & $1.005\pm0.0093$ & 15/15/15 of 15\\
+CFsub & $1.028\pm0.0084$ & $1.024\pm0.0112$ & $1.033\pm0.0126$ & $0.996\pm0.00731$ & $1.005\pm0.00909$ & 15/15/15 of 15\\
+Method 3 & NA & $1.034\pm0.0114$ & NA & NA & NA & 14/15/14 of 15\\
+Method 5 & $1.03\pm0.00834$ & $1.025\pm0.011$ & $1.036\pm0.0128$ & $0.9953\pm0.00707$ & $1.006\pm0.0093$ & 15/15/15 of 15\\
+\hline
+\multicolumn{7}{l}{\textbf{Centrality 20-80\%}}\\
+Raw & $1.076\pm0.025$ & $1.078\pm0.034$ & $1.074\pm0.0367$ & $1.002\pm0.0214$ & $0.9975\pm0.0251$ & 15/15/15 of 15\\
+SBsub & $1.085\pm0.0281$ & $1.087\pm0.0378$ & $1.082\pm0.0415$ & $1.002\pm0.0234$ & $0.9975\pm0.0279$ & 15/15/15 of 15\\
+CFsub & $1.075\pm0.0259$ & $1.077\pm0.035$ & $1.072\pm0.0383$ & $1.002\pm0.0221$ & $0.9971\pm0.0262$ & 15/15/15 of 15\\
+Method 3 & NA & NA & NA & NA & NA & 13/13/13 of 15\\
+Method 5 & NA & NA & NA & NA & NA & 0/0/0 of 15\\
+\hline
+\multicolumn{7}{l}{\textbf{Centrality 0-20\%}}\\
+Raw & $1.026\pm0.00855$ & $1.021\pm0.0115$ & $1.032\pm0.0128$ & $0.995\pm0.0075$ & $1.006\pm0.00929$ & 15/15/15 of 15\\
+SBsub & $1.022\pm0.00908$ & $1.017\pm0.0121$ & $1.028\pm0.0137$ & $0.9952\pm0.00788$ & $1.006\pm0.00987$ & 15/15/15 of 15\\
+CFsub & $1.023\pm0.00888$ & $1.018\pm0.0118$ & $1.029\pm0.0134$ & $0.9953\pm0.00774$ & $1.006\pm0.00969$ & 15/15/15 of 15\\
+Method 3 & NA & $1.026\pm0.012$ & NA & NA & NA & 14/15/14 of 15\\
+Method 5 & $1.024\pm0.00879$ & $1.018\pm0.0116$ & $1.033\pm0.0135$ & $0.9937\pm0.00747$ & $1.008\pm0.00989$ & 15/15/15 of 15\\
+\hline
+\multicolumn{7}{l}{\textbf{Centrality 0-10\%}}\\
+Raw & $1.027\pm0.00959$ & $1.018\pm0.0128$ & $1.039\pm0.0145$ & $0.9913\pm0.00837$ & $1.011\pm0.0104$ & 15/15/15 of 15\\
+SBsub & $1.022\pm0.0101$ & $1.013\pm0.0134$ & $1.033\pm0.0153$ & $0.9914\pm0.00878$ & $1.011\pm0.0111$ & 15/15/15 of 15\\
+CFsub & $1.024\pm0.00996$ & $1.015\pm0.0132$ & $1.034\pm0.0151$ & $0.9915\pm0.00865$ & $1.011\pm0.0109$ & 15/15/15 of 15\\
+Method 3 & NA & NA & NA & NA & NA & 14/14/14 of 15\\
+Method 5 & $1.025\pm0.00984$ & $1.013\pm0.0129$ & $1.04\pm0.0152$ & $0.9885\pm0.00833$ & $1.015\pm0.0111$ & 15/15/15 of 15\\
+\hline
+\multicolumn{7}{l}{\textbf{Centrality 10-20\%}}\\
+Raw & $1.03\pm0.0191$ & $1.041\pm0.026$ & $1.017\pm0.0282$ & $1.011\pm0.0169$ & $0.9875\pm0.0203$ & 15/15/15 of 15\\
+SBsub & $1.032\pm0.0206$ & $1.044\pm0.0278$ & $1.018\pm0.0305$ & $1.011\pm0.0179$ & $0.9863\pm0.0218$ & 15/15/15 of 15\\
+CFsub & $1.029\pm0.0198$ & $1.04\pm0.0268$ & $1.015\pm0.0294$ & $1.011\pm0.0174$ & $0.9867\pm0.0212$ & 15/15/15 of 15\\
+Method 3 & NA & NA & NA & NA & NA & 13/13/13 of 15\\
+Method 5 & $1.045\pm0.02$ & $1.06\pm0.0267$ & $1.025\pm0.0299$ & $1.014\pm0.0168$ & $0.9817\pm0.0215$ & 15/15/15 of 15\\
+\hline
+\multicolumn{7}{l}{\textbf{Centrality 20-60\%}}\\
+Raw & $1.077\pm0.025$ & $1.079\pm0.0341$ & $1.074\pm0.0368$ & $1.002\pm0.0214$ & $0.9972\pm0.0251$ & 15/15/15 of 15\\
+SBsub & $1.085\pm0.0282$ & $1.088\pm0.0378$ & $1.082\pm0.0415$ & $1.002\pm0.0234$ & $0.9972\pm0.0279$ & 15/15/15 of 15\\
+CFsub & $1.075\pm0.0259$ & $1.078\pm0.0351$ & $1.072\pm0.0383$ & $1.003\pm0.0221$ & $0.9968\pm0.0262$ & 15/15/15 of 15\\
+Method 3 & NA & NA & NA & NA & NA & 13/13/13 of 15\\
+Method 5 & $1.102\pm0.0266$ & $1.11\pm0.0357$ & $1.09\pm0.04$ & $1.007\pm0.0216$ & $0.9892\pm0.027$ & 15/15/15 of 15\\
+\hline
+\end{longtable}}
+\section{Validity and uncertainty limitations}
+An invalid fit in a required normalization bin makes its entire CF unavailable. Invalid comparison bins make the integrated contrast NA, not zero. Numerical convergence does not prove mass-model adequacy: large chi-square/ndf or small fit probabilities prohibit precision-model claims. Detailed fit diagnostics and NA reasons are in the Japanese README and extraction JSON.
+First-order propagation retains shared full/half counts, sidebands, normalization integrals, the low/high background covariance from each common fit, and reuse of one coarse-bin purity by multiple CF bins. It cannot recover event / track sharing or mixed-pair reuse correlations. Covariance between observed $N$ and fitted background $B$, covariance between overlapping fits in different coarse bins, CFsub purity uncertainty and model systematics are not included. These comparisons are QA contrasts, not final significance tests.
+Centrality groups overlap and are not independent. Low/high CFs cannot be directly added. Small TH2F rounding residuals are recorded without silently replacing the full histogram.
+\section{Figure guide}
+The next ten pages show two pages per method: Raw, SBsub, CFsub, Method 3, Method 5. First page: 0--80\%, 20--80\%, 0--20\%; second: 0--10\%, 10--20\%, 20--60\%. Upper panels: full (black), low (red), high (blue). Lower panels: low/full and high/full with supplied covariance errors. Failed bins are omitted, not displayed as measured zero.
+\includepdf[pages=-,fitpaper=true,pagecommand={}]{mass_halves_raw.pdf}
+\includepdf[pages=-,fitpaper=true,pagecommand={}]{mass_halves_sbsub.pdf}
+\includepdf[pages=-,fitpaper=true,pagecommand={}]{mass_halves_cfsub.pdf}
+\includepdf[pages=-,fitpaper=true,pagecommand={}]{mass_halves_method3.pdf}
+\includepdf[pages=-,fitpaper=true,pagecommand={}]{mass_halves_method5.pdf}
+\end{document}

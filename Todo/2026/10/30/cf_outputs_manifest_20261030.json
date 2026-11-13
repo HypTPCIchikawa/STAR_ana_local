@@ -1,0 +1,167 @@
+{
+  "phase": "complete",
+  "completedAtJst": "2026-10-30T15:26:34.401861+09:00",
+  "jobid": "04BF2DAE47164B6F040E3A460E539289",
+  "includedSubjobs": 26955,
+  "expectedSubjobs": 26994,
+  "inputUnchanged": true,
+  "canonicalPdfs": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/Fit_LL_4He.pdf",
+      "pages": 2,
+      "sha256": "b3bf12ac850ced76f724ebb9fcfa4360c10d240cae18a52426723b32536f285d",
+      "bytes": 30955
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/Fit_LL_CFsub_4He.pdf",
+      "pages": 2,
+      "sha256": "2db3e36fbad21cd4b0ef9eeb87ec42f3650a51f9d2a286116f963c0503d72422",
+      "bytes": 30848
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/Fit_LL_method3_4He.pdf",
+      "pages": 2,
+      "sha256": "1f1015c05b1b48720c371767bd9673bb2e4d1f67c125a6574c14e60175a2f5c0",
+      "bytes": 29061
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/Fit_LL_method5_4He.pdf",
+      "pages": 2,
+      "sha256": "73003e93cec61f4565caebc5a83b84dfde27d4f67f14abc72f72610018e621f8",
+      "bytes": 25238
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/Lambda_InvMass.pdf",
+      "pages": 1,
+      "sha256": "99f40a3ff1ea091123d0362db627d8004d054fe2ef89508e6c66d8e683d042d6",
+      "bytes": 20450
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/Lambda_InvMass_legacy.pdf",
+      "pages": 1,
+      "sha256": "f57be7d8741d7d8ab91f6db350a23758abd2836751077d72620d0efe0d0f651a",
+      "bytes": 15360
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/kstar_4He.pdf",
+      "pages": 6,
+      "sha256": "976cfc84ffd8398a5caf58249baec9b41dda6e442b85699c7f65d0da2fdbba34",
+      "bytes": 172075
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/kstar_CFsub_4He.pdf",
+      "pages": 6,
+      "sha256": "af45000811b59af8f3d5865ab5e4d351eec9f5e32c2ab76f2dcf47deebac3096",
+      "bytes": 173112
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/kstar_cent_CFsub_method3_4He.pdf",
+      "pages": 3,
+      "sha256": "aa3756e3ae8bb0d5925e3d07dd89a2a3b906f7bb907dc700d346431cb2e4afb0",
+      "bytes": 57482
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/kstar_cent_CFsub_method5_4He.pdf",
+      "pages": 3,
+      "sha256": "587f1eca53ba74707d543815aa70c9e3038eb8e85939804a620a4dc680df8b2e",
+      "bytes": 61745
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/kstar_sum_4He.pdf",
+      "pages": 12,
+      "sha256": "a7d167c707cba2eadea68116def38e8f503c176cd998791242c6efeeac9fcadf",
+      "bytes": 133032
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/kstar_sum_CFsub_4He.pdf",
+      "pages": 12,
+      "sha256": "075561612b0d3521d47725bc9731e289661e8491e28b26345c6862a1012a6175",
+      "bytes": 137495
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/kstar_sum_CFsub_method3_4He.pdf",
+      "pages": 6,
+      "sha256": "898438ea959b8f10b45a70ebb02cce21efa63eebd41bae63647bfcac61d11631",
+      "bytes": 47607
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/kstar_sum_CFsub_method5_4He.pdf",
+      "pages": 6,
+      "sha256": "ef54024ca7cfdf8ec7ac87e6f89f5922bc3cbe7727401f160321be357586dac6",
+      "bytes": 47123
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_4He_KFParticle_3p85.pdf",
+      "pages": 10,
+      "sha256": "ce60cb469fd305f4cae0db79f9b57280746e03b09d416c23d45c562e099a3cbd",
+      "bytes": 645978
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_halves_raw.pdf",
+      "pages": 2,
+      "sha256": "6a419ae99ab900e3d14bf03a6852825fa3366eb6c1400d197723bf571ad48b45",
+      "bytes": 36466
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_halves_sbsub.pdf",
+      "pages": 2,
+      "sha256": "e3dc18e812e3891fbeed63a8b7b934b7b43145424bd4b38d44a5544f04377c8a",
+      "bytes": 36570
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_halves_cfsub.pdf",
+      "pages": 2,
+      "sha256": "77e845634b8e23944b9e83a6448f5f9a1ae23f69ad7fa0ced108620feb974550",
+      "bytes": 36389
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_halves_method3.pdf",
+      "pages": 2,
+      "sha256": "8eddc6fd317dc6a1fd150fa5a91e45f2e84bbff82ae42e6e113984787e7dcfbc",
+      "bytes": 37831
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_halves_method5.pdf",
+      "pages": 2,
+      "sha256": "b47183d7b91683259e1ad2c55c2363ae3cc3c72ab459af16b2d1cba3022e8d5d",
+      "bytes": 34200
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_halves_comparison.pdf",
+      "pages": 13,
+      "sha256": "6c26b7b7aa14ff8e0f1cf1b81a7d95864370f9b7563e49c92cfbc05ae117e81b",
+      "bytes": 434747
+    }
+  ],
+  "summaryValidation": "cf_final_validation_20261030.json",
+  "normalizationNa": [
+    {
+      "macro": "draw_LambdaNuclearId_relamom_sum_CFsub_method5.C",
+      "object": "hCF_4He_GS0_G0"
+    },
+    {
+      "macro": "draw_LambdaNuclearId_relamom_CFsub_method3.C",
+      "object": "hCF_4He_Cent0"
+    },
+    {
+      "macro": "draw_LambdaNuclearId_relamom_CFsub_method3.C",
+      "object": "hCF_4He_Cent1"
+    },
+    {
+      "macro": "draw_LambdaNuclearId_relamom_CFsub_method5.C",
+      "object": "hCF_4He_Cent0"
+    },
+    {
+      "macro": "Fit_LambdaNuclearId_relamom_sum_CFsub_method5.C",
+      "object": "hCF_4He_GS0_G0"
+    }
+  ],
+  "historicalPdfsUnchanged": 21,
+  "tests": {
+    "sampleProvenance": 13,
+    "macroAdaptation": 3,
+    "massHalf": 21,
+    "rootNormalizationGuard": "PASS: valid, incomplete norm, outside-norm missing, negative and nonfinite-error behavior"
+  },
+  "mtStudyExecuted": false
+}

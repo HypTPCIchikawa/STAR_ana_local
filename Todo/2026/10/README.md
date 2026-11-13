@@ -10,6 +10,8 @@
 | [10/20](20/README.md) | Git原PIDから仕切り直し。6本番入口の復帰・実行時照合、TOF Gaussian 380点、3応答8点比較まで完了。高χ²の解決、ALL・新純度・cutoffは未認定。 |
 | [10/21](21/README.md) | 従来PIDの再評価、低Rピーク較正、図入りreport、全核種Gaussianのみの全区間比較。 |
 | [10/22](22/README.md) | 完了：d/t/³HeのGit版PID固定、⁴He係数調整と領域別Purity。最新は低R中心固定・Gaussianのみの11頁改訂reportと全区間fit集。 |
+| [10/30](30/README.md) | Λ–4He CF再作成。資料索引・入力検証に続き13マクロと総合10頁・質量窓比較13頁を完了。規格化欠測の伝播を修正・検証。 |
+| [10/31](31/README.md) | SE/ME Λ質量fitを全k*で点検し、ME純度共有のMethod6を追加。M3/5/6を中央度2分割・3分割で比較、fit atlas140頁とreport20頁を作成。 |
 
 2026-10-20には、はみ出していた10/13のTodoも[13/](13/README.md)へ整理した。
 155ファイルの移動と17件のMarkdown修正を行い、元TXT・validation・ログ等の内容は保持した。

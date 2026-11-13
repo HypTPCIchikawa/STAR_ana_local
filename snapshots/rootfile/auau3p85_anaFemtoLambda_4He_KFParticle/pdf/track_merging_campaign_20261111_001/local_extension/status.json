@@ -1,0 +1,38 @@
+{
+  "phase": "complete_local_preview",
+  "completedAtUtc": "2026-11-11T06:33:03.428201+00:00",
+  "inputPicoDstFiles": 4,
+  "sourceInputEventsRepresented": 86611,
+  "newProducerInputEvents": 82584,
+  "acceptedCacheFrames": 82944,
+  "qaPicoEventsRead": 468,
+  "selectedHe4Pairs": 124,
+  "selectedHe3Pairs": 531,
+  "baseline": {
+    "sourceInputEvents": 4027,
+    "acceptedCacheFrames": 3858,
+    "qaPicoEventsRead": 21,
+    "selectedHe4Pairs": 9,
+    "selectedHe3Pairs": 29
+  },
+  "additional": {
+    "sourceInputEvents": 82584,
+    "acceptedCacheFrames": 79086,
+    "qaPicoEventsRead": 447,
+    "selectedHe4Pairs": 115,
+    "selectedHe3Pairs": 502
+  },
+  "sourceCount": 4,
+  "aggregate": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/local_extension/aggregate/latest.json",
+  "plots": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/local_extension/plots/latest.json",
+  "pdf": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/local_extension/plots/jobs_00004_e46f8399caba_ba5ba010af/merging_maps.pdf",
+  "rootSha256": "e46f8399caba29f886842c3c08c4778cdaf89d0cd8061e5640d3e32313fa6cf3",
+  "allFourSourceOldQaClosureChecks": 244827,
+  "farmCompletedJobsContributed": 0,
+  "mainFarmLfnOverlap": 0,
+  "originPeakAssessment": "not determined: few regular angular-map entries",
+  "productionCodeDebugging": "recorded in Todo, pending",
+  "plotSourceSha256": "7d89fecd83058e3e3a27afc69e8135f9d9a308fdd3a730d2b740c7a6e4e50711",
+  "independentValidation": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/local_extension/independent_results_validation.json",
+  "finalCheckAtUtc": "2026-11-11T06:37:44.714914+00:00"
+}

@@ -110,6 +110,311 @@
     "bytes": 7667503
   },
   {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_highk_systematics_20261111_001/histogram_catalog.json",
+    "reason": "size",
+    "bytes": 8794683
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_highk_systematics_20261111_001/histogram_catalog_04BF.json",
+    "reason": "size",
+    "bytes": 8794683
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_highk_systematics_20261111_001/histograms.json",
+    "reason": "size",
+    "bytes": 285523525
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_highk_systematics_20261111_001/histograms_04BF.json",
+    "reason": "size",
+    "bytes": 285536186
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_highk_systematics_20261111_001/lambda_he4_highk_systematics_20261111.pdf",
+    "reason": "size",
+    "bytes": 1102442
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_highk_systematics_20261111_001/legacy_float_independent_audit.json",
+    "reason": "size",
+    "bytes": 596833
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_highk_systematics_20261111_001/metrics.tsv",
+    "reason": "size",
+    "bytes": 384371
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_highk_systematics_20261111_001/points.tsv",
+    "reason": "size",
+    "bytes": 12065815
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_highk_systematics_20261111_001/results.json",
+    "reason": "size",
+    "bytes": 16170407
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_highk_systematics_20261111_001/validation.json",
+    "reason": "size",
+    "bytes": 404852
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/atlas_method3.pdf",
+    "reason": "size",
+    "bytes": 5368818
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/atlas_method5.pdf",
+    "reason": "size",
+    "bytes": 2197143
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_bins.tsv",
+    "reason": "size",
+    "bytes": 3481834
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_quality.json",
+    "reason": "size",
+    "bytes": 885397
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/methods_comparison.json",
+    "reason": "size",
+    "bytes": 6526705
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/purity_fit_review.json",
+    "reason": "size",
+    "bytes": 5491558
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/atlas_method3.pdf",
+    "reason": "size",
+    "bytes": 5479804
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/atlas_method5.pdf",
+    "reason": "size",
+    "bytes": 2244148
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/revisions/before_landscape_layout_001/atlas_method3.pdf",
+    "reason": "size",
+    "bytes": 5479804
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/revisions/before_landscape_layout_001/atlas_method5.pdf",
+    "reason": "size",
+    "bytes": 2244148
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/revisions/before_landscape_layout_001/method6_cf_purity_report_20261031.pdf",
+    "reason": "size",
+    "bytes": 1104098
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/revisions/paper_size_trial_001/atlas_method3.pdf",
+    "reason": "size",
+    "bytes": 5522856
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/revisions/paper_size_trial_001/atlas_method5.pdf",
+    "reason": "size",
+    "bytes": 2259138
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/revisions/paper_size_trial_001/method6_cf_purity_report_20261031.pdf",
+    "reason": "size",
+    "bytes": 1108195
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/baseline_audit.json",
+    "reason": "size",
+    "bytes": 270179
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/mixing_controls_root_qa.json",
+    "reason": "size",
+    "bytes": 468099
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/fine_extract/purity_fit_review.json",
+    "reason": "size",
+    "bytes": 8524081
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/methods_comparison_selected.json",
+    "reason": "size",
+    "bytes": 6583798
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/summary_4He_KFParticle_3p85_updated_20261102.pdf",
+    "reason": "size",
+    "bytes": 1418485
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/cf_points.tsv",
+    "reason": "size",
+    "bytes": 596135
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/comparison.json",
+    "reason": "size",
+    "bytes": 3551562
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_half_extract.json",
+    "reason": "size",
+    "bytes": 1886952
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/revisions/before_poisson_L_constant_20261102_004/summary_4He_KFParticle_3p85.pdf",
+    "reason": "size",
+    "bytes": 1418485
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_4He_KFParticle_3p85_org.pdf",
+    "reason": "size",
+    "bytes": 1418485
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_001/pdf/fine_extract/purity_fit_review.json",
+    "reason": "size",
+    "bytes": 8670848
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_001/pdf/group_extract/purity_fit_review.json",
+    "reason": "size",
+    "bytes": 5612335
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_002/pdf/fine_extract/purity_fit_review.json",
+    "reason": "size",
+    "bytes": 9226597
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_002/pdf/group_extract/purity_fit_review.json",
+    "reason": "size",
+    "bytes": 5933306
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_002/pdf/methods_comparison_selected.json",
+    "reason": "size",
+    "bytes": 6256081
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_002/pdf/normalization_audit.json",
+    "reason": "size",
+    "bytes": 314968
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_002/pdf/normalization_audit.partial.json",
+    "reason": "size",
+    "bytes": 313211
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_003/pdf/atlas/atlas_method3.pdf",
+    "reason": "size",
+    "bytes": 6742990
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_003/pdf/atlas/atlas_method5.pdf",
+    "reason": "size",
+    "bytes": 2736084
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_003/pdf/atlas_raw/atlas_method3.pdf",
+    "reason": "size",
+    "bytes": 6893611
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_003/pdf/atlas_raw/atlas_method5.pdf",
+    "reason": "size",
+    "bytes": 2792474
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_003/pdf/atlas_tables/cases_fit_bins.tsv",
+    "reason": "size",
+    "bytes": 3486760
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_003/pdf/fine_extract/purity_fit_review.json",
+    "reason": "size",
+    "bytes": 9268653
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_003/pdf/fit_objective_comparison.json",
+    "reason": "size",
+    "bytes": 1419323
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_003/pdf/fixed_cases_comparison.json",
+    "reason": "size",
+    "bytes": 314626
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_003/pdf/group_extract/purity_fit_review.json",
+    "reason": "size",
+    "bytes": 5953817
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_003/pdf/methods_comparison_selected.json",
+    "reason": "size",
+    "bytes": 6554015
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/atlas_method3.pdf",
+    "reason": "size",
+    "bytes": 6383760
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/atlas_method5.pdf",
+    "reason": "size",
+    "bytes": 2631189
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas_raw/atlas_method3.pdf",
+    "reason": "size",
+    "bytes": 6761286
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas_raw/atlas_method5.pdf",
+    "reason": "size",
+    "bytes": 2759697
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas_tables/cases_fit_bins.tsv",
+    "reason": "size",
+    "bytes": 3486760
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/fine_extract/purity_fit_review.json",
+    "reason": "size",
+    "bytes": 9377885
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/fit_objective_comparison.json",
+    "reason": "size",
+    "bytes": 1417111
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/fixed_cases_comparison.json",
+    "reason": "size",
+    "bytes": 405849
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/group_extract/purity_fit_review.json",
+    "reason": "size",
+    "bytes": 6004766
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/methods_comparison_selected.json",
+    "reason": "size",
+    "bytes": 6611216
+  },
+  {
     "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/he4_purity_20261013/calibrated_selection/purity_windows.csv",
     "reason": "size",
     "bytes": 330003
@@ -5923,6 +6228,1286 @@
     "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/revisions/mass_halves_norm04_06_before_norm03_04_20261003/mass_half_extract.json",
     "reason": "size",
     "bytes": 1889354
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_audit_20261111_001/hist_cells.tsv",
+    "reason": "size",
+    "bytes": 5674831
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_audit_20261111_001/histograms.json",
+    "reason": "size",
+    "bytes": 3751435
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_audit_20261111_001/merging_histograms_20261111.pdf",
+    "reason": "size",
+    "bytes": 2507718
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_audit_20261111_001/revisions/initial_merging_histograms_20261111.pdf",
+    "reason": "size",
+    "bytes": 2504125
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_audit_20261111_001/track_merging_audit_20261111.pdf",
+    "reason": "size",
+    "bytes": 2636953
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/latest.json",
+    "reason": "size",
+    "bytes": 1969801
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_00002_20261111T064203Z.histograms.json",
+    "reason": "size",
+    "bytes": 3480973
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_00095_20261111T064819Z.histograms.json",
+    "reason": "size",
+    "bytes": 4082386
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_00142_20261111T070725Z.histograms.json",
+    "reason": "size",
+    "bytes": 4171882
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_00190_20261111T071801Z.histograms.json",
+    "reason": "size",
+    "bytes": 4260716
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_00266_20261111T072035Z.histograms.json",
+    "reason": "size",
+    "bytes": 4431798
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_00334_20261111T072332Z.histograms.json",
+    "reason": "size",
+    "bytes": 4613487
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_00414_20261111T072643Z.histograms.json",
+    "reason": "size",
+    "bytes": 4829547
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_00483_20261111T072937Z.histograms.json",
+    "reason": "size",
+    "bytes": 5016390
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_00559_20261111T073250Z.histograms.json",
+    "reason": "size",
+    "bytes": 5215619
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_00634_20261111T073639Z.histograms.json",
+    "reason": "size",
+    "bytes": 5394755
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_00720_20261111T074043Z.histograms.json",
+    "reason": "size",
+    "bytes": 5598184
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_00812_20261111T074456Z.histograms.json",
+    "reason": "size",
+    "bytes": 5803090
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_00894_20261111T074929Z.histograms.json",
+    "reason": "size",
+    "bytes": 5979113
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_00963_20261111T075405Z.histograms.json",
+    "reason": "size",
+    "bytes": 6115815
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01038_20261111T075845Z.histograms.json",
+    "reason": "size",
+    "bytes": 6269976
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01106_20261111T080425Z.histograms.json",
+    "reason": "size",
+    "bytes": 6392428
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01180_20261111T081102Z.histograms.json",
+    "reason": "size",
+    "bytes": 6511212
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01245_20261111T081641Z.histograms.json",
+    "reason": "size",
+    "bytes": 6615690
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01313_20261111T082115Z.histograms.json",
+    "reason": "size",
+    "bytes": 6717248
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01313_20261111T082115Z.json",
+    "reason": "size",
+    "bytes": 267195
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01398_20261111T082543Z.histograms.json",
+    "reason": "size",
+    "bytes": 6847836
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01398_20261111T082543Z.json",
+    "reason": "size",
+    "bytes": 283750
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01484_20261111T083017Z.histograms.json",
+    "reason": "size",
+    "bytes": 6978410
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01484_20261111T083017Z.json",
+    "reason": "size",
+    "bytes": 300437
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01577_20261111T083449Z.histograms.json",
+    "reason": "size",
+    "bytes": 7097368
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01577_20261111T083449Z.json",
+    "reason": "size",
+    "bytes": 318480
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01646_20261111T083803Z.histograms.json",
+    "reason": "size",
+    "bytes": 7193887
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01646_20261111T083803Z.json",
+    "reason": "size",
+    "bytes": 331867
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01710_20261111T084122Z.histograms.json",
+    "reason": "size",
+    "bytes": 7268250
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01710_20261111T084122Z.json",
+    "reason": "size",
+    "bytes": 344284
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01786_20261111T084454Z.histograms.json",
+    "reason": "size",
+    "bytes": 7357731
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01786_20261111T084454Z.json",
+    "reason": "size",
+    "bytes": 359030
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01862_20261111T084817Z.histograms.json",
+    "reason": "size",
+    "bytes": 7441357
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01862_20261111T084817Z.json",
+    "reason": "size",
+    "bytes": 373777
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01932_20261111T085150Z.histograms.json",
+    "reason": "size",
+    "bytes": 7525410
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01932_20261111T085150Z.json",
+    "reason": "size",
+    "bytes": 387361
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01999_20261111T085504Z.histograms.json",
+    "reason": "size",
+    "bytes": 7601170
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_01999_20261111T085504Z.json",
+    "reason": "size",
+    "bytes": 400363
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02080_20261111T085846Z.histograms.json",
+    "reason": "size",
+    "bytes": 7676867
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02080_20261111T085846Z.json",
+    "reason": "size",
+    "bytes": 416105
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02161_20261111T090308Z.histograms.json",
+    "reason": "size",
+    "bytes": 7758245
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02161_20261111T090308Z.json",
+    "reason": "size",
+    "bytes": 431833
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02249_20261111T090748Z.histograms.json",
+    "reason": "size",
+    "bytes": 7850420
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02249_20261111T090748Z.json",
+    "reason": "size",
+    "bytes": 448915
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02330_20261111T091145Z.histograms.json",
+    "reason": "size",
+    "bytes": 7936345
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02330_20261111T091145Z.json",
+    "reason": "size",
+    "bytes": 464640
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02408_20261111T091542Z.histograms.json",
+    "reason": "size",
+    "bytes": 8023691
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02408_20261111T091542Z.json",
+    "reason": "size",
+    "bytes": 479780
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02491_20261111T092005Z.histograms.json",
+    "reason": "size",
+    "bytes": 8107889
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02491_20261111T092005Z.json",
+    "reason": "size",
+    "bytes": 495883
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02570_20261111T092404Z.histograms.json",
+    "reason": "size",
+    "bytes": 8188620
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02570_20261111T092404Z.json",
+    "reason": "size",
+    "bytes": 511211
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02649_20261111T092759Z.histograms.json",
+    "reason": "size",
+    "bytes": 8255161
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02649_20261111T092759Z.json",
+    "reason": "size",
+    "bytes": 526539
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02730_20261111T093202Z.histograms.json",
+    "reason": "size",
+    "bytes": 8336309
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02730_20261111T093202Z.json",
+    "reason": "size",
+    "bytes": 542253
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02813_20261111T093631Z.histograms.json",
+    "reason": "size",
+    "bytes": 8405887
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02813_20261111T093631Z.json",
+    "reason": "size",
+    "bytes": 558355
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02905_20261111T094153Z.histograms.json",
+    "reason": "size",
+    "bytes": 8485549
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02905_20261111T094153Z.json",
+    "reason": "size",
+    "bytes": 576203
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02974_20261111T094518Z.histograms.json",
+    "reason": "size",
+    "bytes": 8544668
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_02974_20261111T094518Z.json",
+    "reason": "size",
+    "bytes": 589589
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03040_20261111T094802Z.histograms.json",
+    "reason": "size",
+    "bytes": 8596657
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03040_20261111T094802Z.json",
+    "reason": "size",
+    "bytes": 602394
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03146_20261111T095304Z.histograms.json",
+    "reason": "size",
+    "bytes": 8681181
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03146_20261111T095304Z.json",
+    "reason": "size",
+    "bytes": 622961
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03245_20261111T095809Z.histograms.json",
+    "reason": "size",
+    "bytes": 8757586
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03245_20261111T095809Z.json",
+    "reason": "size",
+    "bytes": 642173
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03346_20261111T100309Z.histograms.json",
+    "reason": "size",
+    "bytes": 8823533
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03346_20261111T100309Z.json",
+    "reason": "size",
+    "bytes": 661771
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03445_20261111T100914Z.histograms.json",
+    "reason": "size",
+    "bytes": 8891861
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03445_20261111T100914Z.json",
+    "reason": "size",
+    "bytes": 680980
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03545_20261111T101454Z.histograms.json",
+    "reason": "size",
+    "bytes": 8953125
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03545_20261111T101454Z.json",
+    "reason": "size",
+    "bytes": 700382
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03654_20261111T102143Z.histograms.json",
+    "reason": "size",
+    "bytes": 9019540
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03654_20261111T102143Z.json",
+    "reason": "size",
+    "bytes": 721531
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03718_20261111T102518Z.histograms.json",
+    "reason": "size",
+    "bytes": 9054481
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03718_20261111T102518Z.json",
+    "reason": "size",
+    "bytes": 733948
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03782_20261111T102835Z.histograms.json",
+    "reason": "size",
+    "bytes": 9090095
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03782_20261111T102835Z.json",
+    "reason": "size",
+    "bytes": 746364
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03899_20261111T103533Z.histograms.json",
+    "reason": "size",
+    "bytes": 9165803
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_03899_20261111T103533Z.json",
+    "reason": "size",
+    "bytes": 769066
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04010_20261111T104327Z.histograms.json",
+    "reason": "size",
+    "bytes": 9219194
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04010_20261111T104327Z.json",
+    "reason": "size",
+    "bytes": 790602
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04075_20261111T104739Z.histograms.json",
+    "reason": "size",
+    "bytes": 9252215
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04075_20261111T104739Z.json",
+    "reason": "size",
+    "bytes": 803212
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04186_20261111T105505Z.histograms.json",
+    "reason": "size",
+    "bytes": 9313290
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04186_20261111T105505Z.json",
+    "reason": "size",
+    "bytes": 824747
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04288_20261111T110215Z.histograms.json",
+    "reason": "size",
+    "bytes": 9360346
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04288_20261111T110215Z.json",
+    "reason": "size",
+    "bytes": 844535
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04410_20261111T110944Z.histograms.json",
+    "reason": "size",
+    "bytes": 9427024
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04410_20261111T110944Z.json",
+    "reason": "size",
+    "bytes": 868203
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04477_20261111T111314Z.histograms.json",
+    "reason": "size",
+    "bytes": 9467818
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04477_20261111T111314Z.json",
+    "reason": "size",
+    "bytes": 881203
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04543_20261111T111646Z.histograms.json",
+    "reason": "size",
+    "bytes": 9493463
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04543_20261111T111646Z.json",
+    "reason": "size",
+    "bytes": 894009
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04654_20261111T112353Z.histograms.json",
+    "reason": "size",
+    "bytes": 9543641
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04654_20261111T112353Z.json",
+    "reason": "size",
+    "bytes": 915545
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04725_20261111T112838Z.histograms.json",
+    "reason": "size",
+    "bytes": 9570261
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04725_20261111T112838Z.json",
+    "reason": "size",
+    "bytes": 929319
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04801_20261111T113246Z.histograms.json",
+    "reason": "size",
+    "bytes": 9598242
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04801_20261111T113246Z.json",
+    "reason": "size",
+    "bytes": 944063
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04871_20261111T113617Z.histograms.json",
+    "reason": "size",
+    "bytes": 9637044
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04871_20261111T113617Z.json",
+    "reason": "size",
+    "bytes": 957643
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04947_20261111T114001Z.histograms.json",
+    "reason": "size",
+    "bytes": 9671599
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_04947_20261111T114001Z.json",
+    "reason": "size",
+    "bytes": 972387
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05030_20261111T114323Z.histograms.json",
+    "reason": "size",
+    "bytes": 9700669
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05030_20261111T114323Z.json",
+    "reason": "size",
+    "bytes": 988554
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05101_20261111T114634Z.histograms.json",
+    "reason": "size",
+    "bytes": 9731359
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05101_20261111T114634Z.json",
+    "reason": "size",
+    "bytes": 1002328
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05179_20261111T114945Z.histograms.json",
+    "reason": "size",
+    "bytes": 9757650
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05179_20261111T114945Z.json",
+    "reason": "size",
+    "bytes": 1017460
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05259_20261111T115304Z.histograms.json",
+    "reason": "size",
+    "bytes": 9789418
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05259_20261111T115304Z.json",
+    "reason": "size",
+    "bytes": 1032980
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05340_20261111T115612Z.histograms.json",
+    "reason": "size",
+    "bytes": 9822884
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05340_20261111T115612Z.json",
+    "reason": "size",
+    "bytes": 1048695
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05429_20261111T115929Z.histograms.json",
+    "reason": "size",
+    "bytes": 9854504
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05429_20261111T115929Z.json",
+    "reason": "size",
+    "bytes": 1065961
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05514_20261111T120244Z.histograms.json",
+    "reason": "size",
+    "bytes": 9887715
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05514_20261111T120244Z.json",
+    "reason": "size",
+    "bytes": 1082451
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05598_20261111T120558Z.histograms.json",
+    "reason": "size",
+    "bytes": 9925882
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05598_20261111T120558Z.json",
+    "reason": "size",
+    "bytes": 1098747
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05684_20261111T120918Z.histograms.json",
+    "reason": "size",
+    "bytes": 9953831
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05684_20261111T120918Z.json",
+    "reason": "size",
+    "bytes": 1115431
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05774_20261111T121249Z.histograms.json",
+    "reason": "size",
+    "bytes": 9986746
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05774_20261111T121249Z.json",
+    "reason": "size",
+    "bytes": 1132892
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05871_20261111T121617Z.histograms.json",
+    "reason": "size",
+    "bytes": 10020489
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05871_20261111T121617Z.json",
+    "reason": "size",
+    "bytes": 1151841
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05963_20261111T121953Z.histograms.json",
+    "reason": "size",
+    "bytes": 10056950
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_05963_20261111T121953Z.json",
+    "reason": "size",
+    "bytes": 1169691
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_06061_20261111T122350Z.histograms.json",
+    "reason": "size",
+    "bytes": 10089768
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_06061_20261111T122350Z.json",
+    "reason": "size",
+    "bytes": 1188703
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_06168_20261111T122800Z.histograms.json",
+    "reason": "size",
+    "bytes": 10117480
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_06168_20261111T122800Z.json",
+    "reason": "size",
+    "bytes": 1209461
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_06284_20261111T123226Z.histograms.json",
+    "reason": "size",
+    "bytes": 10154435
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_06284_20261111T123226Z.json",
+    "reason": "size",
+    "bytes": 1231966
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_06397_20261111T123635Z.histograms.json",
+    "reason": "size",
+    "bytes": 10199244
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_06397_20261111T123635Z.json",
+    "reason": "size",
+    "bytes": 1253888
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_06504_20261111T124047Z.histograms.json",
+    "reason": "size",
+    "bytes": 10233138
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_06504_20261111T124047Z.json",
+    "reason": "size",
+    "bytes": 1274646
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_06623_20261111T124516Z.histograms.json",
+    "reason": "size",
+    "bytes": 10266918
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_06623_20261111T124516Z.json",
+    "reason": "size",
+    "bytes": 1297732
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_06748_20261111T124937Z.histograms.json",
+    "reason": "size",
+    "bytes": 10303219
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_06748_20261111T124937Z.json",
+    "reason": "size",
+    "bytes": 1321983
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_06871_20261111T125413Z.histograms.json",
+    "reason": "size",
+    "bytes": 10337081
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_06871_20261111T125413Z.json",
+    "reason": "size",
+    "bytes": 1345846
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_06994_20261111T125930Z.histograms.json",
+    "reason": "size",
+    "bytes": 10370713
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_06994_20261111T125930Z.json",
+    "reason": "size",
+    "bytes": 1369709
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07111_20261111T130621Z.histograms.json",
+    "reason": "size",
+    "bytes": 10402679
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07111_20261111T130621Z.json",
+    "reason": "size",
+    "bytes": 1392407
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07222_20261111T131314Z.histograms.json",
+    "reason": "size",
+    "bytes": 10441580
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07222_20261111T131314Z.json",
+    "reason": "size",
+    "bytes": 1413941
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07343_20261111T132105Z.histograms.json",
+    "reason": "size",
+    "bytes": 10475225
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07343_20261111T132105Z.json",
+    "reason": "size",
+    "bytes": 1437421
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07471_20261111T133047Z.histograms.json",
+    "reason": "size",
+    "bytes": 10505106
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07471_20261111T133047Z.json",
+    "reason": "size",
+    "bytes": 1462253
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07481_20261111T133205Z.histograms.json",
+    "reason": "size",
+    "bytes": 10507798
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07481_20261111T133205Z.json",
+    "reason": "size",
+    "bytes": 1464193
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07609_20261111T134039Z.histograms.json",
+    "reason": "size",
+    "bytes": 10547487
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07609_20261111T134039Z.json",
+    "reason": "size",
+    "bytes": 1489033
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07624_20261111T134119Z.histograms.json",
+    "reason": "size",
+    "bytes": 10557154
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07624_20261111T134119Z.json",
+    "reason": "size",
+    "bytes": 1491945
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07752_20261111T134808Z.histograms.json",
+    "reason": "size",
+    "bytes": 10596051
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07752_20261111T134808Z.json",
+    "reason": "size",
+    "bytes": 1516778
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07761_20261111T134837Z.histograms.json",
+    "reason": "size",
+    "bytes": 10598776
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07761_20261111T134837Z.json",
+    "reason": "size",
+    "bytes": 1518524
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07858_20261111T135512Z.histograms.json",
+    "reason": "size",
+    "bytes": 10627922
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07858_20261111T135512Z.json",
+    "reason": "size",
+    "bytes": 1537342
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07946_20261111T140204Z.histograms.json",
+    "reason": "size",
+    "bytes": 10651077
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_07946_20261111T140204Z.json",
+    "reason": "size",
+    "bytes": 1554418
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08036_20261111T140748Z.histograms.json",
+    "reason": "size",
+    "bytes": 10679646
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08036_20261111T140748Z.json",
+    "reason": "size",
+    "bytes": 1571880
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08109_20261111T141341Z.histograms.json",
+    "reason": "size",
+    "bytes": 10700016
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08109_20261111T141341Z.json",
+    "reason": "size",
+    "bytes": 1586042
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08177_20261111T142007Z.histograms.json",
+    "reason": "size",
+    "bytes": 10719942
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08177_20261111T142007Z.json",
+    "reason": "size",
+    "bytes": 1599234
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08255_20261111T142639Z.histograms.json",
+    "reason": "size",
+    "bytes": 10739843
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08255_20261111T142639Z.json",
+    "reason": "size",
+    "bytes": 1614366
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08336_20261111T143225Z.histograms.json",
+    "reason": "size",
+    "bytes": 10760695
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08336_20261111T143225Z.json",
+    "reason": "size",
+    "bytes": 1630082
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08420_20261111T143910Z.histograms.json",
+    "reason": "size",
+    "bytes": 10786673
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08420_20261111T143910Z.json",
+    "reason": "size",
+    "bytes": 1646380
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08524_20261111T144524Z.histograms.json",
+    "reason": "size",
+    "bytes": 10808595
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08524_20261111T144524Z.json",
+    "reason": "size",
+    "bytes": 1666560
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08630_20261111T145212Z.histograms.json",
+    "reason": "size",
+    "bytes": 10837860
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08630_20261111T145212Z.json",
+    "reason": "size",
+    "bytes": 1687124
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08743_20261111T145908Z.histograms.json",
+    "reason": "size",
+    "bytes": 10872195
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08743_20261111T145908Z.json",
+    "reason": "size",
+    "bytes": 1709047
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08845_20261111T150616Z.histograms.json",
+    "reason": "size",
+    "bytes": 10896006
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08845_20261111T150616Z.json",
+    "reason": "size",
+    "bytes": 1728835
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08949_20261111T151255Z.histograms.json",
+    "reason": "size",
+    "bytes": 10917048
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_08949_20261111T151255Z.json",
+    "reason": "size",
+    "bytes": 1749013
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09064_20261111T151912Z.histograms.json",
+    "reason": "size",
+    "bytes": 10947893
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09064_20261111T151912Z.json",
+    "reason": "size",
+    "bytes": 1771323
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09177_20261111T152531Z.histograms.json",
+    "reason": "size",
+    "bytes": 10968024
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09177_20261111T152531Z.json",
+    "reason": "size",
+    "bytes": 1793247
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09272_20261111T153134Z.histograms.json",
+    "reason": "size",
+    "bytes": 10989231
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09272_20261111T153134Z.json",
+    "reason": "size",
+    "bytes": 1811677
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09358_20261111T153702Z.histograms.json",
+    "reason": "size",
+    "bytes": 11011221
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09358_20261111T153702Z.json",
+    "reason": "size",
+    "bytes": 1828361
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09446_20261111T154239Z.histograms.json",
+    "reason": "size",
+    "bytes": 11031592
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09446_20261111T154239Z.json",
+    "reason": "size",
+    "bytes": 1845433
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09541_20261111T154845Z.histograms.json",
+    "reason": "size",
+    "bytes": 11053730
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09541_20261111T154845Z.json",
+    "reason": "size",
+    "bytes": 1863863
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09637_20261111T155428Z.histograms.json",
+    "reason": "size",
+    "bytes": 11064429
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09637_20261111T155428Z.json",
+    "reason": "size",
+    "bytes": 1882487
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09724_20261111T160024Z.histograms.json",
+    "reason": "size",
+    "bytes": 11092839
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09724_20261111T160024Z.json",
+    "reason": "size",
+    "bytes": 1899365
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09810_20261111T160553Z.histograms.json",
+    "reason": "size",
+    "bytes": 11104997
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09810_20261111T160553Z.json",
+    "reason": "size",
+    "bytes": 1916049
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09897_20261111T161151Z.histograms.json",
+    "reason": "size",
+    "bytes": 11124940
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09897_20261111T161151Z.json",
+    "reason": "size",
+    "bytes": 1932936
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09992_20261111T161733Z.histograms.json",
+    "reason": "size",
+    "bytes": 11148848
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09992_20261111T161733Z.json",
+    "reason": "size",
+    "bytes": 1951368
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_10076_20261111T162336Z.histograms.json",
+    "reason": "size",
+    "bytes": 11160463
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_10076_20261111T162336Z.json",
+    "reason": "size",
+    "bytes": 1967667
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_10087_20261111T162940Z.histograms.json",
+    "reason": "size",
+    "bytes": 11163193
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_10087_20261111T162940Z.json",
+    "reason": "size",
+    "bytes": 1969801
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/candidates.tsv",
+    "reason": "size",
+    "bytes": 12487443
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/dispatch_candidates.tsv",
+    "reason": "size",
+    "bytes": 12498758
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/eta_estimate_20261111_snapshot.json",
+    "reason": "size",
+    "bytes": 1933751
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/eta_update_20261112_snapshot.json",
+    "reason": "size",
+    "bytes": 2228724
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/excluded_candidates.tsv",
+    "reason": "size",
+    "bytes": 743584
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/failed_jobs.json",
+    "reason": "size",
+    "bytes": 1692731
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/final_fullstats_20261112_004/input_snapshot.json",
+    "reason": "size",
+    "bytes": 2015286
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/input_inventory.json",
+    "reason": "size",
+    "bytes": 35149290
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/local_extension/aggregate/qa_00004_96167709a94f.histograms.json",
+    "reason": "size",
+    "bytes": 3765488
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/local_extension/aggregate/source_0_8ebae8e3ca4f.histograms.json",
+    "reason": "size",
+    "bytes": 2842017
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/local_extension/aggregate/source_1_81f034a76db5.histograms.json",
+    "reason": "size",
+    "bytes": 3391511
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/local_extension/aggregate/source_2_baa0efcd953a.histograms.json",
+    "reason": "size",
+    "bytes": 3753993
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/local_extension/aggregate/source_3_235f2b0acee1.histograms.json",
+    "reason": "size",
+    "bytes": 3144927
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/main_v2.items.tsv",
+    "reason": "size",
+    "bytes": 7023201
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/main_v3.items.tsv",
+    "reason": "size",
+    "bytes": 6906411
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/notification/completion_verification.json",
+    "reason": "size",
+    "bytes": 2174105
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/notification/sent.json",
+    "reason": "size",
+    "bytes": 2174244
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/notification/watch_status.json",
+    "reason": "size",
+    "bytes": 2174105
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/recovery_v3/snapshots/20261111T064709Z/dispatch_candidates.tsv",
+    "reason": "size",
+    "bytes": 12498758
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/recovery_v3/snapshots/20261111T064709Z/failed_jobs.json",
+    "reason": "size",
+    "bytes": 890630
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/recovery_v3/snapshots/20261111T064709Z/main_v2.items.tsv",
+    "reason": "size",
+    "bytes": 7023201
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/recovery_v3/snapshots/20261111T064709Z/planned_jobs.json",
+    "reason": "size",
+    "bytes": 8392199
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/recovery_v3/snapshots/20261111T064709Z/result_markers.json",
+    "reason": "size",
+    "bytes": 7565558
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/recovery_v3/snapshots/20261111T065602Z_paused_final/dispatch_candidates.tsv",
+    "reason": "size",
+    "bytes": 12498758
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/recovery_v3/snapshots/20261111T065602Z_paused_final/failed_jobs.json",
+    "reason": "size",
+    "bytes": 1836257
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/recovery_v3/snapshots/20261111T065602Z_paused_final/main_v2.items.tsv",
+    "reason": "size",
+    "bytes": 7023201
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/recovery_v3/snapshots/20261111T065602Z_paused_final/planned_jobs.json",
+    "reason": "size",
+    "bytes": 8371753
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/recovery_v3/snapshots/20261111T065602Z_paused_final/result_markers.json",
+    "reason": "size",
+    "bytes": 9771708
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/recovery_v3_candidates.tsv",
+    "reason": "size",
+    "bytes": 12290824
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/validation/monitor_route_smoke_001/aggregate/qa_00001_20261111T064910Z.histograms.json",
+    "reason": "size",
+    "bytes": 2842064
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/validation/monitor_smoke_001/aggregate/qa_00001_20261111T054025Z.histograms.json",
+    "reason": "size",
+    "bytes": 2842058
+  },
+  {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_quickcheck_20261111_001/smoke/histograms.json",
+    "reason": "size",
+    "bytes": 3780833
   },
   {
     "path": "rootfile/auau7p3_anaNuclearId/pdf/draw_dedx.pdf",

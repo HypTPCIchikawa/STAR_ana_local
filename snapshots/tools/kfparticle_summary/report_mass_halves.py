@@ -12,6 +12,8 @@ import statistics
 import subprocess
 import sys
 
+from sample_provenance import resolve_sample
+
 OWNER = 'tools/kfparticle_summary/report_mass_halves.py'
 METHODS = ('raw', 'sbsub', 'cfsub', 'method3', 'method5')
 REGIONS = ('full', 'low', 'high')
@@ -144,8 +146,27 @@ def gates(extract):
             'rightSB': (nominal['high'], nominal['sideHigh'])}
 
 
-def build_readme(out, context, result, extract, diagnostics):
-    sample = SAMPLES[context['energy']]
+def validated_sample(context, input_root):
+    """Validate recorded evidence without replacing the saved sample description."""
+    if 'sample' not in context:
+        sample = SAMPLES[context['energy']]
+        expected = 'auau%s_anaFemtoLambda_4He_KFParticle_%dP24iy_partial_merge.root' % (
+            context['energy'], sample['year'])
+        if Path(input_root).name != expected:
+            raise ValueError('Coverage is unrecorded for this ROOT filename/production.')
+        return sample
+    sample = context['sample']
+    provenance = sample.get('provenance', {})
+    fresh = resolve_sample(context['energy'], input_root,
+                           output_manifest=provenance.get('outputManifest', {}).get('path'),
+                           runmeta=provenance.get('runmeta', {}).get('path'))
+    if fresh != sample:
+        raise ValueError('Sample provenance differs from the saved comparison context.')
+    return sample
+
+
+def build_readme(out, context, result, extract, diagnostics, sample=None):
+    sample = validated_sample(context, result['inputRoot']) if sample is None else sample
     root = Path(result['inputRoot'])
     settings, base = context['settings'], context['base']
     edges = extract['groups'][0]['kstarEdges']
@@ -230,20 +251,25 @@ def build_readme(out, context, result, extract, diagnostics):
     lines += ['', '## 図と再現記録', '',
               '各PDFは2ページ。1ページ目:0–80%、20–80%、0–20%。2ページ目:0–10%、10–20%、20–60%。上段CF、下段Low/Full・High/Full。', '']
     lines += ['- [%s](mass_halves_%s.pdf) / [PNG preview](mass_halves_%s.png)' % (NAMES[m], m, m) for m in METHODS]
-    lines += ['', '- context.json: 入力fingerprint、mainconf・YAML hash、後処理条件。',
+    lines += ['', '- context.json: 入力fingerprint、mainconf・YAML hash、sample来歴と後処理条件。',
               '- mass_half_extract.json: カウントと誤差、質量bin境界、fitと共分散。',
               '- comparison.json / cf_points.tsv: 計算済みCF・比・積分比較と欠測理由。',
               '- plotcanvases.root: 配置修正用の10 canvases。元解析ROOTとは別ファイル。',
               '- report_metadata.json: JSON・図のhash、fit診断、summaryページ数。',
               '- macros/ / logs/: 実行マクロとROOT/LaTeXログ。', '',
-              'JSONと図からレポートのみ再生成:', '', '~~~bash',
+              ]
+    for name, evidence in sorted(sample.get('provenance', {}).items()):
+        lines.append('- %s: [%s](%s)、SHA-256 `%s`。' % (
+            name, Path(evidence['path']).name, os.path.relpath(evidence['path'], str(out)),
+            evidence['sha256']))
+    lines += ['', 'JSONと図からレポートのみ再生成:', '', '~~~bash',
               'python3 tools/kfparticle_summary/report_mass_halves.py \\',
               '  --output-dir %s' % out, '~~~', '']
     return '\n'.join(lines)
 
 
-def build_tex(context, result, extract):
-    sample = SAMPLES[context['energy']]
+def build_tex(context, result, extract, sample=None):
+    sample = validated_sample(context, result['inputRoot']) if sample is None else sample
     base, settings = context['base'], context['settings']
     edges = extract['groups'][0]['kstarEdges']
     width = 1000*(edges[1]-edges[0])
@@ -269,6 +295,7 @@ def build_tex(context, result, extract):
 ''',
              'Au+Au fixed-target sample, beam-energy label %s GeV; %d P24iy only. The beam label is not $\\sqrt{s_{NN}}$. Partial merge: %s/%s subjobs; %s excluded or missing.\n' %
              (sample['beam'], sample['year'], format(sample['included'], ','), format(sample['expected'], ','), sample['expected']-sample['included']),
+             r'SUMS ID: \texttt{' + escape(sample['jobid']) + '}.'+'\n',
              r'Input: {\small\path{' + Path(result['inputRoot']).name + r'}}. No event reanalysis, selection-cut change or original ROOT modification.'+'\n',
              r'$k^*$ bin width: '+number(width)+r' MeV/$c$; display: $0$--$'+number(settings['plot_x_max'])+
              r'$ GeV/$c$; normalization: $'+number(result['normalization'][0])+'$--$'+number(result['normalization'][1])+
@@ -334,12 +361,9 @@ def main(argv=None):
     out = parser.parse_args(argv).output_dir.resolve(strict=True)
     files = [out/name for name in ('context.json', 'comparison.json', 'mass_half_extract.json')]
     context, result, extract = [json.loads(path.read_text()) for path in files]
-    sample = SAMPLES[context['energy']]
     if not context['input']['path'] == result['inputRoot'] == extract['inputRoot']:
         raise ValueError('Input ROOT mismatch between context, comparison and extraction.')
-    expected = 'auau%s_anaFemtoLambda_4He_KFParticle_%dP24iy_partial_merge.root' % (context['energy'], sample['year'])
-    if Path(result['inputRoot']).name != expected:
-        raise ValueError('Coverage is unrecorded for this ROOT filename/production.')
+    sample = validated_sample(context, result['inputRoot'])
     if result['normalization'] != context['base']['normalization'] or result['comparison_range'] != context['settings']['comparison_range']:
         raise ValueError('Ranges differ between result and context.')
     figures = {}
@@ -350,6 +374,8 @@ def main(argv=None):
             raise ValueError('Expected two pages: '+str(path))
         figures[path.name] = dict(pages=pages, sha256=digest(path), bytes=path.stat().st_size)
     signature = dict(owner=OWNER, inputRoot=result['inputRoot'], energy=context['energy'])
+    if 'sample' in context:
+        signature['sample'] = sample
     metadata_path = out/'report_metadata.json'
     if metadata_path.exists():
         old = json.loads(metadata_path.read_text())
@@ -358,12 +384,14 @@ def main(argv=None):
     elif any((out/name).exists() for name in ('README.md', 'mass_halves_comparison.tex', 'mass_halves_comparison.pdf')):
         raise ValueError('Refusing to overwrite unowned report products.')
     diagnostics = fit_diagnostics(extract, context['settings']['plot_x_max'])
-    metadata = dict(signature, phase='building', sample=sample, figures=figures,
+    metadata = dict(signature, phase='building', figures=figures,
                     sources={path.name: digest(path) for path in files}, fit_diagnostics=diagnostics)
+    metadata['sample'] = sample
+    metadata['sample_provenance_sha256'] = digest(Path(__file__).with_name('sample_provenance.py'))
     save(metadata_path, metadata)
-    (out/'README.md').write_text(build_readme(out, context, result, extract, diagnostics))
+    (out/'README.md').write_text(build_readme(out, context, result, extract, diagnostics, sample))
     tex = out/'mass_halves_comparison.tex'
-    tex.write_text(build_tex(context, result, extract))
+    tex.write_text(build_tex(context, result, extract, sample))
     latex = shutil.which('pdflatex')
     if not latex:
         raise RuntimeError('pdflatex is required.')

@@ -1,0 +1,12 @@
+{
+  "phase": "passed",
+  "paths": [
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/tests/storage_cleanup_20261104_001/completed.json",
+    "rootfile/auau13p5_anaFemtoLambda_4He_KFParticle/tests/storage_cleanup_20261104_001/completed.json",
+    "rootfile/auau13p5_anaFemtoLambda_4He_KFParticle/README.md",
+    "rootfile/auau13p5_anaFemtoLambda_4He_KFParticle/subjobs/1213058CE62BCF113B2E3C75ACBD7053/README.md",
+    "rootfile/auau13p5_anaFemtoLambda_4He_KFParticle/archive/hadd_work/1213058CE62BCF113B2E3C75ACBD7053/README_cleanup_20261104.md"
+  ],
+  "allPreviousKeysPreserved": true,
+  "copyHashesMatch": true
+}

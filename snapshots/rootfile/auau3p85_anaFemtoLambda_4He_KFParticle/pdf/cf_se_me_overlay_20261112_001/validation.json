@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "created_at_utc": "2026-11-12T00:44:36.508080+00:00",
+  "input_before": {
+    "size": 11019456466,
+    "mtimeNs": 1793978966351719773,
+    "ino": 438719630,
+    "device": 48
+  },
+  "input_after": {
+    "size": 11019456466,
+    "mtimeNs": 1793978966351719773,
+    "ino": 438719630,
+    "device": 48
+  },
+  "input_unchanged": true,
+  "root_success_marker_verified": true,
+  "validation_existing": true,
+  "groups": [
+    {
+      "group": "cent0_20",
+      "SE_norm": 122358,
+      "ME_norm": 4461431,
+      "ME_scale": 0.027425729547313406,
+      "native_bins": 200,
+      "display_bins": 50,
+      "normalization_closure": "PASS",
+      "rebin_count_and_error_closure": "PASS",
+      "raw_vs_prior_cf_projection": "EXACT"
+    },
+    {
+      "group": "cent20_80",
+      "SE_norm": 18213,
+      "ME_norm": 666345,
+      "ME_scale": 0.0273326880219706,
+      "native_bins": 200,
+      "display_bins": 50,
+      "normalization_closure": "PASS",
+      "rebin_count_and_error_closure": "PASS",
+      "raw_vs_prior_cf_projection": "EXACT"
+    },
+    {
+      "group": "cent0_80",
+      "SE_norm": 140571,
+      "ME_norm": 5127776,
+      "ME_scale": 0.027413638973309288,
+      "native_bins": 200,
+      "display_bins": 50,
+      "normalization_closure": "PASS",
+      "rebin_count_and_error_closure": "PASS",
+      "raw_vs_prior_cf_projection": "EXACT"
+    }
+  ],
+  "pdf_pages": 3,
+  "pdf_parser": "Ghostscript nullpage + PDF Page object count",
+  "production_sources_modified": false,
+  "jobs_submitted": false,
+  "mail_sent": false,
+  "sha256": {
+    "settings.json": "6e4529f9e128b173bc855da92be544bf135e2a99b172c833aa76e7e7cee8d637",
+    "normalization.tsv": "c0915ed02d26da472940884bf6aca0319a2a05914eda654c44b34eeaf61a0507",
+    "spectra.tsv": "4dbc8f0cbe61ed5c543aa4a9373bf6cca27bfc52f62a5f53859d87c153afc543",
+    "overlay_histograms.root": "b1646c79e3f0bf5acf0ef80a8e100f852b4a5a3e488c8c5f2638d1d613de4b36",
+    "se_me_overlay.pdf": "d9f13e927234738ce75a28f9bb59717380c70b6d903e7301be96d355fc74d490",
+    "source/DrawSEME.C": "8f0ed43d77487b3874e11eda79e6c8e827d596b637375d277c8e909f75137ab2",
+    "source/run_overlay.py": "cf28368b76b70d8d57bb47906b1209f4acd3cc47bb719cf7056dedf071a333d7",
+    "se_me_cent0_20.png": "27854ddd01c56d5474a4df9f0640b9703f32e1573daa3091d150e73b5d7b42b1",
+    "se_me_cent0_20.pdf": "deeef092800323bfd43bc2d249d37f0e1e3ba9abe0642a7e2628288b95d7c273",
+    "se_me_cent20_80.png": "592917de2824b29532f0112e81b993888d623754766600ef5e551b4568fd2135",
+    "se_me_cent20_80.pdf": "28a2281dc4908e1c108d82cfeb2f77c6477c92db7347b6df7643430a937f84db",
+    "se_me_cent0_80.png": "7e3e3cc822e5f970965b08dbb0e5072e95225cbfa09ae55e34a372770df63d6b",
+    "se_me_cent0_80.pdf": "76f97f170d4cbf3f6a6a18e51055c7793ee74efde438808b25ff3d17747ca4a0"
+  }
+}

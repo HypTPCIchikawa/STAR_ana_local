@@ -1,5 +1,10 @@
 # Au+Au 3.85 GeV KFParticle Λ–4He出力
 
+## 2026-11-04：容量整理済み
+
+ユーザー指示により、検証済みの統合前ROOT・hadd中間ROOTと成功ログを削除した。最終通常ROOT・Sparse3part・旧部分統合ROOTは保持。今回2AFの未統合ROOTは保持。[削除明細と容量見積もり](/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/Todo/2026/11/04/storage_cleanup_20261104.md)。以下の保存・非削除の記述は整理前の履歴。
+
+
 ## 2026-10-17：核PID purity統合と本番cutoff
 
 - [低R＋TOF後高Rの統合PDF](pdf/nuclear_pid_cutoff_20261015/views_tpc_tof_final_20261017_001/purity_tpc_tof_combined.pdf)：新概要3頁＋元低R3頁。採用域と除外・未評価域を表示。

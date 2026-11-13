@@ -1,0 +1,116 @@
+{
+  "phase": "staged",
+  "builtAtJst": "2026-11-02T10:08:29.193364+09:00",
+  "originalPages": 10,
+  "originalReport": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_4He_KFParticle_3p85.pdf",
+    "sha256": "ce60cb469fd305f4cae0db79f9b57280746e03b09d416c23d45c562e099a3cbd",
+    "bytes": 645978
+  },
+  "addendum": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/summary_4He_KFParticle_3p85_updated_20261102_addendum.pdf",
+    "sha256": "d8f069975d03c18cb14b21e718485b82ec69d42c63a3591f24141c8bb13c8dac",
+    "bytes": 849983,
+    "pages": 23
+  },
+  "report": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/summary_4He_KFParticle_3p85_updated_20261102.pdf",
+    "sha256": "ad10015407c2432e4fb17d1c655755999d0418fb0be82ec1b7ca988d251a3e3f",
+    "bytes": 1418485,
+    "pages": 34
+  },
+  "figures": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/normalized_case_001.pdf",
+      "sha256": "92cd0bed0fdef0be85df409b57d155be9aecc803ed17eec60ad1c22e968631df",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/raw_ratio_normalization.pdf",
+      "sha256": "ebf00c830ee7a145140095ee95f9bca9b343155f6535b1ba283b57ecbb026638",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/cf_methods_3_5_6.pdf",
+      "sha256": "03e18a95ca049c41ec2aec0b32edc10bb033d004f9738c3a910184e84ed16cc5",
+      "pages": 2
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/purity_se_me.pdf",
+      "sha256": "1ea2648d4a0d1d8b325f904450821b1da30be4af4e60ac611174130324f53d80",
+      "pages": 2
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/quoted_figures/historical_method3.pdf",
+      "sha256": "53468a98d544769aa6948c75351495b50fd55393c6184c65f5d50dc1518f8069",
+      "pages": 3
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/quoted_figures/historical_method5.pdf",
+      "sha256": "2868bbe5913b4a9607180e90a41532daa46bd89a9b035f13b2aba27c339a82aa",
+      "pages": 3
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/quoted_figures/updated_method3.pdf",
+      "sha256": "e192d28288cb7297eaff1395d1414ec95570f2f96ded39bb781de408e140c8ac",
+      "pages": 3
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/quoted_figures/updated_method5.pdf",
+      "sha256": "24aa193bc1c1a31c7ebb268b5f50fbf3d544fbbd3bdb8afbd7f83134cbc122a3",
+      "pages": 3
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/normalized_case_002.pdf",
+      "sha256": "cf5f669c64880e3a39600796197cfe5bac8bbeb6adb3c2c2da89f564a27bbc6c",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/normalized_case_003.pdf",
+      "sha256": "aafc07d51c7706867fdc4e4eb05311d2b82adb1ea57f2cd0101c8cf680411cb8",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/normalized_case_004.pdf",
+      "sha256": "b39b5cfdef28f4d3f628650ac8231679feea73c1f9da9bd4de26050928704a02",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/normalized_case_005.pdf",
+      "sha256": "41d9f3a6ee60751090525eae2844e5e16b27cafe89189e8f41b3a0a89195dc7c",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/normalized_case_006.pdf",
+      "sha256": "c57d8cca2568dd9e277388b2c757c11ce222ca539191b339588d3ea276d21216",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/normalized_case_007.pdf",
+      "sha256": "048ffe18064d4e5a0ad404a3a3969b415d49dbd506ad3a2dd62a7a1e939a2dbe",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/normalized_case_008.pdf",
+      "sha256": "6c0350632bfb48666642a33e631bcb9321401f37b18b9c66fee2b73b3dcab0df",
+      "pages": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/figures/normalized_case_009.pdf",
+      "sha256": "8daf637ae94f0a71edf243bae5efaf1a6557227caa51e4508dbeb868746348ac",
+      "pages": 1
+    }
+  ],
+  "sourceManifest": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/cited_sources.json",
+    "sha256": "75db73b4c768e3d63c1798fcc75a73e5bb4a946cba92929156b869401d7d6476"
+  },
+  "content": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/report_content.json",
+    "sha256": "3e05c1f780a66ef592dce89ee6382df0300d2f6bd4ec68fc48e9bcba7d2d785f"
+  },
+  "sourceCode": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/build_purity_diagnostic_update.py",
+    "sha256": "ad64a9890583ba26854b8a1ffa80ac5fbee79b2e20f2ba2e666e729e1f2992ae"
+  }
+}

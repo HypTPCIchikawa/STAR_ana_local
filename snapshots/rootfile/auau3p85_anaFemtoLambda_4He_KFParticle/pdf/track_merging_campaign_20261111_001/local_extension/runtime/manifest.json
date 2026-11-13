@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "runtimeVersion": 2,
+  "purpose": "Frozen selected-candidate QA; transport uses supported exact-URL stat size verification and local digests, no server checksum query",
+  "files": {
+    "build_command.json": {
+      "bytes": 3505,
+      "sha256": "3dae1d4711d342b98b5201eff21291a1aca04716c91f96eeb0ee51eb2a0de1d2"
+    },
+    "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_KFParticle.yaml": {
+      "bytes": 1430,
+      "sha256": "e2f6ac785a785d303f24ec46a6b9c3377f856d780071c3ff726d41cf04953f9e"
+    },
+    "config/calibration/dedx_he4_auau3p85_2021P24iy_accepted_20261022.yaml": {
+      "bytes": 1761,
+      "sha256": "464e641b8e1135ab830c4f5ca4d32ef6fa5123dc87f53a045435fb87529b53da"
+    },
+    "config/candidate_store/femto_lambda_write.yaml": {
+      "bytes": 367,
+      "sha256": "b4ca4e3d4632b42c78f70e8432c73506896d7d22aa29e54f30660acb3cf9692a"
+    },
+    "config/cuts/centrality/centrality_auau3p85_femtoLambda.yaml": {
+      "bytes": 325,
+      "sha256": "1cf50324a4c7f3ef308be960b87c9ebea3693031abf4f8352838027614ce4ca0"
+    },
+    "config/cuts/event/event_femtoLambda_imp5.yaml": {
+      "bytes": 247,
+      "sha256": "493c22c8ec457820047b563fda66ef916efec31b5cc7bb29b02b47c395c7aac7"
+    },
+    "config/cuts/kf/kf_auau3p85_anaLambda_KFParticle_highpurity.yaml": {
+      "bytes": 1671,
+      "sha256": "581bab50e769a28428fe5970f72cae9acd7da104c931f83d2060a0e15f9dd425"
+    },
+    "config/cuts/mixing/mixing_femtoLambda_legacy.yaml": {
+      "bytes": 343,
+      "sha256": "b2f1d0a183d72963d68a36b123d398509abbf13acf0a8365484e290b940c8045"
+    },
+    "config/cuts/nuclearid/nuclearid_femtoLambda_auau3p85_he4_accepted_20261022.yaml": {
+      "bytes": 1539,
+      "sha256": "8d6fe1d422908fcd204bf59243bc4440aa4fac52f64f00b3ec8a37b471f1776f"
+    },
+    "config/hist/hist_auau3p85_femtoLambda_he4_he3_control_acceptanceSamples20261022_kf.yaml": {
+      "bytes": 21750,
+      "sha256": "2fbda10c8bdbec7dce00c820bb7570598ed1009af1e15aa26b44db7268ae815f"
+    },
+    "config/hist/hist_auau3p85_femtoLambda_he4_he3_control_nuclear.yaml": {
+      "bytes": 92644,
+      "sha256": "6967e30d055281a0dd0350ed1c2132d1917339f05f3f676c5a16f2877407818b"
+    },
+    "config/hist/hist_auau3p85_femtoLambda_he4_he3_pid_pair_qa_noJointSparse.yaml": {
+      "bytes": 180403,
+      "sha256": "5630bb7cc31be49831dfd87f07793e4fd01fed37232214def552db2ce81f4b5d"
+    },
+    "config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_candidateStoreWriteNoJointSparse.yaml": {
+      "bytes": 851,
+      "sha256": "c6bfc837cfec767a596df686f1b5936386b4a3d7291ee692a14decb444af3166"
+    },
+    "config/maker/maker_auau3p85_anaFemtoLambda_4He_KFParticle_he3Control.yaml": {
+      "bytes": 2992,
+      "sha256": "6cbdd3634de7fa07a80497433cbf19f4e5f2c375c3f9f7d7c0006b5801db039f"
+    },
+    "environment.json": {
+      "bytes": 2997,
+      "sha256": "a3a94fd5139a335f3e34b7c8ec40da6eda2dadc5398fe0f0341705dec5ddc53c"
+    },
+    "include/FemtoCandidate.h": {
+      "bytes": 3506,
+      "sha256": "412cf340d867fc00cad077ad29a0d0cf263ba615438c755ae9475aca4e19169f"
+    },
+    "include/FemtoCandidateEventStore.h": {
+      "bytes": 24179,
+      "sha256": "b35317946d2209a27bb0e4b626c53f4000822f9d5f69582dc334baf1e0b2f4a9"
+    },
+    "include/FemtoCandidateEventStoreConfig.h": {
+      "bytes": 6735,
+      "sha256": "27b9eff05cbcc4b8bc59d77c68fb7612e3cd44858b5ced2dfac5f1b26e304f4b"
+    },
+    "include/FemtoNuclearPidPairQaCandidate.h": {
+      "bytes": 540,
+      "sha256": "647f9404fa243d3a43787dbfed2cce65cf85e4bd761d4ad1683b76690a04ce4a"
+    },
+    "include/yaml-cpp/anchor.h": {
+      "bytes": 501,
+      "sha256": "fec843fad67c0a1b6496992bbdc660cde5e3f59322feebe75b3fe38d48c87d18"
+    },
+    "include/yaml-cpp/binary.h": {
+      "bytes": 2113,
+      "sha256": "1be5b37a45f0e1eb0c2dbd6aa3093363171d5149e89e0830c5a56e0eea0eac4a"
+    },
+    "include/yaml-cpp/contrib/anchordict.h": {
+      "bytes": 1057,
+      "sha256": "42ad62a385771109ff84ef3faefd44b753b5f265f0909946202ea3139b3ab071"
+    },
+    "include/yaml-cpp/contrib/graphbuilder.h": {
+      "bytes": 5299,
+      "sha256": "0446c41b5c7ed27982d4f543988421199e09f0bbd295fd02177d040b34a32b43"
+    },
+    "include/yaml-cpp/dll.h": {
+      "bytes": 1481,
+      "sha256": "703de0a2406b0206ce265e6a4f7de4813796eaccdcf7f47dda326bd8dba673f5"
+    },
+    "include/yaml-cpp/emitfromevents.h": {
+      "bytes": 1670,
+      "sha256": "c2427ca0e369c8a5c597960ee14e5cfdce91ab601753fe53fe311a1863720850"
+    },
+    "include/yaml-cpp/emitter.h": {
+      "bytes": 7818,
+      "sha256": "d1b947cd823e895ef539693510efa9437e7842ed5f8d24f0e2a6b6c03dbe88f2"
+    },
+    "include/yaml-cpp/emitterdef.h": {
+      "bytes": 541,
+      "sha256": "58d709085b46f31eef29fd8074d1c6d1657d3ebd4fb393b1c06a73cef69e6e48"
+    },
+    "include/yaml-cpp/emittermanip.h": {
+      "bytes": 3147,
+      "sha256": "66dda1a31345daef7d726c0d99813e1d41f0dd2ec87fc142a573a44dbd99e07d"
+    },
+    "include/yaml-cpp/emitterstyle.h": {
+      "bytes": 502,
+      "sha256": "ff854b2abd44bbb7c3a0f0e557068d2613e6a9dbcbf38ccd563942a7bb0ff1c2"
+    },
+    "include/yaml-cpp/eventhandler.h": {
+      "bytes": 1504,
+      "sha256": "2bc4afe1c97f0ee4e315e27ade729e8bb09d1dbba26406c11835ebd532adf4d8"
+    },
+    "include/yaml-cpp/exceptions.h": {
+      "bytes": 10708,
+      "sha256": "8a3eb536e61442e7fff749744cbf66bcac9f06191388bae38f49a1e38082e21e"
+    },
+    "include/yaml-cpp/mark.h": {
+      "bytes": 785,
+      "sha256": "069033be17c7a5875817102f3f77538431afdb7d1834a4673bad6a7267f0cab5"
+    },
+    "include/yaml-cpp/node/convert.h": {
+      "bytes": 10243,
+      "sha256": "b53646568b9230bdbab511869e49ccc533529d876e2064195c17586e2aa5fc79"
+    },
+    "include/yaml-cpp/node/detail/bool_type.h": {
+      "bytes": 967,
+      "sha256": "31def5e52a7bd82d7f6fe3b5fbebe607316679573e1f2e768795cf5af65e83a1"
+    },
+    "include/yaml-cpp/node/detail/impl.h": {
+      "bytes": 6372,
+      "sha256": "81a26747f4e1ee5fc3aeb16f25cc507baa48ff2f2c69fbebd2de2596145084e5"
+    },
+    "include/yaml-cpp/node/detail/iterator.h": {
+      "bytes": 2576,
+      "sha256": "b06c24ea9f2f4975f80e06680998fd88264fd7b9c45e6dfd15bffc7c09ec5f07"
+    },
+    "include/yaml-cpp/node/detail/iterator_fwd.h": {
+      "bytes": 786,
+      "sha256": "e829c7f5653f0f89605321230e363467b5cfcfaece626d8728cc23d369667e62"
+    },
+    "include/yaml-cpp/node/detail/memory.h": {
+      "bytes": 1101,
+      "sha256": "719460bfd264d5ab15070b5480e800ff25b90e5494d6544436c3c87525b893ba"
+    },
+    "include/yaml-cpp/node/detail/node.h": {
+      "bytes": 4922,
+      "sha256": "c8d2e189193410bb53455e45ec470e4ae809cc10f0edd5b4d9b1a75a6b17c2b1"
+    },
+    "include/yaml-cpp/node/detail/node_data.h": {
+      "bytes": 3434,
+      "sha256": "73d026cd836ec01dc95de38cf288beb86d617ecb0dee3791c6c083e9c319bfcb"
+    },
+    "include/yaml-cpp/node/detail/node_iterator.h": {
+      "bytes": 4896,
+      "sha256": "c17a9740e8421f097194face5feeab2e4b1a9bbab6fb8b1fc6db525e03f74f16"
+    },
+    "include/yaml-cpp/node/detail/node_ref.h": {
+      "bytes": 3298,
+      "sha256": "26fbb939e32d5f4237ab1712eedb3d695820de004cee2a0b2bb2d394b8dbd70b"
+    },
+    "include/yaml-cpp/node/emit.h": {
+      "bytes": 958,
+      "sha256": "39f35d344ba0502e05449a935c5c9fa3a0179d72b9aa2b75ee964ddd1c4a26af"
+    },
+    "include/yaml-cpp/node/impl.h": {
+      "bytes": 11607,
+      "sha256": "b6f2ce66924d499016ef420749aeb21b53375a60f875f46f43f4295cd39664c4"
+    },
+    "include/yaml-cpp/node/iterator.h": {
+      "bytes": 1027,
+      "sha256": "9d4c6651999117c2ff840b2ee6f3411e07960b238c009401a58a41e32ecfe1c8"
+    },
+    "include/yaml-cpp/node/node.h": {
+      "bytes": 3882,
+      "sha256": "38f674f50d1e0aa23cd921b1fbd268c0179f65d2e4433e8b81fa4f45cc4c5265"
+    },
+    "include/yaml-cpp/node/parse.h": {
+      "bytes": 2084,
+      "sha256": "eafa4476872ab20c176cf9f93341e57e7e24190a2c3864242c211bc536b97de2"
+    },
+    "include/yaml-cpp/node/ptr.h": {
+      "bytes": 831,
+      "sha256": "25a692e3911d8acbad980a96577259804481fb74f5602b2e5830ea9e432d819e"
+    },
+    "include/yaml-cpp/node/type.h": {
+      "bytes": 510,
+      "sha256": "dd19cd477379648c56f5640f58ac9ab2d89e8374bdd96d023dbd484492fbd480"
+    },
+    "include/yaml-cpp/null.h": {
+      "bytes": 790,
+      "sha256": "b81505857f24e1e5940fe8c98a0ebc5aeb6a88ec8ab735dd800692d869904511"
+    },
+    "include/yaml-cpp/ostream_wrapper.h": {
+      "bytes": 2012,
+      "sha256": "43bd5094bdf5fb1bd64a3081e372336b2ea410effd86fd910fd5d96b91f586c6"
+    },
+    "include/yaml-cpp/parser.h": {
+      "bytes": 2301,
+      "sha256": "a954930f86e865fcea885e1b65d35feb25f6d5fceb27cccb406425c354cda1af"
+    },
+    "include/yaml-cpp/stlemitter.h": {
+      "bytes": 1457,
+      "sha256": "eb8e241eb1f8e5cce088e560cd87bbd2b17d8fce8f944e7bcd8443ca836af5f9"
+    },
+    "include/yaml-cpp/traits.h": {
+      "bytes": 2817,
+      "sha256": "33c5aa4b11ed169fa62d6a192010dfbcc12d7d652cbdf1bd4a20d4f35f0305a3"
+    },
+    "include/yaml-cpp/yaml.h": {
+      "bytes": 795,
+      "sha256": "946643e99e2f865887852f838a66130c54ed770645a73f2c5f8b71b9bb2b1488"
+    },
+    "lib/RunQuickMergingCheck_C.d": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "lib/RunQuickMergingCheck_C.so": {
+      "bytes": 25280,
+      "sha256": "45c5d46c30784805fdbf30fa4988bad2d739e0817031ca8e602ee1377cc9444f"
+    },
+    "lib/libQuickMergingCheck.so": {
+      "bytes": 300552,
+      "sha256": "9b4f7b9ae6ffb0abd7a24da2f22bcc63d35cd473c6701101311f6840cca6092d"
+    },
+    "lib/libStarAnaConfig.so": {
+      "bytes": 1050416,
+      "sha256": "164b05f2098925b37a0952f38c523f4be9482cd6fd99dfe4116b9dc2c784c668"
+    },
+    "local_copy_revision.json": {
+      "bytes": 512,
+      "sha256": "3e4550e3d44c109d1a20b785d52f9af6539f3b67662487d5d9ba94db75ad88b4"
+    },
+    "policy.json": {
+      "bytes": 794,
+      "sha256": "c1eafd5bb1970eaf263fddfa28fb282f127a36311653b4c682a20da5720e6461"
+    },
+    "source/BuildFrozenLoader.C": {
+      "bytes": 343,
+      "sha256": "f9da446712ececad40a24569df045bfa9df6d3a057dc6fedc00ef9994764b33a"
+    },
+    "source/InvokeFrozenQa.C": {
+      "bytes": 679,
+      "sha256": "fe3331e7186eed936c59a507b3d260b266d4d5e205c90c74d0cec69b5031ce92"
+    },
+    "source/QuickMergingCheck.cxx": {
+      "bytes": 17013,
+      "sha256": "0336a45dfbeffdf1defd510504a4c64e53847029c1810832dd0949aa6de6a99a"
+    },
+    "source/RunQuickMergingCheck.C": {
+      "bytes": 889,
+      "sha256": "5c4873ab3b5c150813b73b64f74cba0194be78a72b341d26cb7b87e42f8ce2ce"
+    },
+    "source/build_runtime.sh": {
+      "bytes": 839,
+      "sha256": "522e82c289f8464fd01af95942937b18b9a9fd3b667adbd752903c6e8923751d"
+    },
+    "transport_revision.json": {
+      "bytes": 534,
+      "sha256": "6aecd1734889d7b8821fe133ea6f41da9fc529bfe650016c53e0cd457599e31a"
+    },
+    "validation/local_allowlist.json": {
+      "bytes": 2071,
+      "sha256": "d55a7a73534f46621b58db8c52b6ff5898c73439255f561332da899840702a21"
+    },
+    "validation/policy_smoke.json": {
+      "bytes": 687,
+      "sha256": "7883a51a8e90302fc4be4c5ec40ecfe920d9dd4f21192b464114749595f68fc9"
+    },
+    "worker.py": {
+      "bytes": 12162,
+      "sha256": "8df1f77fd91643e434531c1e5f77d349e1364974b91fcef4b20c171536454b5f"
+    },
+    "worker.sh": {
+      "bytes": 530,
+      "sha256": "f28e2b8b8bb4c2c18db122bf9f2dc1a245fdc23cf3bdc3ab3386c924646b9c03"
+    }
+  },
+  "scope": "Independent local extension preview",
+  "sourceRuntimeManifestSha256": "64d10f4f3d1af2360ae5d952cfb66b24ceac5b708bd70b487344103e06daca7c"
+}

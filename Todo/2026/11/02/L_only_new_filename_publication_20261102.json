@@ -1,0 +1,54 @@
+{
+  "phase": "written_under_new_name",
+  "createdAtJst": "2026-11-02T15:45:01.213781+09:00",
+  "report": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_4He_KFParticle_3p85_PoissonL_only_20261102_v2.pdf",
+    "pages": 20,
+    "bytes": 771189,
+    "sha256": "a1e1e2410ecef0e4fc7d4057d3c378c88b7ac2fef71a863fde7f2e05956f2bde"
+  },
+  "fitOptions": "SLQNR0",
+  "nonLFiguresIncluded": 0,
+  "figurePages": 15,
+  "case2": {
+    "reportPage": 13,
+    "centrality": "50-60%",
+    "method": "method3",
+    "side": "SE",
+    "kstar": [
+      0.26,
+      0.28
+    ],
+    "backgroundPerBin": 0.14694668995939236,
+    "backgroundModel": "constant_nonnegative",
+    "slopeTerms": [
+      0,
+      0
+    ],
+    "fitBins": 70,
+    "emptyBins": 57,
+    "fitRangeCounts": 27
+  },
+  "source": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/l_only_report_20261102_001/summary_4He_KFParticle_3p85_PoissonL_only_20261102.pdf",
+    "sha256": "a1e1e2410ecef0e4fc7d4057d3c378c88b7ac2fef71a863fde7f2e05956f2bde"
+  },
+  "validation": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/l_only_report_20261102_001/validation.json",
+    "sha256": "fafdc9d1396051af69f94dfad14121ad95f09599f68f7a5194ad66172e934849"
+  },
+  "originalPathPreserved": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_4He_KFParticle_3p85.pdf",
+    "before": {
+      "sha256": "a1e1e2410ecef0e4fc7d4057d3c378c88b7ac2fef71a863fde7f2e05956f2bde",
+      "bytes": 771189,
+      "mtimeNs": 1793596875352491802
+    },
+    "after": {
+      "sha256": "a1e1e2410ecef0e4fc7d4057d3c378c88b7ac2fef71a863fde7f2e05956f2bde",
+      "bytes": 771189,
+      "mtimeNs": 1793596875352491802
+    }
+  },
+  "note": "The existing PDF path is not changed. This distinct filename identifies the L-only report. The reason the viewer displayed 34 pages at the existing path is not established."
+}

@@ -1,0 +1,27 @@
+{
+  "phase": "validated",
+  "report": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/lambda_he4_mixing_kstar_audit_20261102.pdf",
+    "sha256": "2b329df7d60c030b3d88d2e7d3421b58d802e0e6552e284522ae58d3a91851a2",
+    "bytes": 354643,
+    "pages": 8
+  },
+  "inputRootUnchanged": true,
+  "previousReportsUnchanged": true,
+  "sourceHashesMatch": true,
+  "runtimeFunctionsVerified": 6,
+  "rootRuntime": "5.34/38",
+  "kinematicsTests": 60000,
+  "rawFineGroupCountsMatch": true,
+  "centExposureJacobianIndependentlyReviewed": true,
+  "meEligibleAttemptedFilledMatch": 157569769,
+  "mixingVzClampedEvents": 0,
+  "figurePages": 4,
+  "cropManifestsVerified": true,
+  "overfullWarnings": 0,
+  "causalOrigin": "unresolved",
+  "normalizationPlateauEstablished": false,
+  "all8PagesRenderedAndVisuallyChecked": true,
+  "independentConclusionReviewPassed": true,
+  "cropFilesVerified": 4
+}

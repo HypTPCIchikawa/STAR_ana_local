@@ -52,6 +52,29 @@ class PersonalSync(unittest.TestCase):
             p.write_text('1')
             self.assertEqual(sync.permitted(p, p.name, self.cfg, True)[1], 'numeric_output')
 
+    def test_capture_preserves_root_documents_and_helpers_without_sums_packages(self):
+        subprocess.run(['git', 'init', '-q', str(self.workspace)], check=True)
+        subprocess.run(['git', '-C', str(self.workspace), '-c', 'user.name=test',
+                        '-c', 'user.email=test@example.invalid', 'commit',
+                        '--allow-empty', '-qm', 'fixture'], check=True)
+        keep = ['Makefile', 'docs/REFERENCE.md', 'job/run/README.md',
+                'job/run/recover.py', 'job/run/recovery.package.notes/helper.py']
+        generated = ['job/run/campaign.package/recover.py',
+                     'job/run/campaign.package/nested/helper.h',
+                     'tools/campaign.package/helper.py']
+        for name in keep + generated:
+            p = self.workspace / name
+            p.parent.mkdir(parents=True, exist_ok=True)
+            p.write_text('workspace source\n')
+        with mock.patch.object(sync, 'REPO', self.repo):
+            records = sync.capture(self.workspace, self.cfg, write=True)
+        self.assertEqual(set(records), set(keep))
+        for name in keep:
+            self.assertEqual((self.repo / 'snapshots' / name).read_text(), 'workspace source\n')
+        for name in generated:
+            self.assertFalse((self.repo / 'snapshots' / name).exists())
+        self.assertEqual(list(sync.files_under(self.workspace / 'job/run/campaign.package')), [])
+
     def test_mount_refuses_existing_directory(self):
         original = self.workspace / 'Todo'
         original.mkdir()
