@@ -1038,8 +1038,31 @@ python3 script/generate_joblist_from_list.py \
 
 The prepared XMLs are
 `job/joblist/joblist_auau3p85_anaFemtoLambda_4He_KFParticle_epd{1,8}_pairY10_covered388p25.xml`.
-XML generation does not submit jobs; these definitions are prepared and have
-not been submitted. The matching ROOT5 pair-diagnostic regression and the
+XML generation prepares definitions; submit them explicitly through
+`job/run/submit.sh` and retain the resulting runmeta. The matching ROOT5 pair-diagnostic regression and the
 10,000-event comparison verify the stored rapidity projections and preserve
 the existing raw spectra. For fewer rapidity intervals, merge adjacent raw SE
 and ME projections before applying the selected CF normalization procedure.
+
+## Guarded histogram merging for matched comparisons
+
+`script/watch_job_merge_notify.py` validates completed job outputs, runs
+ROOT5 hadd, compares additive histogram fingerprints, and relocates only the
+validated inputs into `subjobs/<jobid>/`. It uses the submitted XML's output
+template for ROOT filenames, including when the submission name has a label.
+See [the run workflow](../job/run/README.md#aggregate-completion-checks-and-guarded-merging).
+
+For two runs with matching input groups, use the same fixed inclusion file:
+
+```bash
+python3 script/watch_job_merge_notify.py \
+  --runmeta RUNMETA --event-log CONDOR_LOG \
+  --root-runner script/singularity_root_batch.sh --mainconf MAINCONF \
+  --allow-partial --include-job-ids COMMON_IDS.list --no-email --watch
+```
+
+The file contains one unique known subjob number per line. Its IDs and SHA256
+are retained with the selection and input provenance. Valid jobs outside the
+selection are recorded separately from missing or incomplete outputs, and their
+ROOT files are retained. A wrapper can send an aggregate completion message
+after all requested merges and additional comparison checks finish.

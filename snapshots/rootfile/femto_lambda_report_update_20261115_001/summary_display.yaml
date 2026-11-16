@@ -1,0 +1,117 @@
+purpose: Additional display only; existing CF values/errors are unchanged
+datasets:
+- EP1
+- EP8
+colors:
+  EP1: '#244C75'
+  EP8: '#C05A24'
+single_cent9_bins:
+- id: c0_5
+  label: 0-5%
+  min: 8
+  max: 8
+  percent_low: 0.0
+  percent_high: 5.0
+- id: c5_10
+  label: 5-10%
+  min: 7
+  max: 7
+  percent_low: 5.0
+  percent_high: 10.0
+- id: c10_20
+  label: 10-20%
+  min: 6
+  max: 6
+  percent_low: 10.0
+  percent_high: 20.0
+- id: c20_30
+  label: 20-30%
+  min: 5
+  max: 5
+  percent_low: 20.0
+  percent_high: 30.0
+- id: c30_40
+  label: 30-40%
+  min: 4
+  max: 4
+  percent_low: 30.0
+  percent_high: 40.0
+- id: c40_50
+  label: 40-50%
+  min: 3
+  max: 3
+  percent_low: 40.0
+  percent_high: 50.0
+- id: c50_60
+  label: 50-60%
+  min: 2
+  max: 2
+  percent_low: 50.0
+  percent_high: 60.0
+- id: c60_70
+  label: 60-70%
+  min: 1
+  max: 1
+  percent_low: 60.0
+  percent_high: 70.0
+- id: c70_80
+  label: 70-80%
+  min: 0
+  max: 0
+  percent_low: 70.0
+  percent_high: 80.0
+map:
+  tail_color_range:
+  - 0.8
+  - 1.2
+  shape_color_range:
+  - 0.85
+  - 1.15
+  color_steps: 96
+  palette: blue below unity, white at unity, orange above unity
+  missing: gray cell labelled NA; no numerical replacement
+  outside_color_range: saturated endpoint color, hatch, and unchanged numerical value/error
+  large_error: '! if error >= the full color-range width; display flag only, no exclusion'
+  numerical_label: central value and one-sigma statistical error on separate lines
+metrics:
+  tail:
+    source: windows.k080_100
+    window: &id001
+    - 0.8
+    - 1.0
+  shape:
+    source: shape_ratio
+    numerator: *id001
+    denominator:
+    - 0.5
+    - 0.7
+normalization:
+- 0.4
+- 0.5
+pair_rapidity:
+  frame: lab
+  minimum: -1.5
+  maximum: 0.5
+  n_bins: 10
+  adjacent_merge_groups:
+  - - 1
+    - 2
+  - &id002
+    - 3
+    - 4
+  - - 5
+    - 6
+  - - 7
+    - 8
+  - - 9
+    - 10
+pair_merge02:
+  source: pair_merge02
+  bins: *id002
+  range:
+  - -1.1
+  - -0.7
+he4_rapidity_threshold: -0.5
+uncertainties: Independent histogram counts with common normalization covariance;
+  event/pair reuse correlations unavailable
+plot_directory: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots

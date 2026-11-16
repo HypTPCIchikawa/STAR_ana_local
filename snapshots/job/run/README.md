@@ -297,9 +297,24 @@ merged output, refuses an existing destination and does not retry an uncertain
 merge. State is local under `job/run/merge_notify/`; no study artifacts are
 needed in Git. Review failures before starting another merge.
 
+For comparisons that require the same source population, add
+`--allow-partial --include-job-ids COMMON_IDS.list` to each merge command.
+The selection file contains one unique, known nonnegative subjob number per
+line, with no blank lines or comments. IDs are sorted numerically. The tool
+records the file path, SHA256, IDs, and count in its settings, result, and input
+provenance, and rejects a changed selection on restart or before merging.
+Otherwise valid jobs outside that selection are recorded as
+`outside_requested_selection`; their ROOT files remain outside the merged
+input archive. Missing or incomplete jobs retain their own exclusion reasons.
+The default still requires full coverage, and a corrupt ROOT header stops the
+merge even in partial mode. `--check` only inspects scheduler completion; the
+watch path performs the ROOT and analysis-log input checks.
+
 After a validated publication, `python3 script/archive_merged_subjobs.py --runmeta RUNMETA`
 relocates exactly the validated inputs into `subjobs/<SUMS id>` with a resumable
 plan, without deleting ROOT data or overwriting a destination. It does not merge
-or email. Oversized THnSparse objects require a separate, explicitly partitioned
+or email. ROOT basenames follow the submitted XML's `fromScratch` template;
+the submission name may contain a separate label used for state identification.
+Oversized THnSparse objects require a separate, explicitly partitioned
 merge: preserve same-axis Sparse sidecars, then sum low-dimensional projections.
 The generic hadd workflow does not automatically convert such objects.

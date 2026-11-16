@@ -1,0 +1,555 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=15mm,top=17mm,bottom=18mm,headheight=12pt]{geometry}
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\newfontfamily\latinfont{DejaVu Sans}
+\newfontfamily\japanfont[AutoFakeBold=2]{Droid Sans Fallback}
+\XeTeXlinebreaklocale "ja"
+\XeTeXlinebreakskip=0pt plus 1pt
+\newXeTeXintercharclass\japanese
+\newcount\jpchar
+\jpchar="3000 \loop\XeTeXcharclass\jpchar=\japanese\advance\jpchar by1 \ifnum\jpchar<"3100\repeat
+\jpchar="3400 \loop\XeTeXcharclass\jpchar=\japanese\advance\jpchar by1 \ifnum\jpchar<"A000\repeat
+\jpchar="FF00 \loop\XeTeXcharclass\jpchar=\japanese\advance\jpchar by1 \ifnum\jpchar<"FFF0\repeat
+\XeTeXinterchartoks 0 \japanese={\japanfont}
+\XeTeXinterchartoks \japanese 0={\latinfont}
+\XeTeXinterchartoks 4095 \japanese={\japanfont}
+\XeTeXinterchartoks 4095 0={\latinfont}
+\XeTeXinterchartokenstate=1
+\usepackage{amsmath,amssymb,fix-cm,graphicx,xcolor,array,booktabs,fancyhdr,tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\usepackage[unicode,colorlinks=true,linkcolor=blue!60!black,urlcolor=blue!60!black]{hyperref}
+\hypersetup{pdftitle={EP分割・ラピディティ選択と高k CF},pdfauthor={STAR 3p85 解析資料}}
+\definecolor{navy}{HTML}{18354B}
+\definecolor{teal}{HTML}{007F83}
+\definecolor{warm}{HTML}{FFF1E4}
+\definecolor{pale}{HTML}{EDF5F7}
+\color{navy}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\scriptsize STAR 2021 P24iy / $\Lambda$--$^{4}$He signal}
+\fancyhead[R]{\scriptsize EP・中央度・rapidity / 2026年11月15日 JST}
+\fancyfoot[L]{\scriptsize raw CF / 規格化 $0.4\leq k^*<0.5$ GeV/$c$ / 誤差は統計近似}
+\fancyfoot[R]{\scriptsize\thepage\ / \pageref{reportend}}
+\renewcommand{\headrulewidth}{.3pt}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}\setlength{\emergencystretch}{2em}
+\renewcommand{\arraystretch}{1.35}\setlength{\tabcolsep}{4pt}
+\raggedright
+\newcommand{\He}{\ensuremath{{}^{4}\mathrm{He}}}
+\newcommand{\phead}[3]{\clearpage\pdfbookmark[0]{#2}{p#1}{\small\color{teal}#1\quad #3}\par\vspace{2mm}{\fontsize{21}{27}\selectfont\bfseries #2}\par\vspace{3mm}}
+\newcommand{\lead}[1]{{\large\bfseries #1}\par\vspace{2mm}}
+\newcommand{\sub}[1]{\par\vspace{2mm}{\bfseries\color{teal}#1}\par}
+\newcommand{\figcap}[1]{{\fontsize{9.2}{12.5}\selectfont\color{navy!75}#1\par}}
+\newcommand{\boxnote}[1]{\par\colorbox{pale}{\parbox{\dimexpr\linewidth-5mm\relax}{\vspace{2mm}\small\raggedright #1\vspace{2mm}}}\par}
+\newcommand{\warmnote}[1]{\par\colorbox{warm}{\parbox{\dimexpr\linewidth-5mm\relax}{\vspace{2mm}\small\raggedright #1\vspace{2mm}}}\par}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\begin{document}
+
+\phead{01}{EP・中央度・rapidityで高k* CFを検証する}{中央度別結果を反映した改訂版}
+
+\lead{EP8で改善するが、全体の残留は解決していない。}
+同じ規格化$H=[0.4,0.5)$ GeV/$c$で、signal raw CFを比較しました。$C_{\rm tail}$は$0.8\leq k^*<1$ GeV/$c$のcountを積分してから作った比です。
+\begin{center}\small\begin{tabular}{P{6.4cm}cc}\toprule 条件 & EP1 & EP8\\\midrule
+0--20\% inclusive & $0.8661\pm0.0031$ & $0.9063\pm0.0032$\\
+0--5\% inclusive & $0.8855\pm0.0041$ & $0.8993\pm0.0042$\\
+20--30\% inclusive & $0.8458\pm0.0092$ & $0.943\pm0.010$\\
+0--20\%：pairY $[-1.1,-0.7)$ & $0.9749\pm0.0084$ & $0.9813\pm0.0085$\\
+20--30\%：He4 Below & $0.948\pm0.025$ & $1.019\pm0.027$\\
+\bottomrule\end{tabular}\end{center}
+\sub{中央度だけを狭めても、下降は残る}
+0--20\%全体は0.866から0.906へ改善。それでも約9.4\%低く、単独0--5\%や10--20\%、20--30\%にも下降が残ります。広い中央度を合算したことだけでは説明できません。
+\sub{ラピディティで残留と精度の両方が変わる}
+固定pairY $[-1.1,-0.7)$では中心側の傾きが小さく、He4 Belowの10--20\%・20--30\%は限定標本として1・平坦と整合します。周辺中央度や端のYでは低統計が大きく、全体の回復には外挿しません。
+\warmnote{評価は保存ヒストの上端までの\textbf{0.5--1 GeV/$c$}です。固定した規格化域が物理的plateauとは未確認であり、1 GeV/$c$超の漸近収束や残留原因の特定は行っていません。}
+\figcap{誤差は共有規格化を含むhistogram統計近似。event/pair再利用、EP1/EP8間の共分散、系統誤差は未評価です。解析コードupdateは中断を維持しています。}
+
+\phead{02}{何をそろえて比較したか}{データ・定義}
+
+\lead{固定した規格化で、EPとY選択の影響を見る。}
+
+2021 P24iyの較正対象388 runから、両系列に共通する成功4,023 groupを使用。入力一覧は72,424 Pico参照で、未出力35 groupは除外しました。未較正81 runは含めていません。微小なSE差は既に許容した方針を維持しています。
+
+\sub{EP1とEP8}
+
+同じEP有効条件のイベントで、pool keyをcent9 $\times$ VzとするEP1、さらにEast EPD一次EPの8区分を要求するEP8を比較。最大20 event・両方向ME等の設定は共通です。
+
+\sub{ラピディティ選択の意味}
+
+He4自身の$y_{\rm He,Lab}<-0.5$／$>-0.5$と、ペアの$y_{\rm pair,Lab}=y(P_\Lambda+P_{\rm He})$の10区分を別々に比較します。どちらも\textbf{SE/ME共通のペア選択}であり、Yで独立したME poolを作る処理ではありません。同一eventのペアが異なるY区分に入ることもあります。
+
+\boxnote{pairYとHe4単体Yのjoint軸は保存していないため、この2条件を同時に課した20区分は復元していません。今回の図は、それぞれ独立した選択系列です。}
+
+\sub{CFと規格化}
+
+\[C(k^*)=\frac{S(k^*)}{M(k^*)}\frac{M_H}{S_H},\qquad H=[0.4,0.5)\ {\rm GeV}/c.\]
+
+各条件で$S_H,M_H$を求めますが、領域$H$は全条件で共通。元200binを4binずつ足し、$\Delta k^*=0.02$ GeV/$c$としました。対象cent9のSE・MEをそれぞれ加算してからCFを計算します。
+
+\figcap{$H$は従来との比較用に固定した領域で、無相関のplateauであると実証したものではありません。本資料の「1との差」は、この規格化での相対残留です。}
+
+\figcap{0--20\%を参照に、単独cent9全9区分と0--10\%合算を比較。単独中央度の対応・支持統計は後の追加章に示します。Λ signal窓1.10708--1.12484 GeV/$c^2$。背景差引・purity補正前のraw CFです。}
+
+
+\phead{03}{割り算前のSEとME：全体}{0--20\%}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__inclusive__spectra.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{各パネルのSEとMEを同じ座標に重ねました。MEは$H=[0.4,0.5)$の積分がSEに等しくなるように高さをスケール。上段EP1、下段EP8。高k*側でSEがスケール後MEより小さくなる形が、CFの1未満に対応します。}
+
+\begin{center}\small\begin{tabular}{P{5.0cm}rr}\toprule
+
+表示範囲内の数 & EP1 & EP8\\\midrule
+
+SE：$0\leq k^*<1$ & 1,106,006 & 1,105,996\\
+
+SE：規格化窓$H$ & 103,546 & 103,543\\
+
+ME：規格化窓$H$ & 3,799,999 & 3,931,245\\
+
+\bottomrule\end{tabular}\end{center}
+
+
+\phead{04}{全体のCF：改善しても下降が残る}{0--20\%}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__inclusive__cf.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{青EP1、橙EP8。灰色帯が規格化域、破線がCF=1。規格化域の外側を評価します。}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__inclusive__high.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{高k*拡大。EP8でも$C_{\rm tail}=0.906\pm0.003$、$T=0.936\pm0.002$。レベルが1未満であるだけでなく、範囲内の下降も残ります。}
+
+
+\phead{05}{He4自身のラピディティで差が変わる}{0--20\%}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__he4_below__high.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{$y_{\rm He,Lab}<-0.5$。EP8：$C_{\rm tail}$=$0.9682\pm0.0054$、$T$=$0.9779\pm0.0040$。全体より改善する一方、中心値は約3.2\%低い。}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__he4_above__high.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{$y_{\rm He,Lab}>-0.5$。EP8：$C_{\rm tail}$=$0.8777\pm0.0040$、$T$=$0.9181\pm0.0028$。こちらでは1からの差と下降が大きく残ります。}
+
+
+\phead{06}{ペアラピディティ依存を一覧する}{0--20\% / 10区分}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__pair10__tail_summary.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{縦軸は$C_{\rm tail}$。$y_{\rm pair}\simeq-1.2$の上方点は規格化窓のSEが10しかなく、収束判定には使いません。空の区分をCF=0や1で埋めていません。}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__pair10__shape_summary.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{$T=(S/M)_{[0.8,1)}/(S/M)_{[0.5,0.7)}$。$T=1$は2窓の積分$S/M$が等しく、$T<1$は高い側の窓で小さいことを表します。窓内の形や平坦性は図・GLSも併用して確認します。規格化定数は相殺されます。}
+
+
+\phead{07}{数値一覧：全体・He4二分・pairY10}{0--20\%}
+
+値は窓内countから計算したCF。$T$は高k*の形状比で、CF点の算術平均ではありません。
+
+\begin{center}\small\begin{tabular}{P{4.1cm}cccc}\toprule
+
+条件 & $C_{\rm tail}$ EP1 & EP8 & $T$ EP1 & EP8\\\midrule
+
+全体 & $0.8661\pm0.0031$ & $0.9063\pm0.0032$ & $0.9076\pm0.0022$ & $0.9356\pm0.0023$\\
+
+He4 Below & $0.9504\pm0.0053$ & $0.9682\pm0.0054$ & $0.9650\pm0.0039$ & $0.9779\pm0.0040$\\
+
+He4 Above & $0.8228\pm0.0038$ & $0.8777\pm0.0040$ & $0.8821\pm0.0027$ & $0.9181\pm0.0028$\\
+
+$[-1.5,-1.3)$ & 不可 & 不可 & 不可 & 不可\\
+
+$[-1.3,-1.1)$ & $2.11\pm0.73$ & $2.02\pm0.70$ & $1.30\pm0.28$ & $1.27\pm0.27$\\
+
+$[-1.1,-0.9)$ & $1.004\pm0.033$ & $1.019\pm0.034$ & $0.995\pm0.022$ & $0.997\pm0.022$\\
+
+$[-0.9,-0.7)$ & $0.9726\pm0.0087$ & $0.9784\pm0.0088$ & $0.9905\pm0.0063$ & $0.9945\pm0.0063$\\
+
+$[-0.7,-0.5)$ & $0.9186\pm0.0058$ & $0.9405\pm0.0060$ & $0.9383\pm0.0041$ & $0.9537\pm0.0042$\\
+
+$[-0.5,-0.3)$ & $0.8390\pm0.0050$ & $0.8854\pm0.0052$ & $0.8871\pm0.0035$ & $0.9186\pm0.0036$\\
+
+$[-0.3,-0.1)$ & $0.7277\pm0.0065$ & $0.8156\pm0.0073$ & $0.8088\pm0.0053$ & $0.8736\pm0.0058$\\
+
+$[-0.1,0.1)$ & $0.437\pm0.052$ & $0.557\pm0.066$ & $0.547\pm0.057$ & $0.649\pm0.068$\\
+
+$[0.1,0.3)$ & 不可 & 不可 & 不可 & 不可\\
+
+$[0.3,0.5)$ & 不可 & 不可 & 不可 & 不可\\
+
+\bottomrule\end{tabular}\end{center}
+
+\boxnote{pairYの$[-1.5,-1.3)$、$[0.1,0.3)$、$[0.3,0.5)$では規格化用SEが無くCFは不可。$[-1.3,-1.1)$は規格化用SE=10で低統計。1が誤差内に入ることだけを、回復の根拠にしません。}
+
+\sub{読み取れる傾向}
+
+$[-1.1,-0.9)$では1・平坦と整合しますが精度は約3\%。$[-0.9,-0.7)$は約2\%低く、傾きは小さい。一方、Yが大きい側では低下が強くなります。EP8はその多くを緩和しますが、全域を1へ戻す結果ではありません。
+
+
+\phead{08}{pairYの高k* CF：区分1・2}{0--20\% / 全10区分を表示}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__pair_bin01__high.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{区分1：$[-1.5,-1.3)$。EP8の規格化SE=0。$C_{m tail}$=不可、$T$=不可。}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__pair_bin02__high.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{区分2：$[-1.3,-1.1)$。EP8の規格化SE=10。$C_{m tail}$=$2.02\pm0.70$、$T$=$1.27\pm0.27$。低統計につき精密な収束判定は不可。}
+
+
+\phead{09}{pairYの高k* CF：区分3・4}{0--20\% / 全10区分を表示}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__pair_bin03__high.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{区分3：$[-1.1,-0.9)$。EP8の規格化SE=1,120。$C_{m tail}$=$1.019\pm0.034$、$T$=$0.997\pm0.022$。}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__pair_bin04__high.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{区分4：$[-0.9,-0.7)$。EP8の規格化SE=16,290。$C_{m tail}$=$0.9784\pm0.0088$、$T$=$0.9945\pm0.0063$。}
+
+
+\phead{10}{pairYの高k* CF：区分5・6}{0--20\% / 全10区分を表示}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__pair_bin05__high.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{区分5：$[-0.7,-0.5)$。EP8の規格化SE=31,991。$C_{m tail}$=$0.9405\pm0.0060$、$T$=$0.9537\pm0.0042$。}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__pair_bin06__high.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{区分6：$[-0.5,-0.3)$。EP8の規格化SE=36,240。$C_{m tail}$=$0.8854\pm0.0052$、$T$=$0.9186\pm0.0036$。}
+
+
+\phead{11}{pairYの高k* CF：区分7・8}{0--20\% / 全10区分を表示}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__pair_bin07__high.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{区分7：$[-0.3,-0.1)$。EP8の規格化SE=17,738。$C_{m tail}$=$0.8156\pm0.0073$、$T$=$0.8736\pm0.0058$。}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__pair_bin08__high.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{区分8：$[-0.1,0.1)$。EP8の規格化SE=154。$C_{m tail}$=$0.557\pm0.066$、$T$=$0.649\pm0.068$。}
+
+
+\phead{12}{pairYの高k* CF：区分9・10}{0--20\% / 全10区分を表示}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__pair_bin09__high.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{区分9：$[0.1,0.3)$。EP8の規格化SE=0。$C_{m tail}$=不可、$T$=不可。}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__pair_bin10__high.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{区分10：$[0.3,0.5)$。EP8の規格化SE=0。$C_{m tail}$=不可、$T$=不可。}
+
+
+\phead{13}{隣接区分をまとめる：ほぼ平坦な領域}{0--20\% / pairY [-1.1,-0.7)}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__pair_merge02__cf.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{幅0.2の隣接2区分を、SE/MEの加算後に規格化。区分境界をdataに合わせて最適化したものではなく、事前に定めた隣接2binずつのmergeです。}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__pair_merge02__high.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{EP8：$C_{\rm tail}$=$0.9813\pm0.0085$、$T$=$0.9948\pm0.0061$。ほぼ平坦ですが中心値は約2\%低く、この部分標本の結果を全体の解決とはしません。}
+
+
+\phead{14}{区分を広げても、Yの大きい側は下がる}{0--20\% / adjacent pairY merge}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__pair_merge03__high.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{pairY $[-0.7,-0.3)$。EP8：$C_{\rm tail}$=$0.9095\pm0.0039$、$T$=$0.9339\pm0.0027$。}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__pair_merge04__high.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{pairY $[-0.3,0.1)$。EP8：$C_{\rm tail}$=$0.8141\pm0.0073$、$T$=$0.8727\pm0.0058$。mergeで統計は増えますが、この形状差は消えません。}
+
+
+\phead{15}{中央度を9区分に広げて確かめる}{更新範囲・統計量}
+\lead{0--20\%の合算結果と、単独cent9の結果を比較する。}
+保存済みROOTを0--5、5--10、以後10\%刻みで70--80\%まで分割しました。従来の0--10\%・0--20\%も参照として残します。単独9区分と合算2区分は重複するため、11標本を独立とは扱いません。
+\begin{center}\small\begin{tabular}{lrrrr}\toprule
+中央度 & cent9 & EP8 SE総数 & SE$_H$ & SE$_{[0.8,1)}$\\\midrule
+0-5\% & 8 & 626,474 & 59,070 & 223,674\\
+5-10\% & 7 & 222,401 & 20,640 & 79,855\\
+10-20\% & 6 & 257,121 & 23,833 & 91,803\\
+20-30\% & 5 & 117,286 & 10,953 & 41,005\\
+30-40\% & 4 & 38,317 & 3,618 & 13,087\\
+40-50\% & 3 & 10,152 & 1,000 & 3,352\\
+50-60\% & 2 & 1,670 & 182 & 517\\
+60-70\% & 1 & 210 & 29 & 52\\
+70-80\% & 0 & 5 & 2 & 0\\
+\bottomrule\end{tabular}\end{center}
+\figcap{countは$0\leq k^*<1$の通常binに入ったペア積分。event数ではありません。周辺中央度では、特に規格化窓と高k*窓の統計が減少します。}
+\sub{中央度を合算する手順}
+各cent9内でMEを作った後、$S=\sum_c S_c$、$M=\sum_c M_c$を作り、その比を規格化します。cent9をまたぐevent mixingは追加しません。合算後の比は、各CFの単純平均とは重みが異なります。
+\boxnote{今回増やしたのは保存済みヒストの投影条件です。解析コードupdateはユーザー指示で中断しており、新しいPico処理・本番job・81 runの較正は行っていません。}
+
+\phead{16}{全体CFの水準には中央度依存がある}{inclusive / 単独9区分}
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/inclusive_ctail_vs_centrality.pdf}\special{pdf:literal direct Q}}\end{center}
+\begin{center}\small\begin{tabular}{lcc}\toprule
+中央度 & $C_{\rm tail}$ EP1 & $C_{\rm tail}$ EP8\\\midrule
+0-5\% & $0.8855\pm0.0041$ & $0.8993\pm0.0042$\\
+5-10\% & $0.8422\pm0.0067$ & $0.9051\pm0.0072$\\
+10-20\% & $0.8373\pm0.0062$ & $0.9244\pm0.0068$\\
+20-30\% & $0.8458\pm0.0092$ & $0.943\pm0.010$\\
+30-40\% & $0.868\pm0.017$ & $0.956\pm0.018$\\
+40-50\% & $0.891\pm0.032$ & $0.954\pm0.035$\\
+50-60\% & $0.832\pm0.072$ & $0.880\pm0.076$\\
+60-70\% & $0.62\pm0.15$ & $0.63\pm0.15$\\
+70-80\% & 不可 & 不可\\
+\bottomrule\end{tabular}\end{center}
+\figcap{横軸は中央度。大きい側ほど周辺衝突です。EP8は0--5\%で約0.899、10--20\%で約0.924、20--30\%で約0.943。30--40\%まで中心値は1へ近づきますが、1への普遍的な回復とは結論しません。}
+\warmnote{50--60\%以降の精度低下を含め、全域で単調な中央度依存が確定したという意味ではありません。70--80\%は高k*窓のSE=0で評価不可です。}
+
+\phead{17}{水準が上がっても、下降は残っている}{inclusive / 形状と傾き}
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.94\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/inclusive_shape_vs_centrality.pdf}\special{pdf:literal direct Q}}\end{center}
+\begin{center}\small\begin{tabular}{lcc}\toprule
+中央度 & EP8 $T$ & EP8傾き $(\mathrm{GeV}/c)^{-1}$\\\midrule
+0-5\% & $0.9320\pm0.0030$ & $-0.2251\pm0.0096$\\
+5-10\% & $0.9293\pm0.0051$ & $-0.229\pm0.016$\\
+10-20\% & $0.9505\pm0.0048$ & $-0.167\pm0.015$\\
+20-30\% & $0.9499\pm0.0071$ & $-0.150\pm0.023$\\
+30-40\% & $0.963\pm0.013$ & $-0.094\pm0.040$\\
+40-50\% & $0.971\pm0.025$ & $-0.108\pm0.079$\\
+50-60\% & $0.908\pm0.057$ & $-0.29\pm0.18$\\
+60-70\% & $0.85\pm0.16$ & $-0.10\pm0.40$\\
+70-80\% & 不可 & 不可\\
+\bottomrule\end{tabular}\end{center}
+\figcap{$T$は高い側・低い側の2窓の積分$S/M$の比です。0--30\%では$T<1$と負の傾きが残ります。単独0--5\%でも低下するため、広い0--20\%を合算したことだけでは残留を説明できません。}
+\boxnote{周辺中央度の大きな誤差・少数点から、平坦化や再低下を確定しません。傾きは共分散を含む0.5--1 GeV/$c$の診断量です。}
+
+\phead{18}{SEとMEの形状差：最中央0--5\%}{ROOT出力の代表例 / inclusive}
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[page=23,pagebox=cropbox,width=0.98\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_centrality_pair_canvases/centrality_pair_rapidity10_SE_ME_CF_root.pdf}\special{pdf:literal direct Q}}\end{center}
+\figcap{0--5\%ではSE/MEの差と高k*の下降が、単独cent9内でも残っています。左EP1・右EP8、上SEとscaled ME、中CF全体、下高k*拡大。各列のS/M総ペア数と規格化窓のcountも併記しています。}
+\boxnote{EP8の$C_{\rm tail}$=$0.8993\pm0.0042$、$T$=$0.9320\pm0.0030$。規格化域は共通の$[0.4,0.5)$ GeV/$c$です。}
+
+\phead{19}{SEとMEの形状差：20--30\%}{ROOT出力の代表例 / inclusive}
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[page=56,pagebox=cropbox,width=0.98\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_centrality_pair_canvases/centrality_pair_rapidity10_SE_ME_CF_root.pdf}\special{pdf:literal direct Q}}\end{center}
+\figcap{20--30\%ではEP8で差が小さくなりますが、全体CFの高k*下降が残ります。左EP1・右EP8、上SEとscaled ME、中CF全体、下高k*拡大。各列のS/M総ペア数と規格化窓のcountも併記しています。}
+\boxnote{EP8の$C_{\rm tail}$=$0.943\pm0.010$、$T$=$0.9499\pm0.0071$。規格化域は共通の$[0.4,0.5)$ GeV/$c$です。}
+
+\phead{20}{pairYと中央度の対応：EP8 / CF水準}{pairY10 × 単独9中央度}
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.98\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/EP8_pairY_ctail_map.pdf}\special{pdf:literal direct Q}}\end{center}
+\figcap{各cellは1つの中央度・pair rapidity条件で、値と統計近似誤差を併記しています。灰色NAは計算不可。色域外は端色と斜線で示し、表示範囲の全幅以上の誤差には!を付けています。これらは表示上の注記で、追加の選択cutではありません。}
+\sub{同じ中央度の中でも、Yが変わるとCFが変わる}
+0--30\%では、pairYの$[-0.7,-0.5)$、$[-0.5,-0.3)$、$[-0.3,-0.1)$と大きい側へ進むと、CF水準が低くなる傾向が見えます。中央度だけを分けても、このY依存は消えません。
+\warmnote{40--50\%以降や端のY区分には低統計・NAが多く、色だけから中央度の連続的な変化や回復を読み取りません。EP1/EP8のmapは同じ色域を使用しています。}
+
+\phead{21}{pairYと中央度の対応：EP8 / 形状比}{pairY10 × 単独9中央度}
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.98\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/EP8_pairY_shape_map.pdf}\special{pdf:literal direct Q}}\end{center}
+\figcap{各cellは1つの中央度・pair rapidity条件で、値と統計近似誤差を併記しています。灰色NAは計算不可。色域外は端色と斜線で示し、表示範囲の全幅以上の誤差には!を付けています。これらは表示上の注記で、追加の選択cutではありません。}
+\sub{水準と形状を両方見て判断する}
+$T=1$は2窓の積分$S/M$が等しいことを表し、窓内まで平坦である証明ではありません。Yが大きい側には下降が残る一方、$[-1.1,-0.7)$付近では形状差が小さくなります。
+\warmnote{40--50\%以降や端のY区分には低統計・NAが多く、色だけから中央度の連続的な変化や回復を読み取りません。EP1/EP8のmapは同じ色域を使用しています。}
+
+\phead{22}{pairYと中央度の対応：EP1 / CF水準}{pairY10 × 単独9中央度}
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.98\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/EP1_pairY_ctail_map.pdf}\special{pdf:literal direct Q}}\end{center}
+\figcap{各cellは1つの中央度・pair rapidity条件で、値と統計近似誤差を併記しています。灰色NAは計算不可。色域外は端色と斜線で示し、表示範囲の全幅以上の誤差には!を付けています。これらは表示上の注記で、追加の選択cutではありません。}
+\sub{同じ中央度の中でも、Yが変わるとCFが変わる}
+0--30\%では、pairYの$[-0.7,-0.5)$、$[-0.5,-0.3)$、$[-0.3,-0.1)$と大きい側へ進むと、CF水準が低くなる傾向が見えます。中央度だけを分けても、このY依存は消えません。
+\warmnote{40--50\%以降や端のY区分には低統計・NAが多く、色だけから中央度の連続的な変化や回復を読み取りません。EP1/EP8のmapは同じ色域を使用しています。}
+
+\phead{23}{pairYと中央度の対応：EP1 / 形状比}{pairY10 × 単独9中央度}
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.98\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/EP1_pairY_shape_map.pdf}\special{pdf:literal direct Q}}\end{center}
+\figcap{各cellは1つの中央度・pair rapidity条件で、値と統計近似誤差を併記しています。灰色NAは計算不可。色域外は端色と斜線で示し、表示範囲の全幅以上の誤差には!を付けています。これらは表示上の注記で、追加の選択cutではありません。}
+\sub{水準と形状を両方見て判断する}
+$T=1$は2窓の積分$S/M$が等しいことを表し、窓内まで平坦である証明ではありません。Yが大きい側には下降が残る一方、$[-1.1,-0.7)$付近では形状差が小さくなります。
+\warmnote{40--50\%以降や端のY区分には低統計・NAが多く、色だけから中央度の連続的な変化や回復を読み取りません。EP1/EP8のmapは同じ色域を使用しています。}
+
+\phead{24}{固定pairY区間の「ほぼ平坦」はどこまで続くか}{pairY [-1.1,-0.7) / 事前固定merge}
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.87\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/fixedmerge02_ctail_vs_centrality.pdf}\special{pdf:literal direct Q}}\end{center}
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.87\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/fixedmerge02_shape_vs_centrality.pdf}\special{pdf:literal direct Q}}\end{center}
+\figcap{既存の隣接2bin mergeを全中央度で同じように適用しました。0--5\%は$C_{\rm tail}$=$0.9771\pm0.0096$、$T$=$0.9931\pm0.0069$。中心側には約2--3\%の水準残留があっても、傾きは小さくなります。}
+\figcap{10--20\%は$1.032\pm0.028$、20--30\%は$1.067\pm0.053$。統計誤差も増えるため、0--20\%の改善を全中央度へ外挿しません。30--40\%以降は支持統計がさらに減少します。}
+
+\phead{25}{He4自身のY選択：中央度ごとの水準}{He4 Below / Above}
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.95\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/he4_splits_ctail_vs_centrality.pdf}\special{pdf:literal direct Q}}\end{center}
+\begin{center}\small\begin{tabular}{lcc}\toprule
+中央度 & EP8 Below & EP8 Above\\\midrule
+0-5\% & $0.9667\pm0.0063$ & $0.8569\pm0.0058$\\
+5-10\% & $0.946\pm0.014$ & $0.8920\pm0.0085$\\
+10-20\% & $1.004\pm0.016$ & $0.9064\pm0.0076$\\
+20-30\% & $1.019\pm0.027$ & $0.933\pm0.011$\\
+30-40\% & $0.992\pm0.053$ & $0.954\pm0.019$\\
+\bottomrule\end{tabular}\end{center}
+\figcap{Belowは$y_{\rm He,Lab}<-0.5$、Aboveは$>-0.5$。Belowの10--20\%・20--30\%は1付近ですが、Aboveでは0--30\%に残留が続きます。pairY選択との同時条件を課した結果ではありません。}
+
+\phead{26}{He4自身のY選択：形状と標本構成}{限定標本の整合性}
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.85\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/he4_splits_shape_vs_centrality.pdf}\special{pdf:literal direct Q}}\end{center}
+\begin{center}\footnotesize\begin{tabular}{lcc}\toprule
+中央度 & EP8 Below $T$ & EP8 Above $T$\\\midrule
+0-5\% & $0.9801\pm0.0047$ & $0.9042\pm0.0040$\\
+5-10\% & $0.959\pm0.010$ & $0.9210\pm0.0058$\\
+10-20\% & $0.989\pm0.011$ & $0.9438\pm0.0053$\\
+20-30\% & $0.986\pm0.019$ & $0.9462\pm0.0077$\\
+\bottomrule\end{tabular}\end{center}
+\figcap{20--30\% Belowでは$T$=$0.986\pm0.019$、傾き=$-0.066\pm0.064$。10--20\%に加えて20--30\%も、現在の近似統計内で1・平坦と整合する限定条件です。}
+\boxnote{inclusive SEに占めるBelowの比率も中央度で変わります（0-5\%：48.1\%、5-10\%：27.6\%、10-20\%：20.8\%、20-30\%：15.6\%）。inclusive CFの中央度依存を、EPだけ・Yだけなど単一の原因に帰属できません。}
+
+\phead{27}{どの区分に十分な規格化統計があるか}{EP8 / pairY10の$S_H$}
+\begin{center}\footnotesize\begin{tabular}{lrrrrrrrrrr}\toprule
+中央度 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10\\\midrule
+0-5\% & 0 & 9 & 936 & 12,474 & 21,574 & 17,426 & 6,599 & 52 & 0 & 0\\
+5-10\% & 0 & 0 & 118 & 2,160 & 5,390 & 8,323 & 4,611 & 38 & 0 & 0\\
+10-20\% & 0 & 1 & 66 & 1,656 & 5,027 & 10,491 & 6,528 & 64 & 0 & 0\\
+20-30\% & 0 & 0 & 11 & 499 & 1,841 & 5,287 & 3,284 & 31 & 0 & 0\\
+30-40\% & 0 & 0 & 6 & 127 & 513 & 1,844 & 1,118 & 10 & 0 & 0\\
+40-50\% & 0 & 0 & 0 & 27 & 138 & 530 & 305 & 0 & 0 & 0\\
+50-60\% & 0 & 0 & 0 & 0 & 21 & 102 & 59 & 0 & 0 & 0\\
+60-70\% & 0 & 0 & 0 & 2 & 6 & 12 & 8 & 1 & 0 & 0\\
+70-80\% & 0 & 0 & 0 & 0 & 0 & 2 & 0 & 0 & 0 & 0\\
+\bottomrule\end{tabular}\end{center}
+\figcap{列番号はpairYを$[-1.5,0.5)$で10等分したものです。区分$i$は$[-1.5+0.2(i-1),-1.5+0.2i)$。SE$_H$は規格化窓$[0.4,0.5)$内のSE積分です。ME$_H$と高k*窓の統計も、CFを判断するために必要です。}
+\sub{値が出せない理由を区別する}
+50--60\%の固定pairY mergeではSE$_H=0$のためCFが計算できません。一方、規格化が相殺される$T$は大きな誤差付きで計算できる場合があります。CFと$T$の可否は同一ではありません。
+\sub{周辺中央度では誤差近似にも注意する}
+70--80\% inclusiveはSE$_H=2$、$[0.8,1)$のSE=0です。規格化窓に少数ペアがあるだけでは、高k*のCFや平坦性を判断できません。少数countのGaussian誤差やGLSは診断量として扱います。
+\boxnote{中心値が1に近い、あるいは誤差棒が1をまたぐ、ということだけを一般的な回復の証拠にしません。支持count、形状比、実際の図を合わせて読みます。}
+
+\phead{28}{He4ラピディティ選択後のSEとME}{0--20\% / Below}
+
+\lead{$y_{\rm He,Lab}<-0.5$}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.93\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__he4_below__spectra.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{MEは選択後の同じ規格化窓でスケール。選択はSE/ME共通です。He4単体Yで変えたのはペア標本であり、独立したY別ME poolではありません。}
+
+\begin{center}\small\begin{tabular}{P{4.8cm}rr}\toprule
+
+表示範囲内の数 & EP1 & EP8\\\midrule
+
+SE：$0\leq k^*<1$ & 416,266 & 416,265\\
+
+SE：規格化窓 & 44,344 & 44,344\\
+
+ME：規格化窓 & 1,664,832 & 1,683,391\\
+
+\bottomrule\end{tabular}\end{center}
+
+
+\phead{29}{He4ラピディティ選択後のSEとME}{0--20\% / Above}
+
+\lead{$y_{\rm He,Lab}>-0.5$}
+
+\begin{center}{\normalfont\special{pdf:literal direct q 0 Tr}\includegraphics[pagebox=cropbox,width=0.93\linewidth]{/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/c0_20__he4_above__spectra.pdf}\special{pdf:literal direct Q}}\end{center}
+
+\figcap{MEは選択後の同じ規格化窓でスケール。選択はSE/ME共通です。He4単体Yで変えたのはペア標本であり、独立したY別ME poolではありません。}
+
+\begin{center}\small\begin{tabular}{P{4.8cm}rr}\toprule
+
+表示範囲内の数 & EP1 & EP8\\\midrule
+
+SE：$0\leq k^*<1$ & 689,740 & 689,731\\
+
+SE：規格化窓 & 59,202 & 59,199\\
+
+ME：規格化窓 & 2,135,167 & 2,247,854\\
+
+\bottomrule\end{tabular}\end{center}
+
+
+\phead{30}{統計量と、分割の閉包を確認する}{QA}
+\figcap{以下の表は0--20\%・EP8の支持統計です。全中央度のpairY別SE$_H$は、前の統計表に示しています。}
+
+\lead{空・低統計の区分を「CF=1」と扱わない。}
+
+\begin{center}\small\begin{tabular}{P{3.8cm}rrr}\toprule
+
+pairY区分 & EP8 SE$_H$ & EP8 ME$_H$ & EP8 SE$_{[0.8,1)}$\\\midrule
+
+$[-1.5,-1.3)$ & 0 & 0 & 0\\
+
+$[-1.3,-1.1)$ & 10 & 671 & 55\\
+
+$[-1.1,-0.9)$ & 1,120 & 43,834 & 5,647\\
+
+$[-0.9,-0.7)$ & 16,290 & 621,011 & 59,922\\
+
+$[-0.7,-0.5)$ & 31,991 & 1,228,835 & 126,955\\
+
+$[-0.5,-0.3)$ & 36,240 & 1,383,664 & 156,169\\
+
+$[-0.3,-0.1)$ & 17,738 & 648,099 & 46,444\\
+
+$[-0.1,0.1)$ & 154 & 5,131 & 140\\
+
+$[0.1,0.3)$ & 0 & 0 & 0\\
+
+$[0.3,0.5)$ & 0 & 0 & 0\\
+
+\bottomrule\end{tabular}\end{center}
+
+\sub{中央度拡張後の396閉包も合格}
+
+通常k* binでは、pairY10区分の和、YのUF/OFを含む和、He4 Below+Above、隣接mergeの内容が元ヒストに完全一致しました。0--10\%＝0--5\%＋5--10\%、0--20\%＝0--5\%＋5--10\%＋10--20\%も内容・分散を独立に確認。旧264ヒスト・132CF系列を再現しました。
+
+単独9中央度と合算2条件の$0\leq k^*<1$で、SE/MEのpairY範囲外countは0でした。k* overflowのMEにはEP1で3、EP8で2 countの閉包差が残りますが、CFの対象範囲外です。この差の起源は今回直接検証していません。
+
+\boxnote{pairYの有限範囲外は元出力のUF/OFへ保存されています。He4二分の境界$y=-0.5$は両側から除外されます。今回は対象範囲の閉包差0であり、これらがCF低下を作ったという結果ではありません。}
+
+
+\phead{31}{誤差と「1への収束」の評価方法}{統計上の範囲}
+
+\lead{値が1に近いことと、形が平坦なことを分ける。}
+
+\[C_{\rm tail}=\frac{S_{[0.8,1)}}{M_{[0.8,1)}}\frac{M_H}{S_H},\qquad T=\frac{S_{[0.8,1)}/M_{[0.8,1)}}{S_{[0.5,0.7)}/M_{[0.5,0.7)}}.\]
+
+図と表の窓CFは、CF点を平均せずcountを先に積分して計算します。$T$では規格化が相殺されるため、定数の変更だけでは高k*の形状差を消せません。
+
+\sub{規格化を共有するbin間の共分散を含める}
+
+\[\frac{\partial C_i}{\partial S_j}=C_i\left(\frac{\delta_{ij}}{S_i}-\frac{I_H(j)}{S_H}\right),\qquad \frac{\partial C_i}{\partial M_j}=C_i\left(\frac{I_H(j)}{M_H}-\frac{\delta_{ij}}{M_i}\right).\]
+
+このJacobianと保存分散から共分散を作り、一次傾向のGLSにも使用しました。下表の傾きは$0.5$--$1$ GeV/$c$の要約で、物理モデルのfitではありません。
+
+\begin{center}\small\begin{tabular}{P{6.3cm}c}\toprule
+
+条件（EP8、特記なし0--20\%） & 傾き $(\mathrm{GeV}/c)^{-1}$\\\midrule
+
+全体 & $-0.2134\pm0.0073$\\
+
+He4 Below & $-0.078\pm0.013$\\
+
+He4 Above & $-0.2664\pm0.0090$\\
+
+pairY $[-1.1,-0.7)$ & $-0.016\pm0.019$\\
+
+10--20\% He4 Below & $-0.053\pm0.037$\\
+
+\bottomrule\end{tabular}\end{center}
+
+\warmnote{誤差はSE/ME histogram countを独立とする近似です。event/pair再利用の相関、EP1/EP8の共有相関、系統誤差は未保存・未評価。EP1/EP8の差の有意度を独立誤差の二乗和で評価していません。低統計・empty binの良い$\chi^2$は収束の証拠に使いません。}
+
+
+\phead{32}{結論：中央度を加えて何が分かったか}{更新した判断}
+
+\lead{EP8の改善、残るY依存、低統計の限界を分ける。}
+\sub{1. 全体の問題は未解決}
+0--20\% inclusiveの$C_{\rm tail}$は0.866から0.906へ上がりました。単独の0--5\%、5--10\%、10--20\%、20--30\%でも、EP8に1未満と下降が残ります。中央度の幅を狭めるだけで高k*の形状差が解消する結果ではありません。
+\sub{2. 同じ中央度の中にもpairY依存がある}
+0--30\%では、pairYが$[-0.7,-0.5)$から$[-0.5,-0.3)$、$[-0.3,-0.1)$へ大きくなると水準が下がる傾向が見えます。固定$[-1.1,-0.7)$は傾きが小さくなりますが、中心側には約2--3\%の水準残留があります。
+\sub{3. He4 Belowの整合性は限定標本の結果}
+10--20\%に加えて20--30\%も、He4 Belowでは現在の近似統計内で1・平坦と整合します。一方、Aboveは0--30\%に残留が続きます。中央度でY標本の構成も変わるため、inclusiveの変化を単一の原因へ帰属しません。
+\sub{4. 周辺中央度の色や誤差棒だけで回復を決めない}
+規格化窓や高k*窓のcountが減り、NAや大きな誤差が増えます。50--60\%以降の一部の低い中心値を再低下と断言せず、1をまたぐ誤差だけを回復の証拠にもしません。
+\boxnote{今回のY分割はSE/ME共通のペア選択です。Y別に独立したME poolを作る効果や、EP8各plane別CFは検証していません。EP別k*保存の解析コードupdateはユーザー指示で中断中です。新しいPico処理・本番job・未較正81 runの較正を行っていません。}
+\sub{今後検討する項目}
+固定norm域の依存性、残留の大きい／小さい条件の運動学・受容・ME形状の比較、高k*範囲の拡張、event再利用相関の評価が候補です。これらは未実施であり、現在の図からMEだけを原因と断定しません。
+
+\phead{33}{最新版の再現と詳細図の参照先}{来歴・検証・中断事項}
+
+\lead{入力ROOTと旧版を保持し、後処理だけを更新。}
+2021 P24iy、較正対象388 runの共通成功4,023 group、72,424 Pico参照を継承。未出力35 groupと未較正81 runは含みません。本番識別子はEP1 \texttt{FD44A5EB1B0AA22C546F169E86482587}、EP8 \texttt{DA0DEB4347BD834F1096F8D8798F2133}です。
+\sub{元の0--20\%中心の結果}
+{\small\texttt{rootfile/femto\_lambda\_ep\_rapidity\_cf\_20261115\_001/}}
+132 CF系列、264 raw投影、180 vector図を保持しています。旧22ページPDF・TeX・manifestは本PDFのdirectory内の\texttt{archive/20261115\_initial22p/}に保存しました。
+\sub{中央度を拡張した最新study}
+{\small\texttt{rootfile/femto\_lambda\_cent\_pair\_canvas\_20261115\_001/}}
+\texttt{study.yaml}に11slice・norm・rebin、\texttt{analysis\_results.json}に484系列、\texttt{metrics.csv}と\texttt{cf\_covariances.npz}に定量と共分散を保存。\texttt{independent\_validation.json}に独立再計算、\texttt{cf\_histograms.root}にSE/ME/scaled ME/CF graphを保存しています。
+\sub{詳細ROOT PDF}
+{\small\texttt{share/figure/20261115\_lambda\_centrality\_pair\_canvases/}}
+\texttt{centrality\_pair\_rapidity10\_SE\_ME\_CF\_root.pdf}は121ページ。各centralityの11ページ分冊・README索引・\texttt{pdf\_index.json}も同directoryにあります。
+\sub{今回のまとめ更新}
+{\small\texttt{rootfile/femto\_lambda\_report\_update\_20261115\_001/}}
+中央度の科学レビュー、図の表示YAML・入力SHA・作図log、新組版sourceを保存。追加vector図は本PDFのdirectory内の\texttt{centrality\_update\_plots/}、最終来歴は\texttt{report\_manifest.json}を参照してください。
+\sub{検証と限界}
+396投影closure、旧264ヒスト・132CF系列の完全一致、全484系列・24,200点と共分散・542 GLSの独立検算を継承。元merge ROOTはsize/mtimeNs/inode/deviceで不変を確認しています。元ROOT全file SHA、event再利用共分散、0--80\%の独立投影比較は未実施です。
+\figcap{ROOT5.34/38・SL24y wrapper、system Python3 isolated mode/NumPy1.23.5、XeLaTeXを使用。本PDF更新のための本番mainconf/jobid/configlog・メールは新規作成していません。EP実装準備の専用設定・未実行テストdraftは、解析コードupdateの中断を維持して保持しています。}
+\label{reportend}\end{document}

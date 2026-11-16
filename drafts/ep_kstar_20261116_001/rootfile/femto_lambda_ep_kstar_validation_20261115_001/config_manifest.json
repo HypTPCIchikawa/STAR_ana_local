@@ -1,0 +1,27 @@
+{
+  "originals_sha256": {
+    "config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_covered25.yaml": "78b137c3ca1ee9442c823f5b4acf0531036afdda6d8a31c4f2a3e4a133224743",
+    "config/hist/hist_auau3p85_femtoLambda_he4_he3_control_epdPairY10YLabMerging20261113_kf.yaml": "4d59821e7d92cf60c80c01a09350f02a82430447d34546ad400fdcb74b4d5a75",
+    "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_covered25.yaml": "7cb472937840b5177eac7679a6cb6af00dec506e6113782a6cb2e2bf4e84b255",
+    "config/cuts/mixing/mixing_femtoLambda_epd8.yaml": "ef360422435c5a43245d8ae53e180439ba2dad27a635ac2b96b8d6f3eb23a95a"
+  },
+  "added_histograms": [
+    "hKstarSEVsEpBinVsCent_lambda_he4",
+    "hKstarSEVsEpBinVsCent_lambda_he4_signal",
+    "hKstarSEVsEpBinVsCent_lambda_he4_leftSB",
+    "hKstarSEVsEpBinVsCent_lambda_he4_rightSB",
+    "hKstarMEVsEpBinVsCent_lambda_he4",
+    "hKstarMEVsEpBinVsCent_lambda_he4_signal",
+    "hKstarMEVsEpBinVsCent_lambda_he4_leftSB",
+    "hKstarMEVsEpBinVsCent_lambda_he4_rightSB"
+  ],
+  "mixing_ep_bins": 8,
+  "mainconf": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_kstarSplit_pairY10_covered25.yaml",
+  "original_histogram_definitions_unchanged": true,
+  "dataset_unchanged": true,
+  "generated": {
+    "config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_kstarSplit_pairY10_covered25.yaml": "632bc689ca836b0970dda417cb861320d8456b7b4cb2f83f4122d38255349e32",
+    "config/hist/hist_auau3p85_femtoLambda_he4_he3_control_epd8KstarPairY10_20261115_kf.yaml": "a73d92c1093f0392c829a779ae4e577fbd9e0b601164d810aa98965a04637ca7",
+    "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_kstarSplit_pairY10_covered25.yaml": "ee9a093706a05e469809f3fe7261e59ef9b0277cde431b4652b2f638d9175d48"
+  }
+}

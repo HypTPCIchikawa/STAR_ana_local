@@ -1,0 +1,72 @@
+target_pdf: share/figure/20261115_lambda_he4_ep_rapidity_cf/cf_ep_rapidity_report_ja.pdf
+archive_directory: share/figure/20261115_lambda_he4_ep_rapidity_cf/archive/20261115_initial22p
+previous_report_pages: 22
+original_study: rootfile/femto_lambda_ep_rapidity_cf_20261115_001
+centrality_study: rootfile/femto_lambda_cent_pair_canvas_20261115_001
+plots_directory: share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots
+normalization:
+- 0.4
+- 0.5
+rebin_factor: 4
+display:
+  k_range:
+  - 0.0
+  - 1.0
+  high_k_range:
+  - 0.5
+  - 1.0
+  EP1_color: '#244C75'
+  EP8_color: '#C05A24'
+single_centralities:
+- id: c0_5
+  label: 0-5%
+  min: 8
+  max: 8
+- id: c5_10
+  label: 5-10%
+  min: 7
+  max: 7
+- id: c10_20
+  label: 10-20%
+  min: 6
+  max: 6
+- id: c20_30
+  label: 20-30%
+  min: 5
+  max: 5
+- id: c30_40
+  label: 30-40%
+  min: 4
+  max: 4
+- id: c40_50
+  label: 40-50%
+  min: 3
+  max: 3
+- id: c50_60
+  label: 50-60%
+  min: 2
+  max: 2
+- id: c60_70
+  label: 60-70%
+  min: 1
+  max: 1
+- id: c70_80
+  label: 70-80%
+  min: 0
+  max: 0
+reference_centralities:
+- c0_10
+- c0_20
+production_code_update: paused by user
+new_pico_or_jobs: false
+plot_files:
+  inclusive_tail: inclusive_ctail_vs_centrality.pdf
+  inclusive_shape: inclusive_shape_vs_centrality.pdf
+  ep1_tail_map: EP1_pairY_ctail_map.pdf
+  ep8_tail_map: EP8_pairY_ctail_map.pdf
+  ep1_shape_map: EP1_pairY_shape_map.pdf
+  ep8_shape_map: EP8_pairY_shape_map.pdf
+  merge_tail: fixedmerge02_ctail_vs_centrality.pdf
+  merge_shape: fixedmerge02_shape_vs_centrality.pdf
+  he4_tail: he4_splits_ctail_vs_centrality.pdf
+  he4_shape: he4_splits_shape_vs_centrality.pdf

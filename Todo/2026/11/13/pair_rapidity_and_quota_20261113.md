@@ -15,7 +15,7 @@
 
 [詳細と再現記録](../../../../analysisnote/20261113/pair_rapidity_implementation_and_quota.md)。約160万件の回帰(1603559)、projection130、実Pico10000、旧1707physics hist完全一致。25files/jobなら2系列+haddの予測166.9GB/stress219.2GBが現soft余裕286.1GB以内。388run73054files・約2923jobs/系列の専用XML準備、未投入。
 
-- [ ] 実worker完了後にruntime/staging・実ROOT容量を確認し、本番比較を実行（本番投入・最新quota・実job数・全group一致確認は完了）。
+- [x] 実worker完了後のruntime/staging・実ROOT容量・quota・共通group確認と本番比較を完了。共通4023groupの確定haddと、[2026-11-15のEP/rapidity比較PDF](../../../../analysisnote/20261115/ep_rapidity_highk_cf_report.md)を参照。初期欠損groupの問題は下記の履歴として保持。
 - [ ] EP分割の有用性を確認できたら、保留中81runの較正を検討する。現時点は保留維持。
 
 - [x] 21:40 JST 再開後の最終QA目視・独立review・最終差分/SHA/manifestを完了。quota再確認でも2系列+stressがsoft内。本番job未投入、81run保留。
@@ -27,7 +27,7 @@
 - [x] SUMSの実分割4,058jobs/系列見込みでquotaを再計算。2系列＋hadd込みstress256.35GB、開始時soft余裕286.00GB内。
 - [x] 切断後も投入を続け、runmeta保存後に最小内容の完了メールを各系列1通送る永続ランチャーを起動。
 - [x] 全jobの投入完了、EP1/8実入力group一致、メールwatcherの実起動を確認する。
-- [ ] 回収後の実ROOTサイズ・live quota確認、EP1/8 CF比較を行う。
+- [x] 回収後の実ROOTサイズ・live quotaをhadd復旧時に確認。EP1/8 CF・rapidity比較と日本語PDFを2026-11-15に完了（上記リンク）。
 
 [投入の詳細・SUMS ID・状態](../../../../analysisnote/20261113/pair_rapidity_production.md)。
 
@@ -37,6 +37,11 @@
 - [x] 各系列4,058jobs、73,054filesのcoverageと全group順序一致を確認。各系列のrunmeta/configlogを保存。
 - [x] 完了メールwatcher2本を実起動し、各4058jobs・宛先・minimal本文・process生存を確認。
 - [ ] 初期EP1の5workersに見つかったstaged PicoのZombieエラーを回収後に調べ、同じ入力groupで回復する。外側Condor exit0だけでは成功判定しない。
-- [ ] 完了時はROOT/処理完了ログを確認し、比較用EP1/EP8の成功groupを揃えて解析する。
+- [x] 完了ROOT/ログを確認し、両系列の共通成功4023groupに揃えてhadd・CF比較を完了。未出力35groupを含む全投入統計とはしない。
 
 [最終状態・初期エラー詳細](../../../../analysisnote/20261113/pair_rapidity_production.md)。現在は解析実行中であり、全統計取得済みとはしない。
+
+
+## 2026-11-14 10:59 JST：job終端・共通haddへ
+
+両4058jobs終了。ROOT未出力はEP8 35/EP1 34で、共通成功4023groupの検証付きhaddをtmuxで開始。[最新Todo](../14/pair_rapidity_hadd_20261114.md)。EP1のみ有効3496は元ROOTを保持。全投入統計とはしない。81run保留を継続。

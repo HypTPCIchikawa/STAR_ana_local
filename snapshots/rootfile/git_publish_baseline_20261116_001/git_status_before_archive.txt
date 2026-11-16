@@ -1,0 +1,29 @@
+ M StMaker/StFemtoMaker/README.md
+ M StMaker/StFemtoMaker/StFemtoMaker.cxx
+ M StMaker/StFemtoMaker/StFemtoMaker.h
+ M StMaker/common/FemtoLambdaLegacy.cxx
+ M StMaker/common/FemtoLambdaLegacy.h
+ M analysis/FemtoLambdaRunSupport.h
+ M analysis/anaFemtoLambda_4He.C
+ M analysis/run_anaFemtoLambda_3He.C
+ M analysis/run_anaFemtoLambda_4He.C
+ M analysis/run_anaFemtoLambda_d.C
+ M analysis/run_anaFemtoLambda_t.C
+ M config/mainconf/main_auau3p85_anaFemtoLambda_3He_KFParticle_highpurity.yaml
+ M config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_highpurity.yaml
+ M config/mainconf/main_auau3p85_anaFemtoLambda_d_KFParticle_highpurity.yaml
+ M config/mainconf/main_auau3p85_anaFemtoLambda_t_KFParticle_highpurity.yaml
+ M config/maker/maker_anaFemtoLambda_3He_KFParticle.yaml
+ M config/maker/maker_anaFemtoLambda_4He_KFParticle.yaml
+ M config/maker/maker_anaFemtoLambda_d_KFParticle.yaml
+ M config/maker/maker_anaFemtoLambda_t_KFParticle.yaml
+ M config/maker/maker_auau3p85_anaFemtoLambda_4He_KFParticle_he3Control.yaml
+ M tests/test_archive_merged_subjobs.py
+ M tests/test_watch_job_notify.py
+?? StMaker/StLambdaNuclearMaker/
+?? StMaker/common/FemtoEpdEventPlane.cxx
+?? StMaker/common/StLambdaV0Reconstruction.cxx
+?? StMaker/common/StLambdaV0Reconstruction.h
+?? include/FemtoCandidateEventStore.h
+?? include/FemtoCandidateEventStoreConfig.h
+?? include/FemtoEpdEventPlane.h

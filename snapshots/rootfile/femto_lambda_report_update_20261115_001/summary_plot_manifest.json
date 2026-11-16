@@ -1,0 +1,200 @@
+{
+  "createdAtUtc": "2026-11-15T12:40:09.429482+00:00",
+  "status": "PASS",
+  "plots": [
+    {
+      "name": "EP1_pairY_ctail_map.pdf",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/EP1_pairY_ctail_map.pdf",
+      "sha256": "fe767950ec2093c01d046a2ff1a0542915254e3427bba303ee3f7aa8cf63bbdb",
+      "bytes": 19499,
+      "pages": 1,
+      "contentBBoxCropViewBp": [
+        22.067999,
+        6.84,
+        537.587984,
+        368.567989
+      ]
+    },
+    {
+      "name": "EP1_pairY_shape_map.pdf",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/EP1_pairY_shape_map.pdf",
+      "sha256": "9138c0eee3625423bdfbf75c853003bf5503b2c59eab888cac6427b36d21b8d4",
+      "bytes": 19587,
+      "pages": 1,
+      "contentBBoxCropViewBp": [
+        22.067999,
+        6.84,
+        541.439983,
+        368.567989
+      ]
+    },
+    {
+      "name": "EP8_pairY_ctail_map.pdf",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/EP8_pairY_ctail_map.pdf",
+      "sha256": "5a0335add3ededf4e9c54aceffb7526ca8f3c6320b3df9470d13dcba89edf454",
+      "bytes": 19362,
+      "pages": 1,
+      "contentBBoxCropViewBp": [
+        22.067999,
+        6.84,
+        537.587984,
+        368.567989
+      ]
+    },
+    {
+      "name": "EP8_pairY_shape_map.pdf",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/EP8_pairY_shape_map.pdf",
+      "sha256": "462a82577b4a50f93b612e1d3fd13d859764d78f81780125e347e97c25c39900",
+      "bytes": 19540,
+      "pages": 1,
+      "contentBBoxCropViewBp": [
+        22.067999,
+        6.84,
+        541.439983,
+        368.567989
+      ]
+    },
+    {
+      "name": "fixedmerge02_ctail_vs_centrality.pdf",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/fixedmerge02_ctail_vs_centrality.pdf",
+      "sha256": "db83679e00a4bcaf75471d29132d2cdc1db6349fc898d3574fa8e45f693bacff",
+      "bytes": 15758,
+      "pages": 1,
+      "contentBBoxCropViewBp": [
+        15.12,
+        14.364,
+        548.945983,
+        300.473991
+      ]
+    },
+    {
+      "name": "fixedmerge02_shape_vs_centrality.pdf",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/fixedmerge02_shape_vs_centrality.pdf",
+      "sha256": "b83620579a28053a787c5829f1619ca232d9c41e6758860607ecab6aa24d1978",
+      "bytes": 15934,
+      "pages": 1,
+      "contentBBoxCropViewBp": [
+        17.837999,
+        14.364,
+        548.945983,
+        300.473991
+      ]
+    },
+    {
+      "name": "he4_splits_ctail_vs_centrality.pdf",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/he4_splits_ctail_vs_centrality.pdf",
+      "sha256": "b803c55e1c17cc5ccaf83d53303b6cfae62821526e2584ceda183565818b1d07",
+      "bytes": 18418,
+      "pages": 1,
+      "contentBBoxCropViewBp": [
+        6.606,
+        11.664,
+        558.071983,
+        235.547993
+      ]
+    },
+    {
+      "name": "he4_splits_shape_vs_centrality.pdf",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/he4_splits_shape_vs_centrality.pdf",
+      "sha256": "c9c2ab3d1e1be330028d09fa37e6c06c17cd96141b55d17e5ce1e590f7c0e681",
+      "bytes": 18962,
+      "pages": 1,
+      "contentBBoxCropViewBp": [
+        8.64,
+        11.664,
+        558.071983,
+        235.547993
+      ]
+    },
+    {
+      "name": "inclusive_ctail_vs_centrality.pdf",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/inclusive_ctail_vs_centrality.pdf",
+      "sha256": "e5a7fc70750a64c011f63b6d0830d34c592b11a57f9efeb18680738b5b3746da",
+      "bytes": 16038,
+      "pages": 1,
+      "contentBBoxCropViewBp": [
+        15.12,
+        14.364,
+        548.945983,
+        300.473991
+      ]
+    },
+    {
+      "name": "inclusive_shape_vs_centrality.pdf",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/inclusive_shape_vs_centrality.pdf",
+      "sha256": "01277b1061fc5f2591af8f56c3be60443a32423e956212c592877b963d4296be",
+      "bytes": 16186,
+      "pages": 1,
+      "contentBBoxCropViewBp": [
+        17.837999,
+        14.364,
+        548.945983,
+        300.473991
+      ]
+    }
+  ],
+  "input_provenance": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_report_update_20261115_001/plot_input_provenance.json",
+  "display_configuration": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_report_update_20261115_001/summary_display.yaml",
+  "macro": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_report_update_20261115_001/make_centrality_summaries.C",
+    "sha256": "33a447c67a3b791a7e82638c44dac13ccd4b8f304bfbb3cbf5c313071326724f"
+  },
+  "preparation": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_report_update_20261115_001/prepare_centrality_summaries.py",
+    "sha256": "9c9a2d1681d31b00f968ee627211be90027f3a9e5982712607498eabb7adb08d"
+  },
+  "root_log": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_report_update_20261115_001/summary_plots.log",
+    "sha256": "a16e4cea6000e5739aeed9563224db1bb9ee0c06039cd8fb3f9429facbcb4c81"
+  },
+  "canvas_root": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_report_update_20261115_001/centrality_summary_canvases.root",
+    "sha256": "a71d8e4ed0e28849bcfa6a89ce8c082870ea7d8906a32043262a83bfcd9da83c"
+  },
+  "checks": {
+    "root_exit_code": 0,
+    "root_success_sentinel": true,
+    "all_10_vector_pdfs_render_with_gs": true,
+    "original_inputs_unchanged": true,
+    "all_504_tsv_rows_independently_match_source_json": true,
+    "tail_shape_na_masks_independent": true,
+    "no_metric_recalculation": true
+  },
+  "map_counts": {
+    "EP1_tail": {
+      "valid": 42,
+      "NA": 48,
+      "clippedLow": 16,
+      "clippedHigh": 2,
+      "wideError": 3
+    },
+    "EP8_tail": {
+      "valid": 42,
+      "NA": 48,
+      "clippedLow": 9,
+      "clippedHigh": 2,
+      "wideError": 3
+    },
+    "EP1_shape": {
+      "valid": 45,
+      "NA": 45,
+      "clippedLow": 15,
+      "clippedHigh": 6,
+      "wideError": 7
+    },
+    "EP8_shape": {
+      "valid": 45,
+      "NA": 45,
+      "clippedLow": 12,
+      "clippedHigh": 6,
+      "wideError": 7
+    }
+  },
+  "first_display_revision": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_report_update_20261115_001/plot_revision01",
+  "notes": [
+    "NA cells are gray and labelled NA; valid metrics only are stored in map graphs.",
+    "Colours clip at YAML limits; hatch marks clipped cells and exact numeric labels remain.",
+    "! marks error at least as wide as the colour span; this is display-only.",
+    "All available summary error bars are shown; large peripheral errors can widen y axes."
+  ]
+}

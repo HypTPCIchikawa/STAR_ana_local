@@ -1,0 +1,9 @@
+{
+  "capturedAtJst": "2026-11-16T15:42:18.810512+09:00",
+  "method": "Explicit incremental refresh; preserve all previously audited snapshot records",
+  "selected": 605,
+  "copied": 535,
+  "total_records": 22987,
+  "historical_snapshot_deletions": 0,
+  "all_selected_source_and_destination_sha256_match": true
+}

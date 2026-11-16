@@ -1,0 +1,74 @@
+{
+  "created_at_utc": "2026-11-16T06:33:16.636810+00:00",
+  "physics_comparison": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/git_publish_baseline_20261116_001/physics_package_comparison.json",
+    "files": 160,
+    "exact_sha_matches": 160
+  },
+  "config_comparison": {
+    "package_files": 411,
+    "exact_sha_matches": 411,
+    "current_config_files": 414,
+    "current_only_config_files": [
+      "config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_kstarSplit_pairY10_covered25.yaml",
+      "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_kstarSplit_pairY10_covered25.yaml",
+      "config/hist/hist_auau3p85_femtoLambda_he4_he3_control_epd8KstarPairY10_20261115_kf.yaml"
+    ],
+    "evidence_log": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/git_publish_baseline_20261116_001/baseline_audit.log"
+  },
+  "draft_files": [
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_kstarSplit_pairY10_covered25.yaml",
+      "sha256": "632bc689ca836b0970dda417cb861320d8456b7b4cb2f83f4122d38255349e32",
+      "bytes": 848
+    },
+    {
+      "path": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_kstarSplit_pairY10_covered25.yaml",
+      "sha256": "ee9a093706a05e469809f3fe7261e59ef9b0277cde431b4652b2f638d9175d48",
+      "bytes": 1579
+    },
+    {
+      "path": "config/hist/hist_auau3p85_femtoLambda_he4_he3_control_epd8KstarPairY10_20261115_kf.yaml",
+      "sha256": "a73d92c1093f0392c829a779ae4e577fbd9e0b601164d810aa98965a04637ca7",
+      "bytes": 31267
+    },
+    {
+      "path": "tests/test_femto_epd_kstar_splits.C",
+      "sha256": "01d1568aaca59e028cce4b3fd352c47bdf0da0fe663c128221ad48cd270ae839",
+      "bytes": 12558
+    },
+    {
+      "path": "tests/run_femto_epd_kstar_splits_test.C",
+      "sha256": "dd7b68c87f69ba2e332ac9dfdd4c4efa82e4452a417d391ffc8db5ee9449813c",
+      "bytes": 1888
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_kstar_validation_20261115_001/ep1_control_main.yaml",
+      "sha256": "8cc7de3e1551ac624b38677882f6b097a42736aed394570ff71ca70e8dcb3bd0",
+      "bytes": 1585
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_kstar_validation_20261115_001/ep1_control_hist.yaml",
+      "sha256": "c89b6c8ea7f67cc333d8a14d29e428982144048317537592e8fe9c25399edbab",
+      "bytes": 31267
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_kstar_validation_20261115_001/prepare_configs.py",
+      "sha256": "9c6c61c53f1991ab3b2b1fbcea3ce985a83fed95e6e7c8c39686da8936561b3a",
+      "bytes": 3465
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_kstar_validation_20261115_001/config_manifest.json",
+      "sha256": "5644605b23a718ad0315eee3f974a9d8655ccd47b8f76623109f7fe93842a58a",
+      "bytes": 1809
+    }
+  ],
+  "source_modified": false,
+  "drafts_moved": false,
+  "closure_walk_stopped_at_parent_request": false,
+  "own_audit_pids_signalled": [],
+  "conclusion": "Existing physics source and submitted configuration baseline are preserved; archive only the listed unimplemented drafts.",
+  "final_audit_completed_before_stop": true,
+  "final_baseline_manifest": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/git_publish_baseline_20261116_001/baseline_comparison.json",
+  "final_audit_log": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/git_publish_baseline_20261116_001/baseline_audit_final.log"
+}

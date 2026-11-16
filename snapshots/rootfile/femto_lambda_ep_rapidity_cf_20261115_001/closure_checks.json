@@ -1,0 +1,1514 @@
+[
+  {
+    "dataset": "EP1",
+    "centrality": "c0_20",
+    "side": "SE",
+    "check": "pairY all including UF/OF vs inclusive",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_20",
+    "side": "SE",
+    "check": "ten regular pairY bins vs regular projection",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_20",
+    "side": "SE",
+    "check": "pairY regular + UF + OF vs all",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_20",
+    "side": "SE",
+    "check": "inclusive minus strict He4 Below/Above",
+    "passed_regular": true,
+    "relation": "nonnegative remainder",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_20",
+    "side": "SE",
+    "check": "adjacent merge 1",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_20",
+    "side": "SE",
+    "check": "adjacent merge 2",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_20",
+    "side": "SE",
+    "check": "adjacent merge 3",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_20",
+    "side": "SE",
+    "check": "adjacent merge 4",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_20",
+    "side": "SE",
+    "check": "adjacent merge 5",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_20",
+    "side": "ME",
+    "check": "pairY all including UF/OF vs inclusive",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      3.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_20",
+    "side": "ME",
+    "check": "ten regular pairY bins vs regular projection",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_20",
+    "side": "ME",
+    "check": "pairY regular + UF + OF vs all",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_20",
+    "side": "ME",
+    "check": "inclusive minus strict He4 Below/Above",
+    "passed_regular": true,
+    "relation": "nonnegative remainder",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      -3.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_20",
+    "side": "ME",
+    "check": "adjacent merge 1",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_20",
+    "side": "ME",
+    "check": "adjacent merge 2",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_20",
+    "side": "ME",
+    "check": "adjacent merge 3",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_20",
+    "side": "ME",
+    "check": "adjacent merge 4",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_20",
+    "side": "ME",
+    "check": "adjacent merge 5",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_10",
+    "side": "SE",
+    "check": "pairY all including UF/OF vs inclusive",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_10",
+    "side": "SE",
+    "check": "ten regular pairY bins vs regular projection",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_10",
+    "side": "SE",
+    "check": "pairY regular + UF + OF vs all",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_10",
+    "side": "SE",
+    "check": "inclusive minus strict He4 Below/Above",
+    "passed_regular": true,
+    "relation": "nonnegative remainder",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_10",
+    "side": "SE",
+    "check": "adjacent merge 1",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_10",
+    "side": "SE",
+    "check": "adjacent merge 2",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_10",
+    "side": "SE",
+    "check": "adjacent merge 3",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_10",
+    "side": "SE",
+    "check": "adjacent merge 4",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_10",
+    "side": "SE",
+    "check": "adjacent merge 5",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_10",
+    "side": "ME",
+    "check": "pairY all including UF/OF vs inclusive",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      3.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_10",
+    "side": "ME",
+    "check": "ten regular pairY bins vs regular projection",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_10",
+    "side": "ME",
+    "check": "pairY regular + UF + OF vs all",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_10",
+    "side": "ME",
+    "check": "inclusive minus strict He4 Below/Above",
+    "passed_regular": true,
+    "relation": "nonnegative remainder",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      -3.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_10",
+    "side": "ME",
+    "check": "adjacent merge 1",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_10",
+    "side": "ME",
+    "check": "adjacent merge 2",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_10",
+    "side": "ME",
+    "check": "adjacent merge 3",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_10",
+    "side": "ME",
+    "check": "adjacent merge 4",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c0_10",
+    "side": "ME",
+    "check": "adjacent merge 5",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c10_20",
+    "side": "SE",
+    "check": "pairY all including UF/OF vs inclusive",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c10_20",
+    "side": "SE",
+    "check": "ten regular pairY bins vs regular projection",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c10_20",
+    "side": "SE",
+    "check": "pairY regular + UF + OF vs all",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c10_20",
+    "side": "SE",
+    "check": "inclusive minus strict He4 Below/Above",
+    "passed_regular": true,
+    "relation": "nonnegative remainder",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c10_20",
+    "side": "SE",
+    "check": "adjacent merge 1",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c10_20",
+    "side": "SE",
+    "check": "adjacent merge 2",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c10_20",
+    "side": "SE",
+    "check": "adjacent merge 3",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c10_20",
+    "side": "SE",
+    "check": "adjacent merge 4",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c10_20",
+    "side": "SE",
+    "check": "adjacent merge 5",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c10_20",
+    "side": "ME",
+    "check": "pairY all including UF/OF vs inclusive",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c10_20",
+    "side": "ME",
+    "check": "ten regular pairY bins vs regular projection",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c10_20",
+    "side": "ME",
+    "check": "pairY regular + UF + OF vs all",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c10_20",
+    "side": "ME",
+    "check": "inclusive minus strict He4 Below/Above",
+    "passed_regular": true,
+    "relation": "nonnegative remainder",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c10_20",
+    "side": "ME",
+    "check": "adjacent merge 1",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c10_20",
+    "side": "ME",
+    "check": "adjacent merge 2",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c10_20",
+    "side": "ME",
+    "check": "adjacent merge 3",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c10_20",
+    "side": "ME",
+    "check": "adjacent merge 4",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP1",
+    "centrality": "c10_20",
+    "side": "ME",
+    "check": "adjacent merge 5",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_20",
+    "side": "SE",
+    "check": "pairY all including UF/OF vs inclusive",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_20",
+    "side": "SE",
+    "check": "ten regular pairY bins vs regular projection",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_20",
+    "side": "SE",
+    "check": "pairY regular + UF + OF vs all",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_20",
+    "side": "SE",
+    "check": "inclusive minus strict He4 Below/Above",
+    "passed_regular": true,
+    "relation": "nonnegative remainder",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_20",
+    "side": "SE",
+    "check": "adjacent merge 1",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_20",
+    "side": "SE",
+    "check": "adjacent merge 2",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_20",
+    "side": "SE",
+    "check": "adjacent merge 3",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_20",
+    "side": "SE",
+    "check": "adjacent merge 4",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_20",
+    "side": "SE",
+    "check": "adjacent merge 5",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_20",
+    "side": "ME",
+    "check": "pairY all including UF/OF vs inclusive",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      2.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_20",
+    "side": "ME",
+    "check": "ten regular pairY bins vs regular projection",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_20",
+    "side": "ME",
+    "check": "pairY regular + UF + OF vs all",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_20",
+    "side": "ME",
+    "check": "inclusive minus strict He4 Below/Above",
+    "passed_regular": true,
+    "relation": "nonnegative remainder",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      -2.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_20",
+    "side": "ME",
+    "check": "adjacent merge 1",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_20",
+    "side": "ME",
+    "check": "adjacent merge 2",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_20",
+    "side": "ME",
+    "check": "adjacent merge 3",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_20",
+    "side": "ME",
+    "check": "adjacent merge 4",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_20",
+    "side": "ME",
+    "check": "adjacent merge 5",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_10",
+    "side": "SE",
+    "check": "pairY all including UF/OF vs inclusive",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_10",
+    "side": "SE",
+    "check": "ten regular pairY bins vs regular projection",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_10",
+    "side": "SE",
+    "check": "pairY regular + UF + OF vs all",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_10",
+    "side": "SE",
+    "check": "inclusive minus strict He4 Below/Above",
+    "passed_regular": true,
+    "relation": "nonnegative remainder",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_10",
+    "side": "SE",
+    "check": "adjacent merge 1",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_10",
+    "side": "SE",
+    "check": "adjacent merge 2",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_10",
+    "side": "SE",
+    "check": "adjacent merge 3",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_10",
+    "side": "SE",
+    "check": "adjacent merge 4",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_10",
+    "side": "SE",
+    "check": "adjacent merge 5",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_10",
+    "side": "ME",
+    "check": "pairY all including UF/OF vs inclusive",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      2.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_10",
+    "side": "ME",
+    "check": "ten regular pairY bins vs regular projection",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_10",
+    "side": "ME",
+    "check": "pairY regular + UF + OF vs all",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_10",
+    "side": "ME",
+    "check": "inclusive minus strict He4 Below/Above",
+    "passed_regular": true,
+    "relation": "nonnegative remainder",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      -2.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_10",
+    "side": "ME",
+    "check": "adjacent merge 1",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_10",
+    "side": "ME",
+    "check": "adjacent merge 2",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_10",
+    "side": "ME",
+    "check": "adjacent merge 3",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_10",
+    "side": "ME",
+    "check": "adjacent merge 4",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c0_10",
+    "side": "ME",
+    "check": "adjacent merge 5",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c10_20",
+    "side": "SE",
+    "check": "pairY all including UF/OF vs inclusive",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c10_20",
+    "side": "SE",
+    "check": "ten regular pairY bins vs regular projection",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c10_20",
+    "side": "SE",
+    "check": "pairY regular + UF + OF vs all",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c10_20",
+    "side": "SE",
+    "check": "inclusive minus strict He4 Below/Above",
+    "passed_regular": true,
+    "relation": "nonnegative remainder",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c10_20",
+    "side": "SE",
+    "check": "adjacent merge 1",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c10_20",
+    "side": "SE",
+    "check": "adjacent merge 2",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c10_20",
+    "side": "SE",
+    "check": "adjacent merge 3",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c10_20",
+    "side": "SE",
+    "check": "adjacent merge 4",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c10_20",
+    "side": "SE",
+    "check": "adjacent merge 5",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c10_20",
+    "side": "ME",
+    "check": "pairY all including UF/OF vs inclusive",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c10_20",
+    "side": "ME",
+    "check": "ten regular pairY bins vs regular projection",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c10_20",
+    "side": "ME",
+    "check": "pairY regular + UF + OF vs all",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c10_20",
+    "side": "ME",
+    "check": "inclusive minus strict He4 Below/Above",
+    "passed_regular": true,
+    "relation": "nonnegative remainder",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c10_20",
+    "side": "ME",
+    "check": "adjacent merge 1",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c10_20",
+    "side": "ME",
+    "check": "adjacent merge 2",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c10_20",
+    "side": "ME",
+    "check": "adjacent merge 3",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c10_20",
+    "side": "ME",
+    "check": "adjacent merge 4",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "EP8",
+    "centrality": "c10_20",
+    "side": "ME",
+    "check": "adjacent merge 5",
+    "passed_regular": true,
+    "relation": "equal",
+    "max_regular_count_difference": 0.0,
+    "regular_count_remainder": 0.0,
+    "kstar_flow_count_difference": [
+      0.0,
+      0.0
+    ]
+  }
+]

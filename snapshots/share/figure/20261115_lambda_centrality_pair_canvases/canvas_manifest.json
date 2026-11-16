@@ -1,0 +1,2256 @@
+{
+  "finalizedAtJst": "2026-11-15T21:11:51.958934+09:00",
+  "settings": {
+    "dataset": "production_3p85GeV_fixedTarget_2021",
+    "production": "P24iy",
+    "channel": "lambda_he4_signal",
+    "description": "Raw signal-window Lambda-He4 CF; no sideband subtraction or purity correction.",
+    "inputs": {
+      "EP1": {
+        "mainconf": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10_covered25.yaml",
+        "root": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10/covered388p25/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10_FD44A5EB1B0AA22C546F169E86482587_merge.root"
+      },
+      "EP8": {
+        "mainconf": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_covered25.yaml",
+        "root": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10/covered388p25/auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_DA0DEB4347BD834F1096F8D8798F2133_merge.root"
+      }
+    },
+    "recovery_config": "rootfile/femto_lambda_pair_rapidity_hadd_20261114_001/recovery_finalize_20261114_001/recovery_config.json",
+    "recovery_state": "rootfile/femto_lambda_pair_rapidity_hadd_20261114_001/recovery_finalize_20261114_001/recovery_state.json",
+    "centralities": [
+      {
+        "id": "c0_20",
+        "label": "0-20%",
+        "min": 6,
+        "max": 8
+      },
+      {
+        "id": "c0_10",
+        "label": "0-10%",
+        "min": 7,
+        "max": 8
+      },
+      {
+        "id": "c0_5",
+        "label": "0-5%",
+        "min": 8,
+        "max": 8
+      },
+      {
+        "id": "c5_10",
+        "label": "5-10%",
+        "min": 7,
+        "max": 7
+      },
+      {
+        "id": "c10_20",
+        "label": "10-20%",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "id": "c20_30",
+        "label": "20-30%",
+        "min": 5,
+        "max": 5
+      },
+      {
+        "id": "c30_40",
+        "label": "30-40%",
+        "min": 4,
+        "max": 4
+      },
+      {
+        "id": "c40_50",
+        "label": "40-50%",
+        "min": 3,
+        "max": 3
+      },
+      {
+        "id": "c50_60",
+        "label": "50-60%",
+        "min": 2,
+        "max": 2
+      },
+      {
+        "id": "c60_70",
+        "label": "60-70%",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "id": "c70_80",
+        "label": "70-80%",
+        "min": 0,
+        "max": 0
+      }
+    ],
+    "normalization": [
+      0.4,
+      0.5
+    ],
+    "normalization_bin_convention": "lower-inclusive-upper-exclusive",
+    "rebin_factor": 4,
+    "high_windows": {
+      "k050_070": [
+        0.5,
+        0.7
+      ],
+      "k070_080": [
+        0.7,
+        0.8
+      ],
+      "k080_100": [
+        0.8,
+        1.0
+      ]
+    },
+    "fit_ranges": {
+      "high": [
+        0.5,
+        1.0
+      ],
+      "tail": [
+        0.8,
+        1.0
+      ]
+    },
+    "pair_rapidity": {
+      "frame": "lab",
+      "minimum": -1.5,
+      "maximum": 0.5,
+      "n_bins": 10,
+      "adjacent_merge_groups": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ]
+      ]
+    },
+    "he4_rapidity_threshold": -0.5,
+    "closure": {
+      "regular_absolute_tolerance": 0.5,
+      "regular_relative_tolerance": 2e-06,
+      "flow_is_diagnostic_only": true
+    },
+    "statistical_model": {
+      "normalization_covariance": true,
+      "se_me_independent_histogram_count_approximation": true,
+      "event_reuse_covariance_available": false,
+      "ep1_ep8_covariance_available": false,
+      "zero_count_cf_bins": "omit"
+    },
+    "display": {
+      "k_range": [
+        0.0,
+        1.0
+      ],
+      "high_k_range": [
+        0.5,
+        1.0
+      ],
+      "EP1_color": "#244C75",
+      "EP8_color": "#C05A24"
+    },
+    "canvas": {
+      "columns": [
+        "EP1",
+        "EP8"
+      ],
+      "rows": [
+        "SE + scaled ME",
+        "CF full",
+        "CF high"
+      ],
+      "selections": [
+        "inclusive",
+        "pair_bin01",
+        "pair_bin02",
+        "pair_bin03",
+        "pair_bin04",
+        "pair_bin05",
+        "pair_bin06",
+        "pair_bin07",
+        "pair_bin08",
+        "pair_bin09",
+        "pair_bin10"
+      ],
+      "ordering": "centrality then inclusive/pair rapidity",
+      "normalization": "Separate SE_H / ME_H for each EP, centrality and pair rapidity",
+      "counts": "Regular kstar range only; pair counts, not event counts",
+      "output_directory": "share/figure/20261115_lambda_centrality_pair_canvases"
+    }
+  },
+  "input_root_identities": {
+    "EP1": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10/covered388p25/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10_FD44A5EB1B0AA22C546F169E86482587_merge.root",
+      "identity": {
+        "size": 9282201802,
+        "mtimeNs": 1794636078792117886,
+        "inode": 769683426,
+        "device": 48
+      },
+      "unchanged": true,
+      "check": "size, mtime_ns, inode, device; full-file SHA not computed"
+    },
+    "EP8": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10/covered388p25/auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_DA0DEB4347BD834F1096F8D8798F2133_merge.root",
+      "identity": {
+        "size": 9282162513,
+        "mtimeNs": 1794636086144273909,
+        "inode": 769683428,
+        "device": 48
+      },
+      "unchanged": true,
+      "check": "size, mtime_ns, inode, device; full-file SHA not computed"
+    }
+  },
+  "checks": {
+    "pdf_page_counts": [
+      121,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11
+    ],
+    "rendered_pages": 121,
+    "root_exit_code": 0,
+    "regular_projection_closures": 396,
+    "maximum_regular_count_difference": 0.0,
+    "text_extraction": true,
+    "drawn_column_counts_and_valid_points": 242,
+    "main_and_part_counts_match": true,
+    "independent_validation": {
+      "startedAt": "2026-11-15T12:08:55.509527+00:00",
+      "inputBefore": [
+        {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_cent_pair_canvas_20261115_001/raw_projections.tsv",
+          "size": 14252838,
+          "mtimeNs": 1794744237856743826,
+          "inode": 395033396,
+          "device": 48,
+          "sha256": "47b3fa78c5d398d13327e23b858e6d7b3afd61393ac857bdf233e5fe11623a90"
+        },
+        {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_cent_pair_canvas_20261115_001/analysis_results.json",
+          "size": 6249052,
+          "mtimeNs": 1794744243786030263,
+          "inode": 1011351905,
+          "device": 48,
+          "sha256": "4ea2937007f1228dedd3e13b72469c5dcb82fd287b196a07f851aada408a2e97"
+        },
+        {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_cent_pair_canvas_20261115_001/cf_covariances.npz",
+          "size": 3468373,
+          "mtimeNs": 1794744243130444452,
+          "inode": 1009778509,
+          "device": 48,
+          "sha256": "966bc50b1ed5738e55d69bb22f1078f459c60568b4451b44d81492305285aea2"
+        },
+        {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_cent_pair_canvas_20261115_001/metrics.csv",
+          "size": 63899,
+          "mtimeNs": 1794744243803204000,
+          "inode": 1011351951,
+          "device": 48,
+          "sha256": "f2579583097c83b7e6b0eff8a979e7ad2b117d9bcc79b01c8c3abfc482dc695a"
+        },
+        {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_cent_pair_canvas_20261115_001/closure_checks.json",
+          "size": 124701,
+          "mtimeNs": 1794744239951165000,
+          "inode": 2152183193,
+          "device": 48,
+          "sha256": "5dcd9974dbb690b98c2f03d47239d9fff996bb684ac15a5a55912c27d6adbbb5"
+        },
+        {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_cent_pair_canvas_20261115_001/cf_histograms.root",
+          "size": 2329564,
+          "mtimeNs": 1794744251246988493,
+          "inode": 1012928029,
+          "device": 48,
+          "sha256": "b63492e0dce14155ecefe185696678a3be980bad2c99e00940dfc399bd156f60"
+        },
+        {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/raw_projections.tsv",
+          "size": 3947920,
+          "mtimeNs": 1794733675118093160,
+          "inode": 854279300,
+          "device": 48,
+          "sha256": "76a0308165e60895e31a98eb1e6e20377189cd4ec2cdc0f172aeea0ae19c6312"
+        },
+        {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/analysis_results.json",
+          "size": 1789326,
+          "mtimeNs": 1794733994324557695,
+          "inode": 1015298588,
+          "device": 48,
+          "sha256": "bb3a781e12773898af86ea0fa93b3638efab6255a41f6eb2835752be09a8e7db"
+        },
+        {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_cent_pair_canvas_20261115_001/independent_validate.py",
+          "size": 16004,
+          "mtimeNs": 1794744501273685000,
+          "inode": 52488877,
+          "device": 48,
+          "sha256": "35b80add0e60c5e31a0a23ec7b9b2dcf446fb58919e57a89b6ce3d41fffcf55e"
+        }
+      ],
+      "status": "PASS",
+      "centrality": {
+        "canonicalSingleBins": {
+          "c70_80": 0,
+          "c60_70": 1,
+          "c50_60": 2,
+          "c40_50": 3,
+          "c30_40": 4,
+          "c20_30": 5,
+          "c10_20": 6,
+          "c5_10": 7,
+          "c0_5": 8
+        },
+        "exactAggregateSideComparisons": 176,
+        "binsPerSide": 202,
+        "nineSingleCoverage": "PASS: exactly cent9 0..8 for each dataset/selection",
+        "allNineTotals": [
+          {
+            "dataset": "EP1",
+            "selection": "he4_above",
+            "SE": {
+              "regularCount": 833441.0,
+              "regularVariance": 833441.0,
+              "flowCount": [
+                0.0,
+                700587.0
+              ],
+              "flowVariance": [
+                0.0,
+                700587.0
+              ],
+              "allBinsCount": 1534028.0,
+              "allBinsVariance": 1534028.0
+            },
+            "ME": {
+              "regularCount": 33694670.0,
+              "regularVariance": 33694670.0,
+              "flowCount": [
+                0.0,
+                31509512.0
+              ],
+              "flowVariance": [
+                0.0,
+                31509512.0
+              ],
+              "allBinsCount": 65204182.0,
+              "allBinsVariance": 65204182.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "he4_below",
+            "SE": {
+              "regularCount": 440206.0,
+              "regularVariance": 440206.0,
+              "flowCount": [
+                0.0,
+                247129.0
+              ],
+              "flowVariance": [
+                0.0,
+                247129.0
+              ],
+              "allBinsCount": 687335.0,
+              "allBinsVariance": 687335.0
+            },
+            "ME": {
+              "regularCount": 16960510.0,
+              "regularVariance": 16960510.0,
+              "flowCount": [
+                0.0,
+                9725615.0
+              ],
+              "flowVariance": [
+                0.0,
+                9725615.0
+              ],
+              "allBinsCount": 26686125.0,
+              "allBinsVariance": 26686125.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "inclusive",
+            "SE": {
+              "regularCount": 1273647.0,
+              "regularVariance": 1273647.0,
+              "flowCount": [
+                0.0,
+                947716.0
+              ],
+              "flowVariance": [
+                0.0,
+                947716.0
+              ],
+              "allBinsCount": 2221363.0,
+              "allBinsVariance": 2221363.0
+            },
+            "ME": {
+              "regularCount": 50655180.0,
+              "regularVariance": 50655180.0,
+              "flowCount": [
+                0.0,
+                41235124.0
+              ],
+              "flowVariance": [
+                0.0,
+                41235124.0
+              ],
+              "allBinsCount": 91890304.0,
+              "allBinsVariance": 91890304.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "pair_all",
+            "SE": {
+              "regularCount": 1273647.0,
+              "regularVariance": 1273647.0,
+              "flowCount": [
+                0.0,
+                947716.0
+              ],
+              "flowVariance": [
+                0.0,
+                947716.0
+              ],
+              "allBinsCount": 2221363.0,
+              "allBinsVariance": 2221363.0
+            },
+            "ME": {
+              "regularCount": 50655180.0,
+              "regularVariance": 50655180.0,
+              "flowCount": [
+                0.0,
+                41235127.0
+              ],
+              "flowVariance": [
+                0.0,
+                41235127.0
+              ],
+              "allBinsCount": 91890307.0,
+              "allBinsVariance": 91890307.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "pair_bin01",
+            "SE": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            },
+            "ME": {
+              "regularCount": 1.0,
+              "regularVariance": 1.0,
+              "flowCount": [
+                0.0,
+                5.0
+              ],
+              "flowVariance": [
+                0.0,
+                5.0
+              ],
+              "allBinsCount": 6.0,
+              "allBinsVariance": 6.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "pair_bin02",
+            "SE": {
+              "regularCount": 151.0,
+              "regularVariance": 151.0,
+              "flowCount": [
+                0.0,
+                330.0
+              ],
+              "flowVariance": [
+                0.0,
+                330.0
+              ],
+              "allBinsCount": 481.0,
+              "allBinsVariance": 481.0
+            },
+            "ME": {
+              "regularCount": 5866.0,
+              "regularVariance": 5866.0,
+              "flowCount": [
+                0.0,
+                11931.0
+              ],
+              "flowVariance": [
+                0.0,
+                11931.0
+              ],
+              "allBinsCount": 17797.0,
+              "allBinsVariance": 17797.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "pair_bin03",
+            "SE": {
+              "regularCount": 14501.0,
+              "regularVariance": 14501.0,
+              "flowCount": [
+                0.0,
+                22220.0
+              ],
+              "flowVariance": [
+                0.0,
+                22220.0
+              ],
+              "allBinsCount": 36721.0,
+              "allBinsVariance": 36721.0
+            },
+            "ME": {
+              "regularCount": 560916.0,
+              "regularVariance": 560916.0,
+              "flowCount": [
+                0.0,
+                812482.0
+              ],
+              "flowVariance": [
+                0.0,
+                812482.0
+              ],
+              "allBinsCount": 1373398.0,
+              "allBinsVariance": 1373398.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "pair_bin04",
+            "SE": {
+              "regularCount": 174689.0,
+              "regularVariance": 174689.0,
+              "flowCount": [
+                0.0,
+                151609.0
+              ],
+              "flowVariance": [
+                0.0,
+                151609.0
+              ],
+              "allBinsCount": 326298.0,
+              "allBinsVariance": 326298.0
+            },
+            "ME": {
+              "regularCount": 6798939.0,
+              "regularVariance": 6798939.0,
+              "flowCount": [
+                0.0,
+                5845161.0
+              ],
+              "flowVariance": [
+                0.0,
+                5845161.0
+              ],
+              "allBinsCount": 12644100.0,
+              "allBinsVariance": 12644100.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "pair_bin05",
+            "SE": {
+              "regularCount": 379153.0,
+              "regularVariance": 379153.0,
+              "flowCount": [
+                0.0,
+                354519.0
+              ],
+              "flowVariance": [
+                0.0,
+                354519.0
+              ],
+              "allBinsCount": 733672.0,
+              "allBinsVariance": 733672.0
+            },
+            "ME": {
+              "regularCount": 14982835.0,
+              "regularVariance": 14982835.0,
+              "flowCount": [
+                0.0,
+                15008112.0
+              ],
+              "flowVariance": [
+                0.0,
+                15008112.0
+              ],
+              "allBinsCount": 29990947.0,
+              "allBinsVariance": 29990947.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "pair_bin06",
+            "SE": {
+              "regularCount": 506136.0,
+              "regularVariance": 506136.0,
+              "flowCount": [
+                0.0,
+                366097.0
+              ],
+              "flowVariance": [
+                0.0,
+                366097.0
+              ],
+              "allBinsCount": 872233.0,
+              "allBinsVariance": 872233.0
+            },
+            "ME": {
+              "regularCount": 20416942.0,
+              "regularVariance": 20416942.0,
+              "flowCount": [
+                0.0,
+                16736712.0
+              ],
+              "flowVariance": [
+                0.0,
+                16736712.0
+              ],
+              "allBinsCount": 37153654.0,
+              "allBinsVariance": 37153654.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "pair_bin07",
+            "SE": {
+              "regularCount": 197730.0,
+              "regularVariance": 197730.0,
+              "flowCount": [
+                0.0,
+                52851.0
+              ],
+              "flowVariance": [
+                0.0,
+                52851.0
+              ],
+              "allBinsCount": 250581.0,
+              "allBinsVariance": 250581.0
+            },
+            "ME": {
+              "regularCount": 7839832.0,
+              "regularVariance": 7839832.0,
+              "flowCount": [
+                0.0,
+                2814398.0
+              ],
+              "flowVariance": [
+                0.0,
+                2814398.0
+              ],
+              "allBinsCount": 10654230.0,
+              "allBinsVariance": 10654230.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "pair_bin08",
+            "SE": {
+              "regularCount": 1287.0,
+              "regularVariance": 1287.0,
+              "flowCount": [
+                0.0,
+                90.0
+              ],
+              "flowVariance": [
+                0.0,
+                90.0
+              ],
+              "allBinsCount": 1377.0,
+              "allBinsVariance": 1377.0
+            },
+            "ME": {
+              "regularCount": 49849.0,
+              "regularVariance": 49849.0,
+              "flowCount": [
+                0.0,
+                6326.0
+              ],
+              "flowVariance": [
+                0.0,
+                6326.0
+              ],
+              "allBinsCount": 56175.0,
+              "allBinsVariance": 56175.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "pair_bin09",
+            "SE": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            },
+            "ME": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "pair_bin10",
+            "SE": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            },
+            "ME": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "pair_merge01",
+            "SE": {
+              "regularCount": 151.0,
+              "regularVariance": 151.0,
+              "flowCount": [
+                0.0,
+                330.0
+              ],
+              "flowVariance": [
+                0.0,
+                330.0
+              ],
+              "allBinsCount": 481.0,
+              "allBinsVariance": 481.0
+            },
+            "ME": {
+              "regularCount": 5867.0,
+              "regularVariance": 5867.0,
+              "flowCount": [
+                0.0,
+                11936.0
+              ],
+              "flowVariance": [
+                0.0,
+                11936.0
+              ],
+              "allBinsCount": 17803.0,
+              "allBinsVariance": 17803.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "pair_merge02",
+            "SE": {
+              "regularCount": 189190.0,
+              "regularVariance": 189190.0,
+              "flowCount": [
+                0.0,
+                173829.0
+              ],
+              "flowVariance": [
+                0.0,
+                173829.0
+              ],
+              "allBinsCount": 363019.0,
+              "allBinsVariance": 363019.0
+            },
+            "ME": {
+              "regularCount": 7359855.0,
+              "regularVariance": 7359855.0,
+              "flowCount": [
+                0.0,
+                6657643.0
+              ],
+              "flowVariance": [
+                0.0,
+                6657643.0
+              ],
+              "allBinsCount": 14017498.0,
+              "allBinsVariance": 14017498.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "pair_merge03",
+            "SE": {
+              "regularCount": 885289.0,
+              "regularVariance": 885289.0,
+              "flowCount": [
+                0.0,
+                720616.0
+              ],
+              "flowVariance": [
+                0.0,
+                720616.0
+              ],
+              "allBinsCount": 1605905.0,
+              "allBinsVariance": 1605905.0
+            },
+            "ME": {
+              "regularCount": 35399777.0,
+              "regularVariance": 35399777.0,
+              "flowCount": [
+                0.0,
+                31744824.0
+              ],
+              "flowVariance": [
+                0.0,
+                31744824.0
+              ],
+              "allBinsCount": 67144601.0,
+              "allBinsVariance": 67144601.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "pair_merge04",
+            "SE": {
+              "regularCount": 199017.0,
+              "regularVariance": 199017.0,
+              "flowCount": [
+                0.0,
+                52941.0
+              ],
+              "flowVariance": [
+                0.0,
+                52941.0
+              ],
+              "allBinsCount": 251958.0,
+              "allBinsVariance": 251958.0
+            },
+            "ME": {
+              "regularCount": 7889681.0,
+              "regularVariance": 7889681.0,
+              "flowCount": [
+                0.0,
+                2820724.0
+              ],
+              "flowVariance": [
+                0.0,
+                2820724.0
+              ],
+              "allBinsCount": 10710405.0,
+              "allBinsVariance": 10710405.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "pair_merge05",
+            "SE": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            },
+            "ME": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "pair_over",
+            "SE": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            },
+            "ME": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "pair_regular",
+            "SE": {
+              "regularCount": 1273647.0,
+              "regularVariance": 1273647.0,
+              "flowCount": [
+                0.0,
+                947716.0
+              ],
+              "flowVariance": [
+                0.0,
+                947716.0
+              ],
+              "allBinsCount": 2221363.0,
+              "allBinsVariance": 2221363.0
+            },
+            "ME": {
+              "regularCount": 50655180.0,
+              "regularVariance": 50655180.0,
+              "flowCount": [
+                0.0,
+                41235127.0
+              ],
+              "flowVariance": [
+                0.0,
+                41235127.0
+              ],
+              "allBinsCount": 91890307.0,
+              "allBinsVariance": 91890307.0
+            }
+          },
+          {
+            "dataset": "EP1",
+            "selection": "pair_under",
+            "SE": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            },
+            "ME": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "he4_above",
+            "SE": {
+              "regularCount": 833431.0,
+              "regularVariance": 833431.0,
+              "flowCount": [
+                0.0,
+                700588.0
+              ],
+              "flowVariance": [
+                0.0,
+                700588.0
+              ],
+              "allBinsCount": 1534019.0,
+              "allBinsVariance": 1534019.0
+            },
+            "ME": {
+              "regularCount": 34107161.0,
+              "regularVariance": 34107161.0,
+              "flowCount": [
+                0.0,
+                30878843.0
+              ],
+              "flowVariance": [
+                0.0,
+                30878843.0
+              ],
+              "allBinsCount": 64986004.0,
+              "allBinsVariance": 64986004.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "he4_below",
+            "SE": {
+              "regularCount": 440205.0,
+              "regularVariance": 440205.0,
+              "flowCount": [
+                0.0,
+                247130.0
+              ],
+              "flowVariance": [
+                0.0,
+                247130.0
+              ],
+              "allBinsCount": 687335.0,
+              "allBinsVariance": 687335.0
+            },
+            "ME": {
+              "regularCount": 17002747.0,
+              "regularVariance": 17002747.0,
+              "flowCount": [
+                0.0,
+                9621975.0
+              ],
+              "flowVariance": [
+                0.0,
+                9621975.0
+              ],
+              "allBinsCount": 26624722.0,
+              "allBinsVariance": 26624722.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "inclusive",
+            "SE": {
+              "regularCount": 1273636.0,
+              "regularVariance": 1273636.0,
+              "flowCount": [
+                0.0,
+                947718.0
+              ],
+              "flowVariance": [
+                0.0,
+                947718.0
+              ],
+              "allBinsCount": 2221354.0,
+              "allBinsVariance": 2221354.0
+            },
+            "ME": {
+              "regularCount": 51109908.0,
+              "regularVariance": 51109908.0,
+              "flowCount": [
+                0.0,
+                40500816.0
+              ],
+              "flowVariance": [
+                0.0,
+                40500816.0
+              ],
+              "allBinsCount": 91610724.0,
+              "allBinsVariance": 91610724.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "pair_all",
+            "SE": {
+              "regularCount": 1273636.0,
+              "regularVariance": 1273636.0,
+              "flowCount": [
+                0.0,
+                947718.0
+              ],
+              "flowVariance": [
+                0.0,
+                947718.0
+              ],
+              "allBinsCount": 2221354.0,
+              "allBinsVariance": 2221354.0
+            },
+            "ME": {
+              "regularCount": 51109908.0,
+              "regularVariance": 51109908.0,
+              "flowCount": [
+                0.0,
+                40500818.0
+              ],
+              "flowVariance": [
+                0.0,
+                40500818.0
+              ],
+              "allBinsCount": 91610726.0,
+              "allBinsVariance": 91610726.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "pair_bin01",
+            "SE": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            },
+            "ME": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                2.0
+              ],
+              "flowVariance": [
+                0.0,
+                2.0
+              ],
+              "allBinsCount": 2.0,
+              "allBinsVariance": 2.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "pair_bin02",
+            "SE": {
+              "regularCount": 151.0,
+              "regularVariance": 151.0,
+              "flowCount": [
+                0.0,
+                330.0
+              ],
+              "flowVariance": [
+                0.0,
+                330.0
+              ],
+              "allBinsCount": 481.0,
+              "allBinsVariance": 481.0
+            },
+            "ME": {
+              "regularCount": 5997.0,
+              "regularVariance": 5997.0,
+              "flowCount": [
+                0.0,
+                11862.0
+              ],
+              "flowVariance": [
+                0.0,
+                11862.0
+              ],
+              "allBinsCount": 17859.0,
+              "allBinsVariance": 17859.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "pair_bin03",
+            "SE": {
+              "regularCount": 14501.0,
+              "regularVariance": 14501.0,
+              "flowCount": [
+                0.0,
+                22221.0
+              ],
+              "flowVariance": [
+                0.0,
+                22221.0
+              ],
+              "allBinsCount": 36722.0,
+              "allBinsVariance": 36722.0
+            },
+            "ME": {
+              "regularCount": 558845.0,
+              "regularVariance": 558845.0,
+              "flowCount": [
+                0.0,
+                813850.0
+              ],
+              "flowVariance": [
+                0.0,
+                813850.0
+              ],
+              "allBinsCount": 1372695.0,
+              "allBinsVariance": 1372695.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "pair_bin04",
+            "SE": {
+              "regularCount": 174688.0,
+              "regularVariance": 174688.0,
+              "flowCount": [
+                0.0,
+                151610.0
+              ],
+              "flowVariance": [
+                0.0,
+                151610.0
+              ],
+              "allBinsCount": 326298.0,
+              "allBinsVariance": 326298.0
+            },
+            "ME": {
+              "regularCount": 6786083.0,
+              "regularVariance": 6786083.0,
+              "flowCount": [
+                0.0,
+                5829596.0
+              ],
+              "flowVariance": [
+                0.0,
+                5829596.0
+              ],
+              "allBinsCount": 12615679.0,
+              "allBinsVariance": 12615679.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "pair_bin05",
+            "SE": {
+              "regularCount": 379150.0,
+              "regularVariance": 379150.0,
+              "flowCount": [
+                0.0,
+                354522.0
+              ],
+              "flowVariance": [
+                0.0,
+                354522.0
+              ],
+              "allBinsCount": 733672.0,
+              "allBinsVariance": 733672.0
+            },
+            "ME": {
+              "regularCount": 15034036.0,
+              "regularVariance": 15034036.0,
+              "flowCount": [
+                0.0,
+                14875336.0
+              ],
+              "flowVariance": [
+                0.0,
+                14875336.0
+              ],
+              "allBinsCount": 29909372.0,
+              "allBinsVariance": 29909372.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "pair_bin06",
+            "SE": {
+              "regularCount": 506130.0,
+              "regularVariance": 506130.0,
+              "flowCount": [
+                0.0,
+                366094.0
+              ],
+              "flowVariance": [
+                0.0,
+                366094.0
+              ],
+              "allBinsCount": 872224.0,
+              "allBinsVariance": 872224.0
+            },
+            "ME": {
+              "regularCount": 20669350.0,
+              "regularVariance": 20669350.0,
+              "flowCount": [
+                0.0,
+                16361355.0
+              ],
+              "flowVariance": [
+                0.0,
+                16361355.0
+              ],
+              "allBinsCount": 37030705.0,
+              "allBinsVariance": 37030705.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "pair_bin07",
+            "SE": {
+              "regularCount": 197729.0,
+              "regularVariance": 197729.0,
+              "flowCount": [
+                0.0,
+                52851.0
+              ],
+              "flowVariance": [
+                0.0,
+                52851.0
+              ],
+              "allBinsCount": 250580.0,
+              "allBinsVariance": 250580.0
+            },
+            "ME": {
+              "regularCount": 8004854.0,
+              "regularVariance": 8004854.0,
+              "flowCount": [
+                0.0,
+                2603782.0
+              ],
+              "flowVariance": [
+                0.0,
+                2603782.0
+              ],
+              "allBinsCount": 10608636.0,
+              "allBinsVariance": 10608636.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "pair_bin08",
+            "SE": {
+              "regularCount": 1287.0,
+              "regularVariance": 1287.0,
+              "flowCount": [
+                0.0,
+                90.0
+              ],
+              "flowVariance": [
+                0.0,
+                90.0
+              ],
+              "allBinsCount": 1377.0,
+              "allBinsVariance": 1377.0
+            },
+            "ME": {
+              "regularCount": 50743.0,
+              "regularVariance": 50743.0,
+              "flowCount": [
+                0.0,
+                5035.0
+              ],
+              "flowVariance": [
+                0.0,
+                5035.0
+              ],
+              "allBinsCount": 55778.0,
+              "allBinsVariance": 55778.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "pair_bin09",
+            "SE": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            },
+            "ME": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "pair_bin10",
+            "SE": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            },
+            "ME": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "pair_merge01",
+            "SE": {
+              "regularCount": 151.0,
+              "regularVariance": 151.0,
+              "flowCount": [
+                0.0,
+                330.0
+              ],
+              "flowVariance": [
+                0.0,
+                330.0
+              ],
+              "allBinsCount": 481.0,
+              "allBinsVariance": 481.0
+            },
+            "ME": {
+              "regularCount": 5997.0,
+              "regularVariance": 5997.0,
+              "flowCount": [
+                0.0,
+                11864.0
+              ],
+              "flowVariance": [
+                0.0,
+                11864.0
+              ],
+              "allBinsCount": 17861.0,
+              "allBinsVariance": 17861.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "pair_merge02",
+            "SE": {
+              "regularCount": 189189.0,
+              "regularVariance": 189189.0,
+              "flowCount": [
+                0.0,
+                173831.0
+              ],
+              "flowVariance": [
+                0.0,
+                173831.0
+              ],
+              "allBinsCount": 363020.0,
+              "allBinsVariance": 363020.0
+            },
+            "ME": {
+              "regularCount": 7344928.0,
+              "regularVariance": 7344928.0,
+              "flowCount": [
+                0.0,
+                6643446.0
+              ],
+              "flowVariance": [
+                0.0,
+                6643446.0
+              ],
+              "allBinsCount": 13988374.0,
+              "allBinsVariance": 13988374.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "pair_merge03",
+            "SE": {
+              "regularCount": 885280.0,
+              "regularVariance": 885280.0,
+              "flowCount": [
+                0.0,
+                720616.0
+              ],
+              "flowVariance": [
+                0.0,
+                720616.0
+              ],
+              "allBinsCount": 1605896.0,
+              "allBinsVariance": 1605896.0
+            },
+            "ME": {
+              "regularCount": 35703386.0,
+              "regularVariance": 35703386.0,
+              "flowCount": [
+                0.0,
+                31236691.0
+              ],
+              "flowVariance": [
+                0.0,
+                31236691.0
+              ],
+              "allBinsCount": 66940077.0,
+              "allBinsVariance": 66940077.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "pair_merge04",
+            "SE": {
+              "regularCount": 199016.0,
+              "regularVariance": 199016.0,
+              "flowCount": [
+                0.0,
+                52941.0
+              ],
+              "flowVariance": [
+                0.0,
+                52941.0
+              ],
+              "allBinsCount": 251957.0,
+              "allBinsVariance": 251957.0
+            },
+            "ME": {
+              "regularCount": 8055597.0,
+              "regularVariance": 8055597.0,
+              "flowCount": [
+                0.0,
+                2608817.0
+              ],
+              "flowVariance": [
+                0.0,
+                2608817.0
+              ],
+              "allBinsCount": 10664414.0,
+              "allBinsVariance": 10664414.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "pair_merge05",
+            "SE": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            },
+            "ME": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "pair_over",
+            "SE": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            },
+            "ME": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "pair_regular",
+            "SE": {
+              "regularCount": 1273636.0,
+              "regularVariance": 1273636.0,
+              "flowCount": [
+                0.0,
+                947718.0
+              ],
+              "flowVariance": [
+                0.0,
+                947718.0
+              ],
+              "allBinsCount": 2221354.0,
+              "allBinsVariance": 2221354.0
+            },
+            "ME": {
+              "regularCount": 51109908.0,
+              "regularVariance": 51109908.0,
+              "flowCount": [
+                0.0,
+                40500818.0
+              ],
+              "flowVariance": [
+                0.0,
+                40500818.0
+              ],
+              "allBinsCount": 91610726.0,
+              "allBinsVariance": 91610726.0
+            }
+          },
+          {
+            "dataset": "EP8",
+            "selection": "pair_under",
+            "SE": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            },
+            "ME": {
+              "regularCount": 0.0,
+              "regularVariance": 0.0,
+              "flowCount": [
+                0.0,
+                0.0
+              ],
+              "flowVariance": [
+                0.0,
+                0.0
+              ],
+              "allBinsCount": 0.0,
+              "allBinsVariance": 0.0
+            }
+          }
+        ],
+        "independent0to80Reference": "NOT_RUN: no separate 0-80 projection was produced"
+      },
+      "previousStudyComparison": {
+        "rawHistograms": 264,
+        "rawNativeBinsPerHistogram": 202,
+        "rawEdgesCountsVariances": "EXACT_EQUAL",
+        "cfSeries": 132,
+        "cfFullResultObjects": "EXACT_EQUAL"
+      },
+      "numerical": {
+        "series": 484,
+        "pointRatiosAndErrors": 24200,
+        "pointsMarkedNA": 11488,
+        "integratedWindowRatios": 1452,
+        "shapeRatios": 484,
+        "sharedCovarianceMatrices": 484,
+        "independentGLSFits": 542,
+        "nativeRebin": "EXACT_EQUAL",
+        "maxAbsRatioDifference": 1.7763568394002505e-15,
+        "maxAbsErrorDifference": 1.7763568394002505e-15,
+        "maxAbsCovarianceDifference": 1.8189894035458565e-12,
+        "maxAbsFitParameterDifference": 9.769962616701378e-15,
+        "maxAbsSlopeErrorDifference": 5.329070518200751e-15,
+        "maxAbsChi2Difference": 8.640199666842818e-12
+      },
+      "reportedProjectionClosure": {
+        "checks": 396,
+        "allRegularPassed": true,
+        "maxRegularCountDifference": 0.0,
+        "nonzeroFlowChecks": [
+          {
+            "dataset": "EP1",
+            "centrality": "c0_20",
+            "side": "ME",
+            "check": "pairY all including UF/OF vs inclusive",
+            "passed_regular": true,
+            "relation": "equal",
+            "max_regular_count_difference": 0.0,
+            "regular_count_remainder": 0.0,
+            "kstar_flow_count_difference": [
+              0.0,
+              3.0
+            ]
+          },
+          {
+            "dataset": "EP1",
+            "centrality": "c0_20",
+            "side": "ME",
+            "check": "inclusive minus strict He4 Below/Above",
+            "passed_regular": true,
+            "relation": "nonnegative remainder",
+            "max_regular_count_difference": 0.0,
+            "regular_count_remainder": 0.0,
+            "kstar_flow_count_difference": [
+              0.0,
+              -3.0
+            ]
+          },
+          {
+            "dataset": "EP1",
+            "centrality": "c0_10",
+            "side": "ME",
+            "check": "pairY all including UF/OF vs inclusive",
+            "passed_regular": true,
+            "relation": "equal",
+            "max_regular_count_difference": 0.0,
+            "regular_count_remainder": 0.0,
+            "kstar_flow_count_difference": [
+              0.0,
+              3.0
+            ]
+          },
+          {
+            "dataset": "EP1",
+            "centrality": "c0_10",
+            "side": "ME",
+            "check": "inclusive minus strict He4 Below/Above",
+            "passed_regular": true,
+            "relation": "nonnegative remainder",
+            "max_regular_count_difference": 0.0,
+            "regular_count_remainder": 0.0,
+            "kstar_flow_count_difference": [
+              0.0,
+              -3.0
+            ]
+          },
+          {
+            "dataset": "EP1",
+            "centrality": "c0_5",
+            "side": "ME",
+            "check": "pairY all including UF/OF vs inclusive",
+            "passed_regular": true,
+            "relation": "equal",
+            "max_regular_count_difference": 0.0,
+            "regular_count_remainder": 0.0,
+            "kstar_flow_count_difference": [
+              0.0,
+              3.0
+            ]
+          },
+          {
+            "dataset": "EP1",
+            "centrality": "c0_5",
+            "side": "ME",
+            "check": "inclusive minus strict He4 Below/Above",
+            "passed_regular": true,
+            "relation": "nonnegative remainder",
+            "max_regular_count_difference": 0.0,
+            "regular_count_remainder": 0.0,
+            "kstar_flow_count_difference": [
+              0.0,
+              -3.0
+            ]
+          },
+          {
+            "dataset": "EP8",
+            "centrality": "c0_20",
+            "side": "ME",
+            "check": "pairY all including UF/OF vs inclusive",
+            "passed_regular": true,
+            "relation": "equal",
+            "max_regular_count_difference": 0.0,
+            "regular_count_remainder": 0.0,
+            "kstar_flow_count_difference": [
+              0.0,
+              2.0
+            ]
+          },
+          {
+            "dataset": "EP8",
+            "centrality": "c0_20",
+            "side": "ME",
+            "check": "inclusive minus strict He4 Below/Above",
+            "passed_regular": true,
+            "relation": "nonnegative remainder",
+            "max_regular_count_difference": 0.0,
+            "regular_count_remainder": 0.0,
+            "kstar_flow_count_difference": [
+              0.0,
+              -2.0
+            ]
+          },
+          {
+            "dataset": "EP8",
+            "centrality": "c0_10",
+            "side": "ME",
+            "check": "pairY all including UF/OF vs inclusive",
+            "passed_regular": true,
+            "relation": "equal",
+            "max_regular_count_difference": 0.0,
+            "regular_count_remainder": 0.0,
+            "kstar_flow_count_difference": [
+              0.0,
+              2.0
+            ]
+          },
+          {
+            "dataset": "EP8",
+            "centrality": "c0_10",
+            "side": "ME",
+            "check": "inclusive minus strict He4 Below/Above",
+            "passed_regular": true,
+            "relation": "nonnegative remainder",
+            "max_regular_count_difference": 0.0,
+            "regular_count_remainder": 0.0,
+            "kstar_flow_count_difference": [
+              0.0,
+              -2.0
+            ]
+          },
+          {
+            "dataset": "EP8",
+            "centrality": "c0_5",
+            "side": "ME",
+            "check": "pairY all including UF/OF vs inclusive",
+            "passed_regular": true,
+            "relation": "equal",
+            "max_regular_count_difference": 0.0,
+            "regular_count_remainder": 0.0,
+            "kstar_flow_count_difference": [
+              0.0,
+              2.0
+            ]
+          },
+          {
+            "dataset": "EP8",
+            "centrality": "c0_5",
+            "side": "ME",
+            "check": "inclusive minus strict He4 Below/Above",
+            "passed_regular": true,
+            "relation": "nonnegative remainder",
+            "max_regular_count_difference": 0.0,
+            "regular_count_remainder": 0.0,
+            "kstar_flow_count_difference": [
+              0.0,
+              -2.0
+            ]
+          }
+        ]
+      },
+      "metricsRowsCompared": 484,
+      "limitations": [
+        "No independent 0-80 projection exists; nine-single sums are recorded, not compared to an external reference.",
+        "Count model includes common normalization covariance but omits event/pair reuse and EP1/EP8 cross-covariance.",
+        "Zero-count points are omitted; sparse-window Gaussian errors/GLS are diagnostic only.",
+        "Input ROOT files and ROOT drawing objects are not reopened by this numerical validation."
+      ],
+      "inputAfter": [
+        {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_cent_pair_canvas_20261115_001/raw_projections.tsv",
+          "size": 14252838,
+          "mtimeNs": 1794744237856743826,
+          "inode": 395033396,
+          "device": 48,
+          "sha256": "47b3fa78c5d398d13327e23b858e6d7b3afd61393ac857bdf233e5fe11623a90"
+        },
+        {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_cent_pair_canvas_20261115_001/analysis_results.json",
+          "size": 6249052,
+          "mtimeNs": 1794744243786030263,
+          "inode": 1011351905,
+          "device": 48,
+          "sha256": "4ea2937007f1228dedd3e13b72469c5dcb82fd287b196a07f851aada408a2e97"
+        },
+        {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_cent_pair_canvas_20261115_001/cf_covariances.npz",
+          "size": 3468373,
+          "mtimeNs": 1794744243130444452,
+          "inode": 1009778509,
+          "device": 48,
+          "sha256": "966bc50b1ed5738e55d69bb22f1078f459c60568b4451b44d81492305285aea2"
+        },
+        {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_cent_pair_canvas_20261115_001/metrics.csv",
+          "size": 63899,
+          "mtimeNs": 1794744243803204000,
+          "inode": 1011351951,
+          "device": 48,
+          "sha256": "f2579583097c83b7e6b0eff8a979e7ad2b117d9bcc79b01c8c3abfc482dc695a"
+        },
+        {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_cent_pair_canvas_20261115_001/closure_checks.json",
+          "size": 124701,
+          "mtimeNs": 1794744239951165000,
+          "inode": 2152183193,
+          "device": 48,
+          "sha256": "5dcd9974dbb690b98c2f03d47239d9fff996bb684ac15a5a55912c27d6adbbb5"
+        },
+        {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_cent_pair_canvas_20261115_001/cf_histograms.root",
+          "size": 2329564,
+          "mtimeNs": 1794744251246988493,
+          "inode": 1012928029,
+          "device": 48,
+          "sha256": "b63492e0dce14155ecefe185696678a3be980bad2c99e00940dfc399bd156f60"
+        },
+        {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/raw_projections.tsv",
+          "size": 3947920,
+          "mtimeNs": 1794733675118093160,
+          "inode": 854279300,
+          "device": 48,
+          "sha256": "76a0308165e60895e31a98eb1e6e20377189cd4ec2cdc0f172aeea0ae19c6312"
+        },
+        {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/analysis_results.json",
+          "size": 1789326,
+          "mtimeNs": 1794733994324557695,
+          "inode": 1015298588,
+          "device": 48,
+          "sha256": "bb3a781e12773898af86ea0fa93b3638efab6255a41f6eb2835752be09a8e7db"
+        },
+        {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_cent_pair_canvas_20261115_001/independent_validate.py",
+          "size": 16004,
+          "mtimeNs": 1794744501273685000,
+          "inode": 52488877,
+          "device": 48,
+          "sha256": "35b80add0e60c5e31a0a23ec7b9b2dcf446fb58919e57a89b6ce3d41fffcf55e"
+        }
+      ],
+      "inputsUnchanged": true,
+      "completedAt": "2026-11-15T12:09:00.270275+00:00"
+    },
+    "visual_review": "Overview of all 121 pages; cent0-5/30-40/70-80 contact sheets and individual pages 005/078 inspected."
+  },
+  "production_code_update": "Paused by explicit user instruction; no production source edits, Pico reads or jobs in this task.",
+  "artifacts": [
+    {
+      "path": "share/figure/20261115_lambda_centrality_pair_canvases/centrality_pair_rapidity10_SE_ME_CF_root.pdf",
+      "bytes": 3201252,
+      "sha256": "a2ff6d60d4766b703479c875de878a872352f1ba19b89597b0aed89ed34b8947"
+    },
+    {
+      "path": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c0_20_SE_ME_CF_root.pdf",
+      "bytes": 348473,
+      "sha256": "f7f760dd9b10e78039ba5d78e4f32a54bda6184f7bb75bd90eae789b47fb4ce6"
+    },
+    {
+      "path": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c0_10_SE_ME_CF_root.pdf",
+      "bytes": 353341,
+      "sha256": "f5ff213f7e2040e54d8624cfb568671b7dc942d09c9221fca8dd29765eb65ade"
+    },
+    {
+      "path": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c0_5_SE_ME_CF_root.pdf",
+      "bytes": 351160,
+      "sha256": "d0afb302ffed0579748e66a745367bda2167a4df00855c50ed14d6f1b8f8c426"
+    },
+    {
+      "path": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c5_10_SE_ME_CF_root.pdf",
+      "bytes": 337114,
+      "sha256": "47486806d78c9d822edd5cc51db33f2383a2955b0762c8e9d0434a015fde7c6b"
+    },
+    {
+      "path": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c10_20_SE_ME_CF_root.pdf",
+      "bytes": 328332,
+      "sha256": "f3a1adfd165779894651ae519d59feaedda6233d7109e33638ad8199d09afe6b"
+    },
+    {
+      "path": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c20_30_SE_ME_CF_root.pdf",
+      "bytes": 330373,
+      "sha256": "7ac66f9e6cec5f186d435e6e62fa9b740f912b26c815bc8450f90cb9acbb38f6"
+    },
+    {
+      "path": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c30_40_SE_ME_CF_root.pdf",
+      "bytes": 322392,
+      "sha256": "baa42e6d9cebaeed89f161b7be921078d5d5477cdf38e5b8801b571c6331c2e7"
+    },
+    {
+      "path": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c40_50_SE_ME_CF_root.pdf",
+      "bytes": 290697,
+      "sha256": "8f010ef0bd78a11650a95e23f25dbf15fcfd3d5cf271e9d6a13ca91c94b239f1"
+    },
+    {
+      "path": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c50_60_SE_ME_CF_root.pdf",
+      "bytes": 261215,
+      "sha256": "5650d0d4ab489581d4296fc03d508792e600f349dab162be17ab02d765ee0f00"
+    },
+    {
+      "path": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c60_70_SE_ME_CF_root.pdf",
+      "bytes": 229118,
+      "sha256": "1a1ddf212cdf9fbaaa0c6d2d385594917b32c164060b7a7cd795a96e1cfbd566"
+    },
+    {
+      "path": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c70_80_SE_ME_CF_root.pdf",
+      "bytes": 167055,
+      "sha256": "801db95bc71b1b35dcadf9d0b332cf34029654fbdad9549afaa11c7b2d2ca04c"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/study.yaml",
+      "bytes": 2983,
+      "sha256": "bc19e78562aa60668306037be34a2d974c1e8a2c866ec513e1c6f445e96c84f1"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/input_manifest.json",
+      "bytes": 5103,
+      "sha256": "7eb7e74f9a733f56818a89ab0daff7bbf9c9a491e3088ac8a55d636a8702a443"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/projection_plan.tsv",
+      "bytes": 166518,
+      "sha256": "75b9b0f434b9b72ab76aaef24e1c673e43d7014af17abab240d40e22b6e1cd09"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/prepare_study.py",
+      "bytes": 2911,
+      "sha256": "d2169040d00a6fc202b134d803a9770c222a48abd6364a9d05843876f4a8aaff"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/extract_cf_inputs.C",
+      "bytes": 19797,
+      "sha256": "1068fbba77483e53692c5414c7dabdca399c78dbeb797dea85162afa51096889"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/extract.log",
+      "bytes": 3049,
+      "sha256": "1d553475b3d9e05f932c7d64d486a89925db18ab5b00aacfaca9de4bc3af9d39"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/raw_projections.tsv",
+      "bytes": 14252838,
+      "sha256": "47b3fa78c5d398d13327e23b858e6d7b3afd61393ac857bdf233e5fe11623a90"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/raw_projections.root",
+      "bytes": 1449513,
+      "sha256": "38a2fc41add7ec44d5e341378b6f2646ebe4ba7baaf21f67cbbe4c1edaf55bad"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/source_axes.tsv",
+      "bytes": 118550,
+      "sha256": "78095124864b9bc51354194eb242538210ff09429d30e02e8873473ee165dd58"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/analyze_cf.py",
+      "bytes": 11455,
+      "sha256": "c71469309a894ef30c97690700af355fbcb17857ce89256b8305b48392c591b1"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/analyze.log",
+      "bytes": 862,
+      "sha256": "6a7037904cdcce592894893364198e58127e6f690fac529ee6a3b542d218a7e0"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/analysis_results.json",
+      "bytes": 6249052,
+      "sha256": "4ea2937007f1228dedd3e13b72469c5dcb82fd287b196a07f851aada408a2e97"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/metrics.csv",
+      "bytes": 63899,
+      "sha256": "f2579583097c83b7e6b0eff8a979e7ad2b117d9bcc79b01c8c3abfc482dc695a"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/cf_covariances.npz",
+      "bytes": 3468373,
+      "sha256": "966bc50b1ed5738e55d69bb22f1078f459c60568b4451b44d81492305285aea2"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/closure_checks.json",
+      "bytes": 124701,
+      "sha256": "5dcd9974dbb690b98c2f03d47239d9fff996bb684ac15a5a55912c27d6adbbb5"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/write_cf_objects.C",
+      "bytes": 998,
+      "sha256": "06931b4536d2fe7cae0b1b9078aae18f31b4c13afa752d6306bfb08c5418eb4f"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/write_cf_objects.log",
+      "bytes": 2765,
+      "sha256": "4765f98e4b15e46230d9c164f058d229fda12f7a32979d3b204544320c843457"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/cf_histograms.root",
+      "bytes": 2329564,
+      "sha256": "b63492e0dce14155ecefe185696678a3be980bad2c99e00940dfc399bd156f60"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/draw_split_canvases.C",
+      "bytes": 16110,
+      "sha256": "5b47016e4e280c45d632e739fb0f1071e5fc4869dc7bac7322bdbafe543207e4"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/draw_canvas_batch.C",
+      "bytes": 945,
+      "sha256": "6d24e8fcaff4a7a628257ce0c9631cd5a07695b88221a9de817a357dd9ecf99c"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/run_data.py",
+      "bytes": 1806,
+      "sha256": "1d9a7e4622c37c55891cd302de709c8a113e2a90e453fc09d2685c3e927dc614"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/run_canvases.py",
+      "bytes": 3043,
+      "sha256": "6834c10bfb1dd84b0f9a757a86091171568dda8e713fc99e1520924a37948cab"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/render_previews.py",
+      "bytes": 1173,
+      "sha256": "fda09b4d47f7e688763eddd6bcecc4bbf8a1168df0d025fd6fff88cd658705e6"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/canvases_all.root",
+      "bytes": 1501636,
+      "sha256": "d7040414ea8b5f0ab715a48c5e0e62bff37069d16feabc6378460c9c5e8f2b10"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/canvas_jobs.tsv",
+      "bytes": 6802,
+      "sha256": "1e1f2bd18155e9423bd874eab3ebd33ea0f68eefabf05274567cc0fed593e134"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/all_pages.tsv",
+      "bytes": 7986,
+      "sha256": "979040f830de3327fc140d74a7750b19eb92d6f7d7235184d80b02f94a1cf913"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/draw.log",
+      "bytes": 111054,
+      "sha256": "6f302b4eaecf5e157b47c8e30b21a4d0f0a79885af9da71d9fd944fc9e461d59"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/verify_outputs.py",
+      "bytes": 5048,
+      "sha256": "d7f4795c8a44c9937c5b5677b92f8d2528c7b1cf1bb21bc628f91023f22542b1"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/independent_validate.py",
+      "bytes": 16004,
+      "sha256": "35b80add0e60c5e31a0a23ec7b9b2dcf446fb58919e57a89b6ce3d41fffcf55e"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/independent_validation.json",
+      "bytes": 45061,
+      "sha256": "44fe9ad66cbce58966cdf0155079f64612b14d59a74db9ef13661d8c954cb97d"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/source_copy_manifest.json",
+      "bytes": 624,
+      "sha256": "e7e7092ea7f6cb89073d4e90459a3603a2811934fbebeff0f2ab4da37f168a2f"
+    }
+  ],
+  "navigation_index": {
+    "path": "share/figure/20261115_lambda_centrality_pair_canvases/README.md",
+    "sha256": "6e76c80a0b43cf17213999b6e5c4dfab884ddbc8c0b7b6eabbf7c850f7109abf"
+  }
+}

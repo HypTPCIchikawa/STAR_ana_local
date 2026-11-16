@@ -1,0 +1,61 @@
+source_study: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/study.yaml
+input_root: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/cf_histograms.root
+datasets:
+- EP1
+- EP8
+centrality:
+  id: c0_20
+  label: 0-20%
+  min: 6
+  max: 8
+pair_rapidity:
+  frame: lab
+  minimum: -1.5
+  maximum: 0.5
+  n_bins: 10
+  adjacent_merge_groups:
+  - - 1
+    - 2
+  - - 3
+    - 4
+  - - 5
+    - 6
+  - - 7
+    - 8
+  - - 9
+    - 10
+normalization:
+- 0.4
+- 0.5
+rebin_factor: 4
+display:
+  k_range:
+  - 0.0
+  - 1.0
+  high_k_range:
+  - 0.5
+  - 1.0
+  EP1_color: '#244C75'
+  EP8_color: '#C05A24'
+canvas_columns: 2
+canvas_rows: 3
+rows:
+- SE + scaled ME
+- CF full
+- CF high
+statistical_assumptions:
+  normalization_covariance: true
+  se_me_independent_histogram_count_approximation: true
+  event_reuse_covariance_available: false
+  ep1_ep8_covariance_available: false
+  zero_count_cf_bins: omit
+skipped_ep_planes_reason: No kstar by event-plane joint histogram is saved in the
+  production ROOT.
+command:
+- bash
+- /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/script/singularity_root_batch.sh
+- /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_covered25.yaml
+- root4star
+- -b
+- -q
+- /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_split_canvas_20261115_001/draw_split_canvases.C+("/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/cf_histograms.root","/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_split_canvas_20261115_001/pair_rapidity_pages.tsv","EP1,EP8","/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_split_canvases/pair_rapidity10_SE_ME_CF_root.pdf","/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_split_canvas_20261115_001/pair_rapidity10_canvases.root")

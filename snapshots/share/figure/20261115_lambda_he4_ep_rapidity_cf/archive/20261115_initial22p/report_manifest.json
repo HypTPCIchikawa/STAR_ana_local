@@ -1,0 +1,345 @@
+{
+  "finalizedAtJst": "2026-11-15T19:01:49.162429+09:00",
+  "report": {
+    "path": "share/figure/20261115_lambda_he4_ep_rapidity_cf/cf_ep_rapidity_report_ja.pdf",
+    "bytes": 628193,
+    "sha256": "8269a1d5bd1cfabdf3613d15fccaf76448c50cde251f423fca2d754d450c9481"
+  },
+  "pages": 22,
+  "dataset": "STAR Au+Au 3p85GeV fixed target / 2021 P24iy / Lambda-He4 signal",
+  "scope": {
+    "common_success_groups": 4023,
+    "pico_input_references": 72424,
+    "excluded_groups": 35,
+    "calibrated_run_catalogue": 388,
+    "uncalibrated_runs_on_hold": 81
+  },
+  "inputIdentityChecks": {
+    "EP1": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10/covered388p25/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10_FD44A5EB1B0AA22C546F169E86482587_merge.root",
+      "identity": {
+        "size": 9282201802,
+        "mtimeNs": 1794636078792117886,
+        "inode": 769683426,
+        "device": 48
+      },
+      "unchanged": true,
+      "check": "size, mtime_ns, inode, device; no full-file SHA computed"
+    },
+    "EP8": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10/covered388p25/auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_DA0DEB4347BD834F1096F8D8798F2133_merge.root",
+      "identity": {
+        "size": 9282162513,
+        "mtimeNs": 1794636086144273909,
+        "inode": 769683428,
+        "device": 48
+      },
+      "unchanged": true,
+      "check": "size, mtime_ns, inode, device; no full-file SHA computed"
+    }
+  },
+  "analysisSettings": {
+    "dataset": "production_3p85GeV_fixedTarget_2021",
+    "production": "P24iy",
+    "channel": "lambda_he4_signal",
+    "description": "Raw signal-window Lambda-He4 CF; no sideband subtraction or purity correction.",
+    "inputs": {
+      "EP1": {
+        "mainconf": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10_covered25.yaml",
+        "root": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10/covered388p25/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10_FD44A5EB1B0AA22C546F169E86482587_merge.root"
+      },
+      "EP8": {
+        "mainconf": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_covered25.yaml",
+        "root": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10/covered388p25/auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_DA0DEB4347BD834F1096F8D8798F2133_merge.root"
+      }
+    },
+    "recovery_config": "rootfile/femto_lambda_pair_rapidity_hadd_20261114_001/recovery_finalize_20261114_001/recovery_config.json",
+    "recovery_state": "rootfile/femto_lambda_pair_rapidity_hadd_20261114_001/recovery_finalize_20261114_001/recovery_state.json",
+    "centralities": [
+      {
+        "id": "c0_20",
+        "label": "0-20%",
+        "min": 6,
+        "max": 8
+      },
+      {
+        "id": "c0_10",
+        "label": "0-10%",
+        "min": 7,
+        "max": 8
+      },
+      {
+        "id": "c10_20",
+        "label": "10-20%",
+        "min": 6,
+        "max": 6
+      }
+    ],
+    "normalization": [
+      0.4,
+      0.5
+    ],
+    "normalization_bin_convention": "lower-inclusive-upper-exclusive",
+    "rebin_factor": 4,
+    "high_windows": {
+      "k050_070": [
+        0.5,
+        0.7
+      ],
+      "k070_080": [
+        0.7,
+        0.8
+      ],
+      "k080_100": [
+        0.8,
+        1.0
+      ]
+    },
+    "fit_ranges": {
+      "high": [
+        0.5,
+        1.0
+      ],
+      "tail": [
+        0.8,
+        1.0
+      ]
+    },
+    "pair_rapidity": {
+      "frame": "lab",
+      "minimum": -1.5,
+      "maximum": 0.5,
+      "n_bins": 10,
+      "adjacent_merge_groups": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ]
+      ]
+    },
+    "he4_rapidity_threshold": -0.5,
+    "closure": {
+      "regular_absolute_tolerance": 0.5,
+      "regular_relative_tolerance": 2e-06,
+      "flow_is_diagnostic_only": true
+    },
+    "statistical_model": {
+      "normalization_covariance": true,
+      "se_me_independent_histogram_count_approximation": true,
+      "event_reuse_covariance_available": false,
+      "ep1_ep8_covariance_available": false,
+      "zero_count_cf_bins": "omit"
+    },
+    "display": {
+      "k_range": [
+        0.0,
+        1.0
+      ],
+      "high_k_range": [
+        0.5,
+        1.0
+      ],
+      "EP1_color": "#244C75",
+      "EP8_color": "#C05A24"
+    }
+  },
+  "statisticalAssumptions": "Independent histogram counts with common normalization covariance; event/pair reuse correlations unavailable",
+  "referenceRatioSource": {
+    "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_highk_systematics_20261111_001/source/analyze_highk.py",
+    "bytes": 13602,
+    "sha256": "fce05a7f5c073d5fc23984d6fcdb612481246893f9a2f97c0092b8dcae63a24c"
+  },
+  "checks": {
+    "regular_projection_closures": 108,
+    "maximum_regular_count_difference": 0,
+    "numerical_independent_review": "132 curves and 184 GLS recomputations passed before final typesetting",
+    "final_pdf_independent_agent_review": false,
+    "rendered_pages": 22,
+    "japanese_text_extraction": true,
+    "fonts": {
+      "DroidSansFallback": true,
+      "/FontFile": true,
+      "/ToUnicode": true
+    },
+    "typesetting_warning_counts": {
+      "Missing character": 0,
+      "Overfull": 0,
+      "Underfull": 0,
+      "Warning": 0
+    },
+    "visual_review": "Contact sheet of all 22 pages and individual pages 1,3,4,7,8,13,16,20; root-agent inspection",
+    "vector_plots": 180,
+    "cropped_vector_plots": 180
+  },
+  "limitations": [
+    "Fixed normalization [0.4,0.5) GeV/c is a comparison convention, not a demonstrated uncorrelated plateau.",
+    "Evaluation ends at k*=1 GeV/c; asymptotic convergence is not established.",
+    "Rapidity cuts are common SE/ME pair selections; only EP changes the mixing pool.",
+    "He4 rapidity and pair rapidity are not stored jointly.",
+    "Event/pair reuse and shared EP1/EP8 covariance are unavailable.",
+    "k* overflow ME residuals EP1=3 and EP8=2 counts lie outside the CF range; cause not directly established."
+  ],
+  "artifacts": [
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/study.yaml",
+      "bytes": 2012,
+      "sha256": "d76e18b3819b51d7056129a6cb153ce50de8215cfe1883d4e8ffdda586b25cc5"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/input_manifest.json",
+      "bytes": 5103,
+      "sha256": "d2e41d1e32e22e34ea0688c0856e1d1b8437c7942ed2fea08af36b576cb983f0"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/projection_plan.tsv",
+      "bytes": 45386,
+      "sha256": "988730ff9d88fe0e9aecfa792570e1d7d5aa679b7028b0f2677d26f417541e6f"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/prepare_study.py",
+      "bytes": 3732,
+      "sha256": "3b6a7c78e4ed92368cc10630a94433631d45b6ddebe758cc1c3140a67ad2c8eb"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/extract_cf_inputs.C",
+      "bytes": 19797,
+      "sha256": "1068fbba77483e53692c5414c7dabdca399c78dbeb797dea85162afa51096889"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/extract_retry.log",
+      "bytes": 3147,
+      "sha256": "293840526e916ffe8ffa04798756c805f133d8acdf72207c8554b65867783775"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/raw_projections.tsv",
+      "bytes": 3947920,
+      "sha256": "76a0308165e60895e31a98eb1e6e20377189cd4ec2cdc0f172aeea0ae19c6312"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/raw_projections.root",
+      "bytes": 423376,
+      "sha256": "bb0306c5e5623868c660242cfe1ca413b88c5a086cc071799b5a83c31578aa67"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/source_axes.tsv",
+      "bytes": 86014,
+      "sha256": "d0fca5fceddb3a37016fe6fd2e65fa71abc3b1e0759e5545cba12efffca92fc0"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/analyze_cf.py",
+      "bytes": 11455,
+      "sha256": "c71469309a894ef30c97690700af355fbcb17857ce89256b8305b48392c591b1"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/analysis_results.json",
+      "bytes": 1789326,
+      "sha256": "bb3a781e12773898af86ea0fa93b3638efab6255a41f6eb2835752be09a8e7db"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/metrics.csv",
+      "bytes": 20413,
+      "sha256": "a544f248844b7ac2402cea773b1935a92de0f7ed5a4da293db42bbf88af7d46f"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/cf_covariances.npz",
+      "bytes": 1262568,
+      "sha256": "9bf2d0026f7e3e513a8fd20d75ab455dd68dec8d01d7629e6979bd1fd89bff31"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/closure_checks.json",
+      "bytes": 33991,
+      "sha256": "022ed7bce3b15bff1277066ac234df84d0192a564227f11a00ddd71c551ae1b8"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/curve_bins.tsv",
+      "bytes": 587847,
+      "sha256": "270f9844b25d8d704198a53dcc2756e8f203fda16b65802ca11462bf871e9edc"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/prepare_plots.py",
+      "bytes": 2986,
+      "sha256": "65ea72bdd4225b87daca8bbca8911febe3cfda6096bf44cbbe1e2d6451da96d7"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/plot_metadata.tsv",
+      "bytes": 8092,
+      "sha256": "cae51c6ea67530debcf4aa0d56c2d74cd05e21fe2d38109508ab8a6e1a358a48"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/plot_panels.tsv",
+      "bytes": 4083,
+      "sha256": "51a2c249c99345558058ad713718f4d4f5a11a5909e6960fe5176b0579b50e3b"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/plot_summary.tsv",
+      "bytes": 14096,
+      "sha256": "fd46af89b9aad982fdefc6dad30d611ae64de074fbfc8155ac7238ad7e369ce5"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/make_cf_plots.C",
+      "bytes": 25545,
+      "sha256": "255f7d26adb93ef983c7bff65dbc0ba4ef7ef0bf972cf784e62d10816fc39426"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/plots.log",
+      "bytes": 38959,
+      "sha256": "d101050d9f61c9299ec89b35788a604e7af25f5d0d7345812bfd5cadebedce3c"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/cf_histograms.root",
+      "bytes": 696311,
+      "sha256": "95476c23b140f8bc1ff878e898aa0c080cd5428374b693d17505f79cb8354b80"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/build_report.py",
+      "bytes": 23562,
+      "sha256": "c0c9b30836016c0d593bfab88d7178477772bddf718a3331406b8dd3261941af"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/finalize_report.py",
+      "bytes": 6369,
+      "sha256": "c4e2831b160d40fa83a33e2db19a1844df2d7cbe0d38741335d57156c2579f71"
+    },
+    {
+      "path": "share/figure/20261115_lambda_he4_ep_rapidity_cf/cf_ep_rapidity_report_ja.pdf",
+      "bytes": 628193,
+      "sha256": "8269a1d5bd1cfabdf3613d15fccaf76448c50cde251f423fca2d754d450c9481"
+    },
+    {
+      "path": "share/figure/20261115_lambda_he4_ep_rapidity_cf/cf_ep_rapidity_report_ja.tex",
+      "bytes": 26634,
+      "sha256": "7b645015091b607e935cd73c31d8a68d27dd897a20200204f2da47f2df00c50f"
+    },
+    {
+      "path": "share/figure/20261115_lambda_he4_ep_rapidity_cf/cf_ep_rapidity_report_ja.txt",
+      "bytes": 57237,
+      "sha256": "93d72f24cd3620143bf2078ad65f2fe0e0306a6ee13a687a7c0b805c9cec2205"
+    },
+    {
+      "path": "share/figure/20261115_lambda_he4_ep_rapidity_cf/build-2.log",
+      "bytes": 10532,
+      "sha256": "eff61bae5b60da7380e930ea65bdca419b67896e051ad7c6ca74d11fd2c1a16a"
+    },
+    {
+      "path": "share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/crop_manifest.json",
+      "bytes": 291370,
+      "sha256": "25fe13b84d55ede1d3366b8753a2611e443d356463c6eee68dbe405bb7175aed"
+    }
+  ]
+}

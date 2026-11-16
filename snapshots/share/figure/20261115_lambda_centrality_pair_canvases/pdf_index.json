@@ -1,0 +1,138 @@
+{
+  "combined_pdf": "share/figure/20261115_lambda_centrality_pair_canvases/centrality_pair_rapidity10_SE_ME_CF_root.pdf",
+  "combined_pages": 121,
+  "centralities": [
+    {
+      "centrality": {
+        "id": "c0_20",
+        "label": "0-20%",
+        "min": 6,
+        "max": 8
+      },
+      "pdf": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c0_20_SE_ME_CF_root.pdf",
+      "pages": 11,
+      "combined_first_page": 1,
+      "combined_last_page": 11
+    },
+    {
+      "centrality": {
+        "id": "c0_10",
+        "label": "0-10%",
+        "min": 7,
+        "max": 8
+      },
+      "pdf": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c0_10_SE_ME_CF_root.pdf",
+      "pages": 11,
+      "combined_first_page": 12,
+      "combined_last_page": 22
+    },
+    {
+      "centrality": {
+        "id": "c0_5",
+        "label": "0-5%",
+        "min": 8,
+        "max": 8
+      },
+      "pdf": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c0_5_SE_ME_CF_root.pdf",
+      "pages": 11,
+      "combined_first_page": 23,
+      "combined_last_page": 33
+    },
+    {
+      "centrality": {
+        "id": "c5_10",
+        "label": "5-10%",
+        "min": 7,
+        "max": 7
+      },
+      "pdf": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c5_10_SE_ME_CF_root.pdf",
+      "pages": 11,
+      "combined_first_page": 34,
+      "combined_last_page": 44
+    },
+    {
+      "centrality": {
+        "id": "c10_20",
+        "label": "10-20%",
+        "min": 6,
+        "max": 6
+      },
+      "pdf": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c10_20_SE_ME_CF_root.pdf",
+      "pages": 11,
+      "combined_first_page": 45,
+      "combined_last_page": 55
+    },
+    {
+      "centrality": {
+        "id": "c20_30",
+        "label": "20-30%",
+        "min": 5,
+        "max": 5
+      },
+      "pdf": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c20_30_SE_ME_CF_root.pdf",
+      "pages": 11,
+      "combined_first_page": 56,
+      "combined_last_page": 66
+    },
+    {
+      "centrality": {
+        "id": "c30_40",
+        "label": "30-40%",
+        "min": 4,
+        "max": 4
+      },
+      "pdf": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c30_40_SE_ME_CF_root.pdf",
+      "pages": 11,
+      "combined_first_page": 67,
+      "combined_last_page": 77
+    },
+    {
+      "centrality": {
+        "id": "c40_50",
+        "label": "40-50%",
+        "min": 3,
+        "max": 3
+      },
+      "pdf": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c40_50_SE_ME_CF_root.pdf",
+      "pages": 11,
+      "combined_first_page": 78,
+      "combined_last_page": 88
+    },
+    {
+      "centrality": {
+        "id": "c50_60",
+        "label": "50-60%",
+        "min": 2,
+        "max": 2
+      },
+      "pdf": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c50_60_SE_ME_CF_root.pdf",
+      "pages": 11,
+      "combined_first_page": 89,
+      "combined_last_page": 99
+    },
+    {
+      "centrality": {
+        "id": "c60_70",
+        "label": "60-70%",
+        "min": 1,
+        "max": 1
+      },
+      "pdf": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c60_70_SE_ME_CF_root.pdf",
+      "pages": 11,
+      "combined_first_page": 100,
+      "combined_last_page": 110
+    },
+    {
+      "centrality": {
+        "id": "c70_80",
+        "label": "70-80%",
+        "min": 0,
+        "max": 0
+      },
+      "pdf": "share/figure/20261115_lambda_centrality_pair_canvases/by_centrality/lambda_he4_c70_80_SE_ME_CF_root.pdf",
+      "pages": 11,
+      "combined_first_page": 111,
+      "combined_last_page": 121
+    }
+  ]
+}
