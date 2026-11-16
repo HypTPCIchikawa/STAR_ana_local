@@ -22,3 +22,14 @@
 旧GitHubリポジトリ自体の削除と、mainから旧参照を除く訂正は別操作である。この環境にはSSHのGit push認証はあるが、GitHub管理API用の認証は確認できない。旧リポジトリ自体の削除は未実施であり、移行完了後にユーザーによるGitHub側の対応を確認する。
 
 tree解析の新規実装計画は、この訂正対応の間は中断する。新しい解析コード・設定の実装、job投入、PicoDst再読は行わない。
+
+## 17:21 JST：参照訂正と正しい保存先への公開完了
+
+- 個人内容の公開commit：`26f3a09a77649a269a6d143e18f1c5b99fcd63da`。正しい既存mainの後に取込commit`b5764c1b`を作成し、旧個人HEADも祖先として保持した。全個人ファイルと両履歴を保全済み。
+- 共有内容の公開commit：`a6d617f4ae306504933b7b77355501ee810eecde`。変更は`.gitmodules`・`README.md`・`star_local`の3pathのみ。個人macro・ログ・ROOTは共有mainに追加していない。
+- 双方のremote main、local HEAD、親gitlinkが一致。`STAR_ana_local`へのURL訂正、yaml-cpp不変、両既存HEADの祖先関係、取込後のtree不変を独立監査で確認した。
+- 作業証跡：`rootfile/git_remote_correction_20261116_001/first_push_verification.json`と`prepush_integrity.json`。要約の保存先は`verification/git_remote_correction_20261116_001.json`。
+
+自動承認レビューは、旧repo削除に使う認証を標準環境設定・認証ファイルから確認する操作を、明示許可のないcredential probingと判断して拒否した。操作は未実行であり、別手段で迂回していない。旧repo本体は未削除。移行保全と現行参照の訂正は完了しており、旧repo本体をユーザーがGitHub管理画面で削除するか、参照訂正のみで完了とするかを確認中である。
+
+この完了記録を個人repoへ公開し、親のgitlinkを追従更新する。後続commitは記録と参照のみで、解析コード・ROOT・本番jobを変更しない。

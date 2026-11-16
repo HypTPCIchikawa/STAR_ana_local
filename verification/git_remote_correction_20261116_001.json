@@ -1,0 +1,29 @@
+{
+  "firstPublication": {
+    "verifiedAtJst": "2026-11-16T17:21:20.658848+09:00",
+    "mainCommit": "a6d617f4ae306504933b7b77355501ee810eecde",
+    "personalCommit": "26f3a09a77649a269a6d143e18f1c5b99fcd63da",
+    "mainRemote": "a6d617f4ae306504933b7b77355501ee810eecde",
+    "personalRemote": "26f3a09a77649a269a6d143e18f1c5b99fcd63da",
+    "parentGitlink": "26f3a09a77649a269a6d143e18f1c5b99fcd63da",
+    "submoduleUrl": "https://github.com/HypTPCIchikawa/STAR_ana_local.git",
+    "oldRepositoryDeleted": false,
+    "oldRepositoryDeletionBlock": "No configured GitHub API authentication; auto-review rejected credential probing. No retry or workaround."
+  },
+  "prepushIntegrity": {
+    "verifiedAtJst": "2026-11-16T17:14:31.740098+09:00",
+    "oldPersonalFiles": 23354,
+    "targetExistingFiles": 2409,
+    "combinedFiles": 25763,
+    "oldPersonalUnexpectedChanges": [],
+    "targetUnexpectedChanges": [],
+    "legacyDirectoryTreesIdentical": true,
+    "mainUnrelatedSourceOverridesUnchanged": true,
+    "stagedPolicy": "PASS 23356 files",
+    "privateTests": "10 PASS",
+    "historyImportMethod": "Correct target is first parent; combined tree import followed by recording old personal ancestry",
+    "apiRepositoryDeletion": "pending; no API authentication configured"
+  },
+  "independentReview": "PASS: main 3 paths only, both histories and all data blobs retained; active wrong URL references removed",
+  "oldRepositoryDeletion": "Not performed: API credential inspection was rejected by automatic approval review as credential probing. User asked whether to delete via GitHub UI or retain old repository with references corrected."
+}
