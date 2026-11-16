@@ -1,0 +1,100 @@
+{
+  "status": "complete_initial_systematics",
+  "dateJst": "2026-11-11",
+  "completedAtUtc": "2026-11-11T01:30:45.415061+00:00",
+  "series": 1680,
+  "plotPoints": 84000,
+  "projectionChecks": 1176,
+  "summaryPages": 2,
+  "atlasPages": 18,
+  "reportPages": 20,
+  "visualChecks": [
+    "actual atlas pages1,8,11",
+    "actual summary report pages1,2"
+  ],
+  "files": {
+    "README.md": {
+      "bytes": 4522,
+      "sha256": "afa4aadbcaceaf4439519d0669839e4d01cec6df50851e77516a41b04ae9085a"
+    },
+    "settings.json": {
+      "bytes": 4719,
+      "sha256": "1703aa89a024e8fff64ff033a8a96a4d3fad28370815ecaea822a750a86ee6f5"
+    },
+    "metrics.tsv": {
+      "bytes": 384371,
+      "sha256": "c25729ced39b1399591fa21e6ce2605de2e721d2d701e82d2c5b0a483d5c58d2"
+    },
+    "points.tsv": {
+      "bytes": 12065815,
+      "sha256": "3ddc5b9b24f4edb71f06284e94a0ca8da166b6bdb4bb4b67828acff71a670181"
+    },
+    "results.json": {
+      "bytes": 16170407,
+      "sha256": "4b1dec463fb709724a73a4fa818afdd353ff36a0887fc1cefd0bf92cc304fe0b"
+    },
+    "validation.json": {
+      "bytes": 404852,
+      "sha256": "86893302cb786dbb61a0d7d8c670a34d7a88d2d284bb9bfe5c4e6790543de199"
+    },
+    "independent_validation.json": {
+      "bytes": 105856,
+      "sha256": "1e917c9e198401ad64f4185beb245717d50028d0164f8e28e00924d6e3cb0da3"
+    },
+    "legacy_float_independent_audit.json": {
+      "bytes": 596833,
+      "sha256": "504ed96ddf41a06dae8b5c858e30e792ee9714cac657242ef1aafda6f5fb7915"
+    },
+    "extraction_validation.json": {
+      "bytes": 333,
+      "sha256": "faae6921e8b92bf24d322e6de804ffb42668907904c5522f4b365d1bcc6a2a3f"
+    },
+    "extraction_validation_04BF.json": {
+      "bytes": 333,
+      "sha256": "06e933b546c5d4b852527934572b682fcfe3202f5f47929ca4dbae277d71615e"
+    },
+    "plot_validation.json": {
+      "bytes": 3707,
+      "sha256": "ab28b8a1781cedac5c0d7a4a339bdaf82f054852c0abea7fe9832e60cfc41dc5"
+    },
+    "source/analyze_highk.py": {
+      "bytes": 13602,
+      "sha256": "fce05a7f5c073d5fc23984d6fcdb612481246893f9a2f97c0092b8dcae63a24c"
+    },
+    "source/build_report.py": {
+      "bytes": 11991,
+      "sha256": "3c5e2a6ab97664136776e50747c30d2a9a8e2aac7b53ff913163dd60381f99b9"
+    },
+    "source/DrawHighK.C": {
+      "bytes": 17843,
+      "sha256": "570bcae10a13a0ffab50fe7d5a18ce4e9c940a62902f7c4856c081ff08e70a55"
+    },
+    "source/ExportHighKHistograms.C": {
+      "bytes": 4596,
+      "sha256": "cd5ea3a9dff502570e8612ac7768a9b806da7b0bb0e189e9c9b56848af3d2f1d"
+    },
+    "source/report.tex": {
+      "bytes": 6768,
+      "sha256": "813f69dcf70c47d88696ddd9a85a3a501e97e8e7ca931a14a4cc36be4008e742"
+    },
+    "cf_highk_systematics_20261111.pdf": {
+      "bytes": 976294,
+      "sha256": "be443ea1649c95b2c3891b09f5671857ae72e891709f2bb6e48dac826e460f63"
+    },
+    "lambda_he4_highk_systematics_20261111.pdf": {
+      "bytes": 1102442,
+      "sha256": "25247c06c4007364bbb5e93ef25ad457f9325b76d641b68ed5efa270a21cd0e8"
+    }
+  },
+  "scientificStatus": "High-k decrease reproduced; R/mT conditioning strong; cause not established; no final normalization plateau or new PID selection adopted.",
+  "inputFingerprintFinalCheck": [
+    {
+      "input": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/auau3p85_anaFemtoLambda_4He_KFParticle_1CE33994716F7896423A80AB994BAB14_merge.root",
+      "unchanged": true
+    },
+    {
+      "input": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_merge.root",
+      "unchanged": true
+    }
+  ]
+}

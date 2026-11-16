@@ -1,0 +1,54 @@
+c0_20	inclusive	#Lambda-^{4}He signal, 0-20%, inclusive
+c0_20	he4_below	#Lambda-^{4}He signal, 0-20%, y_{^{4}He,lab} < -0.5
+c0_20	he4_above	#Lambda-^{4}He signal, 0-20%, y_{^{4}He,lab} > -0.5
+c0_20	pair_bin01	#Lambda-^{4}He signal, 0-20%, -1.5 #leq y_{pair,lab} < -1.3
+c0_20	pair_bin02	#Lambda-^{4}He signal, 0-20%, -1.3 #leq y_{pair,lab} < -1.1
+c0_20	pair_bin03	#Lambda-^{4}He signal, 0-20%, -1.1 #leq y_{pair,lab} < -0.9
+c0_20	pair_bin04	#Lambda-^{4}He signal, 0-20%, -0.9 #leq y_{pair,lab} < -0.7
+c0_20	pair_bin05	#Lambda-^{4}He signal, 0-20%, -0.7 #leq y_{pair,lab} < -0.5
+c0_20	pair_bin06	#Lambda-^{4}He signal, 0-20%, -0.5 #leq y_{pair,lab} < -0.3
+c0_20	pair_bin07	#Lambda-^{4}He signal, 0-20%, -0.3 #leq y_{pair,lab} < -0.1
+c0_20	pair_bin08	#Lambda-^{4}He signal, 0-20%, -0.1 #leq y_{pair,lab} < 0.1
+c0_20	pair_bin09	#Lambda-^{4}He signal, 0-20%, 0.1 #leq y_{pair,lab} < 0.3
+c0_20	pair_bin10	#Lambda-^{4}He signal, 0-20%, 0.3 #leq y_{pair,lab} < 0.5
+c0_20	pair_merge01	#Lambda-^{4}He signal, 0-20%, -1.5 #leq y_{pair,lab} < -1.1
+c0_20	pair_merge02	#Lambda-^{4}He signal, 0-20%, -1.1 #leq y_{pair,lab} < -0.7
+c0_20	pair_merge03	#Lambda-^{4}He signal, 0-20%, -0.7 #leq y_{pair,lab} < -0.3
+c0_20	pair_merge04	#Lambda-^{4}He signal, 0-20%, -0.3 #leq y_{pair,lab} < 0.1
+c0_20	pair_merge05	#Lambda-^{4}He signal, 0-20%, 0.1 #leq y_{pair,lab} < 0.5
+c0_10	inclusive	#Lambda-^{4}He signal, 0-10%, inclusive
+c0_10	he4_below	#Lambda-^{4}He signal, 0-10%, y_{^{4}He,lab} < -0.5
+c0_10	he4_above	#Lambda-^{4}He signal, 0-10%, y_{^{4}He,lab} > -0.5
+c0_10	pair_bin01	#Lambda-^{4}He signal, 0-10%, -1.5 #leq y_{pair,lab} < -1.3
+c0_10	pair_bin02	#Lambda-^{4}He signal, 0-10%, -1.3 #leq y_{pair,lab} < -1.1
+c0_10	pair_bin03	#Lambda-^{4}He signal, 0-10%, -1.1 #leq y_{pair,lab} < -0.9
+c0_10	pair_bin04	#Lambda-^{4}He signal, 0-10%, -0.9 #leq y_{pair,lab} < -0.7
+c0_10	pair_bin05	#Lambda-^{4}He signal, 0-10%, -0.7 #leq y_{pair,lab} < -0.5
+c0_10	pair_bin06	#Lambda-^{4}He signal, 0-10%, -0.5 #leq y_{pair,lab} < -0.3
+c0_10	pair_bin07	#Lambda-^{4}He signal, 0-10%, -0.3 #leq y_{pair,lab} < -0.1
+c0_10	pair_bin08	#Lambda-^{4}He signal, 0-10%, -0.1 #leq y_{pair,lab} < 0.1
+c0_10	pair_bin09	#Lambda-^{4}He signal, 0-10%, 0.1 #leq y_{pair,lab} < 0.3
+c0_10	pair_bin10	#Lambda-^{4}He signal, 0-10%, 0.3 #leq y_{pair,lab} < 0.5
+c0_10	pair_merge01	#Lambda-^{4}He signal, 0-10%, -1.5 #leq y_{pair,lab} < -1.1
+c0_10	pair_merge02	#Lambda-^{4}He signal, 0-10%, -1.1 #leq y_{pair,lab} < -0.7
+c0_10	pair_merge03	#Lambda-^{4}He signal, 0-10%, -0.7 #leq y_{pair,lab} < -0.3
+c0_10	pair_merge04	#Lambda-^{4}He signal, 0-10%, -0.3 #leq y_{pair,lab} < 0.1
+c0_10	pair_merge05	#Lambda-^{4}He signal, 0-10%, 0.1 #leq y_{pair,lab} < 0.5
+c10_20	inclusive	#Lambda-^{4}He signal, 10-20%, inclusive
+c10_20	he4_below	#Lambda-^{4}He signal, 10-20%, y_{^{4}He,lab} < -0.5
+c10_20	he4_above	#Lambda-^{4}He signal, 10-20%, y_{^{4}He,lab} > -0.5
+c10_20	pair_bin01	#Lambda-^{4}He signal, 10-20%, -1.5 #leq y_{pair,lab} < -1.3
+c10_20	pair_bin02	#Lambda-^{4}He signal, 10-20%, -1.3 #leq y_{pair,lab} < -1.1
+c10_20	pair_bin03	#Lambda-^{4}He signal, 10-20%, -1.1 #leq y_{pair,lab} < -0.9
+c10_20	pair_bin04	#Lambda-^{4}He signal, 10-20%, -0.9 #leq y_{pair,lab} < -0.7
+c10_20	pair_bin05	#Lambda-^{4}He signal, 10-20%, -0.7 #leq y_{pair,lab} < -0.5
+c10_20	pair_bin06	#Lambda-^{4}He signal, 10-20%, -0.5 #leq y_{pair,lab} < -0.3
+c10_20	pair_bin07	#Lambda-^{4}He signal, 10-20%, -0.3 #leq y_{pair,lab} < -0.1
+c10_20	pair_bin08	#Lambda-^{4}He signal, 10-20%, -0.1 #leq y_{pair,lab} < 0.1
+c10_20	pair_bin09	#Lambda-^{4}He signal, 10-20%, 0.1 #leq y_{pair,lab} < 0.3
+c10_20	pair_bin10	#Lambda-^{4}He signal, 10-20%, 0.3 #leq y_{pair,lab} < 0.5
+c10_20	pair_merge01	#Lambda-^{4}He signal, 10-20%, -1.5 #leq y_{pair,lab} < -1.1
+c10_20	pair_merge02	#Lambda-^{4}He signal, 10-20%, -1.1 #leq y_{pair,lab} < -0.7
+c10_20	pair_merge03	#Lambda-^{4}He signal, 10-20%, -0.7 #leq y_{pair,lab} < -0.3
+c10_20	pair_merge04	#Lambda-^{4}He signal, 10-20%, -0.3 #leq y_{pair,lab} < 0.1
+c10_20	pair_merge05	#Lambda-^{4}He signal, 10-20%, 0.1 #leq y_{pair,lab} < 0.5

@@ -1,0 +1,301 @@
+{
+  "phase": "complete",
+  "sample": {
+    "year": 2021,
+    "jobid": "04BF2DAE47164B6F040E3A460E539289",
+    "included": 26955,
+    "expected": 26994
+  },
+  "reference": {
+    "compatible": true,
+    "valueRelativeTolerance": 1e-08,
+    "valueAbsoluteTolerance": 1e-10,
+    "comparedBins": 500,
+    "matchedNA": 58,
+    "errorChanges": 0,
+    "maxAbsoluteValueDifference": 2.220446049250313e-16,
+    "maxAbsoluteErrorDifference": 2.220446049250313e-16,
+    "mismatches": [],
+    "referenceComparison": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/comparison.json",
+      "sha256": "d7dcc84b29df9830ee4e6feedb4624bd30b643fc4b6f2e090dfe2ffbf6f546e5"
+    },
+    "referenceContext": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/context.json",
+      "sha256": "24e1860d891078f99e510f3b9459e3b24aa740ccc38a07e63708ae2af2c253a8"
+    }
+  },
+  "diagnostics": [
+    {
+      "group": "cent20_80",
+      "label": "20-80%",
+      "method": "method3",
+      "fitsPerSide": 20,
+      "SE": {
+        "purityAvailable": 18,
+        "medianChi2Ndf": 1.092361840768394
+      },
+      "ME": {
+        "purityAvailable": 20,
+        "medianChi2Ndf": 4.992882189008633
+      }
+    },
+    {
+      "group": "cent20_80",
+      "label": "20-80%",
+      "method": "method5",
+      "fitsPerSide": 8,
+      "SE": {
+        "purityAvailable": 8,
+        "medianChi2Ndf": 3.535685753214464
+      },
+      "ME": {
+        "purityAvailable": 7,
+        "medianChi2Ndf": 60.17416750864512
+      }
+    },
+    {
+      "group": "cent0_20",
+      "label": "0-20%",
+      "method": "method3",
+      "fitsPerSide": 20,
+      "SE": {
+        "purityAvailable": 19,
+        "medianChi2Ndf": 2.333432347261661
+      },
+      "ME": {
+        "purityAvailable": 20,
+        "medianChi2Ndf": 33.132879583201
+      }
+    },
+    {
+      "group": "cent0_20",
+      "label": "0-20%",
+      "method": "method5",
+      "fitsPerSide": 8,
+      "SE": {
+        "purityAvailable": 8,
+        "medianChi2Ndf": 16.701259075103028
+      },
+      "ME": {
+        "purityAvailable": 8,
+        "medianChi2Ndf": 504.4685508931501
+      }
+    },
+    {
+      "group": "cent0_10",
+      "label": "0-10%",
+      "method": "method3",
+      "fitsPerSide": 20,
+      "SE": {
+        "purityAvailable": 19,
+        "medianChi2Ndf": 2.2609677812262214
+      },
+      "ME": {
+        "purityAvailable": 20,
+        "medianChi2Ndf": 27.733829105934717
+      }
+    },
+    {
+      "group": "cent0_10",
+      "label": "0-10%",
+      "method": "method5",
+      "fitsPerSide": 8,
+      "SE": {
+        "purityAvailable": 8,
+        "medianChi2Ndf": 13.449201213663178
+      },
+      "ME": {
+        "purityAvailable": 8,
+        "medianChi2Ndf": 421.2394087371651
+      }
+    },
+    {
+      "group": "cent10_20",
+      "label": "10-20%",
+      "method": "method3",
+      "fitsPerSide": 20,
+      "SE": {
+        "purityAvailable": 18,
+        "medianChi2Ndf": 1.2629720838375091
+      },
+      "ME": {
+        "purityAvailable": 20,
+        "medianChi2Ndf": 6.832211205757299
+      }
+    },
+    {
+      "group": "cent10_20",
+      "label": "10-20%",
+      "method": "method5",
+      "fitsPerSide": 8,
+      "SE": {
+        "purityAvailable": 8,
+        "medianChi2Ndf": 4.592537177526981
+      },
+      "ME": {
+        "purityAvailable": 8,
+        "medianChi2Ndf": 88.4163112382072
+      }
+    },
+    {
+      "group": "cent20_60",
+      "label": "20-60%",
+      "method": "method3",
+      "fitsPerSide": 20,
+      "SE": {
+        "purityAvailable": 18,
+        "medianChi2Ndf": 1.092361840768394
+      },
+      "ME": {
+        "purityAvailable": 20,
+        "medianChi2Ndf": 5.011845355887917
+      }
+    },
+    {
+      "group": "cent20_60",
+      "label": "20-60%",
+      "method": "method5",
+      "fitsPerSide": 8,
+      "SE": {
+        "purityAvailable": 8,
+        "medianChi2Ndf": 4.084940396602943
+      },
+      "ME": {
+        "purityAvailable": 8,
+        "medianChi2Ndf": 60.14570364764009
+      }
+    }
+  ],
+  "integrated": [
+    {
+      "group": "cent20_80",
+      "label": "20-80%",
+      "methods": {
+        "method3": {
+          "cf": null,
+          "reason": "invalid contributing mass fit or purity in comparison interval"
+        },
+        "method5": {
+          "cf": null,
+          "reason": "normalization unavailable: ME bin 16: invalid contributing mass fit; ME bin 17: invalid contributing mass fit; ME bin 18: invalid contributing mass fit"
+        },
+        "method6": {
+          "cf": null,
+          "reason": "normalization unavailable: SE bin 16: invalid contributing mass fit; ME bin 16: invalid contributing mass fit; SE bin 17: invalid contributing mass fit; ME bin 17: invalid contributing mass fit; SE bin 18: invalid contributing mass fit; ME bin 18: invalid contributing mass fit"
+        }
+      }
+    },
+    {
+      "group": "cent0_20",
+      "label": "0-20%",
+      "methods": {
+        "method3": {
+          "cf": null,
+          "reason": "invalid contributing mass fit or purity in comparison interval"
+        },
+        "method5": {
+          "cf": {
+            "value": 1.0241209992080271,
+            "variance": 7.729815662579274e-05,
+            "error": 0.008791937023534277
+          },
+          "reason": null
+        },
+        "method6": {
+          "cf": {
+            "value": 1.0261548890939218,
+            "variance": 7.312010717631131e-05,
+            "error": 0.008551029597440961
+          },
+          "reason": null
+        }
+      }
+    },
+    {
+      "group": "cent0_10",
+      "label": "0-10%",
+      "methods": {
+        "method3": {
+          "cf": null,
+          "reason": "invalid contributing mass fit or purity in comparison interval"
+        },
+        "method5": {
+          "cf": {
+            "value": 1.0245925502213664,
+            "variance": 9.679602218004023e-05,
+            "error": 0.009838496947198806
+          },
+          "reason": null
+        },
+        "method6": {
+          "cf": {
+            "value": 1.0275657386588448,
+            "variance": 9.195431330765984e-05,
+            "error": 0.009589281167410821
+          },
+          "reason": null
+        }
+      }
+    },
+    {
+      "group": "cent10_20",
+      "label": "10-20%",
+      "methods": {
+        "method3": {
+          "cf": null,
+          "reason": "invalid contributing mass fit or purity in comparison interval"
+        },
+        "method5": {
+          "cf": {
+            "value": 1.0445876345059697,
+            "variance": 0.000398055381487219,
+            "error": 0.01995132530653588
+          },
+          "reason": null
+        },
+        "method6": {
+          "cf": {
+            "value": 1.0304999273361348,
+            "variance": 0.0003647459690504157,
+            "error": 0.01909832372357364
+          },
+          "reason": null
+        }
+      }
+    },
+    {
+      "group": "cent20_60",
+      "label": "20-60%",
+      "methods": {
+        "method3": {
+          "cf": null,
+          "reason": "invalid contributing mass fit or purity in comparison interval"
+        },
+        "method5": {
+          "cf": {
+            "value": 1.101548518280677,
+            "variance": 0.0007093353579061023,
+            "error": 0.02663335048216995
+          },
+          "reason": null
+        },
+        "method6": {
+          "cf": {
+            "value": 1.0773788485214182,
+            "variance": 0.0006245169987355923,
+            "error": 0.024990338107668576
+          },
+          "reason": null
+        }
+      }
+    }
+  ],
+  "validation": {
+    "checkedCfPoints": 642,
+    "sharedPurityCancellationBins": 198
+  },
+  "scope": "Same accepted 4He PID/TOF ROOT; Lambda mass purity postprocessing only",
+  "completedAtJst": "2026-10-31T13:02:48.744193+09:00",
+  "reportPages": 20
+}

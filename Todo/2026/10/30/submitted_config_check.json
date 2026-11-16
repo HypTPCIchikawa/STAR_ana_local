@@ -1,0 +1,134 @@
+{
+  "jobid": "04BF2DAE47164B6F040E3A460E539289",
+  "runmeta": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289.json",
+  "runtimeBundle": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runtime_bundle_auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289.tar.gz",
+  "runtimeBundleHashMatches": true,
+  "configs": [
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle.yaml",
+      "submittedSha256": "63e6450df36bfa19939631f07246db9ddc3e1546fc6edbb9301cea4627899ba3",
+      "currentSha256": "1f9b5cba00812775b414e621422bb6a8667a50d0334056a78d5d0171bb905616",
+      "matches": false,
+      "yamlContentMatches": true,
+      "unifiedDiff": "--- submitted/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle.yaml\n+++ current/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle.yaml\n@@ -1,4 +1,3 @@\n-# 2026-10-22: accepted He4 polynomial; d/t/He3 retain Git PID.\n # All species: R<2 no TOF requirement; R>=2 valid TOF and species mass2 window.\n analysis: analysis/analysis_info_auau3p85_anaFemtoLambda_4He_KFParticle.yaml\n event: cuts/event/event_femtoLambda_imp5.yaml\n"
+    },
+    {
+      "path": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_KFParticle.yaml",
+      "submittedSha256": "a545b9be5c25473cdde31955515f08dbdaf2dfe689e540c1ab7eb68b97aa19b7",
+      "currentSha256": "e2f6ac785a785d303f24ec46a6b9c3377f856d780071c3ff726d41cf04953f9e",
+      "matches": false,
+      "yamlContentMatches": true,
+      "unifiedDiff": "--- submitted/config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_KFParticle.yaml\n+++ current/config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_KFParticle.yaml\n@@ -1,4 +1,3 @@\n-# Dataset policy (2026-10-01): use only 2021 P24iy; never reuse the 2019 study input.\n # 3p85 is the fixed-target beam-energy label, not collider sqrt(sNN).\n starTag:\n   triggerSets: \"production_3p85GeV_fixedTarget_2021\"\n"
+    },
+    {
+      "path": "config/cuts/event/event_femtoLambda_imp5.yaml",
+      "submittedSha256": "493c22c8ec457820047b563fda66ef916efec31b5cc7bb29b02b47c395c7aac7",
+      "currentSha256": "493c22c8ec457820047b563fda66ef916efec31b5cc7bb29b02b47c395c7aac7",
+      "matches": true
+    },
+    {
+      "path": "config/cuts/centrality/centrality_auau3p85_femtoLambda.yaml",
+      "submittedSha256": "1cf50324a4c7f3ef308be960b87c9ebea3693031abf4f8352838027614ce4ca0",
+      "currentSha256": "1cf50324a4c7f3ef308be960b87c9ebea3693031abf4f8352838027614ce4ca0",
+      "matches": true
+    },
+    {
+      "path": "config/cuts/kf/kf_auau3p85_anaLambda_KFParticle_highpurity.yaml",
+      "submittedSha256": "581bab50e769a28428fe5970f72cae9acd7da104c931f83d2060a0e15f9dd425",
+      "currentSha256": "581bab50e769a28428fe5970f72cae9acd7da104c931f83d2060a0e15f9dd425",
+      "matches": true
+    },
+    {
+      "path": "config/cuts/nuclearid/nuclearid_femtoLambda_auau3p85_he4_accepted_20261022.yaml",
+      "submittedSha256": "8d6fe1d422908fcd204bf59243bc4440aa4fac52f64f00b3ec8a37b471f1776f",
+      "currentSha256": "8d6fe1d422908fcd204bf59243bc4440aa4fac52f64f00b3ec8a37b471f1776f",
+      "matches": true
+    },
+    {
+      "path": "config/maker/maker_auau3p85_anaFemtoLambda_4He_KFParticle_he3Control.yaml",
+      "submittedSha256": "6cbdd3634de7fa07a80497433cbf19f4e5f2c375c3f9f7d7c0006b5801db039f",
+      "currentSha256": "6cbdd3634de7fa07a80497433cbf19f4e5f2c375c3f9f7d7c0006b5801db039f",
+      "matches": true
+    },
+    {
+      "path": "config/cuts/mixing/mixing_femtoLambda_legacy.yaml",
+      "submittedSha256": "b2f1d0a183d72963d68a36b123d398509abbf13acf0a8365484e290b940c8045",
+      "currentSha256": "b2f1d0a183d72963d68a36b123d398509abbf13acf0a8365484e290b940c8045",
+      "matches": true
+    },
+    {
+      "path": "config/hist/hist_auau3p85_femtoLambda_he4_he3_control_acceptanceSamples20261022_kf.yaml",
+      "submittedSha256": "2fbda10c8bdbec7dce00c820bb7570598ed1009af1e15aa26b44db7268ae815f",
+      "currentSha256": "2fbda10c8bdbec7dce00c820bb7570598ed1009af1e15aa26b44db7268ae815f",
+      "matches": true
+    },
+    {
+      "path": "config/hist/hist_auau3p85_femtoLambda_he4_he3_control_nuclear.yaml",
+      "submittedSha256": "6967e30d055281a0dd0350ed1c2132d1917339f05f3f676c5a16f2877407818b",
+      "currentSha256": "6967e30d055281a0dd0350ed1c2132d1917339f05f3f676c5a16f2877407818b",
+      "matches": true
+    },
+    {
+      "path": "config/hist/hist_auau3p85_femtoLambda_he4_he3_pid_pair_qa.yaml",
+      "submittedSha256": "a763724cd00efea9ace19d1d77e9becd2a31ffc905c123f70eba8d7f32f300e8",
+      "currentSha256": "a763724cd00efea9ace19d1d77e9becd2a31ffc905c123f70eba8d7f32f300e8",
+      "matches": true
+    },
+    {
+      "path": "config/calibration/dedx_he4_auau3p85_2021P24iy_accepted_20261022.yaml",
+      "submittedSha256": "464e641b8e1135ab830c4f5ca4d32ef6fa5123dc87f53a045435fb87529b53da",
+      "currentSha256": "464e641b8e1135ab830c4f5ca4d32ef6fa5123dc87f53a045435fb87529b53da",
+      "matches": true
+    }
+  ],
+  "allCurrentConfigsMatchSubmission": false,
+  "submittedAnalysisInfo": {
+    "starTag": {
+      "triggerSets": "production_3p85GeV_fixedTarget_2021",
+      "stream": "st_physics",
+      "collision": "auau3p85",
+      "year": "year2021",
+      "productionTag": "P24iy",
+      "libraryTag": "SL24y",
+      "filetype": "daq_reco_picoDst",
+      "filenameFilter": "st_physics",
+      "filenameNotFilter": "adc",
+      "storage": "local"
+    },
+    "dataset": {
+      "collisionSystem": "Au+Au",
+      "allPicoDstList": "",
+      "runRange": {
+        "min": 22000000,
+        "max": 22999999
+      },
+      "goodRunList": "",
+      "dataQuality": "production",
+      "dataFormat": "picoDst"
+    },
+    "analysis": {
+      "anaName": "auau3p85_anaFemtoLambda_4He_KFParticle",
+      "name": "auau3p85_anaFemtoLambda_4He_KFParticle",
+      "mode": "fxtmult",
+      "type": "femto",
+      "targetParticle": "Lambda-he4",
+      "decayChannel": "p+pi-",
+      "workDir": "/star/u/yichikawa/pwg/git_STAR_3/star-analyzer",
+      "logDir": "/star/u/yichikawa/pwg/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_KFParticle",
+      "errDir": "/star/u/yichikawa/pwg/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_KFParticle",
+      "baseRunMacro": "run_anaFemtoLambda_4He",
+      "baseAnaMacro": "anaFemtoLambda_4He",
+      "jobName": "auau3p85_anaFemtoLambda_4He_KFParticle",
+      "scratchSubdir": "auau3p85_anaFemtoLambda_4He_KFParticle",
+      "outputFileStem": "auau3p85_anaFemtoLambda_4He_KFParticle",
+      "nFiles": "all",
+      "filesPerJob": 5,
+      "maxEvents": -1
+    },
+    "analyst": {
+      "name": "Yudai Ichikawa",
+      "institute": "Tohoku University",
+      "email": "yudai.ichikawa.d3@tohoku.ac.jp"
+    }
+  }
+}

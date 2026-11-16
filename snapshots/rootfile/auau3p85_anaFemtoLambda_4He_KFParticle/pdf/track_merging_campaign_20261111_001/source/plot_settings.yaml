@@ -1,0 +1,7 @@
+fullRange: [-0.25, 0.25]
+zoomRange: [-0.05, 0.05]
+fullDisplayBins: 40
+zoomDisplayBins: 80
+originHalfWidths: [0.0125, 0.025, 0.05]
+canvasWidth: 1600
+canvasHeight: 1200

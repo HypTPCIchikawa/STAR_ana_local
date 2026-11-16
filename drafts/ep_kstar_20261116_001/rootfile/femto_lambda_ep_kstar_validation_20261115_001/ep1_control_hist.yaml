@@ -1,0 +1,1183 @@
+axes:
+  Beta: &id026
+    nBins: 200
+    min: 0.0
+    max: 1.0
+  EtaAcceptance: &id025
+    nBins: 200
+    min: -5.0
+    max: 5.0
+  InvMassLambda: &id010
+    nBins: 200
+    min: 1.05
+    max: 1.25
+  Pt: &id011
+    nBins: 200
+    min: 0.0
+    max: 10.0
+  YLab: &id024
+    nBins: 200
+    min: -5.0
+    max: 5.0
+  Y: &id018
+    nBins: 100
+    min: -2.0
+    max: 2.0
+  DecayLength: &id017
+    nBins: 200
+    min: 0.0
+    max: 100.0
+  TransDecayLength: &id019
+    nBins: 200
+    min: 0.0
+    max: 50.0
+  Eta: &id012
+    nBins: 100
+    min: -2.5
+    max: 2.5
+  Phi: &id013
+    nBins: 100
+    min: -3.15
+    max: 3.15
+  DCA: &id014
+    nBins: 200
+    min: 0.0
+    max: 5.0
+  CosPointing: &id015
+    nBins: 100
+    min: 0.99
+    max: 1.01
+  Vz: &id001
+    nBins: 400
+    min: -300.0
+    max: 300.0
+  RefMult: &id002
+    nBins: 1000
+    min: 0.0
+    max: 1000.0
+  NSigmaY: &id016
+    nBins: 100
+    min: -5.0
+    max: 5.0
+  TofMatchMult: &id006
+    nBins: 500
+    min: 0.0
+    max: 500.0
+  Cent9: &id003
+    nBins: 9
+    min: -0.5
+    max: 8.5
+  Cent16: &id004
+    nBins: 16
+    min: -0.5
+    max: 15.5
+  RefMultWeight: &id005
+    nBins: 125
+    min: 0.5
+    max: 3.0
+  NCand: &id008
+    nBins: 200
+    min: 0.0
+    max: 200.0
+  NTracks: &id007
+    nBins: 500
+    min: 0.0
+    max: 2000.0
+  NLambdaPairs: &id009
+    nBins: 200
+    min: 0.0
+    max: 200.0
+  Kstar: &id023
+    nBins: 200
+    min: 0.0
+    max: 1.0
+  MixCounter: &id020
+    nBins: 15
+    min: -0.5
+    max: 14.5
+  Channel: &id021
+    nBins: 8
+    min: -0.5
+    max: 7.5
+  Significance: &id022
+    nBins: 200
+    min: 0
+    max: 100
+  EpdPsi1: &id027
+    nBins: 72
+    min: -3.141592653589793
+    max: 3.141592653589793
+  EpdMixingBin: &id028
+    nBins: 8
+    min: -0.5
+    max: 7.5
+  EpdStatus: &id029
+    nBins: 16
+    min: -0.5
+    max: 15.5
+  PairYLab: &id030
+    nBins: 10
+    min: -1.5
+    max: 0.5
+histograms:
+  hVz:
+    axis: *id001
+    title: Primary Vertex Z;V_{z} [cm];Counts
+  hRefMult:
+    axis: *id002
+    title: RefMult;RefMult;Counts
+  hCentrality:
+    axis: *id003
+    title: Centrality bin (cent9);cent9 (0=70-80%%, 8=0-5%%);Counts
+  hCentralityRaw:
+    axis: *id003
+    title: Centrality bin before bin cut;cent9 (0=70-80%%, 8=0-5%%);Counts
+  hCentrality16:
+    axis: *id004
+    title: Centrality bin (cent16);cent16;Counts
+  hRefMultCorr:
+    axis: *id002
+    title: Corrected multiplicity;refMult_{corr};Counts
+  hRefMultWeight:
+    axis: *id005
+    title: StRefMultCorr event weight;weight;Counts
+  hRefMultVsNTOFMatch:
+    xAxis: *id006
+    yAxis: *id002
+    title: nBTOFMatch vs refMult (before pileup cut);nBTOFMatch;refMult
+  hRefMultVsNTOFMatchAfter:
+    xAxis: *id006
+    yAxis: *id002
+    title: nBTOFMatch vs refMult (after pileup cut);nBTOFMatch;refMult
+  hCentralityVsVz:
+    xAxis: *id001
+    yAxis: *id003
+    title: cent9 vs V_{z};V_{z} [cm];cent9 (0=70-80%%, 8=0-5%%)
+  hRawMult:
+    axis: *id002
+    title: Raw multiplicity (refmult/fxtmult);mult;Counts
+  hRawMult_vs_RefMultCorr:
+    xAxis: *id002
+    yAxis: *id002
+    title: rawMult vs refMult_{corr};refMult_{corr};rawMult
+  hRawMult_vs_Cent9:
+    xAxis: *id003
+    yAxis: *id002
+    title: rawMult vs cent9;cent9 (0=70-80%%, 8=0-5%%);rawMult
+  hRefMultCorr_vs_Cent9:
+    xAxis: *id003
+    yAxis: *id002
+    title: refMult_{corr} vs cent9;cent9 (0=70-80%%, 8=0-5%%);refMult_{corr}
+  hNTracks_vs_Cent9:
+    xAxis: *id003
+    yAxis: *id007
+    title: N_{tracks} vs cent9;cent9 (0=70-80%%, 8=0-5%%);N_{tracks}
+  hTofMatchMult_vs_Cent9:
+    xAxis: *id003
+    yAxis: *id006
+    title: nBTOFMatch vs cent9;cent9 (0=70-80%%, 8=0-5%%);nBTOFMatch
+  hNProtonCand_vs_Cent9:
+    xAxis: *id003
+    yAxis: *id008
+    title: N_{proton cand.} vs cent9;cent9 (0=70-80%%, 8=0-5%%);N_{p}
+  hNPionCand_vs_Cent9:
+    xAxis: *id003
+    yAxis: *id008
+    title: N_{#pi^{-} cand.} vs cent9;cent9 (0=70-80%%, 8=0-5%%);N_{#pi^{-}}
+  hNLambdaPairs_vs_Cent9:
+    xAxis: *id003
+    yAxis: *id009
+    title: KF-selected p#pi^{-} pairs vs cent9;cent9 (0=70-80%%, 8=0-5%%);N_{pairs}
+  hLambda_InvMass_vs_Cent9:
+    xAxis: *id003
+    yAxis: *id010
+    title: M_{p#pi^{-}} vs cent9;cent9 (0=70-80%%, 8=0-5%%);M_{p#pi^{-}} [GeV/c^{2}]
+  hLambda_InvMass_vs_RefMultCorr:
+    xAxis: *id002
+    yAxis: *id010
+    title: M_{p#pi^{-}} vs refMult_{corr};refMult_{corr};M_{p#pi^{-}} [GeV/c^{2}]
+  hLambda_InvMass_CentBin0:
+    axis: *id010
+    title: M_{p#pi^{-}} cent9=0 (70-80%%);M_{p#pi^{-}} [GeV/c^{2}];Counts
+  hLambda_InvMass_CentBin1:
+    axis: *id010
+    title: M_{p#pi^{-}} cent9=1 (60-70%%);M_{p#pi^{-}} [GeV/c^{2}];Counts
+  hLambda_InvMass_CentBin2:
+    axis: *id010
+    title: M_{p#pi^{-}} cent9=2 (50-60%%);M_{p#pi^{-}} [GeV/c^{2}];Counts
+  hLambda_InvMass_CentBin3:
+    axis: *id010
+    title: M_{p#pi^{-}} cent9=3 (40-50%%);M_{p#pi^{-}} [GeV/c^{2}];Counts
+  hLambda_InvMass_CentBin4:
+    axis: *id010
+    title: M_{p#pi^{-}} cent9=4 (30-40%%);M_{p#pi^{-}} [GeV/c^{2}];Counts
+  hLambda_InvMass_CentBin5:
+    axis: *id010
+    title: M_{p#pi^{-}} cent9=5 (20-30%%);M_{p#pi^{-}} [GeV/c^{2}];Counts
+  hLambda_InvMass_CentBin6:
+    axis: *id010
+    title: M_{p#pi^{-}} cent9=6 (10-20%%);M_{p#pi^{-}} [GeV/c^{2}];Counts
+  hLambda_InvMass_CentBin7:
+    axis: *id010
+    title: M_{p#pi^{-}} cent9=7 (5-10%%);M_{p#pi^{-}} [GeV/c^{2}];Counts
+  hLambda_InvMass_CentBin8:
+    axis: *id010
+    title: M_{p#pi^{-}} cent9=8 (0-5%%);M_{p#pi^{-}} [GeV/c^{2}];Counts
+  hLambda_InvMass:
+    axis: *id010
+    title: Lambda invariant mass (KF, unconstrained mass);M_{p#pi^{-}} [GeV/c^{2}];Counts
+  hLambda_Pt:
+    axis: *id011
+    title: Lambda p_{T};p_{T} [GeV/c];Counts
+  hLambda_Eta:
+    axis: *id012
+    title: 'Lambda #eta;#eta;Counts'
+  hLambda_Phi:
+    axis: *id013
+    title: 'Lambda #phi;#phi [rad];Counts'
+  hDCA12:
+    axis: *id014
+    title: 'DCA between p and #pi^{-} at V0;DCA [cm];Counts'
+  hDCAV0:
+    axis: *id014
+    title: DCA of Lambda to PV;DCA [cm];Counts
+  hCosPointing:
+    axis: *id015
+    title: cos(pointing angle);cos(#theta);Counts
+  hNSigmaProton:
+    axis: *id016
+    title: Proton n#sigma_{p};n#sigma_{p};Counts
+  hNSigmaPion:
+    axis: *id016
+    title: Pion n#sigma_{#pi};n#sigma_{#pi};Counts
+  hLambda_InvMass_vs_Pt:
+    xAxis: *id011
+    yAxis: *id010
+    title: M_{p#pi^{-}} vs p_{T};p_{T} [GeV/c];M_{p#pi^{-}} [GeV/c^{2}]
+  hLambda_InvMass_vs_DecayLength:
+    xAxis: *id017
+    yAxis: *id010
+    title: M_{p#pi^{-}} vs Decay Length;Decay Length [cm];M_{p#pi^{-}} [GeV/c^{2}]
+  hLambda_InvMass_vs_Y:
+    xAxis: *id018
+    yAxis: *id010
+    title: M_{p#pi^{-}} vs Rapidity;y;M_{p#pi^{-}} [GeV/c^{2}]
+  hDCAV0_vs_InvMass:
+    xAxis: *id010
+    yAxis: *id014
+    title: DCA_{V0} vs M_{p#pi^{-}};M_{p#pi^{-}} [GeV/c^{2}];DCA [cm]
+  hCosPointing_vs_InvMass:
+    xAxis: *id010
+    yAxis: *id015
+    title: cos(#theta) vs M_{p#pi^{-}};M_{p#pi^{-}} [GeV/c^{2}];cos(#theta)
+  hLambda_InvMass_vs_TransDecayLength:
+    xAxis: *id019
+    yAxis: *id010
+    title: M_{p#pi^{-}} vs Transverse Decay Length;L_{T} [cm];M_{p#pi^{-}} [GeV/c^{2}]
+  hN:
+    nBins: 1
+    min: 0.0
+    max: 1.0
+    title: N processed events;dummy;count
+    type: TH1I
+  hMixSamplerQA:
+    xAxis: *id020
+    yAxis: *id021
+    type: TH2D
+    title: Mix sampler counters;status (FemtoMixingSampler enum);channel index
+  hLambdaKF_DecayLength:
+    axis: *id017
+    title: PV-constrained KF decay length;DecayLength;Counts
+  hLambdaKF_DecayLengthSignificance:
+    axis: *id022
+    title: PV-constrained KF decay length significance;DecayLengthSignificance;Counts
+  hLambdaKF_Chi2Ndf:
+    axis: *id022
+    title: KF fit chi2/NDF;Chi2Ndf;Counts
+  hLambdaKF_TopoChi2Ndf:
+    axis: *id022
+    title: KF topology chi2/NDF;TopoChi2Ndf;Counts
+  hKstarSE_lambda_he4:
+    axis: *id023
+    title: SE lambda_he4;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he4:
+    xAxis: *id023
+    yAxis: *id003
+    title: SE lambda_he4;k* [GeV/c];cent9
+  hKstarSE_lambda_he4_signal:
+    axis: *id023
+    title: SE lambda_he4_signal;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he4_signal:
+    xAxis: *id023
+    yAxis: *id003
+    title: SE lambda_he4_signal;k* [GeV/c];cent9
+  hKstarSE_lambda_he4_leftSB:
+    axis: *id023
+    title: SE lambda_he4_leftSB;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he4_leftSB:
+    xAxis: *id023
+    yAxis: *id003
+    title: SE lambda_he4_leftSB;k* [GeV/c];cent9
+  hKstarSE_lambda_he4_rightSB:
+    axis: *id023
+    title: SE lambda_he4_rightSB;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he4_rightSB:
+    xAxis: *id023
+    yAxis: *id003
+    title: SE lambda_he4_rightSB;k* [GeV/c];cent9
+  hKstarME_lambda_he4:
+    axis: *id023
+    title: ME lambda_he4;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he4:
+    xAxis: *id023
+    yAxis: *id003
+    title: ME lambda_he4;k* [GeV/c];cent9
+  hKstarME_lambda_he4_signal:
+    axis: *id023
+    title: ME lambda_he4_signal;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he4_signal:
+    xAxis: *id023
+    yAxis: *id003
+    title: ME lambda_he4_signal;k* [GeV/c];cent9
+  hKstarME_lambda_he4_leftSB:
+    axis: *id023
+    title: ME lambda_he4_leftSB;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he4_leftSB:
+    xAxis: *id023
+    yAxis: *id003
+    title: ME lambda_he4_leftSB;k* [GeV/c];cent9
+  hKstarME_lambda_he4_rightSB:
+    axis: *id023
+    title: ME lambda_he4_rightSB;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he4_rightSB:
+    xAxis: *id023
+    yAxis: *id003
+    title: ME lambda_he4_rightSB;k* [GeV/c];cent9
+  hLambda_PtVsYLab_signal:
+    xAxis: *id024
+    yAxis: *id011
+    type: TH2D
+    title: 'Signal #Lambda acceptance;y_{lab};p_{T} [GeV/c]'
+  hLambdaProton_PtVsYLab_signal:
+    xAxis: *id024
+    yAxis: *id011
+    type: TH2D
+    title: 'Proton daughter of signal #Lambda acceptance;y_{lab};p_{T} [GeV/c]'
+  hLambdaPion_PtVsYLab_signal:
+    xAxis: *id024
+    yAxis: *id011
+    type: TH2D
+    title: '#pi^{-} daughter of signal #Lambda acceptance;y_{lab};p_{T} [GeV/c]'
+  hNucleus_PtVsYLab_he4:
+    xAxis: *id024
+    yAxis: *id011
+    type: TH2D
+    title: Selected he4 acceptance;y_{lab};p_{T} [GeV/c]
+  hKstarSE_lambda_he4_signalLow:
+    axis: *id023
+    title: SE lambda_he4 [-N#sigma, 0);k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he4_signalLow:
+    xAxis: *id023
+    yAxis: *id003
+    title: SE lambda_he4 [-N#sigma, 0);k* [GeV/c];cent9
+  hKstarME_lambda_he4_signalLow:
+    axis: *id023
+    title: ME lambda_he4 [-N#sigma, 0);k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he4_signalLow:
+    xAxis: *id023
+    yAxis: *id003
+    title: ME lambda_he4 [-N#sigma, 0);k* [GeV/c];cent9
+  hKstarSE_lambda_he4_signalHigh:
+    axis: *id023
+    title: SE lambda_he4 [0, +N#sigma];k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he4_signalHigh:
+    xAxis: *id023
+    yAxis: *id003
+    title: SE lambda_he4 [0, +N#sigma];k* [GeV/c];cent9
+  hKstarME_lambda_he4_signalHigh:
+    axis: *id023
+    title: ME lambda_he4 [0, +N#sigma];k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he4_signalHigh:
+    xAxis: *id023
+    yAxis: *id003
+    title: ME lambda_he4 [0, +N#sigma];k* [GeV/c];cent9
+  hKstarSE_lambda_he3:
+    axis: *id023
+    title: SE lambda_he3;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he3:
+    xAxis: *id023
+    yAxis: *id003
+    title: SE lambda_he3;k* [GeV/c];cent9
+  hKstarSE_lambda_he3_signal:
+    axis: *id023
+    title: SE lambda_he3_signal;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he3_signal:
+    xAxis: *id023
+    yAxis: *id003
+    title: SE lambda_he3_signal;k* [GeV/c];cent9
+  hKstarSE_lambda_he3_leftSB:
+    axis: *id023
+    title: SE lambda_he3_leftSB;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he3_leftSB:
+    xAxis: *id023
+    yAxis: *id003
+    title: SE lambda_he3_leftSB;k* [GeV/c];cent9
+  hKstarSE_lambda_he3_rightSB:
+    axis: *id023
+    title: SE lambda_he3_rightSB;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he3_rightSB:
+    xAxis: *id023
+    yAxis: *id003
+    title: SE lambda_he3_rightSB;k* [GeV/c];cent9
+  hKstarME_lambda_he3:
+    axis: *id023
+    title: ME lambda_he3;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he3:
+    xAxis: *id023
+    yAxis: *id003
+    title: ME lambda_he3;k* [GeV/c];cent9
+  hKstarME_lambda_he3_signal:
+    axis: *id023
+    title: ME lambda_he3_signal;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he3_signal:
+    xAxis: *id023
+    yAxis: *id003
+    title: ME lambda_he3_signal;k* [GeV/c];cent9
+  hKstarME_lambda_he3_leftSB:
+    axis: *id023
+    title: ME lambda_he3_leftSB;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he3_leftSB:
+    xAxis: *id023
+    yAxis: *id003
+    title: ME lambda_he3_leftSB;k* [GeV/c];cent9
+  hKstarME_lambda_he3_rightSB:
+    axis: *id023
+    title: ME lambda_he3_rightSB;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he3_rightSB:
+    xAxis: *id023
+    yAxis: *id003
+    title: ME lambda_he3_rightSB;k* [GeV/c];cent9
+  hNucleus_PtVsYLab_he3:
+    xAxis: *id024
+    yAxis: *id011
+    type: TH2D
+    title: Selected he3 acceptance;y_{lab};p_{T} [GeV/c]
+  hKstarSE_lambda_he3_signalLow:
+    axis: *id023
+    title: SE lambda_he3 [-N#sigma, 0);k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he3_signalLow:
+    xAxis: *id023
+    yAxis: *id003
+    title: SE lambda_he3 [-N#sigma, 0);k* [GeV/c];cent9
+  hKstarME_lambda_he3_signalLow:
+    axis: *id023
+    title: ME lambda_he3 [-N#sigma, 0);k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he3_signalLow:
+    xAxis: *id023
+    yAxis: *id003
+    title: ME lambda_he3 [-N#sigma, 0);k* [GeV/c];cent9
+  hKstarSE_lambda_he3_signalHigh:
+    axis: *id023
+    title: SE lambda_he3 [0, +N#sigma];k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he3_signalHigh:
+    xAxis: *id023
+    yAxis: *id003
+    title: SE lambda_he3 [0, +N#sigma];k* [GeV/c];cent9
+  hKstarME_lambda_he3_signalHigh:
+    axis: *id023
+    title: ME lambda_he3 [0, +N#sigma];k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he3_signalHigh:
+    xAxis: *id023
+    yAxis: *id003
+    title: ME lambda_he3 [0, +N#sigma];k* [GeV/c];cent9
+  hKstarSE_lambda_he3_as_he4:
+    axis: *id023
+    title: SE lambda_he3_as_he4;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he3_as_he4:
+    xAxis: *id023
+    yAxis: *id003
+    title: SE lambda_he3_as_he4;k* [GeV/c];cent9
+  hKstarSE_lambda_he3_as_he4_signal:
+    axis: *id023
+    title: SE lambda_he3_as_he4_signal;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he3_as_he4_signal:
+    xAxis: *id023
+    yAxis: *id003
+    title: SE lambda_he3_as_he4_signal;k* [GeV/c];cent9
+  hKstarSE_lambda_he3_as_he4_leftSB:
+    axis: *id023
+    title: SE lambda_he3_as_he4_leftSB;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he3_as_he4_leftSB:
+    xAxis: *id023
+    yAxis: *id003
+    title: SE lambda_he3_as_he4_leftSB;k* [GeV/c];cent9
+  hKstarSE_lambda_he3_as_he4_rightSB:
+    axis: *id023
+    title: SE lambda_he3_as_he4_rightSB;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he3_as_he4_rightSB:
+    xAxis: *id023
+    yAxis: *id003
+    title: SE lambda_he3_as_he4_rightSB;k* [GeV/c];cent9
+  hKstarME_lambda_he3_as_he4:
+    axis: *id023
+    title: ME lambda_he3_as_he4;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he3_as_he4:
+    xAxis: *id023
+    yAxis: *id003
+    title: ME lambda_he3_as_he4;k* [GeV/c];cent9
+  hKstarME_lambda_he3_as_he4_signal:
+    axis: *id023
+    title: ME lambda_he3_as_he4_signal;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he3_as_he4_signal:
+    xAxis: *id023
+    yAxis: *id003
+    title: ME lambda_he3_as_he4_signal;k* [GeV/c];cent9
+  hKstarME_lambda_he3_as_he4_leftSB:
+    axis: *id023
+    title: ME lambda_he3_as_he4_leftSB;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he3_as_he4_leftSB:
+    xAxis: *id023
+    yAxis: *id003
+    title: ME lambda_he3_as_he4_leftSB;k* [GeV/c];cent9
+  hKstarME_lambda_he3_as_he4_rightSB:
+    axis: *id023
+    title: ME lambda_he3_as_he4_rightSB;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he3_as_he4_rightSB:
+    xAxis: *id023
+    yAxis: *id003
+    title: ME lambda_he3_as_he4_rightSB;k* [GeV/c];cent9
+  hNucleus_PtVsYLab_he3_as_he4:
+    xAxis: *id024
+    yAxis: *id011
+    type: TH2D
+    title: Selected he3 acceptance;y_{lab};p_{T} [GeV/c]
+  hKstarSE_lambda_he3_as_he4_signalLow:
+    axis: *id023
+    title: SE lambda_he3_as_he4 [-N#sigma, 0);k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he3_as_he4_signalLow:
+    xAxis: *id023
+    yAxis: *id003
+    title: SE lambda_he3_as_he4 [-N#sigma, 0);k* [GeV/c];cent9
+  hKstarME_lambda_he3_as_he4_signalLow:
+    axis: *id023
+    title: ME lambda_he3_as_he4 [-N#sigma, 0);k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he3_as_he4_signalLow:
+    xAxis: *id023
+    yAxis: *id003
+    title: ME lambda_he3_as_he4 [-N#sigma, 0);k* [GeV/c];cent9
+  hKstarSE_lambda_he3_as_he4_signalHigh:
+    axis: *id023
+    title: SE lambda_he3_as_he4 [0, +N#sigma];k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he3_as_he4_signalHigh:
+    xAxis: *id023
+    yAxis: *id003
+    title: SE lambda_he3_as_he4 [0, +N#sigma];k* [GeV/c];cent9
+  hKstarME_lambda_he3_as_he4_signalHigh:
+    axis: *id023
+    title: ME lambda_he3_as_he4 [0, +N#sigma];k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he3_as_he4_signalHigh:
+    xAxis: *id023
+    yAxis: *id003
+    title: ME lambda_he3_as_he4 [0, +N#sigma];k* [GeV/c];cent9
+  hLambda_BetaVsEta_signal:
+    xAxis: *id025
+    yAxis: *id026
+    type: TH2D
+    title: 'Signal #Lambda acceptance;#eta_{lab};#beta = |p|/E'
+  hLambda_BetaVsYLab_signal:
+    xAxis: *id024
+    yAxis: *id026
+    type: TH2D
+    title: 'Signal #Lambda acceptance;y_{lab};#beta = |p|/E'
+  hNucleus_BetaVsEta_he4:
+    xAxis: *id025
+    yAxis: *id026
+    type: TH2D
+    title: Selected ^{4}He acceptance;#eta_{lab};#beta = |p|/E
+  hNucleus_BetaVsYLab_he4:
+    xAxis: *id024
+    yAxis: *id026
+    type: TH2D
+    title: Selected ^{4}He acceptance;y_{lab};#beta = |p|/E
+  hNucleus_BetaVsEta_he4_lowR_noTof:
+    xAxis:
+      nBins: 200
+      min: -5.0
+      max: 5.0
+    yAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    type: TH2D
+    title: Selected ^{4}He acceptance (R < threshold; no TOF requirement);#eta_{lab};#beta
+      = |p|/E
+  hNucleus_BetaVsYLab_he4_lowR_noTof:
+    xAxis:
+      nBins: 200
+      min: -5.0
+      max: 5.0
+    yAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    type: TH2D
+    title: Selected ^{4}He acceptance (R < threshold; no TOF requirement);y_{lab};#beta
+      = |p|/E
+  hNucleus_PtVsYLab_he4_lowR_noTof:
+    xAxis:
+      nBins: 200
+      min: -5.0
+      max: 5.0
+    yAxis:
+      nBins: 200
+      min: 0.0
+      max: 10.0
+    type: TH2D
+    title: Selected he4 acceptance (R < threshold; no TOF requirement);y_{lab};p_{T}
+      [GeV/c]
+  hNucleus_BetaVsEta_he4_lowR_tofMatch:
+    xAxis:
+      nBins: 200
+      min: -5.0
+      max: 5.0
+    yAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    type: TH2D
+    title: Selected ^{4}He acceptance (R < threshold; valid TOF; no mass2 cut);#eta_{lab};#beta
+      = |p|/E
+  hNucleus_BetaVsYLab_he4_lowR_tofMatch:
+    xAxis:
+      nBins: 200
+      min: -5.0
+      max: 5.0
+    yAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    type: TH2D
+    title: Selected ^{4}He acceptance (R < threshold; valid TOF; no mass2 cut);y_{lab};#beta
+      = |p|/E
+  hNucleus_PtVsYLab_he4_lowR_tofMatch:
+    xAxis:
+      nBins: 200
+      min: -5.0
+      max: 5.0
+    yAxis:
+      nBins: 200
+      min: 0.0
+      max: 10.0
+    type: TH2D
+    title: Selected he4 acceptance (R < threshold; valid TOF; no mass2 cut);y_{lab};p_{T}
+      [GeV/c]
+  hNucleus_BetaVsEta_he4_lowR_tofM2:
+    xAxis:
+      nBins: 200
+      min: -5.0
+      max: 5.0
+    yAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    type: TH2D
+    title: Selected ^{4}He acceptance (R < threshold; valid TOF and He4 mass2 window);#eta_{lab};#beta
+      = |p|/E
+  hNucleus_BetaVsYLab_he4_lowR_tofM2:
+    xAxis:
+      nBins: 200
+      min: -5.0
+      max: 5.0
+    yAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    type: TH2D
+    title: Selected ^{4}He acceptance (R < threshold; valid TOF and He4 mass2 window);y_{lab};#beta
+      = |p|/E
+  hNucleus_PtVsYLab_he4_lowR_tofM2:
+    xAxis:
+      nBins: 200
+      min: -5.0
+      max: 5.0
+    yAxis:
+      nBins: 200
+      min: 0.0
+      max: 10.0
+    type: TH2D
+    title: Selected he4 acceptance (R < threshold; valid TOF and He4 mass2 window);y_{lab};p_{T}
+      [GeV/c]
+  hNucleus_BetaVsEta_he4_highR_tofM2:
+    xAxis:
+      nBins: 200
+      min: -5.0
+      max: 5.0
+    yAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    type: TH2D
+    title: Selected ^{4}He acceptance (R >= threshold; valid TOF and He4 mass2 window);#eta_{lab};#beta
+      = |p|/E
+  hNucleus_BetaVsYLab_he4_highR_tofM2:
+    xAxis:
+      nBins: 200
+      min: -5.0
+      max: 5.0
+    yAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    type: TH2D
+    title: Selected ^{4}He acceptance (R >= threshold; valid TOF and He4 mass2 window);y_{lab};#beta
+      = |p|/E
+  hNucleus_PtVsYLab_he4_highR_tofM2:
+    xAxis:
+      nBins: 200
+      min: -5.0
+      max: 5.0
+    yAxis:
+      nBins: 200
+      min: 0.0
+      max: 10.0
+    type: TH2D
+    title: Selected he4 acceptance (R >= threshold; valid TOF and He4 mass2 window);y_{lab};p_{T}
+      [GeV/c]
+  hEpdPsi1VsCent:
+    type: TH2D
+    xAxis: *id027
+    yAxis: *id003
+    title: Valid corrected EPD first-order plane;#Psi_{1} [rad];cent9
+  hEpdMixingBinVsCent:
+    type: TH2D
+    xAxis: *id028
+    yAxis: *id003
+    title: Valid Xialei EPD mixing class;EP bin;cent9
+  hEpdStatus:
+    type: TH1D
+    axis: *id029
+    title: EPD calculation status;Status code;Events
+  hKstarSE_lambda_he4_YLabBelow:
+    axis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    title: SE Lambda-He4, He4 y_{lab} < -0.5;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he4_YLabBelow:
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: SE Lambda-He4, He4 y_{lab} < -0.5;k* [GeV/c];cent9
+  hKstarSE_lambda_he4_YLabAbove:
+    axis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    title: SE Lambda-He4, He4 y_{lab} > -0.5;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he4_YLabAbove:
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: SE Lambda-He4, He4 y_{lab} > -0.5;k* [GeV/c];cent9
+  hKstarSE_lambda_he4_signal_YLabBelow:
+    axis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    title: SE Lambda-He4_signal, He4 y_{lab} < -0.5;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he4_signal_YLabBelow:
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: SE Lambda-He4_signal, He4 y_{lab} < -0.5;k* [GeV/c];cent9
+  hKstarSE_lambda_he4_signal_YLabAbove:
+    axis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    title: SE Lambda-He4_signal, He4 y_{lab} > -0.5;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he4_signal_YLabAbove:
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: SE Lambda-He4_signal, He4 y_{lab} > -0.5;k* [GeV/c];cent9
+  hKstarSE_lambda_he4_leftSB_YLabBelow:
+    axis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    title: SE Lambda-He4_leftSB, He4 y_{lab} < -0.5;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he4_leftSB_YLabBelow:
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: SE Lambda-He4_leftSB, He4 y_{lab} < -0.5;k* [GeV/c];cent9
+  hKstarSE_lambda_he4_leftSB_YLabAbove:
+    axis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    title: SE Lambda-He4_leftSB, He4 y_{lab} > -0.5;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he4_leftSB_YLabAbove:
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: SE Lambda-He4_leftSB, He4 y_{lab} > -0.5;k* [GeV/c];cent9
+  hKstarSE_lambda_he4_rightSB_YLabBelow:
+    axis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    title: SE Lambda-He4_rightSB, He4 y_{lab} < -0.5;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he4_rightSB_YLabBelow:
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: SE Lambda-He4_rightSB, He4 y_{lab} < -0.5;k* [GeV/c];cent9
+  hKstarSE_lambda_he4_rightSB_YLabAbove:
+    axis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    title: SE Lambda-He4_rightSB, He4 y_{lab} > -0.5;k* [GeV/c];Pairs
+  hKstarSEVsCent_lambda_he4_rightSB_YLabAbove:
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: SE Lambda-He4_rightSB, He4 y_{lab} > -0.5;k* [GeV/c];cent9
+  hKstarME_lambda_he4_YLabBelow:
+    axis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    title: ME Lambda-He4, He4 y_{lab} < -0.5;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he4_YLabBelow:
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: ME Lambda-He4, He4 y_{lab} < -0.5;k* [GeV/c];cent9
+  hKstarME_lambda_he4_YLabAbove:
+    axis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    title: ME Lambda-He4, He4 y_{lab} > -0.5;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he4_YLabAbove:
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: ME Lambda-He4, He4 y_{lab} > -0.5;k* [GeV/c];cent9
+  hKstarME_lambda_he4_signal_YLabBelow:
+    axis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    title: ME Lambda-He4_signal, He4 y_{lab} < -0.5;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he4_signal_YLabBelow:
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: ME Lambda-He4_signal, He4 y_{lab} < -0.5;k* [GeV/c];cent9
+  hKstarME_lambda_he4_signal_YLabAbove:
+    axis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    title: ME Lambda-He4_signal, He4 y_{lab} > -0.5;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he4_signal_YLabAbove:
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: ME Lambda-He4_signal, He4 y_{lab} > -0.5;k* [GeV/c];cent9
+  hKstarME_lambda_he4_leftSB_YLabBelow:
+    axis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    title: ME Lambda-He4_leftSB, He4 y_{lab} < -0.5;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he4_leftSB_YLabBelow:
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: ME Lambda-He4_leftSB, He4 y_{lab} < -0.5;k* [GeV/c];cent9
+  hKstarME_lambda_he4_leftSB_YLabAbove:
+    axis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    title: ME Lambda-He4_leftSB, He4 y_{lab} > -0.5;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he4_leftSB_YLabAbove:
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: ME Lambda-He4_leftSB, He4 y_{lab} > -0.5;k* [GeV/c];cent9
+  hKstarME_lambda_he4_rightSB_YLabBelow:
+    axis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    title: ME Lambda-He4_rightSB, He4 y_{lab} < -0.5;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he4_rightSB_YLabBelow:
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: ME Lambda-He4_rightSB, He4 y_{lab} < -0.5;k* [GeV/c];cent9
+  hKstarME_lambda_he4_rightSB_YLabAbove:
+    axis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    title: ME Lambda-He4_rightSB, He4 y_{lab} > -0.5;k* [GeV/c];Pairs
+  hKstarMEVsCent_lambda_he4_rightSB_YLabAbove:
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: ME Lambda-He4_rightSB, He4 y_{lab} > -0.5;k* [GeV/c];cent9
+  hKstarSEVsPairYVsCent_lambda_he4:
+    type: TH3D
+    xAxis: *id023
+    yAxis: *id030
+    zAxis: *id003
+    title: SE Lambda-He4, lab pair rapidity;k* [GeV/c];y_{pair,lab};cent9
+  hKstarSEVsPairYVsCent_lambda_he4_signal:
+    type: TH3D
+    xAxis: *id023
+    yAxis: *id030
+    zAxis: *id003
+    title: SE Lambda-He4_signal, lab pair rapidity;k* [GeV/c];y_{pair,lab};cent9
+  hKstarSEVsPairYVsCent_lambda_he4_leftSB:
+    type: TH3D
+    xAxis: *id023
+    yAxis: *id030
+    zAxis: *id003
+    title: SE Lambda-He4_leftSB, lab pair rapidity;k* [GeV/c];y_{pair,lab};cent9
+  hKstarSEVsPairYVsCent_lambda_he4_rightSB:
+    type: TH3D
+    xAxis: *id023
+    yAxis: *id030
+    zAxis: *id003
+    title: SE Lambda-He4_rightSB, lab pair rapidity;k* [GeV/c];y_{pair,lab};cent9
+  hKstarMEVsPairYVsCent_lambda_he4:
+    type: TH3D
+    xAxis: *id023
+    yAxis: *id030
+    zAxis: *id003
+    title: ME Lambda-He4, lab pair rapidity;k* [GeV/c];y_{pair,lab};cent9
+  hKstarMEVsPairYVsCent_lambda_he4_signal:
+    type: TH3D
+    xAxis: *id023
+    yAxis: *id030
+    zAxis: *id003
+    title: ME Lambda-He4_signal, lab pair rapidity;k* [GeV/c];y_{pair,lab};cent9
+  hKstarMEVsPairYVsCent_lambda_he4_leftSB:
+    type: TH3D
+    xAxis: *id023
+    yAxis: *id030
+    zAxis: *id003
+    title: ME Lambda-He4_leftSB, lab pair rapidity;k* [GeV/c];y_{pair,lab};cent9
+  hKstarMEVsPairYVsCent_lambda_he4_rightSB:
+    type: TH3D
+    xAxis: *id023
+    yAxis: *id030
+    zAxis: *id003
+    title: ME Lambda-He4_rightSB, lab pair rapidity;k* [GeV/c];y_{pair,lab};cent9
+  hKstarSEVsEpBinVsCent_lambda_he4:
+    type: TH3D
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 1
+      min: -0.5
+      max: 0.5
+    zAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: SE Lambda-He4, mixing EP class;k* [GeV/c];mixing EP class;cent9
+  hKstarSEVsEpBinVsCent_lambda_he4_signal:
+    type: TH3D
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 1
+      min: -0.5
+      max: 0.5
+    zAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: SE Lambda-He4_signal, mixing EP class;k* [GeV/c];mixing EP class;cent9
+  hKstarSEVsEpBinVsCent_lambda_he4_leftSB:
+    type: TH3D
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 1
+      min: -0.5
+      max: 0.5
+    zAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: SE Lambda-He4_leftSB, mixing EP class;k* [GeV/c];mixing EP class;cent9
+  hKstarSEVsEpBinVsCent_lambda_he4_rightSB:
+    type: TH3D
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 1
+      min: -0.5
+      max: 0.5
+    zAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: SE Lambda-He4_rightSB, mixing EP class;k* [GeV/c];mixing EP class;cent9
+  hKstarMEVsEpBinVsCent_lambda_he4:
+    type: TH3D
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 1
+      min: -0.5
+      max: 0.5
+    zAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: ME Lambda-He4, mixing EP class;k* [GeV/c];mixing EP class;cent9
+  hKstarMEVsEpBinVsCent_lambda_he4_signal:
+    type: TH3D
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 1
+      min: -0.5
+      max: 0.5
+    zAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: ME Lambda-He4_signal, mixing EP class;k* [GeV/c];mixing EP class;cent9
+  hKstarMEVsEpBinVsCent_lambda_he4_leftSB:
+    type: TH3D
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 1
+      min: -0.5
+      max: 0.5
+    zAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: ME Lambda-He4_leftSB, mixing EP class;k* [GeV/c];mixing EP class;cent9
+  hKstarMEVsEpBinVsCent_lambda_he4_rightSB:
+    type: TH3D
+    xAxis:
+      nBins: 200
+      min: 0.0
+      max: 1.0
+    yAxis:
+      nBins: 1
+      min: -0.5
+      max: 0.5
+    zAxis:
+      nBins: 9
+      min: -0.5
+      max: 8.5
+    title: ME Lambda-He4_rightSB, mixing EP class;k* [GeV/c];mixing EP class;cent9

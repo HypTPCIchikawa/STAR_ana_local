@@ -1,0 +1,2392 @@
+{
+  "schemaVersion": 1,
+  "sources": {
+    "fine": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/fine_extract/purity_fit_review.json",
+      "sha256": "fedcd7092d1ad228c4895e6308416a411696fbf1a145d68665a75f03759bcee9",
+      "bytes": 8524081
+    },
+    "grouped": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/purity_fit_review.json",
+      "sha256": "9b3df4de6a51db0d1ac90bc3a1fd5ab67bfe85a0c7351e861162cb9330e3c045",
+      "bytes": 5491558
+    },
+    "settings": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/purity_diagnostic_cases.yaml",
+      "sha256": "5ea7f7e599498c7a3210b656e138737f00e3b23d38eebe150d6ab2dce5e4e68c",
+      "bytes": 2561
+    }
+  },
+  "settings": {
+    "inspection_range": [
+      0.0,
+      0.3
+    ],
+    "mass_display_range": [
+      1.08,
+      1.15
+    ],
+    "model_warning_chi2_ndf": 3.0,
+    "fine_centrality_labels": {
+      "0": "70-80%",
+      "1": "60-70%",
+      "2": "50-60%",
+      "3": "40-50%",
+      "4": "30-40%",
+      "5": "20-30%",
+      "6": "10-20%",
+      "7": "5-10%",
+      "8": "0-5%"
+    },
+    "group_labels": {
+      "cent20_80": "20-80%",
+      "cent0_20": "0-20%",
+      "cent0_10": "0-10%",
+      "cent10_20": "10-20%",
+      "cent20_60": "20-60%"
+    },
+    "source_figures": {
+      "method3": {
+        "figure": 13,
+        "pdf": "kstar_cent_CFsub_method3_4He.pdf",
+        "page": 2
+      },
+      "method5": {
+        "figure": 14,
+        "pdf": "kstar_cent_CFsub_method5_4He.pdf",
+        "page": 2
+      }
+    },
+    "explicit_cases": [
+      {
+        "source": "grouped",
+        "method": "method5",
+        "group": "cent20_80",
+        "bin": 7,
+        "category": "normalization_failure"
+      }
+    ],
+    "selection_rules": [
+      {
+        "category": "method3_low_statistics_difference",
+        "method": "method3",
+        "count": 2,
+        "require_valid_se": true,
+        "require_valid_me": true,
+        "minimum_se_fit_count": null,
+        "maximum_se_fit_count": 500,
+        "minimum_abs_delta": 0.03,
+        "maximum_abs_delta": null,
+        "distinct_centralities": true,
+        "ranking": "largest_difference"
+      },
+      {
+        "category": "method3_high_statistics_agreement",
+        "method": "method3",
+        "count": 1,
+        "require_valid_se": true,
+        "require_valid_me": true,
+        "minimum_se_fit_count": 500,
+        "maximum_se_fit_count": null,
+        "minimum_abs_delta": null,
+        "maximum_abs_delta": 0.01,
+        "distinct_centralities": true,
+        "ranking": "smallest_difference"
+      },
+      {
+        "category": "method3_low_statistics_failure",
+        "method": "method3",
+        "count": 1,
+        "require_valid_se": false,
+        "require_valid_me": true,
+        "minimum_se_fit_count": 1,
+        "maximum_se_fit_count": 50,
+        "minimum_abs_delta": null,
+        "maximum_abs_delta": null,
+        "distinct_centralities": true,
+        "ranking": "largest_se_count"
+      },
+      {
+        "category": "method5_large_difference",
+        "method": "method5",
+        "count": 2,
+        "require_valid_se": true,
+        "require_valid_me": true,
+        "minimum_se_fit_count": null,
+        "maximum_se_fit_count": null,
+        "minimum_abs_delta": 0.02,
+        "maximum_abs_delta": null,
+        "distinct_centralities": true,
+        "ranking": "largest_difference"
+      },
+      {
+        "category": "method5_high_statistics_agreement",
+        "method": "method5",
+        "count": 2,
+        "require_valid_se": true,
+        "require_valid_me": true,
+        "minimum_se_fit_count": 1000,
+        "maximum_se_fit_count": null,
+        "minimum_abs_delta": null,
+        "maximum_abs_delta": 0.003,
+        "distinct_centralities": true,
+        "ranking": "smallest_difference"
+      },
+      {
+        "category": "method5_high_statistics_difference",
+        "method": "method5",
+        "count": 1,
+        "require_valid_se": true,
+        "require_valid_me": true,
+        "minimum_se_fit_count": 1000,
+        "maximum_se_fit_count": null,
+        "minimum_abs_delta": 0.005,
+        "maximum_abs_delta": null,
+        "distinct_centralities": true,
+        "ranking": "largest_difference"
+      }
+    ]
+  },
+  "figureReferences": {
+    "method3": {
+      "figure": 13,
+      "pdf": "kstar_cent_CFsub_method3_4He.pdf",
+      "page": 2
+    },
+    "method5": {
+      "figure": 14,
+      "pdf": "kstar_cent_CFsub_method5_4He.pdf",
+      "page": 2
+    }
+  },
+  "selectionAudit": [
+    {
+      "rule": {
+        "category": "method3_low_statistics_difference",
+        "method": "method3",
+        "count": 2,
+        "require_valid_se": true,
+        "require_valid_me": true,
+        "minimum_se_fit_count": null,
+        "maximum_se_fit_count": 500,
+        "minimum_abs_delta": 0.03,
+        "maximum_abs_delta": null,
+        "distinct_centralities": true,
+        "ranking": "largest_difference"
+      },
+      "eligibleCandidates": 24,
+      "selected": [
+        "method3_cent2_014",
+        "method3_cent3_008"
+      ],
+      "requested": 2,
+      "actual": 2,
+      "shortage": false
+    },
+    {
+      "rule": {
+        "category": "method3_high_statistics_agreement",
+        "method": "method3",
+        "count": 1,
+        "require_valid_se": true,
+        "require_valid_me": true,
+        "minimum_se_fit_count": 500,
+        "maximum_se_fit_count": null,
+        "minimum_abs_delta": null,
+        "maximum_abs_delta": 0.01,
+        "distinct_centralities": true,
+        "ranking": "smallest_difference"
+      },
+      "eligibleCandidates": 7,
+      "selected": [
+        "method3_cent8_004"
+      ],
+      "requested": 1,
+      "actual": 1,
+      "shortage": false
+    },
+    {
+      "rule": {
+        "category": "method3_low_statistics_failure",
+        "method": "method3",
+        "count": 1,
+        "require_valid_se": false,
+        "require_valid_me": true,
+        "minimum_se_fit_count": 1,
+        "maximum_se_fit_count": 50,
+        "minimum_abs_delta": null,
+        "maximum_abs_delta": null,
+        "distinct_centralities": true,
+        "ranking": "largest_se_count"
+      },
+      "eligibleCandidates": 34,
+      "selected": [
+        "method3_cent2_015"
+      ],
+      "requested": 1,
+      "actual": 1,
+      "shortage": false
+    },
+    {
+      "rule": {
+        "category": "method5_large_difference",
+        "method": "method5",
+        "count": 2,
+        "require_valid_se": true,
+        "require_valid_me": true,
+        "minimum_se_fit_count": null,
+        "maximum_se_fit_count": null,
+        "minimum_abs_delta": 0.02,
+        "maximum_abs_delta": null,
+        "distinct_centralities": true,
+        "ranking": "largest_difference"
+      },
+      "eligibleCandidates": 27,
+      "selected": [
+        "method5_cent1_006",
+        "method5_cent2_002"
+      ],
+      "requested": 2,
+      "actual": 2,
+      "shortage": false
+    },
+    {
+      "rule": {
+        "category": "method5_high_statistics_agreement",
+        "method": "method5",
+        "count": 2,
+        "require_valid_se": true,
+        "require_valid_me": true,
+        "minimum_se_fit_count": 1000,
+        "maximum_se_fit_count": null,
+        "minimum_abs_delta": null,
+        "maximum_abs_delta": 0.003,
+        "distinct_centralities": true,
+        "ranking": "smallest_difference"
+      },
+      "eligibleCandidates": 4,
+      "selected": [
+        "method5_cent8_006"
+      ],
+      "requested": 2,
+      "actual": 1,
+      "shortage": true
+    },
+    {
+      "rule": {
+        "category": "method5_high_statistics_difference",
+        "method": "method5",
+        "count": 1,
+        "require_valid_se": true,
+        "require_valid_me": true,
+        "minimum_se_fit_count": 1000,
+        "maximum_se_fit_count": null,
+        "minimum_abs_delta": 0.005,
+        "maximum_abs_delta": null,
+        "distinct_centralities": true,
+        "ranking": "largest_difference"
+      },
+      "eligibleCandidates": 20,
+      "selected": [
+        "method5_cent3_005"
+      ],
+      "requested": 1,
+      "actual": 1,
+      "shortage": false
+    }
+  ],
+  "cases": [
+    {
+      "id": "method5_cent20_80_007",
+      "method": "method5",
+      "group": "cent20_80",
+      "centLabel": "20-80%",
+      "centMin": 0,
+      "centMax": 5,
+      "bin": 7,
+      "low": 0.3,
+      "high": 0.35000000000000003,
+      "windowLow": 0.2,
+      "windowHigh": 0.45,
+      "sourceInput": "grouped",
+      "sourceFigure": null,
+      "puritySE": {
+        "value": 0.935015576970217,
+        "variance": 9.051755722135564e-07,
+        "error": 0.0009514071537536159
+      },
+      "purityME": null,
+      "purityDifference": null,
+      "absolutePurityDifference": null,
+      "SE": {
+        "storedMassObservations": 49176,
+        "fitRangeObservations": 30225,
+        "centralStoredMassObservations": 9998,
+        "centralFitRangeObservations": 6001,
+        "signalWindowCounts": 25682,
+        "centralSignalWindowCounts": 5105,
+        "purity": {
+          "value": 0.935015576970217,
+          "variance": 9.051755722135564e-07,
+          "error": 0.0009514071537536159
+        },
+        "fit": {
+          "status": 0,
+          "covarianceStatus": 3,
+          "isValid": true,
+          "numericallyValid": true,
+          "boundary": false,
+          "reason": "numerically_valid",
+          "chi2": 463.56604025717763,
+          "ndf": 64,
+          "probability": 6.3452144189071756e-62,
+          "observationsInStoredMassRange": 49176,
+          "parameters": [
+            7877.083193628055,
+            1.115803839377542,
+            0.0011856924031820862,
+            -1259.5992009523109,
+            6.896650484498986,
+            1079.5979308366432
+          ],
+          "covariance": [
+            [
+              4977.581008672744,
+              -2.3686968879536943e-05,
+              0.00035604559134114807,
+              -44.202661573980635,
+              20.826656889556386,
+              18.39046567607108
+            ],
+            [
+              -2.3686968879536943e-05,
+              6.436125479009436e-11,
+              -3.926995264121312e-12,
+              -1.623333205825679e-07,
+              2.1192856948497877e-06,
+              -1.8508859652662783e-06
+            ],
+            [
+              0.00035604559134114807,
+              -3.926995264121312e-12,
+              5.635259665982334e-11,
+              -1.2962444154225838e-05,
+              2.7058914483682934e-06,
+              8.635404965962974e-06
+            ],
+            [
+              -44.202661573980635,
+              -1.623333205825679e-07,
+              -1.2962444154225838e-05,
+              624.3584892672977,
+              9.74086420493525,
+              -526.8580634852639
+            ],
+            [
+              20.826656889556386,
+              2.1192856948497877e-06,
+              2.7058914483682934e-06,
+              9.74086420493525,
+              0.813220821447356,
+              -8.822655794592286
+            ],
+            [
+              18.39046567607108,
+              -1.8508859652662783e-06,
+              8.635404965962974e-06,
+              -526.8580634852639,
+              -8.822655794592286,
+              445.65133079169055
+            ]
+          ],
+          "chi2PerNdf": 7.2432193790184005,
+          "modelWarning": true
+        },
+        "validityReason": "numerically_valid",
+        "fullValidity": true
+      },
+      "ME": {
+        "storedMassObservations": 2034926,
+        "fitRangeObservations": 1130197,
+        "centralStoredMassObservations": 411096,
+        "centralFitRangeObservations": 219597,
+        "signalWindowCounts": 920637,
+        "centralSignalWindowCounts": 177922,
+        "purity": null,
+        "fit": {
+          "status": 4,
+          "covarianceStatus": 2,
+          "isValid": false,
+          "numericallyValid": false,
+          "boundary": false,
+          "reason": "invalid_fit_or_covariance",
+          "chi2": 35680.41425795274,
+          "ndf": 64,
+          "probability": 0,
+          "observationsInStoredMassRange": 2034926,
+          "parameters": [
+            302390.0735101132,
+            1.1157468910869444,
+            0.001038836903985834,
+            -71874.30977281934,
+            309.2944178773504,
+            61469.229153262575
+          ],
+          "covariance": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "chi2PerNdf": 557.5064727805116,
+          "modelWarning": true
+        },
+        "validityReason": "invalid_fit_or_covariance",
+        "fullValidity": false
+      },
+      "shapeComparison": {
+        "fitWindow": {
+          "available": true,
+          "normalizationSE": 30225,
+          "normalizationME": 1130197,
+          "diagonalChi2": 480.690868754626,
+          "comparedBins": 70,
+          "descriptiveNdf": 69,
+          "diagonalChi2PerNdf": 6.966534329777189,
+          "totalVariation": 0.044137787867286116,
+          "maximumAbsoluteBinDifference": 0.017572339886757993,
+          "caveat": "Fixed-scale diagonal diagnostic only; normalization covariance and event/mixed-pair correlations are omitted. No formal p value is assigned."
+        },
+        "centralCell": {
+          "available": true,
+          "normalizationSE": 6001,
+          "normalizationME": 219597,
+          "diagonalChi2": 262.9117063251425,
+          "comparedBins": 70,
+          "descriptiveNdf": 69,
+          "diagonalChi2PerNdf": 3.8103145844223554,
+          "totalVariation": 0.05478906624818729,
+          "maximumAbsoluteBinDifference": 0.025842558604821625,
+          "caveat": "Fixed-scale diagonal diagnostic only; normalization covariance and event/mixed-pair correlations are omitted. No formal p value is assigned."
+        }
+      },
+      "category": "normalization_failure",
+      "page": 1,
+      "interpretation": "The ME purity is unavailable. If this cell contributes to normalization, complete-normalization rules mask the entire CF. SE has chi2/ndf=7.243: numerical convergence or purity agreement alone does not establish a suitable mass model. ME has chi2/ndf=557.5: numerical convergence or purity agreement alone does not establish a suitable mass model. Method5 fits the neighboring-cell window, not only the central 50-MeV cell; assess its fit-window statistics separately from central-cell statistics. Normalized-shape agreement and fitted-purity agreement are different diagnostics; this example alone does not establish a unique cause or a total purity uncertainty."
+    },
+    {
+      "id": "method3_cent2_014",
+      "method": "method3",
+      "group": "cent2",
+      "centLabel": "50-60%",
+      "centMin": 2,
+      "centMax": 2,
+      "bin": 14,
+      "low": 0.26,
+      "high": 0.28,
+      "windowLow": 0.26,
+      "windowHigh": 0.28,
+      "sourceInput": "fine",
+      "sourceFigure": {
+        "figure": 13,
+        "pdf": "kstar_cent_CFsub_method3_4He.pdf",
+        "page": 2
+      },
+      "puritySE": {
+        "value": 0.010405746306087038,
+        "variance": 0.178918846858105,
+        "error": 0.4229879984799864
+      },
+      "purityME": {
+        "value": 0.7769727786590901,
+        "variance": 0.00012948336334436063,
+        "error": 0.011379075680579711
+      },
+      "purityDifference": -0.766567032353003,
+      "absolutePurityDifference": 0.766567032353003,
+      "SE": {
+        "storedMassObservations": 67,
+        "fitRangeObservations": 27,
+        "centralStoredMassObservations": 67,
+        "centralFitRangeObservations": 27,
+        "signalWindowCounts": 18,
+        "centralSignalWindowCounts": 18,
+        "purity": {
+          "value": 0.010405746306087038,
+          "variance": 0.178918846858105,
+          "error": 0.4229879984799864
+        },
+        "fit": {
+          "status": 0,
+          "covarianceStatus": 2,
+          "isValid": true,
+          "numericallyValid": true,
+          "boundary": true,
+          "reason": "numerically_valid_boundary_warning",
+          "chi2": 2.136985380011162,
+          "ndf": 7,
+          "probability": 0.9518708399569613,
+          "observationsInStoredMassRange": 67,
+          "parameters": [
+            4.7743101822783105,
+            1.1154884907484386,
+            0.0010000000029799815,
+            -2.074327758001319,
+            0.31064463667747966,
+            2.18167778858737
+          ],
+          "covariance": [
+            [
+              2.997130861177811,
+              -1.834926955172732e-05,
+              -4.406070673586418e-11,
+              -0.7128564821835641,
+              -0.05533718754758506,
+              0.4630270466376941
+            ],
+            [
+              -1.834926955172732e-05,
+              1.8244762368853225e-07,
+              1.551465520179518e-14,
+              9.27554659890416e-05,
+              5.694116307655227e-06,
+              -6.251195877006858e-05
+            ],
+            [
+              -4.406070673586418e-11,
+              1.551465520179518e-14,
+              1.7251617683824446e-14,
+              -8.410757407173101e-12,
+              -6.320063733067945e-13,
+              5.362158185617496e-12
+            ],
+            [
+              -0.7128564821835641,
+              9.27554659890416e-05,
+              -8.410757407173101e-12,
+              20.501219964206378,
+              -9.68675419339156,
+              -7.43677545206683
+            ],
+            [
+              -0.05533718754758506,
+              5.694116307655227e-06,
+              -6.320063733067945e-13,
+              -9.68675419339156,
+              17.22827559009299,
+              -7.631646024756664
+            ],
+            [
+              0.4630270466376941,
+              -6.251195877006858e-05,
+              5.362158185617496e-12,
+              -7.43677545206683,
+              -7.631646024756664,
+              12.588205126059528
+            ]
+          ],
+          "chi2PerNdf": 0.30528362571588025,
+          "modelWarning": false
+        },
+        "validityReason": "numerically_valid_boundary_warning",
+        "fullValidity": true
+      },
+      "ME": {
+        "storedMassObservations": 4666,
+        "fitRangeObservations": 1489,
+        "centralStoredMassObservations": 4666,
+        "centralFitRangeObservations": 1489,
+        "signalWindowCounts": 894,
+        "centralSignalWindowCounts": 894,
+        "purity": {
+          "value": 0.7769727786590901,
+          "variance": 0.00012948336334436063,
+          "error": 0.011379075680579711
+        },
+        "fit": {
+          "status": 0,
+          "covarianceStatus": 3,
+          "isValid": true,
+          "numericallyValid": true,
+          "boundary": false,
+          "reason": "numerically_valid",
+          "chi2": 70.94092924190471,
+          "ndf": 61,
+          "probability": 0.18011584846574946,
+          "observationsInStoredMassRange": 4666,
+          "parameters": [
+            205.08049351732112,
+            1.115907851597233,
+            0.0012926404006279187,
+            -165.4820194443664,
+            0.7547530467111548,
+            141.08320523376761
+          ],
+          "covariance": [
+            [
+              126.42386134880157,
+              -4.912689172627498e-05,
+              -0.000422145561051616,
+              -1.4438795106257756,
+              0.025848458722836334,
+              1.1967094250704884
+            ],
+            [
+              -4.912689172627498e-05,
+              3.2592500599170075e-09,
+              4.401812940533108e-10,
+              9.95636696832791e-06,
+              2.3430640398223782e-07,
+              -8.518448527158835e-06
+            ],
+            [
+              -0.000422145561051616,
+              4.401812940533108e-10,
+              3.4159498457916896e-09,
+              4.7751213671438965e-05,
+              -2.7699067781766924e-07,
+              -4.061217696124432e-05
+            ],
+            [
+              -1.4438795106257756,
+              9.95636696832791e-06,
+              4.7751213671438965e-05,
+              86.52609165031922,
+              0.4856172090997214,
+              -72.04356331911205
+            ],
+            [
+              0.025848458722836334,
+              2.3430640398223782e-07,
+              -2.7699067781766924e-07,
+              0.4856172090997214,
+              0.06394571208113155,
+              -0.4359422790975053
+            ],
+            [
+              1.1967094250704884,
+              -8.518448527158835e-06,
+              -4.061217696124432e-05,
+              -72.04356331911205,
+              -0.4359422790975053,
+              60.05724723530386
+            ]
+          ],
+          "chi2PerNdf": 1.162966053145979,
+          "modelWarning": false
+        },
+        "validityReason": "numerically_valid",
+        "fullValidity": true
+      },
+      "shapeComparison": {
+        "fitWindow": {
+          "available": true,
+          "normalizationSE": 27,
+          "normalizationME": 1489,
+          "diagonalChi2": 739.2954877263779,
+          "comparedBins": 67,
+          "descriptiveNdf": 66,
+          "diagonalChi2PerNdf": 11.201446783733,
+          "totalVariation": 0.4909335124244459,
+          "maximumAbsoluteBinDifference": 0.14498917991194687,
+          "caveat": "Fixed-scale diagonal diagnostic only; normalization covariance and event/mixed-pair correlations are omitted. No formal p value is assigned."
+        },
+        "centralCell": {
+          "available": true,
+          "normalizationSE": 27,
+          "normalizationME": 1489,
+          "diagonalChi2": 739.2954877263779,
+          "comparedBins": 67,
+          "descriptiveNdf": 66,
+          "diagonalChi2PerNdf": 11.201446783733,
+          "totalVariation": 0.4909335124244459,
+          "maximumAbsoluteBinDifference": 0.14498917991194687,
+          "caveat": "Fixed-scale diagonal diagnostic only; normalization covariance and event/mixed-pair correlations are omitted. No formal p value is assigned."
+        }
+      },
+      "category": "method3_low_statistics_difference",
+      "page": 2,
+      "interpretation": "The displayed SE-minus-ME purity difference is -0.766567. SE has a fitted parameter at a configured bound. Normalized-shape agreement and fitted-purity agreement are different diagnostics; this example alone does not establish a unique cause or a total purity uncertainty."
+    },
+    {
+      "id": "method3_cent3_008",
+      "method": "method3",
+      "group": "cent3",
+      "centLabel": "40-50%",
+      "centMin": 3,
+      "centMax": 3,
+      "bin": 8,
+      "low": 0.14,
+      "high": 0.16,
+      "windowLow": 0.14,
+      "windowHigh": 0.16,
+      "sourceInput": "fine",
+      "sourceFigure": {
+        "figure": 13,
+        "pdf": "kstar_cent_CFsub_method3_4He.pdf",
+        "page": 2
+      },
+      "puritySE": {
+        "value": 0.1849502950425137,
+        "variance": 0.10704699291324794,
+        "error": 0.32718036755472957
+      },
+      "purityME": {
+        "value": 0.8071056535486834,
+        "variance": 9.940416850293414e-05,
+        "error": 0.009970163915549942
+      },
+      "purityDifference": -0.6221553585061697,
+      "absolutePurityDifference": 0.6221553585061697,
+      "SE": {
+        "storedMassObservations": 73,
+        "fitRangeObservations": 28,
+        "centralStoredMassObservations": 73,
+        "centralFitRangeObservations": 28,
+        "signalWindowCounts": 22,
+        "centralSignalWindowCounts": 22,
+        "purity": {
+          "value": 0.1849502950425137,
+          "variance": 0.10704699291324794,
+          "error": 0.32718036755472957
+        },
+        "fit": {
+          "status": 0,
+          "covarianceStatus": 2,
+          "isValid": true,
+          "numericallyValid": true,
+          "boundary": false,
+          "reason": "numerically_valid",
+          "chi2": 2.032889011232476,
+          "ndf": 9,
+          "probability": 0.9909367573598417,
+          "observationsInStoredMassRange": 73,
+          "parameters": [
+            3.501491718080195,
+            1.1154255628915837,
+            0.001399652171675454,
+            -1.3596177046548863,
+            0.3002656177233937,
+            1.6224172765828866
+          ],
+          "covariance": [
+            [
+              2.227459429413643,
+              -0.0002690849508653438,
+              -0.00026516442226793896,
+              -0.13649401790777163,
+              -0.026897558765020722,
+              0.0629999699677087
+            ],
+            [
+              -0.0002690849508653438,
+              5.353257507570307e-07,
+              6.022424113323696e-08,
+              2.9139615220481052e-05,
+              -6.945650972208266e-06,
+              -3.4765344029791597e-05
+            ],
+            [
+              -0.00026516442226793896,
+              6.022424113323696e-08,
+              2.5671277145426723e-07,
+              -6.51968921374608e-05,
+              -1.920356390009366e-05,
+              1.9307401948435534e-05
+            ],
+            [
+              -0.13649401790777163,
+              2.9139615220481052e-05,
+              -6.51968921374608e-05,
+              15.67814269495385,
+              -7.334675216689079,
+              -5.91235500591887
+            ],
+            [
+              -0.026897558765020722,
+              -6.945650972208266e-06,
+              -1.920356390009366e-05,
+              -7.334675216689079,
+              13.14582701714061,
+              -5.86196430800341
+            ],
+            [
+              0.0629999699677087,
+              -3.4765344029791597e-05,
+              1.9307401948435534e-05,
+              -5.91235500591887,
+              -5.86196430800341,
+              9.965242020240431
+            ]
+          ],
+          "chi2PerNdf": 0.2258765568036084,
+          "modelWarning": false
+        },
+        "validityReason": "numerically_valid",
+        "fullValidity": true
+      },
+      "ME": {
+        "storedMassObservations": 3555,
+        "fitRangeObservations": 1550,
+        "centralStoredMassObservations": 3555,
+        "centralFitRangeObservations": 1550,
+        "signalWindowCounts": 977,
+        "centralSignalWindowCounts": 977,
+        "purity": {
+          "value": 0.8071056535486834,
+          "variance": 9.940416850293414e-05,
+          "error": 0.009970163915549942
+        },
+        "fit": {
+          "status": 0,
+          "covarianceStatus": 3,
+          "isValid": true,
+          "numericallyValid": true,
+          "boundary": false,
+          "reason": "numerically_valid",
+          "chi2": 105.7025616083107,
+          "ndf": 59,
+          "probability": 0.00018173195040416772,
+          "observationsInStoredMassRange": 3555,
+          "parameters": [
+            228.36571058397416,
+            1.1158448389143956,
+            0.0012868395182589166,
+            -142.85269280996843,
+            1.3113584240868592,
+            121.92787318651618
+          ],
+          "covariance": [
+            [
+              143.44816909022464,
+              -1.2932845792372802e-05,
+              -0.000395636041395368,
+              -5.772209653382573,
+              -0.5798531699120629,
+              5.388352435246508
+            ],
+            [
+              -1.2932845792372802e-05,
+              2.786081647800745e-09,
+              7.469843055489512e-11,
+              8.28602408986291e-06,
+              4.782873445586024e-06,
+              -1.1252467921757536e-05
+            ],
+            [
+              -0.000395636041395368,
+              7.469843055489512e-11,
+              2.4811227393391927e-09,
+              4.8110567334433974e-05,
+              -3.349811168749983e-07,
+              -4.095654038437923e-05
+            ],
+            [
+              -5.772209653382573,
+              8.28602408986291e-06,
+              4.8110567334433974e-05,
+              85.51090887957007,
+              -0.5089291910797644,
+              -70.12059695282616
+            ],
+            [
+              -0.5798531699120629,
+              4.782873445586024e-06,
+              -3.349811168749983e-07,
+              -0.5089291910797644,
+              0.10780028392496963,
+              0.3552777947583536
+            ],
+            [
+              5.388352435246508,
+              -1.1252467921757536e-05,
+              -4.095654038437923e-05,
+              -70.12059695282616,
+              0.3552777947583536,
+              57.600687552387875
+            ]
+          ],
+          "chi2PerNdf": 1.7915688408188255,
+          "modelWarning": false
+        },
+        "validityReason": "numerically_valid",
+        "fullValidity": true
+      },
+      "shapeComparison": {
+        "fitWindow": {
+          "available": true,
+          "normalizationSE": 28,
+          "normalizationME": 1550,
+          "diagonalChi2": 659.6809376150304,
+          "comparedBins": 65,
+          "descriptiveNdf": 64,
+          "diagonalChi2PerNdf": 10.30751465023485,
+          "totalVariation": 0.4622580645161291,
+          "maximumAbsoluteBinDifference": 0.08824884792626729,
+          "caveat": "Fixed-scale diagonal diagnostic only; normalization covariance and event/mixed-pair correlations are omitted. No formal p value is assigned."
+        },
+        "centralCell": {
+          "available": true,
+          "normalizationSE": 28,
+          "normalizationME": 1550,
+          "diagonalChi2": 659.6809376150304,
+          "comparedBins": 65,
+          "descriptiveNdf": 64,
+          "diagonalChi2PerNdf": 10.30751465023485,
+          "totalVariation": 0.4622580645161291,
+          "maximumAbsoluteBinDifference": 0.08824884792626729,
+          "caveat": "Fixed-scale diagonal diagnostic only; normalization covariance and event/mixed-pair correlations are omitted. No formal p value is assigned."
+        }
+      },
+      "category": "method3_low_statistics_difference",
+      "page": 3,
+      "interpretation": "The displayed SE-minus-ME purity difference is -0.622155. Normalized-shape agreement and fitted-purity agreement are different diagnostics; this example alone does not establish a unique cause or a total purity uncertainty."
+    },
+    {
+      "id": "method3_cent8_004",
+      "method": "method3",
+      "group": "cent8",
+      "centLabel": "0-5%",
+      "centMin": 8,
+      "centMax": 8,
+      "bin": 4,
+      "low": 0.06,
+      "high": 0.08,
+      "windowLow": 0.06,
+      "windowHigh": 0.08,
+      "sourceInput": "fine",
+      "sourceFigure": {
+        "figure": 13,
+        "pdf": "kstar_cent_CFsub_method3_4He.pdf",
+        "page": 2
+      },
+      "puritySE": {
+        "value": 0.9254701011135879,
+        "variance": 8.039326016331433e-05,
+        "error": 0.008966228870785886
+      },
+      "purityME": {
+        "value": 0.9278419297919531,
+        "variance": 8.610359585848253e-07,
+        "error": 0.0009279202328782498
+      },
+      "purityDifference": -0.002371828678365273,
+      "absolutePurityDifference": 0.002371828678365273,
+      "SE": {
+        "storedMassObservations": 647,
+        "fitRangeObservations": 524,
+        "centralStoredMassObservations": 647,
+        "centralFitRangeObservations": 524,
+        "signalWindowCounts": 433,
+        "centralSignalWindowCounts": 433,
+        "purity": {
+          "value": 0.9254701011135879,
+          "variance": 8.039326016331433e-05,
+          "error": 0.008966228870785886
+        },
+        "fit": {
+          "status": 0,
+          "covarianceStatus": 2,
+          "isValid": true,
+          "numericallyValid": true,
+          "boundary": false,
+          "reason": "numerically_valid",
+          "chi2": 33.83102411977623,
+          "ndf": 48,
+          "probability": 0.9393654418906269,
+          "observationsInStoredMassRange": 647,
+          "parameters": [
+            131.95160975106583,
+            1.1158717564278404,
+            0.0011823057262389958,
+            -3.7399398337750864,
+            0.5667803192428168,
+            3.9344343686040895
+          ],
+          "covariance": [
+            [
+              73.08445626904658,
+              6.003924597026623e-06,
+              -0.00026241399735604435,
+              0.03971719572310382,
+              0.009282984750225844,
+              -0.017128312589553805
+            ],
+            [
+              6.003924597026623e-06,
+              3.92147515680506e-09,
+              -6.34474109081532e-11,
+              8.180901394024739e-07,
+              2.0629294146107046e-08,
+              -6.16462467107835e-07
+            ],
+            [
+              -0.00026241399735604435,
+              -6.34474109081532e-11,
+              2.54023922503627e-09,
+              -1.4510595886898038e-06,
+              -3.6870358489350556e-07,
+              5.843453026536893e-07
+            ],
+            [
+              0.03971719572310382,
+              8.180901394024739e-07,
+              -1.4510595886898038e-06,
+              7.375221470548724,
+              -3.7618589068854114,
+              -2.513179374318119
+            ],
+            [
+              0.009282984750225844,
+              2.0629294146107046e-08,
+              -3.6870358489350556e-07,
+              -3.7618589068854114,
+              6.732525353109948,
+              -3.0020245502530796
+            ],
+            [
+              -0.017128312589553805,
+              -6.16462467107835e-07,
+              5.843453026536893e-07,
+              -2.513179374318119,
+              -3.0020245502530796,
+              4.693641632250242
+            ]
+          ],
+          "chi2PerNdf": 0.7048130024953382,
+          "modelWarning": false
+        },
+        "validityReason": "numerically_valid",
+        "fullValidity": true
+      },
+      "ME": {
+        "storedMassObservations": 22887,
+        "fitRangeObservations": 17531,
+        "centralStoredMassObservations": 22887,
+        "centralFitRangeObservations": 17531,
+        "signalWindowCounts": 15150,
+        "centralSignalWindowCounts": 15150,
+        "purity": {
+          "value": 0.9278419297919531,
+          "variance": 8.610359585848253e-07,
+          "error": 0.0009279202328782498
+        },
+        "fit": {
+          "status": 0,
+          "covarianceStatus": 2,
+          "isValid": true,
+          "numericallyValid": true,
+          "boundary": false,
+          "reason": "numerically_valid",
+          "chi2": 241.15847602176095,
+          "ndf": 64,
+          "probability": 2.317221325981376e-22,
+          "observationsInStoredMassRange": 22887,
+          "parameters": [
+            4496.29203572004,
+            1.1157971425208557,
+            0.0012241328509857213,
+            -33286.476392995166,
+            58858.254952021794,
+            -25964.708543622073
+          ],
+          "covariance": [
+            [
+              2646.799035691829,
+              1.02756857920037e-05,
+              -0.0003293010101636464,
+              -1.556382468142383,
+              0.0848692168918003,
+              1.4641159458201278
+            ],
+            [
+              1.02756857920037e-05,
+              1.178389790324374e-10,
+              -2.7141791661300982e-12,
+              1.332538269536405e-07,
+              3.184018563542946e-09,
+              -1.1126486114947659e-07
+            ],
+            [
+              -0.0003293010101636464,
+              -2.7141791661300982e-12,
+              9.512714202560723e-11,
+              1.45555518723378e-06,
+              -7.946920950032392e-08,
+              -1.3686677497807015e-06
+            ],
+            [
+              -1.556382468142383,
+              1.332538269536405e-07,
+              1.45555518723378e-06,
+              55.35075595347214,
+              -28.590536794977407,
+              -20.100629949210916
+            ],
+            [
+              0.0848692168918003,
+              3.184018563542946e-09,
+              -7.946920950032392e-08,
+              -28.590536794977407,
+              52.27925100469488,
+              -23.82016625061396
+            ],
+            [
+              1.4641159458201278,
+              -1.1126486114947659e-07,
+              -1.3686677497807015e-06,
+              -20.100629949210916,
+              -23.82016625061396,
+              38.68316576986937
+            ]
+          ],
+          "chi2PerNdf": 3.768101187840015,
+          "modelWarning": true
+        },
+        "validityReason": "numerically_valid",
+        "fullValidity": true
+      },
+      "shapeComparison": {
+        "fitWindow": {
+          "available": true,
+          "normalizationSE": 524,
+          "normalizationME": 17531,
+          "diagonalChi2": 472.83324917214793,
+          "comparedBins": 70,
+          "descriptiveNdf": 69,
+          "diagonalChi2PerNdf": 6.852655785103593,
+          "totalVariation": 0.11625164757217421,
+          "maximumAbsoluteBinDifference": 0.04817953888444504,
+          "caveat": "Fixed-scale diagonal diagnostic only; normalization covariance and event/mixed-pair correlations are omitted. No formal p value is assigned."
+        },
+        "centralCell": {
+          "available": true,
+          "normalizationSE": 524,
+          "normalizationME": 17531,
+          "diagonalChi2": 472.83324917214793,
+          "comparedBins": 70,
+          "descriptiveNdf": 69,
+          "diagonalChi2PerNdf": 6.852655785103593,
+          "totalVariation": 0.11625164757217421,
+          "maximumAbsoluteBinDifference": 0.04817953888444504,
+          "caveat": "Fixed-scale diagonal diagnostic only; normalization covariance and event/mixed-pair correlations are omitted. No formal p value is assigned."
+        }
+      },
+      "category": "method3_high_statistics_agreement",
+      "page": 4,
+      "interpretation": "The displayed SE-minus-ME purity difference is -0.00237183. ME has chi2/ndf=3.768: numerical convergence or purity agreement alone does not establish a suitable mass model. Normalized-shape agreement and fitted-purity agreement are different diagnostics; this example alone does not establish a unique cause or a total purity uncertainty."
+    },
+    {
+      "id": "method3_cent2_015",
+      "method": "method3",
+      "group": "cent2",
+      "centLabel": "50-60%",
+      "centMin": 2,
+      "centMax": 2,
+      "bin": 15,
+      "low": 0.28,
+      "high": 0.3,
+      "windowLow": 0.28,
+      "windowHigh": 0.3,
+      "sourceInput": "fine",
+      "sourceFigure": {
+        "figure": 13,
+        "pdf": "kstar_cent_CFsub_method3_4He.pdf",
+        "page": 2
+      },
+      "puritySE": null,
+      "purityME": {
+        "value": 0.791408927731313,
+        "variance": 0.00011135661689531097,
+        "error": 0.010552564470085504
+      },
+      "purityDifference": null,
+      "absolutePurityDifference": null,
+      "SE": {
+        "storedMassObservations": 58,
+        "fitRangeObservations": 26,
+        "centralStoredMassObservations": 58,
+        "centralFitRangeObservations": 26,
+        "signalWindowCounts": 11,
+        "centralSignalWindowCounts": 11,
+        "purity": null,
+        "fit": {
+          "status": 0,
+          "covarianceStatus": 2,
+          "isValid": true,
+          "numericallyValid": true,
+          "boundary": true,
+          "reason": "numerically_valid_boundary_warning",
+          "chi2": 1.1466117278590302,
+          "ndf": 14,
+          "probability": 0.9999975492086904,
+          "observationsInStoredMassRange": 58,
+          "parameters": [
+            2.421272527220327,
+            1.1162729930816266,
+            0.001000000000402824,
+            0.6703299118017555,
+            0.3001962631743553,
+            -0.00036662376114185435
+          ],
+          "covariance": [
+            [
+              2.2691489814417682,
+              0.0002851186471603738,
+              -5.285900370424111e-12,
+              -0.13878787982564708,
+              -0.023471195745590326,
+              0.07234626916137582
+            ],
+            [
+              0.0002851186471603738,
+              6.004842412810717e-07,
+              1.430219736829093e-14,
+              6.632785488359624e-05,
+              8.6065291437547e-06,
+              -3.8632575932059936e-05
+            ],
+            [
+              -5.285900370424111e-12,
+              1.430219736829093e-14,
+              1.786848919184408e-15,
+              1.2525471516432443e-13,
+              3.313809123212687e-14,
+              -9.690056098271444e-14
+            ],
+            [
+              -0.13878787982564708,
+              6.632785488359624e-05,
+              1.2525471516432443e-13,
+              10.518041935905055,
+              -5.186571363439592,
+              -3.707364216669751
+            ],
+            [
+              -0.023471195745590326,
+              8.6065291437547e-06,
+              3.313809123212687e-14,
+              -5.186571363439592,
+              9.266514067265947,
+              -4.12370148344109
+            ],
+            [
+              0.07234626916137582,
+              -3.8632575932059936e-05,
+              -9.690056098271444e-14,
+              -3.707364216669751,
+              -4.12370148344109,
+              6.624643185377447
+            ]
+          ],
+          "chi2PerNdf": 0.08190083770421644,
+          "modelWarning": false
+        },
+        "validityReason": "numerically_valid_boundary_warning",
+        "fullValidity": false
+      },
+      "ME": {
+        "storedMassObservations": 4957,
+        "fitRangeObservations": 1539,
+        "centralStoredMassObservations": 4957,
+        "centralFitRangeObservations": 1539,
+        "signalWindowCounts": 942,
+        "centralSignalWindowCounts": 942,
+        "purity": {
+          "value": 0.791408927731313,
+          "variance": 0.00011135661689531097,
+          "error": 0.010552564470085504
+        },
+        "fit": {
+          "status": 0,
+          "covarianceStatus": 3,
+          "isValid": true,
+          "numericallyValid": true,
+          "boundary": false,
+          "reason": "numerically_valid",
+          "chi2": 92.26020337156018,
+          "ndf": 59,
+          "probability": 0.0036542394308363042,
+          "observationsInStoredMassRange": 4957,
+          "parameters": [
+            224.93495397248338,
+            1.1157222696693812,
+            0.0012496844215597104,
+            -174.3795340230877,
+            0.5422593852476636,
+            148.28836577018387
+          ],
+          "covariance": [
+            [
+              137.20652632252865,
+              -6.711038748453837e-05,
+              -0.0004218560571605749,
+              -2.2800038062060985,
+              0.017171816986801022,
+              1.9793654904463969
+            ],
+            [
+              -6.711038748453837e-05,
+              2.7544877773051933e-09,
+              3.484608036224384e-10,
+              8.924773858270199e-06,
+              1.7532851113321308e-07,
+              -7.544625355359337e-06
+            ],
+            [
+              -0.0004218560571605749,
+              3.484608036224384e-10,
+              2.7887625007205353e-09,
+              4.556601955750545e-05,
+              -2.087027701012605e-07,
+              -3.886734969658973e-05
+            ],
+            [
+              -2.2800038062060985,
+              8.924773858270199e-06,
+              4.556601955750545e-05,
+              87.12979980401661,
+              0.5196054165073072,
+              -72.56758916535593
+            ],
+            [
+              0.017171816986801022,
+              1.7532851113321308e-07,
+              -2.087027701012605e-07,
+              0.5196054165073072,
+              0.06164721118247937,
+              -0.46298248899435707
+            ],
+            [
+              1.9793654904463969,
+              -7.544625355359337e-06,
+              -3.886734969658973e-05,
+              -72.56758916535593,
+              -0.46298248899435707,
+              60.50857617948123
+            ]
+          ],
+          "chi2PerNdf": 1.5637322605349182,
+          "modelWarning": false
+        },
+        "validityReason": "numerically_valid",
+        "fullValidity": true
+      },
+      "shapeComparison": {
+        "fitWindow": {
+          "available": true,
+          "normalizationSE": 26,
+          "normalizationME": 1539,
+          "diagonalChi2": 689.4245173284646,
+          "comparedBins": 65,
+          "descriptiveNdf": 64,
+          "diagonalChi2PerNdf": 10.77225808325726,
+          "totalVariation": 0.5149197780776725,
+          "maximumAbsoluteBinDifference": 0.06457739791073125,
+          "caveat": "Fixed-scale diagonal diagnostic only; normalization covariance and event/mixed-pair correlations are omitted. No formal p value is assigned."
+        },
+        "centralCell": {
+          "available": true,
+          "normalizationSE": 26,
+          "normalizationME": 1539,
+          "diagonalChi2": 689.4245173284646,
+          "comparedBins": 65,
+          "descriptiveNdf": 64,
+          "diagonalChi2PerNdf": 10.77225808325726,
+          "totalVariation": 0.5149197780776725,
+          "maximumAbsoluteBinDifference": 0.06457739791073125,
+          "caveat": "Fixed-scale diagonal diagnostic only; normalization covariance and event/mixed-pair correlations are omitted. No formal p value is assigned."
+        }
+      },
+      "category": "method3_low_statistics_failure",
+      "page": 5,
+      "interpretation": "The SE purity is unavailable; inspect sparse counts and the recorded fit rejection rather than interpreting it as zero signal. SE has a fitted parameter at a configured bound. Normalized-shape agreement and fitted-purity agreement are different diagnostics; this example alone does not establish a unique cause or a total purity uncertainty."
+    },
+    {
+      "id": "method5_cent1_006",
+      "method": "method5",
+      "group": "cent1",
+      "centLabel": "60-70%",
+      "centMin": 1,
+      "centMax": 1,
+      "bin": 6,
+      "low": 0.25,
+      "high": 0.3,
+      "windowLow": 0.15,
+      "windowHigh": 0.4,
+      "sourceInput": "fine",
+      "sourceFigure": {
+        "figure": 14,
+        "pdf": "kstar_cent_CFsub_method5_4He.pdf",
+        "page": 2
+      },
+      "puritySE": {
+        "value": 0.2510451019655743,
+        "variance": 0.06093966950886984,
+        "error": 0.24685961498161224
+      },
+      "purityME": {
+        "value": 0.7213858199876011,
+        "variance": 6.767705257779028e-05,
+        "error": 0.00822660638281608
+      },
+      "purityDifference": -0.4703407180220268,
+      "absolutePurityDifference": 0.4703407180220268,
+      "SE": {
+        "storedMassObservations": 110,
+        "fitRangeObservations": 42,
+        "centralStoredMassObservations": 21,
+        "centralFitRangeObservations": 6,
+        "signalWindowCounts": 27,
+        "centralSignalWindowCounts": 3,
+        "purity": {
+          "value": 0.2510451019655743,
+          "variance": 0.06093966950886984,
+          "error": 0.24685961498161224
+        },
+        "fit": {
+          "status": 0,
+          "covarianceStatus": 3,
+          "isValid": true,
+          "numericallyValid": true,
+          "boundary": true,
+          "reason": "numerically_valid_boundary_warning",
+          "chi2": 2.2446032109591885,
+          "ndf": 14,
+          "probability": 0.9998319756107426,
+          "observationsInStoredMassRange": 110,
+          "parameters": [
+            6.703489768075162,
+            1.115869381570029,
+            0.0010000000607187714,
+            0.4594816053995384,
+            -2.7114410829122595,
+            2.96264099163311
+          ],
+          "covariance": [
+            [
+              3.952959134875618,
+              -1.223400465486806e-05,
+              1.6713932490059612e-08,
+              -1.4666806450591698,
+              -1.9116184896454333,
+              2.747468733483463
+            ],
+            [
+              -1.223400465486806e-05,
+              1.0019715080811539e-07,
+              -8.578707236269011e-13,
+              6.533783613011033e-05,
+              2.2955325531895476e-05,
+              -6.988384490358853e-05
+            ],
+            [
+              1.6713932490059612e-08,
+              -8.578707236269011e-13,
+              2.9379522904199124e-13,
+              4.789486122348453e-08,
+              -1.860233741760105e-08,
+              -1.6967560097879295e-08
+            ],
+            [
+              -1.4666806450591698,
+              6.533783613011033e-05,
+              4.789486122348453e-08,
+              75.51092448356667,
+              -0.2193807088121298,
+              -59.579588015578246
+            ],
+            [
+              -1.9116184896454333,
+              2.2955325531895476e-05,
+              -1.860233741760105e-08,
+              -0.2193807088121298,
+              0.9974658743300726,
+              -0.6890350637656737
+            ],
+            [
+              2.747468733483463,
+              -6.988384490358853e-05,
+              -1.6967560097879295e-08,
+              -59.579588015578246,
+              -0.6890350637656737,
+              47.80277101914687
+            ]
+          ],
+          "chi2PerNdf": 0.16032880078279918,
+          "modelWarning": false
+        },
+        "validityReason": "numerically_valid_boundary_warning",
+        "fullValidity": true
+      },
+      "ME": {
+        "storedMassObservations": 13849,
+        "fitRangeObservations": 4246,
+        "centralStoredMassObservations": 2977,
+        "centralFitRangeObservations": 816,
+        "signalWindowCounts": 2362,
+        "centralSignalWindowCounts": 428,
+        "purity": {
+          "value": 0.7213858199876011,
+          "variance": 6.767705257779028e-05,
+          "error": 0.00822660638281608
+        },
+        "fit": {
+          "status": 0,
+          "covarianceStatus": 3,
+          "isValid": true,
+          "numericallyValid": true,
+          "boundary": false,
+          "reason": "numerically_valid",
+          "chi2": 124.5421141702629,
+          "ndf": 63,
+          "probability": 6.234113623291107e-06,
+          "observationsInStoredMassRange": 13849,
+          "parameters": [
+            525.3693004485798,
+            1.11581764624035,
+            0.0012363421698513783,
+            -593.1445335955077,
+            -2.4390180762082494,
+            507.7763804182035
+          ],
+          "covariance": [
+            [
+              319.5226412746113,
+              2.4896967861584013e-05,
+              -0.0003560385892485894,
+              -0.7727786018704235,
+              0.0006275618238021884,
+              0.6727913644736909
+            ],
+            [
+              2.4896967861584013e-05,
+              1.2576721369338103e-09,
+              -4.606827060953752e-11,
+              3.5145772046838653e-06,
+              2.266559704624119e-08,
+              -2.993359794870346e-06
+            ],
+            [
+              -0.0003560385892485894,
+              -4.606827060953752e-11,
+              1.0104525594398238e-09,
+              5.469516534043463e-05,
+              2.2670375430325063e-07,
+              -4.6827502106467444e-05
+            ],
+            [
+              -0.7727786018704235,
+              3.5145772046838653e-06,
+              5.469516534043463e-05,
+              220.03057995767546,
+              1.9577126198413044,
+              -186.27262986219677
+            ],
+            [
+              0.0006275618238021884,
+              2.266559704624119e-08,
+              2.2670375430325063e-07,
+              1.9577126198413044,
+              0.11730950238472901,
+              -1.7100832199716498
+            ],
+            [
+              0.6727913644736909,
+              -2.993359794870346e-06,
+              -4.6827502106467444e-05,
+              -186.27262986219677,
+              -1.7100832199716498,
+              157.8142241429369
+            ]
+          ],
+          "chi2PerNdf": 1.9768589550835383,
+          "modelWarning": false
+        },
+        "validityReason": "numerically_valid",
+        "fullValidity": true
+      },
+      "shapeComparison": {
+        "fitWindow": {
+          "available": true,
+          "normalizationSE": 42,
+          "normalizationME": 4246,
+          "diagonalChi2": 1753.5699965400759,
+          "comparedBins": 69,
+          "descriptiveNdf": 68,
+          "diagonalChi2PerNdf": 25.787794066765823,
+          "totalVariation": 0.41589843662382514,
+          "maximumAbsoluteBinDifference": 0.05646771190812641,
+          "caveat": "Fixed-scale diagonal diagnostic only; normalization covariance and event/mixed-pair correlations are omitted. No formal p value is assigned."
+        },
+        "centralCell": {
+          "available": true,
+          "normalizationSE": 6,
+          "normalizationME": 816,
+          "diagonalChi2": 619.7044556628066,
+          "comparedBins": 63,
+          "descriptiveNdf": 62,
+          "diagonalChi2PerNdf": 9.99523315585172,
+          "totalVariation": 0.7549019607843132,
+          "maximumAbsoluteBinDifference": 0.26715686274509803,
+          "caveat": "Fixed-scale diagonal diagnostic only; normalization covariance and event/mixed-pair correlations are omitted. No formal p value is assigned."
+        }
+      },
+      "category": "method5_large_difference",
+      "page": 6,
+      "interpretation": "The displayed SE-minus-ME purity difference is -0.470341. SE has a fitted parameter at a configured bound. Method5 fits the neighboring-cell window, not only the central 50-MeV cell; assess its fit-window statistics separately from central-cell statistics. Normalized-shape agreement and fitted-purity agreement are different diagnostics; this example alone does not establish a unique cause or a total purity uncertainty."
+    },
+    {
+      "id": "method5_cent2_002",
+      "method": "method5",
+      "group": "cent2",
+      "centLabel": "50-60%",
+      "centMin": 2,
+      "centMax": 2,
+      "bin": 2,
+      "low": 0.05,
+      "high": 0.1,
+      "windowLow": 0,
+      "windowHigh": 0.2,
+      "sourceInput": "fine",
+      "sourceFigure": {
+        "figure": 14,
+        "pdf": "kstar_cent_CFsub_method5_4He.pdf",
+        "page": 2
+      },
+      "puritySE": {
+        "value": 0.45710646807335287,
+        "variance": 0.02521021743790628,
+        "error": 0.15877725730691497
+      },
+      "purityME": {
+        "value": 0.7422068495262915,
+        "variance": 0.00010739022773737185,
+        "error": 0.010362925636005106
+      },
+      "purityDifference": -0.2851003814529386,
+      "absolutePurityDifference": 0.2851003814529386,
+      "SE": {
+        "storedMassObservations": 116,
+        "fitRangeObservations": 52,
+        "centralStoredMassObservations": 8,
+        "centralFitRangeObservations": 5,
+        "signalWindowCounts": 35,
+        "centralSignalWindowCounts": 5,
+        "purity": {
+          "value": 0.45710646807335287,
+          "variance": 0.02521021743790628,
+          "error": 0.15877725730691497
+        },
+        "fit": {
+          "status": 0,
+          "covarianceStatus": 2,
+          "isValid": true,
+          "numericallyValid": true,
+          "boundary": true,
+          "reason": "numerically_valid_boundary_warning",
+          "chi2": 4.685518315612514,
+          "ndf": 16,
+          "probability": 0.99710864091947,
+          "observationsInStoredMassRange": 116,
+          "parameters": [
+            9.583653649243251,
+            1.1156554702356432,
+            0.001000000001292758,
+            -0.426296803190561,
+            0.30658386991230396,
+            0.9151273172319656
+          ],
+          "covariance": [
+            [
+              4.997642898810497,
+              -9.035330719168745e-06,
+              -1.1385484430669064e-11,
+              -0.1666490215249306,
+              -0.04223084389662957,
+              0.06404392023547624
+            ],
+            [
+              -9.035330719168745e-06,
+              4.521903864664564e-08,
+              1.6097259695627107e-16,
+              7.838219059663896e-06,
+              1.9260661735826107e-07,
+              -5.908307828666615e-06
+            ],
+            [
+              -1.1385484430669064e-11,
+              1.6097259695627107e-16,
+              5.466127143892266e-16,
+              -4.423660492892278e-13,
+              -1.231966015025779e-13,
+              1.70084141776633e-13
+            ],
+            [
+              -0.1666490215249306,
+              7.838219059663896e-06,
+              -4.423660492892278e-13,
+              11.89240305631605,
+              -5.791823851756031,
+              -4.300592620329064
+            ],
+            [
+              -0.04223084389662957,
+              1.9260661735826107e-07,
+              -1.231966015025779e-13,
+              -5.791823851756031,
+              10.372693957585497,
+              -4.628075353424186
+            ],
+            [
+              0.06404392023547624,
+              -5.908307828666615e-06,
+              1.70084141776633e-13,
+              -4.300592620329064,
+              -4.628075353424186,
+              7.57979661930814
+            ]
+          ],
+          "chi2PerNdf": 0.2928448947257821,
+          "modelWarning": false
+        },
+        "validityReason": "numerically_valid_boundary_warning",
+        "fullValidity": true
+      },
+      "ME": {
+        "storedMassObservations": 6748,
+        "fitRangeObservations": 2313,
+        "centralStoredMassObservations": 467,
+        "centralFitRangeObservations": 219,
+        "signalWindowCounts": 1325,
+        "centralSignalWindowCounts": 128,
+        "purity": {
+          "value": 0.7422068495262915,
+          "variance": 0.00010739022773737185,
+          "error": 0.010362925636005106
+        },
+        "fit": {
+          "status": 0,
+          "covarianceStatus": 3,
+          "isValid": true,
+          "numericallyValid": true,
+          "boundary": false,
+          "reason": "numerically_valid",
+          "chi2": 144.06175515607552,
+          "ndf": 60,
+          "probability": 7.183526857758572e-09,
+          "observationsInStoredMassRange": 6748,
+          "parameters": [
+            294.725284185965,
+            1.1157668041751896,
+            0.0011876133620858404,
+            -280.4589911388405,
+            1.0147641801920932,
+            239.50784920946302
+          ],
+          "covariance": [
+            [
+              217.10631314046918,
+              4.5164819207013914e-05,
+              -0.00047378491725986473,
+              -0.8581909886136627,
+              0.14236450583583574,
+              0.7503796081269314
+            ],
+            [
+              4.5164819207013914e-05,
+              2.2032969245160864e-09,
+              -8.222983768477069e-11,
+              1.338492855362424e-05,
+              -7.006071544172758e-07,
+              -1.0008029048658054e-05
+            ],
+            [
+              -0.00047378491725986473,
+              -8.222983768477069e-11,
+              2.2538213836177554e-09,
+              5.194228820331261e-05,
+              -5.363670923931386e-07,
+              -4.405187623329371e-05
+            ],
+            [
+              -0.8581909886136627,
+              1.338492855362424e-05,
+              5.194228820331261e-05,
+              128.97680720988885,
+              0.8253218637240745,
+              -107.83792807820758
+            ],
+            [
+              0.14236450583583574,
+              -7.006071544172758e-07,
+              -5.363670923931386e-07,
+              0.8253218637240745,
+              0.10771001619863108,
+              -0.7371553905413881
+            ],
+            [
+              0.7503796081269314,
+              -1.0008029048658054e-05,
+              -4.405187623329371e-05,
+              -107.83792807820758,
+              -0.7371553905413881,
+              90.26842322258516
+            ]
+          ],
+          "chi2PerNdf": 2.401029252601259,
+          "modelWarning": false
+        },
+        "validityReason": "numerically_valid",
+        "fullValidity": true
+      },
+      "shapeComparison": {
+        "fitWindow": {
+          "available": true,
+          "normalizationSE": 52,
+          "normalizationME": 2313,
+          "diagonalChi2": 972.6125680867921,
+          "comparedBins": 66,
+          "descriptiveNdf": 65,
+          "diagonalChi2PerNdf": 14.963270278258339,
+          "totalVariation": 0.4315075326748475,
+          "maximumAbsoluteBinDifference": 0.07818683694170077,
+          "caveat": "Fixed-scale diagonal diagnostic only; normalization covariance and event/mixed-pair correlations are omitted. No formal p value is assigned."
+        },
+        "centralCell": {
+          "available": true,
+          "normalizationSE": 5,
+          "normalizationME": 219,
+          "diagonalChi2": 169.12508211510558,
+          "comparedBins": 55,
+          "descriptiveNdf": 54,
+          "diagonalChi2PerNdf": 3.131945965094548,
+          "totalVariation": 0.7579908675799087,
+          "maximumAbsoluteBinDifference": 0.1954337899543379,
+          "caveat": "Fixed-scale diagonal diagnostic only; normalization covariance and event/mixed-pair correlations are omitted. No formal p value is assigned."
+        }
+      },
+      "category": "method5_large_difference",
+      "page": 7,
+      "interpretation": "The displayed SE-minus-ME purity difference is -0.2851. SE has a fitted parameter at a configured bound. Method5 fits the neighboring-cell window, not only the central 50-MeV cell; assess its fit-window statistics separately from central-cell statistics. Normalized-shape agreement and fitted-purity agreement are different diagnostics; this example alone does not establish a unique cause or a total purity uncertainty."
+    },
+    {
+      "id": "method5_cent8_006",
+      "method": "method5",
+      "group": "cent8",
+      "centLabel": "0-5%",
+      "centMin": 8,
+      "centMax": 8,
+      "bin": 6,
+      "low": 0.25,
+      "high": 0.3,
+      "windowLow": 0.15,
+      "windowHigh": 0.4,
+      "sourceInput": "fine",
+      "sourceFigure": {
+        "figure": 14,
+        "pdf": "kstar_cent_CFsub_method5_4He.pdf",
+        "page": 2
+      },
+      "puritySE": {
+        "value": 0.9506863742125042,
+        "variance": 3.6931491765388864e-07,
+        "error": 0.0006077128578974519
+      },
+      "purityME": {
+        "value": 0.9513918385688095,
+        "variance": 3.2334027673663088e-09,
+        "error": 5.6863017571760196e-05
+      },
+      "purityDifference": -0.0007054643563052521,
+      "absolutePurityDifference": 0.0007054643563052521,
+      "SE": {
+        "storedMassObservations": 119003,
+        "fitRangeObservations": 89303,
+        "centralStoredMassObservations": 22973,
+        "centralFitRangeObservations": 17264,
+        "signalWindowCounts": 80456,
+        "centralSignalWindowCounts": 15506,
+        "purity": {
+          "value": 0.9506863742125042,
+          "variance": 3.6931491765388864e-07,
+          "error": 0.0006077128578974519
+        },
+        "fit": {
+          "status": 0,
+          "covarianceStatus": 3,
+          "isValid": true,
+          "numericallyValid": true,
+          "boundary": false,
+          "reason": "numerically_valid",
+          "chi2": 1180.3475390369765,
+          "ndf": 64,
+          "probability": 5.006497268090507e-205,
+          "observationsInStoredMassRange": 119003,
+          "parameters": [
+            24537.795295617187,
+            1.1157866020742246,
+            0.001218009254594884,
+            -95617.69799551938,
+            168192.45460192283,
+            -73758.26116578058
+          ],
+          "covariance": [
+            [
+              14842.900708147343,
+              -6.054898987566888e-06,
+              -0.0003447195268635238,
+              -12901.121455809447,
+              23161.61637248598,
+              -10388.004929359475
+            ],
+            [
+              -6.054898987566888e-06,
+              2.1026755932302378e-11,
+              3.4421569325757354e-13,
+              -7.217827571527567e-05,
+              0.00013180284008316805,
+              -6.016175017443847e-05
+            ],
+            [
+              -0.0003447195268635238,
+              3.4421569325757354e-13,
+              1.794550228575812e-11,
+              0.0018328501172877806,
+              -0.003290961942437108,
+              0.0014762000395135966
+            ],
+            [
+              -12901.121455809447,
+              -7.217827571527567e-05,
+              0.0018328501172877806,
+              23515718.76598818,
+              -42383427.22119796,
+              19088744.683216378
+            ],
+            [
+              23161.61637248598,
+              0.00013180284008316805,
+              -0.003290961942437108,
+              -42383427.22119796,
+              76393459.32805528,
+              -34408063.39261127
+            ],
+            [
+              -10388.004929359475,
+              -6.016175017443847e-05,
+              0.0014762000395135966,
+              19088744.683216378,
+              -34408063.39261127,
+              15498424.147118729
+            ]
+          ],
+          "chi2PerNdf": 18.442930297452758,
+          "modelWarning": true
+        },
+        "validityReason": "numerically_valid",
+        "fullValidity": true
+      },
+      "ME": {
+        "storedMassObservations": 4448860,
+        "fitRangeObservations": 3307029,
+        "centralStoredMassObservations": 861077,
+        "centralFitRangeObservations": 637954,
+        "signalWindowCounts": 2975759,
+        "centralSignalWindowCounts": 572244,
+        "purity": {
+          "value": 0.9513918385688095,
+          "variance": 3.2334027673663088e-09,
+          "error": 5.6863017571760196e-05
+        },
+        "fit": {
+          "status": 0,
+          "covarianceStatus": 2,
+          "isValid": true,
+          "numericallyValid": true,
+          "boundary": false,
+          "reason": "numerically_valid",
+          "chi2": 38386.73489827332,
+          "ndf": 64,
+          "probability": 0,
+          "observationsInStoredMassRange": 4448860,
+          "parameters": [
+            901550.6471262313,
+            1.115791507967096,
+            0.0012290602351266008,
+            -3001949.4076840673,
+            5248833.095052751,
+            -2286432.1936529456
+          ],
+          "covariance": [
+            [
+              532651.9798585597,
+              -1.0445619306862263e-05,
+              -0.000333976214503104,
+              -303.0457393361635,
+              21.55009133860371,
+              289.8802334178025
+            ],
+            [
+              -1.0445619306862263e-05,
+              5.750120674855543e-13,
+              1.5273707028996727e-14,
+              1.717662440954733e-07,
+              3.6145790588892296e-10,
+              -1.4678415435638673e-07
+            ],
+            [
+              -0.000333976214503104,
+              1.5273707028996727e-14,
+              4.753286801939706e-13,
+              1.222591659538406e-06,
+              -8.677427811005084e-08,
+              -1.1686076741328393e-06
+            ],
+            [
+              -303.0457393361635,
+              1.717662440954733e-07,
+              1.222591659538406e-06,
+              10606.304148021383,
+              -5554.000621494926,
+              -3740.4751379852482
+            ],
+            [
+              21.55009133860371,
+              3.6145790588892296e-10,
+              -8.677427811005084e-08,
+              -5554.000621494926,
+              10124.914497284819,
+              -4599.029161219955
+            ],
+            [
+              289.8802334178025,
+              -1.4678415435638673e-07,
+              -1.1686076741328393e-06,
+              -3740.4751379852482,
+              -4599.029161219955,
+              7316.191800442207
+            ]
+          ],
+          "chi2PerNdf": 599.7927327855206,
+          "modelWarning": true
+        },
+        "validityReason": "numerically_valid",
+        "fullValidity": true
+      },
+      "shapeComparison": {
+        "fitWindow": {
+          "available": true,
+          "normalizationSE": 89303,
+          "normalizationME": 3307029,
+          "diagonalChi2": 87.75613049298472,
+          "comparedBins": 70,
+          "descriptiveNdf": 69,
+          "diagonalChi2PerNdf": 1.2718279781591988,
+          "totalVariation": 0.008770148094510665,
+          "maximumAbsoluteBinDifference": 0.0030157451097329036,
+          "caveat": "Fixed-scale diagonal diagnostic only; normalization covariance and event/mixed-pair correlations are omitted. No formal p value is assigned."
+        },
+        "centralCell": {
+          "available": true,
+          "normalizationSE": 17264,
+          "normalizationME": 637954,
+          "diagonalChi2": 67.6052068551041,
+          "comparedBins": 70,
+          "descriptiveNdf": 69,
+          "diagonalChi2PerNdf": 0.9797856065957116,
+          "totalVariation": 0.016480317799910042,
+          "maximumAbsoluteBinDifference": 0.006342720989499728,
+          "caveat": "Fixed-scale diagonal diagnostic only; normalization covariance and event/mixed-pair correlations are omitted. No formal p value is assigned."
+        }
+      },
+      "category": "method5_high_statistics_agreement",
+      "page": 8,
+      "interpretation": "The displayed SE-minus-ME purity difference is -0.000705464. SE has chi2/ndf=18.44: numerical convergence or purity agreement alone does not establish a suitable mass model. ME has chi2/ndf=599.8: numerical convergence or purity agreement alone does not establish a suitable mass model. Method5 fits the neighboring-cell window, not only the central 50-MeV cell; assess its fit-window statistics separately from central-cell statistics. Normalized-shape agreement and fitted-purity agreement are different diagnostics; this example alone does not establish a unique cause or a total purity uncertainty."
+    },
+    {
+      "id": "method5_cent3_005",
+      "method": "method5",
+      "group": "cent3",
+      "centLabel": "40-50%",
+      "centMin": 3,
+      "centMax": 3,
+      "bin": 5,
+      "low": 0.2,
+      "high": 0.25,
+      "windowLow": 0.1,
+      "windowHigh": 0.35000000000000003,
+      "sourceInput": "fine",
+      "sourceFigure": {
+        "figure": 14,
+        "pdf": "kstar_cent_CFsub_method5_4He.pdf",
+        "page": 2
+      },
+      "puritySE": {
+        "value": 0.899183232524023,
+        "variance": 4.970977847536046e-05,
+        "error": 0.007050516185029325
+      },
+      "purityME": {
+        "value": 0.8360370458361108,
+        "variance": 2.2124084994783684e-06,
+        "error": 0.0014874167201824673
+      },
+      "purityDifference": 0.06314618668791216,
+      "absolutePurityDifference": 0.06314618668791216,
+      "SE": {
+        "storedMassObservations": 2297,
+        "fitRangeObservations": 1083,
+        "centralStoredMassObservations": 458,
+        "centralFitRangeObservations": 210,
+        "signalWindowCounts": 821,
+        "centralSignalWindowCounts": 152,
+        "purity": {
+          "value": 0.899183232524023,
+          "variance": 4.970977847536046e-05,
+          "error": 0.007050516185029325
+        },
+        "fit": {
+          "status": 0,
+          "covarianceStatus": 3,
+          "isValid": true,
+          "numericallyValid": true,
+          "boundary": false,
+          "reason": "numerically_valid",
+          "chi2": 63.6410347065166,
+          "ndf": 58,
+          "probability": 0.28462948628148066,
+          "observationsInStoredMassRange": 2297,
+          "parameters": [
+            241.4755654841052,
+            1.1157668217893328,
+            0.0011741640163282338,
+            -60.26826531161109,
+            0.8365432836504711,
+            51.33193129915623
+          ],
+          "covariance": [
+            [
+              155.60540526960838,
+              -5.1578026883951045e-05,
+              -0.00036579121160868334,
+              -0.7259037702178242,
+              -0.09276256875068754,
+              0.7342339253019553
+            ],
+            [
+              -5.1578026883951045e-05,
+              2.2118991196367866e-09,
+              2.6442409469263266e-10,
+              3.2496336608640552e-06,
+              1.0318353390661103e-07,
+              -2.819547381045723e-06
+            ],
+            [
+              -0.00036579121160868334,
+              2.6442409469263266e-10,
+              1.9168110689165226e-09,
+              1.384613871888899e-05,
+              -2.3606371670016745e-08,
+              -1.2123781951417319e-05
+            ],
+            [
+              -0.7259037702178242,
+              3.2496336608640552e-06,
+              1.384613871888899e-05,
+              50.23461126288529,
+              0.1558345659706522,
+              -41.15415299188915
+            ],
+            [
+              -0.09276256875068754,
+              1.0318353390661103e-07,
+              -2.3606371670016745e-08,
+              0.1558345659706522,
+              0.039382338545483134,
+              -0.14720011104474282
+            ],
+            [
+              0.7342339253019553,
+              -2.819547381045723e-06,
+              -1.2123781951417319e-05,
+              -41.15415299188915,
+              -0.14720011104474282,
+              33.75969242851318
+            ]
+          ],
+          "chi2PerNdf": 1.0972592190778725,
+          "modelWarning": false
+        },
+        "validityReason": "numerically_valid",
+        "fullValidity": true
+      },
+      "ME": {
+        "storedMassObservations": 124028,
+        "fitRangeObservations": 48935,
+        "centralStoredMassObservations": 24597,
+        "centralFitRangeObservations": 8968,
+        "signalWindowCounts": 33728,
+        "centralSignalWindowCounts": 6018,
+        "purity": {
+          "value": 0.8360370458361108,
+          "variance": 2.2124084994783684e-06,
+          "error": 0.0014874167201824673
+        },
+        "fit": {
+          "status": 0,
+          "covarianceStatus": 3,
+          "isValid": true,
+          "numericallyValid": true,
+          "boundary": false,
+          "reason": "numerically_valid",
+          "chi2": 500.8618235266002,
+          "ndf": 64,
+          "probability": 5.503698019203792e-69,
+          "observationsInStoredMassRange": 124028,
+          "parameters": [
+            9145.23432439138,
+            1.1158168735892322,
+            0.0011967665150196892,
+            -4562.061191237069,
+            -1.5611484262185715,
+            3910.9595014719753
+          ],
+          "covariance": [
+            [
+              5766.179762230739,
+              1.2536799927375747e-06,
+              -0.00036469710286799346,
+              -51.576922927073966,
+              -2.4401312020429344,
+              46.04925772263962
+            ],
+            [
+              1.2536799927375747e-06,
+              6.26804705375728e-11,
+              1.8377002738079811e-13,
+              1.6389133724975407e-06,
+              7.287327257972321e-07,
+              -2.0597803683264915e-06
+            ],
+            [
+              -0.00036469710286799346,
+              1.8377002738079811e-13,
+              5.352666783793389e-11,
+              2.9760119778989505e-05,
+              1.5095223910827872e-07,
+              -2.557813571846946e-05
+            ],
+            [
+              -51.576922927073966,
+              1.6389133724975407e-06,
+              2.9760119778989505e-05,
+              1803.9918535291986,
+              16.337356978292632,
+              -1523.1369860084694
+            ],
+            [
+              -2.4401312020429344,
+              7.287327257972321e-07,
+              1.5095223910827872e-07,
+              16.337356978292632,
+              1.478889350211642,
+              -14.364377370712345
+            ],
+            [
+              46.04925772263962,
+              -2.0597803683264915e-06,
+              -2.557813571846946e-05,
+              -1523.1369860084694,
+              -14.364377370712345,
+              1287.164054651722
+            ]
+          ],
+          "chi2PerNdf": 7.825965992603128,
+          "modelWarning": true
+        },
+        "validityReason": "numerically_valid",
+        "fullValidity": true
+      },
+      "shapeComparison": {
+        "fitWindow": {
+          "available": true,
+          "normalizationSE": 1083,
+          "normalizationME": 48935,
+          "diagonalChi2": 399.96864380507367,
+          "comparedBins": 70,
+          "descriptiveNdf": 69,
+          "diagonalChi2PerNdf": 5.796647011667734,
+          "totalVariation": 0.10844811662935766,
+          "maximumAbsoluteBinDifference": 0.04954138099978292,
+          "caveat": "Fixed-scale diagonal diagnostic only; normalization covariance and event/mixed-pair correlations are omitted. No formal p value is assigned."
+        },
+        "centralCell": {
+          "available": true,
+          "normalizationSE": 210,
+          "normalizationME": 8968,
+          "diagonalChi2": 903.2425360727498,
+          "comparedBins": 70,
+          "descriptiveNdf": 69,
+          "diagonalChi2PerNdf": 13.090471537286229,
+          "totalVariation": 0.16578841170723424,
+          "maximumAbsoluteBinDifference": 0.03826090650354702,
+          "caveat": "Fixed-scale diagonal diagnostic only; normalization covariance and event/mixed-pair correlations are omitted. No formal p value is assigned."
+        }
+      },
+      "category": "method5_high_statistics_difference",
+      "page": 9,
+      "interpretation": "The displayed SE-minus-ME purity difference is 0.0631462. ME has chi2/ndf=7.826: numerical convergence or purity agreement alone does not establish a suitable mass model. Method5 fits the neighboring-cell window, not only the central 50-MeV cell; assess its fit-window statistics separately from central-cell statistics. Normalized-shape agreement and fitted-purity agreement are different diagnostics; this example alone does not establish a unique cause or a total purity uncertainty."
+    }
+  ],
+  "limitations": [
+    "Purity statistical errors omit fitted-background/count covariance.",
+    "Normalized-shape chi square is a fixed-scale diagonal descriptive diagnostic, not a formal hypothesis-test statistic.",
+    "No event-level or mixed-pair covariance, mass-model systematic, or purity-transfer systematic is included.",
+    "Agreement of fitted purities does not establish adequacy of either fit model; disagreement alone does not prove low statistics."
+  ]
+}

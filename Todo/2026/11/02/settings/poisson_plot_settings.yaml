@@ -1,0 +1,7 @@
+cf_range: [0.0, 0.3]
+normalization: [0.4, 0.5]
+fine_x_range: [0.0, 0.3]
+fine_y_range: [-0.05, 1.1]
+group_purity_max: 0.5
+fit_inspection_max: 0.5
+margin_points: 6

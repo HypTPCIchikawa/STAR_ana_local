@@ -1,0 +1,75 @@
+{
+  "phase": "extracted",
+  "preparedAtJst": "2026-11-02T12:37:24.191401+09:00",
+  "fitOptions": "SLQNR0",
+  "objective": "poisson",
+  "input": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_merge.root",
+    "size": 14064010756,
+    "mtime_ns": 1792979968489270322
+  },
+  "polynomialBasis": "centered_scaled",
+  "backgroundSeedFloor": 0.1,
+  "maximumFunctionCalls": 50000,
+  "negativeBackgroundConstant": true,
+  "references": {
+    "group": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/purity_fit_review.json",
+      "sha256": "9b3df4de6a51db0d1ac90bc3a1fd5ab67bfe85a0c7351e861162cb9330e3c045"
+    },
+    "fine": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/fine_extract/purity_fit_review.json",
+      "sha256": "fedcd7092d1ad228c4895e6308416a411696fbf1a145d68665a75f03759bcee9"
+    }
+  },
+  "targetReport": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_4He_KFParticle_3p85.pdf",
+    "sha256": "ad10015407c2432e4fb17d1c655755999d0418fb0be82ec1b7ca988d251a3e3f"
+  },
+  "mainconf": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle.yaml",
+  "commands": {
+    "group": [
+      "bash",
+      "script/singularity_root_batch.sh",
+      "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle.yaml",
+      "root4star",
+      "-l",
+      "-b",
+      "-q",
+      "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/macros/ExtractPurityFitReviewPoisson.C+(\"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_merge.root\",\"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/group_extract\",\"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/group_extract/extract_settings.txt\",1.0)"
+    ],
+    "fine": [
+      "bash",
+      "script/singularity_root_batch.sh",
+      "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle.yaml",
+      "root4star",
+      "-l",
+      "-b",
+      "-q",
+      "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/macros/ExtractPurityFitReviewPoisson.C+(\"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_merge.root\",\"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/fine_extract\",\"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/fine_extract/extract_settings.txt\",1.0)"
+    ],
+    "toy": [
+      "bash",
+      "script/singularity_root_batch.sh",
+      "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle.yaml",
+      "root4star",
+      "-l",
+      "-b",
+      "-q",
+      "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/macros/CheckPoissonEmptyBins.C+(\"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/empty_bin_toy.json\")"
+    ]
+  },
+  "sourceCopies": {
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/macros/ExtractMassHalfCF.C": "3a3a6882135d7b9bbbfd170186b9c37ccb5f0a0a3391ebd29fafa25689953a0a",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/macros/ExtractPurityFitReviewPoisson.C": "3dfc26355e34329021d0a4a11e73e331b18181195e4c61767238da1a422d54a5",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/macros/CheckPoissonEmptyBins.C": "347b6361e66bc521a315fa4e3ed336ecc9ca4eb2e12858cafc87fc08c7d1db99"
+  },
+  "changes": [
+    "Fit objective L; function, Gaussian seed/bounds, count gate and covariance threshold retained.",
+    "Background starts at the observed sideband mean with the explicit floor; optimizer call budget is explicit.",
+    "A negative quadratic background anywhere in the closed fit range triggers a new L fit with both slope terms fixed to zero and a nonnegative constant; the data-count upper guard is recorded.",
+    "Poisson-domain validation requires nonnegative expected counts, strictly positive where observed counts are nonzero.",
+    "Deviance is computed independently including empty bins; probability is an asymptotic reference only."
+  ],
+  "metadataCorrection": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/metadata_correction.json"
+}

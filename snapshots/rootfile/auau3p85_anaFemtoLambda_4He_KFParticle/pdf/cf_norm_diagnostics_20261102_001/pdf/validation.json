@@ -1,0 +1,21 @@
+{
+  "phase": "validated",
+  "reportSha256": "ad10015407c2432e4fb17d1c655755999d0418fb0be82ec1b7ca988d251a3e3f",
+  "reportPages": 34,
+  "addendumPages": 23,
+  "citedPdfHashes": 6,
+  "verifiedProducts": 18,
+  "cropProducts": 19,
+  "fineCentralityGroups": 9,
+  "extractedFits": 1260,
+  "matchedFine10_20MassRows": 140,
+  "inputRootUnchanged": true,
+  "validSelectedCfPoints": 736,
+  "selectedNormalizationsValid": 15,
+  "sharedMethod6PurityMatchesMethod5ME": true,
+  "failedPurityBinsRemainMissing": true,
+  "massFitSettingsUnchanged": true,
+  "fitGateRelaxation": false,
+  "fineReviewSha256": "fedcd7092d1ad228c4895e6308416a411696fbf1a145d68665a75f03759bcee9",
+  "referenceReviewSha256": "9b3df4de6a51db0d1ac90bc3a1fd5ab67bfe85a0c7351e861162cb9330e3c045"
+}

@@ -1,0 +1,31 @@
+{
+  "star_build": {
+    "mainconf": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_covered25.yaml",
+    "command": "bash script/singularity_make.sh MAINCONF",
+    "star": "SL24y",
+    "STAR_HOST_SYS": "sl73_x8664_gcc485",
+    "root": "5.34/38",
+    "clean_build": true,
+    "return_code": 0
+  },
+  "skill_sync": {
+    "sources": 12,
+    "wrappers": 12,
+    "changed": 0,
+    "status": "PASS"
+  },
+  "unit_tests": {
+    "test_archive_merged_subjobs.py": 20,
+    "test_watch_job_notify.py": 16,
+    "test_watch_job_merge_notify.py": 21,
+    "test_merge_job_selection.py": 9,
+    "total": 66,
+    "status": "PASS",
+    "nonfatal_warnings": [
+      "ResourceWarning for monitor.lock in mocked watcher tests"
+    ]
+  },
+  "production_source_mutation": false,
+  "job_submission": false,
+  "mail_sent": false
+}

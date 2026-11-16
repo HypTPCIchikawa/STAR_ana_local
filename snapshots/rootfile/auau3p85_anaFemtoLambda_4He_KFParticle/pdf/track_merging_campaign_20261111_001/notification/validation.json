@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "completedAtUtc": "2026-11-11T07:30:51.229001+00:00",
+  "tests": [
+    {
+      "test": "valid_final_real_hadd_and_pdf_ready",
+      "passed": true
+    },
+    {
+      "test": "stale_plot_rejected",
+      "passed": true
+    },
+    {
+      "test": "running_campaign_not_ready",
+      "passed": true
+    },
+    {
+      "test": "held_or_queued_job_blocks_mail",
+      "passed": true
+    },
+    {
+      "test": "missing_current_marker_blocks_mail",
+      "passed": true
+    },
+    {
+      "test": "all_failed_ready_without_figure_requirement",
+      "passed": true
+    },
+    {
+      "test": "all_failed_mail_is_honest",
+      "passed": true
+    },
+    {
+      "test": "mock_delivery_writes_attempt_before_sent",
+      "passed": true
+    },
+    {
+      "test": "duplicate_delivery_never_invokes_mta",
+      "passed": true
+    },
+    {
+      "test": "uncertain_delivery_retains_attempt_no_sent",
+      "passed": true
+    },
+    {
+      "test": "uncertain_delivery_no_automatic_retry",
+      "passed": true
+    },
+    {
+      "test": "live_campaign_does_not_send_early",
+      "passed": true
+    },
+    {
+      "test": "postreview_valid_final_passed",
+      "passed": true
+    },
+    {
+      "test": "missing_pdf_hash_proof_rejected",
+      "passed": true
+    }
+  ],
+  "realMailSent": false,
+  "mockMtaInvocationCount": 1,
+  "liveCheck": {
+    "ready": false,
+    "checkedAtUtc": "2026-11-11T07:30:51.228962+00:00",
+    "reason": "campaign_not_terminal",
+    "completedJobs": 510,
+    "failedJobs": 30,
+    "pendingJobs": 9685
+  },
+  "fixture": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/validation/notification_smoke_001",
+  "postReviewCompletedAtUtc": "2026-11-11T07:32:04.701989+00:00",
+  "notifierSourceSha256": "4d9d874a0a29e8c378ab8c801acbd5a276b0ae9eccd5ddc9d686276f3fec93a8"
+}

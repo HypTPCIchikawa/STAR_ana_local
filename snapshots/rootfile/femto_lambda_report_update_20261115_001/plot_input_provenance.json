@@ -1,0 +1,28 @@
+{
+  "analysis_json": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_cent_pair_canvas_20261115_001/analysis_results.json",
+    "sha256": "4ea2937007f1228dedd3e13b72469c5dcb82fd287b196a07f851aada408a2e97"
+  },
+  "companion_cf_root": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_cent_pair_canvas_20261115_001/cf_histograms.root",
+    "sha256": "b63492e0dce14155ecefe185696678a3be980bad2c99e00940dfc399bd156f60",
+    "role": "companion source; summary metrics are read from analysis_json"
+  },
+  "display_yaml": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_report_update_20261115_001/summary_display.yaml",
+    "sha256": "652385fcb24727f1fcea1fb0648624dd3f89e1e6139061e9195b04c6691a2ff8"
+  },
+  "metrics_tsv": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_report_update_20261115_001/summary_metrics.tsv",
+    "sha256": "ef75c27d8424465b55e3803fc7c1b6940a37bfc14dc94ef69460d8250d38c170"
+  },
+  "parameters_tsv": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_report_update_20261115_001/summary_parameters.tsv",
+    "sha256": "eb908bbac818523471b7ad606f23e69d469964b39756207058176aafcb9035e8"
+  },
+  "rows": 504,
+  "existing_metrics_only": true,
+  "cf_recalculated": false,
+  "single_cent9_bins": 9,
+  "statistical_assumption": "Independent histogram counts with common normalization covariance; event/pair reuse correlations unavailable"
+}

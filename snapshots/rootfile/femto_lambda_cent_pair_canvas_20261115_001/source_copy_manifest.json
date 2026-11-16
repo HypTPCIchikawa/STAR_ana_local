@@ -1,0 +1,11 @@
+{
+  "original_study": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_rapidity_cf_20261115_001",
+  "source_copies_sha256": {
+    "extract_cf_inputs.C": "1068fbba77483e53692c5414c7dabdca399c78dbeb797dea85162afa51096889",
+    "analyze_cf.py": "c71469309a894ef30c97690700af355fbcb17857ce89256b8305b48392c591b1",
+    "prepare_plots.py": "65ea72bdd4225b87daca8bbca8911febe3cfda6096bf44cbbe1e2d6451da96d7"
+  },
+  "prepare_source_sha256": "3b6a7c78e4ed92368cc10630a94433631d45b6ddebe758cc1c3140a67ad2c8eb",
+  "input_identities_identical": true,
+  "production_code_update": "paused by user"
+}

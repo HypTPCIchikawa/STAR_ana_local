@@ -1,0 +1,26 @@
+{
+  "Int_t StFemtoMaker::MakeLambdaEvent()": {
+    "identical": true,
+    "sha256": "5f59eb42e1d3b01ee98afb252ab1adf1a0f34d8cdad0f63a69a29e377e6de017"
+  },
+  "Double_t StFemtoMaker::ComputeKStar(": {
+    "identical": true,
+    "sha256": "471f9a6f4000e0c77b081eea5d25861db3973842c786df610b8844616a4782fe"
+  },
+  "void StFemtoMaker::FillSameEventPairs(": {
+    "identical": true,
+    "sha256": "145fff747b4725a802048ee9986d3d9cb819a19b49ba32f80a589ba23bc64b9b"
+  },
+  "Int_t StFemtoMaker::GetMixingBin(": {
+    "identical": true,
+    "sha256": "95cb9827bc082a1c2ca30241c13c0b8b149dacefe960d468633ca34a2179eb4d"
+  },
+  "void StFemtoMaker::FillMixedEventPairs(": {
+    "identical": true,
+    "sha256": "9f3e05e1ded20cbff123184f053e5228795ce59e5d1e7146d17de0a39c79a3a3"
+  },
+  "void StFemtoMaker::StoreEventForMixing(": {
+    "identical": true,
+    "sha256": "1b749bc479e5fedd97298a5c8488bf1bc4f2c5d9d65315444e819bc066ef0a05"
+  }
+}

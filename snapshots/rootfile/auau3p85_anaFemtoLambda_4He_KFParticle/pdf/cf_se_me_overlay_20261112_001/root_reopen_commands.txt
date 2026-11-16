@@ -1,0 +1,10 @@
+TFile rf("/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_se_me_overlay_20261112_001/overlay_histograms.root", "READ");
+if (rf.IsZombie() || rf.TestBit(TFile::kRecovered)) gSystem->Exit(2);
+if (rf.GetListOfKeys()->GetSize()!=24) gSystem->Exit(3);
+rf.ls();
+TIter nextKey(rf.GetListOfKeys());
+TObject *keyObject=0;
+while ((keyObject=nextKey())) { if (!rf.Get(keyObject->GetName())) gSystem->Exit(4); }
+printf("OUTPUT_ROOT_REOPEN_PASS keys=24\n");
+rf.Close();
+.q

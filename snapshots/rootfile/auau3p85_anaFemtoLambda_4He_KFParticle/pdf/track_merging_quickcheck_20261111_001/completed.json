@@ -1,0 +1,40 @@
+{
+  "status": "passed_local_qa_only_smoke",
+  "completedAtUtc": "2026-11-11T05:07:41.907004+00:00",
+  "runtimeSeconds": 1.83457,
+  "inputEvents": 4027,
+  "acceptedCacheEvents": 3858,
+  "picoEventsRead": 52,
+  "selectedHe4Pairs": 9,
+  "oldExactClosureChecks": 244827,
+  "originPeakStatus": "not_established_insufficient_selected_statistics",
+  "fullProductionRerun": false,
+  "producerFilesModified": false,
+  "plotsProducedWith": "ExistingROOTbuilt-ins;nosourcefilecreated",
+  "files": {
+    "finish_validation.json": {
+      "bytes": 6734,
+      "sha256": "0fdfc3331683d1c10006d6b8297a52a223177901e37a29b015f04344f3d9e37e"
+    },
+    "smoke/qa.root": {
+      "bytes": 129628,
+      "sha256": "245f6deaee94f52462f43daaf6f8e1ea66760d36ec8e161460d50cee914c98f5"
+    },
+    "smoke/summary.json": {
+      "bytes": 2735,
+      "sha256": "ccbfeb873e6021af10ec3c7f9d2f4ca85a9af3ac2bb5b6e7e25b686eb2f9051c"
+    },
+    "smoke/inspection.json": {
+      "bytes": 23524,
+      "sha256": "45a42d164e72c10492967e6546c80e66ae46c58e71e0e8157c5bc1e9b88affce"
+    },
+    "smoke/quick_merging_overview_v2.png": {
+      "bytes": 45176,
+      "sha256": "3afa4722c8921855c1b667734d8dbe18b849f4f584fa027b662be58008e21329"
+    },
+    "smoke/quick_merging_overview_v2.pdf": {
+      "bytes": 19701,
+      "sha256": "98c5bf7e752022a63947cb3e438b6433791916c4798d6c767aa5c3a758e57481"
+    }
+  }
+}

@@ -1,0 +1,590 @@
+{
+  "owner": "tools/kfparticle_summary/build_method6_report.py",
+  "inputRoot": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_merge.root",
+  "sample": {
+    "year": 2021,
+    "included": 26955,
+    "expected": 26994,
+    "jobid": "04BF2DAE47164B6F040E3A460E539289",
+    "beam": "3.85",
+    "stem": "summary_4He_KFParticle_3p85",
+    "inputRoot": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_merge.root",
+    "provenance": {
+      "outputManifest": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_outputs.json",
+        "sha256": "cf1fd9d70294437ad6abd5d3c404d3a4996b09b57979ec88c3a99029ec276990"
+      },
+      "runmeta": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289.json",
+        "sha256": "d40dae004cf9c0f929e3e2fd5f2135a2c4da4583ae907a034ae2089e7638b899"
+      },
+      "runtimeBundle": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runtime_bundle_auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289.tar.gz",
+        "sha256": "3fbbe9de571ff627630c3c2582853132b13bd63742728d530034efde0e913dfb",
+        "sizeBytes": 7303345
+      }
+    },
+    "anaName": "auau3p85_anaFemtoLambda_4He_KFParticle",
+    "excludedIndices": [
+      362,
+      1967,
+      2001,
+      5273,
+      8944,
+      10263,
+      10340,
+      10470,
+      10784,
+      10786,
+      11005,
+      11006,
+      11494,
+      12357,
+      21109,
+      21385,
+      21400,
+      21888,
+      22032,
+      22258,
+      22762,
+      23201,
+      23362,
+      23486,
+      23536,
+      23539,
+      23587,
+      23590,
+      23598,
+      23628,
+      23672,
+      23673,
+      23678,
+      23924,
+      24043,
+      24063,
+      24813,
+      25445,
+      25555
+    ],
+    "eventCounters": {
+      "inputEventsFromRefMultEntries": 2100726543.0,
+      "reconstructedEventsFromRefMultCorrEntries": 2067647474.0
+    },
+    "submittedAnalysis": {
+      "member": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_KFParticle.yaml",
+      "sha256": "a545b9be5c25473cdde31955515f08dbdaf2dfe689e540c1ab7eb68b97aa19b7",
+      "starTag": {
+        "triggerSets": "production_3p85GeV_fixedTarget_2021",
+        "stream": "st_physics",
+        "collision": "auau3p85",
+        "year": "year2021",
+        "productionTag": "P24iy",
+        "libraryTag": "SL24y",
+        "filetype": "daq_reco_picoDst",
+        "filenameFilter": "st_physics",
+        "filenameNotFilter": "adc",
+        "storage": "local"
+      }
+    }
+  },
+  "settingsSha256": "15f1997830cbf6e7807bee945d0d0cbf0886f6635dafe7c160af02abe09da5bb",
+  "schemaVersion": 1,
+  "phase": "complete",
+  "figures": {
+    "cf_methods_3_5_6.pdf": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/cf_methods_3_5_6.pdf",
+      "sha256": "467651362714e83cc938ad81233693d6949a30943d4c9d4b18e3d37c2b15d82f",
+      "bytes": 27624,
+      "pages": 2
+    },
+    "purity_se_me.pdf": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/purity_se_me.pdf",
+      "sha256": "e96c8cb63dd3ab345d5dc33f08b3a36c6993bd0847ecf7ee31b422ae88d82aa3",
+      "bytes": 28198,
+      "pages": 2
+    },
+    "atlas_method3.pdf": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/atlas_method3.pdf",
+      "sha256": "45b9b23fbfbf4cfdd104f0b2b766489fdb3203bac5ae21d6d1738790cc2dd1e4",
+      "bytes": 5368818,
+      "pages": 100
+    },
+    "atlas_method5.pdf": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/atlas_method5.pdf",
+      "sha256": "9a092d6468f482c803cea7c650c153b2a6c2f713d1a80c09e667472b3054fbd8",
+      "bytes": 2197143,
+      "pages": 40
+    },
+    "fit_method3_cent20_80_001.pdf": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_001.pdf",
+      "sha256": "c280f25967143cb4cef90becdd51960c8a1cf48bfafba1ecfec1b4fde008df54",
+      "bytes": 33209,
+      "pages": 1
+    },
+    "fit_method3_cent20_80_006.pdf": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_006.pdf",
+      "sha256": "2985d49ccfbea941772a7614435e897b541c432422f9da127d0cc82ab8caef9f",
+      "bytes": 62130,
+      "pages": 1
+    },
+    "fit_method3_cent20_80_016.pdf": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_016.pdf",
+      "sha256": "5f18a2ee999b13ef041617cb9d839f4136bb0b37c6fe5fcce57e33999b86ddda",
+      "bytes": 65988,
+      "pages": 1
+    },
+    "fit_method3_cent0_20_001.pdf": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_001.pdf",
+      "sha256": "7ded32c7b44c539c79c7890a27f05d1c76520409fa793965c7825704a52f1eaa",
+      "bytes": 49268,
+      "pages": 1
+    },
+    "fit_method3_cent0_20_006.pdf": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_006.pdf",
+      "sha256": "49a815ded23a7165ba64168659fc693345be8493196ea804958ee44b9594b963",
+      "bytes": 65411,
+      "pages": 1
+    },
+    "fit_method3_cent0_20_016.pdf": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_016.pdf",
+      "sha256": "6109ef77aac3afbd992ffc4f3883ebbc3fa53d3243253af1f321a09aefcd7769",
+      "bytes": 62383,
+      "pages": 1
+    },
+    "fit_method5_cent20_80_001.pdf": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent20_80_001.pdf",
+      "sha256": "6c35becd3aa0371dd09d35f3ad6c67c874b5c1109525c9843f699a307da63afe",
+      "bytes": 67557,
+      "pages": 1
+    },
+    "fit_method5_cent20_80_003.pdf": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent20_80_003.pdf",
+      "sha256": "e84d50ec02b2084140d5ac4d336bf050d378e3d3dee679c417047e239e573891",
+      "bytes": 63212,
+      "pages": 1
+    },
+    "fit_method5_cent20_80_007.pdf": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent20_80_007.pdf",
+      "sha256": "4cc4dc8643036bebc5acb11f12140c24b25df338ba1fbb32c00d19792a0e042e",
+      "bytes": 62215,
+      "pages": 1
+    },
+    "fit_method5_cent0_20_001.pdf": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent0_20_001.pdf",
+      "sha256": "2c80543550c6715a38e72c929792de1b346752a40835a288ce6c662741f508aa",
+      "bytes": 62636,
+      "pages": 1
+    },
+    "fit_method5_cent0_20_003.pdf": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent0_20_003.pdf",
+      "sha256": "fc249032e82f59b02c499218fd6b4d8cf175cd17ea4da17d7766d9d75d28ab68",
+      "bytes": 61740,
+      "pages": 1
+    },
+    "fit_method5_cent0_20_007.pdf": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent0_20_007.pdf",
+      "sha256": "17f7abe67d6bf1fa6f7fb67049b1a29a9e881506f90d12e279c96c638bc75084",
+      "bytes": 61580,
+      "pages": 1
+    }
+  },
+  "sources": {
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/methods_comparison.json": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/methods_comparison.json",
+      "sha256": "8f0be63ff50b756c3e20251c75fbfbc9804553567e2aa32118c603befd84f704",
+      "bytes": 6526705
+    },
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/purity_fit_review.json": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/purity_fit_review.json",
+      "sha256": "9b3df4de6a51db0d1ac90bc3a1fd5ab67bfe85a0c7351e861162cb9330e3c045",
+      "bytes": 5491558
+    },
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/Todo/2026/10/31/settings/method6_settings.yaml": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/Todo/2026/10/31/settings/method6_settings.yaml",
+      "sha256": "15f1997830cbf6e7807bee945d0d0cbf0886f6635dafe7c160af02abe09da5bb",
+      "bytes": 705
+    },
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/Todo/2026/10/31/settings/summary_settings.yaml": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/Todo/2026/10/31/settings/summary_settings.yaml",
+      "sha256": "b6ccfed287aa28871c85affba9e9a498e131766063e7e46625a48ca191a25f02",
+      "bytes": 694
+    },
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/build_method6_report.py": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/build_method6_report.py",
+      "sha256": "48076bb339a0d79ebb3e293c27d0b7cbdd9aed08756119e9518816d87a316017",
+      "bytes": 26951
+    },
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/sample_provenance.py": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/sample_provenance.py",
+      "sha256": "20a8a09ca534fb7ef8e2a899376d3f35951431135016f67b9c925032c9128c90",
+      "bytes": 11362
+    },
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_quality.json": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_quality.json",
+      "sha256": "73375fed17e7cf8e6351a1bbbe4dc0f9e1a493cb2114cebbe70eccc61db42d08",
+      "bytes": 885397
+    }
+  },
+  "fitDiagnostics": [
+    {
+      "group": "cent20_80",
+      "label": "20-80%",
+      "method": "method3",
+      "side": "SE",
+      "total": 20,
+      "fullValid": 18,
+      "numericallyValid": 19,
+      "boundary": 2,
+      "observationsMin": 3,
+      "observationsMedian": 1539.0,
+      "medianChi2Ndf": 1.092361840768394,
+      "maxChi2Ndf": 1.8301132747439028,
+      "fitReasons": {
+        "insufficient_entries": 1,
+        "numerically_valid": 17,
+        "numerically_valid_boundary_warning": 2
+      }
+    },
+    {
+      "group": "cent20_80",
+      "label": "20-80%",
+      "method": "method3",
+      "side": "ME",
+      "total": 20,
+      "fullValid": 20,
+      "numericallyValid": 20,
+      "boundary": 1,
+      "observationsMin": 139,
+      "observationsMedian": 63839.0,
+      "medianChi2Ndf": 4.992882189008633,
+      "maxChi2Ndf": 21.036060552724354,
+      "fitReasons": {
+        "numerically_valid_boundary_warning": 1,
+        "numerically_valid": 19
+      }
+    },
+    {
+      "group": "cent20_80",
+      "label": "20-80%",
+      "method": "method5",
+      "side": "SE",
+      "total": 8,
+      "fullValid": 8,
+      "numericallyValid": 8,
+      "boundary": 0,
+      "observationsMin": 1780,
+      "observationsMedian": 21783.0,
+      "medianChi2Ndf": 3.535685753214464,
+      "maxChi2Ndf": 9.4962099328826,
+      "fitReasons": {
+        "numerically_valid": 8
+      }
+    },
+    {
+      "group": "cent20_80",
+      "label": "20-80%",
+      "method": "method5",
+      "side": "ME",
+      "total": 8,
+      "fullValid": 7,
+      "numericallyValid": 7,
+      "boundary": 0,
+      "observationsMin": 69249,
+      "observationsMedian": 897667.5,
+      "medianChi2Ndf": 60.17416750864512,
+      "maxChi2Ndf": 557.5064727805116,
+      "fitReasons": {
+        "numerically_valid": 7,
+        "invalid_fit_or_covariance": 1
+      }
+    },
+    {
+      "group": "cent0_20",
+      "label": "0-20%",
+      "method": "method3",
+      "side": "SE",
+      "total": 20,
+      "fullValid": 19,
+      "numericallyValid": 20,
+      "boundary": 1,
+      "observationsMin": 22,
+      "observationsMedian": 8464.5,
+      "medianChi2Ndf": 2.333432347261661,
+      "maxChi2Ndf": 5.908943272680528,
+      "fitReasons": {
+        "numerically_valid_boundary_warning": 1,
+        "numerically_valid": 19
+      }
+    },
+    {
+      "group": "cent0_20",
+      "label": "0-20%",
+      "method": "method3",
+      "side": "ME",
+      "total": 20,
+      "fullValid": 20,
+      "numericallyValid": 20,
+      "boundary": 0,
+      "observationsMin": 937,
+      "observationsMedian": 308495.0,
+      "medianChi2Ndf": 33.132879583201,
+      "maxChi2Ndf": 151.24927198613074,
+      "fitReasons": {
+        "numerically_valid": 20
+      }
+    },
+    {
+      "group": "cent0_20",
+      "label": "0-20%",
+      "method": "method5",
+      "side": "SE",
+      "total": 8,
+      "fullValid": 8,
+      "numericallyValid": 8,
+      "boundary": 0,
+      "observationsMin": 11633,
+      "observationsMedian": 119436.5,
+      "medianChi2Ndf": 16.701259075103028,
+      "maxChi2Ndf": 50.546130287216116,
+      "fitReasons": {
+        "numerically_valid": 8
+      }
+    },
+    {
+      "group": "cent0_20",
+      "label": "0-20%",
+      "method": "method5",
+      "side": "ME",
+      "total": 8,
+      "fullValid": 8,
+      "numericallyValid": 8,
+      "boundary": 0,
+      "observationsMin": 416691,
+      "observationsMedian": 4365707.5,
+      "medianChi2Ndf": 504.4685508931501,
+      "maxChi2Ndf": 1770.3204093356596,
+      "fitReasons": {
+        "numerically_valid": 8
+      }
+    },
+    {
+      "group": "cent0_10",
+      "label": "0-10%",
+      "method": "method3",
+      "side": "SE",
+      "total": 20,
+      "fullValid": 19,
+      "numericallyValid": 20,
+      "boundary": 0,
+      "observationsMin": 15,
+      "observationsMedian": 6599.5,
+      "medianChi2Ndf": 2.2609677812262214,
+      "maxChi2Ndf": 4.876029388236421,
+      "fitReasons": {
+        "numerically_valid": 20
+      }
+    },
+    {
+      "group": "cent0_10",
+      "label": "0-10%",
+      "method": "method3",
+      "side": "ME",
+      "total": 20,
+      "fullValid": 20,
+      "numericallyValid": 20,
+      "boundary": 0,
+      "observationsMin": 781,
+      "observationsMedian": 242164.5,
+      "medianChi2Ndf": 27.733829105934717,
+      "maxChi2Ndf": 123.12866687255202,
+      "fitReasons": {
+        "numerically_valid": 20
+      }
+    },
+    {
+      "group": "cent0_10",
+      "label": "0-10%",
+      "method": "method5",
+      "side": "SE",
+      "total": 8,
+      "fullValid": 8,
+      "numericallyValid": 8,
+      "boundary": 0,
+      "observationsMin": 9224,
+      "observationsMedian": 92608.0,
+      "medianChi2Ndf": 13.449201213663178,
+      "maxChi2Ndf": 40.3043442581524,
+      "fitReasons": {
+        "numerically_valid": 8
+      }
+    },
+    {
+      "group": "cent0_10",
+      "label": "0-10%",
+      "method": "method5",
+      "side": "ME",
+      "total": 8,
+      "fullValid": 8,
+      "numericallyValid": 8,
+      "boundary": 0,
+      "observationsMin": 332845,
+      "observationsMedian": 3402613.0,
+      "medianChi2Ndf": 421.2394087371651,
+      "maxChi2Ndf": 1434.7334069758854,
+      "fitReasons": {
+        "numerically_valid": 8
+      }
+    },
+    {
+      "group": "cent10_20",
+      "label": "10-20%",
+      "method": "method3",
+      "side": "SE",
+      "total": 20,
+      "fullValid": 18,
+      "numericallyValid": 19,
+      "boundary": 1,
+      "observationsMin": 7,
+      "observationsMedian": 1865.0,
+      "medianChi2Ndf": 1.2629720838375091,
+      "maxChi2Ndf": 2.7049378133368953,
+      "fitReasons": {
+        "insufficient_entries": 1,
+        "numerically_valid_boundary_warning": 1,
+        "numerically_valid": 18
+      }
+    },
+    {
+      "group": "cent10_20",
+      "label": "10-20%",
+      "method": "method3",
+      "side": "ME",
+      "total": 20,
+      "fullValid": 20,
+      "numericallyValid": 20,
+      "boundary": 1,
+      "observationsMin": 156,
+      "observationsMedian": 66330.5,
+      "medianChi2Ndf": 6.832211205757299,
+      "maxChi2Ndf": 29.494585487715547,
+      "fitReasons": {
+        "numerically_valid_boundary_warning": 1,
+        "numerically_valid": 19
+      }
+    },
+    {
+      "group": "cent10_20",
+      "label": "10-20%",
+      "method": "method5",
+      "side": "SE",
+      "total": 8,
+      "fullValid": 8,
+      "numericallyValid": 8,
+      "boundary": 0,
+      "observationsMin": 2409,
+      "observationsMedian": 26828.5,
+      "medianChi2Ndf": 4.592537177526981,
+      "maxChi2Ndf": 11.381082962341937,
+      "fitReasons": {
+        "numerically_valid": 8
+      }
+    },
+    {
+      "group": "cent10_20",
+      "label": "10-20%",
+      "method": "method5",
+      "side": "ME",
+      "total": 8,
+      "fullValid": 8,
+      "numericallyValid": 8,
+      "boundary": 0,
+      "observationsMin": 83846,
+      "observationsMedian": 963094.5,
+      "medianChi2Ndf": 88.4163112382072,
+      "maxChi2Ndf": 341.33859493886,
+      "fitReasons": {
+        "numerically_valid": 8
+      }
+    },
+    {
+      "group": "cent20_60",
+      "label": "20-60%",
+      "method": "method3",
+      "side": "SE",
+      "total": 20,
+      "fullValid": 18,
+      "numericallyValid": 19,
+      "boundary": 2,
+      "observationsMin": 3,
+      "observationsMedian": 1535.5,
+      "medianChi2Ndf": 1.092361840768394,
+      "maxChi2Ndf": 1.813928560817699,
+      "fitReasons": {
+        "insufficient_entries": 1,
+        "numerically_valid": 17,
+        "numerically_valid_boundary_warning": 2
+      }
+    },
+    {
+      "group": "cent20_60",
+      "label": "20-60%",
+      "method": "method3",
+      "side": "ME",
+      "total": 20,
+      "fullValid": 20,
+      "numericallyValid": 20,
+      "boundary": 1,
+      "observationsMin": 138,
+      "observationsMedian": 63038.5,
+      "medianChi2Ndf": 5.011845355887917,
+      "maxChi2Ndf": 22.213766818580027,
+      "fitReasons": {
+        "numerically_valid_boundary_warning": 1,
+        "numerically_valid": 19
+      }
+    },
+    {
+      "group": "cent20_60",
+      "label": "20-60%",
+      "method": "method5",
+      "side": "SE",
+      "total": 8,
+      "fullValid": 8,
+      "numericallyValid": 8,
+      "boundary": 0,
+      "observationsMin": 1769,
+      "observationsMedian": 21707.5,
+      "medianChi2Ndf": 4.084940396602943,
+      "maxChi2Ndf": 9.53896434767486,
+      "fitReasons": {
+        "numerically_valid": 8
+      }
+    },
+    {
+      "group": "cent20_60",
+      "label": "20-60%",
+      "method": "method5",
+      "side": "ME",
+      "total": 8,
+      "fullValid": 8,
+      "numericallyValid": 8,
+      "boundary": 0,
+      "observationsMin": 68594,
+      "observationsMedian": 887835.0,
+      "medianChi2Ndf": 60.14570364764009,
+      "maxChi2Ndf": 231.51258501552027,
+      "fitReasons": {
+        "numerically_valid": 8
+      }
+    }
+  ],
+  "report": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/method6_cf_purity_report_20261031.pdf",
+    "sha256": "8d83866ca5118072b66d283fde5cab8cf24ee934387d775dce4eff06ef0e2434",
+    "bytes": 1026939,
+    "pages": 20
+  },
+  "texSha256": "ee908ed305939ab33d2e1e117650d3a722172850780b887eb193cc361d4eb2d8",
+  "readmeSha256": "e9a44a872828f82d5f94630962ef02dc629c401ae6781a169ef17364ecc92960",
+  "completedAtJst": "2026-10-31T12:58:37.985230+09:00"
+}

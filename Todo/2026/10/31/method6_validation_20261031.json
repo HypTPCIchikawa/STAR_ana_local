@@ -1,0 +1,43 @@
+{
+  "phase": "validated",
+  "input_unchanged": true,
+  "groups": 5,
+  "referenceComparedBins": 500,
+  "checkedCfPoints": 642,
+  "sharedPurityCancellationBins": 198,
+  "normalizationUnavailable": [
+    {
+      "group": "cent20_80",
+      "method": "method5",
+      "reason": "ME bin 16: invalid contributing mass fit; ME bin 17: invalid contributing mass fit; ME bin 18: invalid contributing mass fit"
+    },
+    {
+      "group": "cent20_80",
+      "method": "method6",
+      "reason": "SE bin 16: invalid contributing mass fit; ME bin 16: invalid contributing mass fit; SE bin 17: invalid contributing mass fit; ME bin 17: invalid contributing mass fit; SE bin 18: invalid contributing mass fit; ME bin 18: invalid contributing mass fit"
+    }
+  ],
+  "plots": {
+    "cf_methods_3_5_6.pdf": {
+      "pages": 2,
+      "sha256": "467651362714e83cc938ad81233693d6949a30943d4c9d4b18e3d37c2b15d82f",
+      "bytes": 27624
+    },
+    "purity_se_me.pdf": {
+      "pages": 2,
+      "sha256": "e96c8cb63dd3ab345d5dc33f08b3a36c6993bd0847ecf7ee31b422ae88d82aa3",
+      "bytes": 28198
+    },
+    "atlas_method3.pdf": {
+      "pages": 100,
+      "sha256": "45b9b23fbfbf4cfdd104f0b2b766489fdb3203bac5ae21d6d1738790cc2dd1e4",
+      "bytes": 5368818
+    },
+    "atlas_method5.pdf": {
+      "pages": 40,
+      "sha256": "9a092d6468f482c803cea7c650c153b2a6c2f713d1a80c09e667472b3054fbd8",
+      "bytes": 2197143
+    }
+  },
+  "individualFitPdfs": 140
+}

@@ -1,0 +1,226 @@
+{
+  "input": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_merge.root",
+    "size": 14064010756,
+    "mtime_ns": 1792979968489270322,
+    "inode": 985993881
+  },
+  "energy": "3p85",
+  "sample": {
+    "year": 2021,
+    "included": 26955,
+    "expected": 26994,
+    "jobid": "04BF2DAE47164B6F040E3A460E539289",
+    "beam": "3.85",
+    "stem": "summary_4He_KFParticle_3p85",
+    "inputRoot": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_merge.root",
+    "provenance": {
+      "outputManifest": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_outputs.json",
+        "sha256": "cf1fd9d70294437ad6abd5d3c404d3a4996b09b57979ec88c3a99029ec276990"
+      },
+      "runmeta": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289.json",
+        "sha256": "d40dae004cf9c0f929e3e2fd5f2135a2c4da4583ae907a034ae2089e7638b899"
+      },
+      "runtimeBundle": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runtime_bundle_auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289.tar.gz",
+        "sha256": "3fbbe9de571ff627630c3c2582853132b13bd63742728d530034efde0e913dfb",
+        "sizeBytes": 7303345
+      }
+    },
+    "anaName": "auau3p85_anaFemtoLambda_4He_KFParticle",
+    "excludedIndices": [
+      362,
+      1967,
+      2001,
+      5273,
+      8944,
+      10263,
+      10340,
+      10470,
+      10784,
+      10786,
+      11005,
+      11006,
+      11494,
+      12357,
+      21109,
+      21385,
+      21400,
+      21888,
+      22032,
+      22258,
+      22762,
+      23201,
+      23362,
+      23486,
+      23536,
+      23539,
+      23587,
+      23590,
+      23598,
+      23628,
+      23672,
+      23673,
+      23678,
+      23924,
+      24043,
+      24063,
+      24813,
+      25445,
+      25555
+    ],
+    "eventCounters": {
+      "inputEventsFromRefMultEntries": 2100726543.0,
+      "reconstructedEventsFromRefMultCorrEntries": 2067647474.0
+    },
+    "submittedAnalysis": {
+      "member": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_KFParticle.yaml",
+      "sha256": "a545b9be5c25473cdde31955515f08dbdaf2dfe689e540c1ab7eb68b97aa19b7",
+      "starTag": {
+        "triggerSets": "production_3p85GeV_fixedTarget_2021",
+        "stream": "st_physics",
+        "collision": "auau3p85",
+        "year": "year2021",
+        "productionTag": "P24iy",
+        "libraryTag": "SL24y",
+        "filetype": "daq_reco_picoDst",
+        "filenameFilter": "st_physics",
+        "filenameNotFilter": "adc",
+        "storage": "local"
+      }
+    }
+  },
+  "config_hashes": {
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle.yaml": "1f9b5cba00812775b414e621422bb6a8667a50d0334056a78d5d0171bb905616",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/maker/maker_auau3p85_anaFemtoLambda_4He_KFParticle_he3Control.yaml": "6cbdd3634de7fa07a80497433cbf19f4e5f2c375c3f9f7d7c0006b5801db039f",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/Todo/2026/10/30/settings/mass_half_settings.yaml": "eba363e1738b400f911389aa3641a9ad56b3c0452843fb0b1dea1168f37c43a0",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/Todo/2026/10/30/settings/summary_settings.yaml": "b6ccfed287aa28871c85affba9e9a498e131766063e7e46625a48ca191a25f02"
+  },
+  "mainconf": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle.yaml",
+  "settings": {
+    "summary_settings": "summary_settings.yaml",
+    "plot_x_max": 0.3,
+    "comparison_range": [
+      0.0,
+      0.2
+    ],
+    "closure_absolute_tolerance": 1.0,
+    "closure_relative_tolerance": 1e-06,
+    "groups": [
+      {
+        "id": "all_0_80",
+        "label": "0-80%",
+        "min": 0,
+        "max": 8
+      },
+      {
+        "id": "cent20_80",
+        "label": "20-80%",
+        "min": 0,
+        "max": 5
+      },
+      {
+        "id": "cent0_20",
+        "label": "0-20%",
+        "min": 6,
+        "max": 8
+      },
+      {
+        "id": "cent0_10",
+        "label": "0-10%",
+        "min": 7,
+        "max": 8
+      },
+      {
+        "id": "cent10_20",
+        "label": "10-20%",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "id": "cent20_60",
+        "label": "20-60%",
+        "min": 2,
+        "max": 5
+      }
+    ]
+  },
+  "base": {
+    "mass_fit": {
+      "range": [
+        1.08,
+        1.15
+      ],
+      "mean_limits": [
+        1.11,
+        1.12
+      ],
+      "sigma_limits": [
+        0.001,
+        0.008
+      ],
+      "sigma_initial": 0.003,
+      "minimum_entries": 10,
+      "minimum_covariance_status": 2
+    },
+    "rebin_group": 4,
+    "rebin_fine": 4,
+    "plot_x_range": [
+      0.0,
+      0.3
+    ],
+    "purity_rebin": 10,
+    "normalization": [
+      0.3,
+      0.4
+    ],
+    "sliding_half_width": 2,
+    "ll_fit": {
+      "range": [
+        0.0,
+        0.4
+      ],
+      "radius_limits": [
+        0.1,
+        6.0
+      ],
+      "radius_initial": 3.0,
+      "normalization_initial": 1.0,
+      "fixed_a0": 4.01,
+      "fixed_reff": 1.84
+    },
+    "group_sets": [
+      [
+        {
+          "label": "20-80%",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "label": "0-20%",
+          "min": 6,
+          "max": 8
+        }
+      ],
+      [
+        {
+          "label": "0-10%",
+          "min": 7,
+          "max": 8
+        },
+        {
+          "label": "10-20%",
+          "min": 6,
+          "max": 6
+        },
+        {
+          "label": "20-60%",
+          "min": 2,
+          "max": 5
+        }
+      ]
+    ]
+  }
+}

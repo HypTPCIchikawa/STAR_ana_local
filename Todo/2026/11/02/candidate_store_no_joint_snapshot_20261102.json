@@ -1,0 +1,19 @@
+{
+  "phase": "source_saved_submission_in_progress",
+  "paths": [
+    "StMaker/common/FemtoLambdaLegacy.cxx",
+    "StMaker/StFemtoMaker/README.md",
+    "docs/REFERENCE.md",
+    "job/run/README.md",
+    "config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_candidateStoreWriteNoJointSparse.yaml",
+    "config/hist/hist_auau3p85_femtoLambda_he4_he3_pid_pair_qa_noJointSparse.yaml",
+    "tests/compareFemtoNoJointSparse.C",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/tests/candidate_store_no_joint_20261102_001/submit_and_notify.py",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/tests/candidate_store_no_joint_20261102_001/settings.json",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/tests/candidate_store_no_joint_20261102_001/manifest.json",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/tests/candidate_store_no_joint_20261102_001/README.md"
+  ],
+  "skipped": [],
+  "allPreviousSnapshotKeysPreserved": true,
+  "copyHashesMatch": true
+}

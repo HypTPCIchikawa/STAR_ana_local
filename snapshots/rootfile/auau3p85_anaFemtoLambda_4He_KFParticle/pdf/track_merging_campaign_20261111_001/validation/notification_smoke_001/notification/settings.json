@@ -1,0 +1,12 @@
+{
+  "campaign": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/validation/notification_smoke_001",
+  "monitor_settings": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/validation/notification_smoke_001/monitor_settings.json",
+  "state_dir": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/validation/notification_smoke_001/notification",
+  "recipient": "yudai.ichikawa.d3@tohoku.ac.jp",
+  "sender_module": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/script/watch_job_notify.py",
+  "poll_seconds": 120,
+  "subject_prefix": "[STAR 3.85 GeV] \u039b\u2013\u2074He merging QA",
+  "authorizedByUser": "2026-11-11 user explicitly requested email after completion",
+  "completionScope": "All source jobs terminal; verified final successful aggregate and matching final PDF/PNGs; include failures/exclusions; one notification only",
+  "createdAtUtc": "2026-11-11T07:27:17.190347+00:00"
+}

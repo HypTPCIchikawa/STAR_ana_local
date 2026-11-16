@@ -1,0 +1,340 @@
+{
+  "updatedAtJst": "2026-11-15T21:43:58.504017+09:00",
+  "report": {
+    "path": "share/figure/20261115_lambda_he4_ep_rapidity_cf/cf_ep_rapidity_report_ja.pdf",
+    "bytes": 822496,
+    "sha256": "91b240a8221b756e20c8a9c6e4b954af376824e8c11f055d85ae9e4e5683b4fc"
+  },
+  "pages": 33,
+  "previous_version": {
+    "directory": "share/figure/20261115_lambda_he4_ep_rapidity_cf/archive/20261115_initial22p",
+    "pages": 22,
+    "pdf_sha256": "8269a1d5bd1cfabdf3613d15fccaf76448c50cde251f423fca2d754d450c9481"
+  },
+  "settings": {
+    "target_pdf": "share/figure/20261115_lambda_he4_ep_rapidity_cf/cf_ep_rapidity_report_ja.pdf",
+    "archive_directory": "share/figure/20261115_lambda_he4_ep_rapidity_cf/archive/20261115_initial22p",
+    "previous_report_pages": 22,
+    "original_study": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001",
+    "centrality_study": "rootfile/femto_lambda_cent_pair_canvas_20261115_001",
+    "plots_directory": "share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots",
+    "normalization": [
+      0.4,
+      0.5
+    ],
+    "rebin_factor": 4,
+    "display": {
+      "k_range": [
+        0.0,
+        1.0
+      ],
+      "high_k_range": [
+        0.5,
+        1.0
+      ],
+      "EP1_color": "#244C75",
+      "EP8_color": "#C05A24"
+    },
+    "single_centralities": [
+      {
+        "id": "c0_5",
+        "label": "0-5%",
+        "min": 8,
+        "max": 8
+      },
+      {
+        "id": "c5_10",
+        "label": "5-10%",
+        "min": 7,
+        "max": 7
+      },
+      {
+        "id": "c10_20",
+        "label": "10-20%",
+        "min": 6,
+        "max": 6
+      },
+      {
+        "id": "c20_30",
+        "label": "20-30%",
+        "min": 5,
+        "max": 5
+      },
+      {
+        "id": "c30_40",
+        "label": "30-40%",
+        "min": 4,
+        "max": 4
+      },
+      {
+        "id": "c40_50",
+        "label": "40-50%",
+        "min": 3,
+        "max": 3
+      },
+      {
+        "id": "c50_60",
+        "label": "50-60%",
+        "min": 2,
+        "max": 2
+      },
+      {
+        "id": "c60_70",
+        "label": "60-70%",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "id": "c70_80",
+        "label": "70-80%",
+        "min": 0,
+        "max": 0
+      }
+    ],
+    "reference_centralities": [
+      "c0_10",
+      "c0_20"
+    ],
+    "production_code_update": "paused by user",
+    "new_pico_or_jobs": false,
+    "plot_files": {
+      "inclusive_tail": "inclusive_ctail_vs_centrality.pdf",
+      "inclusive_shape": "inclusive_shape_vs_centrality.pdf",
+      "ep1_tail_map": "EP1_pairY_ctail_map.pdf",
+      "ep8_tail_map": "EP8_pairY_ctail_map.pdf",
+      "ep1_shape_map": "EP1_pairY_shape_map.pdf",
+      "ep8_shape_map": "EP8_pairY_shape_map.pdf",
+      "merge_tail": "fixedmerge02_ctail_vs_centrality.pdf",
+      "merge_shape": "fixedmerge02_shape_vs_centrality.pdf",
+      "he4_tail": "he4_splits_ctail_vs_centrality.pdf",
+      "he4_shape": "he4_splits_shape_vs_centrality.pdf"
+    }
+  },
+  "inputIdentityChecks": {
+    "EP1": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10/covered388p25/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10_FD44A5EB1B0AA22C546F169E86482587_merge.root",
+      "identity": {
+        "size": 9282201802,
+        "mtimeNs": 1794636078792117886,
+        "inode": 769683426,
+        "device": 48
+      },
+      "unchanged": true,
+      "check": "size, mtime_ns, inode, device; full-file SHA not computed"
+    },
+    "EP8": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10/covered388p25/auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_DA0DEB4347BD834F1096F8D8798F2133_merge.root",
+      "identity": {
+        "size": 9282162513,
+        "mtimeNs": 1794636086144273909,
+        "inode": 769683428,
+        "device": 48
+      },
+      "unchanged": true,
+      "check": "size, mtime_ns, inode, device; full-file SHA not computed"
+    }
+  },
+  "checks": {
+    "pdf_pages": 33,
+    "rendered_pages": 33,
+    "typesetting_warning_counts": {
+      "Missing character": 0,
+      "Overfull": 0,
+      "Underfull": 0,
+      "Warning": 0
+    },
+    "fonts": {
+      "DroidSansFallback": true,
+      "/FontFile": true,
+      "/ToUnicode": true
+    },
+    "japanese_text_extraction": true,
+    "source_independent_validation": "PASS",
+    "scientific_review": "centrality_scientific_summary.json and .md",
+    "new_vector_plots": 10,
+    "root_plot_input_validation": "see summary_plot_manifest.json",
+    "visual_review": "All 33 pages in contact sheet; individual pages 20 and 26 inspected; no clipping observed.",
+    "scientific_review_clarifications": "QA table explicitly scoped to 0-20% EP8; production metadata statements scoped to this PDF update; aggregate result distinguished from CF average."
+  },
+  "production_code_update": "Paused by user; this task changes report postprocessing only.",
+  "limitations": [
+    "Fixed comparison normalization is not an established physical plateau.",
+    "kstar range ends at 1 GeV/c; no asymptotic convergence claim.",
+    "Rapidity selections do not split ME pools; EP-plane-resolved kstar data are unavailable.",
+    "Event reuse and EP1/EP8 covariance are not available; sparse Gaussian errors are diagnostic."
+  ],
+  "artifacts": [
+    {
+      "path": "rootfile/femto_lambda_report_update_20261115_001/report_settings.yaml",
+      "bytes": 1610,
+      "sha256": "484b309776f915cd43dc175f83b04a50f415a13f5b26dc8df165db8f0cb00c77"
+    },
+    {
+      "path": "rootfile/femto_lambda_report_update_20261115_001/centrality_pages.py",
+      "bytes": 12605,
+      "sha256": "42ee34bfc0b52146d7d5cea6bfae704699dc2655e5f3f47de9edcf6e45ddab93"
+    },
+    {
+      "path": "rootfile/femto_lambda_report_update_20261115_001/build_updated_report.py",
+      "bytes": 11595,
+      "sha256": "fd9efc63de45abc47091f393bf051867aca23f770dfb61b5a33b20d6bb587161"
+    },
+    {
+      "path": "rootfile/femto_lambda_report_update_20261115_001/verify_and_publish.py",
+      "bytes": 5894,
+      "sha256": "c381d8bf60914de05a6f1a3b27609bfcd469dcf6d212558190778f7256323936"
+    },
+    {
+      "path": "rootfile/femto_lambda_report_update_20261115_001/build_summary.json",
+      "bytes": 291,
+      "sha256": "7b071848c2974aafe006f4dfe35ff25da81797cd5342e433e0bb7cbde39aad6c"
+    },
+    {
+      "path": "rootfile/femto_lambda_report_update_20261115_001/centrality_scientific_summary.json",
+      "bytes": 516940,
+      "sha256": "820dd8ec699a82a6522778a879d9f31a1e06f3d395d7f21d8f0d49b447e0ca67"
+    },
+    {
+      "path": "rootfile/femto_lambda_report_update_20261115_001/centrality_scientific_summary.md",
+      "bytes": 7495,
+      "sha256": "e766a0baee9da79a5039759a5caa828f0d2ffd1f9679ca8451f093ba30da6242"
+    },
+    {
+      "path": "rootfile/femto_lambda_report_update_20261115_001/summary_display.yaml",
+      "bytes": 2203,
+      "sha256": "652385fcb24727f1fcea1fb0648624dd3f89e1e6139061e9195b04c6691a2ff8"
+    },
+    {
+      "path": "rootfile/femto_lambda_report_update_20261115_001/summary_plots.log",
+      "bytes": 7422,
+      "sha256": "a16e4cea6000e5739aeed9563224db1bb9ee0c06039cd8fb3f9429facbcb4c81"
+    },
+    {
+      "path": "rootfile/femto_lambda_report_update_20261115_001/plot_input_provenance.json",
+      "bytes": 1595,
+      "sha256": "e52668d3479749f962c04d15d0d358652f88237044fdacc69eadf1df0bcba656"
+    },
+    {
+      "path": "rootfile/femto_lambda_report_update_20261115_001/summary_plot_manifest.json",
+      "bytes": 7596,
+      "sha256": "350bd5ba1376a64f7e1af3bd6fc49d711a7fc35f6588f2d863ddd9cb373ea58c"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/study.yaml",
+      "bytes": 2983,
+      "sha256": "bc19e78562aa60668306037be34a2d974c1e8a2c866ec513e1c6f445e96c84f1"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/analysis_results.json",
+      "bytes": 6249052,
+      "sha256": "4ea2937007f1228dedd3e13b72469c5dcb82fd287b196a07f851aada408a2e97"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/metrics.csv",
+      "bytes": 63899,
+      "sha256": "f2579583097c83b7e6b0eff8a979e7ad2b117d9bcc79b01c8c3abfc482dc695a"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/independent_validation.json",
+      "bytes": 45061,
+      "sha256": "44fe9ad66cbce58966cdf0155079f64612b14d59a74db9ef13661d8c954cb97d"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/closure_checks.json",
+      "bytes": 124701,
+      "sha256": "5dcd9974dbb690b98c2f03d47239d9fff996bb684ac15a5a55912c27d6adbbb5"
+    },
+    {
+      "path": "rootfile/femto_lambda_cent_pair_canvas_20261115_001/input_manifest.json",
+      "bytes": 5103,
+      "sha256": "7eb7e74f9a733f56818a89ab0daff7bbf9c9a491e3088ac8a55d636a8702a443"
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_rapidity_cf_20261115_001/build_report.py",
+      "bytes": 23562,
+      "sha256": "c0c9b30836016c0d593bfab88d7178477772bddf718a3331406b8dd3261941af"
+    },
+    {
+      "path": "rootfile/femto_lambda_report_update_20261115_001/pdf_build/cf_ep_rapidity_report_ja.tex",
+      "bytes": 44876,
+      "sha256": "b0ee64928f341b8834e7e90ff7b731afd9e3b661a258b80f714146c1af4e75de"
+    },
+    {
+      "path": "rootfile/femto_lambda_report_update_20261115_001/pdf_build/build-2.log",
+      "bytes": 10587,
+      "sha256": "4ad082bc00e7dccb8481b5bd27216b10e0116afd9978bd20d0690555e7db276b"
+    },
+    {
+      "path": "rootfile/femto_lambda_report_update_20261115_001/pdf_build/cf_ep_rapidity_report_ja.txt",
+      "bytes": 125852,
+      "sha256": "22933881c1b8471f02b1086b48e1d28de57999af1d47e175833e4bd416124974"
+    },
+    {
+      "path": "share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/EP1_pairY_ctail_map.pdf",
+      "bytes": 19499,
+      "sha256": "fe767950ec2093c01d046a2ff1a0542915254e3427bba303ee3f7aa8cf63bbdb"
+    },
+    {
+      "path": "share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/EP1_pairY_shape_map.pdf",
+      "bytes": 19587,
+      "sha256": "9138c0eee3625423bdfbf75c853003bf5503b2c59eab888cac6427b36d21b8d4"
+    },
+    {
+      "path": "share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/EP8_pairY_ctail_map.pdf",
+      "bytes": 19362,
+      "sha256": "5a0335add3ededf4e9c54aceffb7526ca8f3c6320b3df9470d13dcba89edf454"
+    },
+    {
+      "path": "share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/EP8_pairY_shape_map.pdf",
+      "bytes": 19540,
+      "sha256": "462a82577b4a50f93b612e1d3fd13d859764d78f81780125e347e97c25c39900"
+    },
+    {
+      "path": "share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/fixedmerge02_ctail_vs_centrality.pdf",
+      "bytes": 15758,
+      "sha256": "db83679e00a4bcaf75471d29132d2cdc1db6349fc898d3574fa8e45f693bacff"
+    },
+    {
+      "path": "share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/fixedmerge02_shape_vs_centrality.pdf",
+      "bytes": 15934,
+      "sha256": "b83620579a28053a787c5829f1619ca232d9c41e6758860607ecab6aa24d1978"
+    },
+    {
+      "path": "share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/he4_splits_ctail_vs_centrality.pdf",
+      "bytes": 18418,
+      "sha256": "b803c55e1c17cc5ccaf83d53303b6cfae62821526e2584ceda183565818b1d07"
+    },
+    {
+      "path": "share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/he4_splits_shape_vs_centrality.pdf",
+      "bytes": 18962,
+      "sha256": "c9c2ab3d1e1be330028d09fa37e6c06c17cd96141b55d17e5ce1e590f7c0e681"
+    },
+    {
+      "path": "share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/inclusive_ctail_vs_centrality.pdf",
+      "bytes": 16038,
+      "sha256": "e5a7fc70750a64c011f63b6d0830d34c592b11a57f9efeb18680738b5b3746da"
+    },
+    {
+      "path": "share/figure/20261115_lambda_he4_ep_rapidity_cf/centrality_update_plots/inclusive_shape_vs_centrality.pdf",
+      "bytes": 16186,
+      "sha256": "01277b1061fc5f2591af8f56c3be60443a32423e956212c592877b963d4296be"
+    }
+  ],
+  "referenced_figure_sources": [
+    {
+      "path": "share/figure/20261115_lambda_centrality_pair_canvases/centrality_pair_rapidity10_SE_ME_CF_root.pdf",
+      "bytes": 3201252,
+      "sha256": "a2ff6d60d4766b703479c875de878a872352f1ba19b89597b0aed89ed34b8947"
+    },
+    {
+      "path": "share/figure/20261115_lambda_centrality_pair_canvases/pdf_index.json",
+      "bytes": 3823,
+      "sha256": "fd8d62cd88380fad8776bb3a0cac9eb5c6e0461bdbe8ed03f015e6bbb8fbf70c"
+    },
+    {
+      "path": "share/figure/20261115_lambda_he4_ep_rapidity_cf/plots_cropped/crop_manifest.json",
+      "bytes": 291370,
+      "sha256": "25fe13b84d55ede1d3366b8753a2611e443d356463c6eee68dbe405bb7175aed"
+    }
+  ]
+}

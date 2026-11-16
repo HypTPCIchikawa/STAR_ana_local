@@ -1,0 +1,171 @@
+{
+  "recenterpar.root": {
+    "source": "/star/u/jhan1/pwgdata/3p0/EP_P24iy/recenter/recenterpar.root",
+    "resolved_source": "/gpfs/mnt/gpfs01/star/pwg/jhan1/3p0/EP_P24iy/recenter/recenterpar.root",
+    "size": 3827598,
+    "sha256": "03b4e70b5af1143e628b09a69a8aca791f0ec39b4ddb2ab842bbac13372dd5d0"
+  },
+  "shiftpar.root": {
+    "source": "/star/u/jhan1/pwgdata/3p0/EP_P24iy/shiftpar/shiftpar.root",
+    "resolved_source": "/gpfs/mnt/gpfs01/star/pwg/jhan1/3p0/EP_P24iy/shiftpar/shiftpar.root",
+    "size": 40788318,
+    "sha256": "75621a71e6a90b161e5e45eeda76754c0aac30ab312540abea07b8b18e85d5e0"
+  },
+  "runs_2021.txt": {
+    "source": "/gpfs01/star/pwg/xjiang2/jxl/tree_p24iy/StRoot_v2/run/run.h",
+    "source_sha256": "469832f406e0b24aab45830bfb052d927f9f250ce7160cba408441107acd1e93",
+    "count": 388,
+    "order": "original run-index order preserved",
+    "sha256": "ebeb32e590666fe8db88eb9b458755a07313644a72ca1301fb65658df48be840"
+  },
+  "scope": {
+    "verified_date": "2026-11-12",
+    "production": "production_3p85GeV_fixedTarget_2021",
+    "reconstruction": "P24iy",
+    "file_list_selection_source": "/gpfs01/star/pwg/xjiang2/jxl/tree_p24iy/getlist/product_filelist.sh",
+    "file_list_selection_source_sha256": "03a1e4172c11cbe414cebcfe3d46496383f61c9102bda61a0216f3e6e635ff1c",
+    "file_list_selection_lines": [
+      6,
+      7
+    ],
+    "run_filter": "runnumber[]22158000-99999999",
+    "run_count": 388,
+    "minimum_run": 22158032,
+    "maximum_run": 22179022,
+    "naming_note": "The directory and file-list label 3p0 uses production_3p85GeV_fixedTarget_2021; it is not evidence of a different production.",
+    "scope_note": "These calibrations cover the explicit 388-run subset, not every run in the named production.",
+    "known_uncovered_example": 22123040,
+    "unknown_run_policy": "fail; never alias an unknown run to another calibration index",
+    "input_evidence": {
+      "path": "/star/u/jhan1/pwgdata/3p0/EP_P24iy/recenter/3p0GeV_local_P24iy_file_picodst_xrd.list",
+      "first_record": "root://xrdstar.rcf.bnl.gov:1095//home/starlib/home/starreco/reco/production_3p85GeV_fixedTarget_2021/ReversedFullField/P24iy/2021/158/22158032/st_physics_adc_22158032_raw_1500003.picoDst.root"
+    }
+  },
+  "ordered_run_mapping_verification": [
+    {
+      "path": "/gpfs01/star/pwg/xjiang2/jxl/tree_p24iy/StRoot_v2/run/run.h",
+      "sha256": "469832f406e0b24aab45830bfb052d927f9f250ce7160cba408441107acd1e93",
+      "count": 388,
+      "ordered_equal_to_runs_2021_txt": true
+    },
+    {
+      "path": "/star/u/jhan1/pwgdata/3p0/EP_P24iy/recenter/StRoot/run/run.h",
+      "sha256": "469832f406e0b24aab45830bfb052d927f9f250ce7160cba408441107acd1e93",
+      "count": 388,
+      "ordered_equal_to_runs_2021_txt": true
+    },
+    {
+      "path": "/star/u/jhan1/pwgdata/3p0/EP_P24iy/shift/StRoot/run/run.h",
+      "sha256": "469832f406e0b24aab45830bfb052d927f9f250ce7160cba408441107acd1e93",
+      "count": 388,
+      "ordered_equal_to_runs_2021_txt": true
+    },
+    {
+      "path": "/star/u/jhan1/pwgdata/3p0/EP_P24iy/shiftpar/StRoot/run/run.h",
+      "sha256": "469832f406e0b24aab45830bfb052d927f9f250ce7160cba408441107acd1e93",
+      "count": 388,
+      "ordered_equal_to_runs_2021_txt": true
+    },
+    {
+      "path": "/star/u/jhan1/pwgdata/3p0/EP_P24iy/recenter/3p0GeV_local_P24iy_runmber_picodst.list",
+      "sha256": "ebeb32e590666fe8db88eb9b458755a07313644a72ca1301fb65658df48be840",
+      "count": 388,
+      "ordered_equal_to_runs_2021_txt": true
+    },
+    {
+      "path": "/star/u/jhan1/pwgdata/3p0/EP_P24iy/shift/3p0GeV_local_P24iy_runmber_picodst.list",
+      "sha256": "ebeb32e590666fe8db88eb9b458755a07313644a72ca1301fb65658df48be840",
+      "count": 388,
+      "ordered_equal_to_runs_2021_txt": true
+    },
+    {
+      "path": "/star/u/jhan1/pwgdata/3p0/EP_P24iy/shiftpar/3p0GeV_local_P24iy_runmber_picodst.list",
+      "sha256": "ebeb32e590666fe8db88eb9b458755a07313644a72ca1301fb65658df48be840",
+      "count": 388,
+      "ordered_equal_to_runs_2021_txt": true
+    }
+  ],
+  "calibration_generation_sources": {
+    "recenter": {
+      "path": "/star/u/jhan1/pwgdata/3p0/EP_P24iy/recenter/StRoot/Recenter/Recenter.cxx",
+      "run_header_include_line": 27,
+      "run_lookup_lines": [
+        184,
+        189
+      ],
+      "fill_lines": [
+        348,
+        356,
+        460,
+        467
+      ],
+      "axes": {
+        "centrality": [
+          9,
+          -0.5,
+          8.5
+        ],
+        "run_index": [
+          1000,
+          -0.5,
+          999.5
+        ]
+      }
+    },
+    "shift_parameters": {
+      "path": "/star/u/jhan1/pwgdata/3p0/EP_P24iy/shiftpar/StRoot/Shiftpar/Shiftpar.cxx",
+      "run_header_include_line": 27,
+      "run_lookup_lines": [
+        135,
+        140
+      ],
+      "fill_lines": [
+        417,
+        421
+      ],
+      "recenter_input": "/star/u/jhan1/pwgdata/3p0/EP_P24iy/recenter/recenterpar.root",
+      "axes": {
+        "centrality": [
+          9,
+          -0.5,
+          8.5
+        ],
+        "shift_term": [
+          20,
+          -0.5,
+          19.5
+        ],
+        "run_index": [
+          1000,
+          -0.5,
+          999.5
+        ]
+      }
+    },
+    "application": {
+      "path": "/gpfs01/star/pwg/xjiang2/jxl/tree_p24iy/StRoot_v2/Shift/Shift.cxx",
+      "run_header_include_line": 27,
+      "run_lookup_lines": [
+        351,
+        356
+      ],
+      "recenter_input": "/star/u/jhan1/pwgdata/3p0/EP_P24iy/recenter/recenterpar.root",
+      "shift_input": "/star/u/jhan1/pwgdata/3p0/EP_P24iy/shiftpar/shiftpar.root"
+    },
+    "index_contract": "The run-header array position is the zero-based run index. Profiles are filled at that index and read at runIndex+1; the original order must be preserved."
+  },
+  "geometry_compatibility": {
+    "source": "/gpfs01/star/pwg/xjiang2/jxl/tree_p24iy/StRoot_v2/StEpdUtil/StEpdGeom.cxx",
+    "source_sha256": "c3f6b8844971a5afa016b335af411578bfe0d875b800c17aa030d4d740b1dfeb",
+    "installed": "/star/nfs4/AFS/star/packages/SL24y/StRoot/StEpdUtil/StEpdGeom.cxx",
+    "installed_sha256": "41465395e96a7c91ca43a99856eefa04f9e9945270156a1771e3426f9a739fa0",
+    "comparison": "Source lines match after excluding blank lines and ClassImp(StEpdGeom). Geometry and RandomPointOnTile sampling are identical.",
+    "ring_groups": "Xialei zero-based rows [0,3],[4,7],[8,11],[12,15] match the YAML one-based groups [1,4],[5,8],[9,12],[13,16].",
+    "rng_contract": "StEpdGeom captures gRandom at construction. The provider constructs and destroys event-local geometry inside the dedicated event RNG scope, preserving the caller RNG."
+  },
+  "sampling_reconstruction": {
+    "configured_seed": 20261112,
+    "method": "SplitMix64 event seed from configured seed/runId/eventId; dedicated TRandom3; RandomPointOnTile before nMIP rejection.",
+    "limitation": "The original Xialei corrected-event-plane cache is unavailable; this reproduces the method, not the original event-by-event random draw sequence."
+  }
+}

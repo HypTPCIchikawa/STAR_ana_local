@@ -1,0 +1,149 @@
+{
+  "createdAtJst": "2026-11-15T19:46:49.869114+09:00",
+  "settings": {
+    "source_study": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/study.yaml",
+    "input_root": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/cf_histograms.root",
+    "datasets": [
+      "EP1",
+      "EP8"
+    ],
+    "centrality": {
+      "id": "c0_20",
+      "label": "0-20%",
+      "min": 6,
+      "max": 8
+    },
+    "pair_rapidity": {
+      "frame": "lab",
+      "minimum": -1.5,
+      "maximum": 0.5,
+      "n_bins": 10,
+      "adjacent_merge_groups": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ]
+      ]
+    },
+    "normalization": [
+      0.4,
+      0.5
+    ],
+    "rebin_factor": 4,
+    "display": {
+      "k_range": [
+        0.0,
+        1.0
+      ],
+      "high_k_range": [
+        0.5,
+        1.0
+      ],
+      "EP1_color": "#244C75",
+      "EP8_color": "#C05A24"
+    },
+    "canvas_columns": 2,
+    "canvas_rows": 3,
+    "rows": [
+      "SE + scaled ME",
+      "CF full",
+      "CF high"
+    ],
+    "statistical_assumptions": {
+      "normalization_covariance": true,
+      "se_me_independent_histogram_count_approximation": true,
+      "event_reuse_covariance_available": false,
+      "ep1_ep8_covariance_available": false,
+      "zero_count_cf_bins": "omit"
+    },
+    "skipped_ep_planes_reason": "No kstar by event-plane joint histogram is saved in the production ROOT.",
+    "command": [
+      "bash",
+      "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/script/singularity_root_batch.sh",
+      "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_covered25.yaml",
+      "root4star",
+      "-b",
+      "-q",
+      "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_split_canvas_20261115_001/draw_split_canvases.C+(\"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/cf_histograms.root\",\"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_split_canvas_20261115_001/pair_rapidity_pages.tsv\",\"EP1,EP8\",\"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_split_canvases/pair_rapidity10_SE_ME_CF_root.pdf\",\"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_split_canvas_20261115_001/pair_rapidity10_canvases.root\")"
+    ]
+  },
+  "input_root_unchanged": true,
+  "artifacts": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/cf_histograms.root",
+      "bytes": 696311,
+      "sha256": "95476c23b140f8bc1ff878e898aa0c080cd5428374b693d17505f79cb8354b80"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/analysis_results.json",
+      "bytes": 1789326,
+      "sha256": "bb3a781e12773898af86ea0fa93b3638efab6255a41f6eb2835752be09a8e7db"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/study.yaml",
+      "bytes": 2012,
+      "sha256": "d76e18b3819b51d7056129a6cb153ce50de8215cfe1883d4e8ffdda586b25cc5"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_split_canvas_20261115_001/draw_split_canvases.C",
+      "bytes": 9104,
+      "sha256": "fec831cd18585b803bcff7205d52c2287710ff32a7852daddb0390aba3ada11e"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_split_canvas_20261115_001/prepare_and_run.py",
+      "bytes": 4318,
+      "sha256": "41ba69c600ab9ec3e95b128f8baafa86986b2112b89a2a19043c8da07e5332df"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_split_canvas_20261115_001/pair_rapidity_pages.tsv",
+      "bytes": 655,
+      "sha256": "c0efd5d0c3f1106ba1a3c3d3ad6e909b10cf3572221bb19a154a40132ce7e952"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_split_canvas_20261115_001/canvas_settings.yaml",
+      "bytes": 2069,
+      "sha256": "817d1a8a660045d7dd52c01464e896e3f27ad07b2b11ee4864d6c3f8288d087e"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_split_canvas_20261115_001/draw.log",
+      "bytes": 5456,
+      "sha256": "1a921dadfd0c218b8ebc0a0b7b462aa730268618d2b7c4916bb4a525930a7876"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261115_lambda_split_canvases/pair_rapidity10_SE_ME_CF_root.pdf",
+      "bytes": 308080,
+      "sha256": "40ed45d380d41d60a8da364ff96c11e04497163e5a499bed442890ccabbf2e90"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_split_canvas_20261115_001/pair_rapidity10_canvases.root",
+      "bytes": 136654,
+      "sha256": "7bac7523acd43e5a034cdc1ed14d234ff8a73984901c4c7d37231e444ca78f03"
+    }
+  ],
+  "checks": {
+    "root_exit_code": 0,
+    "pdf_pages": 10,
+    "rendered_pages": 10,
+    "text_extraction": true,
+    "visual_review": "all-page contact sheet and individual pages 2 and 4",
+    "input_and_output_hashes_verified": true,
+    "ep_plane_pdf_created": false,
+    "ep_plane_information": "No joint kstar-by-EP or reconstructible cached candidate data in production ROOT."
+  }
+}

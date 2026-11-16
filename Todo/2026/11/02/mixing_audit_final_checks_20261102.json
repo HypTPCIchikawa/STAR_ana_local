@@ -1,0 +1,331 @@
+{
+  "phase": "complete",
+  "completedAtJst": "2026-11-02T17:13:44.301000+09:00",
+  "validation": {
+    "phase": "validated",
+    "report": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/lambda_he4_mixing_kstar_audit_20261102.pdf",
+      "sha256": "2b329df7d60c030b3d88d2e7d3421b58d802e0e6552e284522ae58d3a91851a2",
+      "bytes": 354643,
+      "pages": 8
+    },
+    "inputRootUnchanged": true,
+    "previousReportsUnchanged": true,
+    "sourceHashesMatch": true,
+    "runtimeFunctionsVerified": 6,
+    "rootRuntime": "5.34/38",
+    "kinematicsTests": 60000,
+    "rawFineGroupCountsMatch": true,
+    "centExposureJacobianIndependentlyReviewed": true,
+    "meEligibleAttemptedFilledMatch": 157569769,
+    "mixingVzClampedEvents": 0,
+    "figurePages": 4,
+    "cropManifestsVerified": true,
+    "overfullWarnings": 0,
+    "causalOrigin": "unresolved",
+    "normalizationPlateauEstablished": false,
+    "all8PagesRenderedAndVisuallyChecked": true,
+    "independentConclusionReviewPassed": true,
+    "cropFilesVerified": 4
+  },
+  "reportSha256": "2b329df7d60c030b3d88d2e7d3421b58d802e0e6552e284522ae58d3a91851a2",
+  "sourceFiles": {
+    "tools/kfparticle_summary/audit_mixing_baseline.py": {
+      "sha256": "6205f3ae6555ef301c168738dc6a3c01cb204a85754dae590376078499dab192",
+      "bytes": 5627
+    },
+    "tools/kfparticle_summary/DrawMixingBaseline.C": {
+      "sha256": "6a9864eec562d40ad0104b17fdd434b2fdc97922347004cff49005d3baca2871",
+      "bytes": 5989
+    },
+    "tools/kfparticle_summary/ProbeMixingQa.C": {
+      "sha256": "c4915380282d9e6d88eba05a7866732c9ee8597e18f710af3852af6864a7210d",
+      "bytes": 2619
+    },
+    "tools/kfparticle_summary/build_mixing_kstar_audit_report.py": {
+      "sha256": "01fa1b24eea092326c147098d09426190f19158973bc773cb9326c3dad6a97d5",
+      "bytes": 12082
+    },
+    "tools/kfparticle_summary/audit_normalization_ranges.py": {
+      "sha256": "a362f4ff0f7dd1189cf1b3666b1ba58bd4b9f4dbfd6672dbfc35ab14bcbaf481",
+      "bytes": 12048
+    },
+    "tools/kfparticle_summary/method6_statistics.py": {
+      "sha256": "5d2eb90d4d767ace971ac81166b90d207e26b8f2ca454d40407e8822acb3022b",
+      "bytes": 16589
+    },
+    "tools/kfparticle_summary/crop_method6_figures.py": {
+      "sha256": "6b9f0f87ec35bae5500a69b729cc4878a0d281d9cb107e85f2d1280f6c0a071e",
+      "bytes": 3332
+    }
+  },
+  "privateSnapshotFiles": {
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/README.md": {
+      "sha256": "cb2248038a7d055eb7cba7f8914a395bdee4fd19854184e818755170c5e090c5",
+      "bytes": 1860,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/audit_report.md": {
+      "sha256": "105df07845a9d313816f8a2661d09bb7ccfee6e09ba3a0e491781df6c60d64e5",
+      "bytes": 6464,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/baseline_cent_exposure.pdf": {
+      "sha256": "d430c7eea1159c1475cbb348944c445b66e5d8cf3bfc0679d1e3494dac6e08ab",
+      "bytes": 42908,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/baseline_fine_L.pdf": {
+      "sha256": "f54134817662c39f4f1ac4fecb0f233c29adfedcca1b5431ca65242f9ce6ddec",
+      "bytes": 54434,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/baseline_group_L.pdf": {
+      "sha256": "758f1e3f6bb597b9756905b4a8740b17894be72745edf1f3644922f3870fadba",
+      "bytes": 62666,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/baseline_settings.yaml": {
+      "sha256": "a32f9f7a208db45f70f34eda976fd9b73f7753a43387d24da2f2bd84831fd1ca",
+      "bytes": 1167,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/baseline_species_control.pdf": {
+      "sha256": "cf05da0f57b61804ce345545d2363b4e88ad6f61d272597c07225dac59270e64",
+      "bytes": 48762,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/kstar_prf_math_audit_20261102.C": {
+      "sha256": "4de3b01c3ed9a7d964028a0624efdb6e1086a296fd1d76c79274db8b6339c6ff",
+      "bytes": 3835,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/lambda_he4_mixing_kstar_audit_20261102.pdf": {
+      "sha256": "2b329df7d60c030b3d88d2e7d3421b58d802e0e6552e284522ae58d3a91851a2",
+      "bytes": 354643,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/lambda_he4_mixing_kstar_audit_20261102.tex": {
+      "sha256": "4bc9a2694c3b62b9117c950897ba815ff8df8c42ab579f5f006fbabf2157d4d6",
+      "bytes": 9708,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/org_report_page18.txt": {
+      "sha256": "bb9c00d2074a2cfb4b1a815c1447ed5657f3a4c6c3f339c6d82cd3731e334581",
+      "bytes": 3260,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/plot_settings.yaml": {
+      "sha256": "c85b57edf366b97b27ac1ffb62c7b0f2a1a503aca86e4b1c9d712d7a75d83b1f",
+      "bytes": 76,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/plots/baseline_cent_exposure.pdf": {
+      "sha256": "bf2e430eb3093ed80753be5fea68cefda111a8cec1bb057354f89590b42fb1b1",
+      "bytes": 41914,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/plots/baseline_fine_L.pdf": {
+      "sha256": "249e6999c5bee9d2c9fcf296fdfc48b0221ecb41c50abdb1850703b5f83318d1",
+      "bytes": 53024,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/plots/baseline_group_L.pdf": {
+      "sha256": "dbe24409bafe7925153d07165bd9219d939c3e2b3602319c9ef6f6534a0c1952",
+      "bytes": 61080,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/plots/baseline_species_control.pdf": {
+      "sha256": "ebeccef5c8c448789c319c7f59f0d907b432a1fd308368d62e54d3f874ec4da5",
+      "bytes": 46779,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/validation.json": {
+      "sha256": "7e8922e23e474278d923b82d9d3e733b7cd895a65b0eef3e05dbe37f3f2259e0",
+      "bytes": 991,
+      "kind": "small_output"
+    },
+    "tools/kfparticle_summary/DrawMixingBaseline.C": {
+      "sha256": "6a9864eec562d40ad0104b17fdd434b2fdc97922347004cff49005d3baca2871",
+      "bytes": 5989,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/ProbeMixingQa.C": {
+      "sha256": "c4915380282d9e6d88eba05a7866732c9ee8597e18f710af3852af6864a7210d",
+      "bytes": 2619,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/audit_mixing_baseline.py": {
+      "sha256": "6205f3ae6555ef301c168738dc6a3c01cb204a85754dae590376078499dab192",
+      "bytes": 5627,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/audit_normalization_ranges.py": {
+      "sha256": "a362f4ff0f7dd1189cf1b3666b1ba58bd4b9f4dbfd6672dbfc35ab14bcbaf481",
+      "bytes": 12048,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/build_mixing_kstar_audit_report.py": {
+      "sha256": "01fa1b24eea092326c147098d09426190f19158973bc773cb9326c3dad6a97d5",
+      "bytes": 12082,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/crop_method6_figures.py": {
+      "sha256": "6b9f0f87ec35bae5500a69b729cc4878a0d281d9cb107e85f2d1280f6c0a071e",
+      "bytes": 3332,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/method6_statistics.py": {
+      "sha256": "5d2eb90d4d767ace971ac81166b90d207e26b8f2ca454d40407e8822acb3022b",
+      "bytes": 16589,
+      "kind": "private_source"
+    }
+  },
+  "excluded": [
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/audit_report_metadata.json",
+      "reason": "numeric_output",
+      "bytes": 4949
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/baseline_audit.json",
+      "reason": "size",
+      "bytes": 270179
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/baseline_points.tsv",
+      "reason": "numeric_output",
+      "bytes": 164278
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/control_points.tsv",
+      "reason": "numeric_output",
+      "bytes": 61915
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/control_summary.json",
+      "reason": "numeric_output",
+      "bytes": 2131
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/draw_command.json",
+      "reason": "numeric_output",
+      "bytes": 624
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/draw_control_command.json",
+      "reason": "numeric_output",
+      "bytes": 623
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/draw_controls_root.log",
+      "reason": "generated",
+      "bytes": 1245
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/draw_root.log",
+      "reason": "generated",
+      "bytes": 1685
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/draw_root_compile_failure.log",
+      "reason": "generated",
+      "bytes": 2462
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/kstar_prf_math_audit_20261102.log",
+      "reason": "generated",
+      "bytes": 682
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/kstar_prf_math_audit_20261102_result.json",
+      "reason": "numeric_output",
+      "bytes": 1485
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/kstar_prf_math_audit_20261102_source.json",
+      "reason": "numeric_output",
+      "bytes": 666
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/lambda_he4_mixing_kstar_audit_20261102.aux",
+      "reason": "generated",
+      "bytes": 977
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/lambda_he4_mixing_kstar_audit_20261102.build.log",
+      "reason": "generated",
+      "bytes": 8302
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/lambda_he4_mixing_kstar_audit_20261102.log",
+      "reason": "generated",
+      "bytes": 23269
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/lambda_he4_mixing_kstar_audit_20261102.out",
+      "reason": "generated",
+      "bytes": 0
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/mixing_controls_root_qa.json",
+      "reason": "size",
+      "bytes": 468099
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/mixing_qa_summary.json",
+      "reason": "numeric_output",
+      "bytes": 911
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/mixing_root_qa.json",
+      "reason": "numeric_output",
+      "bytes": 153436
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/plots/crop_manifest.json",
+      "reason": "numeric_output",
+      "bytes": 3610
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/probe_command.json",
+      "reason": "numeric_output",
+      "bytes": 637
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/probe_controls_command.json",
+      "reason": "numeric_output",
+      "bytes": 646
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/probe_controls_root.log",
+      "reason": "generated",
+      "bytes": 1227
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/probe_root.log",
+      "reason": "generated",
+      "bytes": 1218
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/runtime_StFemtoMaker_diff.patch",
+      "reason": "extension",
+      "bytes": 860
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/runtime_functions_verified.json",
+      "reason": "numeric_output",
+      "bytes": 927
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001/source_manifest.json",
+      "reason": "numeric_output",
+      "bytes": 1138
+    }
+  ],
+  "allPreviousSnapshotKeysPreserved": true,
+  "markdownLinksChecked": 48,
+  "missingLinks": [],
+  "productionChanges": false,
+  "commitOrPushPerformed": false
+}

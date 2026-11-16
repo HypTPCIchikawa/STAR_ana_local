@@ -1,0 +1,21 @@
+color.EP1	#244C75
+color.EP8	#C05A24
+map.tail.min	0.80000000000000004
+map.tail.max	1.2
+map.shape.min	0.84999999999999998
+map.shape.max	1.1499999999999999
+map.color_steps	96
+cent.count	9
+pair.min	-1.5
+pair.max	0.5
+pair.bins	10
+merge02.min	-1.1000000000000001
+merge02.max	-0.69999999999999996
+he4.threshold	-0.5
+tail.low	0.80000000000000004
+tail.high	1
+reference.low	0.5
+reference.high	0.69999999999999996
+norm.low	0.40000000000000002
+norm.high	0.5
+header	STAR P24iy; #Lambda-^{4}He raw signal CF

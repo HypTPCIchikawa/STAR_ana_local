@@ -1,0 +1,37 @@
+{
+  "id": 1,
+  "finishedAtUtc": "2026-11-11T06:17:59.806748+00:00",
+  "phase": "producer_returned_zero_pending_strict_QA",
+  "returnCode": 0,
+  "wallSeconds": 125.42877101898193,
+  "input": {
+    "id": 1,
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/recoveries/20261003/input_cache/st_physics_22121048_raw_7000012.picoDst.root",
+    "originalUrl": "root://xrdstar.rcf.bnl.gov:1095//home/starlib/home/starreco/reco/production_3p85GeV_fixedTarget_2021/ReversedFullField/P24iy/2021/121/22121048/st_physics_22121048_raw_7000012.picoDst.root",
+    "size": 1109718060,
+    "mtimeNs": 1790956727035017030,
+    "inode": 1007143174,
+    "sha256": "e0e1f7f1cd8a4ac42f7b688037eee8100f5fc791ca03cf8231a7b7d6530f21fa"
+  },
+  "inputUnchanged": true,
+  "producerLibrariesUnchanged": true,
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "timeout",
+    "--signal=INT",
+    "--kill-after=30s",
+    "1200s",
+    "bash",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/script/singularity_run_anaFemtoLambda_4He.sh",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_candidateStoreWriteNoJointSparse.yaml",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/local_extension/producer/1/pico.list",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/local_extension/producer/1/candidates.root",
+    "merging_local_1_20261111",
+    "-1"
+  ],
+  "candidateRoot": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/local_extension/producer/1/candidates.root",
+  "picoList": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/local_extension/producer/1/pico.list",
+  "mainconf": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_candidateStoreWriteNoJointSparse.yaml"
+}

@@ -1,0 +1,17 @@
+{
+  "reason": "Replace inherited one-fit/no-background-rule-change caveat with the actual conditional-refit description. Fit values, counts, covariance and acceptance flags are untouched.",
+  "files": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/group_extract/purity_fit_review.json",
+      "beforeSha256": "aad8d8471d65c502bc32ebc22a1773153b8c995de10204f1a066401e4b17f3a0",
+      "afterSha256": "330d2c73403eeadac7dac4d9edc3b77ce88ce3e99a9da25c881b4c3566268130",
+      "onlyInheritedCaveatTextChanged": true
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/fine_extract/purity_fit_review.json",
+      "beforeSha256": "5301eaca75d06d2818539a8d210cabf573e0287f2edf2fea3c803488d443deb2",
+      "afterSha256": "8567df1e339b12ba036c47fb2d50507ab90d283c44a3eaed66d18237958f3a2f",
+      "onlyInheritedCaveatTextChanged": true
+    }
+  ]
+}

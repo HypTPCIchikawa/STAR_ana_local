@@ -1,0 +1,75 @@
+schemaVersion: 1
+preparedAtJst: '2026-10-30T12:26:27.521201+09:00'
+scope: Completed updated ROOT CF and Lambda-background method comparison
+readyForFullCfRun: true
+requiredBeforeRun: []
+input:
+  path: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_merge.root
+  jobid: 04BF2DAE47164B6F040E3A460E539289
+  year: 2021
+  production: P24iy
+  includedSubjobs: 26955
+  expectedSubjobs: 26994
+  excludedSubjobs: 39
+  ordinaryHistogramCount: 1786
+  inputEvents: 2100726543
+  reconstructedEvents: 2067647474
+  fingerprint:
+    size: 14064010756
+    mtimeNs: 1792979968489270322
+    inode: 985993881
+    device: 48
+mainconf:
+  path: config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle.yaml
+  sha256: 1f9b5cba00812775b414e621422bb6a8667a50d0334056a78d5d0171bb905616
+  submittedConfigCheck: submitted_config_check.json
+inputInspection:
+  file: input_histogram_check.json
+  pass: true
+  histogramsChecked: 175
+  fitPerformed: false
+  cfCalculated: false
+plannedOutputDirectory: rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf
+settings:
+- copy: settings/mass_half_settings.yaml
+  source: tools/kfparticle_summary/mass_half_settings.yaml
+  sha256: eba363e1738b400f911389aa3641a9ad56b3c0452843fb0b1dea1168f37c43a0
+- copy: settings/mt_cent0_20_fixed_02_settings.yaml
+  source: tools/kfparticle_summary/mt_cent0_20_fixed_02_settings.yaml
+  sha256: fd8579a455bddec727ad8bcf1acdae819de0448869da3477116831679fc2911e
+- copy: settings/mt_cent0_20_settings.yaml
+  source: tools/kfparticle_summary/mt_cent0_20_settings.yaml
+  sha256: 10da9217aa38daa58e61486f91cd2ed3495a3662f3e286499cef9b932671240d
+- copy: settings/mt_fixed_02_settings.yaml
+  source: tools/kfparticle_summary/mt_fixed_02_settings.yaml
+  sha256: 791eb573b48b263df2c914dfc5fc557a4e68439f3b5e569b3693de7ed40574e0
+- copy: settings/mt_settings.yaml
+  source: tools/kfparticle_summary/mt_settings.yaml
+  sha256: f1522f3860b3049029f08a08e721b21ca966c7c4802a4bcbe81b292efc8e1968
+- copy: settings/summary_settings.yaml
+  source: tools/kfparticle_summary/summary_settings.yaml
+  sha256: b6ccfed287aa28871c85affba9e9a498e131766063e7e46625a48ca191a25f02
+forbiddenReuse:
+- Old inclusive purity 0.9672106547576258
+- Old Method5 purity tables
+- Old ROOT/PDF output directory or resume state
+mtStudy:
+  executed: false
+  sharedPurityApproximation: P_SE/ME(k*) integrated over mT for the same centrality;
+    independent mT mass fits unavailable
+  requiresExplicitSharedMethod5Acknowledgement: true
+implementation:
+  sampleManifestValidation: implemented; 13 tests pass
+  massHalfSampleValidation: implemented; 21 tests pass
+  summaryMacroContracts: 3 tests pass
+  status: complete
+  startedAtJst: '2026-10-30T15:03:05.726899+09:00'
+  completedAtJst: '2026-10-30T15:26:34.401861+09:00'
+result:
+  summaryPages: 10
+  massHalfPages: 13
+  canonicalPdfs: 21
+  validation: cf_final_validation_20261030.json
+  outputs: cf_outputs_manifest_20261030.json
+  normalizationMissingFits: Whole affected CF is NA; no partial normalization or LL
+    fit

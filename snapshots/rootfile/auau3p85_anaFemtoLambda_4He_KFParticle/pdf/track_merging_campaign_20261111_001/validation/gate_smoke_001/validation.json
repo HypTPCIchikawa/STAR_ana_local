@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "createdAtUtc": "2026-11-11T06:05:00.689786+00:00",
+  "actualSource": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/source/advance_after_pilot.py",
+  "sourceSha256": "c39668643432abdf02c949e8ac70765fa396b77bef0dd57ce4349a1d037801e7",
+  "cases": [
+    {
+      "case": "positive",
+      "command": [
+        "/cvmfs/star.sdcc.bnl.gov/star-spack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/python-3.8.13-myixjs7jesskpbhwiowibizezfh52rky/bin/python3",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/source/advance_after_pilot.py",
+        "--campaign",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/validation/gate_smoke_001/positive",
+        "--check-only",
+        "--poll-seconds",
+        "1"
+      ],
+      "returnCode": 0,
+      "phase": "pilots_validated_factory_ready",
+      "stdout": "FACTORY_READY_NO_SUBMISSION 1\n",
+      "errors": [],
+      "passed": true
+    },
+    {
+      "case": "bad_closure",
+      "command": [
+        "/cvmfs/star.sdcc.bnl.gov/star-spack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/python-3.8.13-myixjs7jesskpbhwiowibizezfh52rky/bin/python3",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/source/advance_after_pilot.py",
+        "--campaign",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/validation/gate_smoke_001/bad_closure",
+        "--check-only",
+        "--poll-seconds",
+        "1"
+      ],
+      "returnCode": 2,
+      "phase": "stopped_pilot_failure",
+      "stdout": "{\"updatedAtUtc\": \"2026-11-11T06:05:00.491211+00:00\", \"phase\": \"stopped_pilot_failure\", \"pilotSubjobs\": [\"10001\", \"10002\"], \"validatedPilots\": [\"10002\"], \"pendingPilots\": [], \"errors\": [{\"subjob\": \"10001\", \"error\": \"Pilot full closure not passed\"}]}\n",
+      "errors": [
+        {
+          "subjob": "10001",
+          "error": "Pilot full closure not passed"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "bad_input_hash",
+      "command": [
+        "/cvmfs/star.sdcc.bnl.gov/star-spack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/python-3.8.13-myixjs7jesskpbhwiowibizezfh52rky/bin/python3",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/source/advance_after_pilot.py",
+        "--campaign",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/validation/gate_smoke_001/bad_input_hash",
+        "--check-only",
+        "--poll-seconds",
+        "1"
+      ],
+      "returnCode": 2,
+      "phase": "stopped_pilot_failure",
+      "stdout": "{\"updatedAtUtc\": \"2026-11-11T06:05:00.674954+00:00\", \"phase\": \"stopped_pilot_failure\", \"pilotSubjobs\": [\"10001\", \"10002\"], \"validatedPilots\": [\"10002\"], \"pendingPilots\": [], \"errors\": [{\"subjob\": \"10001\", \"error\": \"Pilot input identity mismatch\"}]}\n",
+      "errors": [
+        {
+          "subjob": "10001",
+          "error": "Pilot input identity mismatch"
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "allExecutionsCheckOnly": true,
+  "condorSubmitCalled": false,
+  "actualPilotStatisticsAdded": false,
+  "fixtureOnly": true,
+  "sourceData": "Same successful local smoke copied as two synthetic pilot IDs; never actual farm pilot success",
+  "actualRuntimeModified": false,
+  "actualCampaignControlFilesModified": false
+}

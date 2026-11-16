@@ -1,0 +1,37 @@
+output_dir: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_mixing_kstar_audit_20261102_001
+group_input: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/group_extract/purity_fit_review.json
+fine_input: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/fine_extract/purity_fit_review.json
+group_results: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/methods_comparison_selected.json
+normalization:
+- 0.4
+- 0.5
+plot_range:
+- 0.2
+- 1.0
+slope_ranges:
+- - 0.3
+  - 0.8
+- - 0.5
+  - 0.8
+window_ranges:
+- - 0.3
+  - 0.4
+- - 0.4
+  - 0.5
+- - 0.7
+  - 0.8
+labels:
+  cent20_80: 20-80%
+  cent0_20: 0-20%
+  cent0_10: 0-10%
+  cent10_20: 10-20%
+  cent20_60: 20-60%
+  cent0: 70-80%
+  cent1: 60-70%
+  cent2: 50-60%
+  cent3: 40-50%
+  cent4: 30-40%
+  cent5: 20-30%
+  cent6: 10-20%
+  cent7: 5-10%
+  cent8: 0-5%

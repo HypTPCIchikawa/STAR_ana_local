@@ -1,0 +1,2023 @@
+{
+  "phase": "complete",
+  "operation": "Vector CropBox; no fit, bin or numerical changes",
+  "marginPoints": 6.0,
+  "files": {
+    "atlas_method3.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/atlas_method3.pdf",
+      "sourceSha256": "ae44b16ee9b02de788d164e683c3d38abd9d782e2883f1967782488fa2f8b79b",
+      "outputSha256": "45b9b23fbfbf4cfdd104f0b2b766489fdb3203bac5ae21d6d1738790cc2dd1e4",
+      "pages": 100,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 5368818,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "atlas_method5.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/atlas_method5.pdf",
+      "sourceSha256": "f7fe455333b6b80a404d3305cec772cc3a818db1aed0e8298c0d175ffb3689d2",
+      "outputSha256": "9a092d6468f482c803cea7c650c153b2a6c2f713d1a80c09e667472b3054fbd8",
+      "pages": 40,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 2197143,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "cf_methods_3_5_6.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/cf_methods_3_5_6.pdf",
+      "sourceSha256": "7fc71dcc0b52e4456807a15f35868035e47dc36f8adc44dc37c73752bb3254d6",
+      "outputSha256": "467651362714e83cc938ad81233693d6949a30943d4c9d4b18e3d37c2b15d82f",
+      "pages": 2,
+      "cropBox": [
+        256.763992,
+        347.339989,
+        821.669975,
+        579.353983
+      ],
+      "bytes": 27624,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_001.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_001.pdf",
+      "sourceSha256": "c57c22857361dbbb81292bce8d335ed77989a686f3e1a351b9cfea85749a1196",
+      "outputSha256": "b850b22c0244cc64cf23a5ecb23c2725bc99c066b372ca2f03c83d74978935dc",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 47745,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_002.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_002.pdf",
+      "sourceSha256": "3b1be746a9e81162a83afdda1aa68ee496517c158d37e0dd0fdcd8626d3a89ee",
+      "outputSha256": "598cd3a5d9dc2934f6c7b179462ca7ca2b8557e35878b7e06fa43a40172ed536",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 55480,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_003.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_003.pdf",
+      "sourceSha256": "9bbcaae97f4fb58c6b65724eca93458b61904c901e228f9309edc689c6d79dce",
+      "outputSha256": "2f665047fd10c84236062c399f9e5d8a0fd3a954874f46ef69582a704e11d643",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 60612,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_004.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_004.pdf",
+      "sourceSha256": "6e1a4026fcbba3db95d4f89202d6b721fea9baf361d119dabe1954c95c58f124",
+      "outputSha256": "ae4eb615e82fa96687f237a2130f926cdae266349ea81434eb45c8141abe76b0",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64878,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_005.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_005.pdf",
+      "sourceSha256": "16fa642bcb98f48405023d899a502617e66c91dbc460f4701df7cc4aa4679ddc",
+      "outputSha256": "38875917527965bfb448a51d64820a2b537e8941dbb110163acd599de89cd348",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 65113,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_006.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_006.pdf",
+      "sourceSha256": "f432c35b959af903f5b7edfd5eae3e572a2a7875d527b493766222af16bcd5a9",
+      "outputSha256": "1ab61d8214f2986da3464f5ccd9cf2d1c74b8d90aedb2493cdd47f2a8211db82",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 65792,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_007.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_007.pdf",
+      "sourceSha256": "4db5f6407ccaeac72f168d2645a77da962c7375d9c82b5788adf31fd302c6e4c",
+      "outputSha256": "62e0b3c6680d62b12d0e0a9f3141c18c29dd615bcd11bda25c246871e3669aa7",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64759,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_008.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_008.pdf",
+      "sourceSha256": "ad42e79ffbcd6f6ace75657dfc17346902fa65e665e10c710840e19549863d27",
+      "outputSha256": "a67e56c898cfdae6dc023c0754b2d3cd5b6fa5a57a1cdc08b6487b103ee23607",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64150,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_009.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_009.pdf",
+      "sourceSha256": "3198556d0006854a394c461ef2f974741fc7916299903b1c9b89cd1ba386cc03",
+      "outputSha256": "e47084b1ac077480214294f77834127f7190ab18df25f87833717d45488f31cb",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63715,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_010.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_010.pdf",
+      "sourceSha256": "5c63264dfba61bfa9004324a98b000709dcacde7b23f21933d717b42cdb80a15",
+      "outputSha256": "255d6a7adb61ef9ee605da069757cc3856451c7e33e049a65ab6001c0362500c",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64143,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_011.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_011.pdf",
+      "sourceSha256": "d02450df1122af4e8d803476065ad5f1c77330be3b8204dbece2f8c5a00cba71",
+      "outputSha256": "156d1e90860109c812a47e51ed9aeabdbc4ac04ca221c366f330df7ac1c3495c",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63954,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_012.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_012.pdf",
+      "sourceSha256": "ba71f84f08d6c93a5efac449be5e4684c5487a2649986e980d9a6f937ed38ded",
+      "outputSha256": "70e89f62ce88b95e1a99047b4ab52f97bf2b6a349de48e2dc5148f8cdc3c89f5",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62837,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_013.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_013.pdf",
+      "sourceSha256": "c30dbc48ecfcb23621db031e35f216e75b997742d523f16913f0f02be27131f9",
+      "outputSha256": "55f9d8b5ce2a1e4be27c182697ce37e0cd7aaeaf71e2de03ff1bb3f9731a532d",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62172,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_014.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_014.pdf",
+      "sourceSha256": "a3ab35d80952cbe633d9eaa22b41e28c2e6cda3dbb9e67fd9b0c247a855671cd",
+      "outputSha256": "292d737d0a37a809a156e0b512002eefa5adc375f9705c62ae4d4cf524f7412e",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62357,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_015.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_015.pdf",
+      "sourceSha256": "09747400f7d97e9e29953b8a611085b5e042e1cfbad1a8ad13b9702cf2c0ab85",
+      "outputSha256": "ae6e4a37a334422b1f55fd1755d90e83ebf61f202da78db13d3e36b6ffce299a",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62350,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_016.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_016.pdf",
+      "sourceSha256": "b5bd24eea4058ae1393935074386a430d2543037a1c03bbcc06496bb56d3b833",
+      "outputSha256": "62a15a25e14feb785348f8b3c793718f1ee7c9683d46c4f167aa5ef467b7bcc2",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62875,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_017.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_017.pdf",
+      "sourceSha256": "ac25b2e75a5b4b8e89a4ac1b5a47fd246c494f4206da3b24cfe10758d60dea30",
+      "outputSha256": "573fc22185a3f4922da3d49f19e124282ed3aef00f1bc16e3e558b3336581817",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62710,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_018.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_018.pdf",
+      "sourceSha256": "270bcc3817c92a250fe657c938f7fa8e63b1bf1e295dd6008ea5168fa56c13b1",
+      "outputSha256": "f5cf3bb9bb5aa1ce6ee19d7d4bb79292f5445cb292a7fe5d5c3159203e2ebcbb",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62777,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_019.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_019.pdf",
+      "sourceSha256": "bbb121c917aca69e3af4cbfbd50c5e007094061708d3609b0fcf0bf6a8613217",
+      "outputSha256": "066660bae825203ba23e642e8e00b3754d66992a3d596acb0c1e764c2e16ddb5",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62616,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_10_020.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_10_020.pdf",
+      "sourceSha256": "caeb660fe62b1ac463360739a95e20c097fb57f31c709e8f7b92cb6cf2e8c7b5",
+      "outputSha256": "4e028433f7e9a471747061c1a711885236ab7ad78cef87e38b50b1ec86fe75ed",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62835,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_001.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_001.pdf",
+      "sourceSha256": "6a387ef1a2a7437795fb4482ce5b491591e44cc236d95ee930d6365fe5eaaac7",
+      "outputSha256": "7ded32c7b44c539c79c7890a27f05d1c76520409fa793965c7825704a52f1eaa",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 49268,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_002.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_002.pdf",
+      "sourceSha256": "2366fe74b29dae6d24ffbb9a79737f10bb2a00962d5b53676e9f38b5bbc8da20",
+      "outputSha256": "e806c054279bb98d32f9c574bd4020ea4ab9b496968ca102e2248658d689ae1d",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 56889,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_003.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_003.pdf",
+      "sourceSha256": "d29e31d0ea2060269697c6b42c42d4fc1eda60e2ea1293b34469e7d41a088e7f",
+      "outputSha256": "4b845353be402c77ebb1d09fc242a2b2af322024dc163bd6710b0fb53741ebe1",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 61035,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_004.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_004.pdf",
+      "sourceSha256": "b7b30dd737cd8aa7693ef7a8116caee68b88e114a8d5f951a3d52cb616410ab3",
+      "outputSha256": "e6c88a291d1a81e2ec0e11902e6d3b41b70da84ea5151a14ff9d055bf7c1202b",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 65959,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_005.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_005.pdf",
+      "sourceSha256": "38fbc7cb003902e5108d60dd254f980be036b2d750c70d9e0239e6ac1bea9619",
+      "outputSha256": "41b70ab2bbd0a6e9ac4f5f48854a28720ef26433a397c721b4dd56033a7c5a61",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 66321,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_006.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_006.pdf",
+      "sourceSha256": "cec6cb507b68729177ae189475f56bd3a8c3435d4d3c89dd5fc608786d529095",
+      "outputSha256": "49a815ded23a7165ba64168659fc693345be8493196ea804958ee44b9594b963",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 65411,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_007.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_007.pdf",
+      "sourceSha256": "838802087847025a59f4a33a729e96ed4972d2138fcb8f87537949e460e950a5",
+      "outputSha256": "c869f5741a9395e4f87951d3f14d0869ae5b0ffee27c0fd02da5f757e4aefd62",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63884,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_008.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_008.pdf",
+      "sourceSha256": "0dbf8c6de2243a8e8fa2334161f75e5859a3001148e222acadae51edaaeb839b",
+      "outputSha256": "374b47f29e6bc513f2c0118a3a6c5f56d68a813056b626a66e0a252db39855e6",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63533,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_009.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_009.pdf",
+      "sourceSha256": "f2f2bafe90c98ca7bc22191205a37975f89756f47de613b9e6486a70e7d1c11b",
+      "outputSha256": "7a9195ab2187a8ffa87b20f0d56c094671d69cd1e9d016bf28f5884d7847cdda",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63830,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_010.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_010.pdf",
+      "sourceSha256": "141fe50dc3c633d58a40418699ec9b13d521b843a07b91fcbed55e8b4930c105",
+      "outputSha256": "d2d46473ea95c7ff9be5a5056ff8bb3082b65e2f8304ad3dedca93e1f8eb487b",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63409,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_011.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_011.pdf",
+      "sourceSha256": "24d9ceb849c5c5e5b785c9abc8b53c0c1f6ba5d488c7a62661e393d5df69e6d6",
+      "outputSha256": "e7bd1453341c4f780dbcf736eb4d2bd7198fe85da402b8b66be4f4dae725cf16",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62443,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_012.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_012.pdf",
+      "sourceSha256": "d020fbfa9abc0613ab741fe084138378c66ceb94eddbda6c3a527124d6361d6b",
+      "outputSha256": "bf43de35857632927d6e52f3c14c8f83bc87d42380f06036075766d3bd00790d",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62462,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_013.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_013.pdf",
+      "sourceSha256": "405e99e649a382e9051ea25a5644118b6215abb42798de6c6027edc7c6a6ff02",
+      "outputSha256": "07b922921131d182db292918fe489922c3503c8514bd16529d6c23594fe988c3",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62207,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_014.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_014.pdf",
+      "sourceSha256": "b0af399900c4093bf750c4029fa9f8aba3874b73ab85cc22a05f9e00e0f6b643",
+      "outputSha256": "afe412c786585279ed6eb37fc0c9b7c170c3f6068f6e2b67b207b50d46f7a290",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62807,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_015.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_015.pdf",
+      "sourceSha256": "8587e552f416b02a256d9a8d032dbe4463c7ba4848a80548d1344307b869c882",
+      "outputSha256": "80a1f3aead9ec25d9b7e281fbc4f2a115c93870bb0fb14989e56e74802f1349a",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62602,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_016.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_016.pdf",
+      "sourceSha256": "fd67c90db836e627455b4e603c47436e684e9de6f937c6b0734df6302e51545c",
+      "outputSha256": "6109ef77aac3afbd992ffc4f3883ebbc3fa53d3243253af1f321a09aefcd7769",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62383,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_017.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_017.pdf",
+      "sourceSha256": "cecc166198956c0f05efc96e44101cb80f9344f4cc2e58fa1840c08dbd9023d8",
+      "outputSha256": "3d5339d0c7fbd606488f6bd0211ae92deae88ca88f7ca314ba46dc3cd27c6ad6",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62973,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_018.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_018.pdf",
+      "sourceSha256": "5e95baaaa2e090501423b61820b80d15566ef0e35144e34d9def832295f0a1de",
+      "outputSha256": "1564b82eee13364e3175949783c4444fc5c512c3be4c9e3904252107dcbe62e3",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62581,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_019.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_019.pdf",
+      "sourceSha256": "bd7a08e970bfe1d01e004025dd72514ccbb629d38f662c45008e0546db7dc55a",
+      "outputSha256": "cf8e1477e2538e7a77eca788666bcbdcd33e992b1bea71947c6c5c3174ac6a1c",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62920,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent0_20_020.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent0_20_020.pdf",
+      "sourceSha256": "c52c1f8de38abcef55815c733e21c75e88c0a2056fc13bfd2c93d8b33c3b55c4",
+      "outputSha256": "2f33f24154ba068f36113b34c1f39516d5205b72ba50a2d5ba6f8eaba5087738",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62128,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_001.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_001.pdf",
+      "sourceSha256": "cdf776a0be4e07bb8d9405a3ec967b2990f89f78c4b1e2aea6e6c74f2d27252d",
+      "outputSha256": "f5206ad352e40a6b079a1531de0219edbc0565978f12073fc13703c60054566b",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 34250,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_002.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_002.pdf",
+      "sourceSha256": "014aeb4dd61620f754fa3f4133ad5f4c0839d41e7727383b2edca62d4bec9309",
+      "outputSha256": "42e1f118837bd8012a07540c28bdeec3dacb7339f8d91788340bd5d6ebb7c892",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 51597,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_003.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_003.pdf",
+      "sourceSha256": "eba7eb57e5444abb73d3770132fc504270d7c48eedea1fcbf0a877e9bea0bf10",
+      "outputSha256": "9a304d3927637272517718a5eb7bced1129a9b6ba8e23901f097f32e20522936",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 54173,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_004.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_004.pdf",
+      "sourceSha256": "83d3e1661d3b8b8b5d6048bbff6759bf012d2af945cdcd1e38b0227ccc47953d",
+      "outputSha256": "4197bc7511d8bbcb4f5e2411d4397b50018f1fdf47edf23b4cd7a055c7027c54",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 58002,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_005.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_005.pdf",
+      "sourceSha256": "04645188e22c2b587fbbd21c30d9e792489b87ed5b7fcea5b39e9bb498dac933",
+      "outputSha256": "98a46107c56ddff80368a80ca7a511e3dac7c4aeffc7275701f3524777313d03",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 59981,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_006.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_006.pdf",
+      "sourceSha256": "e84a4949fe86487b5636dcd3059acf0b9762f34195c437c4e4f1998940e161f4",
+      "outputSha256": "3fbb66825c990dd984ab7d599ede7c7726fac9e07c641e2d04280afafc712a90",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 60557,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_007.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_007.pdf",
+      "sourceSha256": "ddab84f3e523add0994fa2fc8b907b9e71356a693a8ee9ce0344852d96bfbc91",
+      "outputSha256": "deb5ce67e8ab20c58230cfe9c155e51c9dc25097a072bd00fa6547650c13f35a",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63870,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_008.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_008.pdf",
+      "sourceSha256": "bc51f762e17747073e25c45fcbcc4b54d0d2445fa913418710130c82207edf28",
+      "outputSha256": "5e54f28eab04cbe64da4f6836679a10df7f6794806e11c1b1af46f39d18b1e7b",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64629,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_009.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_009.pdf",
+      "sourceSha256": "4b8548012354757e7f9ddd2217270d8496b23846191c1d7438b44d90386cb197",
+      "outputSha256": "0f516b4f9a348ec39a4d8656858d269502c72d2d0c0dc070f242215514d40ce1",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 66600,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_010.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_010.pdf",
+      "sourceSha256": "0e0f67b1c7910d6f567f523fd1b7cc3b944701159068d482e10ad9b59e66b295",
+      "outputSha256": "934d8c0599acca5b2101f4092db7f1f91cbd09e58fa05be8cac63d9affca5072",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64231,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_011.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_011.pdf",
+      "sourceSha256": "01dc42767b3725c1f6e3fd09b0214701efb90c4650da716159aa2db80a4677e2",
+      "outputSha256": "f70eccd78f540e444375218226addd8412f6da48940d1e84a7fbcd04c28907af",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64268,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_012.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_012.pdf",
+      "sourceSha256": "404aec0129c1a55379164e4a5fb75fb5b93ba8c72231a8a505d7634ece0690b6",
+      "outputSha256": "e94f4831d78ce7cfe2a9d45632f6c469892727908889ab7821bb9ab67796753d",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64571,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_013.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_013.pdf",
+      "sourceSha256": "077c9ad2a4b343c525784664cf763775524b5748c8077fbcdc6456b5aba38029",
+      "outputSha256": "98dfa06d215ca4c51fbb9aa65a378677df05551f938c4f130e25a039ac72ee80",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64842,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_014.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_014.pdf",
+      "sourceSha256": "a0f618b2404e093109bf0ff83d0cd81d48307345a61e53ec7534c4b974e2a961",
+      "outputSha256": "2ed146ded0ab8634186b59ccc9831eac9fcea0bcae433072e784fe1d6d74bf4c",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64286,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_015.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_015.pdf",
+      "sourceSha256": "366b4acbc9220757ae55120e225433d7c038fa086bc5b11caf2193c3c6b4036b",
+      "outputSha256": "efb5044bef9d8065131a353611933c75b01efbc22db10cecdfdb3ee5374bfc0d",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63668,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_016.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_016.pdf",
+      "sourceSha256": "35477bc3af0fc822ac5721b14f182eb98501a945c5a5c4f9e6028e94a98b0745",
+      "outputSha256": "b96fb0c54d268dfd6d4b0c712842eae68af52fa1da2187fa4c59ad6ad2a10827",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63220,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_017.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_017.pdf",
+      "sourceSha256": "cfb170bed4d07974d255c91afaa13fd0ecc9e0f1cac4eaf63c2e713ea6aaa3bc",
+      "outputSha256": "1c661462aa50b0332c3de12c6e29db7bb09611ddaf21cc3c0f780926e4eec543",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63411,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_018.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_018.pdf",
+      "sourceSha256": "b188e44d75e5e17310257c59fb9bb7248704aa7f54a83b18fecb5a3dbfb62a23",
+      "outputSha256": "e0770116ec6184f833314ebdebe4f9a57c0d8f9d8d8800681861147e211ec9de",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63942,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_019.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_019.pdf",
+      "sourceSha256": "e0cfe638e5ada956f1e37f6681efb9afe871a2ee503a3231755fb923b6e68632",
+      "outputSha256": "b0d89bbe257a4ef63d91d22ce4ca9306222c2b0a6d12ec2d56283cbabed5f0ca",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64109,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent10_20_020.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent10_20_020.pdf",
+      "sourceSha256": "14ef33b2efeb38fb05d799d9825e914e2fd7eed5e7367389113d16e94813ec59",
+      "outputSha256": "1d30b865dea459758d42f4704ecf423c8cb1775f467d8e4b74404e9b84797e03",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64128,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_001.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_001.pdf",
+      "sourceSha256": "20fb95f687ebb67ab1a8c6b9293c323f38a4ff7744a803b8c810be857634ac71",
+      "outputSha256": "c9093dff5bfa8aa67300931a859f48da0b852feb81170070e13ad2a2bad8e9ef",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 33209,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_002.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_002.pdf",
+      "sourceSha256": "35dce7229a23eac0b94feed37fe777dc218b699bc6693b199d8dec81e84a6523",
+      "outputSha256": "c41bd7b768551b20e1e62d0881e8a8f7ab273a641e0ae27a18bfb9e1f0873209",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 51253,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_003.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_003.pdf",
+      "sourceSha256": "12421dd9c88803ddd85f4548a4e9580276868fe497d5479cbfafbd3b0e0b32c8",
+      "outputSha256": "d9ff0c695b996ad78fa4ab554d43ac5a3f11d246d84bf3d9ac59585ba3495216",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 56596,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_004.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_004.pdf",
+      "sourceSha256": "dddae060c63ea7013f07251d6e8e6f01ce1851f990e497879a6b553dde504947",
+      "outputSha256": "3b78a2b9b2be6ed03d432522e74bf9aea8934cc3f858c2fdaf0e3b6e4d534288",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 58987,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_005.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_005.pdf",
+      "sourceSha256": "2189b49ec92127c2a8ce03de334a1ef2eb9bd22967f38f31e146a276241a725b",
+      "outputSha256": "346fe492f5e0abe606db044fc5ffc2c7ee8e2adcb9e2f6167a57558c73f48840",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 60491,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_006.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_006.pdf",
+      "sourceSha256": "869de063bab950eaea8faa1331e3bd805e5e036f78c6c883d1f882c4e3781e31",
+      "outputSha256": "529d34a5fe7d0f3693358fad3c8aaa0fdefae13a4aa117b4ad0cda94c122a100",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 61915,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_007.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_007.pdf",
+      "sourceSha256": "c96edd5044dc234be97bd8372cd5e18e952c0b9dd9b552e458754fd723a9c3a8",
+      "outputSha256": "ee94a48959147e75cfe8dbfaeacf6a6a99f408a955f4d2fbc40efc328d5f40d2",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62579,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_008.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_008.pdf",
+      "sourceSha256": "4d3bd3add05a4142c8910aec91e0c26e7fb1778085c939e80912c750d96f321a",
+      "outputSha256": "8d89387ed782b0ae1954dcd51d881c9bf2a33b309df76e65cc5bb765b5db450e",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64192,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_009.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_009.pdf",
+      "sourceSha256": "48187ed73e4b98f7df7f9158204bb4de9335885680d73948282bacbbd70ef9cf",
+      "outputSha256": "11e2cc937dea3c3b4a3509c4c7b11792d0f456209c631425c8ba474180b42a9f",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64843,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_010.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_010.pdf",
+      "sourceSha256": "25e5b912a5d99b556264c266610ac26a28ac349d68d9bb346b6d4b7332c82d96",
+      "outputSha256": "f886371e9c341b35904dd6907f048b7d60c314dc183628edd2eaa22f2ad6d7dd",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 65719,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_011.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_011.pdf",
+      "sourceSha256": "b8278ab4b6df89ddfb3a8b0ec60dedaca6b0df77dd08fd9bbc4eb6ba20dadff8",
+      "outputSha256": "3dd59caeabf4712a824a22acda16028bc93a44948e33a7373f6bc8259a6bead7",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 67144,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_012.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_012.pdf",
+      "sourceSha256": "7dd4e2565792a6c49e36400f6ff9a19a33295ca7fccda8fc412b15f103e4c6d8",
+      "outputSha256": "ceec3981709c572e307e86dbf49d5f482ebc41763195d7842426a6af92e637b1",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 66479,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_013.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_013.pdf",
+      "sourceSha256": "80da90452152ab2df9c11319d79e22d4ae2ef8006bc415fad51e6177d99a6475",
+      "outputSha256": "cb664f5b4e0b272d69964f6c326e919658718ef9465b32dec7ac580fd7d103b9",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 66613,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_014.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_014.pdf",
+      "sourceSha256": "52dc69efe321a51654374214694834036dad8e8ca4e3ca8e5e87bd1779a1896a",
+      "outputSha256": "bf3aa99cb336368938853e2258fb4eb60492ef7020a33c68b6fa192f12c292a5",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 66185,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_015.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_015.pdf",
+      "sourceSha256": "8e01e7f2a6cc81a5e5073c0a8d0f2d326ed3468933f0a877a59b4731555e882d",
+      "outputSha256": "e83a9ea50a821c35bbb22bf54b4c39728db67c095383e35bc53bcc29a354e6f7",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64374,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_016.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_016.pdf",
+      "sourceSha256": "32787a230141d97d0a4d92acfba8f1bf1069ab5b9ac4cfa37a5d8b8dcdcaab9a",
+      "outputSha256": "e986fb6aaec1915ebdcf83b3a93c6273fc42513943a92ac9fc742ec776c02cf1",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 65936,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_017.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_017.pdf",
+      "sourceSha256": "4b2f9b4b641eb0be7d9e71555754f6cfd78c07f4f616bf9de85a38386f20c146",
+      "outputSha256": "d3df28135ee173927dcb2ebe1024ffb6ffcf5ac2f3b25b8ea713b9c707684f20",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 65460,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_018.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_018.pdf",
+      "sourceSha256": "b6f1b6cc5a4cf6a767f62afd1a593c00ef68263a22120ecea00dcb9b14581e0e",
+      "outputSha256": "de84b1d86806449b48776852a405f17a3a3df707a62e7824a8f346ad67740879",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 65402,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_019.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_019.pdf",
+      "sourceSha256": "7a0bd0eccf46c02f04d8fb38cab190c67be09e63d5268d0e8766bab3c8d21dcc",
+      "outputSha256": "0b91ca93444b381c309b9beb29ca4c3db3d891a7b8ff86c46bc209d0ea75063b",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64247,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_60_020.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_60_020.pdf",
+      "sourceSha256": "4cf55962ff82ed6a99744abff81a42a19afa2a5163afdab139c0edd6b99e553a",
+      "outputSha256": "95ad99ce9cfe0969e0811f060fc347fba5e905b2097259bc2c21ccaf2dd5bd80",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64517,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_001.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_001.pdf",
+      "sourceSha256": "5f444a361e892028eb55f8e83e37fa1cae7d1b2cc550511f077285a55fc8923a",
+      "outputSha256": "c280f25967143cb4cef90becdd51960c8a1cf48bfafba1ecfec1b4fde008df54",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 33209,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_002.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_002.pdf",
+      "sourceSha256": "539767bd4110dc69b313f6e7587bff3b12c2a013f9b2ce5151082dd248e47db1",
+      "outputSha256": "7f7fa9d15cbb0a5fa4f68da3a3c19bead6f53358af59038220534c207d25525a",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 51349,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_003.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_003.pdf",
+      "sourceSha256": "830c299ad3bdaf79c158fa722cd7e91c1632e87d228b61d6cd6f35c0a5834abe",
+      "outputSha256": "c05c22cdf496caf0c80c06e370fd3372d4a91eb95da2ad7d84fbddcedefd5cff",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 56758,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_004.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_004.pdf",
+      "sourceSha256": "730cf151278627bcfe34206b8f4f50192ee5af33c10da5ad48e0725ddd6221cc",
+      "outputSha256": "1b61db53430759f33a4ea3968fc58466bf9ccef2f301b9c9daf316c4c2ce57d2",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 58893,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_005.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_005.pdf",
+      "sourceSha256": "ba20922269ed76ae3d9447b3bc3fde0e6345f52254de46cf58b59f2bde5b1544",
+      "outputSha256": "d6555d1c2b5514d5cae0e9ac3d3f8cc371a3bebde15aefd8973c3007994d88c3",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 60619,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_006.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_006.pdf",
+      "sourceSha256": "bef7a728473879022774a0bcde61e7c1a64a834f41d0de298349c9c3dbd1b251",
+      "outputSha256": "2985d49ccfbea941772a7614435e897b541c432422f9da127d0cc82ab8caef9f",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62130,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_007.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_007.pdf",
+      "sourceSha256": "980430bec4b02970c5707c98f14a8451af96dd6eac8ca398009132562b0ff3ea",
+      "outputSha256": "dc94cc9c2cf6a4858005d65200712b1ce7aa0477afc0dc45e21ee0262d00c3db",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62580,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_008.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_008.pdf",
+      "sourceSha256": "546f44bedb58df2ce10f0f6c6167404a78ad1cc5a3efd97b19ae87c2a15519cc",
+      "outputSha256": "3ef0e6c08cd201b097870d0cd6a066f479e15738521943c05a2274db4e272391",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64220,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_009.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_009.pdf",
+      "sourceSha256": "6433479734518d52efb2ba8a56ceeacb657ffbf32039726de4c3dffbb23ed3f7",
+      "outputSha256": "e9f098bbca61bb8dce365d50d3d8e99d400dd3b0c5b7d29913ac49e864556d56",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64954,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_010.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_010.pdf",
+      "sourceSha256": "61e58f947c8647de7f8d7fb44670b0dba471891375162f5b38bf8dabeb68f5fb",
+      "outputSha256": "066bed8f4cb67d169b797ce7a740808ab65388c073050763c3c5c4e1d5d06581",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 65650,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_011.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_011.pdf",
+      "sourceSha256": "f71bf357b2024eb45467fd6ff02a8a0a3d380ca03c9d029ccebd03ef69b36c63",
+      "outputSha256": "19114788fb856f6efe1a3b77c464ef7fd6130a70b07683a89ecfa8325fcd41f0",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 67200,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_012.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_012.pdf",
+      "sourceSha256": "121418e5dafe259cac54916ed0e117afcbfa038da3e0873e5af0ae08b86623d1",
+      "outputSha256": "8cde1fa6d67072c177af290566c078408abee678920d2262658684b7dd1120dc",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 66516,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_013.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_013.pdf",
+      "sourceSha256": "f4399369e030947bcab1d2d3f594ff0ab5c8d632bca6210f51c49278771a4b74",
+      "outputSha256": "ae4e41ee0dc70bd472180401812353db15e6e892fea54aad8c18bc3789cc5bf3",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 66682,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_014.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_014.pdf",
+      "sourceSha256": "0f0be4f0f557f5a0b747c947401e89e485fd22052a260c801a2de9f94b3d2786",
+      "outputSha256": "0c93024886cbe2328bc5c0a7bff9b2cbcf76fc05c0e19da86c4f8f5f3791e24b",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 66151,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_015.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_015.pdf",
+      "sourceSha256": "36e5f8080143c11c6491c4dd436a25e87ab4f3c35603c2bf721d005f16748386",
+      "outputSha256": "b57e211dbb993f4ece44d1f409ccb6159c1f7361b631a7395ab148eeb68e0896",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64510,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_016.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_016.pdf",
+      "sourceSha256": "0046302cd35a082dd62105182ca641e84da51e746cfacadac3c8c90a8b3a6dc1",
+      "outputSha256": "5f18a2ee999b13ef041617cb9d839f4136bb0b37c6fe5fcce57e33999b86ddda",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 65988,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_017.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_017.pdf",
+      "sourceSha256": "44ff5c0077ac750a698a1e530c50d1be06a8722715297f0e80b992e1c0f3d270",
+      "outputSha256": "a5df2f15bd742051a4b7d541e56694f06579827fbe704ffc81e1c0dfd9f9860f",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 65588,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_018.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_018.pdf",
+      "sourceSha256": "39910b50942fd3b0d8eca66047ae3357c3a8cc9fbb8ecc14bca48d9839492d42",
+      "outputSha256": "f40b194cf3147487cef8b5ea40eb745f7718954a5bcc6c7e82e7de87282835da",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 65392,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_019.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_019.pdf",
+      "sourceSha256": "7ddc753b16e04c4e93dd0b51a3c6f960656b440da8f1c87c0980bba6593d0840",
+      "outputSha256": "59ece17abae876039089c24cbc7668352b0274a5b9b55714fb56f40b3468a187",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64175,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method3_cent20_80_020.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method3_cent20_80_020.pdf",
+      "sourceSha256": "5800b392231386f3d1cd23015b5f3bdfd6559d2d757012f3163575109b9fad88",
+      "outputSha256": "210168c1a8a77f2ecede7e9d838836366149538492838cc25f9179681d410a6f",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64371,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent0_10_001.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent0_10_001.pdf",
+      "sourceSha256": "9ee737057ebe78fd258f8946e7b9c6e07499f9aa674b032ac8f319498660b0ed",
+      "outputSha256": "59eb01f6a1653c6a11d91a9b99436141412949884cbaab8359b0ca87857d785a",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63046,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent0_10_002.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent0_10_002.pdf",
+      "sourceSha256": "8a580225b328bdc2b66b3d1c5c23f1c8d8f6debb759f44cac93740764b58548b",
+      "outputSha256": "3049ad3b95b8714594bea37c17a1a7aa0098309a398fcda2661c27538960f796",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62321,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent0_10_003.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent0_10_003.pdf",
+      "sourceSha256": "0fba53cc2df0364fb539e851a0e86cc04a2df0c08cd44a366eb9bd9431e5cb66",
+      "outputSha256": "b671d8a518b012e0789912de39607ffe2c5943e3bd6bca06dd4f77f984a54c2a",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 61998,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent0_10_004.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent0_10_004.pdf",
+      "sourceSha256": "831fef1651dd216c9a985144c85fc4328d371ad2519ac13842bad136eee872b3",
+      "outputSha256": "d9a22de34f8c8eb3f86da201864dd5f66c7f2963000645303d0966f46b9202f6",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 61677,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent0_10_005.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent0_10_005.pdf",
+      "sourceSha256": "90a621bce6600aba5d8c03f5bc88e2c8c3ed8c1c71941f3d1334b36fed2af0aa",
+      "outputSha256": "bcc736c5fe620cd60d981f7db96c6ff64ee79c5d39faa54c95350192d847e475",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 61129,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent0_10_006.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent0_10_006.pdf",
+      "sourceSha256": "9d264a1a97e3c845172e59eb96ed200decbf6ada1d63f0e2dcc642a92b66b497",
+      "outputSha256": "124fc89e47c1b16435b1efc883c563ac5c6e3ca0b506adf06455df7fd1c3956f",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 61183,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent0_10_007.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent0_10_007.pdf",
+      "sourceSha256": "2e7cd4993e86c319a40d2bdc9f2fb9f3b12e3434645ace0b3b9f9a818abcf848",
+      "outputSha256": "ca831212e1aad492fe2eeb0d42f76b7eaa237130177baaf25e89752415138d90",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 61152,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent0_10_008.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent0_10_008.pdf",
+      "sourceSha256": "55b8fa3e258daae0d459a8ac48e709bd0a017f870304b2ac3970451da63d245e",
+      "outputSha256": "cdfa549153cb587a081e549d8c47724ed1f2ad1b458ab79f10cbace81feafb53",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 61606,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent0_20_001.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent0_20_001.pdf",
+      "sourceSha256": "f3ae33dc40ec1c086ec28df5d952cab4682b78e99fd77b69e76da2c45076b50d",
+      "outputSha256": "2c80543550c6715a38e72c929792de1b346752a40835a288ce6c662741f508aa",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62636,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent0_20_002.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent0_20_002.pdf",
+      "sourceSha256": "0cd177ecb7eedef9e6813904a92dc25ee986ff3a79b020f73111a6736ea577ff",
+      "outputSha256": "463baf693d42751072700db82f402d04e8fa9386e94fb54659e40751301bd321",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62267,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent0_20_003.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent0_20_003.pdf",
+      "sourceSha256": "3e5eb6518e6676b16b2adbbbc74a143676865bb239aa6641cba9f452730df92c",
+      "outputSha256": "fc249032e82f59b02c499218fd6b4d8cf175cd17ea4da17d7766d9d75d28ab68",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 61740,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent0_20_004.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent0_20_004.pdf",
+      "sourceSha256": "9ce262bcd08775deede4aa574b390f48205f6f473852216bc7e3874a9df672b8",
+      "outputSha256": "3c1b4549d0ab5b5bca08d287bf2fa9e3ee6b657627e784e7468ec21d2587f7f3",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 61383,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent0_20_005.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent0_20_005.pdf",
+      "sourceSha256": "8cf41c104e42928ecd8b2c03fe5ff08f67b1299b539314155ae5e6afab405173",
+      "outputSha256": "4ccbdcb53bdd33a77851ae2656e2dbfe2fcf74546bd020b18d466263e9045efa",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 61348,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent0_20_006.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent0_20_006.pdf",
+      "sourceSha256": "866d9ef6875bd888b8a811ff65d03861c8fa69e8d0d27668def23cc669a5f03a",
+      "outputSha256": "85cd82ec99dfc327eb629f2c0e0f9109384faa4a4581cb457ddcb4fe6694be83",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 61194,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent0_20_007.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent0_20_007.pdf",
+      "sourceSha256": "046d6edde5a8eb7a05f3ccba2d8605013951a4bf2a318e221e3bacc42a15bfb7",
+      "outputSha256": "17f7abe67d6bf1fa6f7fb67049b1a29a9e881506f90d12e279c96c638bc75084",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 61580,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent0_20_008.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent0_20_008.pdf",
+      "sourceSha256": "263464f873aa137fca2d74f74d17afa52d71ffc88aeac6f4d34b05c5ffbfb45f",
+      "outputSha256": "5b2ce700126ded3297e2d1c8cda04a94d2785b174c1b9309076daab3ca83a1da",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 60800,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent10_20_001.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent10_20_001.pdf",
+      "sourceSha256": "d6faeb9b54049e288c224e2567ebe9c440c9a90b26ae6af10d32a0777888df7d",
+      "outputSha256": "2fb7f0f7910879410c54a83e8a375ecf33490590af5c98500d104222fb93ba39",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 66551,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent10_20_002.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent10_20_002.pdf",
+      "sourceSha256": "e2195de9975b5ee072deb52dd350c14422eae004028a0390ca331197a7120b5d",
+      "outputSha256": "f74f403749275d4ca88bb3cd45c746c80cb936806b73be6b1f9d59155d46f2a9",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 64515,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent10_20_003.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent10_20_003.pdf",
+      "sourceSha256": "666349dd17079887587f1b284bf114fd8a1014fbb4b969972e56c304869e4c5a",
+      "outputSha256": "33b834f8ae9739d36e3a4a9ba935797d2df0282bd26819f36d05ad51cdde70fe",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62797,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent10_20_004.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent10_20_004.pdf",
+      "sourceSha256": "dbbbccb106dd7cb5ea2cdefbedf3ef062e28d5df5fda1a1781398fe9790c49ec",
+      "outputSha256": "84a3245e2b8ccd1878a2234ab314ab507498d3fa78c67e932af3332bbc6662cc",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62533,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent10_20_005.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent10_20_005.pdf",
+      "sourceSha256": "0e804629cfbca278daf9ea56e1fa507aa4c3dd753930b2a3e2b6622bec67e94c",
+      "outputSha256": "832869f463cae710bb638a788faf2659ca3e5d39b61f299cf32707d08ab77d82",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62863,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent10_20_006.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent10_20_006.pdf",
+      "sourceSha256": "f8533416e2f9921e924e08d33ff20fd88aa0d88f6002a4b962675880abd0c0b8",
+      "outputSha256": "0b00f141df0c9b8d34a26fdc6b76df9b8e4fccc2d9ab88c1d0b9bcb344c8d324",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 61801,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent10_20_007.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent10_20_007.pdf",
+      "sourceSha256": "00fd1dd6dad4964c28348c93440e5c80d967c13528206070c42398c05ed8ed6e",
+      "outputSha256": "9064ab628ede2362f23159eda07e6504ac70f00e98f9513f73a32ba8d84cd4b9",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62376,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent10_20_008.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent10_20_008.pdf",
+      "sourceSha256": "8317e4a6709d96b6c198a2493cfeb14eec2ae732fd1b216c528de079dc8bf213",
+      "outputSha256": "ba8be724dfb3ee5d5044bbd53743aa632bac11242d91efe321fc90f73d1e69d0",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62062,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent20_60_001.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent20_60_001.pdf",
+      "sourceSha256": "ecd219622355f13bb43a0cef3a4e2e6877f45064902605315ec9aa62c8d28879",
+      "outputSha256": "433ec4d3f808a9cd6782963ebd5e57e08fb114373104187db75e868f1d7fb6e6",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 67659,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent20_60_002.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent20_60_002.pdf",
+      "sourceSha256": "f3fb173672de5c0db7b743de3b9ea0e7f1d1dea37fd87e1a13611298e828bbf2",
+      "outputSha256": "aa9e2c3126047517e35a7af5a14d4740214967924b8ee410f3e5524d7c0b6cfd",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 66916,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent20_60_003.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent20_60_003.pdf",
+      "sourceSha256": "a3415fe7020170adf62aaee8d0f53269b1e968224d7d74958da1cdbbe8208bc8",
+      "outputSha256": "9fdef2accef6221684ec90223a455691e47436d6410e5ab19daea635ba4c1150",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63290,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent20_60_004.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent20_60_004.pdf",
+      "sourceSha256": "0bfe07883265bb7792b9a9f739d2a39d7ea88a635ee6fa955696dc66e16a32c0",
+      "outputSha256": "7fb012f3fab4c38e0151ca7edd4420229f56445adc53cb88daf4b382fc1a0fd5",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63322,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent20_60_005.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent20_60_005.pdf",
+      "sourceSha256": "4059f6ee5952473007dc750d6c243aee5f66fe9a71dab7fd6976de5091e6cf08",
+      "outputSha256": "14b0b5bf7cc09262c4fc585600206b31d39dbab313079285af30571f28cbb9d6",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63393,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent20_60_006.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent20_60_006.pdf",
+      "sourceSha256": "8fc9b059b6da0a7ca769307949aa5aa66c35c78f55dae7a1d151698c83115205",
+      "outputSha256": "1d8bdc56e9e0766512cf27e0285592936ea0d8eecdfec29d0d28f4708ca760cb",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63336,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent20_60_007.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent20_60_007.pdf",
+      "sourceSha256": "1a013dbd13122dc29e675d6fc454b733f474ff8ced39931a765edacfaf17dcde",
+      "outputSha256": "8ffbc5e8df359e547eeb949ec030f44a7888bb66053d144a225c14c0560757f5",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62732,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent20_60_008.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent20_60_008.pdf",
+      "sourceSha256": "1bec2801d675bc5a1732696d0a7c1d19e867902a3f2d922641e7352d90e15ade",
+      "outputSha256": "6e551afd597f52a8cadcac13095b661f4e61c4742128eed991761367b3ef8f50",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62246,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent20_80_001.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent20_80_001.pdf",
+      "sourceSha256": "8d9c40cd3ab6ee4ffb02c40bae3d7ffe27d6d587fa26d9dcaa871d9b9369d44a",
+      "outputSha256": "6c35becd3aa0371dd09d35f3ad6c67c874b5c1109525c9843f699a307da63afe",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 67557,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent20_80_002.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent20_80_002.pdf",
+      "sourceSha256": "40f655edc9e859258cde6e3664a21c8f438d5c9d49b7b818030931903c6f826e",
+      "outputSha256": "210897203740347b83f43f5885ee62a3e0e58f880ce566ffec3eb5c1d5f0add4",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 66977,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent20_80_003.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent20_80_003.pdf",
+      "sourceSha256": "df75066ab432ed90aa1b3baed376d00031002b85c8284c64f7ca02c0c49f09a7",
+      "outputSha256": "e84d50ec02b2084140d5ac4d336bf050d378e3d3dee679c417047e239e573891",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63212,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent20_80_004.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent20_80_004.pdf",
+      "sourceSha256": "f54fc62fb611811c02751ae0816a76fe509a048d91173ea65141c37e00e581de",
+      "outputSha256": "3c795c022221b47720678d4def5076c899423a4b69b14b72be6d7dd60f788642",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63322,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent20_80_005.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent20_80_005.pdf",
+      "sourceSha256": "ed73410e691bc48599e7c08ed4595ca6bd143f85c3870c76eeee05b2a1acbdff",
+      "outputSha256": "9f6b649385686d3f26c4e02b2dfe7a11ba6da163b709b2fa54257c8c54de2f95",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63174,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent20_80_006.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent20_80_006.pdf",
+      "sourceSha256": "0fde5d86c460689d8f4a725cff225ed400e14cfe476d71a60f517da8fbf7b2ae",
+      "outputSha256": "234f1bfa621c3ac22820296881e44e9ed9ed9cc41be0252e9ed6a25e9f3ef522",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 63430,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent20_80_007.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent20_80_007.pdf",
+      "sourceSha256": "21fe7e1ecc23c216b97e5fe3a3bfdc4163748da508c3d89574e7f59e8357afc1",
+      "outputSha256": "4cc4dc8643036bebc5acb11f12140c24b25df338ba1fbb32c00d19792a0e042e",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62215,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "fit_method5_cent20_80_008.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/fit_method5_cent20_80_008.pdf",
+      "sourceSha256": "3b67491fc0487e699ada6c52f4dfd5b8445bc4dbbee6c1ff9a0f1773ea21a633",
+      "outputSha256": "2412caa540ed0c95c728264da0e1a49a2dddb6473d6179fb99c912a03f0a6aaa",
+      "pages": 1,
+      "cropBox": [
+        251.831992,
+        243.263992,
+        824.297975,
+        578.741983
+      ],
+      "bytes": 62150,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    },
+    "purity_se_me.pdf": {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/raw_drawing_final/purity_se_me.pdf",
+      "sourceSha256": "e010163249a3a7062f6733ed14a37f43eb2298bba55993d8586c961d9700b2aa",
+      "outputSha256": "e96c8cb63dd3ab345d5dc33f08b3a36c6993bd0847ecf7ee31b422ae88d82aa3",
+      "pages": 2,
+      "cropBox": [
+        254.02799199999998,
+        347.339989,
+        821.777975,
+        579.353983
+      ],
+      "bytes": 28198,
+      "writerDiagnostics": "**** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect.\n   **** Error: Encountered 'obj' while expecting 'endobj'.\n               Treating this as a missing 'endobj', output may be incorrect."
+    }
+  }
+}

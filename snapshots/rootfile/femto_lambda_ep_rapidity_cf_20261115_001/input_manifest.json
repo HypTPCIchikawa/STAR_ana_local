@@ -1,0 +1,207 @@
+{
+  "preparedAtJst": "2026-11-15T18:02:20.357272+09:00",
+  "conditions": [
+    {
+      "id": "inclusive",
+      "dimension": 2,
+      "first": 0,
+      "last": 0,
+      "suffix": "",
+      "label": "Inclusive"
+    },
+    {
+      "id": "he4_below",
+      "dimension": 2,
+      "first": 0,
+      "last": 0,
+      "suffix": "_YLabBelow",
+      "label": "Y(He4)<-0.5"
+    },
+    {
+      "id": "he4_above",
+      "dimension": 2,
+      "first": 0,
+      "last": 0,
+      "suffix": "_YLabAbove",
+      "label": "Y(He4)>-0.5"
+    },
+    {
+      "id": "pair_bin01",
+      "dimension": 3,
+      "first": 1,
+      "last": 1,
+      "suffix": "",
+      "label": "Pair Y bin 1"
+    },
+    {
+      "id": "pair_bin02",
+      "dimension": 3,
+      "first": 2,
+      "last": 2,
+      "suffix": "",
+      "label": "Pair Y bin 2"
+    },
+    {
+      "id": "pair_bin03",
+      "dimension": 3,
+      "first": 3,
+      "last": 3,
+      "suffix": "",
+      "label": "Pair Y bin 3"
+    },
+    {
+      "id": "pair_bin04",
+      "dimension": 3,
+      "first": 4,
+      "last": 4,
+      "suffix": "",
+      "label": "Pair Y bin 4"
+    },
+    {
+      "id": "pair_bin05",
+      "dimension": 3,
+      "first": 5,
+      "last": 5,
+      "suffix": "",
+      "label": "Pair Y bin 5"
+    },
+    {
+      "id": "pair_bin06",
+      "dimension": 3,
+      "first": 6,
+      "last": 6,
+      "suffix": "",
+      "label": "Pair Y bin 6"
+    },
+    {
+      "id": "pair_bin07",
+      "dimension": 3,
+      "first": 7,
+      "last": 7,
+      "suffix": "",
+      "label": "Pair Y bin 7"
+    },
+    {
+      "id": "pair_bin08",
+      "dimension": 3,
+      "first": 8,
+      "last": 8,
+      "suffix": "",
+      "label": "Pair Y bin 8"
+    },
+    {
+      "id": "pair_bin09",
+      "dimension": 3,
+      "first": 9,
+      "last": 9,
+      "suffix": "",
+      "label": "Pair Y bin 9"
+    },
+    {
+      "id": "pair_bin10",
+      "dimension": 3,
+      "first": 10,
+      "last": 10,
+      "suffix": "",
+      "label": "Pair Y bin 10"
+    },
+    {
+      "id": "pair_merge01",
+      "dimension": 3,
+      "first": 1,
+      "last": 2,
+      "suffix": "",
+      "label": "Merged pair Y 1-2"
+    },
+    {
+      "id": "pair_merge02",
+      "dimension": 3,
+      "first": 3,
+      "last": 4,
+      "suffix": "",
+      "label": "Merged pair Y 3-4"
+    },
+    {
+      "id": "pair_merge03",
+      "dimension": 3,
+      "first": 5,
+      "last": 6,
+      "suffix": "",
+      "label": "Merged pair Y 5-6"
+    },
+    {
+      "id": "pair_merge04",
+      "dimension": 3,
+      "first": 7,
+      "last": 8,
+      "suffix": "",
+      "label": "Merged pair Y 7-8"
+    },
+    {
+      "id": "pair_merge05",
+      "dimension": 3,
+      "first": 9,
+      "last": 10,
+      "suffix": "",
+      "label": "Merged pair Y 9-10"
+    },
+    {
+      "id": "pair_under",
+      "dimension": 3,
+      "first": 0,
+      "last": 0,
+      "suffix": "",
+      "label": "pair_under"
+    },
+    {
+      "id": "pair_over",
+      "dimension": 3,
+      "first": 11,
+      "last": 11,
+      "suffix": "",
+      "label": "pair_over"
+    },
+    {
+      "id": "pair_regular",
+      "dimension": 3,
+      "first": 1,
+      "last": 10,
+      "suffix": "",
+      "label": "pair_regular"
+    },
+    {
+      "id": "pair_all",
+      "dimension": 3,
+      "first": 0,
+      "last": 11,
+      "suffix": "",
+      "label": "pair_all"
+    }
+  ],
+  "inputs": {
+    "EP1": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10/covered388p25/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10_FD44A5EB1B0AA22C546F169E86482587_merge.root",
+      "size": 9282201802,
+      "mtimeNs": 1794636078792117886,
+      "inode": 769683426,
+      "device": 48,
+      "mainconf": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10_covered25.yaml"
+    },
+    "EP8": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10/covered388p25/auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_DA0DEB4347BD834F1096F8D8798F2133_merge.root",
+      "size": 9282162513,
+      "mtimeNs": 1794636086144273909,
+      "inode": 769683428,
+      "device": 48,
+      "mainconf": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_covered25.yaml"
+    }
+  },
+  "planRows": 132,
+  "commonJobs": 4023,
+  "sourceFiles": {
+    "rootfile/femto_lambda_pair_rapidity_hadd_20261114_001/recovery_finalize_20261114_001/recovery_config.json": "f4156bd95907fc9e699cde378ed922036093f4ee6e2d6e36d7c4e064cad85104",
+    "rootfile/femto_lambda_pair_rapidity_hadd_20261114_001/recovery_finalize_20261114_001/recovery_state.json": "ecfa37c84462e8fa79d3cf9a01dcc8423f6158725f008985ac06efea2736817a",
+    "study.yaml": "d76e18b3819b51d7056129a6cb153ce50de8215cfe1883d4e8ffdda586b25cc5"
+  },
+  "interpretation": "EP changes the mixing pool. Rapidity is a common SE/ME pair selection; the two rapidity axes are not stored jointly."
+}

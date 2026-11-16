@@ -1,0 +1,6 @@
+type	object	status	covariance	boundary	reason	value	error	normalization
+normalization	cf_guard	0	-1	0	complete_normalization_interval	400	4000	4
+normalization	cf_guard	-1	-1	0	invalid_normalization_bin	400	3000	4
+normalization	cf_guard	0	-1	0	complete_normalization_interval	400	4000	4
+normalization	cf_guard	-1	-1	0	invalid_normalization_bin	299	4000	4
+normalization	cf_guard	-1	-1	0	invalid_normalization_bin	400	4000	4

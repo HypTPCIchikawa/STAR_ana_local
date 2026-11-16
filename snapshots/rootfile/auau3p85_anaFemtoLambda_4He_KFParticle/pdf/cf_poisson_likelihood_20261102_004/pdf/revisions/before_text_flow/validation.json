@@ -1,0 +1,15 @@
+{
+  "phase": "validated",
+  "reportSha256": "1c4dc8b2e97e91f6c40de05c6e8ab979aa0f1fec9961465c9711cbc861df03e9",
+  "reportPages": 24,
+  "inputRootUnchanged": true,
+  "matchedMassFitRows": 1960,
+  "backgroundIntegralsAndCovariancesChecked": 1858,
+  "constantFallbackFits": 632,
+  "constantAtZeroFits": 1,
+  "validCfPoints": 747,
+  "cropProducts": 195,
+  "independentDevianceChecks": 1860,
+  "sharedMethod6PurityAndErrorsVerified": true,
+  "all15SelectedNormalizationsValid": true
+}

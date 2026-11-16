@@ -1,0 +1,32 @@
+STAR Todo — 2026/11/02（日本時間）
+対象：Λ–4He CF：Method5規格化不成立とFig.13・14 SE/ME純度差の追加点検
+状態：完了。指定総合PDF34頁、追補23頁、検証と記録を完了。
+
+■ 方針
+・2021 P24iy、既存04BF統合ROOT・同質量fit設定を用いる。
+・20–80% MEの純度cell0.30–0.35不成立を、元の質量分布・fitと欠測伝播で説明。
+・共通規格化候補0.40–0.50と近隣区間の感度、SE/ME比の形を確認。fitモデルとgateは変更しない。
+・更新対象10/30総合レポートFig.13/14の9fine centralityで、差大例と一致例を複数抽出。
+・SE/ME invariant massをDrawNormalizedで重ね、中心cellと滑動窓の統計・fitを分けて評価。
+・不一致を低統計だけで説明せず、質量モデル不適合と実際の形状差を検証する。
+・指定総合PDFは元版を退避して更新し、先行図番号を保つ。
+・PID/Maker/mixing変更、production再投入、hadd、Git commit/pushは行わない。
+
+■ 実作業
+[x] fine cent9=0…8、M3/5合計1,260 fitsの追加抽出と来歴確認。
+[x] 複数規格化区間の計算・有効性・CF変動を数値と図で評価。
+[x] Fig.13/14引用、対応する差大点・一致点を選定。
+[x] 面積規格化SE/ME質量分布、fit、pull、背景領域診断を図示。
+[x] 規格化不成立の詳細説明とMethod3/5/6比較を含む追補PDFを作成。
+[x] 元総合レポートを保存し、指定10/30総合PDFを更新。
+[x] 数値・図・頁・hash・リンク・入力不変を検証。
+[x] Todo/README・日報・個人資料の記録を更新。
+
+出力先：rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/
+継続元：Todo/2026/10/31/cf_normalization_followup_20261031.md
+
+■ 追加依頼完了：Λ massfit L＋負BG時の非負定数再fit
+[x] 1960点再評価・632定数fallback、747有効CF点、同じ9例と全175頁atlas。
+[x] 指定総合PDFを24頁に更新、直前34頁χ²版を退避。結果：poisson_likelihood_20261102.md。
+
+[完了] Lのみの総合PDF20頁へ差し替え。非L比較図3件/4頁と旧純度列を除外。全15図頁・全20頁にL (SLQNR0)を明記。詳細: poisson_L_only_report_20261102.md

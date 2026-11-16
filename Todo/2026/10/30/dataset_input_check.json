@@ -1,0 +1,19 @@
+{
+  "jobid": "04BF2DAE47164B6F040E3A460E539289",
+  "catalogUrl": "catalog:star.bnl.gov?trgsetupname=production_3p85GeV_fixedTarget_2021,production=P24iy,filetype=daq_reco_picoDst,filename~st_physics,filename!~adc,storage=local",
+  "joblistSnapshot": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/joblistlog/joblist_auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289.xml",
+  "joblistHashMatches": true,
+  "sumsArtifacts": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/sums_artifacts_auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289.tar.gz",
+  "sumsArtifactsHashMatches": true,
+  "masterInputListMember": "auau3p85_anaFemtoLambda_4He_KFParticle04BF2DAE47164B6F040E3A460E539289.list",
+  "masterInputListSha256": "dc3aee0ccf9a7b97518c7e9183f8f6f3789e41fd79017be71ecbf23f7d3d60cb",
+  "inputFileCount": 80982,
+  "uniqueInputFileCount": 80982,
+  "expectedProductionPath": "/production_3p85GeV_fixedTarget_2021/ReversedFullField/P24iy/2021/",
+  "mismatchedProductionPathCount": 0,
+  "subjobListCount": 26994,
+  "subjobFileCountMin": 3,
+  "subjobFileCountMax": 3,
+  "subjobListConcatenationMatchesMaster": true,
+  "fileListEventCountsAreCatalogMetadataNotMeasuredEntries": true
+}

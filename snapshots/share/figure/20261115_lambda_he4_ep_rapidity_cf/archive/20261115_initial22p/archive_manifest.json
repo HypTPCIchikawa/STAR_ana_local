@@ -1,0 +1,51 @@
+{
+  "archivedAtJst": "2026-11-15T21:26:05.361366+09:00",
+  "original_pdf_pages": 22,
+  "files": [
+    {
+      "name": "cf_ep_rapidity_report_ja.pdf",
+      "bytes": 628193,
+      "sha256": "8269a1d5bd1cfabdf3613d15fccaf76448c50cde251f423fca2d754d450c9481"
+    },
+    {
+      "name": "cf_ep_rapidity_report_ja.tex",
+      "bytes": 26634,
+      "sha256": "7b645015091b607e935cd73c31d8a68d27dd897a20200204f2da47f2df00c50f"
+    },
+    {
+      "name": "cf_ep_rapidity_report_ja.txt",
+      "bytes": 57237,
+      "sha256": "93d72f24cd3620143bf2078ad65f2fe0e0306a6ee13a687a7c0b805c9cec2205"
+    },
+    {
+      "name": "report_manifest.json",
+      "bytes": 12229,
+      "sha256": "2e41300cfd523cd96ffa64bfc0be8ff02c533e79e4480bbcbd91d0199a42914d"
+    },
+    {
+      "name": "contact_sheet.png",
+      "bytes": 2450049,
+      "sha256": "4bd8c33d770daee6d7dbb517e1c630e055664cab2acead75a588a10462538c2c"
+    },
+    {
+      "name": "build-1.log",
+      "bytes": 10532,
+      "sha256": "eff61bae5b60da7380e930ea65bdca419b67896e051ad7c6ca74d11fd2c1a16a"
+    },
+    {
+      "name": "build-2.log",
+      "bytes": 10532,
+      "sha256": "eff61bae5b60da7380e930ea65bdca419b67896e051ad7c6ca74d11fd2c1a16a"
+    },
+    {
+      "name": "build_report.py",
+      "bytes": 23562,
+      "sha256": "c0c9b30836016c0d593bfab88d7178477772bddf718a3331406b8dd3261941af"
+    },
+    {
+      "name": "finalize_report.py",
+      "bytes": 6369,
+      "sha256": "c4e2831b160d40fa83a33e2db19a1844df2d7cbe0d38741335d57156c2579f71"
+    }
+  ]
+}

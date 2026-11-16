@@ -1,0 +1,18 @@
+speciesKeys: [lambda, deuteron, triton, he3, he4]
+mode: replay
+requireOriginalMixing: false
+resetPoolAtFileBoundary: true
+eventPlaneSource: original
+eventPlaneCalculation:
+  enabled: true
+  harmonic: 2
+  minTracks: 2
+  minNHitsFit: 15
+  minFitRatio: 0.52
+  minPt: 0.15
+  maxPt: 2.0
+  minEta: -5.0
+  maxEta: 5.0
+  maxDca: 3.0
+  weight: pt
+  excludeCandidateTracks: true

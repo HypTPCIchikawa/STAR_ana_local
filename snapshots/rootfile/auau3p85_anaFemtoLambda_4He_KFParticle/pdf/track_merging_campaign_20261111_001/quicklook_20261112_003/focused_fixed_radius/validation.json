@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "createdAtUtc": "2026-11-11T15:35:21.212514+00:00",
+  "sourceRoot": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_09272_20261111T153134Z.root",
+  "sourceRootSha256": "0712dd157070f18ab5dc1dfe69c9bc9a05ab16f021dd3d0523562af4367bd12d",
+  "sourceCount": 9272,
+  "selectedHe4Pairs": 932826,
+  "metrics": {
+    "proton": {
+      "entries": 858058,
+      "regular": 23863,
+      "flow": 834195,
+      "originBoxes": {
+        "0.0125": 26,
+        "0.025": 125,
+        "0.05": 789
+      },
+      "nx": 80,
+      "ny": 80
+    },
+    "pion": {
+      "entries": 903265,
+      "regular": 26000,
+      "flow": 877265,
+      "originBoxes": {
+        "0.0125": 71,
+        "0.025": 267,
+        "0.05": 1053
+      },
+      "nx": 80,
+      "ny": 80
+    }
+  },
+  "artifacts": {
+    "merging_fixed_radius.pdf": {
+      "bytes": 39685,
+      "sha256": "f9b18d0f87053e60fa82c326fb6a737dbc299646fd15c89a75f61550f007efe3"
+    },
+    "merging_fixed_radius.png": {
+      "bytes": 76020,
+      "sha256": "965ab8404791569f5c87f10d13538cddc3614cee1f1253d2c880e12f2f4a9669"
+    }
+  },
+  "inputUnchanged": true,
+  "command": [
+    "bash",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/script/singularity_root_batch.sh",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/runtime_v2/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_candidateStoreWriteNoJointSparse.yaml",
+    "root4star",
+    "-l",
+    "-b"
+  ],
+  "plotSettings": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/source/plot_settings.yaml",
+  "caveats": [
+    "raw signal-window same-event counts, no ME",
+    "independent per-panel color scales",
+    "fixed reachable radius only; gMom eta",
+    "ongoing farm unaffected"
+  ]
+}

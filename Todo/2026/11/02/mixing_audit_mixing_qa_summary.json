@@ -1,0 +1,28 @@
+{
+  "parameters": {
+    "inputEvents": 2100726543,
+    "reconstructedEvents": 2067647474,
+    "selectedLambdaCandidates": 40118234,
+    "mixingVzClampedEvents": 0
+  },
+  "he4Sampler": {
+    "attempted": 157569769,
+    "eligible": 157569769,
+    "filled": 157569769,
+    "skipped": 0,
+    "skippedByCap": 0,
+    "skippedByPairCut": 0,
+    "eligibleBufferDirections": 142125192,
+    "emptyBufferDirections": 3317165340,
+    "selectedEmptyBufferDirections": 0,
+    "filledForward": 78787529,
+    "filledReverse": 78782240,
+    "eligibleForward": 78787529,
+    "eligibleReverse": 78782240,
+    "skippedOverlap": 0,
+    "skippedSignalWindow": 0
+  },
+  "vertexHistogramBinWidth": 1.5,
+  "vertexBoundaryCaveat": "The201\u2013202.5cm histogram bin straddles the202cm mixing boundary. Its counts cannot be classified as out-of-range; the dedicated clamped-event counter is zero.",
+  "binCountsHaveFloatRounding": true
+}

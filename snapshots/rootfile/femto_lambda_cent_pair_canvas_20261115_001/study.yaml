@@ -1,0 +1,140 @@
+dataset: production_3p85GeV_fixedTarget_2021
+production: P24iy
+channel: lambda_he4_signal
+description: Raw signal-window Lambda-He4 CF; no sideband subtraction or purity correction.
+inputs:
+  EP1:
+    mainconf: config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10_covered25.yaml
+    root: rootfile/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10/covered388p25/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10_FD44A5EB1B0AA22C546F169E86482587_merge.root
+  EP8:
+    mainconf: config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_covered25.yaml
+    root: rootfile/auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10/covered388p25/auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_DA0DEB4347BD834F1096F8D8798F2133_merge.root
+recovery_config: rootfile/femto_lambda_pair_rapidity_hadd_20261114_001/recovery_finalize_20261114_001/recovery_config.json
+recovery_state: rootfile/femto_lambda_pair_rapidity_hadd_20261114_001/recovery_finalize_20261114_001/recovery_state.json
+centralities:
+- id: c0_20
+  label: 0-20%
+  min: 6
+  max: 8
+- id: c0_10
+  label: 0-10%
+  min: 7
+  max: 8
+- id: c0_5
+  label: 0-5%
+  min: 8
+  max: 8
+- id: c5_10
+  label: 5-10%
+  min: 7
+  max: 7
+- id: c10_20
+  label: 10-20%
+  min: 6
+  max: 6
+- id: c20_30
+  label: 20-30%
+  min: 5
+  max: 5
+- id: c30_40
+  label: 30-40%
+  min: 4
+  max: 4
+- id: c40_50
+  label: 40-50%
+  min: 3
+  max: 3
+- id: c50_60
+  label: 50-60%
+  min: 2
+  max: 2
+- id: c60_70
+  label: 60-70%
+  min: 1
+  max: 1
+- id: c70_80
+  label: 70-80%
+  min: 0
+  max: 0
+normalization:
+- 0.4
+- 0.5
+normalization_bin_convention: lower-inclusive-upper-exclusive
+rebin_factor: 4
+high_windows:
+  k050_070:
+  - 0.5
+  - 0.7
+  k070_080:
+  - 0.7
+  - 0.8
+  k080_100:
+  - 0.8
+  - 1.0
+fit_ranges:
+  high:
+  - 0.5
+  - 1.0
+  tail:
+  - 0.8
+  - 1.0
+pair_rapidity:
+  frame: lab
+  minimum: -1.5
+  maximum: 0.5
+  n_bins: 10
+  adjacent_merge_groups:
+  - - 1
+    - 2
+  - - 3
+    - 4
+  - - 5
+    - 6
+  - - 7
+    - 8
+  - - 9
+    - 10
+he4_rapidity_threshold: -0.5
+closure:
+  regular_absolute_tolerance: 0.5
+  regular_relative_tolerance: 2.0e-06
+  flow_is_diagnostic_only: true
+statistical_model:
+  normalization_covariance: true
+  se_me_independent_histogram_count_approximation: true
+  event_reuse_covariance_available: false
+  ep1_ep8_covariance_available: false
+  zero_count_cf_bins: omit
+display:
+  k_range:
+  - 0.0
+  - 1.0
+  high_k_range:
+  - 0.5
+  - 1.0
+  EP1_color: '#244C75'
+  EP8_color: '#C05A24'
+canvas:
+  columns:
+  - EP1
+  - EP8
+  rows:
+  - SE + scaled ME
+  - CF full
+  - CF high
+  selections:
+  - inclusive
+  - pair_bin01
+  - pair_bin02
+  - pair_bin03
+  - pair_bin04
+  - pair_bin05
+  - pair_bin06
+  - pair_bin07
+  - pair_bin08
+  - pair_bin09
+  - pair_bin10
+  ordering: centrality then inclusive/pair rapidity
+  normalization: Separate SE_H / ME_H for each EP, centrality and pair rapidity
+  counts: Regular kstar range only; pair counts, not event counts
+  output_directory: share/figure/20261115_lambda_centrality_pair_canvases

@@ -1,0 +1,21 @@
+{
+  "matchedCountRows": 1960,
+  "independentDevianceChecks": 1860,
+  "fixedCaseIdentities": [
+    "method5_cent20_80_007",
+    "method3_cent2_014",
+    "method3_cent3_008",
+    "method3_cent8_004",
+    "method3_cent2_015",
+    "method5_cent1_006",
+    "method5_cent2_002",
+    "method5_cent8_006",
+    "method5_cent3_005"
+  ],
+  "atlasPages": 175,
+  "inputBinningGateAndGaussianLimitsUnchanged": true,
+  "negativeBackgroundConstant": true,
+  "polynomialBasis": "centered_scaled",
+  "backgroundSeedFloor": 0.1,
+  "maximumFunctionCalls": 50000
+}

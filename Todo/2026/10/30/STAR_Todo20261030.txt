@@ -1,0 +1,71 @@
+STAR Todo — 2026/10/30（日本時間）
+対象：2021 P24iy Au+Au 3.85 GeV Λ–4He KFParticle相関関数
+状態：次段階完了。更新ROOTのCF・Λ背景差引き、総合10頁と質量窓比較13頁のPDF、成果物検証を完了。
+
+■ 目的と今回の範囲
+・TOFを含む採用済み4He PIDで再解析・統合したROOTから、次にΛ–4HeのCorrelation Functionを作成する。
+・まず過去ログを調べ、以前CFとΛ背景差引きを実施したマクロ、README、設定、図付きPDFレポートを特定して索引化する。
+・以前の入力ROOT/年度/productionと、今回の2021 P24iy ROOTを区別する。旧2019を新解析へ流用・混合しない。
+・今回は準備として、入力・ヒスト/軸・質量窓・centrality・規格化・背景処理と実行手順を照合する。新しいCFの本計算は次段階とする。
+・既存の解析コード・PID係数・過去結果・ROOTと無関係なWIPは保持する。
+
+■ 1. 過去のCF解析と成果物を探す
+[x] 日報/TodoからΛ–4He CF、Λ背景差引き、method比較の記録を検索。
+[x] 入力ROOT、解析年度・production、出力ディレクトリの対応を整理。
+[x] 再現用macro・runner・README・settingsの実体と呼出し方法を確認。
+[x] 主要なCF/QA PDFと図付きレポートPDFを区別し、実在と頁数等を確認。
+[x] 最終的に使った背景処理と、比較・試行段階の方法を区別する。
+
+■ 2. 更新ROOTと必要ヒストを確認する
+[x] 最終haddのmanifest/完了記録と通常ROOTの場所を照合。
+[x] 26,955/26,994 subjobの承認済み部分試料であること、2021 P24iy、event数、configを記録。
+[x] 通常1,786ヒストとSparse 3分割の役割を区別し、CF作成に必要な入力を明記。
+[x] 旧macroが必要とするSE/ME・Λ質量・signal/SB・centrality別ヒスト名/型/軸と現行定義を照合。
+[x] Λ/4He purityの扱い、He3 controlの意味、Λ背景差引きとの関係を整理。
+
+■ 3. 再作成の準備資料をまとめる
+[x] 資料索引（macro/README/settings/ROOT/PDFと用途）を個別mdへ出力。
+[x] 同一k*bin/質量窓/cent/規格化で比較するための条件と、旧コードの修正が必要な箇所を記載。
+[x] 更新ROOTでの段階的な実行手順と検証項目を整理し、未実施を明記。
+[x] READMEは索引、Todoは作業/進捗、個別mdは根拠/準備内容に分ける。
+[x] 当日の作業ログを更新し、個人資料として保存する。
+
+■ 次段階（今回の準備完了後）
+[x] 確認した条件を明示settingsへ固定し、旧マクロを安全な独立出力先で更新ROOTへ適用。
+[x] SE/ME・Λ質量fit/信号・SBの再評価、raw CFとΛ背景差引きCF、誤差/規格化を検証。
+[x] 必要に応じた方法比較と図付きレポートを作成し、以前の結果と新PID結果を区別する。
+
+作成時刻：2026-10-30T10:06:03.485728+09:00。
+
+
+確認結果：
+・主要な過去研究は2026/10/03、同じ2021 P24iy。総合10頁・質量半窓13頁・mT 0–10%/0–20%各8頁の図付きreportを特定。
+・今回の04BF通常ROOT：1,786ヒスト。必要175ヒストは全件存在・軸一致・非空。event数2,100,726,543 / 2,067,647,474を実ROOTで確認。
+・投入時bundleの12設定と内容一致（10件byte一致、2件コメントのみ差）。
+・21PDFの実在・頁数・hash、13テンプレート/旧生成コードのhashとadapt互換性を確認。新fit/CFは未実施。
+・本計算前：build_report.pyとreport_mass_halves.pyの旧SUMS/採用件数/入力名固定を新manifestへ対応させる。
+・旧inclusive純度とMethod5純度表は流用しない。独立出力先と6設定コピーをnext_run_plan.yamlに記録。
+・初回検査の36件の仮定キー誤りは検査側を訂正、初回JSONも保存。ROOT変更なし。
+
+準備資料：lambda_he4_cf_preparation_20261030.md
+索引：README.md
+検証：input_histogram_check.json / submitted_config_check.json / assets_manifest.json / macro_compatibility.json
+更新時刻：2026-10-30T12:26:27.521201+09:00。
+
+■ 次段階の実行（ユーザー指示により開始）
+[x] 明示output manifest/runmetaから試料・年度・coverageを検証してreportへ反映。
+[x] 更新ROOTでinclusive Λ proxy・SE/ME別massfit・13マクロを実行。
+[x] Raw/SBsub/CFsub/Method3/Method5を旧設定と同条件で比較。
+[x] full/low/high質量窓比較と図付きPDFを作成。
+[x] 出力hash・入力不変・fit診断・PDF表示を確認し日報/README更新。
+mT分割は独立massfit情報がないため、今回は本体と質量窓比較まで。
+
+完了結果：
+・新試料の来歴・coverage・event数を明示manifest/runmeta/bundleで検証。
+・13マクロ、単独14図、総合report10頁、質量窓比較report13頁を生成。
+・Method5 20–80%の規格化fit欠測を発見し、影響6マクロの全norm bin必須判定を修正、CF全体NA・LL非実行を検証。
+・入力ROOT不変、過去21PDF不変、新PDF21本のhash/頁数を記録。
+・sample 13件、macro契約3件、質量窓21件、ROOT規格化guardのテストPASS。
+・結果：lambda_he4_cf_update_20261030.md / cf_outputs_manifest_20261030.json。
+・mTは未実施。共有Git commit/pushは未実施。
+完了時刻：2026-10-30T15:26:34.401861+09:00。

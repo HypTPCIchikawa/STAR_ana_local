@@ -1,40 +1,66 @@
-# ROOT
+# Heavy/generated files stay on the analysis filesystem.
 *.root
-*.so
-*.d
-*.pcm
-*.out
-
-# outputfile
-log/
-
 *.o
+*.so
 *.dylib
+*.pcm
+*.d
+*.log
+*.out
+*.err
+*.gz
+*.tar
+*.zip
+*.aux
+*.toc
+*.synctex.gz
+*.py[cod]
+__pycache__/
+build/
+AutoDict*
+*_C_ACLiC_dict*
+*_C.rootmap
+*~
+.DS_Store
+
+# Local navigation bridges to the parent analysis workspace, never data copies.
+/rootfile
+/mdfiles
+/tools
+/config
+/script
+/lib
+/StMaker
+/StRoot
+/analysis
+/include
+/src
+/common
+/job
+/docs
+/tests
+/share
+
+# Generated files used by the standalone analyses.
+log/
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
-
-# binary
-build/
 bin/
-*.cpp~
-
 rootfile
-
-# ログ・出力テキスト
-*.log
-*.pdf
 output/
 picodst
 err
 share
-
-# エディタ設定（VSCode）
 .vscode/
 
-# システムファイル
-.DS_Store
+# Standalone job lists and outputs are separate from managed study snapshots.
+/Lambda_check/**/*.pdf
+/Lambda_check/**/*.list
+/Lambda_check/**/*.csh
+/Nuclear_id/**/*.pdf
+/Nuclear_id/**/*.list
+/Nuclear_id/**/*.csh
 
-# ジョブ・ファイルリスト（pushしない）
-*.list
-*.csh
+# Local storage audits are retained on disk, outside version control.
+/workspaces/

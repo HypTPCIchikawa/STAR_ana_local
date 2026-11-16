@@ -1,0 +1,14 @@
+{
+  "phase": "passed",
+  "files": [
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/tests/storage_cleanup_20261104_001/completed.json",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/README.md",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/README_outputs_04BF2DAE47164B6F040E3A460E539289.md",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/subjobs/04BF2DAE47164B6F040E3A460E539289/README.md",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/subjobs/0BEFC64E62F19BBA534A129CABC9B106/README.md"
+  ],
+  "allPriorSnapshotKeysPreserved": true,
+  "copyHashesMatch": true,
+  "rootDataOrAuditTarNotSnapshotted": true,
+  "documentFileLinksChecked": 7
+}

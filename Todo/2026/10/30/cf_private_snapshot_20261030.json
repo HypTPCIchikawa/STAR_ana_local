@@ -1,0 +1,80 @@
+{
+  "scope": "Only files from the CF update; other snapshot records retained; no ROOT/build artifacts or large numeric output copied; no git commit/push performed",
+  "copied": [
+    "tools/kfparticle_summary/run_summary.py",
+    "tools/kfparticle_summary/build_report.py",
+    "tools/kfparticle_summary/validate_outputs.py",
+    "tools/kfparticle_summary/InspectKFSummary.C",
+    "tools/kfparticle_summary/sample_provenance.py",
+    "tools/kfparticle_summary/prepare_macros.py",
+    "tools/kfparticle_summary/compare_mass_halves.py",
+    "tools/kfparticle_summary/report_mass_halves.py",
+    "tools/kfparticle_summary/README.md",
+    "tools/kfparticle_summary/tests/test_sample_provenance.py",
+    "tests/test_mass_half_sample_provenance.py",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/Lambda_InvMass.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/Lambda_InvMass.png",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/Lambda_InvMass_legacy.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/kstar_sum_4He.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/kstar_sum_CFsub_method3_4He.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/kstar_sum_CFsub_4He.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/kstar_sum_CFsub_method5_4He.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/kstar_cent_CFsub_method3_4He.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/kstar_cent_CFsub_method5_4He.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/Fit_LL_4He.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/Fit_LL_CFsub_4He.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/Fit_LL_method3_4He.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/Fit_LL_method5_4He.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/kstar_4He.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/kstar_CFsub_4He.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_4He_KFParticle_3p85.tex",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/README.md",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_4He_KFParticle_3p85.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/validation.json",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/context.json",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_halves_raw.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_halves_raw.png",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_halves_sbsub.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_halves_sbsub.png",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_halves_cfsub.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_halves_cfsub.png",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_halves_method3.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_halves_method3.png",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_halves_method5.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_halves_method5.png",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/README.md",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_halves_comparison.tex",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_halves_comparison.pdf",
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/completed.json"
+  ],
+  "skipped": [
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/run_state.json",
+      "reason": "numeric_output"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/inspect.json",
+      "reason": "numeric_output"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/macro_manifest.json",
+      "reason": "numeric_output"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/report_metadata.json",
+      "reason": "numeric_output"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/mass_half_extract.json",
+      "reason": "size"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/comparison.json",
+      "reason": "size"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/mass_halves/report_metadata.json",
+      "reason": "numeric_output"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "phase": "complete",
+  "newReport": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_4He_KFParticle_3p85_PoissonL_only_20261102_v2.pdf",
+    "pages": 20,
+    "bytes": 771189,
+    "sha256": "a1e1e2410ecef0e4fc7d4057d3c378c88b7ac2fef71a863fde7f2e05956f2bde"
+  },
+  "originalReportUnchanged": true,
+  "snapshotFiles": {
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_4He_KFParticle_3p85_PoissonL_only_20261102_v2.pdf": {
+      "sha256": "a1e1e2410ecef0e4fc7d4057d3c378c88b7ac2fef71a863fde7f2e05956f2bde",
+      "bytes": 771189,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/README.md": {
+      "sha256": "3a456c850e93bb33110512b433719874153bc0f8af4811ace807ec8adbfc640d",
+      "bytes": 5163,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/l_only_report_20261102_001/README.md": {
+      "sha256": "a0528875a6c7f58f1390215f31fbcf1cbdd19a613b7de7b27b39651fc6421d69",
+      "bytes": 1725,
+      "kind": "small_output"
+    }
+  },
+  "allPreviousSnapshotKeysPreserved": true,
+  "markdownLinksChecked": 31,
+  "missingLinks": [],
+  "old34PageCase2IsPage27": true,
+  "newLOnly20PageCase2IsPage13": true,
+  "commitOrPushPerformed": false
+}

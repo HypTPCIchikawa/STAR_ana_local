@@ -1,0 +1,232 @@
+{
+  "phase": "staged",
+  "layout": "poisson_L_only",
+  "builtAtJst": "2026-11-02T14:21:10.594318+09:00",
+  "report": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/l_only_report_20261102_001/summary_4He_KFParticle_3p85_PoissonL_only_20261102.pdf",
+    "sha256": "a1e1e2410ecef0e4fc7d4057d3c378c88b7ac2fef71a863fde7f2e05956f2bde",
+    "bytes": 771189,
+    "pages": 20
+  },
+  "originalReport": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_4He_KFParticle_3p85.pdf",
+    "sha256": "615bf8a79424733de35658ffffbc92835a0b530135b3568e8dd4f36c2fad9524"
+  },
+  "figures": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_fine_method3_L.pdf",
+      "page": 1,
+      "fitOptions": "SLQNR0",
+      "caption": "Method 3 purity, nine centralities | Poisson L (SLQNR0)",
+      "paragraphs": [
+        "Red: SE (true); blue: ME (mix). All points use L fits. Invalid estimates are omitted. Negative primary backgrounds trigger a nonnegative constant-background L refit."
+      ],
+      "sha256": "395aba56a44cd622d7b7140d39210761f0b7a974a16cdd6c905ae2b54a0b0c67"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_fine_method5_L.pdf",
+      "page": 1,
+      "fitOptions": "SLQNR0",
+      "caption": "Method 5 purity, nine centralities | Poisson L (SLQNR0)",
+      "paragraphs": [
+        "Red: SE (true); blue: ME (mix). All points use L fits. Invalid estimates are omitted. Negative primary backgrounds trigger a nonnegative constant-background L refit."
+      ],
+      "sha256": "630b23512eca75ed1e0b9ced52ac39ffc6da13d4abad7bfab8961fdefa936241"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/cf_methods_3_5_6.pdf",
+      "page": 1,
+      "fitOptions": "SLQNR0",
+      "caption": "Method3/5/6 CF: two centrality selections | Poisson L (SLQNR0)",
+      "paragraphs": [
+        "All CF points use the adopted L-derived purities; normalization 0.40-0.50 GeV/c. Method6 shares Method5 ME purity and its error between SE and ME."
+      ],
+      "sha256": "3b986b5781e335cc84b6535c3f549963aad5d52969ebbb553e9aad0e2579672b"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/cf_methods_3_5_6.pdf",
+      "page": 2,
+      "fitOptions": "SLQNR0",
+      "caption": "Method3/5/6 CF: three centrality selections | Poisson L (SLQNR0)",
+      "paragraphs": [
+        "All CF points use the adopted L-derived purities; normalization 0.40-0.50 GeV/c. Method6 shares Method5 ME purity and its error between SE and ME."
+      ],
+      "sha256": "3b986b5781e335cc84b6535c3f549963aad5d52969ebbb553e9aad0e2579672b"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_se_me.pdf",
+      "page": 1,
+      "fitOptions": "SLQNR0",
+      "caption": "SE/ME purity: two centrality selections | Poisson L (SLQNR0)",
+      "paragraphs": [
+        "All purity points use L fits. Method3 and Method5 fit SE and ME separately. Method6 applies the same Method5 ME purity and error to both."
+      ],
+      "sha256": "8c303ebc9217002fc08cfe71f8a24452386ba21ec5e3998fd3b59380bca76929"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_se_me.pdf",
+      "page": 2,
+      "fitOptions": "SLQNR0",
+      "caption": "SE/ME purity: three centrality selections | Poisson L (SLQNR0)",
+      "paragraphs": [
+        "All purity points use L fits. Method3 and Method5 fit SE and ME separately. Method6 applies the same Method5 ME purity and error to both."
+      ],
+      "sha256": "8c303ebc9217002fc08cfe71f8a24452386ba21ec5e3998fd3b59380bca76929"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent20_80_007.pdf",
+      "page": 1,
+      "fitOptions": "SLQNR0",
+      "caption": "Mass-spectrum case 1: method5, 20-80%, 0.3-0.35 GeV/c | Poisson L (SLQNR0)",
+      "paragraphs": [
+        "Actual k* fit window 0.2-0.45. Background SE/ME: quadratic / quadratic. P(SE)=0.92764 +/- 0.00129; P(ME)=0.90871 +/- 0.000247.",
+        "The lower-left and lower-middle panels include empty bins as signed Poisson deviance residuals. The normalized mass shapes are unchanged input data; the fitted background, purity and residuals are re-evaluated."
+      ],
+      "sha256": "e4cedc5bb8444b056710d20439255a41b260e129d1ad980c9ca3b85299ff4faf"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method3_cent2_014.pdf",
+      "page": 1,
+      "fitOptions": "SLQNR0",
+      "caption": "Mass-spectrum case 2: method3, 50-60%, 0.26-0.28 GeV/c | Poisson L (SLQNR0)",
+      "paragraphs": [
+        "Actual k* fit window 0.26-0.28. Background SE/ME: constant b>=0 / quadratic. P(SE)=0.85305 +/- 0.0605; P(ME)=0.76045 +/- 0.0139.",
+        "The lower-left and lower-middle panels include empty bins as signed Poisson deviance residuals. The normalized mass shapes are unchanged input data; the fitted background, purity and residuals are re-evaluated."
+      ],
+      "sha256": "3bac2f79cb30b588a7def98a4d6f134a5a5be6dc6717cfaa9d6f19528cfeea77"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method3_cent3_008.pdf",
+      "page": 1,
+      "fitOptions": "SLQNR0",
+      "caption": "Mass-spectrum case 3: method3, 40-50%, 0.14-0.16 GeV/c | Poisson L (SLQNR0)",
+      "paragraphs": [
+        "Actual k* fit window 0.14-0.16. Background SE/ME: constant b>=0 / constant b>=0. P(SE)=0.88133 +/- 0.0477; P(ME)=0.78492 +/- 0.0106.",
+        "The lower-left and lower-middle panels include empty bins as signed Poisson deviance residuals. The normalized mass shapes are unchanged input data; the fitted background, purity and residuals are re-evaluated."
+      ],
+      "sha256": "e1d47bd2cb876a4ca66a274f820f5460a49de48020d1bd6d0a7905c58f3b1129"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method3_cent8_004.pdf",
+      "page": 1,
+      "fitOptions": "SLQNR0",
+      "caption": "Mass-spectrum case 4: method3, 0-5%, 0.06-0.08 GeV/c | Poisson L (SLQNR0)",
+      "paragraphs": [
+        "Actual k* fit window 0.06-0.08. Background SE/ME: constant b>=0 / constant b>=0. P(SE)=0.92377 +/- 0.00804; P(ME)=0.94023 +/- 0.00119.",
+        "The lower-left and lower-middle panels include empty bins as signed Poisson deviance residuals. The normalized mass shapes are unchanged input data; the fitted background, purity and residuals are re-evaluated."
+      ],
+      "sha256": "d14cae663ab77294299ecdeb99941a8330cab9249801c847b4b8e5419da4f1c2"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method3_cent2_015.pdf",
+      "page": 1,
+      "fitOptions": "SLQNR0",
+      "caption": "Mass-spectrum case 5: method3, 50-60%, 0.28-0.3 GeV/c | Poisson L (SLQNR0)",
+      "paragraphs": [
+        "Actual k* fit window 0.28-0.3. Background SE/ME: constant b>=0 / constant b>=0. P(SE)=0.57478 +/- 0.164; P(ME)=0.77339 +/- 0.0112.",
+        "The lower-left and lower-middle panels include empty bins as signed Poisson deviance residuals. The normalized mass shapes are unchanged input data; the fitted background, purity and residuals are re-evaluated."
+      ],
+      "sha256": "588b198405b5e89a032077a23a370d0755d8cd039bea75e78426f0532d3d5b7b"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent1_006.pdf",
+      "page": 1,
+      "fitOptions": "SLQNR0",
+      "caption": "Mass-spectrum case 6: method5, 60-70%, 0.25-0.3 GeV/c | Poisson L (SLQNR0)",
+      "paragraphs": [
+        "Actual k* fit window 0.15-0.4. Background SE/ME: constant b>=0 / quadratic. P(SE)=0.81804 +/- 0.0566; P(ME)=0.71071 +/- 0.00955.",
+        "The lower-left and lower-middle panels include empty bins as signed Poisson deviance residuals. The normalized mass shapes are unchanged input data; the fitted background, purity and residuals are re-evaluated."
+      ],
+      "sha256": "992e63fdb9bd8b1f2afd20863a4b68f00d3c09366b4e7446e80dfc6b7aff2253"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent2_002.pdf",
+      "page": 1,
+      "fitOptions": "SLQNR0",
+      "caption": "Mass-spectrum case 7: method5, 50-60%, 0.05-0.1 GeV/c | Poisson L (SLQNR0)",
+      "paragraphs": [
+        "Actual k* fit window 0-0.2. Background SE/ME: constant b>=0 / constant b>=0. P(SE)=0.82968 +/- 0.0469; P(ME)=0.72116 +/- 0.011.",
+        "The lower-left and lower-middle panels include empty bins as signed Poisson deviance residuals. The normalized mass shapes are unchanged input data; the fitted background, purity and residuals are re-evaluated."
+      ],
+      "sha256": "1bb1ebd383a7b88db421f4e74aea81ad8a76da4f9b6d584fbeba35965f41c20e"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent8_006.pdf",
+      "page": 1,
+      "fitOptions": "SLQNR0",
+      "caption": "Mass-spectrum case 8: method5, 0-5%, 0.25-0.3 GeV/c | Poisson L (SLQNR0)",
+      "paragraphs": [
+        "Actual k* fit window 0.15-0.4. Background SE/ME: quadratic / quadratic. P(SE)=0.94883 +/- 0.000602; P(ME)=0.94998 +/- 9.85e-05.",
+        "The lower-left and lower-middle panels include empty bins as signed Poisson deviance residuals. The normalized mass shapes are unchanged input data; the fitted background, purity and residuals are re-evaluated."
+      ],
+      "sha256": "294cf3be3f47d27c5e05054e27da314d17977093199dcaaa4eb6e1b78a8e6b12"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent3_005.pdf",
+      "page": 1,
+      "fitOptions": "SLQNR0",
+      "caption": "Mass-spectrum case 9: method5, 40-50%, 0.2-0.25 GeV/c | Poisson L (SLQNR0)",
+      "paragraphs": [
+        "Actual k* fit window 0.1-0.35. Background SE/ME: constant b>=0 / quadratic. P(SE)=0.88473 +/- 0.00757; P(ME)=0.82595 +/- 0.00183.",
+        "The lower-left and lower-middle panels include empty bins as signed Poisson deviance residuals. The normalized mass shapes are unchanged input data; the fitted background, purity and residuals are re-evaluated."
+      ],
+      "sha256": "34dc89c27f5b03eb33ce090d4618ebac225083aa0ff220f24bde602d8dd9cbe6"
+    }
+  ],
+  "excludedFigures": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_fine_method3_comparison.pdf",
+      "sha256": "ce1cf9212f2f5866fadc3591b0945d3c81a93e407c6395265a59012e908451df",
+      "reason": "contains non-L results"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_fine_method5_comparison.pdf",
+      "sha256": "e1231146ea42aadd35e7b20215a5f454bf4495233bf4d10e9e8a4c34c05da988",
+      "reason": "contains non-L results"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/cf_objective_comparison.pdf",
+      "sha256": "bb0183abaf8554307a5d7f497c7c3ca3c77e75623b78e23c92b49a138bfd872c",
+      "reason": "contains non-L results"
+    }
+  ],
+  "fitOptions": "SLQNR0",
+  "content": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/l_only_report_20261102_001/report_content.json",
+    "sha256": "114e97b7bab4f7d61a8b13c26614a05981ba26b17d5d39433bb84824bfc3c71f"
+  },
+  "tex": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/l_only_report_20261102_001/summary_4He_KFParticle_3p85_PoissonL_only_20261102.tex",
+    "sha256": "ed480dc9e4a79c77058716e7af8bc228817005c1b4fc4b669ddf56c38f01e9d5"
+  },
+  "sourceCode": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/build_poisson_l_only_report.py",
+    "sha256": "9e0bfda2b1bdf53ff008b01e35618432000ce77bee4a03df33260d1cedb97a08"
+  },
+  "scientificStudy": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf",
+    "sources": {
+      "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/report_content.json": "2b66271253459981e2de2ca6676b1de0858a22b9654d6fbc2b4d1c10970afcbc",
+      "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/validation.json": "4428635d1e2771aef0c1f6c25ecad58972385b25f1fe8cc4786367c2473a8fed",
+      "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/poisson_report_metadata.json": "dce707706992ddbf0c527ec88e7d03b6acbcf1a0ed0b753d16bdbaf89a331d4c",
+      "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cf_points.tsv": "179bc5710464bd82a7b38bdaa0655aad8850f5a1dd1955e04ed6ceafca6a07c1",
+      "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/purity_points.tsv": "df94da9c4635f6d840fc1cffc848ad17429f3ec1b33703e8fd9595288872d543"
+    },
+    "fits": {
+      "group": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/group_extract/purity_fit_review.json",
+        "sha256": "330d2c73403eeadac7dac4d9edc3b77ce88ce3e99a9da25c881b4c3566268130",
+        "fitOptions": "SLQNR0",
+        "settingsPath": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/group_extract/extract_settings.txt",
+        "settingsSha256": "9ff26efa86c07f1d742245cbd4d2662b044c23eae4d31101ac0ff9e390804676"
+      },
+      "fine": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/fine_extract/purity_fit_review.json",
+        "sha256": "8567df1e339b12ba036c47fb2d50507ab90d283c44a3eaed66d18237958f3a2f",
+        "fitOptions": "SLQNR0",
+        "settingsPath": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/fine_extract/extract_settings.txt",
+        "settingsSha256": "d23c54561e816c93f2636dc55a8b4ecf53c7bb70272b529acd03bc646fa5c958"
+      }
+    }
+  }
+}

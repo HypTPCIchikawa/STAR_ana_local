@@ -1,0 +1,1068 @@
+# Reference — STAR analysis framework
+
+Operational detail: prerequisites, setup, analysis_info, build, running locally and in batch, QA, adding analyses, config, and joblists.
+
+- **Overview and doc map:** [README.md](../README.md)
+- **First-time setup:** [INSTALL.md](../INSTALL.md)
+- **Design principles and two-macro rationale:** [PHILOSOPHY.md](../PHILOSOPHY.md)
+- **Submit / cleanup on the farm:** [job/run/README.md](../job/run/README.md)
+
+For **why** `run_anaXxx.C` and `anaXxx.C` are separate, see [PHILOSOPHY.md](../PHILOSOPHY.md) (two macros section).
+
+## Directory layout
+
+Only **template/sample** content under `config/` and `job/joblist/` is tracked; built artifacts under `lib/` are git-ignored.
+
+| Directory | Description |
+|-----------|-------------|
+| **analysis/** | ROOT macros: `run_anaXxx.C` (runner: loads libs, compiles `anaXxx.C+`, calls analysis) and `anaXxx.C` (StChain + event loop). One pair per analysis (e.g. Lambda, Phi). |
+| **config/** | YAML configs. **Templates/samples only** tracked. Subdirs: `mainconf/` (main YAML that includes the rest), `maker/`, `hist/`, `cuts/` (event, track, pid, v0reco, mixing), `analysis/` (e.g. **analysis_info_temp.yaml** — used by setup.sh and joblist generator), `picoDstList/` (input file lists; user lists are typically untracked). |
+| **include/** | Framework headers: `ConfigManager.h`, `HistManager.h`, cut configs (`cuts/*.h`). Used by StMaker and `src/`. |
+| **job/** | Job submission: `job/joblist/` = **template** job XMLs (tracked); `job/run/` = submit directory (`submit.sh`, `cleanup_job_run.sh`, `archive_job_run.sh`, `snapshot_runmeta.sh`, generated/copied files). On successful submit, `submit.sh` saves `job/run/joblistlog/joblist_<anaName>_<jobid>.xml`, `job/run/configlog/config_<anaName>_<jobid>.txt`, and `job/run/runmeta/runmeta_<anaName>_<jobid>.json` plus sidecars (`gitstatus`, `gitdiff`, `gitsubmodules`, `runtime_bundle`, `sums_artifacts`, `submit_stdout`). Files under `job/run/*.xml` and generated job artifacts are git-ignored. |
+| **lib/** | Built shared libraries (`libStarAnaConfig.so`, `libStXXXMaker.so`). **Contents git-ignored**; produced by `make`. |
+| **StMaker/** | One subdir per Maker (e.g. `StLambdaMaker/`, `StPhiMaker/`, `StFemtoMaker/`). Each has `.h` and `.cxx`; built into `lib/libStXXXMaker.so`. Femto naming rules: `StMaker/StFemtoMaker/README.md`. |
+| **script/** | Environment and run scripts: `setup.sh` (bash/zsh setup), `setup.csh` (csh/tcsh setup), `generate_joblist.sh` (joblist XML from mainconf), `generate_joblist_from_list.py` (joblist XML whose input is a list of files), `singularity_make.sh` (build `lib/` via batch-like singularity runtime), `run_anaLambda.sh`, `run_anaPhi.sh`, `run_anaFemtoPhiProton.sh`, `singularity_run_anaLambda.sh`, `singularity_run_anaPhi.sh`, `singularity_run_anaFemtoPhiProton.sh` (local analysis via the same singularity runtime), `run_fitCorrelation.sh` (runs `share/femtocalc/fitCorrelation.C+` with safe quoting for ROOT file and histogram name), `checkHistAnaPhi.sh`, `checkHistAnaLambda.sh` (QA PDF from Maker output ROOT), `singularity_checkHistAnaPhi.sh`, `singularity_checkHistAnaLambda.sh`, `singularity_checkHistAnaFemtoPhiProton.sh` (QA PDF via the same singularity runtime; **recommended on AL9**), `merge_root_files.csh` (hadd merge of subjob ROOT by jobid), `watch_job_and_merge.sh` (poll batch output and auto-merge; started by `submit.sh --watch-merge`), `check_disk_quota.sh` (remaining NFS home + GPFS quota), `analysis_info_helper.py` (libraryTag, joblist generation, embedded-mainconf extraction, watch-merge path helpers), `sync_cursor_skills.py` / `check_cursor_skill_sync.py` (sync and validate `docs/ai/skills/*.md` ↔ `.cursor/skills/*/SKILL.md` parity), `sync_and_check_skills.sh` (single command to run sync + parity check), `time_NYT_to_JST.py` (NY time → JST), `time_now_NY_to_JST.py` (current NY server time → JST), and helpers (e.g. `get_file_list_*.sh`). |
+
+## Prerequisites and setup
+
+- **STAR environment**: use `starver` (e.g. `starver SL24y`). The version is taken from **analysis info** (see below), not hardcoded.
+- **Build tools**: ROOT, gcc, and CMake (for yaml-cpp). The framework is intended to be buildable with any starver environment (subject to future development).
+
+**Setup** reads the main config (mainconf) and the analysis info YAML it points to, then prepares `STAR`, `STAR_HOST_SYS`, `PATH`, and `LD_LIBRARY_PATH` for the selected `libraryTag`. From the project root, **source** the setup script that matches your shell:
+
+```bash
+source ./script/setup.sh config/mainconf/main_auau19_anaLambda.yaml
+```
+
+```csh
+source ./script/setup.csh config/mainconf/main_auau19_anaLambda.yaml
+```
+
+For another analysis (e.g. Phi):
+
+```bash
+source ./script/setup.sh config/mainconf/main_auau19_anaPhi.yaml
+```
+
+Do not run `./script/setup.sh ...` as a standalone command; that only affects a child shell. If the helper script or the analysis info is missing or invalid, the setup script exits with an error.
+
+## Python 3 environment (for joblist generation)
+
+Generating a joblist with `./script/generate_joblist.sh` uses **Python 3** and **PyYAML**. Prepare once:
+
+1. **Python 3**  
+   Use the system or module `python3` (e.g. `module load python` if your site provides it).
+
+2. **PyYAML**  
+   Install for Python 3 (user install if you lack admin rights):
+   ```bash
+   python3 -m pip install --user pyyaml
+   ```
+
+3. **Run the script**  
+   From the project root:
+   ```bash
+   ./script/generate_joblist.sh config/mainconf/main_auau19_anaLambda.yaml
+   ```
+   The script prefers `python3` when available and writes e.g. `job/joblist/joblist_auau19_anaLambda_temp.xml` (basename is `analysis.anaName`).
+
+## Analysis info (analysis_info_temp.yaml)
+
+The file **config/analysis/analysis_info_temp.yaml** (or the one referenced by your mainconf’s `analysis:` key) holds metadata used by `setup.sh` and by the **joblist generator**. After cloning, copy or edit this file so that paths and tags match your environment.
+
+**Main keys:**
+
+| Section | Keys | Purpose |
+|--------|------|--------|
+| **starTag** | `libraryTag`, `triggerSets`, `productionTag`, `filetype`, `filenameFilter`, `filenameNotFilter`, `storageExclude`, `storage` | `setup.sh` uses `libraryTag` for `starver`. The rest are used to build the SUMS catalog URL when generating a joblist. **`filenameNotFilter`** maps to `filename!~<value>` (e.g. `adc` excludes ADC streams). **`storage`** maps to `storage=<value>` (e.g. `local`). **`storageExclude`** maps to `storage!=<value>`. |
+| **dataset** | `allPicoDstList`, `runRange`, etc. | Dataset description; can be used by run scripts or docs. |
+| **analysis** | `anaName`, `name`, `workDir`, `logDir`, `errDir`, `baseRunMacro`, `baseAnaMacro`, `jobName`, `scratchSubdir`, `outputFileStem`, `nFiles`, `maxEvents` | **anaName** is the canonical name for this analysis (see Naming conventions below). Use YAML alias: define `anaName: &anaName "auau19_anaLambda_temp"` and set `name`, `jobName`, `scratchSubdir`, `outputFileStem` to `*anaName` so they stay in sync. **baseRunMacro** / **baseAnaMacro** are the macro base names without `.C` (e.g. `run_anaLambda`, `anaLambda`); the joblist generator builds the run macro as `baseRunMacro + ".C"` and writes **`joblist_<anaName>.xml`**. **workDir** is the base path for generated ROOT outputs. **logDir** and **errDir** are optional stdout/stderr directories; if omitted, joblist generation uses `workDir/log` and `workDir/err`. Batch runtime now stages a scratch-local bundle and no longer depends on the repository living at `workDir`. If `workDir` is omitted, empty, relative, or left at the template placeholder, joblist generation falls back to the current project root. The batch runtime mainconf is not stored here; it is the mainconf you pass to `generate_joblist.sh`. **maxEvents** is optional and controls the 4th `root4star` argument in generated batch joblists (`-1` if omitted). |
+| **analyst** | `name`, `institute`, `email` | For documentation. |
+
+**Script that uses it:** `script/analysis_info_helper.py`
+
+- **`--library-tag`**: Reads mainconf → analysis info and prints `starTag.libraryTag`. Used by `setup.sh`. Works without PyYAML (minimal grep fallback).
+- **`--generate-joblist`**: Reads mainconf → analysis info and fills **job/joblist/job_template_from_conf.xml**, then writes **`job/joblist/joblist_<anaName>.xml`** using **`analysis.anaName`** for `anaName`. The embedded `__MAINCONF__` path is the same mainconf you pass to the command, and **`analysis.maxEvents`** (if present) is passed to batch `root4star` as the 4th argument. Requires PyYAML; use the **Python 3 environment** above.
+- **`--mainconf-from-joblist`**: Reads a generated joblist XML and prints the embedded `config/mainconf/...yaml` path used by batch runtime and by `submit.sh` preflight.
+- **`--ensure-batch-dirs JOBLIST`**: Creates stdout, stderr, and ROOT output directories parsed from the joblist; used by `submit.sh` before `star-submit`.
+- **Watch-merge helpers** (used by `watch_job_and_merge.sh`):
+  - **`--expected-subjobs-from-joblist JOBLIST --job-run-dir DIR --job-prefix PREFIX`**: Prints count of `{PREFIX}_*.list` under `job/run/`.
+  - **`--merge-sample-from-joblist JOBLIST --watch-merge-jobid HEX`**: Prints first subjob ROOT path for `merge_root_files.csh`.
+  - **`--merge-output-from-joblist JOBLIST --watch-merge-jobid HEX`**: Prints expected `*_merge.root` path.
+  - **`--rootfile-dir-from-joblist JOBLIST`**: Prints absolute rootfile output directory.
+  - **`--output-stem-from-joblist JOBLIST`**: Parses output stem from `fromScratch`.
+  - **`--rootfile-dir-from-joblist JOBLIST --count-subjob-roots --watch-merge-jobid HEX`**: Counts subjob ROOT files (excludes `*_merge.root`).
+  - **`--update-runmeta-postprocess RUNMETA_JSON`**: Reads JSON from stdin and writes `postProcess.watchMerge`.
+
+**Config bootstrap script:** `script/setup_config_from_analysisinfo.py`
+
+- Reads `analysis.anaName` (or `analysis.name`) from analysis_info.
+- Copies cut/maker templates and writes `config/mainconf/main_<anaName>.yaml`.
+- Uses `config/mainconf/mainconf.yaml` as the mainconf template and replaces `__ANANAME__` in the file content.
+
+## AI skill wrapper synchronization
+
+To keep Antigravity (source docs) and Cursor wrappers aligned, treat `docs/ai/skills/*.md` as source-of-truth.
+
+In Cursor, project hook config at `.cursor/hooks.json` runs `.cursor/hooks/auto-sync-skills.sh` after file edits and automatically syncs when a matching path under `docs/ai/skills/*.md` changes.
+
+Single manual command:
+
+```bash
+script/sync_and_check_skills.sh
+```
+
+- `sync_and_check_skills.sh` runs sync then parity check.
+- `sync_cursor_skills.py` writes/updates `.cursor/skills/<skill>/SKILL.md` wrappers from docs sources.
+- `check_cursor_skill_sync.py` exits non-zero when wrappers and docs sources are out of sync (useful for CI/pre-commit).
+
+### Naming conventions
+
+- **anaName** = `{system}_{anaId}[_condition]` (e.g. `auau19_anaLambda`, `auau19_anaLambda_mid`). Define it once per analysis and tie output files, mainconf, and analysis_info to it in a 1:1 way. Use a YAML anchor in analysis_info: `anaName: &anaName "auau19_anaLambda_temp"` and reference it with `*anaName` for `name`, `jobName`, `scratchSubdir`, `outputFileStem`.
+- **baseRunMacro** / **baseAnaMacro**: Macro base names without extension (e.g. `run_anaLambda`, `anaLambda`). The runner macro file is `baseRunMacro + ".C"`; the generated joblist file is **`joblist_<anaName>.xml`** (`analysis.anaName`). ACLiC builds `anaLambda_C.so` from the analysis macro.
+
+## Submodules
+
+This repository uses a git submodule for YAML parsing:
+
+- **src/third_party/yaml-cpp** — [jbeder/yaml-cpp](https://github.com/jbeder/yaml-cpp); required to build `libStarAnaConfig.so`.
+
+**After cloning**, initialize and update the submodule:
+
+```bash
+git submodule update --init --recursive
+```
+
+If you clone with recursive submodules, you can skip the above:
+
+```bash
+git clone --recurse-submodules <repository-url>
+```
+
+Without the submodule populated, `make` will fail when building the config library.
+
+## Build
+
+From the project root:
+
+```bash
+source ./script/setup.sh config/mainconf/main_auau19_anaLambda.yaml
+make -j$(nproc)
+```
+
+This builds the existing analysis stack plus `lib/libKFParticle.so`, `lib/libStKfParticleCommon.so`, and `lib/libStLambdaKFParticleMaker.so`. New `St*Maker` directories remain auto-discovered. Use `make core` for an explicitly KF-independent existing-analysis build, or `make kfparticle-analysis` for the focused KF path. The Makefile uses `$STAR`, `$STAR_HOST_SYS`, and `root-config`; if `root-config` bitness does not match your setup, the build now fails early with a message telling you to re-source setup and verify `which root-config` / `root-config --cflags`.
+
+## How to run
+
+### Lambda analysis example (local with root4star)
+
+Run from the **project root**:
+
+```bash
+./script/run_anaLambda.sh [inputList] [outputRoot] [jobid] [nEvents] [configPath]
+```
+
+Defaults:
+
+- `inputList`   = `config/picoDstList/auau19GeV_lambda.list`
+- `outputRoot`  = `rootfile/auau19_anaLambda_temp/auau19_anaLambda_temp.root`
+- `jobid`       = `0`
+- `nEvents`     = `-1` (all events)
+- `configPath`  = (default main config; omit to use `config/mainconf/main_auau19_anaLambda.yaml`)
+
+Example (first 100 events):
+
+```bash
+./script/run_anaLambda.sh config/picoDstList/auau19GeV_lambda.list rootfile/auau19_anaLambda_temp/out.root 0 100
+```
+
+With a custom main config (5th argument):
+
+```bash
+./script/run_anaLambda.sh config/picoDstList/auau19GeV_lambda.list rootfile/auau19_anaLambda_temp/out.root 0 -1 config/mainconf/main_auau19_anaLambda.yaml
+```
+
+The script sets `LD_LIBRARY_PATH` and runs:
+
+```bash
+root4star -b -q "analysis/run_anaLambda.C(\"$INPUT\",\"$OUTPUT\",\"$JOBID\",$NEVENTS[, \"$CONFIG\"])"
+```
+
+`run_anaLambda.C` loads STAR libs, `libStarAnaConfig.so`, and `libStLambdaMaker.so`, compiles `anaLambda.C+`, and calls `anaLambda(...)`.
+
+### Local LL/KP correlation fit helper
+
+`share/` is often a symlink (e.g. to `sharelocal` on GPFS). On **AL9**, use the Singularity wrapper so `root4star` runs in an SL7-like runtime and macro paths are resolved with `readlink -f`:
+
+```bash
+./script/singularity_run_fitCorrelation.sh <root_file> <mainconf_path> [hist_name]
+```
+
+Example:
+
+```bash
+./script/singularity_run_fitCorrelation.sh \
+  rootfile/auau3p85fxt_anaFemtoPhi4He/auau3p85fxt_anaFemtoPhi4He_<jobid>_merge.root \
+  config/mainconf/main_auau3p85fxt_anaFemtoPhi4He.yaml \
+  hCF
+```
+
+On SL7 (or when host `root` ACLiC works), the plain wrapper avoids quoting mistakes:
+
+```bash
+./script/run_fitCorrelation.sh <root_file> [hist_name]
+```
+
+This calls `root -b -q "share/femtocalc/fitCorrelation.C+(...)"` and defaults `hist_name` to `hCF`.
+Set `STAR_ANA_FIT_ROOT_CMD` to override (example: `STAR_ANA_FIT_ROOT_CMD=root`).
+
+### Local with Singularity (batch-like runtime)
+
+On some login or dev nodes (for example AL9), host `root4star` may fail before the analysis macro runs (missing `libgfortran.so.3`, mixed 32-bit ROOT plugins for `root://`, and similar linker issues). Batch jobs already run `root4star` inside `singularity exec ... star-bnl/star-sw:latest`; use the matching **`singularity_*` wrappers** for local builds and runs on those hosts instead of calling host `root4star` or host `make` directly.
+
+- **Build:** `./script/singularity_make.sh MAINCONF [--no-clean] [make-args...]` — default `make clean && make -jN` (`N` = `nproc`) with `BUILD_BITS=64`; writes `lib/*.so` under the project root. Pass your own `-j` to override. After `make clean`, CMake is required to rebuild `src/third_party/yaml-cpp` (the wrapper prepends a cvmfs `cmake` when available). **This is the standard SL7-equivalent build:** `make` runs inside `star-bnl/star-sw:latest` with the same `STAR_HOST_SYS` resolution as batch (e.g. `sl73_x8664_gcc485`), so agents and humans can use it instead of an interactive `sl7` session whenever Singularity is available. Host `make` on AL9 often sees `STAR_HOST_SYS=al96_*` from `starver` even though that tree is missing; the wrapper is the intended replacement for `make -jN` on those nodes.
+- **Lambda:** `./script/singularity_run_anaLambda.sh` — same arguments as `run_anaLambda.sh`.
+- **Phi:** `./script/singularity_run_anaPhi.sh MAINCONF [inputFile] [outputFile] [jobid] [nEvents]` — same arguments as `run_anaPhi.sh` (defaults from analysis_info when input/output are omitted).
+- **Phi-p femto:** `./script/singularity_run_anaFemtoPhiProton.sh` — same arguments as `run_anaFemtoPhiProton.sh`; uses `StFemtoMaker` (`libStFemtoMaker.so`). Mainconf key **`maker:`** → `config/maker/maker_<anaName>.yaml` (φ builder + femto species/channels in one file).
+- **Unified phi femto (p, d, t, ³He, ⁴He):** `./script/singularity_run_anaFemtoPhi.sh` — one pass, 21 channels; mainconf `config/mainconf/main_auau3p85fxt_anaFemtoPhi.yaml`.
+- **Reduced tree (two-stage phi femto):** `./script/singularity_run_anaFemtoPhiTree.sh MAINCONF [inputFile] [outputFile] [jobid] [nEvents] [skip]` — writes a schema 3 reduced tree with `StFemtoPhiTreeMaker` (`libStFemtoPhiTreeMaker.so`) instead of histograms, so that the PicoDst is read once and every later pass reads ~1.9 TB instead of 76.8 TB. Production mainconf `config/mainconf/main_auau3p85fxt_anaFemtoPhiTree_prod.yaml`. The tree stores K±, p, d, t, ³He, ⁴He rows plus a packed event row, a `FemtoKaonOriginTree` companion (so the `maxDCAKK` systematic stays available) and a `FemtoFlagConfig` snapshot of every configuration value a stored decision depends on.
+- **Reduced tree downstream:** `./script/singularity_run_anaFemtoPhiTreeDownstreamV3.sh MAINCONF TREE.root OUT.root [bufferSize] [mixingMode] [variation] [sigMin] [sigMax] [recomputeDaughterPid] [recomputeMixBin] [maxEvents]` — rebuilds phi / phi_rot / phi_mix / h-K candidates and the SE/ME channel histograms from the tree. `maxEvents` is optional (`-1` = all) and is intended for short validation runs; the processed/total counts are written to the output ROOT provenance. Driven by the channel list in the maker YAML, so it emits the maker's own channel names. **Use a mainconf whose guarded selection keys match the tree:** the stored flags carry the producer's configuration and the downstream refuses to run on any mismatch of the 119 guarded keys. Derived downstream-only species/channels may be added without changing those stored decisions. `singularity_run_anaFemtoPhiTreeDownstream.sh` is the schema 1 reader, kept for older trees; `singularity_dumpFemtoPhiTree.sh` prints a tree's schema, counters and metadata.
+  - **Three-event phi-background diagnostic:** the final optional arguments are `[threeEventEnabled] [threeEventMaxRawSamplesPerEvent] [threeEventSamplingSeed]`. Enabling it requires a positive cap and seed and fills `hPhiMKK_vs_Kstar3E_deuteron_wide` from d(E0), K+(E1), K-(E2), with all eventUIDs distinct in one mixing bin. Raw triplets are sampled uniformly without replacement and filled with the inverse sampling fraction; the topology, cap, seed, population and structural-error counters are stored as ROOT provenance.
+  - **Extended pair QA:** every channel whose bachelor is a proton or a deuteron also gets the per-cent9 QA set the DATA-006 track-track channels carry — SE *and* ME pair-mT/2 vs k*, pair rapidity (inclusive and restricted to the normalization k* region), constituent pT/p/y/eta for both sides, uncut Δη–Δφ* two-track QA (one entry per phi daughter, |Δη| < 0.16), and a ten-stage cut flow (SE/ME eligible, shared, mass, close, accepted). The triton / He3 / He4 channels are left out on purpose. The `phi_rot_*` and `phi_mix_*` templates fill their QA only inside the signal mass window, so a template and the signal distribution cover the same M(KK) region; their k* SE/ME histograms still use the channel's own window. The pair-rapidity axis matches the DATA-006 one, and passing `pairMtBins pairMtMin pairMtMax` as `150 0.8 3.8` makes the pair-mT axis match it too.
+  - **Farm submission:** `./script/submit_downstream_blocks.py --mode phi|data006 --tag TAG [--limit N] [--dry-run]` writes a self-contained runtime bundle under `job/merge/TAG/runtime`, one job script per verified block and one Condor submit file, then submits. Run it once with `--limit 1` so the smoke block compiles the ACLiC library inside the bundle, then again without `--limit` for the rest: blocks whose output already exists are skipped. `--events-per-job N` splits each block into N-event slices (the reader's `firstEvent` argument), which is how the p-p / p-d / d-d pass is kept inside a batch slot; mixing does not cross a slice seam, a 0.004% effect on the mixed-event denominator at 2 M events per slice.
+    For the factorized three-event diagnostic use `--mode phi --three-event --three-event-cap N --three-event-seed S`; cap and seed are mandatory and are copied into every bundled job rather than supplied through the environment.
+  - **Completion check:** `./script/verify_downstream_outputs.py --tag TAG [--print-resubmit]`. The submitter's skip test is only "the output file exists", and ROOT creates that file when the job starts, so a run is complete only when every log ends in `exit 0` and the per-slice event counts add up to `block_events.txt`.
+- **Unified K⁻ femto (p, d, t, ³He, ⁴He):** `./script/singularity_run_anaFemtoKaon.sh` — one pass, 5 channels (`kaon_minus_*`); mainconf `config/mainconf/main_auau3p85fxt_anaFemtoKaon.yaml`. CF from merged SE/ME via `singularity_checkHistAnaFemtoKaon.sh` (no sidebands).
+- **Phi-4He femto:** `./script/singularity_run_anaFemtoPhi4He.sh` — same pattern as phi-p; species `he4`, channels `phi_he4_*`.
+- **Phi-deuteron femto:** `./script/singularity_run_anaFemtoPhiDeuteron.sh` — same pattern; species `deuteron`, channels `phi_deuteron_*`.
+- **Phi QA:** `./script/singularity_checkHistAnaPhi.sh <root_file> <mainconf_path>` — same role as `checkHistAnaPhi.sh`.
+- **Phi-p femto QA:** `./script/singularity_checkHistAnaFemtoPhiProton.sh <root_file> <mainconf_path>`. Writes QA PDF plus `{anaName}_checkHistAnaFemtoPhiProton_CF_{jobid}.pdf` (15 centrality slices: SE/ME k*, raw CF, sideband-subtracted CF). Maker YAML (`FemtoConfig`): `cfCentSlices`, `cfCentSlicesQaPdfInclude`, `cfPdfExcludeQaSlices`, `sidebandSubtractAlpha`, `negativeBinPolicy`. Mixing YAML: `mixingMode` (`randomSample`|`bufferAll`), `maxMixedPairsPerEvent`, `mixBothDirections`, `bufferSize`. See `StMaker/StFemtoMaker/README.md`.
+- **Unified phi femto QA:** `./script/singularity_checkHistAnaFemtoPhi.sh <root_file> <mainconf_path>` — main QA PDF plus `{anaName}_checkHistAnaFemtoPhi_kstarMassFitCf[_jobid].pdf` (per-\(k^*\) \(S=F-\alpha B\) fits) and sidecar `{anaName}_checkHistAnaFemtoPhi_CFkmf[_jobid].root`. Primary CF is **kstarMassFitCF** (default template ROT; MIX is YAML cross-check). Simple SE/ME ratio pages are diagnostic. Topic 3 / old direct mass-fit / Method 5 pages require `legacyCfPagesEnabled`. Mixing runs add the channel-indexed `hMixSamplerQA` counter page plus a `phi_mix` sampling/cap QA page (`hPhiMixSamplerQA`, `hPhiMix_CapHit`, keep fraction, stored MKK). Production `phi_mix` uses lazy uniform sampling of the combined forward+reverse pair population (`fullyMixedMaxCandidates: 2000`, `fullyMixedSamplingSeed: 314159`; uncapped is validation-only). Production mainconfs keep `randomSample` for `FillMixedEventPairs` and receive its corrected eligible-pair semantics. If the unified histogram YAML is regenerated, use `python3 script/generate_hist_anaFemtoPhi.py`; the generator retains mixing QA and phi_mix sampling axes/histograms. See `StMaker/StFemtoMaker/README.md` (kstarMassFitCF).
+- **DATA-005 phi-p centrality pilot export:** `./script/export_data005_pilot.sh <mainconf> <downstream_ALL.root> <new_output_dir> <production_jobid> <input_ledger>` — writes a collaboration-internal ROOT+CSV package for cent9 8 (0–5%) and 5 (20–30%) at native k* binning. It includes per-bin raw/template/scaled/subtracted MKK objects, S/B/purity/alpha tables, `c_sig` and `c_alpha`, a complete config snapshot, checksums, Git provenance, and a regeneration command. The wrapper runs `validateData005Pilot.C` before packaging, refuses to overwrite an existing directory, and fails if any referenced config is missing.
+- **Unified K⁻ femto QA:** `./script/singularity_checkHistAnaFemtoKaon.sh <root_file> <mainconf_path>` — K⁻ + bachelor QA, k* SE/ME, inclusive CF and cent slices in one PDF.
+- **Phi-4He / phi-deuteron femto QA:** `./script/singularity_checkHistAnaFemtoPhi4He.sh` or `./script/singularity_checkHistAnaFemtoPhiDeuteron.sh` — same CF/QA PDF layout as phi-p femto (Pages 1–20 + separate CF PDF).
+
+Example (build):
+
+```bash
+./script/singularity_make.sh config/mainconf/main_auau3p85fxt_anaPhi.yaml
+```
+
+Example (Lambda, first 100 events):
+
+```bash
+./script/singularity_run_anaLambda.sh config/picoDstList/auau19GeV_lambda.list rootfile/auau19_anaLambda_temp/out.root 0 100
+```
+
+Example (Phi smoke test):
+
+```bash
+./script/singularity_run_anaPhi.sh config/mainconf/main_auau3p85fxt_anaPhi_test.yaml "" "" 0 100
+```
+
+The wrappers source `setup.sh` (or resolve STAR from analysis_info when `starver` is unavailable), bind `/gpfs`, `/cvmfs`, and `/star/nfs4/AFS`, and for run wrappers also `/home/starlib` and site-local `/star/data*` paths from the input list when needed. Build and run wrappers then invoke `make` or the same `analysis/run_anaXxx.C` entry points as the non-singularity scripts.
+
+### Result QA (Phi): checkHistAnaPhi.sh
+
+After running the Phi analysis (locally or after merging batch output), you can produce a histogram QA PDF from the output ROOT file:
+
+```bash
+./script/checkHistAnaPhi.sh <root_file> <mainconf_path>
+```
+
+Example (single or merged ROOT file):
+
+```bash
+./script/checkHistAnaPhi.sh rootfile/auau3p85fxt_anaPhi/auau3p85fxt_anaPhi_CCBCC32EA67793F5A24B5F6BA44EE413_merge.root config/mainconf/main_auau3p85fxt_anaPhi.yaml
+```
+
+On **AL9** login nodes (SL7→AL9 transition), prefer the Singularity wrapper (same batch-like STAR runtime):
+
+```bash
+./script/singularity_checkHistAnaPhi.sh <root_file> <mainconf_path>
+```
+
+On **SL7**, the host script above is sufficient. Example (Singularity):
+
+```bash
+./script/singularity_checkHistAnaPhi.sh /direct/star+u/oura/rootfile/auau3p85fxt_anaPhi/auau3p85fxt_anaPhi_CCBCC32EA67793F5A24B5F6BA44EE413_merge.root config/mainconf/main_auau3p85fxt_anaPhi.yaml
+```
+
+If the input filename has the form `anaName_jobid_merge.root` (32‑char hex jobid), the PDF is written as `share/figure/<anaName>/<anaName>_checkHistAnaPhi_<jobid>.pdf`; otherwise as `share/figure/<anaName>/<anaName>_checkHistAnaPhi.pdf`. When config is loaded, cut regions (event, track, phi) are overlaid on pre-cut histograms as red dashed lines. Page **1b** shows centrality QA histograms (`hCentrality`, pileup 2D plots, etc.) when present in the ROOT file.
+
+### Result QA (Lambda): checkHistAnaLambda.sh
+
+After running the Lambda analysis (locally or after merging batch output), produce a histogram QA PDF:
+
+```bash
+./script/checkHistAnaLambda.sh <root_file> <mainconf_path>
+```
+
+On **AL9**, use **`./script/singularity_checkHistAnaLambda.sh`** with the same arguments (recommended during the SL7→AL9 transition). PDF naming: `share/figure/<anaName>/<anaName>_checkHistAnaLambda[_<jobid>].pdf`. Pages **1b–1d** show centrality QA when `centrality:` is enabled in mainconf and the ROOT file contains the corresponding histograms. Page **1d** shows `hLambda_InvMass_CentBin0`–`8`.
+
+### Candidate femto: StCandidateFemtoMaker
+
+Femto pairing of candidates from independent reconstruction parts: the analysis macro creates the
+parts (event selection, KFParticle source, identified-track source) and hands them to
+`StCandidateFemtoMaker`, which does not depend on KFParticle. Design, configuration keys and output:
+[`StMaker/StCandidateFemtoMaker/README.md`](../StMaker/StCandidateFemtoMaker/README.md). Analysis
+macros (CF, purity correction, QA): [`common/macro/candidate_femto/README.md`](../common/macro/candidate_femto/README.md).
+
+```bash
+MAINCONF=config/mainconf/main_<anaName>.yaml
+./script/singularity_make.sh $MAINCONF
+./script/singularity_run_anaCandidateFemto.sh <picoDst list> <out.root> <jobid> <nEvents|-1> $MAINCONF
+./script/singularity_purityCorrectedCorrelation.sh <merged.root> $MAINCONF <channel> <out/prefix> 2 "4,5,6,7,8"
+./script/singularity_checkHistCandidateFemto.sh <merged.root> $MAINCONF <out.pdf> "8;6,7;4,5"
+# hist YAML after changing species/channels:
+env -u PYTHONPATH python3 script/generate_hist_anaCandidateFemto.py <candidateFemto YAML> <base hist YAML> <output hist YAML>
+```
+
+- mainconf keys: `candidateFemto` (species, channels, axes), `trackPid` (track particles), optional
+  `candidateBdt` (in-Maker BDT scores from model files), `candidateFemtoHist`; `kf`, `event`, `centrality`, `mixing` as usual.
+- BDT: train with `script/run_datadriven_bdt_chain.sh <recipe.yaml>` (inspect, train, apply, study, report) and `script/run_datadriven_bdt.sh <recipe.yaml> model|check` (Python + xgboost) on the candidate
+  trees (`writeCandidateTrees: true`); procedure `docs/ai/skills/candidate-bdt.md`, rules `docs/ai/AGENT_RULES.md` "Candidate BDT", design and new particles `docs/ai/candidate-bdt-guide.md`.
+- All wrappers take every input as an argument (no environment fallback, no default output path).
+- Output: `THnSparseF hPair{SE,ME}_<channel>` (k*, cent9, mass classes, masses, BDT scores); windows,
+  sidebands, BDT thresholds and centrality are selected in the macros above.
+- Production reads the PicoDst once: reconstruction stage with `main_<anaName>_candidateStore.yaml` (writes candidate
+  stores), then the pair stage with `main_<anaName>_bdt.yaml` on the store files (BDT scores, pairs, mixing). The pair stage
+  can be rerun at will.
+- BDT thresholds are chosen afterwards from the `_bdt` output (scan, criteria: `common/macro/candidate_femto/README.md`);
+  the chosen selection is a `_bdtSelection_<thresholds>` mainconf (give it to the CF and QA macros, not to a job).
+- Batch: `./script/generate_joblist.sh $MAINCONF` (catalog input) or `./script/generate_joblist_from_list.py` (a PicoDst list, or
+  the candidate stores for the pair stage; see "Creating a joblist"), then `job/run/submit.sh` as for any analysis.
+
+### Result QA (Phi-p femto): checkHistAnaFemtoPhiProton.sh
+
+After merging batch output for `auau3p85fxt_anaFemtoPhiProton` (or any StFemtoMaker analysis using the same checkHist macro):
+
+```bash
+./script/singularity_checkHistAnaFemtoPhiProton.sh <merge.root> <mainconf_path>
+```
+
+Example:
+
+```bash
+./script/singularity_checkHistAnaFemtoPhiProton.sh \
+  rootfile/auau3p85fxt_anaFemtoPhiProton/auau3p85fxt_anaFemtoPhiProton_FC1269B1A73EA32BC18AC1A389355EC3_merge.root \
+  config/mainconf/main_auau3p85fxt_anaFemtoPhiProton.yaml
+```
+
+Writes **two** PDFs under `share/figure/<anaName>/`: QA (`..._checkHistAnaFemtoPhiProton_<jobid>.pdf`) and multi-centrality CF (`..._checkHistAnaFemtoPhiProton_CF_<jobid>.pdf`). CF is computed from merged SE/ME in the macro (not stored in ROOT).
+
+### Result QA (Phi-deuteron femto): checkHistAnaFemtoPhiDeuteron.sh
+
+After merging batch output for `auau3p85fxt_anaFemtoPhiDeuteron`:
+
+```bash
+./script/singularity_checkHistAnaFemtoPhiDeuteron.sh <merge.root> <mainconf_path>
+```
+
+Example:
+
+```bash
+./script/singularity_checkHistAnaFemtoPhiDeuteron.sh \
+  rootfile/auau3p85fxt_anaFemtoPhiDeuteron/auau3p85fxt_anaFemtoPhiDeuteron_<jobid>_merge.root \
+  config/mainconf/main_auau3p85fxt_anaFemtoPhiDeuteron.yaml
+```
+
+Initial validation joblist (10 files): `job/joblist/joblist_auau3p85fxt_anaFemtoPhiDeuteron_test10.xml`.
+
+### StRoot vendoring
+
+- **When to vendor:** prefer `$STAR/lib` and `StMaker/` first; copy into `StRoot/<Package>/` only when STAR or past-analysis source must ship with the repo. Agent procedure: `docs/ai/skills/reuse-star-stroot.md`.
+- **Template:** `StRoot/StRefMultCorr/` — `PROVENANCE.md`, dedicated `Makefile` target, load `lib/libStRefMultCorr.so` from repo `lib/` in `run_ana*.C` (never duplicate-load from `$STAR/lib`).
+- **KFParticle (planned, same pattern):** the versioned configuration and adapter documentation — vendor into `StRoot/KFParticle/`, wrap in `StMaker/common/`, YAML cuts, keep `libraryTag` `SL24y`/`pro` (do not run `.DEV2`/`cons` as the analysis chain).
+
+### KFParticle Lambda analysis
+
+- Full reconstruction: `StPicoKFParticleInterface → KFParticleTopoReconstructor → KFParticleFinder`. The KF-only Maker selects ±3122; no manual scalar-pair fallback.
+- ROOT 5 / SL24y remains the runtime. The complete reconstruction core is isolated in namespace `star_analyzer_kfp`; existing Helix Makers and `make core` have no KF dependency.
+- Build: `make all` (default complete build), `make core` (existing stack), or `make kfparticle-analysis`.
+- AuAu13p5 FXT: `config/mainconf/main_auau13p5_anaLambda_KFParticle.yaml`; input `config/picoDstList/auau13p5GeV.list`. The cleaned AuAu13p5 mainconf references only event, centrality, kf, hist and analysis; load-only compatibility copies have been removed. AuAu19 and xwu2 reference KF cut profiles remain available.
+- Schema 2 KF cuts are required. Old scalar keys, unknown/duplicate keys and invalid values fail explicitly. Active track/PID/Finder/final cuts are under `kf:`. Do not add generic `track/pid/v0/mixing/lambda` references to the cleaned AuAu13p5 KF mainconfs; those do not control this Maker.
+- In the default `selectionProfile: kf_reference`, event and centrality settings are applied before KF reconstruction. KF reads `analysis.mode` from the mainconf's `analysis:` YAML at initialization: `refmult` = collider, `fxtmult` = fixed target. An enabled `centrality.mode` must agree; missing/unknown modes fail.
+- In `kf_reference`, KF-only `event.vertexByMode.<mode>` selects `vzRange: [min, max]`, `center: [x, y]` and `radius` (cm). These provide the effective vertex fields **only inside the KF Maker**; flat RefMult/VPD/track-count limits remain active. The AuAu13p5 KF event file no longer duplicates shadowed flat vertex fields. Shared `EventCutConfig` and old Helix selection logic are not modified; the generator now honors the manual-configuration guard described below. The generator previously selected only Vz at config-creation time, not an XY center at runtime.
+- Dedicated AuAu13p5 and AuAu19 KF event files include both profiles. Initial values follow the existing Vz convention: collider [-100,100] with center (0,0), FXT [198,202] with center (-0.4,-2.0), radius 2. The FXT XY center is the xwu2 reference, **not a measured beam calibration for every FXT dataset**; review it for each dataset. Profile keys intentionally differ from flat keys because the legacy parser ignores nesting.
+- AuAu13p5 TOF coefficients are labelled as an **unvalidated xwu2 reference**, not a calibrated Run20 PID. Changing the mode alone does not retune PID, centrality calibration, histogram axes, or select another dataset.
+- Do not run `setup_config_from_analysisinfo.py --force` to apply KF runtime modes: the generic generator can overwrite the custom KF macros/configuration. Select the mode in the KF analysis-info and edit its dedicated event profile instead.
+- Run with an explicit dataset configuration and a **new** output path:
+
+  ```bash
+  ./script/singularity_make.sh config/mainconf/main_auau13p5_anaLambda_KFParticle.yaml all -j4
+  ./script/singularity_run_anaLambda_KFParticle.sh config/picoDstList/auau13p5GeV.list rootfile/auau13p5_anaLambda_KFParticle/run01.root 0 1000 config/mainconf/main_auau13p5_anaLambda_KFParticle.yaml
+  ```
+
+  If the ROOT 5 installation lacks the `Netx` XRootD plugin, the remote list cannot be read directly; obtain an accessible local PicoDst copy with `xrdcp` and pass its path or a local list. This is an input-plugin issue, not a KF requirement for ROOT 6. Never count a zero-event run as a reconstruction test.
+- `script/run_anaLambda_KFParticle.sh` is the corresponding already-configured STAR-shell runner. Existing non-KF runners are unchanged.
+- The runner loads old STAR libraries and then local Config/centrality/KF/helper/Common/Maker libraries. Process-specific ACLiC build directories under `tmp/kf-aclic/` avoid concurrent cache overwrites. Generated caches are retained for diagnostics.
+- Missing input/required branches, skipped list files, invalid configuration, zero successfully reconstructed events and processing/write failures return nonzero. Fatal signals use normal process termination rather than ROOT's recover-and-exit-zero behavior.
+- Output: `KfLambdaCandidates` tree with PDG, original daughter IDs/indices, PID and fit quantities, plus `selected`; signed raw/selected mass histograms; `hKfStages`; configuration, backend fingerprint and `KFRunStatus`. `KFEventSelectionConfiguration` records the selected mode, source paths and effective vertex/event cuts. `hKfEventSelection` partitions read events into rejection reasons or successful KF processing, and vertex XY/radius/Z QA shows before/after event cuts. Existing output files are refused rather than overwritten.
+- “Raw mass” means no **parent mass constraint**, not topology-uncut: the default Topo selection imposes Λ PV χ²/NDF < 3. The older xwu2 copy used < 5. The explicit `topoChi2NdfCut` study key can change the Lambda-only upstream threshold; optional Maker cuts alone cannot undo upstream selection.
+- Tests: `make test-kfparticle-full-chain test-kfparticle-pico-adapter KF_TEST_CUTS=config/cuts/kf/kf_auau13p5_anaLambda_KFParticle.yaml`. They run genuine compiled Topo/Finder and synthetic SL24y Pico fixtures through ROOT 5. Output QA: `root4star -b -q 'tests/check_kfparticle_output.C("output.root",true)'` in the same STAR runtime. The Pico fixture also tests both vertex modes, profile precedence, invalid configuration, and shared-config isolation. Current output QA requires mode metadata; older outputs fail explicitly. The old Event-only `inspect_kf_input_events.C` refuses mode-profile YAML to avoid interpreting it as origin-centered cuts. Test results and physics-validation limits are in the [dated implementation record](../mdfiles/kfparticle/implementation/kfparticle_full_implementation_20260907.md).
+- Source/API notes: [core README](../StRoot/KFParticle/README.md), [provenance](../StRoot/KFParticle/PROVENANCE.md), [Pico adapter](../StMaker/kfparticle/README.md), .
+
+
+### Imp5-matched KF Lambda comparison (opt-in)
+
+- Dedicated mainconf: `config/mainconf/main_auau13p5_anaLambda_KFParticle_Imp5.yaml`; dedicated analysis-info and KF cuts select `selectionProfile: lambda_imp5`. Existing Helix and standard KF effective cuts and selection behavior are preserved. Centrality/hist files are shared read-only with the standard KF configuration; Imp5 now has its own minimal event file with `maxNTr` and `qaVertexByMode.<mode>.center` only.
+- Match the **active** `StLambdaMaker` / `maker_auau13p5_anaLambda.yaml` cuts, not unused generic track/PID/V0 YAML: saved `pico_nsigma`, |nSigma| <= 3, no TOF or kaon hypotheses, nHitsFit >= 15, fit/max hits >= 0.52 only when max hits > 0, daughter gDCA >= 0.7 cm (p) / 1.0 cm (pi). Do not add pT, eta, nHitsDedx or dEdxError cuts absent from that Maker.
+- Original daughter gDCA uses the same three-scalar `gDCA(pv.X(),pv.Y(),pv.Z())` overload. The original helix-pair path guard (|path| <= 100 cm) is evaluated only for KF-found candidates. These are physical helix lengths, **not** KF transport dS. Neither mass nor decay vertex is replaced by a Helix fit.
+- Final KF daughter distance <= 0.5 cm, parent distance to PV <= 0.5 cm and pointing cosine >= 0.998 match the Imp5 thresholds, but use KF reconstructed states. Covariance, primary-track classification and Finder/Topo cuts stay active and unchanged; upstream Lambda PV chi2/NDF < 3 remains. Only p+ pi- Lambda is selected in this dataset profile. Final mass [1.05,1.25] is the comparison display range, not a narrow signal-window optimization.
+- Important event-policy exception: current legacy `PassEventCuts` checks only maxNTr. Therefore **only this explicit profile** uses `legacy_lambda_imp5`: Vz/Vr/RefMult/VPD cuts are not applied, while bad-run, centrality and numerical-validity checks remain. Mode/QA-center configuration is still validated and its center used for QA. Metadata explicitly records the policy and disabled-cut flags; it omits inactive vertex/RefMult/VPD thresholds. Archived `vertexByMode` Imp5 YAML remains readable. Default KF retains mode-dependent vertex cuts.
+- Run locally with a readable input/list and new output path (same ROOT 5 / SL24y runtime):
+
+  ```bash
+  ./script/singularity_run_anaLambda_KFParticle.sh INPUT_LOCAL_LIST rootfile/auau13p5_anaLambda_KFParticle/Imp5/run01.root imp5 10000 config/mainconf/main_auau13p5_anaLambda_KFParticle_Imp5.yaml
+  root4star -b -q 'tests/check_kfparticle_imp5_output.C("rootfile/auau13p5_anaLambda_KFParticle/Imp5/run01.root",true)'
+  ```
+
+- Output stores original daughter DCA/path diagnostics and `imp5PathValid` in `KfLambdaCandidates`. The Imp5 QA checks saved PID/DCA, all configured final cuts, and exact replay of the selected count. Synthetic tests cover boundaries, legacy event behavior and isolation; use the **standard** KF cut file for the existing test target's additional reference-TOF tests.
+- Overlay macro detects the explicit profile metadata and labels the curve `KFParticle (Imp5)`. Matching thresholds does not remove differences in reconstructed states or KF-only requirements: candidate-count ratios are not reconstruction efficiencies and an unfit overlay does not measure S/B.
+
+### KF-specific cut study with reversible Finder geometry (2026-09-14)
+
+- Study mainconf: `config/mainconf/main_auau13p5_anaLambda_KFParticle_KFSpecificStudy.yaml`. It preserves the ordinary Imp5 PID, track, original-gDCA/path, final daughter/PV distance and pointing thresholds.
+- `applyLambdaGeometryCuts: false` bypasses only the Lambda/anti-Lambda Finder daughter-distance prefilter, momentum dot-product conditions, PV–SV distance lower/upper bounds and `isParticleFromVertex`. Other species, covariance/validity checks and KF-specific significance/fit cuts are not disabled by this switch.
+- `topoChi2NdfCut` controls the strict upstream Lambda PV-copy chi2/NDF upper bound. It is distinct from the optional additional Maker `maxTopoChi2Ndf`.
+- Defaults are `topoChi2NdfCut: 3.0` and `applyLambdaGeometryCuts: true`. Restore the full original comparison by running a fresh ROOT process with the unchanged `config/mainconf/main_auau13p5_anaLambda_KFParticle_Imp5.yaml`; a geometry toggle alone does not restore other scan thresholds.
+- New QA: `common/macro/compareLambdaKfSpecificCuts.C` takes the validated existing mass-window TSV, a tab-separated actual-rerun list (`id / ROOT path / English label`), and a new output directory. It verifies active fixed cuts, selects by mass-window candidate count (not S/B), and draws raw counts on the left and full-range unit-area distributions on the right. `tests/compare_kfparticle_default_outputs.C` provides exact histogram and ordered-tree default regression.
+- Results, scan settings and reproducibility: . Outputs remain under `rootfile/auau13p5_anaLambda_KFParticle/`. No change to the old Helix Maker or its configuration is required.
+
+### Cleaned AuAu13p5 Lambda configuration (2026-09-08)
+
+- Active mainconf concerns: old Helix = `event/centrality/lambda/hist/analysis`; standard KF and Imp5 KF = `event/centrality/kf/hist/analysis`. Old PID thresholds are in `config/maker/maker_auau13p5_anaLambda.yaml`; KF PID thresholds are in the corresponding `config/cuts/kf/` YAML. Both p/pi thresholds remain 3.0. Standard KF kaon 2.0 and TOF remain active; Imp5 uses neither.
+- Nine unused generic AuAu13p5 YAML copies were removed from active configuration directories, with a recoverable pre-cleanup archive. Other datasets and general templates were not pruned. The old Lambda Maker YAML is retained because the Lambda+NuclearId analysis also uses it.
+- Old Helix event YAML now contains only `maxNTr`. Standard KF keeps active mode vertex cuts and RefMult/VPD controls but removes shadowed flat vertex limits. Imp5 uses its own event file with `qaVertexByMode` centers, not unused radius/Vz cuts.
+- Imp5 YAML omits unused pT/eta/dEdx quality, kaon and TOF thresholds. Disabled optional final bounds are omitted from input YAML and retain their existing disabled defaults; output metadata still spells out those disabled states for QA. Explicit feature switches (for example `useTof: false`) remain, preventing accidental default activation.
+- The current adapter supplies an external PicoDst PV without PV refitting. `primaryProbCut` does not select candidates in that path: its PV-finder initialization is unused and its Finder side effect is overwritten by `finderChiPrimary2D`. It is removed from these YAMLs/effective-cut displays; compatibility parsing/initialization remains. The active `interfaceChiPrimaryCut` and `finderChiPrimary2D` are unchanged.
+- All three curated mainconfs contain the exact line `# config-generator: manual`. `setup_config_from_analysisinfo.py` refuses regeneration **before any writes**, with or without `--force`, so unused copies are not recreated and custom macros are not overwritten. Edit the referenced YAML directly and run with the existing mainconf. Unmarked configurations keep the generator's existing behavior.
+- The generic `ConfigManager` is unchanged. Its warnings about omitted concerns are expected for these minimal mainconfs; they do not apply fallback PID cuts to these Makers. Use a fresh ROOT process for each configuration: shared legacy singletons do not reset omitted fields on reload.
+- Guard regression: `python3 -B tests/test_manual_config_guard.py` (temporary fixtures only). Full build, sparse-config tests and unchanged-histogram comparisons are recorded in the versioned configuration and adapter documentation.
+- Previous comparison logs/ROOT/config archives remain historical snapshots and were not rewritten to conceal removed settings.
+
+### Lambda mass overlay: Helix vs KFParticle
+
+- Read-only macro: `common/macro/compareLambdaHelixKF.C`. Compare old `hLambda_InvMass` with KF `hKfLambdaMassSelected` (**Lambda only**). KF `hLambda_InvMass` includes anti-Lambda and is not the corresponding comparison histogram.
+- Run both analysis wrappers on the **same ordered, readable local list** with the same positive event cap and explicit dataset mainconfs. Preserve the original-URI/local-file manifest; equal histogram counts alone do not establish event identity. Do not submit farm jobs for this local workflow.
+- In the same ROOT 5 / SL24y Singularity runtime, from the project root:
+
+  ```bash
+  root4star -b -q 'common/macro/compareLambdaHelixKF.C("rootfile/auau13p5_anaLambda/local_compare_10000_20260907.root","rootfile/auau13p5_anaLambda_KFParticle/local_compare_10000_20260907.root","share/figure/auau13p5_Lambda_Helix_vs_KFParticle/lambda_mass_compare_10000_20260907",10000,1.05,1.25,0.001)'
+  ```
+
+- Outputs: PNG, PDF and a ROOT canvas plus four comparison histograms. Left: candidate counts without scaling; right: independently unit-area-normalized shapes over the displayed mass range. Whole source bins only; no fractional-bin redistribution, fit, background subtraction or physics recuts. Existing outputs are refused.
+- The macro requires completed KF output/provenance and matching input-read counts. It uses `hRefMultVsNTOFMatch.GetEntries()`, not legacy `hVz`, which is filled after bad-run rejection. `hN` reports events that completed the respective reconstruction selection. In scripted use, propagate the returned `Int_t` with `gSystem->Exit(result)`; ROOT's default shell exit code alone does not report a macro failure.
+- With the default KF reference profile, event/PID/topology cuts differ between the Makers; this is **not a reconstruction-efficiency comparison**. In particular, current `StLambdaMaker::PassEventCuts` checks track count only before centrality, and its daughter cuts come from `LambdaCutConfig`; generic track-YAML pT/eta/nHitsDedx limits are not applied by that Maker. Do not change old physics code or tune either selection just to match the spectra.
+
+### Centrality (StRefMultCorr)
+
+- **Canonical reference:** [`StRoot/StRefMultCorr/README.md`](../StRoot/StRefMultCorr/README.md) — cent9/cent16 bin table, 0–60% ↔ cent9 2–8 mapping, `CentralityHelper` event order, YAML keys, femto `cfCent9Min`/`Max`. Agent skill: `docs/ai/skills/centrality-strefmultcorr.md`.
+- **Vendored library:** `StRoot/StRefMultCorr/` → `lib/libStRefMultCorr.so` (see `PROVENANCE.md`). Loaded by `run_ana*.C` before `libStCommon.so` and the analysis Maker `.so` files.
+- **mainconf key:** `centrality: cuts/centrality/centrality_<anaName>.yaml` — `mode` is `refmult` (19 GeV collider) or `fxtmult` (FXT).
+- **Bin index (`cent9`):** **larger index = more central** (cent9 0 = 70–80%, cent9 8 = 0–5%). Do not confuse bin **0** with “0–5% central”. Makers store `getCentralityBin9()` without remapping.
+- **`acceptedCentBins`:** comma-separated **cent9 indices** (e.g. most central only: `8` or `7,8`). Empty = all 0–8.
+- **`cent9MaxRefMultCorrBin` / `cent9MaxRefMultCorr`:** optional tail trim in one cent9 bin (Maker only; re-run needed in ROOT).
+- **Integrated QA:** centrality histograms are filled in `StPhiMaker` / `StLambdaMaker` and appear in the Phi / Lambda QA PDFs via `checkHistAnaPhi.sh` / `checkHistAnaLambda.sh` (Pages **1b–1d**; Page **1c** expects **cent9 vs multiplicity to increase** left to right).
+- **Standalone QA (picoDst only):** `./script/checkCentrality.sh <picoDst_or_list> <mainconf_path> [output.root] [maxEvents]` — reads `centrality:` from mainconf (`refmult` / `fxtmult`). On fragile login nodes: `./script/singularity_checkCentrality.sh` with the same arguments.
+
+### Batch (star-submit)
+
+First-time flow (after git clone): customize analysis info → setup → build → generate joblist → submit.
+
+1. **Set output paths in analysis info if needed**  
+   Edit **config/analysis/analysis_info_temp.yaml** (or the file your mainconf's `analysis:` points to) if you want ROOT outputs, stdout, or stderr written somewhere specific. **analysis.workDir** is the ROOT output base for the generated joblist. Optional **analysis.logDir** and **analysis.errDir** move stdout/stderr away from `workDir`; if unset, they default to `workDir/log` and `workDir/err`. Batch runtime no longer depends on the repository living at `workDir`. If `workDir` is left unset or at the template placeholder, joblist generation falls back to the current project root.
+
+2. **Setup and build** (from project root):
+   ```bash
+   source ./script/setup.sh config/mainconf/main_auau19_anaLambda.yaml
+   make
+   ```
+   Or use **`./script/singularity_make.sh config/mainconf/main_auau19_anaLambda.yaml`** for the same batch-like STAR toolchain without interactive `sl7`.
+   For `csh` / `tcsh`, use `source ./script/setup.csh ...` instead. The setup script must be sourced so the selected STAR and ROOT environment persist for `make`.
+
+3. **Generate the joblist** (from project root). Pass the mainconf path:
+   ```bash
+   ./script/generate_joblist.sh config/mainconf/main_auau19_anaLambda.yaml
+   ```
+   For another analysis (e.g. Phi):
+   ```bash
+   ./script/generate_joblist.sh config/mainconf/main_auau19_anaPhi.yaml
+   ```
+   This writes **job/joblist/joblist_<anaName>.xml** (from **job/joblist/job_template_from_conf.xml** and the analysis info; `anaName` is `analysis.anaName`). Requires the **Python 3 environment** (see above).
+
+   For a short farm smoke test, create a dedicated `analysis_info` / `mainconf` pair (for example `auau19_anaPhi_test`) and set:
+   - `analysis.nFiles: 1` to submit one input file
+   - `analysis.maxEvents: 100` to run only the first 100 events inside batch `root4star`
+
+4. **Submit** from `job/run/`:
+   ```bash
+   cd job/run
+   ./submit.sh ../joblist/joblist_auau19_anaLambda_temp.xml
+   ```
+  If your generated XML uses `__PROJECT_ROOT__`, `submit.sh` will replace it with the actual project path. ROOT output URLs come from **analysis.workDir**; stdout/stderr URLs come from optional **analysis.logDir** / **analysis.errDir** or fall back to `workDir/log` and `workDir/err`. The batch runtime itself now runs from a scratch-local copy of `analysis/`, `config/`, `lib/`, `include/`, and `StMaker/`, so the repository can be moved without breaking `root4star` macro resolution.
+
+   `submit.sh` now runs preflight before `star-submit`:
+   - resolves `anaName` from `joblist_<anaName>.xml`
+   - extracts the embedded `config/mainconf/...yaml` path from the joblist and treats that as the single source of truth
+   - checks `python script/analysis_info_helper.py --library-tag --mainconf ...` resolves
+   - checks ELF class consistency between `root4star` and key libraries under `lib/`
+   - checks runtime linker resolution in singularity context (fails fast if `ldd` reports `not found`)
+   - creates missing stdout, stderr, and `rootfile/<scratchSubdir>/` output directories from `<stdout>`, `<stderr>`, and `<output toURL>` and verifies they are writable
+
+   If preflight fails with ABI mismatch hints (`wrong ELF class` class of issue), submit is stopped before scheduling. You can request one recovery rebuild attempt:
+   ```bash
+   ./submit.sh --rebuild-if-needed ../joblist/joblist_auau19_anaLambda_temp.xml
+   ```
+   This runs `source ./script/setup.sh <embedded-mainconf> && make`, then retries preflight once using the same embedded mainconf from the joblist.
+
+   **Auto merge after all subjobs finish** (optional; QA PDF still manual):
+
+   ```bash
+   ./submit.sh --watch-merge ../joblist/joblist_<anaName>.xml
+   ```
+
+   This starts `script/watch_job_and_merge.sh` in the background. It polls until subjob ROOT file count matches the SUMS `.list` count, then runs `merge_root_files.csh`. Log: `job/run/watchmerge/watchmerge_<anaName>_<jobid>.log`. Completion is recorded in runmeta `postProcess.watchMerge`. Use `--watch-merge-foreground` to block until merge finishes. Environment: `WATCH_MERGE_POLL_SEC` (default 300), `WATCH_MERGE_TIMEOUT_SEC` (default 259200). Re-run manually: `./script/watch_job_and_merge.sh --runmeta job/run/runmeta/runmeta_<anaName>_<jobid>.json`.
+
+   For bad subjob ROOT exclusion, pass a prepared exclusion list:
+   ```bash
+   ./script/watch_job_and_merge.sh \
+     --runmeta job/run/runmeta/runmeta_<anaName>_<jobid>.json \
+     --force-merge \
+     --exclude-bad-roots /tmp/bad_subjob_roots_<anaName>_<jobid>.txt
+   ```
+
+   `merge_root_files.csh` supports:
+   - `--exclude-list=<file>`: merge after excluding listed subjob ROOT paths
+   - `--skip-bad-scan`: disable automatic scan
+
+   `scan_bad_subjob_roots.sh` builds exclusion lists from a sample subjob output:
+   ```bash
+   ./script/scan_bad_subjob_roots.sh \
+     --sample rootfile/<anaName>/<anaName>_<jobid>_0.root \
+     --output /tmp/bad_subjob_roots_<anaName>_<jobid>.txt
+   ```
+
+  On successful submit, `submit.sh` now records a per-`jobid` reproducibility set:
+  - **job/run/configlog/config_<anaName>_<jobid>.txt** — embedded mainconf plus all referenced config YAMLs
+  - **job/run/joblistlog/joblist_<anaName>_<jobid>.xml** — submitted XML after placeholder replacement
+  - **job/run/runmeta/runmeta_<anaName>_<jobid>.json** — manifest linking the saved submit-time artifacts
+  - **job/run/runmeta/gitstatus_<anaName>_<jobid>.txt**, **gitdiff_<anaName>_<jobid>.patch**, and **gitsubmodules_<anaName>_<jobid>.txt** — git provenance at submit time
+  - **job/run/runmeta/runtime_bundle_<anaName>_<jobid>.tar.gz** — replay bundle capturing submit-time code/runtime state
+  - **job/run/runmeta/sums_artifacts_<anaName>_<jobid>.tar.gz** — stable snapshot of SUMS-generated `.list/.csh/.condor/.report/.session.xml` files for that submit
+  - **job/run/runmeta/submit_stdout_<anaName>_<jobid>.txt** — captured `star-submit` output
+
+  This means a `jobid` now resolves not only to config and XML, but also to the submit-time code state and exact SUMS-expanded job wrappers. See [job/run/README.md](../job/run/README.md) for the operational view.
+
+5. **Cleaning up job/run**  
+   After submission, `job/run/` is filled with many files named `anaName+jobid+*` (`.csh`, `.list`, etc.). The stable submit-time copy now lives in `job/run/runmeta/sums_artifacts_<anaName>_<jobid>.tar.gz`, so removing or archiving the loose originals is no longer your only reproducibility path. To delete one job's loose files (avoids "Argument list too long"): `cd job/run && ./script/cleanup_job_run.sh <anaName+jobid>`. To delete all loose SUMS files in one pass: `cd job/run && ./script/cleanup_job_run.sh --all`; this only targets regular files directly under `job/run/` whose names contain a 32-hex jobid and preserves all subdirectories. To move one job into an archive instead: `cd job/run && ./archive_job_run.sh <anaName+jobid>` (files go to `job/run/joblog/<anaName>/`; the directory is created if needed).
+
+## Disk quota (home + GPFS)
+
+Check remaining quota on NFS home (`$HOME` / `/star/u/$USER`) and GPFS (`$HOME/gpfs` → `/gpfs01/star/pwg/$USER`):
+
+```bash
+./script/check_disk_quota.sh
+./script/check_disk_quota.sh --home-only
+./script/check_disk_quota.sh --gpfs-only
+./script/check_disk_quota.sh --gpfs-path /gpfs/mnt/gpfs01/star/pwg/$USER
+```
+
+Home uses `quota -w`; GPFS uses `mmlsquota` against the device resolved from `df` (e.g. `gpfs01`). Soft/hard limits and remaining space are printed; usage ≥90% of soft quota prints a warning (`--warn-pct` to change).
+
+## Adding a new analysis (new StMaker)
+
+Each analysis has:
+
+1. A Maker in `StMaker/StXXXMaker/` (e.g. `StLambdaMaker`).
+2. A shared library `lib/libStXXXMaker.so` (e.g. `libStLambdaMaker.so`).
+3. Two macros: `analysis/run_anaXxx.C` and `analysis/anaXxx.C`.
+4. A run script: `script/run_anaXxx.sh`.
+
+### 1. Maker code
+
+- Create `StMaker/StXXXMaker/StXXXMaker.h` and `StMaker/StXXXMaker/StXXXMaker.cxx`.
+- Subclass `StMaker`; implement `Init()`, `Make()`, `Clear()`, `Finish()`.
+- Create histograms in `DeclareHistograms()` and write them in `WriteHistograms()` (e.g. in `Finish()`).
+- Use `ConfigManager::GetInstance()` for cuts and `GetHistConfigPath()` for the hist YAML path if your Maker uses config.
+- Use `StPicoDstMaker` to access PicoDst; get the chain from it as needed.
+
+### 2. Build the shared library
+
+- Place sources as `StMaker/StXXXMaker/StXXXMaker.h` and `StMaker/StXXXMaker/StXXXMaker.cxx`. The Makefile auto-discovers `StMaker/St*Maker/` and builds `lib/libStXXXMaker.so` (no Makefile edit). Shared helpers belong in `StMaker/common/` and link via `lib/libStCommon.so`.
+- Run `make` so that `lib/libStXXXMaker.so` (and `lib/libStCommon.so` if common sources changed) exists.
+
+### 3. Runner macro (run_anaXxx.C)
+
+- Copy `analysis/run_anaPhi.C` (or `run_anaLambda.C`) to `analysis/run_anaXxx.C`.
+- Replace the analysis name in: function name, library `libStXXXMaker.so`, macro `anaXxx.C+`, and call `anaXxx(...)`. Load order: `libStarAnaConfig.so` → `libStRefMultCorr.so` → `libStCommon.so` → Maker `.so`. Keep `-lStCommon` in `AddLinkedLibs`, and pass the config path as the 5th argument where applicable.
+
+### 4. Analysis macro (anaXxx.C)
+
+- Copy `analysis/anaPhi.C` or `analysis/anaLambda.C` to `analysis/anaXxx.C`.
+- Before building the chain, load the main config: `ConfigManager::GetInstance().LoadConfig(mainConfigPath)` (resolve `mainConfigPath` from the 5th argument or default to e.g. `config/mainconf/main_XXX.yaml`).
+- Replace the Maker type and variable names; keep the same signature so the runner can call it (including optional 5th parameter `configPath` if used).
+
+### 5. Run script (run_anaXxx.sh)
+
+- Copy `script/run_anaPhi.sh` or `script/run_anaLambda.sh` to `script/run_anaXxx.sh`.
+- Point to `run_anaXxx.C` and set default input, output, and config paths.
+
+## Creating your own config
+
+- **Main config**: Copy `config/mainconf/main_auau19_anaLambda.yaml` (or `main_auau19_anaPhi.yaml`) to e.g. `config/mainconf/main_myanalysis.yaml`. It references (paths are relative to `config/`):
+  - **Cuts**: `event`, `track`, `pid`, `v0`, `mixing`, and optionally analysis-specific keys (e.g. `phi`, `lambda`).
+  - **Maker**: e.g. `lambda: maker/maker_lambda.yaml` (StPhiMaker / StLambdaMaker), or `maker: maker/maker_<anaName>.yaml` (StFemtoMaker).
+  - **Hist**: `hist: hist/hist_lambda.yaml`.
+  - **Analysis info**: `analysis: analysis/analysis_info_temp.yaml` (or your own file). This file is used by `setup.sh` and by `script/analysis_info_helper.py --generate-joblist`.
+- **Maker config**: Add e.g. `config/maker/maker_my.yaml` and reference it in the main config under the key your Maker expects. Makers read cuts via `ConfigManager::GetInstance().GetXXXCuts()` and the hist path via `GetHistConfigPath()`.
+
+### Phi pair rapidity frame (lab / CM)
+
+`StPhiMaker` fills pair-rapidity histograms and applies `minPairRapidity` / `maxPairRapidity` in the **analysis frame** configured in the phi maker YAML:
+
+| Key | Values | Meaning |
+|-----|--------|---------|
+| `rapidityFrame` | `auto`, `lab`, `cm` | `auto`: CM if `centrality.mode` is `fxtmult`, else lab |
+| `sqrtSNNGeV` | GeV | \(\sqrt{s_{NN}}\) for automatic CM shift (fixed target) |
+| `rapidityShift` | float | Manual \(y_{\mathrm{shift}}\); if set, skips auto calculation |
+| `nucleonMassGeV` | GeV/c² | Nucleon mass for auto shift (default `0.938272`) |
+
+**Auto shift (FXT):** for a target nucleon at rest, \(E_{\mathrm{beam}}=(s-2m^2)/(2m)\), \(\beta_{\mathrm{cm}}=p_{\mathrm{beam}}/(E_{\mathrm{beam}}+m)\), \(y_{\mathrm{shift}}=\mathrm{atanh}(\beta_{\mathrm{cm}})\), and **\(y_{\mathrm{ana}} = y_{\mathrm{lab}} - y_{\mathrm{shift}}\)**.
+
+**Examples:**
+
+- Collider (`centrality.mode: refmult`): `rapidityFrame: auto` → lab, no shift.
+- FXT (`centrality.mode: fxtmult`): `rapidityFrame: auto`, `sqrtSNNGeV: 3.85` → CM shift computed at `StPhiMaker::Init()`.
+
+`checkHistAnaPhi` PDF header notes the resolved frame when config loads. Pair-rapidity **cuts** in YAML are in the same frame as the histograms; after enabling CM for FXT, retune lab-window cuts (e.g. `[-1.5,-1.0]`) to a CM-centered window if needed.
+
+- **Hist config**: Add e.g. `config/hist/hist_my.yaml` with the same structure as existing hist YAMLs (`axes`, `histograms`). Set the `hist` key in the main config to this file.
+- **New cut type**: If you need a new cut category, add a new key in the main YAML, a new `XxxCutConfig` in `include/cuts/` and `src/cuts/`, and register it in `ConfigManager`. For a new analysis that only uses existing event/track/pid/v0/mixing and maker keys, copying and editing the existing YAMLs under `config/cuts/`, `config/maker/`, and `config/hist/` is enough.
+
+## Creating a joblist
+
+**Recommended: generate from analysis info**
+
+1. Ensure **config/analysis/analysis_info_temp.yaml** (or the file referenced by your mainconf's `analysis:` key) has the keys described in **Analysis info** above, including `anaName`, optional `workDir` for ROOT output, optional `logDir` / `errDir` for stdout/stderr, `baseRunMacro`, `baseAnaMacro`, `jobName`, `scratchSubdir`, `outputFileStem`, `nFiles`, optional `maxEvents`, and the `starTag` fields for the catalog URL.
+2. From the project root, run (requires the **Python 3 environment**):
+   ```bash
+   ./script/generate_joblist.sh config/mainconf/main_myanalysis.yaml
+   ```
+   This fills **job/joblist/job_template_from_conf.xml** from the analysis info and writes **job/joblist/joblist_<anaName>.xml**. The batch command inside the XML receives the same mainconf path you passed to `generate_joblist.sh`, and if `analysis.maxEvents` is set it is forwarded to batch `root4star`.
+3. Submit from `job/run`: `./submit.sh ../joblist/joblist_<anaName>.xml`. Preflight uses the mainconf embedded in the joblist, not a basename-derived `main_<anaName>.yaml`.
+
+**From a list of files**
+
+When the input files are already known (a PicoDst list of your own, e.g. without bad runs, or the outputs of an earlier stage such as the candidate stores of `StCandidateFemtoMaker`), use
+```bash
+./script/generate_joblist_from_list.py --mainconf <mainconf> --input <list file or directory> --files-per-subjob <n> \
+    --label <whatThisJobIs> --output-dir <dir> [--tree-output-dir <dir>]
+```
+It fills the same template from the same analysis info, then takes the input from the list (`filelist:`; a directory gives its non-empty `*.root` files), puts at most `<n>` files in a subjob, writes the outputs to the given directories (`--tree-output-dir` also copies `<stem>_$JOBID.tree.root`) and zips the sandbox at submission, so later edits of the working tree do not reach idle subjobs. Output: `job/joblist/joblist_<anaName>_<label>.xml`, submitted like any joblist. `--help` shows examples.
+
+**Manual edit**
+
+- **Templates** in `job/joblist/`: **job_template_from_conf.xml** (for script-based generation) and concrete joblists (e.g. `joblist_auau19_anaLambda_test.xml`).
+- To edit by hand: copy a joblist to a new name, then set **command** (macro, `$FILELIST`, `$SCRATCH` path, config path), **stdout/stderr/output toURL** (e.g. from your `workDir`), **input** (catalog URL, `nFiles`), and **SandBox** `File` entries as needed.
+- Submit from `job/run`: `./submit.sh ../joblist/YourJoblist.xml`. Ensure `make` has been run so `lib/` contains the required `.so` files.
+- In batch jobs, command preamble should clear ACLiC outputs with the analysis prefix (now `analysis/<baseAnaMacro>_C.*`) to avoid stale `.so/.d/.pcm` contamination between different build environments.
+- For `auau19_anaLambda` batch jobs, joblists use `singularity exec` + `-B /star/nfs4/AFS` + `-B /home/starlib:/home/starlib` (optional if inputs are staged) and preserve `LD_LIBRARY_PATH` to avoid `libgfortran.so.3` loader failures.
+- Spack-style `root4star` in this workflow does not ship `Netx`/`RFIO` plugins, so `root://` / `rfio://` paths in a SUMS `.list` fail inside the container unless rewritten. The test joblist runs `sed` on `$FILELIST` to strip those schemes to POSIX paths; with `copyInputLocally="true"`, SUMS stages via `xrdcp` into `$SCRATCH/INPUTFILES` and passes a `.local.list` (plain paths) — that is the reliable mode for full chains. Do not wrap production `root4star` in a short `timeout` (debug-only); it can kill the job before output is written.
+- To reduce inaccessible input entries, the current catalog filter excludes ADC files (`filename!~adc`) in the test/debug joblists.
+
+### DATA-006 p–p / p–d / d–d source calibration
+
+- **Block pass:** `./script/singularity_run_data006.sh MAINCONF TREE.root OUT.root [maxEvents] [data006Config]` reads the same schema-3 phi reduced tree and checked producer flags, then pairs stored matter p/d rows using the downstream-only YAML (default `config/maker/data006_auau3p85fxt_pp_pd_dd.yaml`). It writes 5 MeV/c k*, native cent9, SE/ME pair-mT, pair rapidity, constituent acceptance, exact fxtMult moments, cut flow, and Δη–Δφ* QA.
+- **Final package:** after `hadd data006_ALL.root data006_block*.root`, run `./script/package_data006.sh MAINCONF data006_ALL.root OUTDIR [productionTag] [data006Config]`. It refuses overwrite and writes fitter-facing ROOT+CSV, native and merged classes, normalization factors/errors, pair-mT tables, QA PDF, invalid-bin inventory, object manifest, config/source snapshots, Git state, regeneration command, and SHA-256 hashes. Merged classes sum SE and ME before a new normalization. The finalizer validates every manifest object and every delivered ROOT/CSV SE, ME, and CF bin before packaging succeeds.
+- **Diagnostic plots:** `./script/singularity_plot_data006.sh MAINCONF PACKAGE_DIR OUTDIR [data006Config] [displayRebin] [cfYMin] [cfYMax] [runLabel] [filePrefix]` writes a multi-page test/QA PDF and PNGs for comparison-class CF overlays, all native centralities, normalization-region SE/ME pair-rapidity acceptance, and pair-mT. Display CFs are rebuilt from rebinned SE/ME with the stored normalization; native 5 MeV/c ROOT/CSV objects are unchanged. `runLabel` and `filePrefix` default to the implementation test's `DATA-006 TEST` / `data006_test`; pass them so a full-statistics figure set does not claim to be the 20k test.
+
+## KF Lambda–nucleus Femto entries (2026-09-30)
+
+The four `anaFemtoLambda_{d,t,3He,4He}` entries now construct `StFemtoMaker` with an
+optional KF provider. The legacy comparison is **original `anaLambdaNuclearId.C`**;
+the intermediate `StFemtoMakerLambdaNuclear` is not a validated reference. Original
+Helix Lambda, NuclearId/Mix Makers and their mainconfs remain untouched.
+
+Use the new explicit mainconfs:
+`config/mainconf/main_auau{13p5,3p85}_anaFemtoLambda_{d,t,3He,4He}_KFParticle_highpurity.yaml`.
+These eight settings share four species maker files and directly reference the two
+saved high-purity KF presets. Both energies are **fixed-target beam energies**;
+the initial 3p85 validation input is **2019 P24iy**, not the older split entry's
+2021 metadata. The 13p5 validation input is 2020 P24iy.
+
+Run from the project root (five mandatory shell arguments, **mainconf first**):
+
+```bash
+bash script/singularity_run_anaFemtoLambda_d.sh \\
+  config/mainconf/main_auau13p5_anaFemtoLambda_d_KFParticle_highpurity.yaml \\
+  config/picoDstList/auau13p5_femtoLambda_validation_20260930.list \\
+  rootfile/auau13p5_anaFemtoLambda_d_KFParticle_highpurity/local10000.root \\
+  local10000 10000
+```
+
+Replace energy/species consistently for the other seven configurations. The direct
+`run_anaFemtoLambda_<species>.sh` wrapper takes the same arguments on a compatible
+SL7/ROOT5 host. ROOT macro arguments remain `input, output, jobid, nEvents, mainconf`.
+The wrappers select the configured STAR release and matching 64-bit ROOT5 without
+reading or modifying `.current_mainconf`; they do not invoke `starver` on the host.
+No runner default, environment-supplied mainconf, existing-output overwrite, or
+silent event-count truncation is allowed. All listed files and required branches
+(including `TrackCovMatrix` and nuclear TOF QA) are checked before processing and
+again when the input tree changes. Partial runs return nonzero and retain an
+`incomplete` status in their ROOT output when Finish can run.
+
+Build with the same new mainconf using `script/singularity_make.sh` before running.
+The Lambda runners load config, centrality, KF core/helper, common, then Femto and
+compile in per-process ACLiC directories. Existing Phi/Kaon paths do not acquire a
+mandatory KF provider or KF library dependency.
+
+Read-only QA on a completed ROOT file (or merged SE/ME file):
+
+```bash
+bash script/singularity_checkHistAnaFemtoLambda.sh \\
+  rootfile/auau13p5_anaFemtoLambda_d_KFParticle_highpurity/local10000.root \\
+  config/mainconf/main_auau13p5_anaFemtoLambda_d_KFParticle_highpurity.yaml \\
+  share/figure/auau13p5_anaFemtoLambda_d_KFParticle_highpurity/local10000_QA.pdf
+```
+
+The PDF contains inclusive/pair-associated Lambda mass, SE/ME full-mass vs k*, and
+signal/left/right sideband SE/ME plus raw CF. Centrality bins are summed before
+normalization and division. Zero-ME CF bins are omitted, and an empty normalization
+region is labelled undefined rather than presented as a measurement. There is no
+Phi-specific mass fit or background subtraction in this Lambda QA. Its rebinning,
+centrality range and normalization window come from maker YAML. Existing PDFs are
+not overwritten. Direct QA is `script/checkHistAnaFemtoLambda.sh`.
+
+New local tests: `python3 tests/test_femto_lambda_entries.py` checks all eight config
+references, entry/provider dispatch, explicit channel windows, runtime guards and
+shell syntax. This static check is not a substitute for ROOT/real-event validation.
+See [Femto naming/selection details](../StMaker/StFemtoMaker/README.md).
+
+The original `anaLambdaNuclearId.C` remains a separate entry. Keep explicit mainconf snapshots for reproducible comparisons.
+Do not extract the full snapshot over a worktree containing subsequent changes.
+No joblist generation, farm submission, commit, or push is implied by a local run.
+
+### Standard He4 PID and acceptance output
+
+`config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle.yaml` selects the
+2021 P24iy dataset, He4-only polynomial calibration, all-species R=2 TOF switch,
+He3 background controls, acceptance samples and optional pair PID QA. Its YAML
+references and calibration are versioned together. See the
+[complete histogram catalog](../mdfiles/femto/implementation/femto_lambda_histograms_20260930.md)
+for every output key and the [Maker README](../StMaker/StFemtoMaker/README.md)
+for selection and mixing contracts.
+
+```bash
+bash script/singularity_make.sh config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle.yaml -j2
+python3 tests/test_femto_lambda_entries.py
+python3 tests/test_femto_lambda_hist_contract.py
+bash script/singularity_root_batch.sh config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle.yaml root4star -l -b -q \
+  'tests/run_femto_he4_pid_adoption_test.C("config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle.yaml","config/calibration/dedx_he4_auau3p85_2021P24iy_accepted_20261022.yaml","tests/fixtures/he4_pid_expected_coefficients.tsv","tmp/he4-pid-check")'
+bash script/singularity_root_batch.sh config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle.yaml root4star -l -b -q \
+  'tests/run_he4_acceptance_samples_test.C("config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle.yaml","tmp/he4-sample-check")'
+```
+
+The output directories must be new. Calibration source paths record provenance;
+run-time evaluation requires the distributed YAML, not the source ROOT or fit tools.
+
+### Cached Lambda–He4 pairing
+
+`anaFemtoLambda_4He` uses the optional `candidateStore:` mainconf key to select
+PicoDst reconstruction with candidate persistence (`mode: write`) or pair-only
+replay (`mode: replay`). The original mainconf without the key keeps the existing
+path. Rebuild `libStFemtoMaker.so` with `script/singularity_make.sh` before running
+changed Maker/store code. Both stages use the same runner and five-argument shell
+interface; neither requires `.current_mainconf`.
+
+```bash
+bash script/singularity_run_anaFemtoLambda_4He.sh \
+  config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_candidateStoreWrite.yaml \
+  <explicit-2021-P24iy-picoDst-or-list> <new-store.root> store_job -1
+bash script/singularity_run_anaFemtoLambda_4He.sh \
+  config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_candidateStoreReplay.yaml \
+  <original-store.root-or-list> <new-replay.root> replay_job -1
+```
+
+For a candidate writer without the 8D PID histogram, use
+[`main_auau3p85_anaFemtoLambda_4He_KFParticle_candidateStoreWriteNoJointSparse.yaml`](../config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_candidateStoreWriteNoJointSparse.yaml)
+in the same command. Its dedicated `nuclearPidPairQaHist` YAML sets
+`jointSparse: false`: dense QA and cached pre-PID candidates remain enabled,
+with unchanged physical cuts. A complete `jointSparse` mapping enables the 8D
+histogram; missing, null and `true` values are invalid. The no-Sparse YAML keeps
+the unused 8D definition commented out.
+
+For histogram-only reconstruction, use
+[`main_auau3p85_anaFemtoLambda_4He_KFParticle_histOnlyNoJointSparse.yaml`](../config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_histOnlyNoJointSparse.yaml)
+in the same command. It omits `candidateStore:` and disables the joint 8D PID
+histogram. Dense histograms, PID, TOF selections and mixing stay the same as in
+the no-Sparse candidate writer. Without a candidate cache, later changes to
+mixing require PicoDst reconstruction again.
+
+The writer preserves every accepted event, including empty candidate collections,
+in the `femtoCandidateEvents` TTree inside its analysis output. It stores exact
+`Float_t` four-vectors, including energy, and all candidate PID/identity fields;
+event rows retain multiplicity, vertex, run/field and event-plane information.
+The explicit cache species are `lambda,deuteron,triton,he3,he4`: legacy d/t
+collections affect pool admission even without d/t pair channels and must not
+be discarded.
+Replay uses stored candidates without PicoDst or a KF provider. Its event limit
+counts stored accepted rows, so use `-1` for a full closure comparison; requests
+larger than the store are errors. Reconstruction and helix/merging QA are not
+regenerated by pair replay.
+
+Use original completed per-job ROOT stores, never a hadd/repacked cache. The
+reader checks schema, species, branch types, selection and effective dE/dx
+calibration provenance, file UUIDs
+and entry counts. `requireOriginalMixing: true` checks the producer mixing;
+`resetPoolAtFileBoundary: true` clears the pool at each producer boundary for
+closure. A deliberate `false` continues across files and changes the reference.
+Store lists contain one path per line, relative to the list directory, and must
+not contain duplicate files or duplicate stream UUIDs.
+
+The `candidateStoreRemixVz` mainconf changes only the Vz mixing granularity
+from 10 to 20 bins through `mixing_femtoLambda_replay_fineVz.yaml` and permits that
+mixing override with `requireOriginalMixing: false`. It retains selection/PID
+provenance and uses the original pairing event-plane state. Auxiliary TPC Q2 is
+pT-weighted and unflattened, has an explicit validity flag, and is separate from
+the original `psi2`. Selecting it with `eventPlaneSource: stored` is explicit;
+EP-binned replay rejects invalid angles. It is not a calibrated physics plane.
+
+The exact pair-histogram check is:
+
+```bash
+bash script/singularity_root_batch.sh \
+  config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_candidateStoreReplay.yaml \
+  root4star -l -b -q \
+  'tests/compareFemtoCandidateReplay.C+("<reference.root>","<replay.root>","<new-comparison.json>",true,"closure")'
+```
+
+Use `sameEventOnly` instead of `closure` to require identical SE while reporting
+the He4 ME change in an intentional remix. These checks cover core pair bins,
+flow bins, errors, statistics and cached pre-PID sparse QA; they exclude
+reconstruction and helix/merging QA. With the full-QA configuration and its
+complete `jointSparse` mapping, the ROOT5 real-data validation processes
+4,027 input events and stores/replays 3,858 accepted rows. Baseline/write/replay
+match exactly in 1,675 dense histograms plus one Sparse, including pre-PID QA,
+flow cells, errors, Entries and statistics. The Vz 10→20 remix leaves SE unchanged
+and changes the signal He4 ME population from 251 to 235. These are software
+closure checks, not a physical-baseline validation.
+
+One stored auxiliary TPC plane is invalid in that sample; EP-binned replay stops
+explicitly until an invalid-plane handling policy is chosen and implemented.
+The [validation runner](../tools/kfparticle_summary/validate_femto_candidate_store.py)
+accepts an explicit `--reuse-reconstruction-record` to reuse successful producer
+ROOTs after strict input/config/library checks, with the comparison-macro change
+and original ROOT fingerprints recorded. This avoids another PicoDst/KF pass.
+Use its `--help` for the required explicit mainconfs, provenance and output arguments.
+See the [Maker storage contract](../StMaker/StFemtoMaker/README.md#lambdahe4-candidate-event-store-and-replay)
+and [cache job handling](../job/run/README.md#lambdahe4-candidate-cache-jobs).
+Cache production uses completion notification without automatic merging to
+preserve original UUIDs. `watch_job_notify.py` checks ROOT headers and analysis
+completion logs; it does not validate the full stored candidate payload.
+
+```bash
+python3 script/watch_job_notify.py \
+  --runmeta <runmeta.json> --event-log <condor-event.log> \
+  --email <address> --email-content minimal --state-dir <monitor-state-directory> \
+  --watch
+```
+
+`--email-content minimal` sends completion or attention text without the analysis
+name, SUMS ID, paths, counts or diagnostic details, and uses an opaque Message-ID.
+The default `detailed` retains the diagnostic email. `--state-dir PATH` selects
+the lock, settings, status and one-time delivery record directory; its resolved
+path is recorded as `stateDirectory`, and `emailContent` records the selected
+message content. Without that option, state remains under
+`job/run/notify/<anaName>_<jobid>/`. Replace `--watch` with `--check` for a single
+read-only check that neither creates the state directory nor sends mail.
+
+### Lambda–He4 lab-rapidity and track-merging diagnostics
+
+The 2021 P24iy diagnostic entries are:
+
+| Mainconf under `config/mainconf/` | Selection and mixing |
+|---|---|
+| `main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_ylab_merging.yaml` | EPD-selected events with eight EP mixing bins |
+| `main_auau3p85_anaFemtoLambda_4He_KFParticle_epd1_ylab_merging.yaml` | EPD-selected events with one EP bin for the mixing control |
+| `main_auau3p85_anaFemtoLambda_4He_KFParticle_diagnostics_noEp.yaml` | The lab-rapidity and merging diagnostics without EPD event selection |
+
+All three reference the same diagnostic maker and histogram profiles. Build and
+run them through the existing explicit-mainconf entry points:
+
+```bash
+MAINCONF=config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_ylab_merging.yaml
+bash script/singularity_make.sh "$MAINCONF"
+bash script/singularity_run_anaFemtoLambda_4He.sh \
+  "$MAINCONF" "<PicoDst-file-or-list>" "<output.root>" "<jobid>" "<nEvents>"
+```
+
+`he4RapiditySplit.enabled: true` and the explicit `yLabThreshold` in the maker
+enable 32 pair-level histograms. The physical He4 candidate's own lab rapidity
+sets the side in SE and in both ME directions. The condition is strict: equality
+and invalid rapidity fill neither new view, while inclusive pair filling
+continues. A single event may contribute to both sides through different He4
+candidates. The He3-as-He4 mass representation is excluded.
+
+Names follow
+`hKstar{SE,ME}[VsCent]_lambda_he4{,_signal,_leftSB,_rightSB}_YLab{Below,Above}`.
+The k* axes and cent9 convention match their inclusive counterparts. The output
+stores `he4RapiditySplitYLabThreshold` as `TParameter<double>` and records the
+scope in `FemtoHe4RapiditySplitDefinition`.
+
+Merging QA uses the global-track STAR helix at the configured
+`mergingRadiusMeters`, the event magnetic field in kG and the first finite
+nonnegative cylinder intersection. The required `mergingGeometry` map contains
+`method: starHelixFixedGlobalEta`, `tpcHalfLengthCm`, `radiusToleranceCm` and
+`includePion`. Current profiles explicitly use 210 cm and 0.001 cm. Missing or
+unsupported geometry configuration fails Init. No primary-fit requirement,
+asin clamping, fixed-field approximation or extra helium charge scaling enters
+this calculation.
+
+`hDphiDeta_proton_<representation>` and its `_EventField` key are compatible
+names for the same corrected map: wrapped daughter/nucleus position-phi
+difference versus global-momentum eta difference. `includePion: true` requires
+the analogous pion keys. These are signal-SE diagnostics with a PicoDst
+available; they do not apply a close-pair veto and are not regenerated by
+candidate-only replay. `FemtoLambdaMergingDefinition` records the geometry and
+the fact that a predicted helix intersection is not a measured shared hit.
+
+The dedicated profiles preserve all baseline keys, classes and axes and append
+the new diagnostics. Corrected merging histograms acquire the corrected
+geometry values. To regenerate the derived profiles from explicit maker
+settings, use:
+
+```bash
+python3 tools/kfparticle_summary/generate_lambda_diagnostic_histograms.py \
+  --base-mainconf config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_histOnlyNoJointSparse.yaml \
+  --mainconf "$MAINCONF" --overwrite
+```
+
+The generator refuses to replace either base histogram profile. The optional
+`--overwrite` permits replacement only of the named derived outputs. See the
+[Maker diagnostic contract](../StMaker/StFemtoMaker/README.md#he4-lab-rapidity-and-track-merging-diagnostics)
+for the required YAML keys and alias definitions.
+
+
+### Xialei EPD mixing controls (2026-11-12)
+
+The EP8/EP1 Lambda–He4 diagnostic mainconfs use the same corrected EPD Psi1
+and valid-event set. Their difference is the number of EP mixing classes.
+They require input runs covered by the supplied 388-run calibration, not an
+unfiltered full-production list. Missing coverage is an explicit error.
+The no-EP diagnostics mainconf supports the remaining runs for YLab and
+corrected merging QA. See the
+[EP implementation and storage contract](../StMaker/StFemtoMaker/README.md#xialei-epd-first-order-event-plane-2026-11-12)
+and [calibration provenance](../config/event_plane/xialei_epd_2021P24iy/README.md).
+
+Run EP and geometry/rapidity regression macros using the matching ROOT5 runner:
+
+```bash
+bash tests/run_femto_lambda_root5.sh config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_ylab_merging.yaml 'tests/run_femto_epd_event_plane_test.C()'
+bash tests/run_femto_lambda_root5.sh config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_diagnostics_noEp.yaml 'tests/run_femto_lambda_pair_diagnostics_test.C("config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_diagnostics_noEp.yaml")'
+```
+
+### Lambda-He4 pair-rapidity diagnostics
+
+The following entries add ten laboratory pair-rapidity intervals to the He4
+rapidity and corrected-merging diagnostics:
+
+| Mainconf under `config/mainconf/` | Purpose |
+|---|---|
+| `main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_ylab_merging.yaml` | EPD-selected events, eight EP mixing bins |
+| `main_auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10_ylab_merging.yaml` | The same EPD-selected event set, one EP mixing bin |
+| `main_auau3p85_anaFemtoLambda_4He_KFParticle_diagnostics_pairY10_noEp.yaml` | The pair-rapidity diagnostics without EPD event selection |
+
+The maker block `pairRapiditySplit` explicitly sets `enabled: true`,
+`frame: lab`, `nBins: 10`, `min: -1.5` and `max: 0.5`. Pair rapidity comes from
+the sum of the selected Lambda and physical He4 four-vectors. It has no CM
+shift, is independent of the single-He4 rapidity split, and leaves inclusive
+raw SE/ME filling unchanged. The eight `TH3D` keys follow
+`hKstar{SE,ME}VsPairYVsCent_lambda_he4{,_signal,_leftSB,_rightSB}`, with axes
+`(k*, pairYLab, cent9)`. Finite values outside the range remain in rapidity
+underflow/overflow; the maximum edge enters overflow. The
+[Maker contract](../StMaker/StFemtoMaker/README.md#lambda-he4-pair-rapidity-diagnostics)
+describes the invalid-value handling and first-value metadata merge mode.
+
+Build, process an explicit PicoDst input and produce the raw-count QA PDF:
+
+```bash
+MAINCONF=config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_ylab_merging.yaml
+bash script/singularity_make.sh "$MAINCONF"
+bash script/singularity_run_anaFemtoLambda_4He.sh \
+  "$MAINCONF" "<covered-run-PicoDst-file-or-list>" "<output.root>" "<jobid>" "<nEvents>"
+bash script/singularity_root_batch.sh "$MAINCONF" root4star -l -b -q \
+  'analysis/run_checkHistAnaFemtoLambda.C("<output.root>","config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_ylab_merging.yaml","<qa.pdf>")'
+```
+
+After loading the QA macro in the matching ROOT environment, its projection
+helper supports a single interval, adjacent-bin merging and flow-only spectra:
+
+```cpp
+TFile pairFile("<output.root>", "READ");
+TH3* signalSE = dynamic_cast<TH3*>(pairFile.Get(
+    "hKstarSEVsPairYVsCent_lambda_he4_signal"));
+// Arguments after the name: first/last Y bin, first/last cent9 value.
+TH1* first = FemtoLambdaQa::ProjectPairRapidity(
+    *signalSE, "pairY_bin1_SE", 1, 1, 6, 8);
+TH1* merged = FemtoLambdaQa::ProjectPairRapidity(
+    *signalSE, "pairY_bins1to2_SE", 1, 2, 6, 8);
+TH1* under = FemtoLambdaQa::ProjectPairRapidity(
+    *signalSE, "pairY_underflow_SE", 0, 0, 6, 8);
+TH1* over = FemtoLambdaQa::ProjectPairRapidity(
+    *signalSE, "pairY_overflow_SE", 11, 11, 6, 8);
+```
+
+The example selects cent9 6–8. Bin 1 is `[-1.5,-1.3)` and bins 1–2 combine
+to `[-1.5,-1.1)`. Use the corresponding ME key and the identical rapidity and
+centrality selection when forming a CF. The caller owns the returned raw k*
+histograms. The helper adds contents and variances, retains k* flow bins, and
+handles rapidity underflow `(0,0)` explicitly because ROOT 5's native
+`ProjectionX` treats that range as the complete axis. Normal rapidity bins are
+1–10; bins 0 and 11 are underflow and overflow.
+
+The fixed-input batch variants
+`main_auau3p85_anaFemtoLambda_4He_KFParticle_epd{1,8}_pairY10_covered25.yaml`
+reference separate analysis-info entries and retain candidate-event storage
+and the joint PID Sparse in their disabled state. They use the fixed list of
+PicoDst files covered by the 388-run EPD calibration. Generate a named XML
+from that explicit list rather than querying all production runs:
+
+```bash
+python3 script/generate_joblist_from_list.py \
+  --mainconf config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_covered25.yaml \
+  --input "<covered-388-run-PicoDst-list>" --files-per-subjob 25 \
+  --label "<unique-label>" --output-dir "<output-directory>"
+```
+
+The prepared XMLs are
+`job/joblist/joblist_auau3p85_anaFemtoLambda_4He_KFParticle_epd{1,8}_pairY10_covered388p25.xml`.
+XML generation prepares definitions; submit them explicitly through
+`job/run/submit.sh` and retain the resulting runmeta. The matching ROOT5 pair-diagnostic regression and the
+10,000-event comparison verify the stored rapidity projections and preserve
+the existing raw spectra. For fewer rapidity intervals, merge adjacent raw SE
+and ME projections before applying the selected CF normalization procedure.
+
+## Guarded histogram merging for matched comparisons
+
+`script/watch_job_merge_notify.py` validates completed job outputs, runs
+ROOT5 hadd, compares additive histogram fingerprints, and relocates only the
+validated inputs into `subjobs/<jobid>/`. It uses the submitted XML's output
+template for ROOT filenames, including when the submission name has a label.
+See [the run workflow](../job/run/README.md#aggregate-completion-checks-and-guarded-merging).
+
+For two runs with matching input groups, use the same fixed inclusion file:
+
+```bash
+python3 script/watch_job_merge_notify.py \
+  --runmeta RUNMETA --event-log CONDOR_LOG \
+  --root-runner script/singularity_root_batch.sh --mainconf MAINCONF \
+  --allow-partial --include-job-ids COMMON_IDS.list --no-email --watch
+```
+
+The file contains one unique known subjob number per line. Its IDs and SHA256
+are retained with the selection and input provenance. Valid jobs outside the
+selection are recorded separately from missing or incomplete outputs, and their
+ROOT files are retained. A wrapper can send an aggregate completion message
+after all requested merges and additional comparison checks finish.

@@ -1,0 +1,133 @@
+{
+  "created_at_jst": "2026-11-12T22:13:12.654833+09:00",
+  "scope": "Read-only source/config/job-script comparison; no execution of external analysis code",
+  "sources": [
+    {
+      "path": "/gpfs01/star/pwg/oura/star-analyzer/job/run/configlog/config_auau3p85fxt_anaFemtoPhiTree_prod_629F1D1728AD40F21A4CA2E99A59FF68.txt",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/oura/star-analyzer/job/run/configlog/config_auau3p85fxt_anaFemtoPhiTree_prod_629F1D1728AD40F21A4CA2E99A59FF68.txt",
+      "size": 106933,
+      "mtime_ns": 1789490595635771148,
+      "sha256": "5de33222d6fbcc6606c7b7175311d5acc59e701748f0208fdb077556c7538868"
+    },
+    {
+      "path": "/gpfs01/star/pwg/oura/star-analyzer/job/merge/phiqa_full_20260919/RUN.md",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/oura/star-analyzer/job/merge/phiqa_full_20260919/RUN.md",
+      "size": 4733,
+      "mtime_ns": 1789823590537164363,
+      "sha256": "5152a93eec68fddce1b84b1c0f70652e10b63d102ec94a3ffc812a50c68c3920"
+    },
+    {
+      "path": "/gpfs01/star/pwg/oura/star-analyzer/job/merge/phiqa_full_20260919/job/downstream_phiqa_full_20260919_block0000.sh",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/oura/star-analyzer/job/merge/phiqa_full_20260919/job/downstream_phiqa_full_20260919_block0000.sh",
+      "size": 813,
+      "mtime_ns": 1789819035171093000,
+      "sha256": "b3973ddaee9af5a86602e3f49914ac1cf670d35943ef4800f805f319392e2ba9"
+    },
+    {
+      "path": "/gpfs01/star/pwg/oura/star-analyzer/job/merge/r07_momnsigma25_notofopen06_v2_20260928/job/downstream_r07_momnsigma25_notofopen06_v2_20260928_block0000.sh",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/oura/star-analyzer/job/merge/r07_momnsigma25_notofopen06_v2_20260928/job/downstream_r07_momnsigma25_notofopen06_v2_20260928_block0000.sh",
+      "size": 1011,
+      "mtime_ns": 1790568423970297000,
+      "sha256": "3a3ca1bb02af726b0501d9a164e885d282a2c6ae66b2c3903ea4c78c9c5d6741"
+    },
+    {
+      "path": "/gpfs01/star/pwg/oura/star-analyzer/job/merge/phiqa_full_20260919/runtime/tools/anaFemtoPhiTreeDownstreamV3.C",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/oura/star-analyzer/job/merge/phiqa_full_20260919/runtime/tools/anaFemtoPhiTreeDownstreamV3.C",
+      "size": 97698,
+      "mtime_ns": 1789818650590821000,
+      "sha256": "82248fee057db1784149c368c6f24fe7081f90f28a52712520a17a3dc6b7ff16"
+    },
+    {
+      "path": "/gpfs01/star/pwg/oura/star-analyzer/job/merge/r07_momnsigma25_notofopen06_v2_20260928/runtime/tools/anaFemtoPhiTreeDownstreamV3.C",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/oura/star-analyzer/job/merge/r07_momnsigma25_notofopen06_v2_20260928/runtime/tools/anaFemtoPhiTreeDownstreamV3.C",
+      "size": 112411,
+      "mtime_ns": 1790564637966840450,
+      "sha256": "216dce930767d4bbf8fc0d201d7d28b288e0d2b1c9051da130becd10d88eb51c"
+    },
+    {
+      "path": "/gpfs01/star/pwg/oura/star-analyzer/StMaker/StFemtoMaker/StFemtoMaker.cxx",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/oura/star-analyzer/StMaker/StFemtoMaker/StFemtoMaker.cxx",
+      "size": 127111,
+      "mtime_ns": 1789700775018628000,
+      "sha256": "da41c15018fbedb89511e2377b0fea4605d763ad34be2049c95ca874e59e35e6"
+    },
+    {
+      "path": "/gpfs01/star/pwg/oura/star-analyzer/StMaker/StFemtoPhiTreeMaker/StFemtoPhiTreeMaker.cxx",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/oura/star-analyzer/StMaker/StFemtoPhiTreeMaker/StFemtoPhiTreeMaker.cxx",
+      "size": 80912,
+      "mtime_ns": 1789476503915798000,
+      "sha256": "a7247d98b8729cc400ea771e5646011a660054aa7f16c5a4d3242e1ff15e6e51"
+    },
+    {
+      "path": "/gpfs01/star/pwg/xjiang2/jxl/correlation/dlambda/CorrAna.cxx",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/xjiang2/jxl/correlation/dlambda/CorrAna.cxx",
+      "size": 80013,
+      "mtime_ns": 1784841115473568921,
+      "sha256": "178e4d8881332c181730520174cdc50e63f4bb80e61a93e179b890f383ce7ed3"
+    },
+    {
+      "path": "/gpfs01/star/pwg/xjiang2/jxl/correlation/dlambda/CorrAna.h",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/xjiang2/jxl/correlation/dlambda/CorrAna.h",
+      "size": 15735,
+      "mtime_ns": 1784841115475568997,
+      "sha256": "40d5e3215d0181335f3051e693de9014f4c661ba9ab07bad46c087db520f600d"
+    },
+    {
+      "path": "/gpfs01/star/pwg/xjiang2/jxl/correlation/dlambda/runXi.C",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/xjiang2/jxl/correlation/dlambda/runXi.C",
+      "size": 2776,
+      "mtime_ns": 1784841115497569836,
+      "sha256": "18c8c81c16196b147081a33238f65002e65897784033a2e237583822b950f586"
+    },
+    {
+      "path": "/gpfs01/star/pwg/xjiang2/jxl/correlation/dlambda/runtest.sh",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/xjiang2/jxl/correlation/dlambda/runtest.sh",
+      "size": 65,
+      "mtime_ns": 1784841115495569759,
+      "sha256": "a32cb56b9c85fd6c41f228a40589a749392cd90f3d5e8f9290379f3448c92bec"
+    },
+    {
+      "path": "/gpfs01/star/pwg/xjiang2/jxl/correlation/dlambda_p24ia/CorrAna.cxx",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/xjiang2/jxl/correlation/dlambda_p24ia/CorrAna.cxx",
+      "size": 83995,
+      "mtime_ns": 1784841120478759559,
+      "sha256": "377d5c6b7b5b7c203df333402122ffe198b623eb5816865f06195c2259b5089c"
+    },
+    {
+      "path": "/gpfs01/star/pwg/xjiang2/jxl/correlation/dlambda_tmva/CorrAna.cxx",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/xjiang2/jxl/correlation/dlambda_tmva/CorrAna.cxx",
+      "size": 93570,
+      "mtime_ns": 1784841122621841184,
+      "sha256": "8b097d7d53414aff573df8189c33e383802a5ec5b288ab029bfb7f98a5d1dc45"
+    },
+    {
+      "path": "/gpfs01/star/pwg/xjiang2/jxl/pphi/2.Analysis/CorrAna.C",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/xjiang2/jxl/pphi/2.Analysis/CorrAna.C",
+      "size": 30936,
+      "mtime_ns": 1784836656692771112,
+      "sha256": "4eb11443e0885eb45614c5aadca847501af091d8ed199f6f881c09b32fe4341f"
+    },
+    {
+      "path": "/gpfs01/star/pwg/xjiang2/jxl/pphi/2.Analysis/Makefile",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/xjiang2/jxl/pphi/2.Analysis/Makefile",
+      "size": 337,
+      "mtime_ns": 1784836656701771455,
+      "sha256": "b75f57ed03c6030a8633380506145417a5ab0d5a3d3b81a5673f86c0e5e4f7d6"
+    },
+    {
+      "path": "/gpfs01/star/pwg/xjiang2/jxl/pphi/2.Analysis/submitjobs/JobSubmitter.xml",
+      "resolved": "/gpfs/mnt/gpfs01/star/pwg/xjiang2/jxl/pphi/2.Analysis/submitjobs/JobSubmitter.xml",
+      "size": 971,
+      "mtime_ns": 1784836656743773055,
+      "sha256": "e0554a212b8c9eb910daeefbc11f95ab4e955b375e20e553efeacef87f7c051d"
+    }
+  ],
+  "researcher_attribution": "OS account xjiang2 has public GECOS Xialei Jiang; authorship and final-production use of individual saved codes are not established",
+  "inaccessible": [
+    "oura config/ and runtime/config/ (OS EACCES)",
+    "xjiang2/jxl/dlambda and non-femtoscopy (OS EACCES)"
+  ],
+  "jobs_submitted": false,
+  "external_files_modified": false,
+  "root_files_opened": false
+}

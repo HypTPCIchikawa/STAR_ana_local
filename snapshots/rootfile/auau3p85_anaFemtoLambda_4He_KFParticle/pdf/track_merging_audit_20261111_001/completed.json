@@ -1,0 +1,92 @@
+{
+  "status": "audit_complete_production_fix_not_applied",
+  "completedAtUtc": "2026-11-11T04:26:34.526700+00:00",
+  "reportPages": 11,
+  "atlasPages": 9,
+  "histogramCount": 6,
+  "helixTests": 192,
+  "inputUnchanged": true,
+  "productionFilesUnchanged": true,
+  "visualChecks": [
+    "actual atlas pages1,2,3",
+    "actual report pages1,2"
+  ],
+  "files": {
+    "README.md": {
+      "bytes": 5676,
+      "sha256": "7d5516ef12b97f4c52e71b2d18f1530e3907fd32c5ef072fb3db8e2bd33db3bc"
+    },
+    "settings.json": {
+      "bytes": 375,
+      "sha256": "1bd0ac67e83a5d3bcd6b7bf28c3309442e6d1b59048d14519cc162e05c12116e"
+    },
+    "input_provenance.json": {
+      "bytes": 453,
+      "sha256": "e066f2a253a98b90ba3e070ebc6b68a60bed546e954eee9fcea4b1a5dc859d84"
+    },
+    "extraction_command.json": {
+      "bytes": 730,
+      "sha256": "0b9b55c1468d1d7f9e7dd3726c14bd398d78a140913f7e0c45789440a26a8d34"
+    },
+    "histograms.json": {
+      "bytes": 3751435,
+      "sha256": "e7213e0ba7fa849a5c4ba6e004613e8830b2e0f3331f7d391b9b41041d107863"
+    },
+    "source_audit.json": {
+      "bytes": 3237,
+      "sha256": "18e4e718e95dd4f236666021682598f142d5ebffe449094ff3b4eaf13e65a256"
+    },
+    "helix_sign_validation.json": {
+      "bytes": 1683,
+      "sha256": "3bd50fe59572150dc7f81567bcda5249a3bf87531ed38600d92248f89e239221"
+    },
+    "hist_audit.json": {
+      "bytes": 69608,
+      "sha256": "ddfc5e6c078d3c74a19a731c02a4fe8a44d406b7b74c191e6d0be822dc5664a5"
+    },
+    "hist_analysis_validation.json": {
+      "bytes": 710,
+      "sha256": "2e97e9cb17e749a9092e50b6a3a1864aa3e5c7273b3bdfae3ec435388886537b"
+    },
+    "plot_validation.json": {
+      "bytes": 1603,
+      "sha256": "9d3f4b8b3b2a623a487dcedc57286a420f7d93bdfeda40cd21b5458cf753a88b"
+    },
+    "source/build_audit_report.py": {
+      "bytes": 13075,
+      "sha256": "78e106f06b594b3e4ae6738f8e6fdfff9f986180ed0a3b0cf40d490363b134cb"
+    },
+    "source/ExportMergingHistograms.C": {
+      "bytes": 4695,
+      "sha256": "bebecc023782786081f0144d9e9643800b3daf3b051784d393c47e384d60fa03"
+    },
+    "source/analyze_histograms.py": {
+      "bytes": 6337,
+      "sha256": "77d9a3aec8422ba682c7efeabd39ec3f6209d69ac8219a926ef6637c3a116c7c"
+    },
+    "source/DrawMergingQa.C": {
+      "bytes": 8149,
+      "sha256": "8d694f2391d3db4578ef4feda58423cefe4d564e13a8cb0b6854823ac429a3b1"
+    },
+    "source/ProbePhiStarHelix.C": {
+      "bytes": 3078,
+      "sha256": "cdde87eaa56a8d4e197636868856d88b7928225ffac777f21db4de1d641b3bdf"
+    },
+    "source/RunProbePhiStarHelix.C": {
+      "bytes": 805,
+      "sha256": "ff5593094ab55278ce75d1c0eb8347e39d8b926ec549777d1ed19ceada2428f8"
+    },
+    "source/report.tex": {
+      "bytes": 6717,
+      "sha256": "9c58d9688a64a2d3a7ad83cc17a5f3c5b879a0e5c093e4a416419a8ca2f52c7b"
+    },
+    "merging_histograms_20261111.pdf": {
+      "bytes": 2507718,
+      "sha256": "2496ff3f1c5a22aa8b7c35e6f0af84588d38cc1e9d14bbba2510333c06931acf"
+    },
+    "track_merging_audit_20261111.pdf": {
+      "bytes": 2636953,
+      "sha256": "689301846f7c13b13aa18acaa5f5d1cc5641b69a88cc9c57cdf43e15655f4010"
+    }
+  }
+}

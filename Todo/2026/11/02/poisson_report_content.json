@@ -1,0 +1,576 @@
+{
+  "stem": "summary_4He_KFParticle_3p85_PoissonL_20261102",
+  "sections": [
+    {
+      "title": "Updated analysis and settings",
+      "paragraphs": [
+        "The Lambda invariant-mass fits are re-evaluated with ROOT Poisson-likelihood option L, using SLQNR0 on unscaled, unsubtracted count histograms. Empty mass bins participate in the objective. Gaussian initialization/limits for the primary fit, mass range 1.08-1.15 GeV/c^2, count/covariance thresholds, signal mass gate and 20/50-MeV k* grids are retained. The Gaussian parameters remain free in the fallback, starting from the primary solution.",
+        "The sample is the same 2021 P24iy 04BF2DAE47164B6F040E3A460E539289 merged ROOT: 26,955/26,994 subjobs, 39 excluded, 2,100,726,543 input events and 2,067,647,474 reconstructed events. No PID, Maker, mixing or production-job change is made.",
+        "All 700 grouped and 1,260 fine-centrality fits are repeated. The same nine mass-spectrum examples from the preceding chi-square report are fixed in advance; examples are not reselected for agreement.",
+        "For comparison with the preceding CF result, the primary normalization remains 0.40-0.50 GeV/c for all five selections and Method3/5/6. The old 0.30-0.40 interval is also recomputed to test whether its failed normalization is recovered."
+      ]
+    },
+    {
+      "title": "Empty-bin effect and nonnegative-background rule",
+      "newpage": true,
+      "paragraphs": [
+        "The default observed-error chi-square fit omits bins with zero counts and zero error. Those bins constrain the background in a Poisson fit: their deviance contribution is 2*mu. A constant-background toy with nine zero bins and one bin containing one count returns the values below in the actual ROOT5 runtime.",
+        "The requested background rule is implemented as a refit, not as an unrecorded alteration of a fitted curve. First fit Gaussian plus quadratic background. Evaluate the background minimum over the closed mass-fit range, including any quadratic vertex. If that minimum is negative, refit with both the linear and quadratic background terms fixed to zero and the remaining constant b constrained to b>=0.",
+        "The fallback has four free parameters (three Gaussian parameters and b), versus six for the quadratic fit. Its residual degrees of freedom are adjusted accordingly. b is fitted, so it may be positive or reach zero. The identity and diagnostics of every fallback are recorded separately for SE and ME.",
+        "For ROOT finite-bound handling, the upper guard on b is max(1,Nfit), where Nfit is the total count within the fitted mass range. This is recorded and checked to be inactive; it is not a lower background floor. The numerical starting value uses the observed sideband mean with the explicit 0.1-count/bin seed floor, which does not constrain the final fitted b."
+      ],
+      "equations": [
+        "D=2\\sum_i[\\mu_i-n_i+n_i\\log(n_i/\\mu_i)],\\quad D_i(n_i=0)=2\\mu_i.",
+        "B_{\\rm primary}(u)=b_0+b_1u+b_2u^2;\\quad \\min B<0\\Rightarrow B_{\\rm refit}(u)=b\\geq0."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Toy diagnostic",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Chi-square background [count/bin]",
+              "1"
+            ],
+            [
+              "Poisson background [count/bin]",
+              "0.099994835"
+            ],
+            [
+              "Poisson deviance",
+              "4.6051702"
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Fits",
+            "M",
+            "Side",
+            "Constant refits",
+            "Total",
+            "Usable purity"
+          ],
+          "rows": [
+            [
+              "group",
+              "3",
+              "SE",
+              "84",
+              "250",
+              "247"
+            ],
+            [
+              "group",
+              "3",
+              "ME",
+              "64",
+              "250",
+              "250"
+            ],
+            [
+              "group",
+              "5",
+              "SE",
+              "19",
+              "100",
+              "100"
+            ],
+            [
+              "group",
+              "5",
+              "ME",
+              "27",
+              "100",
+              "100"
+            ],
+            [
+              "fine",
+              "3",
+              "SE",
+              "192",
+              "450",
+              "368"
+            ],
+            [
+              "fine",
+              "3",
+              "ME",
+              "146",
+              "450",
+              "441"
+            ],
+            [
+              "fine",
+              "5",
+              "SE",
+              "53",
+              "180",
+              "169"
+            ],
+            [
+              "fine",
+              "5",
+              "ME",
+              "47",
+              "180",
+              "180"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Numerical stability and error interpretation",
+      "newpage": true,
+      "paragraphs": [
+        "The full quadratic family uses an invertible coordinate: the mass offset from the fit midpoint divided by the half width of the fixed fit range. The curve remains Gaussian plus pol2. Coefficients and the full 6x6 covariance are converted back for compatibility; background integrals and their covariance are evaluated directly in the stable centered basis.",
+        "Raw-coordinate L, centered-coordinate L with the old zero background seed, and the positive-seed version are retained as numerical trials. The final version uses an explicit 50,000-function-call budget. Therefore changes are not attributed to the letter L alone: initialization, numerical coordinates and the requested background fallback are all documented.",
+        "Deviance and signed deviance residuals are independently recomputed from saved predictions, including empty bins. These residuals replace the preceding observed-error pull that dropped empty bins. The reported D/NDF is a diagnostic, not a calibrated sparse-count p-value.",
+        "The quoted fit errors use the local covariance. In particular, b=0 is a boundary estimate, not proof that the background is exactly absent. Asymmetric profile intervals and model-selection uncertainty from choosing the fallback are not evaluated. Event/mixed-pair correlations and fitted-background/count covariance not available in the stored histograms are also omitted."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "b near zero",
+            "Group",
+            "M",
+            "Side",
+            "k* center"
+          ],
+          "rows": [
+            [
+              "fine",
+              "cent1",
+              "3",
+              "SE",
+              "0.91"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The same nine examples: chi-square versus L",
+      "newpage": true,
+      "paragraphs": [
+        "The table reports accepted full-window purities. NA means a failed fit, unusable covariance or nonphysical result; it does not mean zero purity. The last column identifies the final SE/ME background models (Q: quadratic; C: nonnegative constant fallback). Counts and mass projections are unchanged.",
+        "Fine-centrality comparisons reproduce the Method3/Method5 selections underlying the preceding Figs.13/14. The updated red/blue purity plots and the old chi-square estimates are displayed under the same k* and centrality definitions."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Case",
+            "M",
+            "Cent. / k*",
+            "Old P(SE)",
+            "L P(SE)",
+            "L P(ME)",
+            "BG S/M"
+          ],
+          "rows": [
+            [
+              "1",
+              "5",
+              "20-80% / 0.3-0.35",
+              "0.93502 +/- 0.000951",
+              "0.92764 +/- 0.00129",
+              "0.90871 +/- 0.000247",
+              "Q/Q"
+            ],
+            [
+              "2",
+              "3",
+              "50-60% / 0.26-0.28",
+              "0.010406 +/- 0.423",
+              "0.85305 +/- 0.0605",
+              "0.76045 +/- 0.0139",
+              "C/Q"
+            ],
+            [
+              "3",
+              "3",
+              "40-50% / 0.14-0.16",
+              "0.18495 +/- 0.327",
+              "0.88133 +/- 0.0477",
+              "0.78492 +/- 0.0106",
+              "C/C"
+            ],
+            [
+              "4",
+              "3",
+              "0-5% / 0.06-0.08",
+              "0.92547 +/- 0.00897",
+              "0.92377 +/- 0.00804",
+              "0.94023 +/- 0.00119",
+              "C/C"
+            ],
+            [
+              "5",
+              "3",
+              "50-60% / 0.28-0.3",
+              "NA",
+              "0.57478 +/- 0.164",
+              "0.77339 +/- 0.0112",
+              "C/C"
+            ],
+            [
+              "6",
+              "5",
+              "60-70% / 0.25-0.3",
+              "0.25105 +/- 0.247",
+              "0.81804 +/- 0.0566",
+              "0.71071 +/- 0.00955",
+              "C/Q"
+            ],
+            [
+              "7",
+              "5",
+              "50-60% / 0.05-0.1",
+              "0.45711 +/- 0.159",
+              "0.82968 +/- 0.0469",
+              "0.72116 +/- 0.011",
+              "C/C"
+            ],
+            [
+              "8",
+              "5",
+              "0-5% / 0.25-0.3",
+              "0.95069 +/- 0.000608",
+              "0.94883 +/- 0.000602",
+              "0.94998 +/- 9.85e-05",
+              "Q/Q"
+            ],
+            [
+              "9",
+              "5",
+              "40-50% / 0.2-0.25",
+              "0.89918 +/- 0.00705",
+              "0.88473 +/- 0.00757",
+              "0.82595 +/- 0.00183",
+              "C/Q"
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Case",
+            "SE count",
+            "SE zero bins",
+            "D(SE)/NDF",
+            "D(ME)/NDF"
+          ],
+          "rows": [
+            [
+              "1",
+              "30225",
+              "0",
+              "478.92/64",
+              "12365/64"
+            ],
+            [
+              "2",
+              "27",
+              "57",
+              "46.144/66",
+              "82.476/64"
+            ],
+            [
+              "3",
+              "28",
+              "55",
+              "43.302/66",
+              "335.66/66"
+            ],
+            [
+              "4",
+              "524",
+              "16",
+              "105.9/66",
+              "1089/66"
+            ],
+            [
+              "5",
+              "26",
+              "50",
+              "51.121/66",
+              "457.91/66"
+            ],
+            [
+              "6",
+              "42",
+              "50",
+              "57.278/66",
+              "124.24/64"
+            ],
+            [
+              "7",
+              "52",
+              "48",
+              "63.216/66",
+              "553.7/66"
+            ],
+            [
+              "8",
+              "89303",
+              "0",
+              "1391.4/64",
+              "46006/64"
+            ],
+            [
+              "9",
+              "1083",
+              "6",
+              "199.93/66",
+              "467.01/64"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Normalization recovery and CF comparison",
+      "newpage": true,
+      "paragraphs": [
+        "Method3 fits each 20-MeV CF cell. Method5 applies its 50-MeV sliding-window purity to native 5-MeV counts before 20-MeV aggregation. Method6 applies the same Method5 ME purity and error to both SE and ME as a shared estimator, retaining common-purity and normalization covariance.",
+        "The previously failed 20-80% ME purity cell at 0.30-0.35 has L purity 0.90871 +/- 0.000247. Its status is 0, covariance status 3. Numerical recovery does not guarantee the Gaussian/background model is adequate: the independently evaluated deviance remains 12364.9.",
+        "The common 0.40-0.50 comparison isolates the change from the preceding chi-square result at the same normalization. The old 0.30-0.40 calculation is shown separately. Missing fit contributions continue to mask their CF bins; invalid fits are never silently replaced with zero background or an interpolated purity.",
+        "Integrated CF values are ratios of corrected yields summed over k*=0-0.20 GeV/c with the stated normalization, not arithmetic averages of plotted CF points. No LL/source-radius fit is repeated in this mass-purity/CF update."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Norm",
+            "Centrality",
+            "Valid methods"
+          ],
+          "rows": [
+            [
+              "0.4-0.5",
+              "20-80%",
+              "3, 5, 6"
+            ],
+            [
+              "0.4-0.5",
+              "0-20%",
+              "3, 5, 6"
+            ],
+            [
+              "0.4-0.5",
+              "0-10%",
+              "3, 5, 6"
+            ],
+            [
+              "0.4-0.5",
+              "10-20%",
+              "3, 5, 6"
+            ],
+            [
+              "0.4-0.5",
+              "20-60%",
+              "3, 5, 6"
+            ],
+            [
+              "0.3-0.4",
+              "20-80%",
+              "3, 5, 6"
+            ],
+            [
+              "0.3-0.4",
+              "0-20%",
+              "3, 5, 6"
+            ],
+            [
+              "0.3-0.4",
+              "0-10%",
+              "3, 5, 6"
+            ],
+            [
+              "0.3-0.4",
+              "10-20%",
+              "3, 5, 6"
+            ],
+            [
+              "0.3-0.4",
+              "20-60%",
+              "3, 5, 6"
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Centrality",
+            "M3 points",
+            "M5 points",
+            "M6 points",
+            "Integrated M5",
+            "Integrated M6"
+          ],
+          "rows": [
+            [
+              "20-80%",
+              "14",
+              "15",
+              "15",
+              "1.0899 +/- 0.0259",
+              "1.1051 +/- 0.0248"
+            ],
+            [
+              "0-20%",
+              "15",
+              "15",
+              "15",
+              "1.0363 +/- 0.00859",
+              "1.038 +/- 0.00838"
+            ],
+            [
+              "0-10%",
+              "15",
+              "15",
+              "15",
+              "1.0324 +/- 0.00957",
+              "1.0346 +/- 0.00935"
+            ],
+            [
+              "10-20%",
+              "14",
+              "15",
+              "15",
+              "1.0648 +/- 0.0197",
+              "1.0623 +/- 0.0191"
+            ],
+            [
+              "20-60%",
+              "14",
+              "15",
+              "15",
+              "1.0908 +/- 0.0259",
+              "1.1062 +/- 0.0249"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What can be concluded",
+      "paragraphs": [
+        "The empty-bin mechanism is real and demonstrated by the ROOT5 toy. Sparse background bins must be included in the Poisson objective. With the requested fallback, a negative polynomial background is replaced through a new fit by a physically nonnegative constant.",
+        "Agreement of SE/ME purity is assessed rather than imposed. Some points can remain different because of statistical limitations, different signal/background weights, parameter-bound behavior and model inadequacy. High-statistics structured residuals are not cured merely by choosing a Poisson objective.",
+        "The report preserves all numerical trials, the previous chi-square PDF, the fixed example identities and all fit/selection metadata. The new report and new CF figures supersede the corresponding chi-square estimates; the old QA/LL material remains in the preserved reference PDF."
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_fine_method3_L.pdf",
+      "caption": "Updated method3 purity: Poisson L",
+      "paragraphs": [
+        "Red: SE (true); blue: ME (mix). Negative primary backgrounds trigger a nonnegative constant refit. Invalid estimates are omitted; no equality of SE/ME is imposed."
+      ]
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_fine_method3_comparison.pdf",
+      "caption": "method3: fixed-bin chi-square/L comparison",
+      "paragraphs": [
+        "Filled: final L; open: preceding chi-square. The displayed physical-purity range is common across centralities; exact errors and rejected-fit diagnostics are available in the tables and JSON."
+      ]
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_fine_method5_L.pdf",
+      "caption": "Updated method5 purity: Poisson L",
+      "paragraphs": [
+        "Red: SE (true); blue: ME (mix). Negative primary backgrounds trigger a nonnegative constant refit. Invalid estimates are omitted; no equality of SE/ME is imposed."
+      ]
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_fine_method5_comparison.pdf",
+      "caption": "method5: fixed-bin chi-square/L comparison",
+      "paragraphs": [
+        "Filled: final L; open: preceding chi-square. The displayed physical-purity range is common across centralities; exact errors and rejected-fit diagnostics are available in the tables and JSON."
+      ]
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/cf_methods_3_5_6.pdf"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/cf_objective_comparison.pdf"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_se_me.pdf"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent20_80_007.pdf",
+      "caption": "Fixed case 1: method5, 20-80%, 0.3-0.35 GeV/c",
+      "paragraphs": [
+        "Actual k* fit window 0.2-0.45. Background SE/ME: quadratic / quadratic. P(SE)=0.92764 +/- 0.00129; P(ME)=0.90871 +/- 0.000247.",
+        "The lower-left and lower-middle panels include empty bins as signed Poisson deviance residuals. The normalized mass shapes are unchanged input data; the fitted background, purity and residuals are re-evaluated."
+      ]
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method3_cent2_014.pdf",
+      "caption": "Fixed case 2: method3, 50-60%, 0.26-0.28 GeV/c",
+      "paragraphs": [
+        "Actual k* fit window 0.26-0.28. Background SE/ME: constant b>=0 / quadratic. P(SE)=0.85305 +/- 0.0605; P(ME)=0.76045 +/- 0.0139.",
+        "The lower-left and lower-middle panels include empty bins as signed Poisson deviance residuals. The normalized mass shapes are unchanged input data; the fitted background, purity and residuals are re-evaluated."
+      ]
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method3_cent3_008.pdf",
+      "caption": "Fixed case 3: method3, 40-50%, 0.14-0.16 GeV/c",
+      "paragraphs": [
+        "Actual k* fit window 0.14-0.16. Background SE/ME: constant b>=0 / constant b>=0. P(SE)=0.88133 +/- 0.0477; P(ME)=0.78492 +/- 0.0106.",
+        "The lower-left and lower-middle panels include empty bins as signed Poisson deviance residuals. The normalized mass shapes are unchanged input data; the fitted background, purity and residuals are re-evaluated."
+      ]
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method3_cent8_004.pdf",
+      "caption": "Fixed case 4: method3, 0-5%, 0.06-0.08 GeV/c",
+      "paragraphs": [
+        "Actual k* fit window 0.06-0.08. Background SE/ME: constant b>=0 / constant b>=0. P(SE)=0.92377 +/- 0.00804; P(ME)=0.94023 +/- 0.00119.",
+        "The lower-left and lower-middle panels include empty bins as signed Poisson deviance residuals. The normalized mass shapes are unchanged input data; the fitted background, purity and residuals are re-evaluated."
+      ]
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method3_cent2_015.pdf",
+      "caption": "Fixed case 5: method3, 50-60%, 0.28-0.3 GeV/c",
+      "paragraphs": [
+        "Actual k* fit window 0.28-0.3. Background SE/ME: constant b>=0 / constant b>=0. P(SE)=0.57478 +/- 0.164; P(ME)=0.77339 +/- 0.0112.",
+        "The lower-left and lower-middle panels include empty bins as signed Poisson deviance residuals. The normalized mass shapes are unchanged input data; the fitted background, purity and residuals are re-evaluated."
+      ]
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent1_006.pdf",
+      "caption": "Fixed case 6: method5, 60-70%, 0.25-0.3 GeV/c",
+      "paragraphs": [
+        "Actual k* fit window 0.15-0.4. Background SE/ME: constant b>=0 / quadratic. P(SE)=0.81804 +/- 0.0566; P(ME)=0.71071 +/- 0.00955.",
+        "The lower-left and lower-middle panels include empty bins as signed Poisson deviance residuals. The normalized mass shapes are unchanged input data; the fitted background, purity and residuals are re-evaluated."
+      ]
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent2_002.pdf",
+      "caption": "Fixed case 7: method5, 50-60%, 0.05-0.1 GeV/c",
+      "paragraphs": [
+        "Actual k* fit window 0-0.2. Background SE/ME: constant b>=0 / constant b>=0. P(SE)=0.82968 +/- 0.0469; P(ME)=0.72116 +/- 0.011.",
+        "The lower-left and lower-middle panels include empty bins as signed Poisson deviance residuals. The normalized mass shapes are unchanged input data; the fitted background, purity and residuals are re-evaluated."
+      ]
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent8_006.pdf",
+      "caption": "Fixed case 8: method5, 0-5%, 0.25-0.3 GeV/c",
+      "paragraphs": [
+        "Actual k* fit window 0.15-0.4. Background SE/ME: quadratic / quadratic. P(SE)=0.94883 +/- 0.000602; P(ME)=0.94998 +/- 9.85e-05.",
+        "The lower-left and lower-middle panels include empty bins as signed Poisson deviance residuals. The normalized mass shapes are unchanged input data; the fitted background, purity and residuals are re-evaluated."
+      ]
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent3_005.pdf",
+      "caption": "Fixed case 9: method5, 40-50%, 0.2-0.25 GeV/c",
+      "paragraphs": [
+        "Actual k* fit window 0.1-0.35. Background SE/ME: constant b>=0 / quadratic. P(SE)=0.88473 +/- 0.00757; P(ME)=0.82595 +/- 0.00183.",
+        "The lower-left and lower-middle panels include empty bins as signed Poisson deviance residuals. The normalized mass shapes are unchanged input data; the fitted background, purity and residuals are re-evaluated."
+      ]
+    }
+  ]
+}

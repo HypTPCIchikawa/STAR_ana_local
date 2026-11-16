@@ -1,0 +1,949 @@
+{
+  "phase": "complete",
+  "completedAtJst": "2026-10-31T13:02:48.744193+09:00",
+  "sample": {
+    "year": 2021,
+    "jobid": "04BF2DAE47164B6F040E3A460E539289",
+    "included": 26955,
+    "expected": 26994
+  },
+  "reportPages": 20,
+  "fitAtlasPages": {
+    "method3": 100,
+    "method5": 40
+  },
+  "individualFitPdfs": 140,
+  "cfComparisonPages": 2,
+  "purityComparisonPages": 2,
+  "pdfs": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/atlas_method3.pdf",
+      "pages": 100,
+      "bytes": 5368818,
+      "sha256": "45b9b23fbfbf4cfdd104f0b2b766489fdb3203bac5ae21d6d1738790cc2dd1e4"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/atlas_method5.pdf",
+      "pages": 40,
+      "bytes": 2197143,
+      "sha256": "9a092d6468f482c803cea7c650c153b2a6c2f713d1a80c09e667472b3054fbd8"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/cf_methods_3_5_6.pdf",
+      "pages": 2,
+      "bytes": 27624,
+      "sha256": "467651362714e83cc938ad81233693d6949a30943d4c9d4b18e3d37c2b15d82f"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_001.pdf",
+      "pages": 1,
+      "bytes": 47745,
+      "sha256": "b850b22c0244cc64cf23a5ecb23c2725bc99c066b372ca2f03c83d74978935dc"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_002.pdf",
+      "pages": 1,
+      "bytes": 55480,
+      "sha256": "598cd3a5d9dc2934f6c7b179462ca7ca2b8557e35878b7e06fa43a40172ed536"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_003.pdf",
+      "pages": 1,
+      "bytes": 60612,
+      "sha256": "2f665047fd10c84236062c399f9e5d8a0fd3a954874f46ef69582a704e11d643"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_004.pdf",
+      "pages": 1,
+      "bytes": 64878,
+      "sha256": "ae4eb615e82fa96687f237a2130f926cdae266349ea81434eb45c8141abe76b0"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_005.pdf",
+      "pages": 1,
+      "bytes": 65113,
+      "sha256": "38875917527965bfb448a51d64820a2b537e8941dbb110163acd599de89cd348"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_006.pdf",
+      "pages": 1,
+      "bytes": 65792,
+      "sha256": "1ab61d8214f2986da3464f5ccd9cf2d1c74b8d90aedb2493cdd47f2a8211db82"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_007.pdf",
+      "pages": 1,
+      "bytes": 64759,
+      "sha256": "62e0b3c6680d62b12d0e0a9f3141c18c29dd615bcd11bda25c246871e3669aa7"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_008.pdf",
+      "pages": 1,
+      "bytes": 64150,
+      "sha256": "a67e56c898cfdae6dc023c0754b2d3cd5b6fa5a57a1cdc08b6487b103ee23607"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_009.pdf",
+      "pages": 1,
+      "bytes": 63715,
+      "sha256": "e47084b1ac077480214294f77834127f7190ab18df25f87833717d45488f31cb"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_010.pdf",
+      "pages": 1,
+      "bytes": 64143,
+      "sha256": "255d6a7adb61ef9ee605da069757cc3856451c7e33e049a65ab6001c0362500c"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_011.pdf",
+      "pages": 1,
+      "bytes": 63954,
+      "sha256": "156d1e90860109c812a47e51ed9aeabdbc4ac04ca221c366f330df7ac1c3495c"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_012.pdf",
+      "pages": 1,
+      "bytes": 62837,
+      "sha256": "70e89f62ce88b95e1a99047b4ab52f97bf2b6a349de48e2dc5148f8cdc3c89f5"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_013.pdf",
+      "pages": 1,
+      "bytes": 62172,
+      "sha256": "55f9d8b5ce2a1e4be27c182697ce37e0cd7aaeaf71e2de03ff1bb3f9731a532d"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_014.pdf",
+      "pages": 1,
+      "bytes": 62357,
+      "sha256": "292d737d0a37a809a156e0b512002eefa5adc375f9705c62ae4d4cf524f7412e"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_015.pdf",
+      "pages": 1,
+      "bytes": 62350,
+      "sha256": "ae6e4a37a334422b1f55fd1755d90e83ebf61f202da78db13d3e36b6ffce299a"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_016.pdf",
+      "pages": 1,
+      "bytes": 62875,
+      "sha256": "62a15a25e14feb785348f8b3c793718f1ee7c9683d46c4f167aa5ef467b7bcc2"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_017.pdf",
+      "pages": 1,
+      "bytes": 62710,
+      "sha256": "573fc22185a3f4922da3d49f19e124282ed3aef00f1bc16e3e558b3336581817"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_018.pdf",
+      "pages": 1,
+      "bytes": 62777,
+      "sha256": "f5cf3bb9bb5aa1ce6ee19d7d4bb79292f5445cb292a7fe5d5c3159203e2ebcbb"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_019.pdf",
+      "pages": 1,
+      "bytes": 62616,
+      "sha256": "066660bae825203ba23e642e8e00b3754d66992a3d596acb0c1e764c2e16ddb5"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_10_020.pdf",
+      "pages": 1,
+      "bytes": 62835,
+      "sha256": "4e028433f7e9a471747061c1a711885236ab7ad78cef87e38b50b1ec86fe75ed"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_001.pdf",
+      "pages": 1,
+      "bytes": 49268,
+      "sha256": "7ded32c7b44c539c79c7890a27f05d1c76520409fa793965c7825704a52f1eaa"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_002.pdf",
+      "pages": 1,
+      "bytes": 56889,
+      "sha256": "e806c054279bb98d32f9c574bd4020ea4ab9b496968ca102e2248658d689ae1d"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_003.pdf",
+      "pages": 1,
+      "bytes": 61035,
+      "sha256": "4b845353be402c77ebb1d09fc242a2b2af322024dc163bd6710b0fb53741ebe1"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_004.pdf",
+      "pages": 1,
+      "bytes": 65959,
+      "sha256": "e6c88a291d1a81e2ec0e11902e6d3b41b70da84ea5151a14ff9d055bf7c1202b"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_005.pdf",
+      "pages": 1,
+      "bytes": 66321,
+      "sha256": "41b70ab2bbd0a6e9ac4f5f48854a28720ef26433a397c721b4dd56033a7c5a61"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_006.pdf",
+      "pages": 1,
+      "bytes": 65411,
+      "sha256": "49a815ded23a7165ba64168659fc693345be8493196ea804958ee44b9594b963"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_007.pdf",
+      "pages": 1,
+      "bytes": 63884,
+      "sha256": "c869f5741a9395e4f87951d3f14d0869ae5b0ffee27c0fd02da5f757e4aefd62"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_008.pdf",
+      "pages": 1,
+      "bytes": 63533,
+      "sha256": "374b47f29e6bc513f2c0118a3a6c5f56d68a813056b626a66e0a252db39855e6"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_009.pdf",
+      "pages": 1,
+      "bytes": 63830,
+      "sha256": "7a9195ab2187a8ffa87b20f0d56c094671d69cd1e9d016bf28f5884d7847cdda"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_010.pdf",
+      "pages": 1,
+      "bytes": 63409,
+      "sha256": "d2d46473ea95c7ff9be5a5056ff8bb3082b65e2f8304ad3dedca93e1f8eb487b"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_011.pdf",
+      "pages": 1,
+      "bytes": 62443,
+      "sha256": "e7bd1453341c4f780dbcf736eb4d2bd7198fe85da402b8b66be4f4dae725cf16"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_012.pdf",
+      "pages": 1,
+      "bytes": 62462,
+      "sha256": "bf43de35857632927d6e52f3c14c8f83bc87d42380f06036075766d3bd00790d"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_013.pdf",
+      "pages": 1,
+      "bytes": 62207,
+      "sha256": "07b922921131d182db292918fe489922c3503c8514bd16529d6c23594fe988c3"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_014.pdf",
+      "pages": 1,
+      "bytes": 62807,
+      "sha256": "afe412c786585279ed6eb37fc0c9b7c170c3f6068f6e2b67b207b50d46f7a290"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_015.pdf",
+      "pages": 1,
+      "bytes": 62602,
+      "sha256": "80a1f3aead9ec25d9b7e281fbc4f2a115c93870bb0fb14989e56e74802f1349a"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_016.pdf",
+      "pages": 1,
+      "bytes": 62383,
+      "sha256": "6109ef77aac3afbd992ffc4f3883ebbc3fa53d3243253af1f321a09aefcd7769"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_017.pdf",
+      "pages": 1,
+      "bytes": 62973,
+      "sha256": "3d5339d0c7fbd606488f6bd0211ae92deae88ca88f7ca314ba46dc3cd27c6ad6"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_018.pdf",
+      "pages": 1,
+      "bytes": 62581,
+      "sha256": "1564b82eee13364e3175949783c4444fc5c512c3be4c9e3904252107dcbe62e3"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_019.pdf",
+      "pages": 1,
+      "bytes": 62920,
+      "sha256": "cf8e1477e2538e7a77eca788666bcbdcd33e992b1bea71947c6c5c3174ac6a1c"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent0_20_020.pdf",
+      "pages": 1,
+      "bytes": 62128,
+      "sha256": "2f33f24154ba068f36113b34c1f39516d5205b72ba50a2d5ba6f8eaba5087738"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_001.pdf",
+      "pages": 1,
+      "bytes": 34250,
+      "sha256": "f5206ad352e40a6b079a1531de0219edbc0565978f12073fc13703c60054566b"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_002.pdf",
+      "pages": 1,
+      "bytes": 51597,
+      "sha256": "42e1f118837bd8012a07540c28bdeec3dacb7339f8d91788340bd5d6ebb7c892"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_003.pdf",
+      "pages": 1,
+      "bytes": 54173,
+      "sha256": "9a304d3927637272517718a5eb7bced1129a9b6ba8e23901f097f32e20522936"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_004.pdf",
+      "pages": 1,
+      "bytes": 58002,
+      "sha256": "4197bc7511d8bbcb4f5e2411d4397b50018f1fdf47edf23b4cd7a055c7027c54"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_005.pdf",
+      "pages": 1,
+      "bytes": 59981,
+      "sha256": "98a46107c56ddff80368a80ca7a511e3dac7c4aeffc7275701f3524777313d03"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_006.pdf",
+      "pages": 1,
+      "bytes": 60557,
+      "sha256": "3fbb66825c990dd984ab7d599ede7c7726fac9e07c641e2d04280afafc712a90"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_007.pdf",
+      "pages": 1,
+      "bytes": 63870,
+      "sha256": "deb5ce67e8ab20c58230cfe9c155e51c9dc25097a072bd00fa6547650c13f35a"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_008.pdf",
+      "pages": 1,
+      "bytes": 64629,
+      "sha256": "5e54f28eab04cbe64da4f6836679a10df7f6794806e11c1b1af46f39d18b1e7b"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_009.pdf",
+      "pages": 1,
+      "bytes": 66600,
+      "sha256": "0f516b4f9a348ec39a4d8656858d269502c72d2d0c0dc070f242215514d40ce1"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_010.pdf",
+      "pages": 1,
+      "bytes": 64231,
+      "sha256": "934d8c0599acca5b2101f4092db7f1f91cbd09e58fa05be8cac63d9affca5072"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_011.pdf",
+      "pages": 1,
+      "bytes": 64268,
+      "sha256": "f70eccd78f540e444375218226addd8412f6da48940d1e84a7fbcd04c28907af"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_012.pdf",
+      "pages": 1,
+      "bytes": 64571,
+      "sha256": "e94f4831d78ce7cfe2a9d45632f6c469892727908889ab7821bb9ab67796753d"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_013.pdf",
+      "pages": 1,
+      "bytes": 64842,
+      "sha256": "98dfa06d215ca4c51fbb9aa65a378677df05551f938c4f130e25a039ac72ee80"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_014.pdf",
+      "pages": 1,
+      "bytes": 64286,
+      "sha256": "2ed146ded0ab8634186b59ccc9831eac9fcea0bcae433072e784fe1d6d74bf4c"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_015.pdf",
+      "pages": 1,
+      "bytes": 63668,
+      "sha256": "efb5044bef9d8065131a353611933c75b01efbc22db10cecdfdb3ee5374bfc0d"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_016.pdf",
+      "pages": 1,
+      "bytes": 63220,
+      "sha256": "b96fb0c54d268dfd6d4b0c712842eae68af52fa1da2187fa4c59ad6ad2a10827"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_017.pdf",
+      "pages": 1,
+      "bytes": 63411,
+      "sha256": "1c661462aa50b0332c3de12c6e29db7bb09611ddaf21cc3c0f780926e4eec543"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_018.pdf",
+      "pages": 1,
+      "bytes": 63942,
+      "sha256": "e0770116ec6184f833314ebdebe4f9a57c0d8f9d8d8800681861147e211ec9de"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_019.pdf",
+      "pages": 1,
+      "bytes": 64109,
+      "sha256": "b0d89bbe257a4ef63d91d22ce4ca9306222c2b0a6d12ec2d56283cbabed5f0ca"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent10_20_020.pdf",
+      "pages": 1,
+      "bytes": 64128,
+      "sha256": "1d30b865dea459758d42f4704ecf423c8cb1775f467d8e4b74404e9b84797e03"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_001.pdf",
+      "pages": 1,
+      "bytes": 33209,
+      "sha256": "c9093dff5bfa8aa67300931a859f48da0b852feb81170070e13ad2a2bad8e9ef"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_002.pdf",
+      "pages": 1,
+      "bytes": 51253,
+      "sha256": "c41bd7b768551b20e1e62d0881e8a8f7ab273a641e0ae27a18bfb9e1f0873209"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_003.pdf",
+      "pages": 1,
+      "bytes": 56596,
+      "sha256": "d9ff0c695b996ad78fa4ab554d43ac5a3f11d246d84bf3d9ac59585ba3495216"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_004.pdf",
+      "pages": 1,
+      "bytes": 58987,
+      "sha256": "3b78a2b9b2be6ed03d432522e74bf9aea8934cc3f858c2fdaf0e3b6e4d534288"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_005.pdf",
+      "pages": 1,
+      "bytes": 60491,
+      "sha256": "346fe492f5e0abe606db044fc5ffc2c7ee8e2adcb9e2f6167a57558c73f48840"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_006.pdf",
+      "pages": 1,
+      "bytes": 61915,
+      "sha256": "529d34a5fe7d0f3693358fad3c8aaa0fdefae13a4aa117b4ad0cda94c122a100"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_007.pdf",
+      "pages": 1,
+      "bytes": 62579,
+      "sha256": "ee94a48959147e75cfe8dbfaeacf6a6a99f408a955f4d2fbc40efc328d5f40d2"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_008.pdf",
+      "pages": 1,
+      "bytes": 64192,
+      "sha256": "8d89387ed782b0ae1954dcd51d881c9bf2a33b309df76e65cc5bb765b5db450e"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_009.pdf",
+      "pages": 1,
+      "bytes": 64843,
+      "sha256": "11e2cc937dea3c3b4a3509c4c7b11792d0f456209c631425c8ba474180b42a9f"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_010.pdf",
+      "pages": 1,
+      "bytes": 65719,
+      "sha256": "f886371e9c341b35904dd6907f048b7d60c314dc183628edd2eaa22f2ad6d7dd"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_011.pdf",
+      "pages": 1,
+      "bytes": 67144,
+      "sha256": "3dd59caeabf4712a824a22acda16028bc93a44948e33a7373f6bc8259a6bead7"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_012.pdf",
+      "pages": 1,
+      "bytes": 66479,
+      "sha256": "ceec3981709c572e307e86dbf49d5f482ebc41763195d7842426a6af92e637b1"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_013.pdf",
+      "pages": 1,
+      "bytes": 66613,
+      "sha256": "cb664f5b4e0b272d69964f6c326e919658718ef9465b32dec7ac580fd7d103b9"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_014.pdf",
+      "pages": 1,
+      "bytes": 66185,
+      "sha256": "bf3aa99cb336368938853e2258fb4eb60492ef7020a33c68b6fa192f12c292a5"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_015.pdf",
+      "pages": 1,
+      "bytes": 64374,
+      "sha256": "e83a9ea50a821c35bbb22bf54b4c39728db67c095383e35bc53bcc29a354e6f7"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_016.pdf",
+      "pages": 1,
+      "bytes": 65936,
+      "sha256": "e986fb6aaec1915ebdcf83b3a93c6273fc42513943a92ac9fc742ec776c02cf1"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_017.pdf",
+      "pages": 1,
+      "bytes": 65460,
+      "sha256": "d3df28135ee173927dcb2ebe1024ffb6ffcf5ac2f3b25b8ea713b9c707684f20"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_018.pdf",
+      "pages": 1,
+      "bytes": 65402,
+      "sha256": "de84b1d86806449b48776852a405f17a3a3df707a62e7824a8f346ad67740879"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_019.pdf",
+      "pages": 1,
+      "bytes": 64247,
+      "sha256": "0b91ca93444b381c309b9beb29ca4c3db3d891a7b8ff86c46bc209d0ea75063b"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_60_020.pdf",
+      "pages": 1,
+      "bytes": 64517,
+      "sha256": "95ad99ce9cfe0969e0811f060fc347fba5e905b2097259bc2c21ccaf2dd5bd80"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_001.pdf",
+      "pages": 1,
+      "bytes": 33209,
+      "sha256": "c280f25967143cb4cef90becdd51960c8a1cf48bfafba1ecfec1b4fde008df54"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_002.pdf",
+      "pages": 1,
+      "bytes": 51349,
+      "sha256": "7f7fa9d15cbb0a5fa4f68da3a3c19bead6f53358af59038220534c207d25525a"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_003.pdf",
+      "pages": 1,
+      "bytes": 56758,
+      "sha256": "c05c22cdf496caf0c80c06e370fd3372d4a91eb95da2ad7d84fbddcedefd5cff"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_004.pdf",
+      "pages": 1,
+      "bytes": 58893,
+      "sha256": "1b61db53430759f33a4ea3968fc58466bf9ccef2f301b9c9daf316c4c2ce57d2"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_005.pdf",
+      "pages": 1,
+      "bytes": 60619,
+      "sha256": "d6555d1c2b5514d5cae0e9ac3d3f8cc371a3bebde15aefd8973c3007994d88c3"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_006.pdf",
+      "pages": 1,
+      "bytes": 62130,
+      "sha256": "2985d49ccfbea941772a7614435e897b541c432422f9da127d0cc82ab8caef9f"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_007.pdf",
+      "pages": 1,
+      "bytes": 62580,
+      "sha256": "dc94cc9c2cf6a4858005d65200712b1ce7aa0477afc0dc45e21ee0262d00c3db"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_008.pdf",
+      "pages": 1,
+      "bytes": 64220,
+      "sha256": "3ef0e6c08cd201b097870d0cd6a066f479e15738521943c05a2274db4e272391"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_009.pdf",
+      "pages": 1,
+      "bytes": 64954,
+      "sha256": "e9f098bbca61bb8dce365d50d3d8e99d400dd3b0c5b7d29913ac49e864556d56"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_010.pdf",
+      "pages": 1,
+      "bytes": 65650,
+      "sha256": "066bed8f4cb67d169b797ce7a740808ab65388c073050763c3c5c4e1d5d06581"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_011.pdf",
+      "pages": 1,
+      "bytes": 67200,
+      "sha256": "19114788fb856f6efe1a3b77c464ef7fd6130a70b07683a89ecfa8325fcd41f0"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_012.pdf",
+      "pages": 1,
+      "bytes": 66516,
+      "sha256": "8cde1fa6d67072c177af290566c078408abee678920d2262658684b7dd1120dc"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_013.pdf",
+      "pages": 1,
+      "bytes": 66682,
+      "sha256": "ae4e41ee0dc70bd472180401812353db15e6e892fea54aad8c18bc3789cc5bf3"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_014.pdf",
+      "pages": 1,
+      "bytes": 66151,
+      "sha256": "0c93024886cbe2328bc5c0a7bff9b2cbcf76fc05c0e19da86c4f8f5f3791e24b"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_015.pdf",
+      "pages": 1,
+      "bytes": 64510,
+      "sha256": "b57e211dbb993f4ece44d1f409ccb6159c1f7361b631a7395ab148eeb68e0896"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_016.pdf",
+      "pages": 1,
+      "bytes": 65988,
+      "sha256": "5f18a2ee999b13ef041617cb9d839f4136bb0b37c6fe5fcce57e33999b86ddda"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_017.pdf",
+      "pages": 1,
+      "bytes": 65588,
+      "sha256": "a5df2f15bd742051a4b7d541e56694f06579827fbe704ffc81e1c0dfd9f9860f"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_018.pdf",
+      "pages": 1,
+      "bytes": 65392,
+      "sha256": "f40b194cf3147487cef8b5ea40eb745f7718954a5bcc6c7e82e7de87282835da"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_019.pdf",
+      "pages": 1,
+      "bytes": 64175,
+      "sha256": "59ece17abae876039089c24cbc7668352b0274a5b9b55714fb56f40b3468a187"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method3_cent20_80_020.pdf",
+      "pages": 1,
+      "bytes": 64371,
+      "sha256": "210168c1a8a77f2ecede7e9d838836366149538492838cc25f9179681d410a6f"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent0_10_001.pdf",
+      "pages": 1,
+      "bytes": 63046,
+      "sha256": "59eb01f6a1653c6a11d91a9b99436141412949884cbaab8359b0ca87857d785a"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent0_10_002.pdf",
+      "pages": 1,
+      "bytes": 62321,
+      "sha256": "3049ad3b95b8714594bea37c17a1a7aa0098309a398fcda2661c27538960f796"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent0_10_003.pdf",
+      "pages": 1,
+      "bytes": 61998,
+      "sha256": "b671d8a518b012e0789912de39607ffe2c5943e3bd6bca06dd4f77f984a54c2a"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent0_10_004.pdf",
+      "pages": 1,
+      "bytes": 61677,
+      "sha256": "d9a22de34f8c8eb3f86da201864dd5f66c7f2963000645303d0966f46b9202f6"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent0_10_005.pdf",
+      "pages": 1,
+      "bytes": 61129,
+      "sha256": "bcc736c5fe620cd60d981f7db96c6ff64ee79c5d39faa54c95350192d847e475"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent0_10_006.pdf",
+      "pages": 1,
+      "bytes": 61183,
+      "sha256": "124fc89e47c1b16435b1efc883c563ac5c6e3ca0b506adf06455df7fd1c3956f"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent0_10_007.pdf",
+      "pages": 1,
+      "bytes": 61152,
+      "sha256": "ca831212e1aad492fe2eeb0d42f76b7eaa237130177baaf25e89752415138d90"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent0_10_008.pdf",
+      "pages": 1,
+      "bytes": 61606,
+      "sha256": "cdfa549153cb587a081e549d8c47724ed1f2ad1b458ab79f10cbace81feafb53"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent0_20_001.pdf",
+      "pages": 1,
+      "bytes": 62636,
+      "sha256": "2c80543550c6715a38e72c929792de1b346752a40835a288ce6c662741f508aa"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent0_20_002.pdf",
+      "pages": 1,
+      "bytes": 62267,
+      "sha256": "463baf693d42751072700db82f402d04e8fa9386e94fb54659e40751301bd321"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent0_20_003.pdf",
+      "pages": 1,
+      "bytes": 61740,
+      "sha256": "fc249032e82f59b02c499218fd6b4d8cf175cd17ea4da17d7766d9d75d28ab68"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent0_20_004.pdf",
+      "pages": 1,
+      "bytes": 61383,
+      "sha256": "3c1b4549d0ab5b5bca08d287bf2fa9e3ee6b657627e784e7468ec21d2587f7f3"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent0_20_005.pdf",
+      "pages": 1,
+      "bytes": 61348,
+      "sha256": "4ccbdcb53bdd33a77851ae2656e2dbfe2fcf74546bd020b18d466263e9045efa"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent0_20_006.pdf",
+      "pages": 1,
+      "bytes": 61194,
+      "sha256": "85cd82ec99dfc327eb629f2c0e0f9109384faa4a4581cb457ddcb4fe6694be83"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent0_20_007.pdf",
+      "pages": 1,
+      "bytes": 61580,
+      "sha256": "17f7abe67d6bf1fa6f7fb67049b1a29a9e881506f90d12e279c96c638bc75084"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent0_20_008.pdf",
+      "pages": 1,
+      "bytes": 60800,
+      "sha256": "5b2ce700126ded3297e2d1c8cda04a94d2785b174c1b9309076daab3ca83a1da"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent10_20_001.pdf",
+      "pages": 1,
+      "bytes": 66551,
+      "sha256": "2fb7f0f7910879410c54a83e8a375ecf33490590af5c98500d104222fb93ba39"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent10_20_002.pdf",
+      "pages": 1,
+      "bytes": 64515,
+      "sha256": "f74f403749275d4ca88bb3cd45c746c80cb936806b73be6b1f9d59155d46f2a9"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent10_20_003.pdf",
+      "pages": 1,
+      "bytes": 62797,
+      "sha256": "33b834f8ae9739d36e3a4a9ba935797d2df0282bd26819f36d05ad51cdde70fe"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent10_20_004.pdf",
+      "pages": 1,
+      "bytes": 62533,
+      "sha256": "84a3245e2b8ccd1878a2234ab314ab507498d3fa78c67e932af3332bbc6662cc"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent10_20_005.pdf",
+      "pages": 1,
+      "bytes": 62863,
+      "sha256": "832869f463cae710bb638a788faf2659ca3e5d39b61f299cf32707d08ab77d82"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent10_20_006.pdf",
+      "pages": 1,
+      "bytes": 61801,
+      "sha256": "0b00f141df0c9b8d34a26fdc6b76df9b8e4fccc2d9ab88c1d0b9bcb344c8d324"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent10_20_007.pdf",
+      "pages": 1,
+      "bytes": 62376,
+      "sha256": "9064ab628ede2362f23159eda07e6504ac70f00e98f9513f73a32ba8d84cd4b9"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent10_20_008.pdf",
+      "pages": 1,
+      "bytes": 62062,
+      "sha256": "ba8be724dfb3ee5d5044bbd53743aa632bac11242d91efe321fc90f73d1e69d0"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent20_60_001.pdf",
+      "pages": 1,
+      "bytes": 67659,
+      "sha256": "433ec4d3f808a9cd6782963ebd5e57e08fb114373104187db75e868f1d7fb6e6"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent20_60_002.pdf",
+      "pages": 1,
+      "bytes": 66916,
+      "sha256": "aa9e2c3126047517e35a7af5a14d4740214967924b8ee410f3e5524d7c0b6cfd"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent20_60_003.pdf",
+      "pages": 1,
+      "bytes": 63290,
+      "sha256": "9fdef2accef6221684ec90223a455691e47436d6410e5ab19daea635ba4c1150"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent20_60_004.pdf",
+      "pages": 1,
+      "bytes": 63322,
+      "sha256": "7fb012f3fab4c38e0151ca7edd4420229f56445adc53cb88daf4b382fc1a0fd5"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent20_60_005.pdf",
+      "pages": 1,
+      "bytes": 63393,
+      "sha256": "14b0b5bf7cc09262c4fc585600206b31d39dbab313079285af30571f28cbb9d6"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent20_60_006.pdf",
+      "pages": 1,
+      "bytes": 63336,
+      "sha256": "1d8bdc56e9e0766512cf27e0285592936ea0d8eecdfec29d0d28f4708ca760cb"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent20_60_007.pdf",
+      "pages": 1,
+      "bytes": 62732,
+      "sha256": "8ffbc5e8df359e547eeb949ec030f44a7888bb66053d144a225c14c0560757f5"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent20_60_008.pdf",
+      "pages": 1,
+      "bytes": 62246,
+      "sha256": "6e551afd597f52a8cadcac13095b661f4e61c4742128eed991761367b3ef8f50"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent20_80_001.pdf",
+      "pages": 1,
+      "bytes": 67557,
+      "sha256": "6c35becd3aa0371dd09d35f3ad6c67c874b5c1109525c9843f699a307da63afe"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent20_80_002.pdf",
+      "pages": 1,
+      "bytes": 66977,
+      "sha256": "210897203740347b83f43f5885ee62a3e0e58f880ce566ffec3eb5c1d5f0add4"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent20_80_003.pdf",
+      "pages": 1,
+      "bytes": 63212,
+      "sha256": "e84d50ec02b2084140d5ac4d336bf050d378e3d3dee679c417047e239e573891"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent20_80_004.pdf",
+      "pages": 1,
+      "bytes": 63322,
+      "sha256": "3c795c022221b47720678d4def5076c899423a4b69b14b72be6d7dd60f788642"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent20_80_005.pdf",
+      "pages": 1,
+      "bytes": 63174,
+      "sha256": "9f6b649385686d3f26c4e02b2dfe7a11ba6da163b709b2fa54257c8c54de2f95"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent20_80_006.pdf",
+      "pages": 1,
+      "bytes": 63430,
+      "sha256": "234f1bfa621c3ac22820296881e44e9ed9ed9cc41be0252e9ed6a25e9f3ef522"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent20_80_007.pdf",
+      "pages": 1,
+      "bytes": 62215,
+      "sha256": "4cc4dc8643036bebc5acb11f12140c24b25df338ba1fbb32c00d19792a0e042e"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/fit_method5_cent20_80_008.pdf",
+      "pages": 1,
+      "bytes": 62150,
+      "sha256": "2412caa540ed0c95c728264da0e1a49a2dddb6473d6179fb99c912a03f0a6aaa"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/purity_se_me.pdf",
+      "pages": 2,
+      "bytes": 28198,
+      "sha256": "e96c8cb63dd3ab345d5dc33f08b3a36c6993bd0847ecf7ee31b422ae88d82aa3"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_method6_20261031_001/pdf/method6_cf_purity_report_20261031.pdf",
+      "pages": 20,
+      "bytes": 1026939,
+      "sha256": "8d83866ca5118072b66d283fde5cab8cf24ee934387d775dce4eff06ef0e2434"
+    }
+  ],
+  "inputUnchanged": true,
+  "previousCfPdfsUnchanged": 21,
+  "newMethod6Tests": 12,
+  "referenceComparedBins": 500,
+  "sharedPurityCancellationBins": 198,
+  "checkedCfPoints": 642,
+  "sourceFiles": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/ExtractPurityFitReview.C",
+      "sha256": "91a1b64dcfea15cbe0e9c3803754ecdf85104bd458658b53438ddcf1e8f40f5c",
+      "bytes": 7582
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/DrawPurityFitReview.C",
+      "sha256": "28045133cf407ecef488ac5e15b28fc52cfde5ebb6c3897af71fada02dba64e8",
+      "bytes": 19594
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/method6_statistics.py",
+      "sha256": "5d2eb90d4d767ace971ac81166b90d207e26b8f2ca454d40407e8822acb3022b",
+      "bytes": 16589
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/prepare_method6_study.py",
+      "sha256": "8e4eb43852e6367be056b830e292dd0c30775951c5e05dd7fe32e8a3688f9d3f",
+      "bytes": 26490
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/DrawMethod6Comparison.C",
+      "sha256": "f85231f80f4be53c92036a47f5c4005313a94e29c9006b49749bf5b7362b02df",
+      "bytes": 6888
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/build_method6_report.py",
+      "sha256": "48076bb339a0d79ebb3e293c27d0b7cbdd9aed08756119e9518816d87a316017",
+      "bytes": 26951
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/validate_method6_study.py",
+      "sha256": "79daaa9461fd75fbdb57dbe2233149fa2358b0f33348ac3be367f8009d23337b",
+      "bytes": 7708
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/crop_method6_figures.py",
+      "sha256": "6b9f0f87ec35bae5500a69b729cc4878a0d281d9cb107e85f2d1280f6c0a071e",
+      "bytes": 3332
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/README.md",
+      "sha256": "af9ad09b6978b77b5dd18519777666b0add6c82f4ee8ebc5496653bbb102f082",
+      "bytes": 25672
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/tools/kfparticle_summary/tests/test_method6_statistics.py",
+      "sha256": "01147b34bd0f55819933f62ec1a1fc9409f2f4b8a605c782b2ef1ba55cecc209",
+      "bytes": 10684
+    }
+  ],
+  "privateSnapshotsCopied": 157
+}

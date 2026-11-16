@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "input_before": {
+    "size": 285523525,
+    "mtime_ns": 1794359431832681753,
+    "inode": 2152215756,
+    "device": 48
+  },
+  "input_after": {
+    "size": 285523525,
+    "mtime_ns": 1794359431832681753,
+    "inode": 2152215756,
+    "device": 48
+  },
+  "input_unchanged": true,
+  "input_sha256": "da779727999c67b227691bedc490145c94bdf5046291e07a28ebdb376f6494a3",
+  "selected_histograms": 6,
+  "native_bins_per_slice": 200,
+  "displayed_bins": 50,
+  "normalization_closure": "PASS for H treated as a single window target in all five methods; not a constraint on fixed-weight point means under the inclusive D(k) measure",
+  "common_alpha_identity": "PASS for the three inclusive sum-ratio methods; fixed-weight averages are a different observable",
+  "common_alpha_checks": [
+    {
+      "window": "high07_08",
+      "inclusive_values": [
+        0.9064144952983412,
+        0.9064144952983412,
+        0.9064144952983411
+      ]
+    },
+    {
+      "window": "high08_10",
+      "inclusive_values": [
+        0.8639492546957958,
+        0.8639492546957958,
+        0.8639492546957958
+      ]
+    }
+  ],
+  "toy_individual_CF_unity_but_raw_combination_distorted": [
+    {
+      "target": [
+        0
+      ],
+      "global_ratio": 0.7857142857142858,
+      "balanced": 1.0,
+      "fixed_weight_mean": 1.0
+    },
+    {
+      "target": [
+        1
+      ],
+      "global_ratio": 1.375,
+      "balanced": 1.0,
+      "fixed_weight_mean": 1.0
+    }
+  ],
+  "window_global_matches_previous_study": true,
+  "covariance_of_differences": "Shared input samples included through difference of Jacobians",
+  "source_files_modified": false,
+  "root_opened": false,
+  "jobs_submitted": false,
+  "sha256": {
+    "settings.json": "d59641b28a3fb961c2b4aa514800d52f11aadd25b817f3658a23fafb3265d2cc",
+    "source/compare_combination.py": "b4e6d19b9d2c882e97fa89d4fab2640358688f3d24ebddee91a172e05979dc35",
+    "results.json": "db119c8c91b13344034aa796ac15ce3ab936aa5696bb450cc45d0270328120c8",
+    "counts.tsv": "a292526219fb00de7b0ad0d2a3fa0bf360fd15f6c7862c5e654912f54cdee952",
+    "normalization.tsv": "5fbc52a7ff1c87a1d6c04a16586b56a6397b9a6a1c1a63ed858eb788204bf342",
+    "window_results.tsv": "2b3fd5388684cf628cbd133bd0c7b5134e7d9e414ffc93a52d04f953a918f84e",
+    "display_points.tsv": "3e096d4d1d8666283456e7bba74856c09ffd9bf5d109152b722c772b883fd691"
+  },
+  "fixed_weight_extra_global_renormalization": false,
+  "fixed_weight_point_norm_checks": {
+    "fixed_norm_SE_weights2": {
+      "D_weighted_point_mean_in_H": 0.9999975757301856,
+      "renormalized": false,
+      "meaning": "Reported without requiring unity; not the same as first forming one H-window CF in each class"
+    },
+    "fixed_norm_SE_weights3": {
+      "D_weighted_point_mean_in_H": 0.9999818356926499,
+      "renormalized": false,
+      "meaning": "Reported without requiring unity; not the same as first forming one H-window CF in each class"
+    }
+  }
+}

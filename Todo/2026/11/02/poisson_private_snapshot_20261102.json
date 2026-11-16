@@ -1,0 +1,1407 @@
+{
+  "phase": "captured",
+  "capturedAtJst": "2026-11-02T13:41:59.746137+09:00",
+  "policy": "star_local/policy.json",
+  "filesCaptured": 225,
+  "bytesCaptured": 13474801,
+  "files": {
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_norm_diagnostics_20261102_001/pdf/README.md": {
+      "sha256": "56f1a55975a4135d0018577c23a75532092bb7611e75309a1c5cded2df3415aa",
+      "bytes": 4618,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_4He_KFParticle_3p85.pdf": {
+      "sha256": "615bf8a79424733de35658ffffbc92835a0b530135b3568e8dd4f36c2fad9524",
+      "bytes": 807570,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/summary_poisson_update.md": {
+      "sha256": "9de856ce837c0d5f14b305577be483922106896f528c05e41a8a7647fa03336c",
+      "bytes": 1112,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/README.md": {
+      "sha256": "8732d178d0ee2f2ae8c5f84644623505a9df5fafb10784127126b6652086c6b2",
+      "bytes": 4802,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_001.pdf": {
+      "sha256": "e7cde7b6f4feded44e330f1bd0ac52e7e8a0d3fc3870b47d1bad0f245e50190a",
+      "bytes": 43944,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_002.pdf": {
+      "sha256": "a5bcb45eb7c70255648dd63003a6ad99f0f4d23a7e7d57d868a49af1962956ca",
+      "bytes": 50927,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_003.pdf": {
+      "sha256": "af7163b181219be441a00fa4f5f704ce9ef06fed96324f665273d0b98fbeb8bc",
+      "bytes": 55202,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_004.pdf": {
+      "sha256": "6b2cc4fe59ed6a7306ad47c3a4f0efecf926cb85cb1324c3ef73f036f55450f5",
+      "bytes": 58445,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_005.pdf": {
+      "sha256": "e94c583b1febebb59b3da9b8b809200e9d8c104a26ba9394def2fb1d93036d7c",
+      "bytes": 58344,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_006.pdf": {
+      "sha256": "e7f22fb278f79d951c8948547e50250bbb5e3225c624bf9a7632e10a076e3642",
+      "bytes": 58768,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_007.pdf": {
+      "sha256": "aa4644fae76fb37d77aae24f883717296e39c8432ad43f67b6247198eec1ccb7",
+      "bytes": 61064,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_008.pdf": {
+      "sha256": "0e79222bb5615c2e773cf4cea537442e17f41a9be0d68cb5b42485a4b2257bc4",
+      "bytes": 57215,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_009.pdf": {
+      "sha256": "4c06e32c01c33be1a2c29e1e4cfaceecb7c78ba84a2899b443a325cfd400d8d2",
+      "bytes": 60230,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_010.pdf": {
+      "sha256": "fea40ff0992aaa4a904bf463845ae46440bf9f308acc0bd4c73846ef510ca567",
+      "bytes": 60521,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_011.pdf": {
+      "sha256": "6916cd7d369bcc9d93982de0473c741d64b5e6d099ed6148eee90832885d40b9",
+      "bytes": 56562,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_012.pdf": {
+      "sha256": "1c8f0f337dec1e2b95149a84e70db6687cf8bff3555b703c1b4f39d31f28dfd3",
+      "bytes": 56804,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_013.pdf": {
+      "sha256": "83f2f054b6fd1ba464b2b75af03662ed9904f504145c4087d403acd7940da3a5",
+      "bytes": 59430,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_014.pdf": {
+      "sha256": "fb390f95217c1b4ba3da27bcef379511bd49255f601add04df74e17b2a142a59",
+      "bytes": 59342,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_015.pdf": {
+      "sha256": "4e8ecbb76e8ac3ebf837af721d48db9de2ea297b4c62d9e6f5ad882c48a00113",
+      "bytes": 59414,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_016.pdf": {
+      "sha256": "cd9958b728540f80ab3f1be9e506f2d92d1b59ed6909e0b8a5f4049080667cec",
+      "bytes": 62934,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_017.pdf": {
+      "sha256": "78af1bacd1e6c35f425218004564f4bcc4e88d198d5fa25a036ce95a7259f4c5",
+      "bytes": 62853,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_018.pdf": {
+      "sha256": "46cc38a3751b4b6c32c715a272032651edb1544cde13fbe5526cb7c31bba5b7b",
+      "bytes": 60296,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_019.pdf": {
+      "sha256": "17957b47235beeacb34706e502e5e5240f38280a0328bddfba351e63be996223",
+      "bytes": 62693,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_020.pdf": {
+      "sha256": "223fd4c9841a2dba2002f257e68b780be1e6fc7fc1b3c1240aa5c5e337d72217",
+      "bytes": 62969,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_021.pdf": {
+      "sha256": "170e85e89e5d733784d0d812772e9ea5536782828119bb4004c77a2bbf240862",
+      "bytes": 62935,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_022.pdf": {
+      "sha256": "44ac03ae760d0fc72daa80f3075ee180c17206d33531edb6a1cc15afe00461db",
+      "bytes": 59636,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_023.pdf": {
+      "sha256": "c85b13d9182c59e2eca5cd8877c1b57a21c2942354c714727e3d086a7279370d",
+      "bytes": 62172,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_024.pdf": {
+      "sha256": "ac1a69cb441086b899aef93f2be2985840a5efcdc958e4aae829147a3c19ccb6",
+      "bytes": 59593,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_10_025.pdf": {
+      "sha256": "f6cbc498b17583524a2e5cbca000c8e6e6de4a1cb24a6e4b9c1d15974ac1eb7e",
+      "bytes": 62151,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_001.pdf": {
+      "sha256": "83da05e6d2b58934c1c53f9cba64b213ab79d00af4236f9c527e041e03a755ff",
+      "bytes": 45498,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_002.pdf": {
+      "sha256": "a59d963d38f55fff9dda7c7282583cbfadf6cec79099834f0e1ce7225b88f173",
+      "bytes": 51710,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_003.pdf": {
+      "sha256": "f58423f4e25c5a0261d9ec872bb78e9d0c831e653842422b5b19aa2760114958",
+      "bytes": 55716,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_004.pdf": {
+      "sha256": "e0ee43ac51f0c835788c877a705065d40a277ebc286b9a76683887e3647e2a96",
+      "bytes": 59425,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_005.pdf": {
+      "sha256": "fc09be2963866d8640a2423f31d2547c59c40b0326a34736443d770838655cc8",
+      "bytes": 59114,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_006.pdf": {
+      "sha256": "1274c3ee4935b41e4c5c646299a9ca9b3a59e1807662c853982657eb96c6c4b0",
+      "bytes": 58775,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_007.pdf": {
+      "sha256": "1315fe1c7c22b7b2156bf5588f5ff7fd19179fd91f795ea29e6593766888692e",
+      "bytes": 57040,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_008.pdf": {
+      "sha256": "1fb4d9aae8fae5c353a444f4fad5dacb607f5b675084ad750439cef70ed24aa3",
+      "bytes": 56724,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_009.pdf": {
+      "sha256": "e4eb46670b1a2063e60a69ac9e700a9ba4cdff6b24da5f24d1a260b9ceca6539",
+      "bytes": 60334,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_010.pdf": {
+      "sha256": "23d0783de2383ad5fcad61943e08859ea86d1fcdb2e9424b70ec0a7f2aaccfdb",
+      "bytes": 56652,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_011.pdf": {
+      "sha256": "0365a8a20ace571d4431bebbe015e0a0d01c45cdce39b3858398b178494d269c",
+      "bytes": 56639,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_012.pdf": {
+      "sha256": "87578ceeff2ea21abd6b12b5337e0dcab0ec0669a5d719bbe966a1dd1b359acf",
+      "bytes": 59512,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_013.pdf": {
+      "sha256": "6f59457dd3f87928598abc6df16c1abf43b5df96e753198d31c72e1e8fc638ea",
+      "bytes": 59284,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_014.pdf": {
+      "sha256": "bf4c82723d34770c57a143568fda260692b6846840ef4cf4421b5a51f960ac3b",
+      "bytes": 62599,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_015.pdf": {
+      "sha256": "c95fd2fca932f9bd1ed1412faa31199c90cb353d4b6a6f6e3e3a3e14ae0a314c",
+      "bytes": 59995,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_016.pdf": {
+      "sha256": "a02a37c1b4fe2188f51584fe3188bdf8d8a0e22766fbc27d615e1711be9262dc",
+      "bytes": 62738,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_017.pdf": {
+      "sha256": "18b3f51da644dc1656a0f92fa774e1d32ec74c62a3f51138ea17ce079073879d",
+      "bytes": 62800,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_018.pdf": {
+      "sha256": "27a42400d8cecf81c3e7c52335a98cdb2132a58eca7166af4a99a22049485843",
+      "bytes": 60190,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_019.pdf": {
+      "sha256": "c690a2e685fd0767618899ca16ea93f3c76196326209796377bd1bf8c48a2daf",
+      "bytes": 63074,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_020.pdf": {
+      "sha256": "f1424fe2a49ebd8417f3c76758a1f48aabc8a2a876b88665ea2755805d77f091",
+      "bytes": 62457,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_021.pdf": {
+      "sha256": "79d6ffb30adca6c13ce547aeea63ba7ecd09156e7513c429c9cdc7d8cd258785",
+      "bytes": 62424,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_022.pdf": {
+      "sha256": "7db9de053a758cb7f90cb276fd72e3471caf1ade780a8f7e7891b37860522c9d",
+      "bytes": 62594,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_023.pdf": {
+      "sha256": "59eec575d678a811d42716f3cf365e657f92c1f61bf589cdfd983c16d012f85d",
+      "bytes": 62645,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_024.pdf": {
+      "sha256": "0c0f0c3b376a9e9fbee29ca72096e49ec98acb5e316f47708e3f4eaea0d48927",
+      "bytes": 62514,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent0_20_025.pdf": {
+      "sha256": "a9127aa3aa3813696cee46562dbad0b43fdb657a06a11cff7d522fff945ae904",
+      "bytes": 61780,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_001.pdf": {
+      "sha256": "f99bd056ef9fdc5a1349b6450a694ac7f3ba6a64918b214f02f8bc3ddd3e8911",
+      "bytes": 32693,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_002.pdf": {
+      "sha256": "9af857c5e8c6704cb75e03bcdf17300b5e2c5e6e19e69c82fb2b2288b2be02ff",
+      "bytes": 47659,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_003.pdf": {
+      "sha256": "81c2ae50f653c76381165161670faec539bebc6024ecf9737dca1b3bec69de23",
+      "bytes": 52046,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_004.pdf": {
+      "sha256": "43165258db9293b9c71298622f6ad3b52bbe5cf5a2aed433f8058b1ac130a596",
+      "bytes": 53795,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_005.pdf": {
+      "sha256": "590080d72d3cbbc546a7f0b3420ba31e893aa5eed98ebf9286dd30b844b24a42",
+      "bytes": 59548,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_006.pdf": {
+      "sha256": "9ceee70e4983fd515b6cd357842e6a830f3b263b35421477c1eb3c764b93c0d4",
+      "bytes": 54303,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_007.pdf": {
+      "sha256": "6d26b2f2bf4993e04d28ced7fc36202c09da7d1182326e34d7dc83fb657a186a",
+      "bytes": 57090,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_008.pdf": {
+      "sha256": "2ae56493d52523eddd705fd1932ae4b15762f5f3483cdb19226bbc207fa11844",
+      "bytes": 57239,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_009.pdf": {
+      "sha256": "7b0d8d32b5cce94c40d95c140275752555dfe73f75fe23b8e6788a61193b3664",
+      "bytes": 62629,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_010.pdf": {
+      "sha256": "667634a673da497d9f936b432ed8c021bf0d76424e6f4c06ef326fe4fc82a2ab",
+      "bytes": 60466,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_011.pdf": {
+      "sha256": "167fe53fb55aae9a325693f03ed612e72044358aac91a1e7fd3a4a99b63e7070",
+      "bytes": 57371,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_012.pdf": {
+      "sha256": "7584c93c93d4b895363ed2f535d70f195f3d75a66ec7da9c59ed90138ca49383",
+      "bytes": 64393,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_013.pdf": {
+      "sha256": "0f765aa5b26f4a76dbf8df37a164dc1425b5ab5dbabf1676497bf479591e9533",
+      "bytes": 60917,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_014.pdf": {
+      "sha256": "d9cd1874ba38d009d976da28e7f2d6f03922503c9fb9c41061f94128a416cdc8",
+      "bytes": 63928,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_015.pdf": {
+      "sha256": "f552359191f95f14e866f04b719672edab7aab983ec6700cbcc78fdf14c0ac8b",
+      "bytes": 60671,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_016.pdf": {
+      "sha256": "c72d63fde75c251aa1fa8052cab8270c3e075cc8b34db9f2b95d1ccb6c253899",
+      "bytes": 63474,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_017.pdf": {
+      "sha256": "26a0e8a78c5ed45fb765e825690c8bec13b161512a98ec7c05ac0cb6daabd400",
+      "bytes": 60504,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_018.pdf": {
+      "sha256": "029cdee56686deafc35be274dce31cb4cc0113aed96e6d7c7a7455fdf4aa0c06",
+      "bytes": 60759,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_019.pdf": {
+      "sha256": "ded90bad00007221c611f6e46f795bccd9bfd4e42502b7478db21abe640686cd",
+      "bytes": 63914,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_020.pdf": {
+      "sha256": "a9d377f37d326577cf612dc3566854c17aa7a5ecb1c1b2f05867905aae521387",
+      "bytes": 64278,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_021.pdf": {
+      "sha256": "ad6988dfbc0feec1801ee4a2129208198ac6deed83f1341683b1e0f02ed06969",
+      "bytes": 64236,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_022.pdf": {
+      "sha256": "d48f0948cc07ba94ef8899a06ecdce59a4e300efbd975768b71fe3060b823442",
+      "bytes": 63700,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_023.pdf": {
+      "sha256": "edcabea14ce2445b8e87d196b0ef649a1a1fccb9dc4352e55c5e9c24118039dc",
+      "bytes": 63775,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_024.pdf": {
+      "sha256": "27edf334066b7415c286d831de4c657795d167c6f1e075360d5f21c13dac79dc",
+      "bytes": 63184,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent10_20_025.pdf": {
+      "sha256": "79076a030745491b9ea52c532e3203b3bf3f0f8e13ec49060076567fe6d946ad",
+      "bytes": 63394,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_001.pdf": {
+      "sha256": "1af322e090a247ed7be16573ffbe7cda90bd48f1c0280e01a34f1e7239af428e",
+      "bytes": 31849,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_002.pdf": {
+      "sha256": "9a350de4791143340a024ff9619b23b03239f1ff0c5883807972f33b39245fda",
+      "bytes": 51029,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_003.pdf": {
+      "sha256": "76146b2f5ba6414b42439941d2df4fcb0047b1847950ea0dc3392c838e9d6ca6",
+      "bytes": 55521,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_004.pdf": {
+      "sha256": "a9f6502c3b0c3f164ad9738a8deab57873d478aa8afe8c263b481bc9799464eb",
+      "bytes": 53070,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_005.pdf": {
+      "sha256": "c1bfeb0fb8d0dc4704cf8f611ccc46081d3efa88ad3c0c5d1e7a1812de6a951d",
+      "bytes": 59061,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_006.pdf": {
+      "sha256": "7944052bfaf81749d3e57e0a51fe704526dc762fa2d8a35854cba2c1de1f74f8",
+      "bytes": 59738,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_007.pdf": {
+      "sha256": "26d65db9c9307c49fdd4174c260d7282fa369fad6482d6847884cedea3ec73e3",
+      "bytes": 56182,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_008.pdf": {
+      "sha256": "297ec44111c0ba17ab3bfc38dce0cc2a5e3695deb965f62566ac60676a7be193",
+      "bytes": 57731,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_009.pdf": {
+      "sha256": "f63847e339f8fd6fa8afa2321d387b44d0d30487741f306f79162c9347f3d271",
+      "bytes": 61249,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_010.pdf": {
+      "sha256": "fafc92484d911ccf7205b131a999c2e8c4864ac62f22cd558bed8c5472d077ed",
+      "bytes": 65254,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_011.pdf": {
+      "sha256": "6482ff91431f756a0afbd191dffbf01440a67569174194b5a1692920b9d8e7c2",
+      "bytes": 59291,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_012.pdf": {
+      "sha256": "faba8ebb0619a052164cb986fd423b986aaa309451f55e3787256bdc67f27552",
+      "bytes": 62318,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_013.pdf": {
+      "sha256": "f1dec1642065e12fab6261d04b3ccdc7a80ed31c99324bcc7e05647c1ae6e5ed",
+      "bytes": 65414,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_014.pdf": {
+      "sha256": "304cf184a38862c4593631ce39464a8ca5de91cb49c748ce38b1d057350d30ad",
+      "bytes": 61461,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_015.pdf": {
+      "sha256": "7a56c58a7c1a411e7fe173c4f2bb13e518c9f079ab8298d2e056e3080a73aad7",
+      "bytes": 64235,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_016.pdf": {
+      "sha256": "748c588ba7f6233cf5854aaa9625e2b66ebe58ef7721ea4710f1188a33389989",
+      "bytes": 61802,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_017.pdf": {
+      "sha256": "40d173f7347a23ea1da57992db024add379588599d92642cf9d283fde1b524a3",
+      "bytes": 64901,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_018.pdf": {
+      "sha256": "bd032a1b3ee2e68003014bc38c476a71d4302f84aea5b6ebf5b93f7ed858b0f3",
+      "bytes": 64880,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_019.pdf": {
+      "sha256": "f0f1eee16fb970b4192a29eaa51c9239994b6874ddf9cb6ac8e4c8888d1f5996",
+      "bytes": 60958,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_020.pdf": {
+      "sha256": "b269d5f39e5bbd4a22d7123c9e1ccd723fbb725acbd118bba8414a4960e93336",
+      "bytes": 63756,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_021.pdf": {
+      "sha256": "1d63360cb9e6c4478cf3ea3e29c482a65981ed808eaadd6ec3adbdb7f6116e2b",
+      "bytes": 64190,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_022.pdf": {
+      "sha256": "f0dca3b69a4a09939db4771bf911b21223b57c5f697a411897c6e18609efee0d",
+      "bytes": 64080,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_023.pdf": {
+      "sha256": "9ddec8160c2d51e50b6107398a15bc95479992a8bdf9857bd371d512d0e4d1ae",
+      "bytes": 63894,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_024.pdf": {
+      "sha256": "bb0ef01313a8c7f2abbb102571d81b8ed4ca4c1747ede72a5edf76a30832cf1f",
+      "bytes": 63700,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_60_025.pdf": {
+      "sha256": "853a1b87f7e402b9083ba00868a4c8c58c4230ec3b67b355d24e1d63e5dc2944",
+      "bytes": 63615,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_001.pdf": {
+      "sha256": "f5b4cc3e3ae846ee45299be8542cce3020fed0f14492afdc0cb2ede690a005d8",
+      "bytes": 31889,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_002.pdf": {
+      "sha256": "91d70f69cf03af6d18f16847655568538a295c3e6add5a146bbe3cdb758765c8",
+      "bytes": 51123,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_003.pdf": {
+      "sha256": "56113daa66b455f13f36adcdd8f5a85ec132a0e271f77081b82eb3bd0ddf5d1e",
+      "bytes": 55478,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_004.pdf": {
+      "sha256": "13a2865218b599e71ec6d199a8053ffbd1bed1407ea25e46e96ff497cfff1430",
+      "bytes": 53031,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_005.pdf": {
+      "sha256": "2c51ceaa04fe9d3059e02a6a38a72711fdc72b1fc59c105592711c6ae65bd82d",
+      "bytes": 59067,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_006.pdf": {
+      "sha256": "fa3047648821d59613e20391f63576da30a472c53281c49a03595a8dafc5223e",
+      "bytes": 60297,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_007.pdf": {
+      "sha256": "2ff313c50a09549fd13492255556cf4f2f73d3c9d185cb4c4f787b437dcd476f",
+      "bytes": 56279,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_008.pdf": {
+      "sha256": "43f9b8c5bdb44d070f72267f3d6c352e4b7eb025e13d7d3d8c842c8913b9751b",
+      "bytes": 57771,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_009.pdf": {
+      "sha256": "d4c5549c38d2462edd42661c84bd788f6b2bcb74a9d380a4e1f703bb609ad402",
+      "bytes": 61451,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_010.pdf": {
+      "sha256": "1bbecd8706c078645acbeb5fe5f9ae1051e696390119c3b4af1a34dd473b7cf3",
+      "bytes": 65331,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_011.pdf": {
+      "sha256": "46a4c4dbe111e18c317ce685c11a9d829be0ea87fc116aaad544c74892f058f8",
+      "bytes": 59313,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_012.pdf": {
+      "sha256": "d45ffe41a40d869260b58b7b09dd2388ebb24ada95ba9d2b7fc76b1387ade64b",
+      "bytes": 62420,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_013.pdf": {
+      "sha256": "110977485fb90744885d300e2e559e97fccf244d41ac4f04a9f81f508c1fbae9",
+      "bytes": 65643,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_014.pdf": {
+      "sha256": "be0dcc318557893e4fe22a9f107e969e6e177ccda0fd6d2c35f5e9910a5e2027",
+      "bytes": 61376,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_015.pdf": {
+      "sha256": "05c42fbe0bc72cb3b9f71981cedef4d582a9cfe8d9bfc61a2975487b5c9d2a1f",
+      "bytes": 64378,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_016.pdf": {
+      "sha256": "599ff4c3ad7faa70fbb68e3ac101bd390d3d9fe624b57fc4423bef4ffb207bf9",
+      "bytes": 61855,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_017.pdf": {
+      "sha256": "366b91716921b943ba2fbb07871406cec7a6a091c47fb1b503fdc433888852ce",
+      "bytes": 64951,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_018.pdf": {
+      "sha256": "59bada74cf6ae661e3487457e091f2474bc78710a8f87cdcceda61b102104718",
+      "bytes": 64842,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_019.pdf": {
+      "sha256": "9cb98ab30a81f7f60c0a5ad1bc2b54aa4a307578d1859490aaaa094599759c8d",
+      "bytes": 60899,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_020.pdf": {
+      "sha256": "826775ba3eaad2e22733ec87776b0e6224adcb606b47602a782a455c9db6c035",
+      "bytes": 63831,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_021.pdf": {
+      "sha256": "fb4a1a86d515e9d330e6294e87e128dd9680cb031b552df36fb81523eeefe647",
+      "bytes": 64179,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_022.pdf": {
+      "sha256": "6179f726551e9c8f292319ab5275658ef497694c1774acc0d3fdbba52d84e252",
+      "bytes": 64071,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_023.pdf": {
+      "sha256": "0fb1c8f45569c20ae30bd3161d71f09be05523ded4958ca5fb3b77a7450631b7",
+      "bytes": 63975,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_024.pdf": {
+      "sha256": "7c63e96fc0a5edfe26ad642e5850f9a292619c662147d7ae30034359ac11bbb4",
+      "bytes": 63828,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method3_cent20_80_025.pdf": {
+      "sha256": "84ae2b88c0447fe7105f1cdb2868adcbf472b6585b2a082ac8ddb436a274b9fa",
+      "bytes": 63559,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_10_001.pdf": {
+      "sha256": "e2a5caa279a5152923a15669720e46df32f32da6990675e74fee6b3cb1943b30",
+      "bytes": 55931,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_10_002.pdf": {
+      "sha256": "fca080e4d3bc0f5005c69201a990c0f89018cf71f6cd09ca418f19fcdde118cd",
+      "bytes": 57304,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_10_003.pdf": {
+      "sha256": "ffe405ea926a22c3bd0deaad148fa0b6504bdf93ed76bb3608d4bf2f87c3d1cb",
+      "bytes": 57095,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_10_004.pdf": {
+      "sha256": "50943e93e74533bf0db5f8faaf808c0011ecba946a619cc74cef0db6af92ddc1",
+      "bytes": 56486,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_10_005.pdf": {
+      "sha256": "800d2702d9dea038321dfc8da9aae51333a4b2282d9c5a42cab825bdad5e4c3c",
+      "bytes": 61924,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_10_006.pdf": {
+      "sha256": "b77a789faf7bf8486569280f879a64eaa73ae4ec39804541a27f0575e0653021",
+      "bytes": 62070,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_10_007.pdf": {
+      "sha256": "45154043a06be5b9d6b928d7a97720a8d2b142c6dda163af49dd2ca85d49fe4d",
+      "bytes": 62081,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_10_008.pdf": {
+      "sha256": "45e31da683c4cd14708d54dfc87683b890a0d00ca393def9f20ae8cde2aec528",
+      "bytes": 61915,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_10_009.pdf": {
+      "sha256": "918b40b334ce2fea53212f8b39741bfed471fb7e6bba6acedfa9eabbbab132eb",
+      "bytes": 61830,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_10_010.pdf": {
+      "sha256": "b438431897db2d3167fadb137c473738ed45c7348472f66ed8f458fc6c57ced8",
+      "bytes": 62224,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_20_001.pdf": {
+      "sha256": "4a1ba30fc91e7ca4421029a1affbd0464041481ed3fe26b88ab4cfa740f2832f",
+      "bytes": 56434,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_20_002.pdf": {
+      "sha256": "7e8b0834c948bdb855c9b09f6a6e4ce455f05fe9d7290576cb9f031ba5c857ed",
+      "bytes": 57626,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_20_003.pdf": {
+      "sha256": "a5034aa332399e26bc3e0bd8b994600e698c7037629e6a0c4d61d0ef56453e31",
+      "bytes": 56951,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_20_004.pdf": {
+      "sha256": "f3ce90cbbb1ebcffe5fc2030fd65789f4f7ec98e76933658e51f3c1451f09443",
+      "bytes": 56376,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_20_005.pdf": {
+      "sha256": "8f08508df5886898ca3efdc2ab7e407c436e425825700c4c673569c3aab48210",
+      "bytes": 61907,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_20_006.pdf": {
+      "sha256": "e8441ad6d83bff37056f9118f6c9a3b9f358e104f725fd6670e669141d4ce900",
+      "bytes": 62128,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_20_007.pdf": {
+      "sha256": "f8368342a805d07288ac9e05ca40993d247661b9bfe00d0a2dc29b52e0a6e2ec",
+      "bytes": 62058,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_20_008.pdf": {
+      "sha256": "5024f0473fa005ac2dde92cf0f7779f283476960089a24e6fde740d11d2f87b7",
+      "bytes": 61906,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_20_009.pdf": {
+      "sha256": "9a5a370b96535d3e6a07fc9bf211b58b1e10ea77544fc935253b770375b823a7",
+      "bytes": 61913,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent0_20_010.pdf": {
+      "sha256": "9265d4ad14f6ce58f618784c2abcab545439807f0561228936965614931a85da",
+      "bytes": 62168,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent10_20_001.pdf": {
+      "sha256": "5d4cbb04ebeb91caa7bfe6803bab6d504893ded8b460f4e5c8a21886435e7827",
+      "bytes": 54585,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent10_20_002.pdf": {
+      "sha256": "174fc1d9731927dbc165935cbd328ce343f06939341e6d4286d8766211ee3574",
+      "bytes": 56272,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent10_20_003.pdf": {
+      "sha256": "eb44bda470645d1cab3361ae365051114957082b8deeba95170b28ca3034d033",
+      "bytes": 57526,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent10_20_004.pdf": {
+      "sha256": "f185884672b2e3a5ac68d190d201fabb8c69e4856e34cfa7b1e14b52b4f487e1",
+      "bytes": 57743,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent10_20_005.pdf": {
+      "sha256": "bed31ef3f876b7135d535a8a782ef8f3d881c8e04250b1b008a289c0bd3ee506",
+      "bytes": 61265,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent10_20_006.pdf": {
+      "sha256": "e71467d4c14a1116b9e6f24095e0398b2dd497043de95ce67441c712a08d30f5",
+      "bytes": 62724,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent10_20_007.pdf": {
+      "sha256": "32de5d55c10a85c1bd2cd824ff1aaaff3cf29f51cd29a4339b7f97906f5a9265",
+      "bytes": 63191,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent10_20_008.pdf": {
+      "sha256": "5505ef43ad056b532df5a2205a71e79e5dff6ff99bee84d051a11b5744985ed8",
+      "bytes": 62948,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent10_20_009.pdf": {
+      "sha256": "480b9eb3a429a3c5d6f992292fca20d7d2a9151098fcbfc1f61ae26eb85d4e61",
+      "bytes": 63218,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent10_20_010.pdf": {
+      "sha256": "0258a0ac450b30008cda0fcbe1ad385cb9f13b530ffad0fbddc4b87c3a0b2a64",
+      "bytes": 62629,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_60_001.pdf": {
+      "sha256": "76eadeadbfe155b0806ff440fab43ac788a1828a8c34d50f7d08c373dc343b4f",
+      "bytes": 59032,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_60_002.pdf": {
+      "sha256": "c8e6d85757dfd970a1f88f9215fd49f5173a1e4d8556f873efd1b6f1de3eebeb",
+      "bytes": 61228,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_60_003.pdf": {
+      "sha256": "aeae70f5e8e295576c0cb2f84778e490fd68e3538cc7c4a068ee4ea5abc8c3db",
+      "bytes": 60897,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_60_004.pdf": {
+      "sha256": "db06c0247185c04333008ac2b05c130a12d4924e2c2eb2ba8b1c74361dc283ae",
+      "bytes": 60769,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_60_005.pdf": {
+      "sha256": "5d910b05ff412267a5e78258933446ecdf8be3082dabe64d984583d57cb7e516",
+      "bytes": 64730,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_60_006.pdf": {
+      "sha256": "2b6d9c44b0243ef7c421769cba446c958a72634c94b045905a3e2b85a5f30cb1",
+      "bytes": 63988,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_60_007.pdf": {
+      "sha256": "d19b3e543f3726fc34217c204209cec1495c5e67bc296d7df279e5b88138b736",
+      "bytes": 63214,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_60_008.pdf": {
+      "sha256": "b591ad61d29f2b932b3254c94485d7cfb390ed105f1a918f507c5c7de339e766",
+      "bytes": 63067,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_60_009.pdf": {
+      "sha256": "6b890cdabe2fb91ce77245a39c57b175148ec41cf31c45eb099932e5ff9a8962",
+      "bytes": 62911,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_60_010.pdf": {
+      "sha256": "228701c79f58f72232a0a9f8ac411445e989c300670ffbe3c22465c8ac15e847",
+      "bytes": 63091,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_80_001.pdf": {
+      "sha256": "084ee5c56f51d37705392a7d3438e4bc199311e5d62d5695b271160c7fdaad20",
+      "bytes": 59058,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_80_002.pdf": {
+      "sha256": "c886f225352e790ba0586b4c2fa347d2f60551ca00e1b27514fc635812137174",
+      "bytes": 61231,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_80_003.pdf": {
+      "sha256": "3faca2b497ddf8221b7abf4457e2372cfb268c946fea2443c165e6c335da6d6e",
+      "bytes": 61029,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_80_004.pdf": {
+      "sha256": "0a8bf9f51597966b155eef5decce8c65f36ede921e2b3f2accaaa5af42b2f141",
+      "bytes": 60867,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_80_005.pdf": {
+      "sha256": "7023e6f0fa0cfa804a95d7bd271cb1c1dd4e80a8bc9422e3c9222df3036bb5ef",
+      "bytes": 64667,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_80_006.pdf": {
+      "sha256": "125e23d2819ff254b2c20511f5c4c5aeda8b759d2ba567ba2e15f99945dbbfa3",
+      "bytes": 64004,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_80_007.pdf": {
+      "sha256": "91bfb0d38b47823e51923ab70066df81f5cbf4718ab4d6c27c9b91de2ec8cb99",
+      "bytes": 63118,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_80_008.pdf": {
+      "sha256": "d95b7388bc42d24451b2e3487a709bf7fe5c5433f066457175e25f117527e572",
+      "bytes": 62885,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_80_009.pdf": {
+      "sha256": "ceddc507f4d1212fc907b21d0f054829dfdeaa52a8a2f380377aa629a357595a",
+      "bytes": 62870,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/fit_method5_cent20_80_010.pdf": {
+      "sha256": "61971fb323e58cb5b0821ba2a5fc8f5c3c958ff17280ba34f866cd0cd2c7a23b",
+      "bytes": 62993,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/atlas_method3.pdf": {
+      "sha256": "d644609638b082b4899e956cb5c8f858d983d1869247b755f56900fcc3cb8baa",
+      "bytes": 176975,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/atlas_method5.pdf": {
+      "sha256": "8908d016bd8cd4915b8759cd8a8f429aa120db6f2f5c9fe624d10eff038e001e",
+      "bytes": 248414,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method3_cent2_014.pdf": {
+      "sha256": "3bac2f79cb30b588a7def98a4d6f134a5a5be6dc6717cfaa9d6f19528cfeea77",
+      "bytes": 50373,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method3_cent2_015.pdf": {
+      "sha256": "588b198405b5e89a032077a23a370d0755d8cd039bea75e78426f0532d3d5b7b",
+      "bytes": 47596,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method3_cent3_008.pdf": {
+      "sha256": "e1d47bd2cb876a4ca66a274f820f5460a49de48020d1bd6d0a7905c58f3b1129",
+      "bytes": 47753,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method3_cent8_004.pdf": {
+      "sha256": "d14cae663ab77294299ecdeb99941a8330cab9249801c847b4b8e5419da4f1c2",
+      "bytes": 56559,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent1_006.pdf": {
+      "sha256": "992e63fdb9bd8b1f2afd20863a4b68f00d3c09366b4e7446e80dfc6b7aff2253",
+      "bytes": 50849,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent20_80_007.pdf": {
+      "sha256": "e4cedc5bb8444b056710d20439255a41b260e129d1ad980c9ca3b85299ff4faf",
+      "bytes": 63118,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent2_002.pdf": {
+      "sha256": "1bb1ebd383a7b88db421f4e74aea81ad8a76da4f9b6d584fbeba35965f41c20e",
+      "bytes": 45973,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent3_005.pdf": {
+      "sha256": "34dc89c27f5b03eb33ce090d4618ebac225083aa0ff220f24bde602d8dd9cbe6",
+      "bytes": 60447,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/fit_method5_cent8_006.pdf": {
+      "sha256": "294cf3be3f47d27c5e05054e27da314d17977093199dcaaa4eb6e1b78a8e6b12",
+      "bytes": 61956,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/cf_methods_3_5_6.pdf": {
+      "sha256": "3b986b5781e335cc84b6535c3f549963aad5d52969ebbb553e9aad0e2579672b",
+      "bytes": 29232,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/cf_objective_comparison.pdf": {
+      "sha256": "bb0183abaf8554307a5d7f497c7c3ca3c77e75623b78e23c92b49a138bfd872c",
+      "bytes": 39397,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_fine_method3_L.pdf": {
+      "sha256": "395aba56a44cd622d7b7140d39210761f0b7a974a16cdd6c905ae2b54a0b0c67",
+      "bytes": 28139,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_fine_method3_comparison.pdf": {
+      "sha256": "ce1cf9212f2f5866fadc3591b0945d3c81a93e407c6395265a59012e908451df",
+      "bytes": 35493,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_fine_method5_L.pdf": {
+      "sha256": "630b23512eca75ed1e0b9ced52ac39ffc6da13d4abad7bfab8961fdefa936241",
+      "bytes": 23334,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_fine_method5_comparison.pdf": {
+      "sha256": "e1231146ea42aadd35e7b20215a5f454bf4495233bf4d10e9e8a4c34c05da988",
+      "bytes": 26772,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/purity_se_me.pdf": {
+      "sha256": "8c303ebc9217002fc08cfe71f8a24452386ba21ec5e3998fd3b59380bca76929",
+      "bytes": 32410,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/fine_extract/extract_settings.txt": {
+      "sha256": "d23c54561e816c93f2636dc55a8b4ecf53c7bb70272b529acd03bc646fa5c958",
+      "bytes": 468,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/group_extract/extract_settings.txt": {
+      "sha256": "9ff26efa86c07f1d742245cbd4d2662b044c23eae4d31101ac0ff9e390804676",
+      "bytes": 422,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/macros/CheckPoissonEmptyBins.C": {
+      "sha256": "347b6361e66bc521a315fa4e3ed336ecc9ca4eb2e12858cafc87fc08c7d1db99",
+      "bytes": 876,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/macros/ExtractMassHalfCF.C": {
+      "sha256": "3a3a6882135d7b9bbbfd170186b9c37ccb5f0a0a3391ebd29fafa25689953a0a",
+      "bytes": 32954,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/macros/ExtractPurityFitReviewPoisson.C": {
+      "sha256": "3dfc26355e34329021d0a4a11e73e331b18181195e4c61767238da1a422d54a5",
+      "bytes": 7665,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/normalization_settings.yaml": {
+      "sha256": "feb2b91a1c16322df77a1665c41cf62f13bee3889e706cb5b867d47bd16f70ee",
+      "bytes": 769,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/plot_settings.yaml": {
+      "sha256": "20f48c3540b2e43db8df39ef896e98f3add442ec3a76847485f1958a646ccd18",
+      "bytes": 162,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/summary_4He_KFParticle_3p85_PoissonL_20261102.pdf": {
+      "sha256": "615bf8a79424733de35658ffffbc92835a0b530135b3568e8dd4f36c2fad9524",
+      "bytes": 807570,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/summary_4He_KFParticle_3p85_PoissonL_20261102.tex": {
+      "sha256": "0d38284f56033c8e0e92228f8278db274eb6fd9df58bfd616f2312b6884f3a89",
+      "bytes": 19934,
+      "kind": "small_output"
+    },
+    "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/validation.json": {
+      "sha256": "4428635d1e2771aef0c1f6c25ecad58972385b25f1fe8cc4786367c2473a8fed",
+      "bytes": 480,
+      "kind": "small_output"
+    },
+    "tools/kfparticle_summary/DrawMethod6Comparison.C": {
+      "sha256": "f85231f80f4be53c92036a47f5c4005313a94e29c9006b49749bf5b7362b02df",
+      "bytes": 6888,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/DrawNormalizedPurityCases.C": {
+      "sha256": "a81084c4fe9954d895918c8e1db7bc40ab90f11e9606bdc37dc747537bc3c446",
+      "bytes": 5389,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/DrawPoissonCFComparison.C": {
+      "sha256": "ce941f4993d1d7be2de868acda88b9b8c0d48a44335a58a553855d336dea7476",
+      "bytes": 4636,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/DrawPoissonFinePurity.C": {
+      "sha256": "177c48224b590f50519b674bd569a1584495d5ed661477bc5c61526e2669ec7a",
+      "bytes": 5121,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/DrawPoissonPurityReview.C": {
+      "sha256": "8ef15bb31727e0f6ccbc4185c7ff9dc768feaf7697421cc922ad5484d4005352",
+      "bytes": 8753,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/DrawPurityFitReview.C": {
+      "sha256": "28045133cf407ecef488ac5e15b28fc52cfde5ebb6c3897af71fada02dba64e8",
+      "bytes": 19594,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/analyze_poisson_lambda_study.py": {
+      "sha256": "cdb512c2aa881dfca7ad2c16daed922a582aedaa31be378c32e1bf8a22b09757",
+      "bytes": 10055,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/build_poisson_lambda_report.py": {
+      "sha256": "f350ab00319cda1fa8430b6a0b3aea71921f8ff394bb595e8e5a45e02d5e0c84",
+      "bytes": 3573,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/compare_mass_halves.py": {
+      "sha256": "2464c8b75ddd24111601d2f16da70b9835670c7aa987b9e43c90274be41c68ee",
+      "bytes": 19956,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/crop_method6_figures.py": {
+      "sha256": "6b9f0f87ec35bae5500a69b729cc4878a0d281d9cb107e85f2d1280f6c0a071e",
+      "bytes": 3332,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/draw_poisson_lambda_study.py": {
+      "sha256": "78a76ccff421fecf6322e8fa909db1b8f6091a80f7d58f1a6c42ae061976a6f7",
+      "bytes": 4644,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/mass_half_statistics.py": {
+      "sha256": "59ead9d43e7e3bb7806753d8c9152cbc713f4c69d504c9af36ed025820e87165",
+      "bytes": 14009,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/method6_statistics.py": {
+      "sha256": "5d2eb90d4d767ace971ac81166b90d207e26b8f2ca454d40407e8822acb3022b",
+      "bytes": 16589,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/prepare_poisson_lambda_study.py": {
+      "sha256": "5cff556489206ddf71e2ddee434493f869441568613078fa3af0557d6fbb56fc",
+      "bytes": 19555,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/prepare_poisson_report_content.py": {
+      "sha256": "654105aa227299385b71be96fd7a4e4561fd8cbd5c06953e328853da4574c375",
+      "bytes": 13553,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/publish_poisson_lambda_report.py": {
+      "sha256": "cb4741827c684ad02c026716a07ccce7ea93bbb7719c160a1632323ba3d82d97",
+      "bytes": 2981,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/select_purity_diagnostic_cases.py": {
+      "sha256": "d53edf3f94c3c6249bd8745c13242287dbc00725fb7df87a013764b6d995c833",
+      "bytes": 16324,
+      "kind": "private_source"
+    },
+    "tools/kfparticle_summary/validate_poisson_lambda_study.py": {
+      "sha256": "c7da8fde0e08a32513acc46e5bf52e792ad8b0def0149fe84427d554890c2a9e",
+      "bytes": 6921,
+      "kind": "private_source"
+    }
+  },
+  "excluded": [
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_pid_tof_updated_20261030_001/pdf/revisions/before_poisson_L_constant_20261102_004/summary_4He_KFParticle_3p85.pdf",
+      "reason": "size",
+      "bytes": 1418485
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/analysis_validation.json",
+      "reason": "numeric_output",
+      "bytes": 544
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/atlas_method3.pdf",
+      "reason": "size",
+      "bytes": 6383760
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/atlas_method5.pdf",
+      "reason": "size",
+      "bytes": 2631189
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas/crop_manifest.json",
+      "reason": "numeric_output",
+      "bytes": 180471
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas_tables/basis_fit_parameters.tsv",
+      "reason": "numeric_output",
+      "bytes": 26796
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas_tables/cases_fit_bins.tsv",
+      "reason": "size",
+      "bytes": 3486760
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/atlas_tables/cases_fit_meta.tsv",
+      "reason": "numeric_output",
+      "bytes": 86990
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/basis_fit_parameters.tsv",
+      "reason": "numeric_output",
+      "bytes": 1289
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases/crop_manifest.json",
+      "reason": "numeric_output",
+      "bytes": 10724
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases_fit_bins.tsv",
+      "reason": "numeric_output",
+      "bytes": 156397
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cases_fit_meta.tsv",
+      "reason": "numeric_output",
+      "bytes": 4449
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cf_objective_comparison.tsv",
+      "reason": "numeric_output",
+      "bytes": 129679
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/cf_points.tsv",
+      "reason": "numeric_output",
+      "bytes": 58274
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/comparison/crop_manifest.json",
+      "reason": "numeric_output",
+      "bytes": 6741
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/draw_atlas.log",
+      "reason": "generated",
+      "bytes": 87739
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/draw_atlas_command.json",
+      "reason": "numeric_output",
+      "bytes": 1091
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/draw_cases.log",
+      "reason": "generated",
+      "bytes": 7125
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/draw_cases_command.json",
+      "reason": "numeric_output",
+      "bytes": 1052
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/draw_cf.log",
+      "reason": "generated",
+      "bytes": 3013
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/draw_cf_command.json",
+      "reason": "numeric_output",
+      "bytes": 842
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/draw_cf_objectives.log",
+      "reason": "generated",
+      "bytes": 1916
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/draw_cf_objectives_command.json",
+      "reason": "numeric_output",
+      "bytes": 680
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/draw_fine_purity.log",
+      "reason": "generated",
+      "bytes": 1919
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/draw_fine_purity_command.json",
+      "reason": "numeric_output",
+      "bytes": 694
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/draw_fine_purity_final.log",
+      "reason": "generated",
+      "bytes": 2088
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/empty_bin_toy.json",
+      "reason": "numeric_output",
+      "bytes": 138
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/fine_extract/purity_fit_review.json",
+      "reason": "size",
+      "bytes": 9377885
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/fine_purity_comparison.tsv",
+      "reason": "numeric_output",
+      "bytes": 211398
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/fine_root.log",
+      "reason": "generated",
+      "bytes": 1696
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/fit_objective_comparison.json",
+      "reason": "size",
+      "bytes": 1417111
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/fixed_cases_comparison.json",
+      "reason": "size",
+      "bytes": 405849
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/group_extract/purity_fit_review.json",
+      "reason": "size",
+      "bytes": 6004766
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/group_root.log",
+      "reason": "generated",
+      "bytes": 1845
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/metadata_correction.json",
+      "reason": "numeric_output",
+      "bytes": 1093
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/methods_comparison_selected.json",
+      "reason": "size",
+      "bytes": 6611216
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/normalization_audit.json",
+      "reason": "numeric_output",
+      "bytes": 145187
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/normalization_audit.partial.json",
+      "reason": "numeric_output",
+      "bytes": 143200
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/normalization_audit.tsv",
+      "reason": "numeric_output",
+      "bytes": 3533
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/normalization_run.log",
+      "reason": "generated",
+      "bytes": 203
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/normalization_sensitivity.tsv",
+      "reason": "numeric_output",
+      "bytes": 1362
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/poisson_context.json",
+      "reason": "numeric_output",
+      "bytes": 6004
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/poisson_report_metadata.json",
+      "reason": "numeric_output",
+      "bytes": 6711
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/publication.json",
+      "reason": "numeric_output",
+      "bytes": 1037
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/purity_points.tsv",
+      "reason": "numeric_output",
+      "bytes": 74568
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/raw_ratio_points.tsv",
+      "reason": "numeric_output",
+      "bytes": 29517
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/report_content.json",
+      "reason": "numeric_output",
+      "bytes": 24661
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/source_manifest.json",
+      "reason": "numeric_output",
+      "bytes": 6151
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/summary_4He_KFParticle_3p85_PoissonL_20261102.aux",
+      "reason": "generated",
+      "bytes": 1814
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/summary_4He_KFParticle_3p85_PoissonL_20261102.build.log",
+      "reason": "generated",
+      "bytes": 18856
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/summary_4He_KFParticle_3p85_PoissonL_20261102.log",
+      "reason": "generated",
+      "bytes": 68752
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/summary_4He_KFParticle_3p85_PoissonL_20261102.out",
+      "reason": "generated",
+      "bytes": 0
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_poisson_likelihood_20261102_004/pdf/toy_root.log",
+      "reason": "generated",
+      "bytes": 1055
+    }
+  ],
+  "allCopiedHashesVerified": true,
+  "previousSnapshotKeysPreserved": true,
+  "previousSnapshotCount": 9430,
+  "snapshotCount": 9645,
+  "commitOrPushPerformed": false,
+  "directRecords": "Todo and analysisnote are maintained directly in star_local; metadata summaries are also copied to Todo."
+}

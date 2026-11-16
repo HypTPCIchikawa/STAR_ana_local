@@ -1,0 +1,166 @@
+{
+  "status": "passed",
+  "createdAtUtc": "2026-11-11T06:42:23.304688+00:00",
+  "sourceManifest": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/latest.json",
+  "sourceManifestSha256": "ef1e0aec56cb0fddc89514ac984773de82832bd31dec151482e1883ee668f261",
+  "sourceRoot": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_00002_20261111T064203Z.root",
+  "sourceRootSha256": "06289e19dede6051d39ee96d87c48045f24a37e393e8a43c2270ebdfd88563fe",
+  "histogramExport": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_00002_20261111T064203Z.histograms.json",
+  "histogramExportSha256": "71b1db2210984a6fb36ab946856d4e5b839596e59a3f72f8226d05f92e869e5f",
+  "sourceJobs": [
+    "17000",
+    "26993"
+  ],
+  "sourceCount": 2,
+  "selectedHe4Pairs": 216,
+  "sourceInputEventsRepresented": 161924,
+  "sourceAcceptedEventsRepresented": 159925,
+  "pages": 4,
+  "artifacts": {
+    "merging_maps.pdf": {
+      "bytes": 43100,
+      "sha256": "935f8d94d4bba9212782d64bc120d6cdcd8d2c7d69e3b6131351191d144ed708"
+    },
+    "proton_global.png": {
+      "bytes": 63318,
+      "sha256": "3efacbbd9231faa665827aaca9518ce67a5933aaf135cc85d8cb98f78806483d"
+    },
+    "proton_zoom.png": {
+      "bytes": 62367,
+      "sha256": "07ce6dc202128488896e2cb9bdb1d4d03ce5468cdae79b8169b08927395ac0db"
+    },
+    "pion_global.png": {
+      "bytes": 62839,
+      "sha256": "8e78dc82358440cfb01f9ade568ffc95bcbc3a1b2ae6886a48f5298c80b69681"
+    },
+    "pion_zoom.png": {
+      "bytes": 62589,
+      "sha256": "5f1f6529f6898f7726dd14da94387d6ec50f072dd8b90d81275716d96d0046c2"
+    }
+  },
+  "histogramMetrics": {
+    "hDphiDeta_selected_4He_proton_GlobalMinusAsin": {
+      "entries": 216,
+      "regular": 5,
+      "flow": 211,
+      "originBoxes": {
+        "0.0125": 0,
+        "0.025": 0,
+        "0.05": 1
+      },
+      "nx": 80,
+      "ny": 80
+    },
+    "hDphiDeta_selected_4He_proton_HelixFixedGlobalEta": {
+      "entries": 191,
+      "regular": 5,
+      "flow": 186,
+      "originBoxes": {
+        "0.0125": 0,
+        "0.025": 0,
+        "0.05": 1
+      },
+      "nx": 80,
+      "ny": 80
+    },
+    "hDphiDeta_selected_4He_proton_HelixFixedSpatialEta": {
+      "entries": 191,
+      "regular": 5,
+      "flow": 186,
+      "originBoxes": {
+        "0.0125": 0,
+        "0.025": 0,
+        "0.05": 1
+      },
+      "nx": 80,
+      "ny": 80
+    },
+    "hDphiDeta_selected_4He_proton_HelixClosestSpatialEta": {
+      "entries": 216,
+      "regular": 4,
+      "flow": 212,
+      "originBoxes": {
+        "0.0125": 0,
+        "0.025": 0,
+        "0.05": 0
+      },
+      "nx": 80,
+      "ny": 80
+    },
+    "hDphiDeta_selected_4He_pion_GlobalMinusAsin": {
+      "entries": 216,
+      "regular": 8,
+      "flow": 208,
+      "originBoxes": {
+        "0.0125": 0,
+        "0.025": 0,
+        "0.05": 0
+      },
+      "nx": 80,
+      "ny": 80
+    },
+    "hDphiDeta_selected_4He_pion_HelixFixedGlobalEta": {
+      "entries": 212,
+      "regular": 8,
+      "flow": 204,
+      "originBoxes": {
+        "0.0125": 0,
+        "0.025": 0,
+        "0.05": 0
+      },
+      "nx": 80,
+      "ny": 80
+    },
+    "hDphiDeta_selected_4He_pion_HelixFixedSpatialEta": {
+      "entries": 212,
+      "regular": 9,
+      "flow": 203,
+      "originBoxes": {
+        "0.0125": 0,
+        "0.025": 0,
+        "0.05": 0
+      },
+      "nx": 80,
+      "ny": 80
+    },
+    "hDphiDeta_selected_4He_pion_HelixClosestSpatialEta": {
+      "entries": 216,
+      "regular": 14,
+      "flow": 202,
+      "originBoxes": {
+        "0.0125": 0,
+        "0.025": 0,
+        "0.05": 0
+      },
+      "nx": 80,
+      "ny": 80
+    },
+    "hDphiDeta_proton_4He_EventField": {
+      "entries": 187,
+      "regular": 3,
+      "flow": 184,
+      "originBoxes": {
+        "0.0125": 0,
+        "0.025": 0,
+        "0.05": 0
+      },
+      "nx": 200,
+      "ny": 200
+    }
+  },
+  "inputUnchanged": true,
+  "sourceSha256": "7d89fecd83058e3e3a27afc69e8135f9d9a308fdd3a730d2b740c7a6e4e50711",
+  "plotSettingsSha256": "c8bcd8da70e9c8ab3d83064c6e16c290c1a966d5a744297ce0742a0396a0634f",
+  "rootCommand": [
+    "bash",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/script/singularity_root_batch.sh",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/runtime_v2/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_candidateStoreWriteNoJointSparse.yaml",
+    "root4star",
+    "-l",
+    "-b"
+  ],
+  "rootStdinSha256": "dc1c4aba3512a45ec4cee4b49962ba613a6255c33f9c33b2268170035671309b",
+  "originPeakAssessment": "not assessed",
+  "efficiencyAssessment": "not assessed; raw SE without ME",
+  "methodCaveat": "Closest radius is pair-conditioned; spatial eta differs from track eta; old QA has a primary-fit gate."
+}

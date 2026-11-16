@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "input_export": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/cf_highk_systematics_20261111_001/histograms.json",
+  "expected_input_sha256": "da779727999c67b227691bedc490145c94bdf5046291e07a28ebdb376f6494a3",
+  "source_root_uuid": "d61fb55c-d9ee-11f1-9717-b730c782beef",
+  "source_root_jobid": "1CE33994716F7896423A80AB994BAB14",
+  "dataset": "2021 P24iy; same saved export as high-k study; no ROOT reopened",
+  "se_template": "true/hKstarNSigma_4He_CentBin%d",
+  "me_template": "mix/hKstarNSigma_Mixed_4He_CentBin%d",
+  "fine_cent9": [
+    6,
+    7,
+    8
+  ],
+  "fine_labels": {
+    "6": "10-20%",
+    "7": "5-10%",
+    "8": "0-5%"
+  },
+  "native_axis": {
+    "bins": 200,
+    "range": [
+      0.0,
+      1.0
+    ],
+    "width": 0.005
+  },
+  "normalization": [
+    0.4,
+    0.5
+  ],
+  "normalization_interval": "[low,high), no k* flow; all nSigma y including flow",
+  "normalization_status": "Diagnostic matching interval; no physical plateau assertion",
+  "rebin_factor": 4,
+  "windows": {
+    "high07_08": [
+      0.7,
+      0.8
+    ],
+    "high08_10": [
+      0.8,
+      1.0
+    ]
+  },
+  "partitions": {
+    "global": [
+      [
+        6,
+        7,
+        8
+      ]
+    ],
+    "balanced2": [
+      [
+        6
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "balanced3": [
+      [
+        6
+      ],
+      [
+        7
+      ],
+      [
+        8
+      ]
+    ],
+    "fixed_norm_SE_weights2": [
+      [
+        6
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "fixed_norm_SE_weights3": [
+      [
+        6
+      ],
+      [
+        7
+      ],
+      [
+        8
+      ]
+    ]
+  },
+  "inclusive_methods": [
+    "global",
+    "balanced2",
+    "balanced3"
+  ],
+  "fixed_weight_methods": [
+    "fixed_norm_SE_weights2",
+    "fixed_norm_SE_weights3"
+  ],
+  "expected_norm_counts": {
+    "6": [
+      27548,
+      954253
+    ],
+    "7": [
+      23856,
+      835605
+    ],
+    "8": [
+      70954,
+      2671573
+    ]
+  },
+  "expected_global_windows": {
+    "high07_08": 0.9078768707297697,
+    "high08_10": 0.8651044312420662
+  },
+  "numeric_rtol": 1e-11,
+  "numeric_atol": 1e-12,
+  "zero_policy": "Target numerator or denominator nonpositive is undefined; no omission-and-renormalization of slice weights",
+  "error_model": "First-order derivatives with all normalization-count and fixed-weight-count dependence. Independent native SE/ME cell variances from saved error2. Shared data used in differences. Event reuse / shared mixed-pair / inter-cell physical covariance unavailable.",
+  "toy": {
+    "normalization_indices": [
+      2
+    ],
+    "targets": [
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    "SE": {
+      "0": [
+        10.0,
+        20.0,
+        10.0
+      ],
+      "1": [
+        20.0,
+        10.0,
+        10.0
+      ]
+    },
+    "ME_exposures": {
+      "0": 10.0,
+      "1": 100.0
+    }
+  },
+  "fixed_weight_extra_global_renormalization": false
+}

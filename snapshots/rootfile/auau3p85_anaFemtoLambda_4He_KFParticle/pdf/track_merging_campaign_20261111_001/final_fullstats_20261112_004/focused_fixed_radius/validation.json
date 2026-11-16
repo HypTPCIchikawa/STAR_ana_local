@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "createdAtJst": "2026-11-12T07:10:24.742091+09:00",
+  "sourceCount": 10087,
+  "selectedHe4Pairs": 1022830,
+  "sourceInputEventsRepresented": 812298245,
+  "sourceRoot": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_10087_20261111T162940Z.root",
+  "sourceRootSha256": "f0cb59e9ea4978e3e9b151fe086b37498d0036d2fc43df3cafc7c43a1f78e89b",
+  "metrics": {
+    "proton": {
+      "entries": 941085,
+      "regular": 26104,
+      "flow": 914981,
+      "originBoxes": {
+        "0.0125": 27,
+        "0.025": 138,
+        "0.05": 863
+      },
+      "nx": 80,
+      "ny": 80
+    },
+    "pion": {
+      "entries": 990431,
+      "regular": 28445,
+      "flow": 961986,
+      "originBoxes": {
+        "0.0125": 73,
+        "0.025": 283,
+        "0.05": 1131
+      },
+      "nx": 80,
+      "ny": 80
+    }
+  },
+  "artifacts": {
+    "merging_fixed_radius.pdf": {
+      "bytes": 39818,
+      "sha256": "44c1b3dc0ea61ed45bbbcde753fe0061800e33febe8d16d396ecc8a684ef24de"
+    },
+    "merging_fixed_radius.png": {
+      "bytes": 76018,
+      "sha256": "58884eeda3f245e726f2b6907ad8a706c8dd23d999f085697cbf3c3cb4c31281"
+    }
+  },
+  "inputUnchanged": true,
+  "command": [
+    "bash",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/script/singularity_root_batch.sh",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/runtime_v2/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_candidateStoreWriteNoJointSparse.yaml",
+    "root4star",
+    "-l",
+    "-b"
+  ],
+  "renderingTemplate": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/quicklook_20261112_003/focused_fixed_radius/root_commands.txt",
+  "plotSettings": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/source/plot_settings.yaml",
+  "scope": "All successful jobs of the completed farm campaign;138 rejected jobs excluded; separate local test sample not merged",
+  "rawSameEvent": true,
+  "backgroundSubtracted": false,
+  "mixedEventReferencePresent": false,
+  "newClosePairCutApplied": false
+}
