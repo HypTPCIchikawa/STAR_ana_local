@@ -1,0 +1,520 @@
+{
+  "status": "PASS",
+  "reviewedAt": "2026-11-16T06:54:13.344645+00:00",
+  "scope": "Staged index boundary before private commit and parent gitlink staging; no stage/commit/push performed.",
+  "main": {
+    "stagedCount": 33,
+    "stagedPaths": [
+      ".cursor/skills/approval-recovery/SKILL.md",
+      "AGENTS.md",
+      "Makefile",
+      "StMaker/StFemtoMaker/README.md",
+      "StMaker/StFemtoMaker/StFemtoMaker.cxx",
+      "StMaker/StFemtoMaker/StFemtoMaker.h",
+      "StMaker/StLambdaNuclearMaker/StLambdaNuclearMaker.cxx",
+      "StMaker/StLambdaNuclearMaker/StLambdaNuclearMaker.h",
+      "StMaker/common/FemtoEpdEventPlane.cxx",
+      "StMaker/common/FemtoLambdaLegacy.cxx",
+      "StMaker/common/FemtoLambdaLegacy.h",
+      "StMaker/common/StLambdaV0Reconstruction.cxx",
+      "StMaker/common/StLambdaV0Reconstruction.h",
+      "analysis/FemtoLambdaRunSupport.h",
+      "analysis/anaFemtoLambda_4He.C",
+      "analysis/run_anaFemtoLambda_3He.C",
+      "analysis/run_anaFemtoLambda_4He.C",
+      "analysis/run_anaFemtoLambda_d.C",
+      "analysis/run_anaFemtoLambda_t.C",
+      "docs/REFERENCE.md",
+      "docs/ai/AGENT_RULES.md",
+      "docs/ai/skills/approval-recovery.md",
+      "include/FemtoCandidateEventStore.h",
+      "include/FemtoCandidateEventStoreConfig.h",
+      "include/FemtoEpdEventPlane.h",
+      "job/run/README.md",
+      "script/archive_merged_subjobs.py",
+      "script/watch_job_merge_notify.py",
+      "script/watch_job_notify.py",
+      "src/HistManager.cpp",
+      "tests/test_archive_merged_subjobs.py",
+      "tests/test_merge_job_selection.py",
+      "tests/test_watch_job_notify.py"
+    ],
+    "matchesCuratedPublicPaths": true,
+    "forbiddenPrefixes": [
+      "common/macro/",
+      "tools/",
+      "rootfile/",
+      "share/",
+      "config/"
+    ],
+    "forbiddenExtensions": [
+      ".d",
+      ".dylib",
+      ".err",
+      ".gz",
+      ".log",
+      ".o",
+      ".out",
+      ".pcm",
+      ".root",
+      ".so",
+      ".tar",
+      ".zip"
+    ],
+    "forbiddenStagedPaths": []
+  },
+  "private": {
+    "stagedCount": 575,
+    "forbiddenStagedPaths": [],
+    "sourceSnapshotComparisons": [
+      {
+        "path": "snapshots/common/macro/checkHistAnaFemtoLambda.C",
+        "bytes": 25471,
+        "indexBlob": "c409250449656dfeced469de3c0229a0550a8432",
+        "sourceBlob": "c409250449656dfeced469de3c0229a0550a8432",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_cent_pair_canvas_20261115_001/analyze_cf.py",
+        "bytes": 11455,
+        "indexBlob": "0a714e262dd623264abbbac55912204f039c7330",
+        "sourceBlob": "0a714e262dd623264abbbac55912204f039c7330",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_cent_pair_canvas_20261115_001/draw_canvas_batch.C",
+        "bytes": 945,
+        "indexBlob": "203e361249d983fd50a3b587e7da6f443fa0d733",
+        "sourceBlob": "203e361249d983fd50a3b587e7da6f443fa0d733",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_cent_pair_canvas_20261115_001/draw_split_canvases.C",
+        "bytes": 16110,
+        "indexBlob": "97cf20f27aa466a95f3c20f8d2e5a07ff4a1ae04",
+        "sourceBlob": "97cf20f27aa466a95f3c20f8d2e5a07ff4a1ae04",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_cent_pair_canvas_20261115_001/extract_cf_inputs.C",
+        "bytes": 19797,
+        "indexBlob": "779055129c13aae02c1687004a0848a1e6ad9c92",
+        "sourceBlob": "779055129c13aae02c1687004a0848a1e6ad9c92",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_cent_pair_canvas_20261115_001/independent_validate.py",
+        "bytes": 16004,
+        "indexBlob": "04955e3d8bc560699b99a8e75f985b0fc3f4d432",
+        "sourceBlob": "04955e3d8bc560699b99a8e75f985b0fc3f4d432",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_cent_pair_canvas_20261115_001/prepare_plots.py",
+        "bytes": 2986,
+        "indexBlob": "6de892bc90fb0e3c66b6118b5f1813f021ba3d81",
+        "sourceBlob": "6de892bc90fb0e3c66b6118b5f1813f021ba3d81",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_cent_pair_canvas_20261115_001/prepare_study.py",
+        "bytes": 2911,
+        "indexBlob": "f28741ec9f3d8d765c4189de02a70d5ba0970dd6",
+        "sourceBlob": "f28741ec9f3d8d765c4189de02a70d5ba0970dd6",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_cent_pair_canvas_20261115_001/render_previews.py",
+        "bytes": 1173,
+        "indexBlob": "2e68132cdc3a3d52fdb77ae6024c689cceb51fb5",
+        "sourceBlob": "2e68132cdc3a3d52fdb77ae6024c689cceb51fb5",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_cent_pair_canvas_20261115_001/run_canvases.py",
+        "bytes": 3043,
+        "indexBlob": "25047fc16f4e393f5ce47a75965da72f249b6eca",
+        "sourceBlob": "25047fc16f4e393f5ce47a75965da72f249b6eca",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_cent_pair_canvas_20261115_001/run_data.py",
+        "bytes": 1806,
+        "indexBlob": "0223a2c56a5004fc53ad4fef04a097db0bc860f5",
+        "sourceBlob": "0223a2c56a5004fc53ad4fef04a097db0bc860f5",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_cent_pair_canvas_20261115_001/verify_outputs.py",
+        "bytes": 5048,
+        "indexBlob": "20a1b54d30889e7a0049ddc428b14c67040ecd34",
+        "sourceBlob": "20a1b54d30889e7a0049ddc428b14c67040ecd34",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_cent_pair_canvas_20261115_001/write_cf_objects.C",
+        "bytes": 998,
+        "indexBlob": "fda9c45a5bd39887fdaab9b0b19f9150a1078200",
+        "sourceBlob": "fda9c45a5bd39887fdaab9b0b19f9150a1078200",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/analyze_cf.py",
+        "bytes": 11455,
+        "indexBlob": "0a714e262dd623264abbbac55912204f039c7330",
+        "sourceBlob": "0a714e262dd623264abbbac55912204f039c7330",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/build_report.py",
+        "bytes": 23562,
+        "indexBlob": "c94815116e7fe17e6a23103105e3f4ec2379c336",
+        "sourceBlob": "c94815116e7fe17e6a23103105e3f4ec2379c336",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/extract_cf_inputs.C",
+        "bytes": 19797,
+        "indexBlob": "779055129c13aae02c1687004a0848a1e6ad9c92",
+        "sourceBlob": "779055129c13aae02c1687004a0848a1e6ad9c92",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/finalize_report.py",
+        "bytes": 6369,
+        "indexBlob": "845f412c10867aa96708dba03a986754316fd5a0",
+        "sourceBlob": "845f412c10867aa96708dba03a986754316fd5a0",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/make_cf_plots.C",
+        "bytes": 25545,
+        "indexBlob": "9ec32f6fce81b94e3958bc9c16243d227a039b44",
+        "sourceBlob": "9ec32f6fce81b94e3958bc9c16243d227a039b44",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/prepare_plots.py",
+        "bytes": 2986,
+        "indexBlob": "6de892bc90fb0e3c66b6118b5f1813f021ba3d81",
+        "sourceBlob": "6de892bc90fb0e3c66b6118b5f1813f021ba3d81",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_ep_rapidity_cf_20261115_001/prepare_study.py",
+        "bytes": 3732,
+        "indexBlob": "b21492936c503818f25481ef27017b24c9d98aff",
+        "sourceBlob": "b21492936c503818f25481ef27017b24c9d98aff",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_pair_rapidity_hadd_20261114_001/smoke/merge_notify_audit.C",
+        "bytes": 4485,
+        "indexBlob": "037d482faa0b1b6f8759cd5b655ea1fd21342e29",
+        "sourceBlob": "037d482faa0b1b6f8759cd5b655ea1fd21342e29",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_report_update_20261115_001/build_updated_report.py",
+        "bytes": 11595,
+        "indexBlob": "6d72245bf1711142878f00fd2daf51f8405e6602",
+        "sourceBlob": "6d72245bf1711142878f00fd2daf51f8405e6602",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_report_update_20261115_001/centrality_pages.py",
+        "bytes": 12605,
+        "indexBlob": "ed97918c88072ce48b8b19fbf2c5579a16bc9db6",
+        "sourceBlob": "ed97918c88072ce48b8b19fbf2c5579a16bc9db6",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_report_update_20261115_001/make_centrality_summaries.C",
+        "bytes": 17905,
+        "indexBlob": "5341708007d415a215d8988126db4a5ee5af6869",
+        "sourceBlob": "5341708007d415a215d8988126db4a5ee5af6869",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_report_update_20261115_001/prepare_centrality_summaries.py",
+        "bytes": 7099,
+        "indexBlob": "e2ce5eb85067422fb4ec854b79c088fb7b969d96",
+        "sourceBlob": "e2ce5eb85067422fb4ec854b79c088fb7b969d96",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_report_update_20261115_001/verify_and_publish.py",
+        "bytes": 5894,
+        "indexBlob": "ceac9469190f950fd6808f31260f5d731f90259d",
+        "sourceBlob": "ceac9469190f950fd6808f31260f5d731f90259d",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_split_canvas_20261115_001/draw_split_canvases.C",
+        "bytes": 9104,
+        "indexBlob": "afd61488f7a47555cf1f3a504a392bcf915590f4",
+        "sourceBlob": "afd61488f7a47555cf1f3a504a392bcf915590f4",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/femto_lambda_split_canvas_20261115_001/prepare_and_run.py",
+        "bytes": 4318,
+        "indexBlob": "b073e08a71cf54d63750af8402c30bf87408dba6",
+        "sourceBlob": "b073e08a71cf54d63750af8402c30bf87408dba6",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/git_publish_baseline_20261116_001/audit_job_baseline.py",
+        "bytes": 9595,
+        "indexBlob": "f8a4548683ee8ed2f301daf9f40dbb06e99e5f16",
+        "sourceBlob": "f8a4548683ee8ed2f301daf9f40dbb06e99e5f16",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/git_publish_baseline_20261116_001/capture_selected.py",
+        "bytes": 2643,
+        "indexBlob": "f996c4c592e11b810bdfe6b1ab86db91ac22ecb7",
+        "sourceBlob": "f996c4c592e11b810bdfe6b1ab86db91ac22ecb7",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/git_publish_baseline_20261116_001/prepare_publication.py",
+        "bytes": 5345,
+        "indexBlob": "1ec71c808cefd2dbfc3f96e1551079000179f388",
+        "sourceBlob": "1ec71c808cefd2dbfc3f96e1551079000179f388",
+        "equal": true
+      },
+      {
+        "path": "snapshots/rootfile/git_publish_baseline_20261116_001/retire_drafts.py",
+        "bytes": 2988,
+        "indexBlob": "7e925065d870d5c8c24a54aa4118fa4579da5946",
+        "sourceBlob": "7e925065d870d5c8c24a54aa4118fa4579da5946",
+        "equal": true
+      },
+      {
+        "path": "snapshots/script/archive_merged_subjobs.py",
+        "bytes": 11936,
+        "indexBlob": "65b85cb9dde6d8d6095e3d066bc141ea179977a8",
+        "sourceBlob": "65b85cb9dde6d8d6095e3d066bc141ea179977a8",
+        "equal": true
+      },
+      {
+        "path": "snapshots/script/watch_job_merge_notify.py",
+        "bytes": 27088,
+        "indexBlob": "3fbcbd601bf2eb6b25ad3aaaa4d2e2d912bb4c2d",
+        "sourceBlob": "3fbcbd601bf2eb6b25ad3aaaa4d2e2d912bb4c2d",
+        "equal": true
+      },
+      {
+        "path": "snapshots/share/figure/20261115_lambda_he4_ep_rapidity_cf/archive/20261115_initial22p/build_report.py",
+        "bytes": 23562,
+        "indexBlob": "c94815116e7fe17e6a23103105e3f4ec2379c336",
+        "sourceBlob": "c94815116e7fe17e6a23103105e3f4ec2379c336",
+        "equal": true
+      },
+      {
+        "path": "snapshots/share/figure/20261115_lambda_he4_ep_rapidity_cf/archive/20261115_initial22p/cf_ep_rapidity_report_ja.tex",
+        "bytes": 26634,
+        "indexBlob": "aa18eb8e3ebf27c7b4512a7f216c05991875eaea",
+        "sourceBlob": "aa18eb8e3ebf27c7b4512a7f216c05991875eaea",
+        "equal": true
+      },
+      {
+        "path": "snapshots/share/figure/20261115_lambda_he4_ep_rapidity_cf/archive/20261115_initial22p/finalize_report.py",
+        "bytes": 6369,
+        "indexBlob": "845f412c10867aa96708dba03a986754316fd5a0",
+        "sourceBlob": "845f412c10867aa96708dba03a986754316fd5a0",
+        "equal": true
+      },
+      {
+        "path": "snapshots/share/figure/20261115_lambda_he4_ep_rapidity_cf/cf_ep_rapidity_report_ja.tex",
+        "bytes": 44876,
+        "indexBlob": "d85dc851f43b2a6953b3598512c996f5ae754c23",
+        "sourceBlob": "d85dc851f43b2a6953b3598512c996f5ae754c23",
+        "equal": true
+      },
+      {
+        "path": "snapshots/tests/test_archive_merged_subjobs.py",
+        "bytes": 11713,
+        "indexBlob": "70aa2d3bcdc6a5d888b68c71d32598f51dbc7433",
+        "sourceBlob": "70aa2d3bcdc6a5d888b68c71d32598f51dbc7433",
+        "equal": true
+      },
+      {
+        "path": "snapshots/tests/test_merge_job_selection.py",
+        "bytes": 10264,
+        "indexBlob": "35f9b3a32c285d1c6b15fff9a81ec5fd194c9304",
+        "sourceBlob": "35f9b3a32c285d1c6b15fff9a81ec5fd194c9304",
+        "equal": true
+      },
+      {
+        "path": "snapshots/tools/auau3p85GeV/Draw_LambdaInvMass.C",
+        "bytes": 2430,
+        "indexBlob": "804b0ef3636bbf7168e993522c537f1a1a2f4b5a",
+        "sourceBlob": "804b0ef3636bbf7168e993522c537f1a1a2f4b5a",
+        "equal": true
+      },
+      {
+        "path": "snapshots/tools/auau3p85GeV/check_Lambda_SN.C",
+        "bytes": 1826,
+        "indexBlob": "fa98c2bbc5f29577898251a2de053786fb7f705b",
+        "sourceBlob": "fa98c2bbc5f29577898251a2de053786fb7f705b",
+        "equal": true
+      },
+      {
+        "path": "snapshots/tools/auau3p85GeV/draw_LambdaNuclearId_relamom_sum_CFsub.C",
+        "bytes": 21920,
+        "indexBlob": "b3bbbeb8e1f4bb7481f736f1632dc51af289543a",
+        "sourceBlob": "b3bbbeb8e1f4bb7481f736f1632dc51af289543a",
+        "equal": true
+      },
+      {
+        "path": "snapshots/tools/auau3p85GeV/draw_LambdaNuclearId_relamom_sum_CFsub_method5.C",
+        "bytes": 13903,
+        "indexBlob": "2214d789b5da6247c6ff8a40fa2bce71a6f9f1ce",
+        "sourceBlob": "2214d789b5da6247c6ff8a40fa2bce71a6f9f1ce",
+        "equal": true
+      },
+      {
+        "path": "snapshots/tools/draw_LambdaNuclearId_relamom_sum_CFsub_method5.C",
+        "bytes": 13951,
+        "indexBlob": "81ddec7964b445c9864b7f4e0fd881b2c853c71a",
+        "sourceBlob": "81ddec7964b445c9864b7f4e0fd881b2c853c71a",
+        "equal": true
+      }
+    ],
+    "requiredPostprocessingMacros": [
+      "common/macro/checkHistAnaFemtoLambda.C",
+      "tools/auau3p85GeV/Draw_LambdaInvMass.C",
+      "tools/auau3p85GeV/check_Lambda_SN.C",
+      "tools/auau3p85GeV/draw_LambdaNuclearId_relamom_sum_CFsub.C",
+      "tools/auau3p85GeV/draw_LambdaNuclearId_relamom_sum_CFsub_method5.C",
+      "tools/draw_LambdaNuclearId_relamom_sum_CFsub_method5.C"
+    ],
+    "retiredDrafts": [
+      {
+        "original": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_kstarSplit_pairY10_covered25.yaml",
+        "privateDraft": "drafts/ep_kstar_20261116_001/config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_kstarSplit_pairY10_covered25.yaml",
+        "bytes": 848,
+        "sha256": "632bc689ca836b0970dda417cb861320d8456b7b4cb2f83f4122d38255349e32",
+        "indexBlob": "e6b0b309ebcc9ba7fdae05465aa981af0bc64bae",
+        "activeAbsent": true,
+        "onlyPrivateDraftIndexed": true
+      },
+      {
+        "original": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_kstarSplit_pairY10_covered25.yaml",
+        "privateDraft": "drafts/ep_kstar_20261116_001/config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_KFParticle_epd8_kstarSplit_pairY10_covered25.yaml",
+        "bytes": 1579,
+        "sha256": "ee9a093706a05e469809f3fe7261e59ef9b0277cde431b4652b2f638d9175d48",
+        "indexBlob": "97e278dc28ec35cf5fa46d05fbe45eace112b77b",
+        "activeAbsent": true,
+        "onlyPrivateDraftIndexed": true
+      },
+      {
+        "original": "config/hist/hist_auau3p85_femtoLambda_he4_he3_control_epd8KstarPairY10_20261115_kf.yaml",
+        "privateDraft": "drafts/ep_kstar_20261116_001/config/hist/hist_auau3p85_femtoLambda_he4_he3_control_epd8KstarPairY10_20261115_kf.yaml",
+        "bytes": 31267,
+        "sha256": "a73d92c1093f0392c829a779ae4e577fbd9e0b601164d810aa98965a04637ca7",
+        "indexBlob": "265c196baf620e00c02ad6c0586710faf7a8a460",
+        "activeAbsent": true,
+        "onlyPrivateDraftIndexed": true
+      },
+      {
+        "original": "tests/test_femto_epd_kstar_splits.C",
+        "privateDraft": "drafts/ep_kstar_20261116_001/tests/test_femto_epd_kstar_splits.C",
+        "bytes": 12558,
+        "sha256": "01d1568aaca59e028cce4b3fd352c47bdf0da0fe663c128221ad48cd270ae839",
+        "indexBlob": "dc4b42c849a3bec58d6d82e12ea3b99f9ed016b3",
+        "activeAbsent": true,
+        "onlyPrivateDraftIndexed": true
+      },
+      {
+        "original": "tests/run_femto_epd_kstar_splits_test.C",
+        "privateDraft": "drafts/ep_kstar_20261116_001/tests/run_femto_epd_kstar_splits_test.C",
+        "bytes": 1888,
+        "sha256": "dd7b68c87f69ba2e332ac9dfdd4c4efa82e4452a417d391ffc8db5ee9449813c",
+        "indexBlob": "4695c1a34210ac13a35530ac33d72d4544d4f1a2",
+        "activeAbsent": true,
+        "onlyPrivateDraftIndexed": true
+      },
+      {
+        "original": "rootfile/femto_lambda_ep_kstar_validation_20261115_001/ep1_control_main.yaml",
+        "privateDraft": "drafts/ep_kstar_20261116_001/rootfile/femto_lambda_ep_kstar_validation_20261115_001/ep1_control_main.yaml",
+        "bytes": 1585,
+        "sha256": "8cc7de3e1551ac624b38677882f6b097a42736aed394570ff71ca70e8dcb3bd0",
+        "indexBlob": "cf83b6c620d7ea88670a9cc3f870516f185b1490",
+        "activeAbsent": true,
+        "onlyPrivateDraftIndexed": true
+      },
+      {
+        "original": "rootfile/femto_lambda_ep_kstar_validation_20261115_001/ep1_control_hist.yaml",
+        "privateDraft": "drafts/ep_kstar_20261116_001/rootfile/femto_lambda_ep_kstar_validation_20261115_001/ep1_control_hist.yaml",
+        "bytes": 31267,
+        "sha256": "c89b6c8ea7f67cc333d8a14d29e428982144048317537592e8fe9c25399edbab",
+        "indexBlob": "67742bd29880f724310dd4e7916913fe6e1d1d82",
+        "activeAbsent": true,
+        "onlyPrivateDraftIndexed": true
+      },
+      {
+        "original": "rootfile/femto_lambda_ep_kstar_validation_20261115_001/prepare_configs.py",
+        "privateDraft": "drafts/ep_kstar_20261116_001/rootfile/femto_lambda_ep_kstar_validation_20261115_001/prepare_configs.py",
+        "bytes": 3465,
+        "sha256": "9c6c61c53f1991ab3b2b1fbcea3ce985a83fed95e6e7c8c39686da8936561b3a",
+        "indexBlob": "3851dcb4d03889264f5e6399f7bbc038ecafb4d3",
+        "activeAbsent": true,
+        "onlyPrivateDraftIndexed": true
+      },
+      {
+        "original": "rootfile/femto_lambda_ep_kstar_validation_20261115_001/config_manifest.json",
+        "privateDraft": "drafts/ep_kstar_20261116_001/rootfile/femto_lambda_ep_kstar_validation_20261115_001/config_manifest.json",
+        "bytes": 1809,
+        "sha256": "5644605b23a718ad0315eee3f974a9d8655ccd47b8f76623109f7fe93842a58a",
+        "indexBlob": "634401cfa08ec1694d78d0f6acd46680f8b33ebe",
+        "activeAbsent": true,
+        "onlyPrivateDraftIndexed": true
+      }
+    ]
+  },
+  "indexBefore": {
+    "main": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/.git/index",
+      "size": 149496,
+      "mtimeNs": 1794811781213235049,
+      "inode": 493807252,
+      "device": 48,
+      "sha256": "8408456ce683905e8243a3cdad685c511c4f4af8798f4aebe213c612efa6522f"
+    },
+    "private": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/.git/modules/star_local/index",
+      "size": 5253297,
+      "mtimeNs": 1794811812791261471,
+      "inode": 493807323,
+      "device": 48,
+      "sha256": "e1713e7a9659d53419444d5a8427f287d0edfc8c7967b981fe707786600711f4"
+    }
+  },
+  "indexAfter": {
+    "main": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/.git/index",
+      "size": 149496,
+      "mtimeNs": 1794811781213235049,
+      "inode": 493807252,
+      "device": 48,
+      "sha256": "8408456ce683905e8243a3cdad685c511c4f4af8798f4aebe213c612efa6522f"
+    },
+    "private": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/.git/modules/star_local/index",
+      "size": 5253297,
+      "mtimeNs": 1794811812791261471,
+      "inode": 493807323,
+      "device": 48,
+      "sha256": "e1713e7a9659d53419444d5a8427f287d0edfc8c7967b981fe707786600711f4"
+    }
+  },
+  "indexesUnchanged": true,
+  "notes": [
+    "Unchanged private snapshots are verified against the full index, even when absent from cached diff.",
+    "Parent star_local gitlink is deliberately not included yet; root will stage it after the private commit.",
+    "No large snapshot plan scan or full binary/job artifact traversal was performed."
+  ]
+}

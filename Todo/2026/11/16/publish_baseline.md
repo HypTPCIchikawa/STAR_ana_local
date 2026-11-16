@@ -7,6 +7,8 @@
 - [x] 未実装draft9ファイルを[drafts](../../../../drafts/ep_kstar_20261116_001/README.md)へSHA付きで退避。本番設定・解析本体は維持。
 - [x] STAR SL24y/ROOT5 batch整合clean build、共通job管理66 tests、skills同期チェックPASS。
 - [x] main公開候補33ファイルを明示し、ROOT後処理macro・tools・個別config・ログ・ROOT/so等を除外。private側605pathを検証してsnapshot更新、535fileを新規/更新コピー。
-- [ ] サブモジュールとmainをcommit/pushし、remoteとgitlinkの一致を確認。
+- [x] サブモジュールとmainをcommit/pushし、remoteとgitlinkの一致を確認。内容公開commitはmain `00bf4bd` / private `37d798a7`（15:59 JST照合PASS）。
 
 [解析記録](../../../../analysisnote/20261116/publish_baseline.md)。新規本番job・Pico再読・メールは行わない。未較正81runは保留。
+
+16:00 JST完了記録を保存。公開境界の独立監査PASS、私用verification10 testsもPASS。検証記録を格納する後続commitと親gitlink更新を加えるが、解析本体の変更は加えない。
