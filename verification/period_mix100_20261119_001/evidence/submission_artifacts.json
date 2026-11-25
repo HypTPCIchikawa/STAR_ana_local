@@ -1,0 +1,33 @@
+{
+  "runmeta": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.json",
+    "bytes": 4908,
+    "sha256": "6f2eaf826f925826b41089f9df229b122232467075c5d8e9ac9ff8bb2eef0821"
+  },
+  "configlog": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/configlog/config_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.txt",
+    "bytes": 226287,
+    "sha256": "45017fd5190929b164cf6d1853cd930cf2c12e653391c2c4ea98e03d7453d1b4"
+  },
+  "joblistlog": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/joblistlog/joblist_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.xml",
+    "bytes": 5148,
+    "sha256": "4902d7905c7830b12b47bed1d037cec50b60d0bd12cc8d08454bce71c664194c"
+  },
+  "runtimeBundle": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runtime_bundle_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.tar.gz",
+    "bytes": 51912443,
+    "sha256": "a403001a1aa93dcea3c2d7884f4f606ad6771e693453f9fc06f8c124ebc1bd3a"
+  },
+  "sumsArtifacts": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/sums_artifacts_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.tar.gz",
+    "bytes": 26789,
+    "sha256": "e02ee77af80f1d27b10b81c0820689f8976bac9a7baceafc13c57776723b325f"
+  },
+  "runtimeZip": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_20261119020544.zip",
+    "bytes": 50411527,
+    "sha256": "ebcb6e9e5515d82d1291efdc5826e276d3aaa87b35d891238c7e41286bccd437",
+    "pinnedShippedMembersVerified": 36
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "allSubmissionAudit": "passed",
+  "farmSampleReplayPassed": true,
+  "sampleStoredRows": 118240,
+  "sampleReplayedRows": 10000,
+  "reportsLinked": true,
+  "sourceInputUnchanged": true,
+  "noGitPush": true,
+  "noAutomaticHadd": true
+}

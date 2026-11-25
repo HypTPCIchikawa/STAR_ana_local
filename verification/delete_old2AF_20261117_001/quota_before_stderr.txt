@@ -1,0 +1,232 @@
+mmlsquota:mmlsquota.sh[43]> : '#' _mmTRACE_ENTER_disabled '-u yichikawa -Y rcf.bnl.gov:gpfs:star-pwg'
+mmlsquota:mmlsquota.sh[46]> usageMsg=452
+mmlsquota:mmlsquota.sh[47]> rc=0
+mmlsquota:mmlsquota.sh[47]> typeset -li rc
+mmlsquota:mmlsquota.sh[48]> typeset -l optName_lc
+mmlsquota:mmlsquota.sh[49]> typeset -l optValue_lc
+mmlsquota:mmlsquota.sh[50]> typeset -u blockSizeString_uc
+mmlsquota:mmlsquota.sh[52]> unset daemonArgs
+mmlsquota:mmlsquota.sh[55]> [[ Linux == Windows ]]
+mmlsquota:mmlsquota.sh[65]> [[ -u == '-?' ]]
+mmlsquota:mmlsquota.sh[65]> [[ -u == -h ]]
+mmlsquota:mmlsquota.sh[65]> [[ -u == --help ]]
+mmlsquota:mmlsquota.sh[65]> [[ -u == -- ]]
+mmlsquota:mmlsquota.sh[69]> [[ -u == -d* ]]
+mmlsquota:mmlsquota.sh[71]> [[ -n '' ]]
+mmlsquota:mmlsquota.sh[205]> getopts :C:eg:j:qu:vY-: OPT
+mmlsquota:mmlsquota.sh[247]> [[ -n '' ]]
+mmlsquota:mmlsquota.sh[249]> [[ yichikawa == +([A-Za-z0-9_.-]) ]]
+mmlsquota:mmlsquota.sh[251]> optString=' -u yichikawa'
+mmlsquota:mmlsquota.sh[257]> uOpt=-u
+mmlsquota:mmlsquota.sh[258]> [[ -n '' ]]
+mmlsquota:mmlsquota.sh[259]> [[ -n '' ]]
+mmlsquota:mmlsquota.sh[205]> getopts :C:eg:j:qu:vY-: OPT
+mmlsquota:mmlsquota.sh[263]> optString=' -u yichikawa -Y'
+mmlsquota:mmlsquota.sh[264]> YOpt=-Y
+mmlsquota:mmlsquota.sh[205]> getopts :C:eg:j:qu:vY-: OPT
+mmlsquota:mmlsquota.sh[369]> shift OPTIND-1
+mmlsquota:mmlsquota.sh[370]> inputDeviceList=rcf.bnl.gov:gpfs:star-pwg
+mmlsquota:mmlsquota.sh[372]> [[ -n '' ]]
+mmlsquota:mmlsquota.sh[378]> [[ -n '' ]]
+mmlsquota:mmlsquota.sh[415]> trap 'cleanupAndExit 2 unlock 306' HUP INT QUIT TERM
+mmlsquota:mmlsquota.sh[416]> trap 'cleanupAndExit 141' PIPE
+mmlsquota:mmlsquota.sh[425]> [[ 102335 -eq 0 ]]
+mmlsquota:mmlsquota.sh[431]> showCfgValue tscCmdPortRange
+showCfgValue:mmglobfuncs.sh[13060]> : '#' _mmTRACE_ENTER_disabled tscCmdPortRange
+showCfgValue:mmglobfuncs.sh[13062]> typeset parm checkDaemon node cfgFile Yflag
+showCfgValue:mmglobfuncs.sh[13063]> typeset parmValue rc
+showCfgValue:mmglobfuncs.sh[13064]> typeset -l parm_lc
+showCfgValue:mmglobfuncs.sh[13065]> memberClasses=/tmp/mmlsquota.2769566/memberClasses
+showCfgValue:mmglobfuncs.sh[13065]> typeset memberClasses
+showCfgValue:mmglobfuncs.sh[13067]> [[ tscCmdPortRange == -Y ]]
+showCfgValue:mmglobfuncs.sh[13073]> parm=tscCmdPortRange
+showCfgValue:mmglobfuncs.sh[13074]> parm_lc=tscCmdPortRange
+showCfgValue:mmglobfuncs.sh[13075]> checkDaemon=''
+showCfgValue:mmglobfuncs.sh[13076]> node=''
+showCfgValue:mmglobfuncs.sh[13079]> [[ '' != yes ]]
+showCfgValue:mmglobfuncs.sh[13079]> [[ '' != checkDaemon ]]
+showCfgValue:mmglobfuncs.sh[13079]> checkDaemon=''
+showCfgValue:mmglobfuncs.sh[13080]> [[ 0 -lt 1402 ]]
+showCfgValue:mmglobfuncs.sh[13082]> [[ -z '' ]]
+showCfgValue:mmglobfuncs.sh[13082]> cfgFile=/var/mmfs/gen/mmfs.cfg
+showCfgValue:mmglobfuncs.sh[13086]> [[ ! -f /var/mmfs/gen/mmfs.cfg ]]
+showCfgValue:mmglobfuncs.sh[13091]> [[ 0 -lt 1210 ]]
+showCfgValue:mmglobfuncs.sh[13093]> [[ -z '' ]]
+showCfgValue:mmglobfuncs.sh[13095]> node=''
+showCfgValue:mmglobfuncs.sh[13124]> [[ -n '' ]]
+showCfgValue:mmglobfuncs.sh[13148]> [[ /var/mmfs/gen/mmfs.cfg == /var/mmfs/gen/mmfs.cfg.show ]]
+showCfgValue:mmglobfuncs.sh[13163]> [[ /var/mmfs/gen/mmfs.cfg == /var/mmfs/gen/mmsdrfs ]]
+showCfgValue:mmglobfuncs.sh[13210]> /bin/awk -v Yflag= $'                   \\\n      BEGIN { doNotIgnoreValue = 1 }                       \\\n      # If this is the end of a node-override section,     \\\n      # set the flag to accept parameter values.           \\\n      $1 == "[common]" {                                   \\\n        { doNotIgnoreValue = 1 }                           \\\n        { next }                                           \\\n      }                                                    \\\n      # If this is the start of a node-override section,   \\\n      # see if this section applies to our node.           \\\n      # If yes, we will not ignore subsequent parameters.  \\\n      # If not, subsequent parameters will be ignored.     \\\n      /^\\[.*]/ || /^[ \t]*\\[.*]/ {                         \\\n        if ($1 == "[]" || $1 ~ /\\[,/ ||      \\\n            $1 ~  /,]/ || $1 ~ /,,/)  {      \\\n          { doNotIgnoreValue = 1 }                         \\\n        } else {                                           \\\n          { doNotIgnoreValue = 0 }                         \\\n        }                                                  \\\n        { next }                                           \\\n      }                                                    \\\n      # If this line contains our parameter, save the      \\\n      # line, provided it is applicable to our node.       \\\n      $1 == "tscCmdPortRange" && doNotIgnoreValue {                \\\n        parmValue = $0 ;                                   \\\n      }                                                    \\\n      END {                                                \\\n        if (Yflag == "-Y") {                               \\\n          gsub(/%/, "%25", parmValue) ;                    \\\n          gsub(/:/, "%3A", parmValue) ;                    \\\n        }                                                  \\\n        print parmValue ;                                  \\\n      }                                                    \\\n    ' /var/mmfs/gen/mmfs.cfg
+showCfgValue:mmglobfuncs.sh[13210]> parmValue=''
+showCfgValue:mmglobfuncs.sh[13244]> checkForErrors awk 0
+showCfgValue:mmglobfuncs.sh[13247]> parmValue=''
+showCfgValue:mmglobfuncs.sh[13251]> [[ -n '' ]]
+showCfgValue:mmglobfuncs.sh[13271]> print -- ''
+showCfgValue:mmglobfuncs.sh[13275]> return 0
+mmlsquota:mmlsquota.sh[431]> tscCmdPortRange=''
+mmlsquota:mmlsquota.sh[432]> [[ -z '' ]]
+mmlsquota:mmlsquota.sh[432]> tscCmdPortRange=0
+mmlsquota:mmlsquota.sh[433]> GPFSCMDPORTRANGE=0
+mmlsquota:mmlsquota.sh[433]> export GPFSCMDPORTRANGE
+mmlsquota:mmlsquota.sh[440]> deviceList=''
+mmlsquota:mmlsquota.sh[514]> set -f
+mmlsquota:mmlsquota.sh[517]> set +f
+mmlsquota:mmlsquota.sh[520]> [[ rcf.bnl.gov:gpfs:star-pwg == *: ]]
+mmlsquota:mmlsquota.sh[521]> [[ rcf.bnl.gov:gpfs:star-pwg == :* ]]
+mmlsquota:mmlsquota.sh[522]> [[ rcf.bnl.gov:gpfs:star-pwg == */* ]]
+mmlsquota:mmlsquota.sh[523]> [[ rcf.bnl.gov:gpfs:star-pwg == */* ]]
+mmlsquota:mmlsquota.sh[531]> IFS=:
+mmlsquota:mmlsquota.sh[531]> set -f
+mmlsquota:mmlsquota.sh[531]> set -- rcf.bnl.gov gpfs star-pwg
+mmlsquota:mmlsquota.sh[531]> set +f
+mmlsquota:mmlsquota.sh[531]> IFS=$' \t\n'
+mmlsquota:mmlsquota.sh[532]> token1=rcf.bnl.gov
+mmlsquota:mmlsquota.sh[533]> token2=gpfs
+mmlsquota:mmlsquota.sh[534]> token3=star-pwg
+mmlsquota:mmlsquota.sh[536]> [[ -n rcf.bnl.gov ]]
+mmlsquota:mmlsquota.sh[536]> [[ -n gpfs ]]
+mmlsquota:mmlsquota.sh[536]> [[ -n star-pwg ]]
+mmlsquota:mmlsquota.sh[539]> clusterName=rcf.bnl.gov
+mmlsquota:mmlsquota.sh[540]> device=gpfs
+mmlsquota:mmlsquota.sh[541]> filesetName=star-pwg
+mmlsquota:mmlsquota.sh[577]> [[ rcf.bnl.gov != %%home%% ]]
+mmlsquota:mmlsquota.sh[579]> fqDeviceName=/dev/gpfs
+mmlsquota:mmlsquota.sh[580]> deviceName=gpfs
+mmlsquota:mmlsquota.sh[581]> fsHomeCluster=rcf.bnl.gov
+mmlsquota:mmlsquota.sh[582]> remoteDevice=gpfs
+mmlsquota:mmlsquota.sh[599]> [[ -n '' ]]
+mmlsquota:mmlsquota.sh[602]> [[ rcf.bnl.gov != %%home%% ]]
+mmlsquota:mmlsquota.sh[605]> [[ '  ' != *\ rcf.bnl.gov:/dev/gpfs\ * ]]
+mmlsquota:mmlsquota.sh[606]> deviceList=' rcf.bnl.gov:/dev/gpfs'
+mmlsquota:mmlsquota.sh[609]> [[ -n '' ]]
+mmlsquota:mmlsquota.sh[611]> remoteCluster=rcf.bnl.gov
+mmlsquota:mmlsquota.sh[612]> remoteFsSpecified=yes
+mmlsquota:mmlsquota.sh[619]> [[ -n star-pwg ]]
+mmlsquota:mmlsquota.sh[621]> deviceList=' rcf.bnl.gov:/dev/gpfs:star-pwg'
+mmlsquota:mmlsquota.sh[625]> [[ -n '' ]]
+mmlsquota:mmlsquota.sh[629]> set +f
+mmlsquota:mmlsquota.sh[640]> [[ yes == yes ]]
+mmlsquota:mmlsquota.sh[643]> /usr/lpp/mmfs/bin/.links/mmlsquota -u yichikawa -Y rcf.bnl.gov:/dev/gpfs:star-pwg
+mmlsquota:mmlsquota.sh[644]> remapRC 0
+remapRC:mmglobfuncs.Linux.sh[595]> : '#' _mmTRACE_ENTER_disabled 0
+remapRC:mmglobfuncs.Linux.sh[596]> rcIn=0
+remapRC:mmglobfuncs.Linux.sh[596]> typeset rcIn
+remapRC:mmglobfuncs.Linux.sh[597]> typeset rcOut
+remapRC:mmglobfuncs.Linux.sh[611]> rcOut=0
+remapRC:mmglobfuncs.Linux.sh[616]> print -- 0
+remapRC:mmglobfuncs.Linux.sh[617]> return 0
+mmlsquota:mmlsquota.sh[644]> rc=0
+mmlsquota:mmlsquota.sh[645]> [[ 0 -eq 19 ]]
+mmlsquota:mmlsquota.sh[655]> [[ 0 -eq 93 ]]
+mmlsquota:mmlsquota.sh[663]> [[ 0 -eq 80 ]]
+mmlsquota:mmlsquota.sh[664]> [[ 0 -eq 78 ]]
+mmlsquota:mmlsquota.sh[665]> [[ 0 -eq 208 ]]
+mmlsquota:mmlsquota.sh[666]> [[ 0 -eq 214 ]]
+mmlsquota:mmlsquota.sh[667]> [[ 0 -eq 70 ]]
+mmlsquota:mmlsquota.sh[677]> [[ 0 -eq 50 ]]
+mmlsquota:mmlsquota.sh[681]> [[ 0 -eq 11 ]]
+mmlsquota:mmlsquota.sh[685]> [[ 0 -eq 73 ]]
+mmlsquota:mmlsquota.sh[692]> [[ 0 -ne 0 ]]
+mmlsquota:mmlsquota.sh[695]> cleanupAndExit 0
+cleanupAndExit:mmglobfuncs.sh[11908]> IFS=$' \t\n'
+cleanupAndExit:mmglobfuncs.sh[11909]> : '#' _mmTRACE_ENTER_disabled 0
+cleanupAndExit:mmglobfuncs.sh[11911]> rc=0
+cleanupAndExit:mmglobfuncs.sh[11911]> typeset rc
+cleanupAndExit:mmglobfuncs.sh[11912]> lockControl=''
+cleanupAndExit:mmglobfuncs.sh[11912]> typeset lockControl
+cleanupAndExit:mmglobfuncs.sh[11913]> msgControl=''
+cleanupAndExit:mmglobfuncs.sh[11913]> typeset msgControl
+cleanupAndExit:mmglobfuncs.sh[11914]> cmdName=''
+cleanupAndExit:mmglobfuncs.sh[11914]> typeset cmdName
+cleanupAndExit:mmglobfuncs.sh[11916]> ec=0
+cleanupAndExit:mmglobfuncs.sh[11916]> typeset ec
+cleanupAndExit:mmglobfuncs.sh[11917]> typeset lockToFree lockName lockServer lockInstance
+cleanupAndExit:mmglobfuncs.sh[11919]> [[ -z 0 ]]
+cleanupAndExit:mmglobfuncs.sh[11920]> [[ -z '' ]]
+cleanupAndExit:mmglobfuncs.sh[11920]> cmdName=mmlsquota
+cleanupAndExit:mmglobfuncs.sh[11922]> trap '' HUP INT QUIT TERM PIPE
+cleanupAndExit:mmglobfuncs.sh[11924]> [[ '' == yes ]]
+cleanupAndExit:mmglobfuncs.sh[11930]> [[ -n '' ]]
+cleanupAndExit:mmglobfuncs.sh[11995]> [[ 0 != @(0|141|269) ]]
+cleanupAndExit:mmglobfuncs.sh[12000]> [[ 0 -eq 0 ]]
+cleanupAndExit:mmglobfuncs.sh[12002]> typeset auditargs
+cleanupAndExit:mmglobfuncs.sh[12003]> shouldAudit mmlsquota '-u yichikawa -Y rcf.bnl.gov:gpfs:star-pwg' auditargs 0
+shouldAudit:mmglobfuncs.sh[19272]> : '#' _mmTRACE_ENTER_disabled 'mmlsquota -u yichikawa -Y rcf.bnl.gov:gpfs:star-pwg auditargs 0'
+shouldAudit:mmglobfuncs.sh[19274]> isAuditInProgress=1
+shouldAudit:mmglobfuncs.sh[19276]> found=1
+shouldAudit:mmglobfuncs.sh[19276]> typeset -li found
+shouldAudit:mmglobfuncs.sh[19277]> foundEntry=0
+shouldAudit:mmglobfuncs.sh[19277]> typeset -li foundEntry
+shouldAudit:mmglobfuncs.sh[19278]> mmcmd=mmlsquota
+shouldAudit:mmglobfuncs.sh[19278]> typeset mmcmd
+shouldAudit:mmglobfuncs.sh[19279]> mmarg='-u yichikawa -Y rcf.bnl.gov:gpfs:star-pwg'
+shouldAudit:mmglobfuncs.sh[19279]> typeset mmarg
+shouldAudit:mmglobfuncs.sh[19280]> commandtxt=auditargs
+shouldAudit:mmglobfuncs.sh[19280]> typeset -n commandtxt
+shouldAudit:mmglobfuncs.sh[19281]> cmdEntry=0
+shouldAudit:mmglobfuncs.sh[19281]> typeset cmdEntry
+shouldAudit:mmglobfuncs.sh[19282]> typeset altercmd usearg argu arg_key
+shouldAudit:mmglobfuncs.sh[19283]> typeset -l cfgCmdAudit
+shouldAudit:mmglobfuncs.sh[19287]> [[ 4 -ne 4 ]]
+shouldAudit:mmglobfuncs.sh[19296]> [[ 0 == 1 ]]
+shouldAudit:mmglobfuncs.sh[19298]> [[ Linux == Linux ]]
+shouldAudit:mmglobfuncs.sh[19301]> [[ 0 -eq 0 ]]
+shouldAudit:mmglobfuncs.sh[19301]> [[ -f /var/mmfs/gen/mmsdrfs ]]
+shouldAudit:mmglobfuncs.sh[19302]> /usr/bin/head -1 /var/mmfs/gen/mmsdrfs
+shouldAudit:mmglobfuncs.sh[19302]> cut -d: -f 4
+shouldAudit:mmglobfuncs.sh[19302]> sdrfsFormatLevel=1427
+shouldAudit:mmglobfuncs.sh[19303]> [[ -z '' ]]
+shouldAudit:mmglobfuncs.sh[19303]> [[ -f /var/mmfs/gen/mmfsNodeData ]]
+shouldAudit:mmglobfuncs.sh[19304]> read ourNodeNumber ourShortName
+shouldAudit:mmglobfuncs.sh[19303]> /bin/awk -F: '{print $5, $6}' /var/mmfs/gen/mmfsNodeData
+shouldAudit:mmglobfuncs.sh[19306]> showCfgValue commandAudit
+showCfgValue:mmglobfuncs.sh[13060]> : '#' _mmTRACE_ENTER_disabled commandAudit
+showCfgValue:mmglobfuncs.sh[13062]> typeset parm checkDaemon node cfgFile Yflag
+showCfgValue:mmglobfuncs.sh[13063]> typeset parmValue rc
+showCfgValue:mmglobfuncs.sh[13064]> typeset -l parm_lc
+showCfgValue:mmglobfuncs.sh[13065]> memberClasses=/tmp/mmlsquota.2769566/memberClasses
+showCfgValue:mmglobfuncs.sh[13065]> typeset memberClasses
+showCfgValue:mmglobfuncs.sh[13067]> [[ commandAudit == -Y ]]
+showCfgValue:mmglobfuncs.sh[13073]> parm=commandAudit
+showCfgValue:mmglobfuncs.sh[13074]> parm_lc=commandAudit
+showCfgValue:mmglobfuncs.sh[13075]> checkDaemon=''
+showCfgValue:mmglobfuncs.sh[13076]> node=''
+showCfgValue:mmglobfuncs.sh[13079]> [[ '' != yes ]]
+showCfgValue:mmglobfuncs.sh[13079]> [[ '' != checkDaemon ]]
+showCfgValue:mmglobfuncs.sh[13079]> checkDaemon=''
+showCfgValue:mmglobfuncs.sh[13080]> [[ 1427 -lt 1402 ]]
+showCfgValue:mmglobfuncs.sh[13084]> [[ -s /var/mmfs/gen/mmfs.cfg.show ]]
+showCfgValue:mmglobfuncs.sh[13084]> cfgFile=/var/mmfs/gen/mmfs.cfg.show
+showCfgValue:mmglobfuncs.sh[13086]> [[ ! -f /var/mmfs/gen/mmfs.cfg.show ]]
+showCfgValue:mmglobfuncs.sh[13091]> [[ 1427 -lt 1210 ]]
+showCfgValue:mmglobfuncs.sh[13105]> [[ -z '' ]]
+showCfgValue:mmglobfuncs.sh[13107]> node=1531
+showCfgValue:mmglobfuncs.sh[13124]> [[ -n '' ]]
+showCfgValue:mmglobfuncs.sh[13148]> [[ /var/mmfs/gen/mmfs.cfg.show == /var/mmfs/gen/mmfs.cfg.show ]]
+showCfgValue:mmglobfuncs.sh[13150]> /bin/awk -F: -v Yflag= $'\n      tolower($1)  == "commandaudit" && ( $3 == "" || ","$3"," ~ /,1531,/ ) {\n        parmValue = $2 }\n      END {\n        if (Yflag != "-Y") {\n          gsub("%25", "%", parmValue) ;\n          gsub("%3A", ":", parmValue) ;\n        }\n        print parmValue\n      }\n    ' /var/mmfs/gen/mmfs.cfg.show
+showCfgValue:mmglobfuncs.sh[13150]> parmValue=''
+showCfgValue:mmglobfuncs.sh[13161]> checkForErrors awk 0
+showCfgValue:mmglobfuncs.sh[13251]> [[ -n '' ]]
+showCfgValue:mmglobfuncs.sh[13271]> print -- ''
+showCfgValue:mmglobfuncs.sh[13275]> return 0
+shouldAudit:mmglobfuncs.sh[19306]> cfgCmdAudit=''
+shouldAudit:mmglobfuncs.sh[19307]> [[ -z '' ]]
+shouldAudit:mmglobfuncs.sh[19307]> cfgCmdAudit=syslogonly
+shouldAudit:mmglobfuncs.sh[19310]> [[ syslogonly != off ]]
+shouldAudit:mmglobfuncs.sh[19313]> [[ 0 -gt 0 ]]
+shouldAudit:mmglobfuncs.sh[19384]> isAuditInProgress=0
+shouldAudit:mmglobfuncs.sh[19385]> return 1
+cleanupAndExit:mmglobfuncs.sh[12004]> [[ 1 -eq 0 ]]
+cleanupAndExit:mmglobfuncs.sh[12024]> unset MMCMDRUN
+cleanupAndExit:mmglobfuncs.sh[12030]> [[ Linux == Windows ]]
+cleanupAndExit:mmglobfuncs.sh[12041]> [[ -z '' ]]
+cleanupAndExit:mmglobfuncs.sh[12043]> print
+cleanupAndExit:mmglobfuncs.sh[12043]> 1> /dev/null
+cleanupAndExit:mmglobfuncs.sh[12044]> /bin/rm -f /var/mmfs/gen/mmsdrfs.2769566 /tmp/allClusterNodes.mmlsquota.2769566 /tmp/allQuorumNodes.mmlsquota.2769566 /tmp/allNonQuorumNodes.mmlsquota.2769566 /var/mmfs/ssl/stage/tmpKeyData.mmlsquota.2769566.pub /var/mmfs/ssl/stage/tmpKeyData.mmlsquota.2769566.priv /var/mmfs/ssl/stage/tmpKeyData.mmlsquota.2769566.cert /var/mmfs/ssl/stage/tmpKeyData.mmlsquota.2769566.keystore /tmp/nodefile.mmlsquota.2769566 /tmp/diskfile.mmlsquota.2769566 /tmp/diskNamesFile.mmlsquota.2769566
+cleanupAndExit:mmglobfuncs.sh[12044]> 1> /dev/null 2>& 1
+cleanupAndExit:mmglobfuncs.sh[12045]> /bin/rm -rf /tmp/mmlsquota.2769566/ /var/mmfs/ssl/keyServ/tmp/mmlsquota.2769566/
+cleanupAndExit:mmglobfuncs.sh[12045]> 1> /dev/null 2>& 1
+cleanupAndExit:mmglobfuncs.sh[12048]> [[ -n '' ]]
+cleanupAndExit:mmglobfuncs.sh[12057]> : '#' _mmTRACE_EXIT_disabled rc=0
+cleanupAndExit:mmglobfuncs.sh[12058]> trap - HUP INT QUIT TERM PIPE
+cleanupAndExit:mmglobfuncs.sh[12059]> exit 0

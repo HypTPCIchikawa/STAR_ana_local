@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "reportedBy": "capacity_roots_audit",
+  "count": 13027,
+  "uniqueInodes": 13027,
+  "allRegularUserOwnedSingleLink": true,
+  "logicalBytes": 2071420278951,
+  "allocatedBytes": 2072761335808,
+  "condorJobs": 0,
+  "noDetectedAnalysisOpenTargetFiles": true,
+  "unreadableProcessFdComm": [
+    "sshd-session",
+    "(sd-pam)"
+  ],
+  "protectedQaPdfAnd1ceOutsideTarget": true,
+  "mutationsByIndependentReviewer": false
+}

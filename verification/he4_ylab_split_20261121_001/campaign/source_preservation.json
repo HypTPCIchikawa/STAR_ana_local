@@ -1,0 +1,406 @@
+{
+  "passed": true,
+  "verifiedUTC": "2026-11-22T05:28:21.491112+00:00",
+  "snapshotManifest": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/source_before_manifest.json",
+  "snapshotManifestSha256": "ced2126114488bbc792aa612fdeb225883a6967c50208ae7ec1325d96b347f20",
+  "snapshotFiles": 24,
+  "allowedChangedFiles": [
+    "StMaker/StFemtoMaker/README.md",
+    "StMaker/common/FemtoLambdaLegacy.cxx",
+    "StMaker/common/FemtoLambdaLegacy.h"
+  ],
+  "unrelatedSnapshotFilesUnchanged": 21,
+  "makefileUnchanged": true,
+  "files": [
+    {
+      "path": "Makefile",
+      "snapshotSha256": "a95136a43184825f9e98d8d532ed0f526a7d2efbfa1dd3415f44101f64d36130",
+      "currentSha256": "a95136a43184825f9e98d8d532ed0f526a7d2efbfa1dd3415f44101f64d36130",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "StMaker/StFemtoMaker/README.md",
+      "snapshotSha256": "0d28aa4479f4a55da6da7914e23d4c3c01099ad6fdc2d57b03b9cc0404fab56d",
+      "currentSha256": "8e22d736aed458bc8634918ddaa72e00e42866de9afe1fa06909fd1d73ee4585",
+      "changed": true,
+      "backupVerified": true
+    },
+    {
+      "path": "StMaker/StFemtoMaker/StFemtoMaker.cxx",
+      "snapshotSha256": "9fa9f73637c586a692a48bf110fb8b392938574dc66037b1083907a599c3f3e5",
+      "currentSha256": "9fa9f73637c586a692a48bf110fb8b392938574dc66037b1083907a599c3f3e5",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "StMaker/StFemtoMaker/StFemtoMaker.h",
+      "snapshotSha256": "5e4bec11c498cc39fc684c9d3eacea5e35cae503a3812155a45570dffcb81e1e",
+      "currentSha256": "5e4bec11c498cc39fc684c9d3eacea5e35cae503a3812155a45570dffcb81e1e",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "StMaker/common/FemtoLambdaLegacy.cxx",
+      "snapshotSha256": "5a701233f5722749e9f090f8c605ee16c688956f067c2d7f0f02103b46f2dce3",
+      "currentSha256": "525875e3a54e67250db9911e6c4f730a67e3d06f55d0c745864336d392ea32ce",
+      "changed": true,
+      "backupVerified": true
+    },
+    {
+      "path": "StMaker/common/FemtoLambdaLegacy.h",
+      "snapshotSha256": "5e67ef4434a4d994b27e5d01b591677f640bccc5d06dcf167755cc99254c1a93",
+      "currentSha256": "fb021e7ba84eda412990536dcb25f0acc17ad06b6033b220104a9a4dfb9a20cd",
+      "changed": true,
+      "backupVerified": true
+    },
+    {
+      "path": "common/macro/checkHistAnaFemtoLambda.C",
+      "snapshotSha256": "27b23231412546192f1998bd42efe316d04075d4de09b76dcc2a6149e19e5dea",
+      "currentSha256": "27b23231412546192f1998bd42efe316d04075d4de09b76dcc2a6149e19e5dea",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_3He_KFParticle_highpurity.yaml",
+      "snapshotSha256": "54f3e66d877deec1af5d4b4fd08b72ced8da9990c1f8bda1227a8efd5480fd40",
+      "currentSha256": "54f3e66d877deec1af5d4b4fd08b72ced8da9990c1f8bda1227a8efd5480fd40",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_highpurity.yaml",
+      "snapshotSha256": "2ae9496c9d46ac606474c29a0db2b174a987b41675d5a709943d6f136c73dec5",
+      "currentSha256": "2ae9496c9d46ac606474c29a0db2b174a987b41675d5a709943d6f136c73dec5",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_d_KFParticle_highpurity.yaml",
+      "snapshotSha256": "62ddbc22dbde9ac753cd9561ac48807a9212c8496de11f6232a19ccbd9234feb",
+      "currentSha256": "62ddbc22dbde9ac753cd9561ac48807a9212c8496de11f6232a19ccbd9234feb",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_t_KFParticle_highpurity.yaml",
+      "snapshotSha256": "874edbfa51944dc284637901d92352731219e8a6b810c399ae3b39a1918ec78b",
+      "currentSha256": "874edbfa51944dc284637901d92352731219e8a6b810c399ae3b39a1918ec78b",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "config/maker/maker_anaFemtoLambda_3He_KFParticle.yaml",
+      "snapshotSha256": "1389551a9088a17717c9f122c8389afcbe5776c08811458d2ac7d6a05fb31476",
+      "currentSha256": "1389551a9088a17717c9f122c8389afcbe5776c08811458d2ac7d6a05fb31476",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "config/maker/maker_anaFemtoLambda_4He_KFParticle.yaml",
+      "snapshotSha256": "3a75316ea60ba0daa00ad5c75d9ef557815e490908f618211be48e68198abcbe",
+      "currentSha256": "3a75316ea60ba0daa00ad5c75d9ef557815e490908f618211be48e68198abcbe",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "config/maker/maker_anaFemtoLambda_d_KFParticle.yaml",
+      "snapshotSha256": "1fcaa0512c527e8c564d68b92bba1675aee6dcf986593995a929feeb0eb5df6d",
+      "currentSha256": "1fcaa0512c527e8c564d68b92bba1675aee6dcf986593995a929feeb0eb5df6d",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "config/maker/maker_anaFemtoLambda_t_KFParticle.yaml",
+      "snapshotSha256": "7e8fa7de5d36cbba4760ea5288a32e4b97aed17e8b77a50c555359eea3e77044",
+      "currentSha256": "7e8fa7de5d36cbba4760ea5288a32e4b97aed17e8b77a50c555359eea3e77044",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "config/maker/maker_auau3p85_anaFemtoLambda_4He_KFParticle_he3Control.yaml",
+      "snapshotSha256": "55c89dc699f97b0fb574cc3bdf6ecc6a3d27f5faffa019d9269ca04ac47faaf2",
+      "currentSha256": "55c89dc699f97b0fb574cc3bdf6ecc6a3d27f5faffa019d9269ca04ac47faaf2",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "docs/REFERENCE.md",
+      "snapshotSha256": "d9eb317f3a740d65efc807ff3c93345b58fef3b3743c5167dedb709b04bc9ce1",
+      "currentSha256": "d9eb317f3a740d65efc807ff3c93345b58fef3b3743c5167dedb709b04bc9ce1",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "include/FemtoEpdEventPlane.h",
+      "snapshotSha256": "17133c212b02346a83c4915d24cdada179981d85c5bd3f1d043153c2677ef122",
+      "currentSha256": "17133c212b02346a83c4915d24cdada179981d85c5bd3f1d043153c2677ef122",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "job/run/README.md",
+      "snapshotSha256": "365919e374b9a2b7e481aa5ee368a4869a61760a511ec83bc26b5c9a9fbe20c7",
+      "currentSha256": "365919e374b9a2b7e481aa5ee368a4869a61760a511ec83bc26b5c9a9fbe20c7",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "tools/auau3p85GeV/Draw_LambdaInvMass.C",
+      "snapshotSha256": "8e2138b441e38450c77d189da4e3b510b42858a4bb27a40f3eb847340630ae21",
+      "currentSha256": "8e2138b441e38450c77d189da4e3b510b42858a4bb27a40f3eb847340630ae21",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "tools/auau3p85GeV/check_Lambda_SN.C",
+      "snapshotSha256": "ef072df11ea6b9a80f3f9489299af4ac5d778ff5fe0572a575e2f094da73962f",
+      "currentSha256": "ef072df11ea6b9a80f3f9489299af4ac5d778ff5fe0572a575e2f094da73962f",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "tools/auau3p85GeV/draw_LambdaNuclearId_relamom_sum_CFsub.C",
+      "snapshotSha256": "d8e326348c650c2cd7eff316ca6c27ab36c9054e0f5432e0d0114cb5f0c183ce",
+      "currentSha256": "d8e326348c650c2cd7eff316ca6c27ab36c9054e0f5432e0d0114cb5f0c183ce",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "tools/auau3p85GeV/draw_LambdaNuclearId_relamom_sum_CFsub_method5.C",
+      "snapshotSha256": "5d55c7bcbb5ab080abe07fd9c02a906b01edbc6823e7896cbd72872749bada2e",
+      "currentSha256": "5d55c7bcbb5ab080abe07fd9c02a906b01edbc6823e7896cbd72872749bada2e",
+      "changed": false,
+      "backupVerified": true
+    },
+    {
+      "path": "tools/draw_LambdaNuclearId_relamom_sum_CFsub_method5.C",
+      "snapshotSha256": "e1eebfe451d08c08921554936b6b913a2d7016f20b69ab0b827ec5a76038db64",
+      "currentSha256": "e1eebfe451d08c08921554936b6b913a2d7016f20b69ab0b827ec5a76038db64",
+      "changed": false,
+      "backupVerified": true
+    }
+  ],
+  "originalReferenceConfigsUnchanged": 8,
+  "generatedConfigsUnchanged": 4,
+  "configFingerprints": [
+    {
+      "category": "originalReferenceConfigSha256",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_periodMix100.yaml",
+      "sha256": "f8f8736ee6bbda263cca71ceb8e74f9622b3acf16b610f085eba5c2cce71daec"
+    },
+    {
+      "category": "originalReferenceConfigSha256",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_periodMix100.yaml",
+      "sha256": "bf539bf780a09d6449343f1e5aa0bab72ada8a23ab295ed3e989a12857ce4c01"
+    },
+    {
+      "category": "originalReferenceConfigSha256",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/maker/maker_auau3p85_anaFemtoLambda_4He_KFParticle_epdPairY10YLabMerging20261113.yaml",
+      "sha256": "6953c7cb6a6a6926bd0f0058d93edb1f2ec0958c6dbd174435d09ce2767b242f"
+    },
+    {
+      "category": "originalReferenceConfigSha256",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_femtoLambda_tree_replay_kf.yaml",
+      "sha256": "909d65bf358185ad481257022c4eb8b0ef3919f8ccf110474c86fd57ba20668e"
+    },
+    {
+      "category": "originalReferenceConfigSha256",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/mixing/mixing_femtoLambda_epd8_pool100.yaml",
+      "sha256": "cbd844f023548aa3988fc022d9d7d6a9dfae87645f4f210fff2b0b0ff2f7c385"
+    },
+    {
+      "category": "originalReferenceConfigSha256",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/reduced_tree/lambda_he4_period_mix.yaml",
+      "sha256": "93e94dddd5f5db84af76e43a7bb6a911aba8105cdde18a856ad35fc43ab46083"
+    },
+    {
+      "category": "originalReferenceConfigSha256",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/event_plane/lambda_he4_xialei_epd8.yaml",
+      "sha256": "ccc0a0868f0fb40d0d75c622a2e133392a5b591458c2336f11ec7d813e58d64d"
+    },
+    {
+      "category": "originalReferenceConfigSha256",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_femtoLambda_he4_he3_control_epdPairY10YLabMerging20261113_nuclear.yaml",
+      "sha256": "0272779ba55203d1e90a77ede46d88123b811085c728270aed9d9263a7864102"
+    },
+    {
+      "category": "generatedFiles",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100.yaml",
+      "sha256": "092c911556e0ad677220216fa32999512a6d54224fd487167dfa2c382a1e43ff"
+    },
+    {
+      "category": "generatedFiles",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100.yaml",
+      "sha256": "9fe7f470c81b358d57f0e379e5f0d96e3adcd0c75700bfa62aca67624c41ef6b"
+    },
+    {
+      "category": "generatedFiles",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/maker/maker_auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100.yaml",
+      "sha256": "baea9496822a3e66c56c57ce1dac219398f789574609101d56850e532c9d30b2"
+    },
+    {
+      "category": "generatedFiles",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_kf.yaml",
+      "sha256": "49072a22315c1f3d62dbea406e07d160e8066563a10551de22a11cf071db246b"
+    }
+  ],
+  "inputProvenance": [
+    {
+      "kind": "sourceManifest",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/input_manifest.json",
+      "sha256": "08823296f4ee5848e588211f49aea4294eceadf21fd289cd9b10b1c7bacaf602"
+    },
+    {
+      "kind": "inputList",
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/periods.list",
+      "sha256": "b2afaeb07e7f3d3428812810f2bc148c6296912caa10367a81d6be1cbd4189c4"
+    }
+  ],
+  "richPeriodROOTsUnchangedByStatFingerprint": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_00_runs_22158032_22160028.root",
+      "bytes": 23079997172,
+      "inode": 950499261,
+      "device": 48,
+      "mtimeNs": 1794993622733643342
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_01_runs_22160028_22161010.root",
+      "bytes": 22471581511,
+      "inode": 952599101,
+      "device": 48,
+      "mtimeNs": 1794994954188134607
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_02_runs_22161010_22161031.root",
+      "bytes": 22613614704,
+      "inode": 961530683,
+      "device": 48,
+      "mtimeNs": 1794996212992430431
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_03_runs_22161031_22163011.root",
+      "bytes": 23445940165,
+      "inode": 961530705,
+      "device": 48,
+      "mtimeNs": 1794997551978610918
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_04_runs_22163011_22163030.root",
+      "bytes": 23287967636,
+      "inode": 667882934,
+      "device": 48,
+      "mtimeNs": 1794998782420959083
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_05_runs_22163030_22164009.root",
+      "bytes": 23215429451,
+      "inode": 961530743,
+      "device": 48,
+      "mtimeNs": 1794999974777351467
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_06_runs_22164009_22164031.root",
+      "bytes": 23924088071,
+      "inode": 961530834,
+      "device": 48,
+      "mtimeNs": 1795001460537961326
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_07_runs_22164031_22165015.root",
+      "bytes": 22804368082,
+      "inode": 961530860,
+      "device": 48,
+      "mtimeNs": 1795002653780822734
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_08_runs_22165015_22165035.root",
+      "bytes": 23229331839,
+      "inode": 961530891,
+      "device": 48,
+      "mtimeNs": 1795003774547751026
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_09_runs_22165035_22166030.root",
+      "bytes": 23197860285,
+      "inode": 961530992,
+      "device": 48,
+      "mtimeNs": 1795004901433945376
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_10_runs_22166030_22167011.root",
+      "bytes": 23291314979,
+      "inode": 961531040,
+      "device": 48,
+      "mtimeNs": 1795006225721979029
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_11_runs_22167011_22169003.root",
+      "bytes": 23178843778,
+      "inode": 961531162,
+      "device": 48,
+      "mtimeNs": 1795007385266120528
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_12_runs_22169003_22170008.root",
+      "bytes": 23202615298,
+      "inode": 961531187,
+      "device": 48,
+      "mtimeNs": 1795008489288295435
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_13_runs_22170008_22171031.root",
+      "bytes": 23512584777,
+      "inode": 740899290,
+      "device": 48,
+      "mtimeNs": 1795009587073659078
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_14_runs_22171031_22173003.root",
+      "bytes": 23698650794,
+      "inode": 719887907,
+      "device": 48,
+      "mtimeNs": 1795010760902204278
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_15_runs_22173003_22173023.root",
+      "bytes": 23822371527,
+      "inode": 961531254,
+      "device": 48,
+      "mtimeNs": 1795011906724650265
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_16_runs_22173024_22174047.root",
+      "bytes": 22780847618,
+      "inode": 961531314,
+      "device": 48,
+      "mtimeNs": 1795013124098526487
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_17_runs_22174047_22175010.root",
+      "bytes": 23346975131,
+      "inode": 790803992,
+      "device": 48,
+      "mtimeNs": 1795014373282584038
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_18_runs_22175010_22177006.root",
+      "bytes": 23825675428,
+      "inode": 732494315,
+      "device": 48,
+      "mtimeNs": 1795015641031448488
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_19_runs_22177006_22179022.root",
+      "bytes": 23174130710,
+      "inode": 866975177,
+      "device": 48,
+      "mtimeNs": 1795016876497514681
+    }
+  ],
+  "preexistingEPBinMetadataConfirmedInSourceSnapshot": true,
+  "sourceImplementationStatus": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/source_implementation_status.json",
+  "sourceImplementationStatusHistoricalBuildFlags": "Recorded before parent build and fixture; not used as execution-result authority.",
+  "noSourceLibraryConfigurationOrInputMutationsByThisAudit": true
+}

@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "pilotEvents": 400000,
+  "longestPeriod": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_06_runs_22164009_22164031.root",
+  "longestPeriodStoredEvents": 93673595,
+  "cases": {
+    "ep1_mergingOff": {
+      "pilotLoopCpuSeconds": 53.1,
+      "pilotLoopWallSeconds": 57.8425,
+      "pilotProcessCpuSeconds": 63.49,
+      "maxRssKiB": 540716.0,
+      "linearLongestPeriodLoopCpuHours": 3.454213815625,
+      "linearLongestPeriodWallHours": 3.7627186936024306,
+      "linearLongestPeriodProcessCpuHours": 4.130094823993056
+    },
+    "ep1_mergingOn": {
+      "pilotLoopCpuSeconds": 54.51,
+      "pilotLoopWallSeconds": 59.038,
+      "pilotProcessCpuSeconds": 64.96,
+      "maxRssKiB": 541052.0,
+      "linearLongestPeriodLoopCpuHours": 3.545935877395833,
+      "linearLongestPeriodWallHours": 3.8404872927847222,
+      "linearLongestPeriodProcessCpuHours": 4.225719952222222
+    },
+    "ep8_mergingOff": {
+      "pilotLoopCpuSeconds": 106.81,
+      "pilotLoopWallSeconds": 113.93,
+      "pilotProcessCpuSeconds": 116.77,
+      "maxRssKiB": 533812.0,
+      "linearLongestPeriodLoopCpuHours": 6.9481088069097225,
+      "linearLongestPeriodWallHours": 7.411272693298611,
+      "linearLongestPeriodProcessCpuHours": 7.596017838993055
+    },
+    "ep8_mergingOn": {
+      "pilotLoopCpuSeconds": 105.92,
+      "pilotLoopWallSeconds": 112.822,
+      "pilotProcessCpuSeconds": 116.01,
+      "maxRssKiB": 533488.0,
+      "linearLongestPeriodLoopCpuHours": 6.890213321111111,
+      "linearLongestPeriodWallHours": 7.339196066034723,
+      "linearLongestPeriodProcessCpuHours": 7.5465789971875
+    },
+    "ep16_mergingOff": {
+      "pilotLoopCpuSeconds": 232.51,
+      "pilotLoopWallSeconds": 237.689,
+      "pilotProcessCpuSeconds": 242.61,
+      "maxRssKiB": 553868.0,
+      "linearLongestPeriodLoopCpuHours": 15.125033037118055,
+      "linearLongestPeriodWallHours": 15.46193272357986,
+      "linearLongestPeriodProcessCpuHours": 15.782049224270834
+    },
+    "ep16_mergingOn": {
+      "pilotLoopCpuSeconds": 231.2,
+      "pilotLoopWallSeconds": 236.973,
+      "pilotProcessCpuSeconds": 241.37,
+      "maxRssKiB": 554644.0,
+      "linearLongestPeriodLoopCpuHours": 15.03981608611111,
+      "linearLongestPeriodWallHours": 15.415356130510416,
+      "linearLongestPeriodProcessCpuHours": 15.70138585079861
+    },
+    "ep32_mergingOff": {
+      "pilotLoopCpuSeconds": 446.32,
+      "pilotLoopWallSeconds": 452.445,
+      "pilotProcessCpuSeconds": 455.75,
+      "maxRssKiB": 569212.0,
+      "linearLongestPeriodLoopCpuHours": 29.033610361388888,
+      "linearLongestPeriodWallHours": 29.432048395677086,
+      "linearLongestPeriodProcessCpuHours": 29.64704230642361
+    },
+    "ep32_mergingOn": {
+      "pilotLoopCpuSeconds": 444.03,
+      "pilotLoopWallSeconds": 450.889,
+      "pilotProcessCpuSeconds": 453.56,
+      "maxRssKiB": 567852.0,
+      "linearLongestPeriodLoopCpuHours": 28.88464332489583,
+      "linearLongestPeriodWallHours": 29.330828872190974,
+      "linearLongestPeriodProcessCpuHours": 29.504580380694446
+    }
+  },
+  "recommendedSchedulerEstimateHours": 48,
+  "existingDefaultHardLimitHours": 72,
+  "caveats": "A 400000-event prefix includes cold pools, spans three candidate streams, and ran at four-way concurrency. Linear scaling is approximate; period candidate density and CPU contention may differ. No hard-limit override is inferred."
+}

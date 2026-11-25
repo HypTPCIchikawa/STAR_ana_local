@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-11-17T15:23:00.852781+09:00",
+  "expectedSubjobs": 4058,
+  "emailContent": "minimal",
+  "submitted": 4058,
+  "terminal": 123,
+  "queued": 3935,
+  "queueStates": {
+    "2": 1379,
+    "1": 2556
+  },
+  "outcomes": {
+    "exit_0": 123
+  },
+  "stateDirectory": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_production_20261117_001/tree/notify"
+}

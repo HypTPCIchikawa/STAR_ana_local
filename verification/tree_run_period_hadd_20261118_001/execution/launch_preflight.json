@@ -1,0 +1,12 @@
+{
+  "sourceCount": 4024,
+  "groupCount": 20,
+  "maxSourcesPerGroup": 240,
+  "groupBytesMin": 22805353302,
+  "groupBytesMax": 24235987508,
+  "sourceEvents": 1819447887,
+  "strategy": "whole_producer_run_min_cohorts",
+  "splitRunCount": 18,
+  "outputDirectory": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001",
+  "configuration": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/merge_config.json"
+}

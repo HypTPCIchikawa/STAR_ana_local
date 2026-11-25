@@ -1,0 +1,79 @@
+{
+  "anaName": "auau3p85_anaFemtoLambda_4He_tree_treeWrite20261117",
+  "createdAt": "2026-11-17T06:16:38Z",
+  "git": {
+    "branch": "main",
+    "commit": "f35f4424f35a2bb8c06458721259ae21bf24c50d",
+    "detachedHead": false,
+    "diffAgainstHead": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/gitdiff_auau3p85_anaFemtoLambda_4He_tree_treeWrite20261117_9037A6F05FAD08FC8E9BD9286C8A38A5.patch",
+      "sha256": "b7384687ba60c03576b91330dd3a093d4fe0a8a8c6f74fffc453ad916bd18e37",
+      "sizeBytes": 180604
+    },
+    "isDirty": true,
+    "shortCommit": "f35f442",
+    "status": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/gitstatus_auau3p85_anaFemtoLambda_4He_tree_treeWrite20261117_9037A6F05FAD08FC8E9BD9286C8A38A5.txt",
+      "sha256": "5b423a7d6fd57053b64c85bf33045cec5696ef9d78f2c0668528ae3f249f8c2d",
+      "sizeBytes": 6310
+    },
+    "submoduleStatus": [
+      " a128fcb31c4b6c075674db255763f25c1703707f star_local (heads/main)"
+    ],
+    "submoduleStatusFile": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/gitsubmodules_auau3p85_anaFemtoLambda_4He_tree_treeWrite20261117_9037A6F05FAD08FC8E9BD9286C8A38A5.txt",
+      "sha256": "2ba8badcf94f645ce10a0f54f098534ea77eed6302163eac7b5632d1d554560b",
+      "sizeBytes": 66
+    }
+  },
+  "jobPrefix": "auau3p85_anaFemtoLambda_4He_tree_treeWrite202611179037A6F05FAD08FC8E9BD9286C8A38A5",
+  "jobid": "9037A6F05FAD08FC8E9BD9286C8A38A5",
+  "projectRoot": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer",
+  "runtime": {
+    "libraryTag": "SL24y",
+    "root4starPath": "/star/nfs4/AFS/star/packages/SL24y/.sl73_x8664_gcc485/bin/root4star",
+    "rootConfigPath": "/cvmfs/star.sdcc.bnl.gov/star-spack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/root-5.34.38-eyawaunrtayjlt3aqon5claakm3c7xl7/bin/root-config",
+    "rootVersion": "5.34/38",
+    "runtimeBundle": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runtime_bundle_auau3p85_anaFemtoLambda_4He_tree_treeWrite20261117_9037A6F05FAD08FC8E9BD9286C8A38A5.tar.gz",
+      "sha256": "65b4b6c0a5e691a40d89f3c78ad96b411e1f6f2a68fdc315711e1cb6fd1a3656",
+      "sizeBytes": 51874442
+    },
+    "singularityImage": "/cvmfs/singularity.opensciencegrid.org/star-bnl/star-sw:latest",
+    "starHostSys": "sl73_x8664_gcc485",
+    "sumsArtifacts": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/sums_artifacts_auau3p85_anaFemtoLambda_4He_tree_treeWrite20261117_9037A6F05FAD08FC8E9BD9286C8A38A5.tar.gz",
+      "sha256": "ac272bf5e0d9fadff164d049c31ec1b560d39ee4e89052f74071096f3e7ea7fc",
+      "sizeBytes": 2585718
+    }
+  },
+  "schemaVersion": 1,
+  "submit": {
+    "analysisInfo": "analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree.yaml",
+    "configSnapshot": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/configlog/config_auau3p85_anaFemtoLambda_4He_tree_treeWrite20261117_9037A6F05FAD08FC8E9BD9286C8A38A5.txt",
+      "sha256": "af831ff0136731325d6386a13dac47039ba5ea57e6915e9714995d140c4e137d",
+      "sizeBytes": 118619
+    },
+    "host": "starsub03.sdcc.bnl.gov",
+    "joblistSnapshot": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/joblistlog/joblist_auau3p85_anaFemtoLambda_4He_tree_treeWrite20261117_9037A6F05FAD08FC8E9BD9286C8A38A5.xml",
+      "sha256": "ea847201b6aa00ef68da4669740473ac5f4756307fcac3dcc9218e61cdc53d5a",
+      "sizeBytes": 5140
+    },
+    "mainconf": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree.yaml",
+    "reportPath": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/auau3p85_anaFemtoLambda_4He_tree_treeWrite202611179037A6F05FAD08FC8E9BD9286C8A38A5.report",
+    "sessionPath": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/auau3p85_anaFemtoLambda_4He_tree_treeWrite202611179037A6F05FAD08FC8E9BD9286C8A38A5.session.xml",
+    "submitStdout": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/submit_stdout_auau3p85_anaFemtoLambda_4He_tree_treeWrite20261117_9037A6F05FAD08FC8E9BD9286C8A38A5.txt",
+      "sha256": "00dcdda9ed06f34e7b3d04b082cc5851974f04158ad9acf96b9d61a2f8a76944",
+      "sizeBytes": 299716
+    },
+    "submittedXml": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/joblist_auau3p85_anaFemtoLambda_4He_tree_treeWrite20261117.xml",
+      "sha256": "ea847201b6aa00ef68da4669740473ac5f4756307fcac3dcc9218e61cdc53d5a",
+      "sizeBytes": 5140
+    },
+    "user": "yichikawa"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "attemptedAtUTC": "2026-11-22T05:46:03.779989+00:00",
+  "config": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/launch_config.json",
+  "configSha256": "75f65f962472f51120de95c439eff59c6c625b162f9b744fd00c95c797ef3283",
+  "joblist": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/joblist/joblist_auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_he4YLab820261121.xml",
+  "joblistSha256": "f87c6600298ed198a5300bb1b08f79dfba421edc721852f7597b19459e8791bc",
+  "inputListSha256": "b2afaeb07e7f3d3428812810f2bc148c6296912caa10367a81d6be1cbd4189c4",
+  "quota": {
+    "checkedAtUTC": "2026-11-22T05:46:03.779945+00:00",
+    "rawFieldsKiB": {
+      "version": "1",
+      "reserved": "",
+      "filesystemName": "gpfs",
+      "quotaType": "USR",
+      "id": "102335",
+      "name": "yichikawa",
+      "blockUsage": "1298159104",
+      "blockQuota": "2406563840",
+      "blockLimit": "2943434752",
+      "blockInDoubt": "327168",
+      "blockGrace": "none",
+      "filesUsage": "486446",
+      "filesQuota": "0",
+      "filesLimit": "0",
+      "filesInDoubt": "150",
+      "filesGrace": "none",
+      "remarks": "rcf.bnl.gov",
+      "fid": "18",
+      "filesetname": "star-pwg",
+      "": ""
+    },
+    "softHeadroomAfterInDoubtBytes": 1134671429632
+  }
+}

@@ -1,0 +1,173 @@
+[
+  {
+    "acceptedEventQuality": {
+      "coefficientOfVariation": 0.008505217824612665,
+      "complete": true,
+      "maxToMean": 1.011974628762753,
+      "maximum": 184123510,
+      "mean": 181944788.7,
+      "minToMean": 0.983968566943627,
+      "minimum": 179027953,
+      "total": 1819447887
+    },
+    "actualGroups": 10,
+    "balanceBy": "bytes",
+    "boundaryCrossingRunIncidences": 8,
+    "byteQuality": {
+      "coefficientOfVariation": 0.009382367982422514,
+      "complete": true,
+      "maxToMean": 1.013219836790061,
+      "maximum": 47772212418,
+      "mean": 47148911503.1,
+      "minToMean": 0.9863154070257258,
+      "minimum": 46503697840,
+      "total": 471489115031
+    },
+    "fallbackReasons": [
+      "largest_run_interval_component_exceeds_target_ratio"
+    ],
+    "fallbackUnitUsed": "run-min",
+    "inputEventQuality": {
+      "coefficientOfVariation": 0.008737070865041698,
+      "complete": true,
+      "maxToMean": 1.0116905889055305,
+      "maximum": 186435032,
+      "mean": 184280682.3,
+      "minToMean": 0.9836050297714791,
+      "minimum": 181259406,
+      "total": 1842806823
+    },
+    "inputOrder": "source runMin, source runMax, numeric subjob; producer event order unchanged",
+    "largestComponentWeight": 154230172266,
+    "maximumGroupsPerRun": 2,
+    "minimaxUnitCapacity": 47772212418,
+    "minorityDefinition": "Pico files outside the largest group for each split run; whole producer files remain intact",
+    "minorityFractionOfAllSourcePicoFiles": 0.0010215068606609426,
+    "minorityFractionWithinSplitRuns": 0.04013015184381779,
+    "minoritySplitPicoFiles": 74,
+    "naturalComponentCount": 18,
+    "partitionUnitCount": 381,
+    "requestedGroups": 10,
+    "runEvidence": "submitted source-list PicoDst filenames; ROOT event runIds not decoded",
+    "runMinCohortCount": 381,
+    "sourcePicoFilesInSplitRuns": 1844,
+    "splitRunCount": 8,
+    "strategy": "whole_producer_run_min_cohorts",
+    "targetWeight": 47148911503.1,
+    "wholeProducersPreserved": true
+  },
+  {
+    "acceptedEventQuality": {
+      "coefficientOfVariation": 0.018310049237827534,
+      "complete": true,
+      "maxToMean": 1.029692531116721,
+      "maximum": 93673595,
+      "mean": 90972394.35,
+      "minToMean": 0.9609702000769644,
+      "minimum": 87421760,
+      "total": 1819447887
+    },
+    "actualGroups": 20,
+    "balanceBy": "bytes",
+    "boundaryCrossingRunIncidences": 18,
+    "byteQuality": {
+      "coefficientOfVariation": 0.016012244406853362,
+      "complete": true,
+      "maxToMean": 1.0280613798011649,
+      "maximum": 24235987508,
+      "mean": 23574455751.55,
+      "minToMean": 0.9673756010465085,
+      "minimum": 22805353302,
+      "total": 471489115031
+    },
+    "fallbackReasons": [
+      "largest_run_interval_component_exceeds_target_ratio"
+    ],
+    "fallbackUnitUsed": "run-min",
+    "inputEventQuality": {
+      "coefficientOfVariation": 0.018559293567929406,
+      "complete": true,
+      "maxToMean": 1.0292803653245426,
+      "maximum": 94838244,
+      "mean": 92140341.15,
+      "minToMean": 0.9603363510012356,
+      "minimum": 88485719,
+      "total": 1842806823
+    },
+    "inputOrder": "source runMin, source runMax, numeric subjob; producer event order unchanged",
+    "largestComponentWeight": 154230172266,
+    "maximumGroupsPerRun": 2,
+    "minimaxUnitCapacity": 24235987508,
+    "minorityDefinition": "Pico files outside the largest group for each split run; whole producer files remain intact",
+    "minorityFractionOfAllSourcePicoFiles": 0.0024157256839954723,
+    "minorityFractionWithinSplitRuns": 0.04791894852135816,
+    "minoritySplitPicoFiles": 175,
+    "naturalComponentCount": 18,
+    "partitionUnitCount": 381,
+    "requestedGroups": 20,
+    "runEvidence": "submitted source-list PicoDst filenames; ROOT event runIds not decoded",
+    "runMinCohortCount": 381,
+    "sourcePicoFilesInSplitRuns": 3652,
+    "splitRunCount": 18,
+    "strategy": "whole_producer_run_min_cohorts",
+    "targetWeight": 23574455751.55,
+    "wholeProducersPreserved": true
+  },
+  {
+    "acceptedEventQuality": {
+      "coefficientOfVariation": 0.03524972115660355,
+      "complete": true,
+      "maxToMean": 1.0479800897974276,
+      "maximum": 63558172,
+      "mean": 60648262.9,
+      "minToMean": 0.9186421726845535,
+      "minimum": 55714052,
+      "total": 1819447887
+    },
+    "actualGroups": 30,
+    "balanceBy": "bytes",
+    "boundaryCrossingRunIncidences": 28,
+    "byteQuality": {
+      "coefficientOfVariation": 0.034504999575586594,
+      "complete": true,
+      "maxToMean": 1.037832602302658,
+      "maximum": 16310892507,
+      "mean": 15716303834.366667,
+      "minToMean": 0.9199261135678228,
+      "minimum": 14457838306,
+      "total": 471489115031
+    },
+    "fallbackReasons": [
+      "largest_run_interval_component_exceeds_target_ratio"
+    ],
+    "fallbackUnitUsed": "run-min",
+    "inputEventQuality": {
+      "coefficientOfVariation": 0.03570723410672202,
+      "complete": true,
+      "maxToMean": 1.0577796086226017,
+      "maximum": 64976116,
+      "mean": 61426894.1,
+      "minToMean": 0.91829213940348,
+      "minimum": 56407834,
+      "total": 1842806823
+    },
+    "inputOrder": "source runMin, source runMax, numeric subjob; producer event order unchanged",
+    "largestComponentWeight": 154230172266,
+    "maximumGroupsPerRun": 2,
+    "minimaxUnitCapacity": 16310892507,
+    "minorityDefinition": "Pico files outside the largest group for each split run; whole producer files remain intact",
+    "minorityFractionOfAllSourcePicoFiles": 0.003671903039673118,
+    "minorityFractionWithinSplitRuns": 0.045493415426714555,
+    "minoritySplitPicoFiles": 266,
+    "naturalComponentCount": 18,
+    "partitionUnitCount": 381,
+    "requestedGroups": 30,
+    "runEvidence": "submitted source-list PicoDst filenames; ROOT event runIds not decoded",
+    "runMinCohortCount": 381,
+    "sourcePicoFilesInSplitRuns": 5847,
+    "splitRunCount": 28,
+    "strategy": "whole_producer_run_min_cohorts",
+    "targetWeight": 15716303834.366667,
+    "wholeProducersPreserved": true
+  }
+]

@@ -1,0 +1,153 @@
+{
+  "startedJst": "2026-11-19T16:01:02.631550+09:00",
+  "storedEventsPerPilot": 400000,
+  "input": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_00_runs_22158032_22160028.root",
+  "pilots": {
+    "B_period100": {
+      "command": [
+        "/usr/bin/time",
+        "-v",
+        "-o",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/pilot_B_period100.time",
+        "bash",
+        "script/singularity_run_anaFemtoLambda_4He_tree.sh",
+        "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_periodMix100.yaml",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_00_runs_22158032_22160028.root",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/pilot_B_period100.root",
+        "periodMix100Check_B_period100",
+        "400000"
+      ],
+      "pid": 1757796,
+      "output": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/pilot_B_period100.root",
+      "returnCode": 0,
+      "completionMarkers": [
+        "FemtoLambda tree replay job=periodMix100Check_B_period100 requested=400000 completed=400000 available=91040515 status=0 RealTime=108.744 CpuTime=98.48"
+      ],
+      "passed": true,
+      "outputBytes": 6251301
+    },
+    "A_reset100": {
+      "command": [
+        "/usr/bin/time",
+        "-v",
+        "-o",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/pilot_A_reset100.time",
+        "bash",
+        "script/singularity_run_anaFemtoLambda_4He_tree.sh",
+        "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_periodMix100_resetCheck.yaml",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_00_runs_22158032_22160028.root",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/pilot_A_reset100.root",
+        "periodMix100Check_A_reset100",
+        "400000"
+      ],
+      "pid": 1757797,
+      "output": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/pilot_A_reset100.root",
+      "returnCode": 0,
+      "completionMarkers": [
+        "FemtoLambda tree replay job=periodMix100Check_A_reset100 requested=400000 completed=400000 available=91040515 status=0 RealTime=110.954 CpuTime=101.1"
+      ],
+      "passed": true,
+      "outputBytes": 6221899
+    },
+    "C_period20": {
+      "command": [
+        "/usr/bin/time",
+        "-v",
+        "-o",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/pilot_C_period20.time",
+        "bash",
+        "script/singularity_run_anaFemtoLambda_4He_tree.sh",
+        "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_periodMix20_check.yaml",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_00_runs_22158032_22160028.root",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/pilot_C_period20.root",
+        "periodMix100Check_C_period20",
+        "400000"
+      ],
+      "pid": 1757800,
+      "output": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/pilot_C_period20.root",
+      "returnCode": 0,
+      "completionMarkers": [
+        "FemtoLambda tree replay job=periodMix100Check_C_period20 requested=400000 completed=400000 available=91040515 status=0 RealTime=43.1029 CpuTime=36.82"
+      ],
+      "passed": true,
+      "outputBytes": 5671142
+    }
+  },
+  "rssSamples": [
+    {
+      "checkedJst": "2026-11-19T16:01:02.823978+09:00",
+      "groups": {
+        "B_period100": 5112,
+        "A_reset100": 5156,
+        "C_period20": 5196
+      }
+    },
+    {
+      "checkedJst": "2026-11-19T16:01:18.012735+09:00",
+      "groups": {
+        "B_period100": 335112,
+        "A_reset100": 333584,
+        "C_period20": 336052
+      }
+    },
+    {
+      "checkedJst": "2026-11-19T16:01:33.279146+09:00",
+      "groups": {
+        "B_period100": 545388,
+        "A_reset100": 545180,
+        "C_period20": 542564
+      }
+    },
+    {
+      "checkedJst": "2026-11-19T16:01:48.453783+09:00",
+      "groups": {
+        "B_period100": 546116,
+        "A_reset100": 545880,
+        "C_period20": 571968
+      }
+    },
+    {
+      "checkedJst": "2026-11-19T16:02:03.651146+09:00",
+      "groups": {
+        "B_period100": 575612,
+        "A_reset100": 575432,
+        "C_period20": 287672
+      }
+    },
+    {
+      "checkedJst": "2026-11-19T16:02:18.859755+09:00",
+      "groups": {
+        "B_period100": 575612,
+        "A_reset100": 575432,
+        "C_period20": 0
+      }
+    },
+    {
+      "checkedJst": "2026-11-19T16:02:34.048677+09:00",
+      "groups": {
+        "B_period100": 575612,
+        "A_reset100": 575432,
+        "C_period20": 0
+      }
+    },
+    {
+      "checkedJst": "2026-11-19T16:02:49.193344+09:00",
+      "groups": {
+        "B_period100": 575612,
+        "A_reset100": 575432,
+        "C_period20": 0
+      }
+    },
+    {
+      "checkedJst": "2026-11-19T16:03:04.373971+09:00",
+      "groups": {
+        "B_period100": 575612,
+        "A_reset100": 575432,
+        "C_period20": 0
+      }
+    }
+  ],
+  "sourceUnchanged": true,
+  "finishedJst": "2026-11-19T16:03:19.439137+09:00",
+  "passed": true
+}

@@ -1,0 +1,20 @@
+{
+  "preparedJST": "2026-11-17T14:48:07.845910+09:00",
+  "sourceConfigComparedToValidated": true,
+  "buildPassed": true,
+  "producerReplayEp1Passed": true,
+  "freshClosurePassed": true,
+  "xmlIndependentReview": "PASS reported by capacity_logs_audit",
+  "frozenInputSha256": "b469b4a926dd4781256d3e289c08655c53dd71f41f343411967df342070fd9c5",
+  "inputFiles": 73054,
+  "calibratedRuns": 388,
+  "heldRuns": 81,
+  "maxFilesPerSubjob": 25,
+  "estimatedSubjobsBeforeSumsBalancing": 2923,
+  "minimumSoftHeadroomBytes": 1200000000000,
+  "softHeadroomBytes": 2250934321152,
+  "fingerprintedFiles": 84,
+  "outputDirectory": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/production20261117/",
+  "submissionLaunched": false,
+  "note": "Reference event count1842342504 covers prior common-success4023 groups, not current full input list Entries; production count is measured by workers."
+}

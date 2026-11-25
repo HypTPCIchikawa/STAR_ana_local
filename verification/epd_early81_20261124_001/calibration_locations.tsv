@@ -1,0 +1,3 @@
+kind	star_source	install_path	sha256
+recenter	/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/event_plane/epd_early81_20261124/validated_001/recenterpar.root	config/event_plane/epd_early81_20261124/validated_001/recenterpar.root	e29d244a932af0ddda3beff028537f05016dd2d9be6f49a463e60717ec5be958
+shift	/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/event_plane/epd_early81_20261124/validated_001/shiftpar.root	config/event_plane/epd_early81_20261124/validated_001/shiftpar.root	e02821c75b4ebbec19df04dc1187bc23320563577ecb47cb4044faa5a2ebf365

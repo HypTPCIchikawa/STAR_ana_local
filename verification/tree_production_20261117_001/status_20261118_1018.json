@@ -1,0 +1,266 @@
+{
+  "observedJST": "2026-11-18T10:18:31+09:00",
+  "recordedJST": "2026-11-18T10:21:06.908313+09:00",
+  "jobid": "9037A6F05FAD08FC8E9BD9286C8A38A5",
+  "expectedJobs": 4058,
+  "schedulerTerminal": 4055,
+  "schedulerExit0": 4055,
+  "running": 3,
+  "runningSubjobs": [
+    1476,
+    2869,
+    3788
+  ],
+  "recoveredNonemptyRootCount": 4021,
+  "rootLogicalBytes": 471108138019,
+  "missingFinishedJobs": 34,
+  "failureCategories": {
+    "emptyPicoDst": 1,
+    "unreadablePicoDst": 32,
+    "chainMakeFailure": 1
+  },
+  "failureDetails": [
+    {
+      "subjob": 794,
+      "category": "emptyPicoDst",
+      "errorLines": [
+        "ERROR: empty PicoDst"
+      ]
+    },
+    {
+      "subjob": 1467,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_1467/INPUTFILES/st_physics_22164027_raw_6500012.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 1533,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_1533/INPUTFILES/st_physics_22164033_raw_3500017.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 1539,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_1539/INPUTFILES/st_physics_22164033_raw_7000020.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 1558,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_1558/INPUTFILES/st_physics_22165002_raw_3500010.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 1611,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_1611/INPUTFILES/st_physics_22165006_raw_3500021.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 1612,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_1612/INPUTFILES/st_physics_22165006_raw_3500024.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 1613,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_1613/INPUTFILES/st_physics_22165006_raw_4500021.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 1618,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_1618/INPUTFILES/st_physics_22165006_raw_7000021.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 1628,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_1628/INPUTFILES/st_physics_22165007_raw_6000003.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3284,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3284/INPUTFILES/st_physics_22173025_raw_5000018.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3305,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3305/INPUTFILES/st_physics_22173027_raw_4500013.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3390,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3390/INPUTFILES/st_physics_22174002_raw_6000020.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3413,
+      "category": "chainMakeFailure",
+      "errorLines": [
+        "ERROR: chain Make=2 entry=501031"
+      ]
+    },
+    {
+      "subjob": 3420,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3420/INPUTFILES/st_physics_22174012_raw_7000001.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3429,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3429/INPUTFILES/st_physics_22174014_raw_5500004.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3487,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3487/INPUTFILES/st_physics_22174049_raw_3000014.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3512,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3512/INPUTFILES/st_physics_22174054_raw_6000011.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3557,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3557/INPUTFILES/st_physics_22174060_raw_2000004.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3683,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3683/INPUTFILES/st_physics_22175011_raw_6500005.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3700,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3700/INPUTFILES/st_physics_22175032_raw_4500010.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3707,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3707/INPUTFILES/st_physics_22176001_raw_3000014.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3714,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3714/INPUTFILES/st_physics_22176001_raw_7000013.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3715,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3715/INPUTFILES/st_physics_22176001_raw_7500006.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3737,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3737/INPUTFILES/st_physics_22176003_raw_7000017.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3742,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3742/INPUTFILES/st_physics_22176004_raw_3500009.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3795,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3795/INPUTFILES/st_physics_22176008_raw_6500022.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3818,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3818/INPUTFILES/st_physics_22176011_raw_6000013.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3885,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3885/INPUTFILES/st_physics_22177007_raw_5000024.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3904,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3904/INPUTFILES/st_physics_22177012_raw_3000009.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3908,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3908/INPUTFILES/st_physics_22177012_raw_7000011.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3909,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3909/INPUTFILES/st_physics_22177012_raw_7500001.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3914,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3914/INPUTFILES/st_physics_22177013_raw_6500010.picoDst.root"
+      ]
+    },
+    {
+      "subjob": 3915,
+      "category": "unreadablePicoDst",
+      "errorLines": [
+        "ERROR: unreadable PicoDst /tmp/yichikawa/9037A6F05FAD08FC8E9BD9286C8A38A5_3915/INPUTFILES/st_physics_22177013_raw_7500004.picoDst.root"
+      ]
+    }
+  ],
+  "completionMailNotSent": true,
+  "notifierRunning": true,
+  "completionStatus": "not complete; scheduler exit0 does not imply analysis/output success",
+  "actions": "read-only inspection of queue/logs/outputs; no cancellation/resubmission/code change"
+}

@@ -1,0 +1,23 @@
+	Command being timed: "bash script/singularity_run_anaFemtoLambda_4He_tree.sh config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree.yaml /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_epd_ylab_merging_validation_20261112_001/st_physics_22159051_raw_4500001.picoDst.root /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_implementation_20261117_001/memory_producer.root memory_producer_v2_20261117 10000"
+	User time (seconds): 34.12
+	System time (seconds): 5.38
+	Percent of CPU this job got: 86%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:45.87
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 301536
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 175707
+	Voluntary context switches: 64027
+	Involuntary context switches: 4127
+	Swaps: 0
+	File system inputs: 72
+	File system outputs: 10320
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

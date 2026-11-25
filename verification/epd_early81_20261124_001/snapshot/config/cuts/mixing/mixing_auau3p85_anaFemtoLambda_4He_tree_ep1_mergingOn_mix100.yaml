@@ -1,0 +1,10 @@
+mixingMode: bufferAll
+mixBothDirections: true
+nVzBins: 10
+nCentralityBins: 9
+nEventPlaneBins: 1
+bufferSize: 100
+maxMixEvents: 100
+minVz: 198.0
+maxVz: 202.0
+vzOutOfRangePolicy: clamp

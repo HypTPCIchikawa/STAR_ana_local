@@ -1,0 +1,35 @@
+{
+  "checkedJST": "2026-11-18T14:36:22+09:00",
+  "jobid": "9037A6F05FAD08FC8E9BD9286C8A38A5",
+  "expectedJobs": 4058,
+  "schedulerTerminal": 4057,
+  "schedulerExit0": 4057,
+  "running": 1,
+  "runningSubjobs": [
+    2869
+  ],
+  "condorId": "794176.88",
+  "remoteHost": "slot1_40@spool1801.sdcc.bnl.gov",
+  "recoveredRootCount": 4023,
+  "nonemptyRoots": 4023,
+  "logicalRootBytes": 471349869260,
+  "missingFinishedJobs": 34,
+  "newlyCompletedSinceMorning": [
+    {
+      "subjob": 1476,
+      "completedJST": "2026-11-18T10:55:02+09:00",
+      "requestedAndCompleted": 454166,
+      "analysisStatus": 0
+    },
+    {
+      "subjob": 3788,
+      "completedJST": "2026-11-18T12:36:08+09:00",
+      "requestedAndCompleted": 489937,
+      "analysisStatus": 0
+    }
+  ],
+  "remainingProgress": "shared stdout376B/stderr0B unchanged; current child processing progress unknown",
+  "mailSent": false,
+  "notifierActive": true,
+  "actions": "read-only status check; no cancel/resubmit/source change/email send"
+}

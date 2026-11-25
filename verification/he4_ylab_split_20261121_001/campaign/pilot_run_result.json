@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "returnCode": 0,
+  "completedUTC": "2026-11-22T05:13:41.641407+00:00",
+  "events": 400000,
+  "markers": [
+    "FemtoLambda tree replay job=he4YLab8Pilot_400000 requested=400000 completed=400000 available=91040515 status=0 RealTime=106.363 CpuTime=86.88"
+  ],
+  "output": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_400000.root",
+  "outputBytes": 6298751,
+  "physicsPinsUnchanged": true,
+  "sourceUnchanged": true
+}

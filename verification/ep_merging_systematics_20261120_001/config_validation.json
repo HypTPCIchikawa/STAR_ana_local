@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "cases": 8,
+  "sourcePeriods": 20,
+  "allReferenceConfigsUnchanged": true,
+  "allNonEPHistogramDefinitionsPreserved": true,
+  "allOriginalNuclearMapsPreserved": true,
+  "canonicalEpdBins": 8,
+  "allReducedModesFalseFalse": true,
+  "productionCases": 7,
+  "casesManifestSha256": "adea9a3c1ec3846bb65730d831b1f9ecc5e0daddc1d3846d6cd20fb0c929600e"
+}

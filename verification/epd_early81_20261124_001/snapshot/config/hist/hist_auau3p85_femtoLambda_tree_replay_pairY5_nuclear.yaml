@@ -1,0 +1,2762 @@
+# Nuclear pair diagnostics retain their inclusive definitions in the five-bin pair-rapidity control.
+axes:
+  InvMassLambda: &id009
+    nBins: 200
+    min: 1.05
+    max: 1.25
+  PtLambda:
+    nBins: 200
+    min: 0.0
+    max: 10.0
+  EtaLambda:
+    nBins: 100
+    min: -2.5
+    max: 2.5
+  PhiLambda:
+    nBins: 100
+    min: -3.15
+    max: 3.15
+  DCA:
+    nBins: 200
+    min: 0.0
+    max: 5.0
+  CosPointing:
+    nBins: 100
+    min: 0.99
+    max: 1.01
+  Vz:
+    nBins: 400
+    min: -300.0
+    max: 300.0
+  RefMult:
+    nBins: 1000
+    min: 0.0
+    max: 1000.0
+  NSigmaY:
+    nBins: 100
+    min: -5.0
+    max: 5.0
+  TofMatchMult:
+    nBins: 500
+    min: 0.0
+    max: 500.0
+  Cent9:
+    nBins: 9
+    min: -0.5
+    max: 8.5
+  Cent16:
+    nBins: 16
+    min: -0.5
+    max: 15.5
+  RefMultWeight:
+    nBins: 125
+    min: 0.5
+    max: 3.0
+  NCand:
+    nBins: 200
+    min: 0.0
+    max: 200.0
+  NTracks:
+    nBins: 500
+    min: 0.0
+    max: 2000.0
+  NLambdaPairs:
+    nBins: 200
+    min: 0.0
+    max: 200.0
+  P: &id001
+    nBins: 600
+    min: 0.0
+    max: 6.0
+  dEdx: &id002
+    nBins: 1200
+    min: 0.0
+    max: 120.0
+  EtaNuclear: &id003
+    nBins: 100
+    min: -3.0
+    max: 3.0
+  Rapidity: &id004
+    nBins: 100
+    min: -3.0
+    max: 3.0
+  PtNuclear: &id005
+    nBins: 600
+    min: 0.0
+    max: 6.0
+  M2: &id006
+    nBins: 1000
+    min: -0.5
+    max: 25.0
+  Kstar: &id007
+    nBins: 200
+    min: 0.0
+    max: 1.0
+  PairMt: &id012
+    nBins: 200
+    min: 0.0
+    max: 10.0
+  Qlab: &id008
+    nBins: 200
+    min: 0.0
+    max: 2.0
+  DeltaPhiStar: &id010
+    nBins: 200
+    min: -0.25
+    max: 0.25
+  DeltaEta: &id011
+    nBins: 200
+    min: -0.25
+    max: 0.25
+histograms:
+  hDedxP:
+    xAxis: *id001
+    yAxis: *id002
+    title: TPC dE/dx vs p; p (GeV/c); dE/dx (keV/cm)
+  hDedxP_cut:
+    xAxis: *id001
+    yAxis: *id002
+    title: TPC dE/dx vs p; p (GeV/c); dE/dx (keV/cm)
+  hDedxP_e:
+    xAxis: *id001
+    yAxis: *id002
+    title: TPC dE/dx vs p; p (GeV/c); dE/dx (keV/cm)
+  hDedxP_pi:
+    xAxis: *id001
+    yAxis: *id002
+    title: TPC dE/dx vs p; p (GeV/c); dE/dx (keV/cm)
+  hDedxP_K:
+    xAxis: *id001
+    yAxis: *id002
+    title: TPC dE/dx vs p; p (GeV/c); dE/dx (keV/cm)
+  hDedxP_p:
+    xAxis: *id001
+    yAxis: *id002
+    title: TPC dE/dx vs p; p (GeV/c); dE/dx (keV/cm)
+  hDedxP_else:
+    xAxis: *id001
+    yAxis: *id002
+    title: TPC dE/dx vs p; p (GeV/c); dE/dx (keV/cm)
+  hDedxP_d:
+    xAxis: *id001
+    yAxis: *id002
+    title: TPC dE/dx vs p; p (GeV/c); dE/dx (keV/cm)
+  hDedxP_t:
+    xAxis: *id001
+    yAxis: *id002
+    title: TPC dE/dx vs p; p (GeV/c); dE/dx (keV/cm)
+  hDedxP_3He:
+    xAxis: *id001
+    yAxis: *id002
+    title: TPC dE/dx vs p; p (GeV/c); dE/dx (keV/cm)
+  hDedxP_4He:
+    xAxis: *id001
+    yAxis: *id002
+    title: TPC dE/dx vs p; p (GeV/c); dE/dx (keV/cm)
+  hPvsEta_d:
+    xAxis: *id001
+    yAxis: *id003
+    title: 'p vs #eta (2#sigma); p (GeV/c); #eta'
+  hPvsEta_t:
+    xAxis: *id001
+    yAxis: *id003
+    title: 'p vs #eta (2#sigma); p (GeV/c); #eta'
+  hPvsEta_3He:
+    xAxis: *id001
+    yAxis: *id003
+    title: 'p vs #eta (2#sigma); p (GeV/c); #eta'
+  hPvsEta_4He:
+    xAxis: *id001
+    yAxis: *id003
+    title: 'p vs #eta (2#sigma); p (GeV/c); #eta'
+  hPvsY_d:
+    xAxis: *id001
+    yAxis: *id004
+    title: p vs y (2#sigma); p (GeV/c); y
+  hPvsY_t:
+    xAxis: *id001
+    yAxis: *id004
+    title: p vs y (2#sigma); p (GeV/c); y
+  hPvsY_3He:
+    xAxis: *id001
+    yAxis: *id004
+    title: p vs y (2#sigma); p (GeV/c); y
+  hPvsY_4He:
+    xAxis: *id001
+    yAxis: *id004
+    title: p vs y (2#sigma); p (GeV/c); y
+  hPvsPt_d:
+    xAxis: *id001
+    yAxis: *id005
+    title: p vs p_{T} (2#sigma); p (GeV/c); p_{T} (GeV/c)
+  hPvsPt_t:
+    xAxis: *id001
+    yAxis: *id005
+    title: p vs p_{T} (2#sigma); p (GeV/c); p_{T} (GeV/c)
+  hPvsPt_3He:
+    xAxis: *id001
+    yAxis: *id005
+    title: p vs p_{T} (2#sigma); p (GeV/c); p_{T} (GeV/c)
+  hPvsPt_4He:
+    xAxis: *id001
+    yAxis: *id005
+    title: p vs p_{T} (2#sigma); p (GeV/c); p_{T} (GeV/c)
+  hDedxP_d_m2:
+    xAxis: *id001
+    yAxis: *id002
+    title: TPC dE/dx vs p (M2 cut); p (GeV/c); dE/dx (keV/cm)
+  hDedxP_t_m2:
+    xAxis: *id001
+    yAxis: *id002
+    title: TPC dE/dx vs p (M2 cut); p (GeV/c); dE/dx (keV/cm)
+  hDedxP_3He_m2:
+    xAxis: *id001
+    yAxis: *id002
+    title: TPC dE/dx vs p (M2 cut); p (GeV/c); dE/dx (keV/cm)
+  hM2P:
+    xAxis: *id001
+    yAxis: *id006
+    title: TOF m^{2} vs p;p (GeV/c);m^{2} (GeV^{2}/c^{4})
+  hKstar_4He:
+    axis: *id007
+    title: Relative momentum k* in pair rest frame (Lambda - 4He);k* (GeV/c);Counts
+  hQlab_4He:
+    axis: *id008
+    title: Relative momentum q_lab in lab frame (Lambda - 4He);q_lab (GeV/c);Counts
+  hKstar_4He_CentBin0:
+    axis: *id007
+    title: k* (Lambda - 4He) cent9=0 (70-80%%);k* (GeV/c);Counts
+  hKstar_4He_CentBin1:
+    axis: *id007
+    title: k* (Lambda - 4He) cent9=1 (60-70%%);k* (GeV/c);Counts
+  hKstar_4He_CentBin2:
+    axis: *id007
+    title: k* (Lambda - 4He) cent9=2 (50-60%%);k* (GeV/c);Counts
+  hKstar_4He_CentBin3:
+    axis: *id007
+    title: k* (Lambda - 4He) cent9=3 (40-50%%);k* (GeV/c);Counts
+  hKstar_4He_CentBin4:
+    axis: *id007
+    title: k* (Lambda - 4He) cent9=4 (30-40%%);k* (GeV/c);Counts
+  hKstar_4He_CentBin5:
+    axis: *id007
+    title: k* (Lambda - 4He) cent9=5 (20-30%%);k* (GeV/c);Counts
+  hKstar_4He_CentBin6:
+    axis: *id007
+    title: k* (Lambda - 4He) cent9=6 (10-20%%);k* (GeV/c);Counts
+  hKstar_4He_CentBin7:
+    axis: *id007
+    title: k* (Lambda - 4He) cent9=7 (5-10%%);k* (GeV/c);Counts
+  hKstar_4He_CentBin8:
+    axis: *id007
+    title: k* (Lambda - 4He) cent9=8 (0-5%%);k* (GeV/c);Counts
+  hKstar_4He_SBPos:
+    axis: *id007
+    title: k* (Lambda - 4He, pos. sideband);k* (GeV/c);Counts
+  hQlab_4He_SBPos:
+    axis: *id008
+    title: q_lab (Lambda - 4He, pos. sideband);q_lab (GeV/c);Counts
+  hKstar_4He_SBNeg:
+    axis: *id007
+    title: k* (Lambda - 4He, neg. sideband);k* (GeV/c);Counts
+  hQlab_4He_SBNeg:
+    axis: *id008
+    title: q_lab (Lambda - 4He, neg. sideband);q_lab (GeV/c);Counts
+  hKstar_4He_SBPos_CentBin0:
+    axis: *id007
+    title: k* (Lambda - 4He, pos. SB) cent9=0 (70-80%%);k* (GeV/c);Counts
+  hKstar_4He_SBPos_CentBin1:
+    axis: *id007
+    title: k* (Lambda - 4He, pos. SB) cent9=1 (60-70%%);k* (GeV/c);Counts
+  hKstar_4He_SBPos_CentBin2:
+    axis: *id007
+    title: k* (Lambda - 4He, pos. SB) cent9=2 (50-60%%);k* (GeV/c);Counts
+  hKstar_4He_SBPos_CentBin3:
+    axis: *id007
+    title: k* (Lambda - 4He, pos. SB) cent9=3 (40-50%%);k* (GeV/c);Counts
+  hKstar_4He_SBPos_CentBin4:
+    axis: *id007
+    title: k* (Lambda - 4He, pos. SB) cent9=4 (30-40%%);k* (GeV/c);Counts
+  hKstar_4He_SBPos_CentBin5:
+    axis: *id007
+    title: k* (Lambda - 4He, pos. SB) cent9=5 (20-30%%);k* (GeV/c);Counts
+  hKstar_4He_SBPos_CentBin6:
+    axis: *id007
+    title: k* (Lambda - 4He, pos. SB) cent9=6 (10-20%%);k* (GeV/c);Counts
+  hKstar_4He_SBPos_CentBin7:
+    axis: *id007
+    title: k* (Lambda - 4He, pos. SB) cent9=7 (5-10%%);k* (GeV/c);Counts
+  hKstar_4He_SBPos_CentBin8:
+    axis: *id007
+    title: k* (Lambda - 4He, pos. SB) cent9=8 (0-5%%);k* (GeV/c);Counts
+  hKstar_4He_SBNeg_CentBin0:
+    axis: *id007
+    title: k* (Lambda - 4He, neg. SB) cent9=0 (70-80%%);k* (GeV/c);Counts
+  hKstar_4He_SBNeg_CentBin1:
+    axis: *id007
+    title: k* (Lambda - 4He, neg. SB) cent9=1 (60-70%%);k* (GeV/c);Counts
+  hKstar_4He_SBNeg_CentBin2:
+    axis: *id007
+    title: k* (Lambda - 4He, neg. SB) cent9=2 (50-60%%);k* (GeV/c);Counts
+  hKstar_4He_SBNeg_CentBin3:
+    axis: *id007
+    title: k* (Lambda - 4He, neg. SB) cent9=3 (40-50%%);k* (GeV/c);Counts
+  hKstar_4He_SBNeg_CentBin4:
+    axis: *id007
+    title: k* (Lambda - 4He, neg. SB) cent9=4 (30-40%%);k* (GeV/c);Counts
+  hKstar_4He_SBNeg_CentBin5:
+    axis: *id007
+    title: k* (Lambda - 4He, neg. SB) cent9=5 (20-30%%);k* (GeV/c);Counts
+  hKstar_4He_SBNeg_CentBin6:
+    axis: *id007
+    title: k* (Lambda - 4He, neg. SB) cent9=6 (10-20%%);k* (GeV/c);Counts
+  hKstar_4He_SBNeg_CentBin7:
+    axis: *id007
+    title: k* (Lambda - 4He, neg. SB) cent9=7 (5-10%%);k* (GeV/c);Counts
+  hKstar_4He_SBNeg_CentBin8:
+    axis: *id007
+    title: k* (Lambda - 4He, neg. SB) cent9=8 (0-5%%);k* (GeV/c);Counts
+  hKstar_Mixed_4He:
+    axis: *id007
+    title: Relative momentum k* in pair rest frame (Mixed Lambda - 4He);k* (GeV/c);Counts
+  hQlab_Mixed_4He:
+    axis: *id008
+    title: Relative momentum q_lab in lab frame (Mixed Lambda - 4He);q_lab (GeV/c);Counts
+  hKstar_Mixed_4He_CentBin0:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He) cent9=0 (70-80%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_CentBin1:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He) cent9=1 (60-70%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_CentBin2:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He) cent9=2 (50-60%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_CentBin3:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He) cent9=3 (40-50%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_CentBin4:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He) cent9=4 (30-40%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_CentBin5:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He) cent9=5 (20-30%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_CentBin6:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He) cent9=6 (10-20%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_CentBin7:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He) cent9=7 (5-10%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_CentBin8:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He) cent9=8 (0-5%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_SBPos:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, pos. sideband);k* (GeV/c);Counts
+  hQlab_Mixed_4He_SBPos:
+    axis: *id008
+    title: q_lab (Mixed Lambda - 4He, pos. sideband);q_lab (GeV/c);Counts
+  hKstar_Mixed_4He_SBNeg:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, neg. sideband);k* (GeV/c);Counts
+  hQlab_Mixed_4He_SBNeg:
+    axis: *id008
+    title: q_lab (Mixed Lambda - 4He, neg. sideband);q_lab (GeV/c);Counts
+  hKstar_Mixed_4He_SBPos_CentBin0:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, pos. SB) cent9=0 (70-80%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_SBPos_CentBin1:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, pos. SB) cent9=1 (60-70%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_SBPos_CentBin2:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, pos. SB) cent9=2 (50-60%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_SBPos_CentBin3:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, pos. SB) cent9=3 (40-50%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_SBPos_CentBin4:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, pos. SB) cent9=4 (30-40%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_SBPos_CentBin5:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, pos. SB) cent9=5 (20-30%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_SBPos_CentBin6:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, pos. SB) cent9=6 (10-20%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_SBPos_CentBin7:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, pos. SB) cent9=7 (5-10%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_SBPos_CentBin8:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, pos. SB) cent9=8 (0-5%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_SBNeg_CentBin0:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, neg. SB) cent9=0 (70-80%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_SBNeg_CentBin1:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, neg. SB) cent9=1 (60-70%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_SBNeg_CentBin2:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, neg. SB) cent9=2 (50-60%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_SBNeg_CentBin3:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, neg. SB) cent9=3 (40-50%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_SBNeg_CentBin4:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, neg. SB) cent9=4 (30-40%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_SBNeg_CentBin5:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, neg. SB) cent9=5 (20-30%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_SBNeg_CentBin6:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, neg. SB) cent9=6 (10-20%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_SBNeg_CentBin7:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, neg. SB) cent9=7 (5-10%);k* (GeV/c);Counts
+  hKstar_Mixed_4He_SBNeg_CentBin8:
+    axis: *id007
+    title: k* (Mixed Lambda - 4He, neg. SB) cent9=8 (0-5%);k* (GeV/c);Counts
+  hKstarMass_4He_CentBin0:
+    title: k* vs Lambda InvMass (4He, Cent 0)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_4He_CentBin0:
+    title: Mixed k* vs Lambda InvMass (4He, Cent 0)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_4He_CentBin1:
+    title: k* vs Lambda InvMass (4He, Cent 1)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_4He_CentBin1:
+    title: Mixed k* vs Lambda InvMass (4He, Cent 1)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_4He_CentBin2:
+    title: k* vs Lambda InvMass (4He, Cent 2)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_4He_CentBin2:
+    title: Mixed k* vs Lambda InvMass (4He, Cent 2)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_4He_CentBin3:
+    title: k* vs Lambda InvMass (4He, Cent 3)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_4He_CentBin3:
+    title: Mixed k* vs Lambda InvMass (4He, Cent 3)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_4He_CentBin4:
+    title: k* vs Lambda InvMass (4He, Cent 4)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_4He_CentBin4:
+    title: Mixed k* vs Lambda InvMass (4He, Cent 4)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_4He_CentBin5:
+    title: k* vs Lambda InvMass (4He, Cent 5)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_4He_CentBin5:
+    title: Mixed k* vs Lambda InvMass (4He, Cent 5)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_4He_CentBin6:
+    title: k* vs Lambda InvMass (4He, Cent 6)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_4He_CentBin6:
+    title: Mixed k* vs Lambda InvMass (4He, Cent 6)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_4He_CentBin7:
+    title: k* vs Lambda InvMass (4He, Cent 7)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_4He_CentBin7:
+    title: Mixed k* vs Lambda InvMass (4He, Cent 7)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_4He_CentBin8:
+    title: k* vs Lambda InvMass (4He, Cent 8)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_4He_CentBin8:
+    title: Mixed k* vs Lambda InvMass (4He, Cent 8)
+    xAxis: *id007
+    yAxis: *id009
+  hDphiDeta_proton_4He:
+    title: Signal SE proton-4He, STAR helix r=1.4 m, global eta;#Delta#phi* [rad];#Delta#eta
+    xAxis: *id010
+    yAxis: *id011
+  hDphiDeta_proton_4He_EventField:
+    xAxis: *id010
+    yAxis: *id011
+    title: Signal SE proton-4He, STAR helix r=1.4 m, global eta;#Delta#phi* [rad];#Delta#eta
+  hKstarMt_4He_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal +/-3 sigma), cent9=0 (70-80%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal +/-3 sigma), cent9=1 (60-70%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal +/-3 sigma), cent9=2 (50-60%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal +/-3 sigma), cent9=3 (40-50%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal +/-3 sigma), cent9=4 (30-40%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal +/-3 sigma), cent9=5 (20-30%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal +/-3 sigma), cent9=6 (10-20%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal +/-3 sigma), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal +/-3 sigma), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_SBPos_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, high-mass sideband), cent9=0 (70-80%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_4He_SBPos_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, high-mass sideband), cent9=1 (60-70%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_4He_SBPos_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, high-mass sideband), cent9=2 (50-60%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_4He_SBPos_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, high-mass sideband), cent9=3 (40-50%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_4He_SBPos_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, high-mass sideband), cent9=4 (30-40%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_4He_SBPos_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, high-mass sideband), cent9=5 (20-30%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_4He_SBPos_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, high-mass sideband), cent9=6 (10-20%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_4He_SBPos_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, high-mass sideband), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_SBPos_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, high-mass sideband), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_SBNeg_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, low-mass sideband), cent9=0 (70-80%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_SBNeg_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, low-mass sideband), cent9=1 (60-70%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_SBNeg_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, low-mass sideband), cent9=2 (50-60%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_SBNeg_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, low-mass sideband), cent9=3 (40-50%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_SBNeg_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, low-mass sideband), cent9=4 (30-40%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_SBNeg_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, low-mass sideband), cent9=5 (20-30%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_SBNeg_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, low-mass sideband), cent9=6 (10-20%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_SBNeg_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, low-mass sideband), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_SBNeg_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, low-mass sideband), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_signalLow_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal low half), cent9=0 (70-80%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_signalLow_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal low half), cent9=1 (60-70%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_signalLow_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal low half), cent9=2 (50-60%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_signalLow_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal low half), cent9=3 (40-50%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_signalLow_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal low half), cent9=4 (30-40%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_signalLow_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal low half), cent9=5 (20-30%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_signalLow_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal low half), cent9=6 (10-20%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_signalLow_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal low half), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_signalLow_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal low half), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_signalHigh_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal high half), cent9=0 (70-80%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_signalHigh_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal high half), cent9=1 (60-70%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_signalHigh_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal high half), cent9=2 (50-60%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_signalHigh_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal high half), cent9=3 (40-50%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_signalHigh_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal high half), cent9=4 (30-40%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_signalHigh_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal high half), cent9=5 (20-30%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_signalHigh_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal high half), cent9=6 (10-20%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_signalHigh_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal high half), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_4He_signalHigh_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 4He, signal high half), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal +/-3 sigma), cent9=0 (70-80%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal +/-3 sigma), cent9=1 (60-70%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal +/-3 sigma), cent9=2 (50-60%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal +/-3 sigma), cent9=3 (40-50%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal +/-3 sigma), cent9=4 (30-40%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal +/-3 sigma), cent9=5 (20-30%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal +/-3 sigma), cent9=6 (10-20%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal +/-3 sigma), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal +/-3 sigma), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_SBPos_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, high-mass sideband), cent9=0 (70-80%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_4He_SBPos_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, high-mass sideband), cent9=1 (60-70%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_4He_SBPos_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, high-mass sideband), cent9=2 (50-60%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_4He_SBPos_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, high-mass sideband), cent9=3 (40-50%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_4He_SBPos_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, high-mass sideband), cent9=4 (30-40%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_4He_SBPos_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, high-mass sideband), cent9=5 (20-30%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_4He_SBPos_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, high-mass sideband), cent9=6 (10-20%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_4He_SBPos_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, high-mass sideband), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_SBPos_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, high-mass sideband), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_SBNeg_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, low-mass sideband), cent9=0 (70-80%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_SBNeg_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, low-mass sideband), cent9=1 (60-70%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_SBNeg_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, low-mass sideband), cent9=2 (50-60%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_SBNeg_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, low-mass sideband), cent9=3 (40-50%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_SBNeg_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, low-mass sideband), cent9=4 (30-40%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_SBNeg_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, low-mass sideband), cent9=5 (20-30%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_SBNeg_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, low-mass sideband), cent9=6 (10-20%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_SBNeg_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, low-mass sideband), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_SBNeg_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, low-mass sideband), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_signalLow_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal low half), cent9=0 (70-80%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_signalLow_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal low half), cent9=1 (60-70%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_signalLow_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal low half), cent9=2 (50-60%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_signalLow_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal low half), cent9=3 (40-50%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_signalLow_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal low half), cent9=4 (30-40%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_signalLow_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal low half), cent9=5 (20-30%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_signalLow_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal low half), cent9=6 (10-20%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_signalLow_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal low half), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_signalLow_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal low half), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_signalHigh_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal high half), cent9=0 (70-80%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_signalHigh_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal high half), cent9=1 (60-70%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_signalHigh_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal high half), cent9=2 (50-60%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_signalHigh_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal high half), cent9=3 (40-50%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_signalHigh_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal high half), cent9=4 (30-40%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_signalHigh_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal high half), cent9=5 (20-30%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_signalHigh_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal high half), cent9=6 (10-20%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_signalHigh_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal high half), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_4He_signalHigh_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 4He, signal high half), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hDedxP_4He_TOFControl:
+    xAxis: *id001
+    yAxis: *id002
+    title: Pre-TPC He4 control, conditional TOF;R=|p/q| [GeV/c];dE/dx [keV/cm]
+  hNSigmaHe4VsP_TOFControl:
+    xAxis: *id001
+    yAxis:
+      nBins: 400
+      min: -10.0
+      max: 10.0
+    title: Pre-TPC He4 control, conditional TOF;R=|p/q| [GeV/c];n#sigma_{He4}
+  hM2P_4He_TPC:
+    xAxis: *id001
+    yAxis: *id006
+    title: TPC best-He4 before TOF, R >= threshold;R=|p/q| [GeV/c];(m/q)^{2} [(GeV/c^{2})^{2}]
+  hDedxP_4He_selected:
+    xAxis: *id001
+    yAxis: *id002
+    title: Final He4, TPC best species and conditional TOF;R=|p/q| [GeV/c];dE/dx [keV/cm]
+  hM2P_4He_selected:
+    xAxis: *id001
+    yAxis: *id006
+    title: Final He4 with valid TOF;R=|p/q| [GeV/c];(m/q)^{2} [(GeV/c^{2})^{2}]
+  hHe4PidStage:
+    xAxis:
+      nBins: 6
+      min: -0.5
+      max: 5.5
+    title: 'He4 cutflow: 0=TPC,1=low-R,2=high-R,3=TOF,4=TOF-window,5=final;Stage;Tracks'
+  hKstar_3He:
+    axis: *id007
+    title: Relative momentum k* in pair rest frame (Lambda - 3He);k* (GeV/c);Counts
+  hQlab_3He:
+    axis: *id008
+    title: Relative momentum q_lab in lab frame (Lambda - 3He);q_lab (GeV/c);Counts
+  hKstar_3He_CentBin0:
+    axis: *id007
+    title: k* (Lambda - 3He) cent9=0 (70-80%%);k* (GeV/c);Counts
+  hKstar_3He_CentBin1:
+    axis: *id007
+    title: k* (Lambda - 3He) cent9=1 (60-70%%);k* (GeV/c);Counts
+  hKstar_3He_CentBin2:
+    axis: *id007
+    title: k* (Lambda - 3He) cent9=2 (50-60%%);k* (GeV/c);Counts
+  hKstar_3He_CentBin3:
+    axis: *id007
+    title: k* (Lambda - 3He) cent9=3 (40-50%%);k* (GeV/c);Counts
+  hKstar_3He_CentBin4:
+    axis: *id007
+    title: k* (Lambda - 3He) cent9=4 (30-40%%);k* (GeV/c);Counts
+  hKstar_3He_CentBin5:
+    axis: *id007
+    title: k* (Lambda - 3He) cent9=5 (20-30%%);k* (GeV/c);Counts
+  hKstar_3He_CentBin6:
+    axis: *id007
+    title: k* (Lambda - 3He) cent9=6 (10-20%%);k* (GeV/c);Counts
+  hKstar_3He_CentBin7:
+    axis: *id007
+    title: k* (Lambda - 3He) cent9=7 (5-10%%);k* (GeV/c);Counts
+  hKstar_3He_CentBin8:
+    axis: *id007
+    title: k* (Lambda - 3He) cent9=8 (0-5%%);k* (GeV/c);Counts
+  hKstar_3He_SBPos:
+    axis: *id007
+    title: k* (Lambda - 3He, pos. sideband);k* (GeV/c);Counts
+  hQlab_3He_SBPos:
+    axis: *id008
+    title: q_lab (Lambda - 3He, pos. sideband);q_lab (GeV/c);Counts
+  hKstar_3He_SBNeg:
+    axis: *id007
+    title: k* (Lambda - 3He, neg. sideband);k* (GeV/c);Counts
+  hQlab_3He_SBNeg:
+    axis: *id008
+    title: q_lab (Lambda - 3He, neg. sideband);q_lab (GeV/c);Counts
+  hKstar_3He_SBPos_CentBin0:
+    axis: *id007
+    title: k* (Lambda - 3He, pos. SB) cent9=0 (70-80%%);k* (GeV/c);Counts
+  hKstar_3He_SBPos_CentBin1:
+    axis: *id007
+    title: k* (Lambda - 3He, pos. SB) cent9=1 (60-70%%);k* (GeV/c);Counts
+  hKstar_3He_SBPos_CentBin2:
+    axis: *id007
+    title: k* (Lambda - 3He, pos. SB) cent9=2 (50-60%%);k* (GeV/c);Counts
+  hKstar_3He_SBPos_CentBin3:
+    axis: *id007
+    title: k* (Lambda - 3He, pos. SB) cent9=3 (40-50%%);k* (GeV/c);Counts
+  hKstar_3He_SBPos_CentBin4:
+    axis: *id007
+    title: k* (Lambda - 3He, pos. SB) cent9=4 (30-40%%);k* (GeV/c);Counts
+  hKstar_3He_SBPos_CentBin5:
+    axis: *id007
+    title: k* (Lambda - 3He, pos. SB) cent9=5 (20-30%%);k* (GeV/c);Counts
+  hKstar_3He_SBPos_CentBin6:
+    axis: *id007
+    title: k* (Lambda - 3He, pos. SB) cent9=6 (10-20%%);k* (GeV/c);Counts
+  hKstar_3He_SBPos_CentBin7:
+    axis: *id007
+    title: k* (Lambda - 3He, pos. SB) cent9=7 (5-10%%);k* (GeV/c);Counts
+  hKstar_3He_SBPos_CentBin8:
+    axis: *id007
+    title: k* (Lambda - 3He, pos. SB) cent9=8 (0-5%%);k* (GeV/c);Counts
+  hKstar_3He_SBNeg_CentBin0:
+    axis: *id007
+    title: k* (Lambda - 3He, neg. SB) cent9=0 (70-80%%);k* (GeV/c);Counts
+  hKstar_3He_SBNeg_CentBin1:
+    axis: *id007
+    title: k* (Lambda - 3He, neg. SB) cent9=1 (60-70%%);k* (GeV/c);Counts
+  hKstar_3He_SBNeg_CentBin2:
+    axis: *id007
+    title: k* (Lambda - 3He, neg. SB) cent9=2 (50-60%%);k* (GeV/c);Counts
+  hKstar_3He_SBNeg_CentBin3:
+    axis: *id007
+    title: k* (Lambda - 3He, neg. SB) cent9=3 (40-50%%);k* (GeV/c);Counts
+  hKstar_3He_SBNeg_CentBin4:
+    axis: *id007
+    title: k* (Lambda - 3He, neg. SB) cent9=4 (30-40%%);k* (GeV/c);Counts
+  hKstar_3He_SBNeg_CentBin5:
+    axis: *id007
+    title: k* (Lambda - 3He, neg. SB) cent9=5 (20-30%%);k* (GeV/c);Counts
+  hKstar_3He_SBNeg_CentBin6:
+    axis: *id007
+    title: k* (Lambda - 3He, neg. SB) cent9=6 (10-20%%);k* (GeV/c);Counts
+  hKstar_3He_SBNeg_CentBin7:
+    axis: *id007
+    title: k* (Lambda - 3He, neg. SB) cent9=7 (5-10%%);k* (GeV/c);Counts
+  hKstar_3He_SBNeg_CentBin8:
+    axis: *id007
+    title: k* (Lambda - 3He, neg. SB) cent9=8 (0-5%%);k* (GeV/c);Counts
+  hKstar_Mixed_3He:
+    axis: *id007
+    title: Relative momentum k* in pair rest frame (Mixed Lambda - 3He);k* (GeV/c);Counts
+  hQlab_Mixed_3He:
+    axis: *id008
+    title: Relative momentum q_lab in lab frame (Mixed Lambda - 3He);q_lab (GeV/c);Counts
+  hKstar_Mixed_3He_CentBin0:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He) cent9=0 (70-80%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_CentBin1:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He) cent9=1 (60-70%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_CentBin2:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He) cent9=2 (50-60%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_CentBin3:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He) cent9=3 (40-50%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_CentBin4:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He) cent9=4 (30-40%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_CentBin5:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He) cent9=5 (20-30%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_CentBin6:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He) cent9=6 (10-20%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_CentBin7:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He) cent9=7 (5-10%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_CentBin8:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He) cent9=8 (0-5%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_SBPos:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, pos. sideband);k* (GeV/c);Counts
+  hQlab_Mixed_3He_SBPos:
+    axis: *id008
+    title: q_lab (Mixed Lambda - 3He, pos. sideband);q_lab (GeV/c);Counts
+  hKstar_Mixed_3He_SBNeg:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, neg. sideband);k* (GeV/c);Counts
+  hQlab_Mixed_3He_SBNeg:
+    axis: *id008
+    title: q_lab (Mixed Lambda - 3He, neg. sideband);q_lab (GeV/c);Counts
+  hKstar_Mixed_3He_SBPos_CentBin0:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, pos. SB) cent9=0 (70-80%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_SBPos_CentBin1:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, pos. SB) cent9=1 (60-70%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_SBPos_CentBin2:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, pos. SB) cent9=2 (50-60%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_SBPos_CentBin3:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, pos. SB) cent9=3 (40-50%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_SBPos_CentBin4:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, pos. SB) cent9=4 (30-40%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_SBPos_CentBin5:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, pos. SB) cent9=5 (20-30%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_SBPos_CentBin6:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, pos. SB) cent9=6 (10-20%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_SBPos_CentBin7:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, pos. SB) cent9=7 (5-10%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_SBPos_CentBin8:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, pos. SB) cent9=8 (0-5%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_SBNeg_CentBin0:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, neg. SB) cent9=0 (70-80%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_SBNeg_CentBin1:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, neg. SB) cent9=1 (60-70%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_SBNeg_CentBin2:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, neg. SB) cent9=2 (50-60%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_SBNeg_CentBin3:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, neg. SB) cent9=3 (40-50%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_SBNeg_CentBin4:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, neg. SB) cent9=4 (30-40%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_SBNeg_CentBin5:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, neg. SB) cent9=5 (20-30%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_SBNeg_CentBin6:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, neg. SB) cent9=6 (10-20%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_SBNeg_CentBin7:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, neg. SB) cent9=7 (5-10%);k* (GeV/c);Counts
+  hKstar_Mixed_3He_SBNeg_CentBin8:
+    axis: *id007
+    title: k* (Mixed Lambda - 3He, neg. SB) cent9=8 (0-5%);k* (GeV/c);Counts
+  hKstarMass_3He_CentBin0:
+    title: k* vs Lambda InvMass (3He, Cent 0)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_3He_CentBin0:
+    title: Mixed k* vs Lambda InvMass (3He, Cent 0)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_3He_CentBin1:
+    title: k* vs Lambda InvMass (3He, Cent 1)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_3He_CentBin1:
+    title: Mixed k* vs Lambda InvMass (3He, Cent 1)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_3He_CentBin2:
+    title: k* vs Lambda InvMass (3He, Cent 2)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_3He_CentBin2:
+    title: Mixed k* vs Lambda InvMass (3He, Cent 2)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_3He_CentBin3:
+    title: k* vs Lambda InvMass (3He, Cent 3)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_3He_CentBin3:
+    title: Mixed k* vs Lambda InvMass (3He, Cent 3)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_3He_CentBin4:
+    title: k* vs Lambda InvMass (3He, Cent 4)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_3He_CentBin4:
+    title: Mixed k* vs Lambda InvMass (3He, Cent 4)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_3He_CentBin5:
+    title: k* vs Lambda InvMass (3He, Cent 5)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_3He_CentBin5:
+    title: Mixed k* vs Lambda InvMass (3He, Cent 5)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_3He_CentBin6:
+    title: k* vs Lambda InvMass (3He, Cent 6)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_3He_CentBin6:
+    title: Mixed k* vs Lambda InvMass (3He, Cent 6)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_3He_CentBin7:
+    title: k* vs Lambda InvMass (3He, Cent 7)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_3He_CentBin7:
+    title: Mixed k* vs Lambda InvMass (3He, Cent 7)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_3He_CentBin8:
+    title: k* vs Lambda InvMass (3He, Cent 8)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_3He_CentBin8:
+    title: Mixed k* vs Lambda InvMass (3He, Cent 8)
+    xAxis: *id007
+    yAxis: *id009
+  hDphiDeta_proton_3He:
+    title: Signal SE proton-3He, STAR helix r=1.4 m, global eta;#Delta#phi* [rad];#Delta#eta
+    xAxis: *id010
+    yAxis: *id011
+  hDphiDeta_proton_3He_EventField:
+    xAxis: *id010
+    yAxis: *id011
+    title: Signal SE proton-3He, STAR helix r=1.4 m, global eta;#Delta#phi* [rad];#Delta#eta
+  hKstarMt_3He_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal +/-3 sigma), cent9=0 (70-80%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal +/-3 sigma), cent9=1 (60-70%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal +/-3 sigma), cent9=2 (50-60%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal +/-3 sigma), cent9=3 (40-50%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal +/-3 sigma), cent9=4 (30-40%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal +/-3 sigma), cent9=5 (20-30%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal +/-3 sigma), cent9=6 (10-20%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal +/-3 sigma), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal +/-3 sigma), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_SBPos_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, high-mass sideband), cent9=0 (70-80%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3He_SBPos_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, high-mass sideband), cent9=1 (60-70%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3He_SBPos_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, high-mass sideband), cent9=2 (50-60%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3He_SBPos_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, high-mass sideband), cent9=3 (40-50%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3He_SBPos_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, high-mass sideband), cent9=4 (30-40%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3He_SBPos_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, high-mass sideband), cent9=5 (20-30%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3He_SBPos_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, high-mass sideband), cent9=6 (10-20%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3He_SBPos_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, high-mass sideband), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_SBPos_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, high-mass sideband), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_SBNeg_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, low-mass sideband), cent9=0 (70-80%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_SBNeg_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, low-mass sideband), cent9=1 (60-70%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_SBNeg_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, low-mass sideband), cent9=2 (50-60%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_SBNeg_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, low-mass sideband), cent9=3 (40-50%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_SBNeg_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, low-mass sideband), cent9=4 (30-40%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_SBNeg_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, low-mass sideband), cent9=5 (20-30%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_SBNeg_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, low-mass sideband), cent9=6 (10-20%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_SBNeg_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, low-mass sideband), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_SBNeg_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, low-mass sideband), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_signalLow_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal low half), cent9=0 (70-80%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_signalLow_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal low half), cent9=1 (60-70%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_signalLow_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal low half), cent9=2 (50-60%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_signalLow_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal low half), cent9=3 (40-50%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_signalLow_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal low half), cent9=4 (30-40%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_signalLow_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal low half), cent9=5 (20-30%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_signalLow_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal low half), cent9=6 (10-20%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_signalLow_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal low half), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_signalLow_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal low half), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_signalHigh_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal high half), cent9=0 (70-80%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_signalHigh_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal high half), cent9=1 (60-70%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_signalHigh_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal high half), cent9=2 (50-60%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_signalHigh_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal high half), cent9=3 (40-50%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_signalHigh_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal high half), cent9=4 (30-40%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_signalHigh_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal high half), cent9=5 (20-30%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_signalHigh_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal high half), cent9=6 (10-20%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_signalHigh_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal high half), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_3He_signalHigh_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3He, signal high half), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal +/-3 sigma), cent9=0 (70-80%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal +/-3 sigma), cent9=1 (60-70%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal +/-3 sigma), cent9=2 (50-60%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal +/-3 sigma), cent9=3 (40-50%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal +/-3 sigma), cent9=4 (30-40%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal +/-3 sigma), cent9=5 (20-30%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal +/-3 sigma), cent9=6 (10-20%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal +/-3 sigma), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal +/-3 sigma), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_SBPos_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, high-mass sideband), cent9=0 (70-80%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3He_SBPos_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, high-mass sideband), cent9=1 (60-70%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3He_SBPos_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, high-mass sideband), cent9=2 (50-60%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3He_SBPos_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, high-mass sideband), cent9=3 (40-50%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3He_SBPos_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, high-mass sideband), cent9=4 (30-40%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3He_SBPos_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, high-mass sideband), cent9=5 (20-30%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3He_SBPos_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, high-mass sideband), cent9=6 (10-20%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3He_SBPos_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, high-mass sideband), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_SBPos_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, high-mass sideband), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_SBNeg_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, low-mass sideband), cent9=0 (70-80%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_SBNeg_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, low-mass sideband), cent9=1 (60-70%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_SBNeg_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, low-mass sideband), cent9=2 (50-60%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_SBNeg_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, low-mass sideband), cent9=3 (40-50%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_SBNeg_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, low-mass sideband), cent9=4 (30-40%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_SBNeg_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, low-mass sideband), cent9=5 (20-30%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_SBNeg_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, low-mass sideband), cent9=6 (10-20%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_SBNeg_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, low-mass sideband), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_SBNeg_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, low-mass sideband), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_signalLow_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal low half), cent9=0 (70-80%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_signalLow_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal low half), cent9=1 (60-70%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_signalLow_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal low half), cent9=2 (50-60%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_signalLow_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal low half), cent9=3 (40-50%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_signalLow_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal low half), cent9=4 (30-40%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_signalLow_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal low half), cent9=5 (20-30%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_signalLow_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal low half), cent9=6 (10-20%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_signalLow_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal low half), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_signalLow_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal low half), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_signalHigh_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal high half), cent9=0 (70-80%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_signalHigh_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal high half), cent9=1 (60-70%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_signalHigh_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal high half), cent9=2 (50-60%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_signalHigh_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal high half), cent9=3 (40-50%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_signalHigh_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal high half), cent9=4 (30-40%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_signalHigh_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal high half), cent9=5 (20-30%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_signalHigh_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal high half), cent9=6 (10-20%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_signalHigh_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal high half), cent9=7 (5-10%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstarMt_Mixed_3He_signalHigh_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3He, signal high half), cent9=8 (0-5%);k* (GeV/c);m_{T}
+      (GeV/c^{2})
+  hKstar_3HeAs4He:
+    axis: *id007
+    title: Relative momentum k* in pair rest frame (Lambda - 3HeAs4He);k* (GeV/c);Counts
+  hQlab_3HeAs4He:
+    axis: *id008
+    title: Relative momentum q_lab in lab frame (Lambda - 3HeAs4He);q_lab (GeV/c);Counts
+  hKstar_3HeAs4He_CentBin0:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He) cent9=0 (70-80%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_CentBin1:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He) cent9=1 (60-70%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_CentBin2:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He) cent9=2 (50-60%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_CentBin3:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He) cent9=3 (40-50%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_CentBin4:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He) cent9=4 (30-40%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_CentBin5:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He) cent9=5 (20-30%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_CentBin6:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He) cent9=6 (10-20%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_CentBin7:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He) cent9=7 (5-10%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_CentBin8:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He) cent9=8 (0-5%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_SBPos:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, pos. sideband);k* (GeV/c);Counts
+  hQlab_3HeAs4He_SBPos:
+    axis: *id008
+    title: q_lab (Lambda - 3HeAs4He, pos. sideband);q_lab (GeV/c);Counts
+  hKstar_3HeAs4He_SBNeg:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, neg. sideband);k* (GeV/c);Counts
+  hQlab_3HeAs4He_SBNeg:
+    axis: *id008
+    title: q_lab (Lambda - 3HeAs4He, neg. sideband);q_lab (GeV/c);Counts
+  hKstar_3HeAs4He_SBPos_CentBin0:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, pos. SB) cent9=0 (70-80%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_SBPos_CentBin1:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, pos. SB) cent9=1 (60-70%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_SBPos_CentBin2:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, pos. SB) cent9=2 (50-60%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_SBPos_CentBin3:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, pos. SB) cent9=3 (40-50%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_SBPos_CentBin4:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, pos. SB) cent9=4 (30-40%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_SBPos_CentBin5:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, pos. SB) cent9=5 (20-30%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_SBPos_CentBin6:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, pos. SB) cent9=6 (10-20%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_SBPos_CentBin7:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, pos. SB) cent9=7 (5-10%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_SBPos_CentBin8:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, pos. SB) cent9=8 (0-5%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_SBNeg_CentBin0:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, neg. SB) cent9=0 (70-80%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_SBNeg_CentBin1:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, neg. SB) cent9=1 (60-70%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_SBNeg_CentBin2:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, neg. SB) cent9=2 (50-60%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_SBNeg_CentBin3:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, neg. SB) cent9=3 (40-50%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_SBNeg_CentBin4:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, neg. SB) cent9=4 (30-40%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_SBNeg_CentBin5:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, neg. SB) cent9=5 (20-30%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_SBNeg_CentBin6:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, neg. SB) cent9=6 (10-20%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_SBNeg_CentBin7:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, neg. SB) cent9=7 (5-10%%);k* (GeV/c);Counts
+  hKstar_3HeAs4He_SBNeg_CentBin8:
+    axis: *id007
+    title: k* (Lambda - 3HeAs4He, neg. SB) cent9=8 (0-5%%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He:
+    axis: *id007
+    title: Relative momentum k* in pair rest frame (Mixed Lambda - 3HeAs4He);k* (GeV/c);Counts
+  hQlab_Mixed_3HeAs4He:
+    axis: *id008
+    title: Relative momentum q_lab in lab frame (Mixed Lambda - 3HeAs4He);q_lab (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_CentBin0:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He) cent9=0 (70-80%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_CentBin1:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He) cent9=1 (60-70%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_CentBin2:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He) cent9=2 (50-60%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_CentBin3:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He) cent9=3 (40-50%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_CentBin4:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He) cent9=4 (30-40%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_CentBin5:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He) cent9=5 (20-30%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_CentBin6:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He) cent9=6 (10-20%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_CentBin7:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He) cent9=7 (5-10%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_CentBin8:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He) cent9=8 (0-5%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBPos:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, pos. sideband);k* (GeV/c);Counts
+  hQlab_Mixed_3HeAs4He_SBPos:
+    axis: *id008
+    title: q_lab (Mixed Lambda - 3HeAs4He, pos. sideband);q_lab (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBNeg:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, neg. sideband);k* (GeV/c);Counts
+  hQlab_Mixed_3HeAs4He_SBNeg:
+    axis: *id008
+    title: q_lab (Mixed Lambda - 3HeAs4He, neg. sideband);q_lab (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBPos_CentBin0:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, pos. SB) cent9=0 (70-80%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBPos_CentBin1:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, pos. SB) cent9=1 (60-70%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBPos_CentBin2:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, pos. SB) cent9=2 (50-60%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBPos_CentBin3:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, pos. SB) cent9=3 (40-50%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBPos_CentBin4:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, pos. SB) cent9=4 (30-40%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBPos_CentBin5:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, pos. SB) cent9=5 (20-30%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBPos_CentBin6:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, pos. SB) cent9=6 (10-20%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBPos_CentBin7:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, pos. SB) cent9=7 (5-10%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBPos_CentBin8:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, pos. SB) cent9=8 (0-5%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBNeg_CentBin0:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, neg. SB) cent9=0 (70-80%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBNeg_CentBin1:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, neg. SB) cent9=1 (60-70%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBNeg_CentBin2:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, neg. SB) cent9=2 (50-60%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBNeg_CentBin3:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, neg. SB) cent9=3 (40-50%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBNeg_CentBin4:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, neg. SB) cent9=4 (30-40%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBNeg_CentBin5:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, neg. SB) cent9=5 (20-30%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBNeg_CentBin6:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, neg. SB) cent9=6 (10-20%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBNeg_CentBin7:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, neg. SB) cent9=7 (5-10%);k* (GeV/c);Counts
+  hKstar_Mixed_3HeAs4He_SBNeg_CentBin8:
+    axis: *id007
+    title: k* (Mixed Lambda - 3HeAs4He, neg. SB) cent9=8 (0-5%);k* (GeV/c);Counts
+  hKstarMass_3HeAs4He_CentBin0:
+    title: k* vs Lambda InvMass (3HeAs4He, Cent 0)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_3HeAs4He_CentBin0:
+    title: Mixed k* vs Lambda InvMass (3HeAs4He, Cent 0)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_3HeAs4He_CentBin1:
+    title: k* vs Lambda InvMass (3HeAs4He, Cent 1)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_3HeAs4He_CentBin1:
+    title: Mixed k* vs Lambda InvMass (3HeAs4He, Cent 1)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_3HeAs4He_CentBin2:
+    title: k* vs Lambda InvMass (3HeAs4He, Cent 2)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_3HeAs4He_CentBin2:
+    title: Mixed k* vs Lambda InvMass (3HeAs4He, Cent 2)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_3HeAs4He_CentBin3:
+    title: k* vs Lambda InvMass (3HeAs4He, Cent 3)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_3HeAs4He_CentBin3:
+    title: Mixed k* vs Lambda InvMass (3HeAs4He, Cent 3)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_3HeAs4He_CentBin4:
+    title: k* vs Lambda InvMass (3HeAs4He, Cent 4)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_3HeAs4He_CentBin4:
+    title: Mixed k* vs Lambda InvMass (3HeAs4He, Cent 4)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_3HeAs4He_CentBin5:
+    title: k* vs Lambda InvMass (3HeAs4He, Cent 5)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_3HeAs4He_CentBin5:
+    title: Mixed k* vs Lambda InvMass (3HeAs4He, Cent 5)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_3HeAs4He_CentBin6:
+    title: k* vs Lambda InvMass (3HeAs4He, Cent 6)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_3HeAs4He_CentBin6:
+    title: Mixed k* vs Lambda InvMass (3HeAs4He, Cent 6)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_3HeAs4He_CentBin7:
+    title: k* vs Lambda InvMass (3HeAs4He, Cent 7)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_3HeAs4He_CentBin7:
+    title: Mixed k* vs Lambda InvMass (3HeAs4He, Cent 7)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_3HeAs4He_CentBin8:
+    title: k* vs Lambda InvMass (3HeAs4He, Cent 8)
+    xAxis: *id007
+    yAxis: *id009
+  hKstarMass_Mixed_3HeAs4He_CentBin8:
+    title: Mixed k* vs Lambda InvMass (3HeAs4He, Cent 8)
+    xAxis: *id007
+    yAxis: *id009
+  hDphiDeta_proton_3HeAs4He:
+    title: Signal SE proton-3HeAs4He, STAR helix r=1.4 m, global eta;#Delta#phi* [rad];#Delta#eta
+    xAxis: *id010
+    yAxis: *id011
+  hDphiDeta_proton_3HeAs4He_EventField:
+    xAxis: *id010
+    yAxis: *id011
+    title: Signal SE proton-3HeAs4He, STAR helix r=1.4 m, global eta;#Delta#phi* [rad];#Delta#eta
+  hKstarMt_3HeAs4He_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal +/-3 sigma), cent9=0 (70-80%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal +/-3 sigma), cent9=1 (60-70%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal +/-3 sigma), cent9=2 (50-60%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal +/-3 sigma), cent9=3 (40-50%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal +/-3 sigma), cent9=4 (30-40%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal +/-3 sigma), cent9=5 (20-30%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal +/-3 sigma), cent9=6 (10-20%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal +/-3 sigma), cent9=7 (5-10%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal +/-3 sigma), cent9=8 (0-5%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_SBPos_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, high-mass sideband), cent9=0 (70-80%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_SBPos_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, high-mass sideband), cent9=1 (60-70%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_SBPos_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, high-mass sideband), cent9=2 (50-60%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_SBPos_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, high-mass sideband), cent9=3 (40-50%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_SBPos_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, high-mass sideband), cent9=4 (30-40%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_SBPos_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, high-mass sideband), cent9=5 (20-30%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_SBPos_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, high-mass sideband), cent9=6 (10-20%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_SBPos_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, high-mass sideband), cent9=7 (5-10%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_SBPos_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, high-mass sideband), cent9=8 (0-5%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_SBNeg_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, low-mass sideband), cent9=0 (70-80%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_SBNeg_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, low-mass sideband), cent9=1 (60-70%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_SBNeg_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, low-mass sideband), cent9=2 (50-60%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_SBNeg_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, low-mass sideband), cent9=3 (40-50%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_SBNeg_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, low-mass sideband), cent9=4 (30-40%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_SBNeg_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, low-mass sideband), cent9=5 (20-30%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_SBNeg_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, low-mass sideband), cent9=6 (10-20%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_SBNeg_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, low-mass sideband), cent9=7 (5-10%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_SBNeg_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, low-mass sideband), cent9=8 (0-5%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_signalLow_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal low half), cent9=0 (70-80%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_signalLow_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal low half), cent9=1 (60-70%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_signalLow_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal low half), cent9=2 (50-60%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_signalLow_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal low half), cent9=3 (40-50%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_signalLow_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal low half), cent9=4 (30-40%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_signalLow_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal low half), cent9=5 (20-30%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_signalLow_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal low half), cent9=6 (10-20%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_signalLow_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal low half), cent9=7 (5-10%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_signalLow_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal low half), cent9=8 (0-5%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_signalHigh_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal high half), cent9=0 (70-80%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_signalHigh_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal high half), cent9=1 (60-70%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_signalHigh_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal high half), cent9=2 (50-60%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_signalHigh_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal high half), cent9=3 (40-50%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_signalHigh_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal high half), cent9=4 (30-40%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_signalHigh_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal high half), cent9=5 (20-30%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_signalHigh_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal high half), cent9=6 (10-20%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_signalHigh_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal high half), cent9=7 (5-10%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_3HeAs4He_signalHigh_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: SE k* vs m_{T} (Lambda - 3HeAs4He, signal high half), cent9=8 (0-5%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal +/-3 sigma), cent9=0 (70-80%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal +/-3 sigma), cent9=1 (60-70%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal +/-3 sigma), cent9=2 (50-60%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal +/-3 sigma), cent9=3 (40-50%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal +/-3 sigma), cent9=4 (30-40%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal +/-3 sigma), cent9=5 (20-30%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal +/-3 sigma), cent9=6 (10-20%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal +/-3 sigma), cent9=7 (5-10%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal +/-3 sigma), cent9=8 (0-5%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_SBPos_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, high-mass sideband), cent9=0 (70-80%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_SBPos_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, high-mass sideband), cent9=1 (60-70%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_SBPos_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, high-mass sideband), cent9=2 (50-60%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_SBPos_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, high-mass sideband), cent9=3 (40-50%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_SBPos_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, high-mass sideband), cent9=4 (30-40%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_SBPos_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, high-mass sideband), cent9=5 (20-30%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_SBPos_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, high-mass sideband), cent9=6 (10-20%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_SBPos_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, high-mass sideband), cent9=7 (5-10%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_SBPos_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, high-mass sideband), cent9=8 (0-5%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_SBNeg_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, low-mass sideband), cent9=0 (70-80%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_SBNeg_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, low-mass sideband), cent9=1 (60-70%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_SBNeg_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, low-mass sideband), cent9=2 (50-60%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_SBNeg_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, low-mass sideband), cent9=3 (40-50%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_SBNeg_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, low-mass sideband), cent9=4 (30-40%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_SBNeg_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, low-mass sideband), cent9=5 (20-30%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_SBNeg_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, low-mass sideband), cent9=6 (10-20%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_SBNeg_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, low-mass sideband), cent9=7 (5-10%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_SBNeg_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, low-mass sideband), cent9=8 (0-5%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_signalLow_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal low half), cent9=0 (70-80%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_signalLow_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal low half), cent9=1 (60-70%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_signalLow_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal low half), cent9=2 (50-60%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_signalLow_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal low half), cent9=3 (40-50%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_signalLow_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal low half), cent9=4 (30-40%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_signalLow_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal low half), cent9=5 (20-30%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_signalLow_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal low half), cent9=6 (10-20%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_signalLow_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal low half), cent9=7 (5-10%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_signalLow_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal low half), cent9=8 (0-5%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_signalHigh_CentBin0:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal high half), cent9=0 (70-80%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_signalHigh_CentBin1:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal high half), cent9=1 (60-70%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_signalHigh_CentBin2:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal high half), cent9=2 (50-60%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_signalHigh_CentBin3:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal high half), cent9=3 (40-50%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_signalHigh_CentBin4:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal high half), cent9=4 (30-40%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_signalHigh_CentBin5:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal high half), cent9=5 (20-30%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_signalHigh_CentBin6:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal high half), cent9=6 (10-20%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_signalHigh_CentBin7:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal high half), cent9=7 (5-10%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hKstarMt_Mixed_3HeAs4He_signalHigh_CentBin8:
+    type: TH2D
+    xAxis: *id007
+    yAxis: *id012
+    title: ME k* vs m_{T} (Lambda - 3HeAs4He, signal high half), cent9=8 (0-5%);k*
+      (GeV/c);m_{T} (GeV/c^{2})
+  hDphiDeta_pion_4He:
+    title: Signal SE pion-4He, STAR helix r=1.4 m, global eta;#Delta#phi* [rad];#Delta#eta
+    xAxis:
+      nBins: 200
+      min: -0.25
+      max: 0.25
+    yAxis:
+      nBins: 200
+      min: -0.25
+      max: 0.25
+  hDphiDeta_pion_4He_EventField:
+    xAxis:
+      nBins: 200
+      min: -0.25
+      max: 0.25
+    yAxis:
+      nBins: 200
+      min: -0.25
+      max: 0.25
+    title: Signal SE pion-4He, STAR helix r=1.4 m, global eta;#Delta#phi* [rad];#Delta#eta
+  hDphiDeta_pion_3He:
+    title: Signal SE pion-3He, STAR helix r=1.4 m, global eta;#Delta#phi* [rad];#Delta#eta
+    xAxis:
+      nBins: 200
+      min: -0.25
+      max: 0.25
+    yAxis:
+      nBins: 200
+      min: -0.25
+      max: 0.25
+  hDphiDeta_pion_3He_EventField:
+    xAxis:
+      nBins: 200
+      min: -0.25
+      max: 0.25
+    yAxis:
+      nBins: 200
+      min: -0.25
+      max: 0.25
+    title: Signal SE pion-3He, STAR helix r=1.4 m, global eta;#Delta#phi* [rad];#Delta#eta
+  hDphiDeta_pion_3HeAs4He:
+    title: Signal SE pion-3HeAs4He, STAR helix r=1.4 m, global eta;#Delta#phi* [rad];#Delta#eta
+    xAxis:
+      nBins: 200
+      min: -0.25
+      max: 0.25
+    yAxis:
+      nBins: 200
+      min: -0.25
+      max: 0.25
+  hDphiDeta_pion_3HeAs4He_EventField:
+    xAxis:
+      nBins: 200
+      min: -0.25
+      max: 0.25
+    yAxis:
+      nBins: 200
+      min: -0.25
+      max: 0.25
+    title: Signal SE pion-3HeAs4He, STAR helix r=1.4 m, global eta;#Delta#phi* [rad];#Delta#eta

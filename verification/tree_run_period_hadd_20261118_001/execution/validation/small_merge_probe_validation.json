@@ -1,0 +1,74 @@
+{
+  "startedAtJst": "2026-11-18T17:53:20.417123+09:00",
+  "inputs": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/catalog_smoke_inputs.list",
+  "sourceFingerprintsBefore": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/production20261117/auau3p85_anaFemtoLambda_4He_tree_9037A6F05FAD08FC8E9BD9286C8A38A5_0.root",
+      "size": 47676366,
+      "mtimeNs": 1794911615118718859,
+      "inode": 184742110,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/production20261117/auau3p85_anaFemtoLambda_4He_tree_9037A6F05FAD08FC8E9BD9286C8A38A5_999.root",
+      "size": 95901291,
+      "mtimeNs": 1794900731104293174,
+      "inode": 157395121,
+      "device": 48
+    }
+  ],
+  "phases": {
+    "merge": {
+      "command": [
+        "bash",
+        "script/singularity_root_batch.sh",
+        "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree.yaml",
+        "root4star",
+        "-l",
+        "-b",
+        "-q",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/run_grouped_tree_validation.C(\"merge\",\"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/catalog_smoke_inputs.list\",\"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/small_merge_probe_merge.json\",\"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/small_merge_probe.root\",1000000000000LL,108,2,256,0)"
+      ],
+      "returnCode": 0,
+      "elapsedSeconds": 24.394988279789686,
+      "report": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/small_merge_probe_merge.json",
+      "log": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/small_merge_probe_merge.log"
+    },
+    "check": {
+      "command": [
+        "bash",
+        "script/singularity_root_batch.sh",
+        "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree.yaml",
+        "root4star",
+        "-l",
+        "-b",
+        "-q",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/run_grouped_tree_validation.C(\"check\",\"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/catalog_smoke_inputs.list\",\"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/small_merge_probe_check.json\",\"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/small_merge_probe.root\",1000000000000LL,108,2,256,0)"
+      ],
+      "returnCode": 0,
+      "elapsedSeconds": 27.986016074195504,
+      "report": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/small_merge_probe_check.json",
+      "log": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/small_merge_probe_check.log"
+    }
+  },
+  "floatUlps": 0,
+  "sourceFingerprintsAfter": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/production20261117/auau3p85_anaFemtoLambda_4He_tree_9037A6F05FAD08FC8E9BD9286C8A38A5_0.root",
+      "size": 47676366,
+      "mtimeNs": 1794911615118718859,
+      "inode": 184742110,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/production20261117/auau3p85_anaFemtoLambda_4He_tree_9037A6F05FAD08FC8E9BD9286C8A38A5_999.root",
+      "size": 95901291,
+      "mtimeNs": 1794900731104293174,
+      "inode": 157395121,
+      "device": 48
+    }
+  ],
+  "originalInputsUnchanged": true,
+  "passed": true,
+  "finishedAtJst": "2026-11-18T17:54:12.815228+09:00"
+}

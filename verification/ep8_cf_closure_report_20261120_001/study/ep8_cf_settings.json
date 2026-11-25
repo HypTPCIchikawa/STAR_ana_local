@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "rawHistograms": "../femto_lambda_ep_merging_systematics_20261120_001/cf_baseline_ep8Off_002/raw_histograms.json",
+  "inputProvenance": "../femto_lambda_ep_merging_systematics_20261120_001/cf_baseline_ep8Off_002/input_provenance.json",
+  "baselineCompleted": "../femto_lambda_ep_merging_systematics_20261120_001/cf_baseline_ep8Off_002/completed.json",
+  "protectedPinProof": "../femto_lambda_ep_merging_systematics_20261120_001/watch_matrix_validate_settings.json",
+  "independentValidation": "independent_metrics_validation.json",
+  "canonicalSource": "../../include/FemtoEpdEventPlane.h",
+  "caseId": "ep8_mergingOff",
+  "normalizationGeVc": [0.4, 0.5],
+  "displayRebin": 4,
+  "highKWindowsGeVc": {"k050_060": [0.5, 0.6], "k060_080": [0.6, 0.8], "k080_100": [0.8, 1.0], "k060_100": [0.6, 1.0], "k050_100": [0.5, 1.0]},
+  "mainCentralities": [
+    {"id": "c00_60", "label": "0-60%", "cent9": [2, 8]},
+    {"id": "c00_10", "label": "0-10%", "cent9": [7, 8]},
+    {"id": "c10_20", "label": "10-20%", "cent9": [6, 6]},
+    {"id": "c20_30", "label": "20-30%", "cent9": [5, 5]},
+    {"id": "c30_40", "label": "30-40%", "cent9": [4, 4]},
+    {"id": "c40_50", "label": "40-50%", "cent9": [3, 3]},
+    {"id": "c50_60", "label": "50-60%", "cent9": [2, 2]}
+  ],
+  "independentCentralities": [
+    {"id": "cent9_8", "label": "0-5% (c8)", "cent9": [8, 8]},
+    {"id": "cent9_7", "label": "5-10% (c7)", "cent9": [7, 7]},
+    {"id": "cent9_6", "label": "10-20% (c6)", "cent9": [6, 6]},
+    {"id": "cent9_5", "label": "20-30% (c5)", "cent9": [5, 5]},
+    {"id": "cent9_4", "label": "30-40% (c4)", "cent9": [4, 4]},
+    {"id": "cent9_3", "label": "40-50% (c3)", "cent9": [3, 3]},
+    {"id": "cent9_2", "label": "50-60% (c2)", "cent9": [2, 2]},
+    {"id": "cent9_1", "label": "60-70% (c1)", "cent9": [1, 1]},
+    {"id": "cent9_0", "label": "70-80% (c0)", "cent9": [0, 0]}
+  ],
+  "projectionAbsoluteTolerance": 0.000001,
+  "projectionRelativeTolerance": 0.00000001,
+  "figureDirectory": "share/figure/20261120_lambda_ep8_cf_closure_report"
+}

@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "createdUtc": "2026-11-20T15:31:25.072383+00:00",
+  "baselineActualLogsChecked": 20,
+  "baselineAuditSha256": "7a7b04fde5d4ba7d737d0462bf0b19a817cb8fbe4bec3dec70e9cd42ed403cb8",
+  "baselineMaxCpuPeriod": {
+    "group": "group_00",
+    "cpuSeconds": 24720.5,
+    "wallSeconds": 25067.4,
+    "storedEvents": 91040515,
+    "log": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_periodMix100/stdout.2D07F680577123CABC16FDD9159CFD9E_0.out",
+    "logSha256": "4f442e42d8a8ef64737055b38491d19fb91ea69177ce12073b6fc1de38fd9bc1"
+  },
+  "baselineMaxWallPeriod": {
+    "group": "group_00",
+    "cpuSeconds": 24720.5,
+    "wallSeconds": 25067.4,
+    "storedEvents": 91040515,
+    "log": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_periodMix100/stdout.2D07F680577123CABC16FDD9159CFD9E_0.out",
+    "logSha256": "4f442e42d8a8ef64737055b38491d19fb91ea69177ce12073b6fc1de38fd9bc1"
+  },
+  "oldEp8PilotCpuSeconds": 98.48,
+  "oldEp8PilotWallSeconds": 108.744,
+  "cases": {
+    "ep1_mergingOff": {
+      "pilotCpuRatioToOldEp8": 0.539195775792039,
+      "pilotWallRatioToOldEp8": 0.5319144044728905,
+      "predictedMaxPeriodCpuHours": 3.702552548740861,
+      "predictedMaxPeriodWallHours": 3.703808650745482
+    },
+    "ep1_mergingOn": {
+      "pilotCpuRatioToOldEp8": 0.5535134037367994,
+      "pilotWallRatioToOldEp8": 0.5429081144706834,
+      "predictedMaxPeriodCpuHours": 3.8008689158543185,
+      "predictedMaxPeriodWallHours": 3.780359685745114
+    },
+    "ep8_mergingOff": {
+      "pilotCpuRatioToOldEp8": 1.0845857026807473,
+      "pilotWallRatioToOldEp8": 1.047689987493563,
+      "predictedMaxPeriodCpuHours": 7.447639128644282,
+      "predictedMaxPeriodWallHours": 7.295239997915594
+    },
+    "ep8_mergingOn": {
+      "pilotCpuRatioToOldEp8": 1.075548334687246,
+      "pilotWallRatioToOldEp8": 1.037500919590966,
+      "predictedMaxPeriodCpuHours": 7.385581279898908,
+      "predictedMaxPeriodWallHours": 7.224291819931828
+    },
+    "ep16_mergingOff": {
+      "pilotCpuRatioToOldEp8": 2.3609870024370427,
+      "pilotWallRatioToOldEp8": 2.1857665710292062,
+      "predictedMaxPeriodCpuHours": 16.212438664929145,
+      "predictedMaxPeriodWallHours": 15.219856928504868
+    },
+    "ep16_mergingOn": {
+      "pilotCpuRatioToOldEp8": 2.347684809098294,
+      "pilotWallRatioToOldEp8": 2.1791822997130876,
+      "predictedMaxPeriodCpuHours": 16.12109508980955,
+      "predictedMaxPeriodWallHours": 15.174009549952185
+    },
+    "ep32_mergingOff": {
+      "pilotCpuRatioToOldEp8": 4.532087733549959,
+      "pilotWallRatioToOldEp8": 4.1606433458397705,
+      "predictedMaxPeriodCpuHours": 31.120965227006046,
+      "predictedMaxPeriodWallHours": 28.97125305763996
+    },
+    "ep32_mergingOn": {
+      "pilotCpuRatioToOldEp8": 4.508834281072298,
+      "pilotWallRatioToOldEp8": 4.14633451040977,
+      "predictedMaxPeriodCpuHours": 30.9612882903466,
+      "predictedMaxPeriodWallHours": 28.871618251734965
+    }
+  },
+  "conservativePredictedMaxCpuHours": 31.120965227006046,
+  "conservativePredictedMaxWallHours": 29.432048395677086,
+  "schedulerEstimateHours": 48,
+  "defaultHardLimitHours": 72,
+  "hardLimitToPredictedCpuRatio": 2.313552920830363,
+  "notes": [
+    "All twenty old full-period log hashes and exact completion markers match the prior audit.",
+    "Pilot ratios include current QA overhead and EP32 cost; four-way pilot CPU contention and period candidate density make projections approximate.",
+    "48h scheduler estimate is about 1.54 times the max CPU prediction; the existing default72h is about2.3 times. No hard-limit override is requested."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "finishedUTC": "2026-11-21T04:51:18.058472+00:00",
+  "pdf": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep8_cf_closure_report/lambda_he4_ep8_cf_and_tree_closure_ja.pdf",
+  "pdfBytes": 798794,
+  "pdfSHA256": "ac1ce136985d20f0b9ea46a61e71d593aad0c1eae14656854e90d8186e6fdebd",
+  "pages": 12,
+  "visualReviewPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "missingGlyphs": 0,
+  "overfullBoxes": 0,
+  "EPMetricIndependentChecks": 12113,
+  "closureHistogramCounts": {
+    "producerQA": 108,
+    "pair": 1186,
+    "nonemptyPair": 587,
+    "flowInclusiveCells": 46336786
+  },
+  "backgroundSubtracted": false,
+  "normalizationGeVc": [
+    0.4,
+    0.5
+  ],
+  "primaryCentrality": "0-60%",
+  "highK080_100PlaneRange": [
+    0.8990394100516254,
+    0.9234466662627028
+  ],
+  "originalSourceRootsUnchanged": 20,
+  "protectedProductionPinsUnchanged": 111,
+  "physicsEventReplays": 0,
+  "newJobSubmissions": 0,
+  "productionSourceEdits": 0
+}

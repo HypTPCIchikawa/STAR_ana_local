@@ -1,0 +1,42 @@
+analysis:
+  anaName: auau3p85_epdEarly81Headers
+  baseAnaMacro: epdEarly81Headers
+  baseRunMacro: run_epdEarly81Headers
+  decayChannel: p+pi-
+  errDir: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/epd_early81_20261124_001/zero_header_errors
+  filesPerJob: 12
+  jobName: auau3p85_epdEarly81Headers
+  logDir: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/epd_early81_20261124_001/zero_header_logs
+  maxEvents: -1
+  mode: fxtmult
+  nFiles: all
+  name: auau3p85_epdEarly81Headers
+  outputFileStem: auau3p85_epdEarly81Headers
+  scratchSubdir: auau3p85_epdEarly81Headers
+  targetParticle: Lambda-he4
+  type: femto
+  workDir: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer
+analyst:
+  email: yudai.ichikawa.d3@tohoku.ac.jp
+  institute: Tohoku University
+  name: Yudai Ichikawa
+dataset:
+  allPicoDstList: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/epd_early81_20261124_001/zero_probe_batch.list
+  collisionSystem: Au+Au
+  dataFormat: picoDst
+  dataQuality: production
+  goodRunList: ''
+  runRange:
+    min: 22121033
+    max: 22125011
+starTag:
+  collision: auau3p85
+  filenameFilter: st_physics
+  filenameNotFilter: adc
+  filetype: daq_reco_picoDst
+  libraryTag: SL24y
+  productionTag: P24iy
+  storage: local
+  stream: st_physics
+  triggerSets: production_3p85GeV_fixedTarget_2021
+  year: year2021

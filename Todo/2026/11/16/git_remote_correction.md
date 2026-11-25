@@ -5,8 +5,8 @@
 - [x] 両個人履歴を統合し、既存ファイルと今回の個人作業を保全して正しいmainへpush。内容公開`26f3a09a`。
 - [x] 共有mainの誤ったURL・取得手順・gitlinkを訂正してpush。内容公開`a6d617f`。
 - [x] 両remote・gitlink・公開境界・既存ファイル不変を検証。17:21 JST照合PASS。
-- [ ] 旧`star_local_submodule`リポジトリ自体の削除：管理用認証の確認が自動承認レビューで拒否されたため未実施。移行完了を知らせ、GitHub管理画面で削除するか、本体は残して参照訂正のみとするかをユーザーへ確認中。
-- [ ] 訂正対応後、`anaFemtoLambda_4He_tree`の実装計画へ戻る。MEは保存ROOTの再解析段階で行う。
+- [x] 旧`star_local_submodule`リポジトリ自体の削除：11/17にユーザーから手動承認下でagentによる削除を改めて依頼され、本人OAuth認証後に実施。09:30 JST HTTP 204、09:32 JST認証済GET 404と保全先正常を確認。一時認証ファイルも消去済み。[削除記録](../17/git_repository_deletion.md)。
+- [x] ユーザーの再開指示により、`anaFemtoLambda_4He_tree`の[実装計画](anaFemtoLambda_4He_tree_plan.md)へ復帰。MEは保存ROOTの再解析段階で行う。旧repo本体の削除は別残件として保持する。
 
 [解析記録](../../../../analysisnote/20261116/git_remote_correction.md)。解析本体・ROOT出力は変更しない。
 

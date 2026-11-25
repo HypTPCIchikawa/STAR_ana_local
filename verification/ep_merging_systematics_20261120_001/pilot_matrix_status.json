@@ -1,0 +1,1071 @@
+{
+  "startedJst": "2026-11-20T23:53:43.269327+09:00",
+  "phase": "complete",
+  "storedEventsPerCase": 400000,
+  "maximumConcurrentProcesses": 4,
+  "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_00_runs_22158032_22160028.root",
+  "cases": {
+    "ep1_mergingOff": {
+      "pid": 1030574,
+      "command": [
+        "/usr/bin/time",
+        "-v",
+        "-o",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep1_mergingOff.time",
+        "bash",
+        "script/singularity_run_anaFemtoLambda_4He_tree.sh",
+        "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100.yaml",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_00_runs_22158032_22160028.root",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep1_mergingOff.root",
+        "epMergingPilot_ep1_mergingOff",
+        "400000"
+      ],
+      "startedJst": "2026-11-20T23:53:43.275509+09:00",
+      "output": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep1_mergingOff.root",
+      "mainconf": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100.yaml",
+      "epBins": 1,
+      "cutEnabled": false,
+      "returnCode": 0,
+      "finishedJst": "2026-11-20T23:55:06.449038+09:00",
+      "completionMarkers": [
+        "FemtoLambda tree replay job=epMergingPilot_ep1_mergingOff requested=400000 completed=400000 available=91040515 status=0 RealTime=57.8425 CpuTime=53.1"
+      ],
+      "passed": true,
+      "eventLoopWallSeconds": 57.8425,
+      "eventLoopCpuSeconds": 53.1,
+      "userSeconds": 56.38,
+      "systemSeconds": 7.11,
+      "maxRssKiB": 540716.0,
+      "timeExitStatus": 0.0,
+      "outputStat": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep1_mergingOff.root",
+        "bytes": 6239503,
+        "inode": 841593368,
+        "device": 48,
+        "mtimeNs": 1795186494826528044
+      }
+    },
+    "ep1_mergingOn": {
+      "pid": 1030575,
+      "command": [
+        "/usr/bin/time",
+        "-v",
+        "-o",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep1_mergingOn.time",
+        "bash",
+        "script/singularity_run_anaFemtoLambda_4He_tree.sh",
+        "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100.yaml",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_00_runs_22158032_22160028.root",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep1_mergingOn.root",
+        "epMergingPilot_ep1_mergingOn",
+        "400000"
+      ],
+      "startedJst": "2026-11-20T23:53:43.283630+09:00",
+      "output": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep1_mergingOn.root",
+      "mainconf": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100.yaml",
+      "epBins": 1,
+      "cutEnabled": true,
+      "returnCode": 0,
+      "finishedJst": "2026-11-20T23:55:06.465856+09:00",
+      "completionMarkers": [
+        "FemtoLambda tree replay job=epMergingPilot_ep1_mergingOn requested=400000 completed=400000 available=91040515 status=0 RealTime=59.038 CpuTime=54.51"
+      ],
+      "passed": true,
+      "eventLoopWallSeconds": 59.038,
+      "eventLoopCpuSeconds": 54.51,
+      "userSeconds": 58.07,
+      "systemSeconds": 6.89,
+      "maxRssKiB": 541052.0,
+      "timeExitStatus": 0.0,
+      "outputStat": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep1_mergingOn.root",
+        "bytes": 6239183,
+        "inode": 841593242,
+        "device": 48,
+        "mtimeNs": 1795186496088256907
+      }
+    },
+    "ep8_mergingOff": {
+      "pid": 1030577,
+      "command": [
+        "/usr/bin/time",
+        "-v",
+        "-o",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep8_mergingOff.time",
+        "bash",
+        "script/singularity_run_anaFemtoLambda_4He_tree.sh",
+        "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOff_mix100.yaml",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_00_runs_22158032_22160028.root",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep8_mergingOff.root",
+        "epMergingPilot_ep8_mergingOff",
+        "400000"
+      ],
+      "startedJst": "2026-11-20T23:53:43.291708+09:00",
+      "output": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep8_mergingOff.root",
+      "mainconf": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOff_mix100.yaml",
+      "epBins": 8,
+      "cutEnabled": false,
+      "returnCode": 0,
+      "finishedJst": "2026-11-20T23:55:57.890031+09:00",
+      "completionMarkers": [
+        "FemtoLambda tree replay job=epMergingPilot_ep8_mergingOff requested=400000 completed=400000 available=91040515 status=0 RealTime=113.93 CpuTime=106.81"
+      ],
+      "passed": true,
+      "eventLoopWallSeconds": 113.93,
+      "eventLoopCpuSeconds": 106.81,
+      "userSeconds": 109.0,
+      "systemSeconds": 7.77,
+      "maxRssKiB": 533812.0,
+      "timeExitStatus": 0.0,
+      "outputStat": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep8_mergingOff.root",
+        "bytes": 6300121,
+        "inode": 841593310,
+        "device": 48,
+        "mtimeNs": 1795186550647860779
+      }
+    },
+    "ep8_mergingOn": {
+      "pid": 1030580,
+      "command": [
+        "/usr/bin/time",
+        "-v",
+        "-o",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep8_mergingOn.time",
+        "bash",
+        "script/singularity_run_anaFemtoLambda_4He_tree.sh",
+        "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOn_mix100.yaml",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_00_runs_22158032_22160028.root",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep8_mergingOn.root",
+        "epMergingPilot_ep8_mergingOn",
+        "400000"
+      ],
+      "startedJst": "2026-11-20T23:53:43.301332+09:00",
+      "output": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep8_mergingOn.root",
+      "mainconf": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOn_mix100.yaml",
+      "epBins": 8,
+      "cutEnabled": true,
+      "returnCode": 0,
+      "finishedJst": "2026-11-20T23:55:57.901781+09:00",
+      "completionMarkers": [
+        "FemtoLambda tree replay job=epMergingPilot_ep8_mergingOn requested=400000 completed=400000 available=91040515 status=0 RealTime=112.822 CpuTime=105.92"
+      ],
+      "passed": true,
+      "eventLoopWallSeconds": 112.822,
+      "eventLoopCpuSeconds": 105.92,
+      "userSeconds": 108.26,
+      "systemSeconds": 7.75,
+      "maxRssKiB": 533488.0,
+      "timeExitStatus": 0.0,
+      "outputStat": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep8_mergingOn.root",
+        "bytes": 6299392,
+        "inode": 841593350,
+        "device": 48,
+        "mtimeNs": 1795186549535132890
+      }
+    },
+    "ep16_mergingOff": {
+      "pid": 1031715,
+      "command": [
+        "/usr/bin/time",
+        "-v",
+        "-o",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep16_mergingOff.time",
+        "bash",
+        "script/singularity_run_anaFemtoLambda_4He_tree.sh",
+        "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100.yaml",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_00_runs_22158032_22160028.root",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep16_mergingOff.root",
+        "epMergingPilot_ep16_mergingOff",
+        "400000"
+      ],
+      "startedJst": "2026-11-20T23:55:06.165321+09:00",
+      "output": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep16_mergingOff.root",
+      "mainconf": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100.yaml",
+      "epBins": 16,
+      "cutEnabled": false,
+      "returnCode": 0,
+      "finishedJst": "2026-11-20T23:59:22.962745+09:00",
+      "completionMarkers": [
+        "FemtoLambda tree replay job=epMergingPilot_ep16_mergingOff requested=400000 completed=400000 available=91040515 status=0 RealTime=237.689 CpuTime=232.51"
+      ],
+      "passed": true,
+      "eventLoopWallSeconds": 237.689,
+      "eventLoopCpuSeconds": 232.51,
+      "userSeconds": 234.09,
+      "systemSeconds": 8.52,
+      "maxRssKiB": 553868.0,
+      "timeExitStatus": 0.0,
+      "outputStat": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep16_mergingOff.root",
+        "bytes": 6343825,
+        "inode": 841593367,
+        "device": 48,
+        "mtimeNs": 1795186757535300607
+      }
+    },
+    "ep16_mergingOn": {
+      "pid": 1031716,
+      "command": [
+        "/usr/bin/time",
+        "-v",
+        "-o",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep16_mergingOn.time",
+        "bash",
+        "script/singularity_run_anaFemtoLambda_4He_tree.sh",
+        "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100.yaml",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_00_runs_22158032_22160028.root",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep16_mergingOn.root",
+        "epMergingPilot_ep16_mergingOn",
+        "400000"
+      ],
+      "startedJst": "2026-11-20T23:55:06.172672+09:00",
+      "output": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep16_mergingOn.root",
+      "mainconf": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100.yaml",
+      "epBins": 16,
+      "cutEnabled": true,
+      "returnCode": 0,
+      "finishedJst": "2026-11-20T23:59:22.965854+09:00",
+      "completionMarkers": [
+        "FemtoLambda tree replay job=epMergingPilot_ep16_mergingOn requested=400000 completed=400000 available=91040515 status=0 RealTime=236.973 CpuTime=231.2"
+      ],
+      "passed": true,
+      "eventLoopWallSeconds": 236.973,
+      "eventLoopCpuSeconds": 231.2,
+      "userSeconds": 232.54,
+      "systemSeconds": 8.83,
+      "maxRssKiB": 554644.0,
+      "timeExitStatus": 0.0,
+      "outputStat": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep16_mergingOn.root",
+        "bytes": 6343139,
+        "inode": 841593311,
+        "device": 48,
+        "mtimeNs": 1795186756838011136
+      }
+    },
+    "ep32_mergingOff": {
+      "pid": 1032507,
+      "command": [
+        "/usr/bin/time",
+        "-v",
+        "-o",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep32_mergingOff.time",
+        "bash",
+        "script/singularity_run_anaFemtoLambda_4He_tree.sh",
+        "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOff_mix100.yaml",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_00_runs_22158032_22160028.root",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep32_mergingOff.root",
+        "epMergingPilot_ep32_mergingOff",
+        "400000"
+      ],
+      "startedJst": "2026-11-20T23:55:57.634417+09:00",
+      "output": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep32_mergingOff.root",
+      "mainconf": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOff_mix100.yaml",
+      "epBins": 32,
+      "cutEnabled": false,
+      "returnCode": 0,
+      "finishedJst": "2026-11-21T00:03:43.150047+09:00",
+      "completionMarkers": [
+        "FemtoLambda tree replay job=epMergingPilot_ep32_mergingOff requested=400000 completed=400000 available=91040515 status=0 RealTime=452.445 CpuTime=446.32"
+      ],
+      "passed": true,
+      "eventLoopWallSeconds": 452.445,
+      "eventLoopCpuSeconds": 446.32,
+      "outputStat": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep32_mergingOff.root",
+        "bytes": 6403015,
+        "inode": 841593266,
+        "device": 48,
+        "mtimeNs": 1795187021669538751
+      },
+      "userSeconds": 447.19,
+      "systemSeconds": 8.56,
+      "maxRssKiB": 569212.0,
+      "timeExitStatus": 0.0,
+      "harvestRecoveredFromCompletedLog": true
+    },
+    "ep32_mergingOn": {
+      "pid": 1032508,
+      "command": [
+        "/usr/bin/time",
+        "-v",
+        "-o",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep32_mergingOn.time",
+        "bash",
+        "script/singularity_run_anaFemtoLambda_4He_tree.sh",
+        "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOn_mix100.yaml",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_00_runs_22158032_22160028.root",
+        "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep32_mergingOn.root",
+        "epMergingPilot_ep32_mergingOn",
+        "400000"
+      ],
+      "startedJst": "2026-11-20T23:55:57.640955+09:00",
+      "output": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep32_mergingOn.root",
+      "mainconf": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOn_mix100.yaml",
+      "epBins": 32,
+      "cutEnabled": true,
+      "returnCode": 0,
+      "finishedJst": "2026-11-21T00:03:41.670043+09:00",
+      "completionMarkers": [
+        "FemtoLambda tree replay job=epMergingPilot_ep32_mergingOn requested=400000 completed=400000 available=91040515 status=0 RealTime=450.889 CpuTime=444.03"
+      ],
+      "passed": true,
+      "eventLoopWallSeconds": 450.889,
+      "eventLoopCpuSeconds": 444.03,
+      "outputStat": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep32_mergingOn.root",
+        "bytes": 6402478,
+        "inode": 841593458,
+        "device": 48,
+        "mtimeNs": 1795187020108590938
+      },
+      "userSeconds": 444.99,
+      "systemSeconds": 8.57,
+      "maxRssKiB": 567852.0,
+      "timeExitStatus": 0.0,
+      "harvestRecoveredFromCompletedLog": true
+    }
+  },
+  "rssSamples": [
+    {
+      "checkedJst": "2026-11-20T23:53:43.664514+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 14944,
+        "ep1_mergingOn": 14960,
+        "ep8_mergingOff": 14860,
+        "ep8_mergingOn": 14752
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:53:54.010441+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 275892,
+        "ep1_mergingOn": 277724,
+        "ep8_mergingOff": 289588,
+        "ep8_mergingOn": 303840
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:54:04.410483+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 542860,
+        "ep1_mergingOn": 543136,
+        "ep8_mergingOff": 548308,
+        "ep8_mergingOn": 547624
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:54:14.721365+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 543380,
+        "ep1_mergingOn": 543668,
+        "ep8_mergingOff": 549312,
+        "ep8_mergingOn": 548612
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:54:25.201960+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 550076,
+        "ep1_mergingOn": 549684,
+        "ep8_mergingOff": 526772,
+        "ep8_mergingOn": 525524
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:54:35.580808+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 550076,
+        "ep1_mergingOn": 549684,
+        "ep8_mergingOff": 556500,
+        "ep8_mergingOn": 555428
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:54:45.876258+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 552456,
+        "ep1_mergingOn": 552128,
+        "ep8_mergingOff": 556728,
+        "ep8_mergingOn": 555620
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:54:56.124251+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 275960,
+        "ep1_mergingOn": 558180,
+        "ep8_mergingOff": 556728,
+        "ep8_mergingOn": 555620
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:55:06.448984+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 556728,
+        "ep8_mergingOn": 555620,
+        "ep16_mergingOff": 5316,
+        "ep16_mergingOn": 5356
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:55:16.769152+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 556728,
+        "ep8_mergingOn": 555620,
+        "ep16_mergingOff": 230476,
+        "ep16_mergingOn": 229296
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:55:27.025032+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 559184,
+        "ep8_mergingOn": 558052,
+        "ep16_mergingOff": 552100,
+        "ep16_mergingOn": 552800
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:55:37.337286+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 559184,
+        "ep8_mergingOn": 558052,
+        "ep16_mergingOff": 554632,
+        "ep16_mergingOn": 555084
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:55:47.611638+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 559184,
+        "ep8_mergingOn": 558052,
+        "ep16_mergingOff": 555148,
+        "ep16_mergingOn": 555844
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:55:57.889979+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 555844,
+        "ep16_mergingOn": 556328,
+        "ep32_mergingOff": 13556,
+        "ep32_mergingOn": 12984
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:56:08.159801+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 556032,
+        "ep16_mergingOn": 556696,
+        "ep32_mergingOff": 154948,
+        "ep32_mergingOn": 150120
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:56:18.403160+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 585584,
+        "ep16_mergingOn": 586292,
+        "ep32_mergingOff": 560268,
+        "ep32_mergingOn": 560664
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:56:28.649335+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 585584,
+        "ep16_mergingOn": 586292,
+        "ep32_mergingOff": 563428,
+        "ep32_mergingOn": 563764
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:56:38.881949+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 585700,
+        "ep16_mergingOn": 586396,
+        "ep32_mergingOff": 565044,
+        "ep32_mergingOn": 565360
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:56:49.121953+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 585828,
+        "ep16_mergingOn": 586528,
+        "ep32_mergingOff": 566260,
+        "ep32_mergingOn": 566584
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:56:59.407830+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 585828,
+        "ep16_mergingOn": 586528,
+        "ep32_mergingOff": 567016,
+        "ep32_mergingOn": 567316
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:57:09.637244+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 585828,
+        "ep16_mergingOn": 586528,
+        "ep32_mergingOff": 598172,
+        "ep32_mergingOn": 596980
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:57:19.893556+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 585828,
+        "ep16_mergingOn": 586528,
+        "ep32_mergingOff": 598408,
+        "ep32_mergingOn": 597212
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:57:30.166790+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 585828,
+        "ep16_mergingOn": 586528,
+        "ep32_mergingOff": 598656,
+        "ep32_mergingOn": 597456
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:57:40.416064+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 585828,
+        "ep16_mergingOn": 586528,
+        "ep32_mergingOff": 598888,
+        "ep32_mergingOn": 597688
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:57:50.686633+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 585828,
+        "ep16_mergingOn": 586528,
+        "ep32_mergingOff": 599120,
+        "ep32_mergingOn": 598148
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:58:00.920339+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 585828,
+        "ep16_mergingOn": 586528,
+        "ep32_mergingOff": 599568,
+        "ep32_mergingOn": 598372
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:58:11.156887+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 585828,
+        "ep16_mergingOn": 586528,
+        "ep32_mergingOff": 599576,
+        "ep32_mergingOn": 598380
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:58:21.405437+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 585828,
+        "ep16_mergingOn": 586528,
+        "ep32_mergingOff": 599576,
+        "ep32_mergingOn": 598380
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:58:31.731615+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 585828,
+        "ep16_mergingOn": 586528,
+        "ep32_mergingOff": 599576,
+        "ep32_mergingOn": 598380
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:58:41.975486+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 585828,
+        "ep16_mergingOn": 586528,
+        "ep32_mergingOff": 599576,
+        "ep32_mergingOn": 598380
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:58:52.213281+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 585828,
+        "ep16_mergingOn": 586528,
+        "ep32_mergingOff": 599576,
+        "ep32_mergingOn": 598380
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:59:02.456342+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 585828,
+        "ep16_mergingOn": 586528,
+        "ep32_mergingOff": 599576,
+        "ep32_mergingOn": 598380
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:59:12.744497+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 585828,
+        "ep16_mergingOn": 586528,
+        "ep32_mergingOff": 599576,
+        "ep32_mergingOn": 598380
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:59:22.962669+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 599576,
+        "ep32_mergingOn": 598380
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:59:33.175727+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 599576,
+        "ep32_mergingOn": 598380
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:59:43.379262+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 599576,
+        "ep32_mergingOn": 598380
+      }
+    },
+    {
+      "checkedJst": "2026-11-20T23:59:53.601619+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 599576,
+        "ep32_mergingOn": 598380
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:00:03.824622+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 599576,
+        "ep32_mergingOn": 598380
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:00:14.079632+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 599576,
+        "ep32_mergingOn": 598380
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:00:24.308574+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 599576,
+        "ep32_mergingOn": 598380
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:00:34.518146+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 599576,
+        "ep32_mergingOn": 598380
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:00:44.731526+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 599576,
+        "ep32_mergingOn": 598380
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:00:54.975786+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 599576,
+        "ep32_mergingOn": 598380
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:01:05.194259+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 600468,
+        "ep32_mergingOn": 599472
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:01:15.443429+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 600692,
+        "ep32_mergingOn": 599600
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:01:25.677021+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 600692,
+        "ep32_mergingOn": 599600
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:01:35.885437+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 600692,
+        "ep32_mergingOn": 599600
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:01:46.117193+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 600692,
+        "ep32_mergingOn": 599600
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:01:56.366950+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 600692,
+        "ep32_mergingOn": 599600
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:02:06.585555+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 600692,
+        "ep32_mergingOn": 599600
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:02:16.828655+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 600692,
+        "ep32_mergingOn": 599600
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:02:27.046434+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 600692,
+        "ep32_mergingOn": 599600
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:02:37.260368+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 600692,
+        "ep32_mergingOn": 599600
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:02:47.470609+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 600692,
+        "ep32_mergingOn": 599600
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:02:57.685338+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 600692,
+        "ep32_mergingOn": 599600
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:03:07.893775+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 600692,
+        "ep32_mergingOn": 599600
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:03:18.107174+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 600692,
+        "ep32_mergingOn": 599600
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:03:28.313334+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 600692,
+        "ep32_mergingOn": 599600
+      }
+    },
+    {
+      "checkedJst": "2026-11-21T00:03:38.526060+09:00",
+      "processGroupRssKiB": {
+        "ep1_mergingOff": 0,
+        "ep1_mergingOn": 0,
+        "ep8_mergingOff": 0,
+        "ep8_mergingOn": 0,
+        "ep16_mergingOff": 0,
+        "ep16_mergingOn": 0,
+        "ep32_mergingOff": 600692,
+        "ep32_mergingOn": 599600
+      }
+    }
+  ],
+  "finishedJst": "2026-11-21T00:14:11.181878+09:00",
+  "sourceUnchanged": true,
+  "sourceConfigLibPinsUnchanged": true,
+  "pilotDriverOnlyHarvestFix": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/run_pilot_matrix.py",
+      "before": "1afe341eda6dccaaf36d760c6b559d890a1bb44874b5c61869f96e4351de954f",
+      "after": "719fc5bb386d209b9d05319e39ee2c6952624e5386f1cf50ef280684200dad77",
+      "reason": "Final harvest loop must include completed but unharvested children; no physics code or configuration change."
+    }
+  ],
+  "passed": true,
+  "recovery": "Existing completed logs/time/output harvested; no ROOT jobs rerun."
+}

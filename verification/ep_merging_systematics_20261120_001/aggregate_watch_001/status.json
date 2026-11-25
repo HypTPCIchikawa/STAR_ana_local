@@ -1,0 +1,146 @@
+{
+  "checkedAtUtc": "2026-11-20T15:45:34.717933+00:00",
+  "allTerminal": false,
+  "cases": [
+    {
+      "caseId": "ep1_mergingOff",
+      "jobid": "99BF51C534E3EDB9BF7D4E00D0719DC2",
+      "submitted": 20,
+      "terminal": 0,
+      "outcomes": {},
+      "queueStates": {
+        "2": 20
+      },
+      "allTerminal": false,
+      "eventLog": {
+        "path": "/tmp/yichikawa/sched99BF51C534E3EDB9BF7D4E00D0719DC2.condor.log",
+        "bytes": 20596,
+        "device": 64770,
+        "inode": 5242896,
+        "mtimeNs": 1795189506379331558,
+        "sha256": "a27c3ea8a1218984be72a9d27edc5dc1158b8970b13a81e8b735e63eb5c322d6"
+      }
+    },
+    {
+      "caseId": "ep1_mergingOn",
+      "jobid": "A41640F4766ED2F6E154BD81C5343138",
+      "submitted": 20,
+      "terminal": 0,
+      "outcomes": {},
+      "queueStates": {
+        "2": 20
+      },
+      "allTerminal": false,
+      "eventLog": {
+        "path": "/tmp/yichikawa/schedA41640F4766ED2F6E154BD81C5343138.condor.log",
+        "bytes": 17550,
+        "device": 64770,
+        "inode": 5242905,
+        "mtimeNs": 1795189301633741908,
+        "sha256": "e93900eb62f39e78f8ed35d77d02065fb2c9632489c0bd153a053e50d1b03b26"
+      }
+    },
+    {
+      "caseId": "ep8_mergingOn",
+      "jobid": "A730E40D32DC4EDD890D4FFB7F46F217",
+      "submitted": 20,
+      "terminal": 0,
+      "outcomes": {},
+      "queueStates": {
+        "2": 20
+      },
+      "allTerminal": false,
+      "eventLog": {
+        "path": "/tmp/yichikawa/schedA730E40D32DC4EDD890D4FFB7F46F217.condor.log",
+        "bytes": 17541,
+        "device": 64770,
+        "inode": 5242910,
+        "mtimeNs": 1795189401002998824,
+        "sha256": "0add6f5d714d3572878535d30ebc9e7786a98f3f9a1de397f259b3aa04cb0cf6"
+      }
+    },
+    {
+      "caseId": "ep16_mergingOff",
+      "jobid": "6A21EE258585F2B438551377515209BF",
+      "submitted": 20,
+      "terminal": 0,
+      "outcomes": {},
+      "queueStates": {
+        "2": 20
+      },
+      "allTerminal": false,
+      "eventLog": {
+        "path": "/tmp/yichikawa/sched6A21EE258585F2B438551377515209BF.condor.log",
+        "bytes": 17545,
+        "device": 64770,
+        "inode": 5242911,
+        "mtimeNs": 1795189497911224459,
+        "sha256": "5177b0e2b84bd70d5f9bc5cb2fc26f88e0e7fc92576b5750d8b28376024404b9"
+      }
+    },
+    {
+      "caseId": "ep16_mergingOn",
+      "jobid": "EA9E4CBE1B57C76D5337C29F5EA78FF5",
+      "submitted": 20,
+      "terminal": 0,
+      "outcomes": {},
+      "queueStates": {
+        "2": 20
+      },
+      "allTerminal": false,
+      "eventLog": {
+        "path": "/tmp/yichikawa/schedEA9E4CBE1B57C76D5337C29F5EA78FF5.condor.log",
+        "bytes": 14528,
+        "device": 64770,
+        "inode": 5242915,
+        "mtimeNs": 1795189336326180732,
+        "sha256": "c15b4513ed0ecba2ddc1318c72686e69b71ad052f58ec0a4644c2b605c152832"
+      }
+    },
+    {
+      "caseId": "ep32_mergingOff",
+      "jobid": "C44F820BF5267ECB143D2529198B3E3C",
+      "submitted": 20,
+      "terminal": 0,
+      "outcomes": {},
+      "queueStates": {
+        "2": 20
+      },
+      "allTerminal": false,
+      "eventLog": {
+        "path": "/tmp/yichikawa/schedC44F820BF5267ECB143D2529198B3E3C.condor.log",
+        "bytes": 14508,
+        "device": 64770,
+        "inode": 5242916,
+        "mtimeNs": 1795189398549967800,
+        "sha256": "e189feaa09dfc67c7d2010d10dda9804b78b74352cc3d1fd95d93c8b0fcc70c6"
+      }
+    },
+    {
+      "caseId": "ep32_mergingOn",
+      "jobid": "9F620F840BE41704A1DE1DB1D5082DC4",
+      "submitted": 20,
+      "terminal": 0,
+      "outcomes": {},
+      "queueStates": {
+        "2": 20
+      },
+      "allTerminal": false,
+      "eventLog": {
+        "path": "/tmp/yichikawa/sched9F620F840BE41704A1DE1DB1D5082DC4.condor.log",
+        "bytes": 14508,
+        "device": 64770,
+        "inode": 5242917,
+        "mtimeNs": 1795189528791615015,
+        "sha256": "557f42f3617faa78676c06e81768cc12388468307dd5d2e24264f9cc88aa98ba"
+      }
+    }
+  ],
+  "phase": "waiting",
+  "expectedNewCases": 7,
+  "expectedNewWorkers": 140,
+  "reusedBaselineWorkers": 20,
+  "automaticRetry": false,
+  "automaticResubmit": false,
+  "automaticHadd": false
+}

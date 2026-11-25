@@ -1,0 +1,1891 @@
+{
+  "caseId": "he4Y8",
+  "jobid": "FEDC5185F359546FB1B7B39F70DC8144",
+  "passed": true,
+  "workers": [
+    {
+      "period": 0,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_00_runs_22158032_22160028.root",
+      "expectedStoredEvents": 91040515,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_0.root",
+        "bytes": 578793560,
+        "device": 48,
+        "inode": 745451618,
+        "mtimeNs": 1795349620059569368,
+        "caseId": "he4Y8",
+        "period": 0
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_0.out",
+        "bytes": 3054779,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_0",
+            "requested": 91040515,
+            "completed": 91040515,
+            "available": 91040515,
+            "status": 0,
+            "wallSeconds": 22143.0,
+            "cpuSeconds": 21529.7
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 91040515,
+            "reconstructedEvents": 91040515,
+            "selectedLambda": 1914793,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 91040515,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 07:13:42 AM EST 2026",
+        "sha256": "1a2a3f01e68fceda31417bf4a967e5bc7316c76b32b9a87aed2d3dc63740c2a2",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_0.out",
+          "bytes": 3054779,
+          "device": 48,
+          "inode": 657200002,
+          "mtimeNs": 1795349622779136079
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_0.err",
+        "bytes": 5714,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "783bbf29026738d9852ed15740bdd7d302e3500712c766e9ef2324f80fad9bd4",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_0.err",
+          "bytes": 5714,
+          "device": 48,
+          "inode": 661403327,
+          "mtimeNs": 1795349621946624937
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_0",
+        "requested": 91040515,
+        "completed": 91040515,
+        "available": 91040515,
+        "status": 0,
+        "wallSeconds": 22143.0,
+        "cpuSeconds": 21529.7
+      }
+    },
+    {
+      "period": 1,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_01_runs_22160028_22161010.root",
+      "expectedStoredEvents": 87421760,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_1.root",
+        "bytes": 556495288,
+        "device": 48,
+        "inode": 2162759678,
+        "mtimeNs": 1795347021248647589,
+        "caseId": "he4Y8",
+        "period": 1
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_1.out",
+        "bytes": 2938965,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_1",
+            "requested": 87421760,
+            "completed": 87421760,
+            "available": 87421760,
+            "status": 0,
+            "wallSeconds": 19611.2,
+            "cpuSeconds": 19122.4
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 87421760,
+            "reconstructedEvents": 87421760,
+            "selectedLambda": 1869763,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 87421760,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 06:30:25 AM EST 2026",
+        "sha256": "ce1f7417fc7c183b93b10b2f23a7e24c65201137de48ce41d9e64e802cd85218",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_1.out",
+          "bytes": 2938965,
+          "device": 48,
+          "inode": 2164333671,
+          "mtimeNs": 1795347025123971493
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_1.err",
+        "bytes": 5714,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "0542af07d918121df05e94474f3ccfb6ab7c5b287c101b9810dc11e4382c3ed6",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_1.err",
+          "bytes": 5714,
+          "device": 48,
+          "inode": 2164333672,
+          "mtimeNs": 1795347023757736538
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_1",
+        "requested": 87421760,
+        "completed": 87421760,
+        "available": 87421760,
+        "status": 0,
+        "wallSeconds": 19611.2,
+        "cpuSeconds": 19122.4
+      }
+    },
+    {
+      "period": 2,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_02_runs_22161010_22161031.root",
+      "expectedStoredEvents": 87596220,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_2.root",
+        "bytes": 560683561,
+        "device": 48,
+        "inode": 820539428,
+        "mtimeNs": 1795345206803938928,
+        "caseId": "he4Y8",
+        "period": 2
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_2.out",
+        "bytes": 2944573,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_2",
+            "requested": 87596220,
+            "completed": 87596220,
+            "available": 87596220,
+            "status": 0,
+            "wallSeconds": 17668.2,
+            "cpuSeconds": 17208.6
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 87596220,
+            "reconstructedEvents": 87596220,
+            "selectedLambda": 1932096,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 87596220,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 06:00:12 AM EST 2026",
+        "sha256": "fb7b825a58136373f0e0908d9950767ea30735511656f2499c868f6f57dfbec1",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_2.out",
+          "bytes": 2944573,
+          "device": 48,
+          "inode": 778514445,
+          "mtimeNs": 1795345212912263922
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_2.err",
+        "bytes": 5714,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "f344bbb94dca3470ed6467299edb08500f36cf9b34c9d5647fab4de58e45d17f",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_2.err",
+          "bytes": 5714,
+          "device": 48,
+          "inode": 660845786,
+          "mtimeNs": 1795345211665085084
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_2",
+        "requested": 87596220,
+        "completed": 87596220,
+        "available": 87596220,
+        "status": 0,
+        "wallSeconds": 17668.2,
+        "cpuSeconds": 17208.6
+      }
+    },
+    {
+      "period": 3,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_03_runs_22161031_22163011.root",
+      "expectedStoredEvents": 90818334,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_3.root",
+        "bytes": 581607041,
+        "device": 48,
+        "inode": 771896701,
+        "mtimeNs": 1795348654017156623,
+        "caseId": "he4Y8",
+        "period": 3
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_3.out",
+        "bytes": 3047677,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_3",
+            "requested": 90818334,
+            "completed": 90818334,
+            "available": 90818334,
+            "status": 0,
+            "wallSeconds": 21104.6,
+            "cpuSeconds": 20193.8
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 90818334,
+            "reconstructedEvents": 90818334,
+            "selectedLambda": 1992554,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 90818334,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 06:57:37 AM EST 2026",
+        "sha256": "2d7cf9d7b3650fa4028778694a7b4a3a4160b362fcc6c6195406b0500cf1e919",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_3.out",
+          "bytes": 3047677,
+          "device": 48,
+          "inode": 764018235,
+          "mtimeNs": 1795348657831760837
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_3.err",
+        "bytes": 5714,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "e17c0dfef828c05c4d36cdb6fee296a364cdd81ee410c85b974d750581625e28",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_3.err",
+          "bytes": 5714,
+          "device": 48,
+          "inode": 764018280,
+          "mtimeNs": 1795348656516678537
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_3",
+        "requested": 90818334,
+        "completed": 90818334,
+        "available": 90818334,
+        "status": 0,
+        "wallSeconds": 21104.6,
+        "cpuSeconds": 20193.8
+      }
+    },
+    {
+      "period": 4,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_04_runs_22163011_22163030.root",
+      "expectedStoredEvents": 91046915,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_4.root",
+        "bytes": 576078398,
+        "device": 48,
+        "inode": 446960512,
+        "mtimeNs": 1795348135766228586,
+        "caseId": "he4Y8",
+        "period": 4
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_4.out",
+        "bytes": 3054973,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_4",
+            "requested": 91046915,
+            "completed": 91046915,
+            "available": 91046915,
+            "status": 0,
+            "wallSeconds": 20705.9,
+            "cpuSeconds": 19851.1
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 91046915,
+            "reconstructedEvents": 91046915,
+            "selectedLambda": 1789453,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 91046915,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 06:49:00 AM EST 2026",
+        "sha256": "9cc1bf92b668e26aeefb7aa7ab0269137df6f745a4b8bbe751a229dccf131a39",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_4.out",
+          "bytes": 3054973,
+          "device": 48,
+          "inode": 445384705,
+          "mtimeNs": 1795348140174518233
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_4.err",
+        "bytes": 5714,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "d4543d206e5a3d8a77ba6362a8f3557bb8219ae046830dafb5ea0117b4e39be3",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_4.err",
+          "bytes": 5714,
+          "device": 48,
+          "inode": 445384706,
+          "mtimeNs": 1795348139130698151
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_4",
+        "requested": 91046915,
+        "completed": 91046915,
+        "available": 91046915,
+        "status": 0,
+        "wallSeconds": 20705.9,
+        "cpuSeconds": 19851.1
+      }
+    },
+    {
+      "period": 5,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_05_runs_22163030_22164009.root",
+      "expectedStoredEvents": 90505160,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_5.root",
+        "bytes": 573392019,
+        "device": 48,
+        "inode": 2169306767,
+        "mtimeNs": 1795345060983209685,
+        "caseId": "he4Y8",
+        "period": 5
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_5.out",
+        "bytes": 3037653,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_5",
+            "requested": 90505160,
+            "completed": 90505160,
+            "available": 90505160,
+            "status": 0,
+            "wallSeconds": 17576.3,
+            "cpuSeconds": 17181.4
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 90505160,
+            "reconstructedEvents": 90505160,
+            "selectedLambda": 1828679,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 90505160,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 05:57:47 AM EST 2026",
+        "sha256": "09b66c2639153e2290a6293c33c2a9f4f250c47f9a704abc7d09069d755c8223",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_5.out",
+          "bytes": 3037653,
+          "device": 48,
+          "inode": 2163001456,
+          "mtimeNs": 1795345067691769720
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_5.err",
+        "bytes": 5711,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "930fb558e36cc62e5d2f4dd7c940af0ae0403d0e7658bffd9efaae2740273377",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_5.err",
+          "bytes": 5711,
+          "device": 48,
+          "inode": 2169305842,
+          "mtimeNs": 1795345066677703177
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_5",
+        "requested": 90505160,
+        "completed": 90505160,
+        "available": 90505160,
+        "status": 0,
+        "wallSeconds": 17576.3,
+        "cpuSeconds": 17181.4
+      }
+    },
+    {
+      "period": 6,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_06_runs_22164009_22164031.root",
+      "expectedStoredEvents": 93673595,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_6.root",
+        "bytes": 588497727,
+        "device": 48,
+        "inode": 46633819,
+        "mtimeNs": 1795347653783388161,
+        "caseId": "he4Y8",
+        "period": 6
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_6.out",
+        "bytes": 3139037,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_6",
+            "requested": 93673595,
+            "completed": 93673595,
+            "available": 93673595,
+            "status": 0,
+            "wallSeconds": 20174.8,
+            "cpuSeconds": 19899.9
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 93673595,
+            "reconstructedEvents": 93673595,
+            "selectedLambda": 1793382,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 93673595,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 06:40:59 AM EST 2026",
+        "sha256": "90b688d6bd126a1d57f06fee424c2ef2a760085aeda3d557373990211caa19e9",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_6.out",
+          "bytes": 3139037,
+          "device": 48,
+          "inode": 413826208,
+          "mtimeNs": 1795347659869226567
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_6.err",
+        "bytes": 5714,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "0232065c721f2af5eda2a1e838a240d8caa4e54156b930973fe953589c22da4f",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_6.err",
+          "bytes": 5714,
+          "device": 48,
+          "inode": 206328618,
+          "mtimeNs": 1795347658782027042
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_6",
+        "requested": 93673595,
+        "completed": 93673595,
+        "available": 93673595,
+        "status": 0,
+        "wallSeconds": 20174.8,
+        "cpuSeconds": 19899.9
+      }
+    },
+    {
+      "period": 7,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_07_runs_22164031_22165015.root",
+      "expectedStoredEvents": 88960957,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_7.root",
+        "bytes": 562974272,
+        "device": 48,
+        "inode": 2169082420,
+        "mtimeNs": 1795345937000091226,
+        "caseId": "he4Y8",
+        "period": 7
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_7.out",
+        "bytes": 2988221,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_7",
+            "requested": 88960957,
+            "completed": 88960957,
+            "available": 88960957,
+            "status": 0,
+            "wallSeconds": 18405.5,
+            "cpuSeconds": 17677.8
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 88960957,
+            "reconstructedEvents": 88960957,
+            "selectedLambda": 1787121,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 88960957,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 06:12:21 AM EST 2026",
+        "sha256": "713f2c050b3ed2eb15c747c60328874d98da20cf6880efaca72452e7a66faa85",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_7.out",
+          "bytes": 2988221,
+          "device": 48,
+          "inode": 2168556143,
+          "mtimeNs": 1795345941155635727
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_7.err",
+        "bytes": 5714,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "482b1f8b170f27f8858c793a9605384278392fd6486f358b8645ed68cf565724",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_7.err",
+          "bytes": 5714,
+          "device": 48,
+          "inode": 2164354637,
+          "mtimeNs": 1795345939811082665
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_7",
+        "requested": 88960957,
+        "completed": 88960957,
+        "available": 88960957,
+        "status": 0,
+        "wallSeconds": 18405.5,
+        "cpuSeconds": 17677.8
+      }
+    },
+    {
+      "period": 8,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_08_runs_22165015_22165035.root",
+      "expectedStoredEvents": 90741888,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_8.root",
+        "bytes": 573560995,
+        "device": 48,
+        "inode": 2166864964,
+        "mtimeNs": 1795348110720168909,
+        "caseId": "he4Y8",
+        "period": 8
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_8.out",
+        "bytes": 3045205,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_8",
+            "requested": 90741888,
+            "completed": 90741888,
+            "available": 90741888,
+            "status": 0,
+            "wallSeconds": 20665.1,
+            "cpuSeconds": 19704.1
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 90741888,
+            "reconstructedEvents": 90741888,
+            "selectedLambda": 1805905,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 90741888,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 06:48:35 AM EST 2026",
+        "sha256": "ae3641c49a2ca02ba07ba4deb23d265b8d6f541dbd6143c449432283d2893a69",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_8.out",
+          "bytes": 3045205,
+          "device": 48,
+          "inode": 2160561477,
+          "mtimeNs": 1795348115507155852
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_8.err",
+        "bytes": 5711,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "4edb26d55aa17a1a3058a5789b5714f181804bbaa09c9cf97116e48b844c0acc",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_8.err",
+          "bytes": 5711,
+          "device": 48,
+          "inode": 2165290816,
+          "mtimeNs": 1795348113724234905
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_8",
+        "requested": 90741888,
+        "completed": 90741888,
+        "available": 90741888,
+        "status": 0,
+        "wallSeconds": 20665.1,
+        "cpuSeconds": 19704.1
+      }
+    },
+    {
+      "period": 9,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_09_runs_22165035_22166030.root",
+      "expectedStoredEvents": 90789339,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_9.root",
+        "bytes": 573000442,
+        "device": 48,
+        "inode": 2168739727,
+        "mtimeNs": 1795347064967770325,
+        "caseId": "he4Y8",
+        "period": 9
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_9.out",
+        "bytes": 3046749,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_9",
+            "requested": 90789339,
+            "completed": 90789339,
+            "available": 90789339,
+            "status": 0,
+            "wallSeconds": 19618.3,
+            "cpuSeconds": 19239.3
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 90789339,
+            "reconstructedEvents": 90789339,
+            "selectedLambda": 1764211,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 90789339,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 06:31:13 AM EST 2026",
+        "sha256": "7c37a15a5c6df2bbccf105439104bb94122fefe8e05dddd09988d6a107a0ece0",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_9.out",
+          "bytes": 3046749,
+          "device": 48,
+          "inode": 2166636806,
+          "mtimeNs": 1795347073463805224
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_9.err",
+        "bytes": 5714,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "c88ee2c8031517af3a7a22cd83708ee5809a75b6461fd4cd6a051669229eae2a",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_9.err",
+          "bytes": 5714,
+          "device": 48,
+          "inode": 2166636807,
+          "mtimeNs": 1795347072071902715
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_9",
+        "requested": 90789339,
+        "completed": 90789339,
+        "available": 90789339,
+        "status": 0,
+        "wallSeconds": 19618.3,
+        "cpuSeconds": 19239.3
+      }
+    },
+    {
+      "period": 10,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_10_runs_22166030_22167011.root",
+      "expectedStoredEvents": 91257378,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_10.root",
+        "bytes": 574602172,
+        "device": 48,
+        "inode": 2166619850,
+        "mtimeNs": 1795347451857323339,
+        "caseId": "he4Y8",
+        "period": 10
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_10.out",
+        "bytes": 3062618,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_10",
+            "requested": 91257378,
+            "completed": 91257378,
+            "available": 91257378,
+            "status": 0,
+            "wallSeconds": 19992.8,
+            "cpuSeconds": 19574.4
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 91257378,
+            "reconstructedEvents": 91257378,
+            "selectedLambda": 1734746,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 91257378,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 06:37:36 AM EST 2026",
+        "sha256": "5b869d937d9473dcd6403fec5dbc30b3e09f1240af13987bd5fc4de525c77a3f",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_10.out",
+          "bytes": 3062618,
+          "device": 48,
+          "inode": 2166618522,
+          "mtimeNs": 1795347456076520500
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_10.err",
+        "bytes": 5729,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "3c5c505f3d881cdc72464e51713a701eed8f71480bb4eae66cf994fc697bab53",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_10.err",
+          "bytes": 5729,
+          "device": 48,
+          "inode": 2166618523,
+          "mtimeNs": 1795347454690555747
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_10",
+        "requested": 91257378,
+        "completed": 91257378,
+        "available": 91257378,
+        "status": 0,
+        "wallSeconds": 19992.8,
+        "cpuSeconds": 19574.4
+      }
+    },
+    {
+      "period": 11,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_11_runs_22167011_22169003.root",
+      "expectedStoredEvents": 90867761,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_11.root",
+        "bytes": 571059561,
+        "device": 48,
+        "inode": 2167098968,
+        "mtimeNs": 1795344806966096964,
+        "caseId": "he4Y8",
+        "period": 11
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_11.out",
+        "bytes": 3050144,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_11",
+            "requested": 90867761,
+            "completed": 90867761,
+            "available": 90867761,
+            "status": 0,
+            "wallSeconds": 17284.0,
+            "cpuSeconds": 16754.2
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 90867761,
+            "reconstructedEvents": 90867761,
+            "selectedLambda": 1707011,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 90867761,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 05:53:40 AM EST 2026",
+        "sha256": "5900191cd5fa9a64483a0a2f3fdae9824147c1fd90d9a59d031ca22ce4bb49c9",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_11.out",
+          "bytes": 3050144,
+          "device": 48,
+          "inode": 2162368713,
+          "mtimeNs": 1795344820112743131
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_11.err",
+        "bytes": 5729,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "1c678e36071d087cb9bf50c4b1b2c28ac1aea4e75a50a0035e4765ca10f06182",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_11.err",
+          "bytes": 5729,
+          "device": 48,
+          "inode": 2164996613,
+          "mtimeNs": 1795344818643778581
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_11",
+        "requested": 90867761,
+        "completed": 90867761,
+        "available": 90867761,
+        "status": 0,
+        "wallSeconds": 17284.0,
+        "cpuSeconds": 16754.2
+      }
+    },
+    {
+      "period": 12,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_12_runs_22169003_22170008.root",
+      "expectedStoredEvents": 90866756,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_12.root",
+        "bytes": 573158698,
+        "device": 48,
+        "inode": 2169395236,
+        "mtimeNs": 1795348411822530027,
+        "caseId": "he4Y8",
+        "period": 12
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_12.out",
+        "bytes": 3050112,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_12",
+            "requested": 90866756,
+            "completed": 90866756,
+            "available": 90866756,
+            "status": 0,
+            "wallSeconds": 21109.7,
+            "cpuSeconds": 20142.0
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 90866756,
+            "reconstructedEvents": 90866756,
+            "selectedLambda": 1758679,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 90866756,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 06:53:35 AM EST 2026",
+        "sha256": "1eadf3e443136a1a51f945860777c96b69a9ec3871cdb6260f4772cd85b6614d",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_12.out",
+          "bytes": 3050112,
+          "device": 48,
+          "inode": 2165194501,
+          "mtimeNs": 1795348415617111098
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_12.err",
+        "bytes": 5729,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "45c463b77c02d9b91af386ee86c738af8300af9336164246a1c34dbac6ab40d3",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_12.err",
+          "bytes": 5729,
+          "device": 48,
+          "inode": 2167294618,
+          "mtimeNs": 1795348414322680511
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_12",
+        "requested": 90866756,
+        "completed": 90866756,
+        "available": 90866756,
+        "status": 0,
+        "wallSeconds": 21109.7,
+        "cpuSeconds": 20142.0
+      }
+    },
+    {
+      "period": 13,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_13_runs_22170008_22171031.root",
+      "expectedStoredEvents": 92194024,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_13.root",
+        "bytes": 581362460,
+        "device": 48,
+        "inode": 495878192,
+        "mtimeNs": 1795351268369486865,
+        "caseId": "he4Y8",
+        "period": 13
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_13.out",
+        "bytes": 3092602,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_13",
+            "requested": 92194024,
+            "completed": 92194024,
+            "available": 92194024,
+            "status": 0,
+            "wallSeconds": 24009.7,
+            "cpuSeconds": 23304.8
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 92194024,
+            "reconstructedEvents": 92194024,
+            "selectedLambda": 1754443,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 92194024,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 07:41:12 AM EST 2026",
+        "sha256": "fb615ea87780f53d7cb3004267d4ed460fee15bda236781b20a9985beddd54e7",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_13.out",
+          "bytes": 3092602,
+          "device": 48,
+          "inode": 201703555,
+          "mtimeNs": 1795351272282664978
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_13.err",
+        "bytes": 5729,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "208920a0e3bcd167274275fc3efbbcdb893384d4dc91a03efa7bc32ff470b05f",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_13.err",
+          "bytes": 5729,
+          "device": 48,
+          "inode": 499554640,
+          "mtimeNs": 1795351270687801610
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_13",
+        "requested": 92194024,
+        "completed": 92194024,
+        "available": 92194024,
+        "status": 0,
+        "wallSeconds": 24009.7,
+        "cpuSeconds": 23304.8
+      }
+    },
+    {
+      "period": 14,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_14_runs_22171031_22173003.root",
+      "expectedStoredEvents": 92970453,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_14.root",
+        "bytes": 584354279,
+        "device": 48,
+        "inode": 522809165,
+        "mtimeNs": 1795344347741634167,
+        "caseId": "he4Y8",
+        "period": 14
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_14.out",
+        "bytes": 3117442,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_14",
+            "requested": 92970453,
+            "completed": 92970453,
+            "available": 92970453,
+            "status": 0,
+            "wallSeconds": 16907.3,
+            "cpuSeconds": 16691.7
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 92970453,
+            "reconstructedEvents": 92970453,
+            "selectedLambda": 1746961,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 92970453,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 05:45:59 AM EST 2026",
+        "sha256": "f06d111f0d4c3978db73baa972e705f8df6def7b23c369b9ebf76885c000a2c3",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_14.out",
+          "bytes": 3117442,
+          "device": 48,
+          "inode": 520181714,
+          "mtimeNs": 1795344359499516884
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_14.err",
+        "bytes": 5729,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "e3b18bfca57b1c81b4da7e13dded97040599d4bbb8ead6fa468a8707b2d04994",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_14.err",
+          "bytes": 5729,
+          "device": 48,
+          "inode": 520181715,
+          "mtimeNs": 1795344355583466998
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_14",
+        "requested": 92970453,
+        "completed": 92970453,
+        "available": 92970453,
+        "status": 0,
+        "wallSeconds": 16907.3,
+        "cpuSeconds": 16691.7
+      }
+    },
+    {
+      "period": 15,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_15_runs_22173003_22173023.root",
+      "expectedStoredEvents": 93455508,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_15.root",
+        "bytes": 588555269,
+        "device": 48,
+        "inode": 526430854,
+        "mtimeNs": 1795347984841841754,
+        "caseId": "he4Y8",
+        "period": 15
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_15.out",
+        "bytes": 3132962,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_15",
+            "requested": 93455508,
+            "completed": 93455508,
+            "available": 93455508,
+            "status": 0,
+            "wallSeconds": 20426.6,
+            "cpuSeconds": 19966.7
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 93455508,
+            "reconstructedEvents": 93455508,
+            "selectedLambda": 1775775,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 93455508,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 06:46:34 AM EST 2026",
+        "sha256": "b18a594154d18cdc39a57b3c5c9aa9a4a6126cb58016494a90db920398028983",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_15.out",
+          "bytes": 3132962,
+          "device": 48,
+          "inode": 250118737,
+          "mtimeNs": 1795347994043914222
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_15.err",
+        "bytes": 5729,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "f4a385ca8f8c758ea0d7a9f12160a27797624e61e70d748e7527ed8dc43d2889",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_15.err",
+          "bytes": 5729,
+          "device": 48,
+          "inode": 344675552,
+          "mtimeNs": 1795347992522384152
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_15",
+        "requested": 93455508,
+        "completed": 93455508,
+        "available": 93455508,
+        "status": 0,
+        "wallSeconds": 20426.6,
+        "cpuSeconds": 19966.7
+      }
+    },
+    {
+      "period": 16,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_16_runs_22173024_22174047.root",
+      "expectedStoredEvents": 89528409,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_16.root",
+        "bytes": 562256092,
+        "device": 48,
+        "inode": 2167334953,
+        "mtimeNs": 1795346594391133374,
+        "caseId": "he4Y8",
+        "period": 16
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_16.out",
+        "bytes": 3007298,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_16",
+            "requested": 89528409,
+            "completed": 89528409,
+            "available": 89528409,
+            "status": 0,
+            "wallSeconds": 19126.8,
+            "cpuSeconds": 18694.9
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 89528409,
+            "reconstructedEvents": 89528409,
+            "selectedLambda": 1695193,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 89528409,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 06:23:20 AM EST 2026",
+        "sha256": "fd1827221f6a5a8c9c9b7956d32bbc852009a7f5ac81c653011bf0bd31dd8b12",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_16.out",
+          "bytes": 3007298,
+          "device": 48,
+          "inode": 2158404451,
+          "mtimeNs": 1795346600540447784
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_16.err",
+        "bytes": 5729,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "31d1614d5d5866ebd20fec5bc6660e7e331b3a33984bc1842660aaa34448638a",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_16.err",
+          "bytes": 5729,
+          "device": 48,
+          "inode": 2158404452,
+          "mtimeNs": 1795346599362430697
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_16",
+        "requested": 89528409,
+        "completed": 89528409,
+        "available": 89528409,
+        "status": 0,
+        "wallSeconds": 19126.8,
+        "cpuSeconds": 18694.9
+      }
+    },
+    {
+      "period": 17,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_17_runs_22174047_22175010.root",
+      "expectedStoredEvents": 91589405,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_17.root",
+        "bytes": 576017949,
+        "device": 48,
+        "inode": 447591152,
+        "mtimeNs": 1795346719010577117,
+        "caseId": "he4Y8",
+        "period": 17
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_17.out",
+        "bytes": 3073250,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_17",
+            "requested": 91589405,
+            "completed": 91589405,
+            "available": 91589405,
+            "status": 0,
+            "wallSeconds": 19239.6,
+            "cpuSeconds": 18845.9
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 91589405,
+            "reconstructedEvents": 91589405,
+            "selectedLambda": 1740128,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 91589405,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 06:25:26 AM EST 2026",
+        "sha256": "ccbc3b2a677441c1b6325de901f8ea7dc3909da071c38601fd81fa7e852178d8",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_17.out",
+          "bytes": 3073250,
+          "device": 48,
+          "inode": 226961216,
+          "mtimeNs": 1795346726210135705
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_17.err",
+        "bytes": 5729,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "6f13f7c44f3af940d9a8d4e3eefff7b4712a8746da4f46fc4311eec1a3f68e50",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_17.err",
+          "bytes": 5729,
+          "device": 48,
+          "inode": 444963953,
+          "mtimeNs": 1795346724756519865
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_17",
+        "requested": 91589405,
+        "completed": 91589405,
+        "available": 91589405,
+        "status": 0,
+        "wallSeconds": 19239.6,
+        "cpuSeconds": 18845.9
+      }
+    },
+    {
+      "period": 18,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_18_runs_22175010_22177006.root",
+      "expectedStoredEvents": 93329021,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_18.root",
+        "bytes": 587237563,
+        "device": 48,
+        "inode": 637611544,
+        "mtimeNs": 1795349631803170161,
+        "caseId": "he4Y8",
+        "period": 18
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_18.out",
+        "bytes": 3128928,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_18",
+            "requested": 93329021,
+            "completed": 93329021,
+            "available": 93329021,
+            "status": 0,
+            "wallSeconds": 22194.0,
+            "cpuSeconds": 21507.3
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 93329021,
+            "reconstructedEvents": 93329021,
+            "selectedLambda": 1788923,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 93329021,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 07:13:54 AM EST 2026",
+        "sha256": "dc29c09267cc24a35f156649e1de519b0b38a50c0a8304d56eb9ab7d9997a57e",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_18.out",
+          "bytes": 3128928,
+          "device": 48,
+          "inode": 623428308,
+          "mtimeNs": 1795349634555918057
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_18.err",
+        "bytes": 5729,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "f620168c4e5d7e59b6d92145b52b3368fbe91f6e34d05a4c2424d0c4c5cb9695",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_18.err",
+          "bytes": 5729,
+          "device": 48,
+          "inode": 623428311,
+          "mtimeNs": 1795349633581883074
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_18",
+        "requested": 93329021,
+        "completed": 93329021,
+        "available": 93329021,
+        "status": 0,
+        "wallSeconds": 22194.0,
+        "cpuSeconds": 21507.3
+      }
+    },
+    {
+      "period": 19,
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_19_runs_22177006_22179022.root",
+      "expectedStoredEvents": 90794489,
+      "root": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_19.root",
+        "bytes": 570528960,
+        "device": 48,
+        "inode": 167779989,
+        "mtimeNs": 1795348475107372262,
+        "caseId": "he4Y8",
+        "period": 19
+      },
+      "stdout": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_19.out",
+        "bytes": 3047810,
+        "fatalLines": [],
+        "replay": [
+          {
+            "job": "FEDC5185F359546FB1B7B39F70DC8144_19",
+            "requested": 90794489,
+            "completed": 90794489,
+            "available": 90794489,
+            "status": 0,
+            "wallSeconds": 20979.5,
+            "cpuSeconds": 20159.5
+          }
+        ],
+        "maker": [
+          {
+            "inputEvents": 90794489,
+            "reconstructedEvents": 90794489,
+            "selectedLambda": 1704455,
+            "mixingVzClamped": 0,
+            "status": "completed"
+          }
+        ],
+        "normalNativeExit": true,
+        "chainCounts": [
+          {
+            "nStOK": 90794489,
+            "nStWarn": 0,
+            "nStEOF": 0,
+            "nStErr": 0,
+            "nStFatal": 0
+          }
+        ],
+        "endRaw": "Sun Nov 22 06:54:38 AM EST 2026",
+        "sha256": "3e92d9ce281bfd257e669b2b9db3d0b9242d35802cc04e75e3d237ce24340618",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stdout.FEDC5185F359546FB1B7B39F70DC8144_19.out",
+          "bytes": 3047810,
+          "device": 48,
+          "inode": 40654856,
+          "mtimeNs": 1795348478749562105
+        }
+      },
+      "stderr": {
+        "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_19.err",
+        "bytes": 5729,
+        "fatalLines": [],
+        "replay": [],
+        "maker": [],
+        "normalNativeExit": false,
+        "chainCounts": [],
+        "endRaw": null,
+        "sha256": "5ae279002ad035c55b7d068e05c565f6ca5ffba041ac7173e8995c850491720c",
+        "stat": {
+          "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/err/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/stderr.FEDC5185F359546FB1B7B39F70DC8144_19.err",
+          "bytes": 5729,
+          "device": 48,
+          "inode": 232917552,
+          "mtimeNs": 1795348477240376977
+        }
+      },
+      "completion": {
+        "job": "FEDC5185F359546FB1B7B39F70DC8144_19",
+        "requested": 90794489,
+        "completed": 90794489,
+        "available": 90794489,
+        "status": 0,
+        "wallSeconds": 20979.5,
+        "cpuSeconds": 20159.5
+      }
+    }
+  ],
+  "completedEvents": 1819447887,
+  "outputStats": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_0.root",
+      "bytes": 578793560,
+      "device": 48,
+      "inode": 745451618,
+      "mtimeNs": 1795349620059569368,
+      "caseId": "he4Y8",
+      "period": 0
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_1.root",
+      "bytes": 556495288,
+      "device": 48,
+      "inode": 2162759678,
+      "mtimeNs": 1795347021248647589,
+      "caseId": "he4Y8",
+      "period": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_2.root",
+      "bytes": 560683561,
+      "device": 48,
+      "inode": 820539428,
+      "mtimeNs": 1795345206803938928,
+      "caseId": "he4Y8",
+      "period": 2
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_3.root",
+      "bytes": 581607041,
+      "device": 48,
+      "inode": 771896701,
+      "mtimeNs": 1795348654017156623,
+      "caseId": "he4Y8",
+      "period": 3
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_4.root",
+      "bytes": 576078398,
+      "device": 48,
+      "inode": 446960512,
+      "mtimeNs": 1795348135766228586,
+      "caseId": "he4Y8",
+      "period": 4
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_5.root",
+      "bytes": 573392019,
+      "device": 48,
+      "inode": 2169306767,
+      "mtimeNs": 1795345060983209685,
+      "caseId": "he4Y8",
+      "period": 5
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_6.root",
+      "bytes": 588497727,
+      "device": 48,
+      "inode": 46633819,
+      "mtimeNs": 1795347653783388161,
+      "caseId": "he4Y8",
+      "period": 6
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_7.root",
+      "bytes": 562974272,
+      "device": 48,
+      "inode": 2169082420,
+      "mtimeNs": 1795345937000091226,
+      "caseId": "he4Y8",
+      "period": 7
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_8.root",
+      "bytes": 573560995,
+      "device": 48,
+      "inode": 2166864964,
+      "mtimeNs": 1795348110720168909,
+      "caseId": "he4Y8",
+      "period": 8
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_9.root",
+      "bytes": 573000442,
+      "device": 48,
+      "inode": 2168739727,
+      "mtimeNs": 1795347064967770325,
+      "caseId": "he4Y8",
+      "period": 9
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_10.root",
+      "bytes": 574602172,
+      "device": 48,
+      "inode": 2166619850,
+      "mtimeNs": 1795347451857323339,
+      "caseId": "he4Y8",
+      "period": 10
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_11.root",
+      "bytes": 571059561,
+      "device": 48,
+      "inode": 2167098968,
+      "mtimeNs": 1795344806966096964,
+      "caseId": "he4Y8",
+      "period": 11
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_12.root",
+      "bytes": 573158698,
+      "device": 48,
+      "inode": 2169395236,
+      "mtimeNs": 1795348411822530027,
+      "caseId": "he4Y8",
+      "period": 12
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_13.root",
+      "bytes": 581362460,
+      "device": 48,
+      "inode": 495878192,
+      "mtimeNs": 1795351268369486865,
+      "caseId": "he4Y8",
+      "period": 13
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_14.root",
+      "bytes": 584354279,
+      "device": 48,
+      "inode": 522809165,
+      "mtimeNs": 1795344347741634167,
+      "caseId": "he4Y8",
+      "period": 14
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_15.root",
+      "bytes": 588555269,
+      "device": 48,
+      "inode": 526430854,
+      "mtimeNs": 1795347984841841754,
+      "caseId": "he4Y8",
+      "period": 15
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_16.root",
+      "bytes": 562256092,
+      "device": 48,
+      "inode": 2167334953,
+      "mtimeNs": 1795346594391133374,
+      "caseId": "he4Y8",
+      "period": 16
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_17.root",
+      "bytes": 576017949,
+      "device": 48,
+      "inode": 447591152,
+      "mtimeNs": 1795346719010577117,
+      "caseId": "he4Y8",
+      "period": 17
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_18.root",
+      "bytes": 587237563,
+      "device": 48,
+      "inode": 637611544,
+      "mtimeNs": 1795349631803170161,
+      "caseId": "he4Y8",
+      "period": 18
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_19.root",
+      "bytes": 570528960,
+      "device": 48,
+      "inode": 167779989,
+      "mtimeNs": 1795348475107372262,
+      "caseId": "he4Y8",
+      "period": 19
+    }
+  ],
+  "totalOutputBytes": 11494216306
+}

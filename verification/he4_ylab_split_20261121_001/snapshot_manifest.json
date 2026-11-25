@@ -1,0 +1,613 @@
+{
+  "kind": "pre_handoff_verification_snapshot",
+  "files": [
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100.yaml",
+      "path": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100.yaml",
+      "sourceBytes": 1391,
+      "sourceSha256": "9fe7f470c81b358d57f0e379e5f0d96e3adcd0c75700bfa62aca67624c41ef6b",
+      "storedBytes": 1391,
+      "storedSha256": "9fe7f470c81b358d57f0e379e5f0d96e3adcd0c75700bfa62aca67624c41ef6b"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/centrality/centrality_auau3p85_femtoLambda.yaml",
+      "path": "config/cuts/centrality/centrality_auau3p85_femtoLambda.yaml",
+      "sourceBytes": 325,
+      "sourceSha256": "1cf50324a4c7f3ef308be960b87c9ebea3693031abf4f8352838027614ce4ca0",
+      "storedBytes": 325,
+      "storedSha256": "1cf50324a4c7f3ef308be960b87c9ebea3693031abf4f8352838027614ce4ca0"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/event/event_femtoLambda_imp5.yaml",
+      "path": "config/cuts/event/event_femtoLambda_imp5.yaml",
+      "sourceBytes": 247,
+      "sourceSha256": "493c22c8ec457820047b563fda66ef916efec31b5cc7bb29b02b47c395c7aac7",
+      "storedBytes": 247,
+      "storedSha256": "493c22c8ec457820047b563fda66ef916efec31b5cc7bb29b02b47c395c7aac7"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/kf/kf_auau3p85_anaLambda_KFParticle_highpurity.yaml",
+      "path": "config/cuts/kf/kf_auau3p85_anaLambda_KFParticle_highpurity.yaml",
+      "sourceBytes": 1671,
+      "sourceSha256": "581bab50e769a28428fe5970f72cae9acd7da104c931f83d2060a0e15f9dd425",
+      "storedBytes": 1671,
+      "storedSha256": "581bab50e769a28428fe5970f72cae9acd7da104c931f83d2060a0e15f9dd425"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/mixing/mixing_femtoLambda_epd8_pool100.yaml",
+      "path": "config/cuts/mixing/mixing_femtoLambda_epd8_pool100.yaml",
+      "sourceBytes": 251,
+      "sourceSha256": "cbd844f023548aa3988fc022d9d7d6a9dfae87645f4f210fff2b0b0ff2f7c385",
+      "storedBytes": 251,
+      "storedSha256": "cbd844f023548aa3988fc022d9d7d6a9dfae87645f4f210fff2b0b0ff2f7c385"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/nuclearid/nuclearid_femtoLambda_auau3p85_he4_accepted_20261022.yaml",
+      "path": "config/cuts/nuclearid/nuclearid_femtoLambda_auau3p85_he4_accepted_20261022.yaml",
+      "sourceBytes": 1539,
+      "sourceSha256": "8d6fe1d422908fcd204bf59243bc4440aa4fac52f64f00b3ec8a37b471f1776f",
+      "storedBytes": 1539,
+      "storedSha256": "8d6fe1d422908fcd204bf59243bc4440aa4fac52f64f00b3ec8a37b471f1776f"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/event_plane/lambda_he4_xialei_epd8.yaml",
+      "path": "config/event_plane/lambda_he4_xialei_epd8.yaml",
+      "sourceBytes": 1100,
+      "sourceSha256": "ccc0a0868f0fb40d0d75c622a2e133392a5b591458c2336f11ec7d813e58d64d",
+      "storedBytes": 1100,
+      "storedSha256": "ccc0a0868f0fb40d0d75c622a2e133392a5b591458c2336f11ec7d813e58d64d"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_kf.yaml",
+      "path": "config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_kf.yaml",
+      "sourceBytes": 35238,
+      "sourceSha256": "49072a22315c1f3d62dbea406e07d160e8066563a10551de22a11cf071db246b",
+      "storedBytes": 35238,
+      "storedSha256": "49072a22315c1f3d62dbea406e07d160e8066563a10551de22a11cf071db246b"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_femtoLambda_he4_he3_control_epdPairY10YLabMerging20261113_nuclear.yaml",
+      "path": "config/hist/hist_auau3p85_femtoLambda_he4_he3_control_epdPairY10YLabMerging20261113_nuclear.yaml",
+      "sourceBytes": 92588,
+      "sourceSha256": "0272779ba55203d1e90a77ede46d88123b811085c728270aed9d9263a7864102",
+      "storedBytes": 92588,
+      "storedSha256": "0272779ba55203d1e90a77ede46d88123b811085c728270aed9d9263a7864102"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_femtoLambda_he4_he3_pid_pair_qa_selectedOnly.yaml",
+      "path": "config/hist/hist_auau3p85_femtoLambda_he4_he3_pid_pair_qa_selectedOnly.yaml",
+      "sourceBytes": 88721,
+      "sourceSha256": "40cb6be15fbc71000ff1dbb8860902317114e4f71ee8762a5acf2111547ef763",
+      "storedBytes": 88721,
+      "storedSha256": "40cb6be15fbc71000ff1dbb8860902317114e4f71ee8762a5acf2111547ef763"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100.yaml",
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100.yaml",
+      "sourceBytes": 850,
+      "sourceSha256": "092c911556e0ad677220216fa32999512a6d54224fd487167dfa2c382a1e43ff",
+      "storedBytes": 850,
+      "storedSha256": "092c911556e0ad677220216fa32999512a6d54224fd487167dfa2c382a1e43ff"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/maker/maker_auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100.yaml",
+      "path": "config/maker/maker_auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100.yaml",
+      "sourceBytes": 2947,
+      "sourceSha256": "baea9496822a3e66c56c57ce1dac219398f789574609101d56850e532c9d30b2",
+      "storedBytes": 2947,
+      "storedSha256": "baea9496822a3e66c56c57ce1dac219398f789574609101d56850e532c9d30b2"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/reduced_tree/lambda_he4_period_mix.yaml",
+      "path": "config/reduced_tree/lambda_he4_period_mix.yaml",
+      "sourceBytes": 255,
+      "sourceSha256": "93e94dddd5f5db84af76e43a7bb6a911aba8105cdde18a856ad35fc43ab46083",
+      "storedBytes": 255,
+      "storedSha256": "93e94dddd5f5db84af76e43a7bb6a911aba8105cdde18a856ad35fc43ab46083"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/CompareHe4YLabPilot.C",
+      "path": "campaign/CompareHe4YLabPilot.C",
+      "sourceBytes": 10628,
+      "sourceSha256": "04b37b5ef599cf96f4858d18140071f6512d6039a540a57e0b42f73b2dd8f8a2",
+      "storedBytes": 10628,
+      "storedSha256": "04b37b5ef599cf96f4858d18140071f6512d6039a540a57e0b42f73b2dd8f8a2"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/DrawHe4Y.C",
+      "path": "campaign/DrawHe4Y.C",
+      "sourceBytes": 15164,
+      "sourceSha256": "be507953b7f21d6e934474f731c040f97e2b7cb2768deddfcaa9ab9892c0f748",
+      "storedBytes": 15164,
+      "storedSha256": "be507953b7f21d6e934474f731c040f97e2b7cb2768deddfcaa9ab9892c0f748"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/ExtractHe4Y.C",
+      "path": "campaign/ExtractHe4Y.C",
+      "sourceBytes": 11726,
+      "sourceSha256": "f9fb11aec99fc689ee52e2594539c579b45352b7f8b30da46f8756199178cd70",
+      "storedBytes": 11726,
+      "storedSha256": "f9fb11aec99fc689ee52e2594539c579b45352b7f8b30da46f8756199178cd70"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/POSTPROCESS.md",
+      "path": "campaign/POSTPROCESS.md",
+      "sourceBytes": 4098,
+      "sourceSha256": "22d49c0e092635b90462b969c46df4983dcbe5ff9b0939fd26ae8d456fd481a1",
+      "storedBytes": 4098,
+      "storedSha256": "22d49c0e092635b90462b969c46df4983dcbe5ff9b0939fd26ae8d456fd481a1"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/analysis_campaign.json",
+      "path": "campaign/analysis_campaign.json",
+      "sourceBytes": 20360,
+      "sourceSha256": "c2a4ec83abc4d98966dde51515fad8be06237589d0565f77516640ac3c14ae9a",
+      "storedBytes": 20360,
+      "storedSha256": "c2a4ec83abc4d98966dde51515fad8be06237589d0565f77516640ac3c14ae9a"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/audit_he4_y.C",
+      "path": "campaign/audit_he4_y.C",
+      "sourceBytes": 2505,
+      "sourceSha256": "c9dff84f94322d16c16afa6df383f4b5f848d766f2ae143e42a5c9f97d4347db",
+      "storedBytes": 2505,
+      "storedSha256": "c9dff84f94322d16c16afa6df383f4b5f848d766f2ae143e42a5c9f97d4347db"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/audit_he4_y_summary.json",
+      "path": "campaign/audit_he4_y_summary.json",
+      "sourceBytes": 1847,
+      "sourceSha256": "22d605bdfc315b5953edc591614314162ec2a2186a8b15fdf815765e39238bda",
+      "storedBytes": 1847,
+      "storedSha256": "22d605bdfc315b5953edc591614314162ec2a2186a8b15fdf815765e39238bda"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/audit_producer_he4_y.json",
+      "path": "campaign/audit_producer_he4_y.json",
+      "sourceBytes": 8100,
+      "sourceSha256": "1e4c8f9adb05a0fcaeddd34374e6f6f3ba63cb32989d93baa2f9197c2586e903",
+      "storedBytes": 8100,
+      "storedSha256": "1e4c8f9adb05a0fcaeddd34374e6f6f3ba63cb32989d93baa2f9197c2586e903"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/audit_producer_he4_y.log",
+      "path": "campaign/audit_producer_he4_y.log",
+      "sourceBytes": 2072,
+      "sourceSha256": "f0984d589209066055a07eec668ee5c2cb53b81b7e75c1960b10abdb923adeb9",
+      "storedBytes": 2072,
+      "storedSha256": "f0984d589209066055a07eec668ee5c2cb53b81b7e75c1960b10abdb923adeb9"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/audit_producer_he4_y_run2.log",
+      "path": "campaign/audit_producer_he4_y_run2.log",
+      "sourceBytes": 896,
+      "sourceSha256": "297ea5e0f3f9869bb3fd69aa8a5735b6a3c1129427393fa8178982116c503e14",
+      "storedBytes": 896,
+      "storedSha256": "297ea5e0f3f9869bb3fd69aa8a5735b6a3c1129427393fa8178982116c503e14"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/audit_producer_periods.list",
+      "path": "campaign/audit_producer_periods.list",
+      "sourceBytes": 3280,
+      "sourceSha256": "b2afaeb07e7f3d3428812810f2bc148c6296912caa10367a81d6be1cbd4189c4",
+      "storedBytes": 3280,
+      "storedSha256": "b2afaeb07e7f3d3428812810f2bc148c6296912caa10367a81d6be1cbd4189c4"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/audit_replay_one.list",
+      "path": "campaign/audit_replay_one.list",
+      "sourceBytes": 221,
+      "sourceSha256": "aaca2b91386f0fd54065bae1234830f9b5f86693e6b395f34bcdc6fece955743",
+      "storedBytes": 221,
+      "storedSha256": "aaca2b91386f0fd54065bae1234830f9b5f86693e6b395f34bcdc6fece955743"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/audit_replay_one_he4_y.json",
+      "path": "campaign/audit_replay_one_he4_y.json",
+      "sourceBytes": 4337,
+      "sourceSha256": "b3aaabb5d808c0be6e8bd3828644e23ab45cafee75518bd5e98995cfb6ed9cac",
+      "storedBytes": 4337,
+      "storedSha256": "b3aaabb5d808c0be6e8bd3828644e23ab45cafee75518bd5e98995cfb6ed9cac"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/audit_replay_one_he4_y.log",
+      "path": "campaign/audit_replay_one_he4_y.log",
+      "sourceBytes": 703,
+      "sourceSha256": "b93e9f3cb423627df951bd063b5ef4ad98e440ba2501e08dedcf914f6ba7e9fb",
+      "storedBytes": 703,
+      "storedSha256": "b93e9f3cb423627df951bd063b5ef4ad98e440ba2501e08dedcf914f6ba7e9fb"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/audit_source_stats_before.json",
+      "path": "campaign/audit_source_stats_before.json",
+      "sourceBytes": 6169,
+      "sourceSha256": "cd39bf73deb5fa6b7b87cf35111326aa409b2bfe93bf996d415fcb796e91f400",
+      "storedBytes": 6169,
+      "storedSha256": "cd39bf73deb5fa6b7b87cf35111326aa409b2bfe93bf996d415fcb796e91f400"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/build.log",
+      "path": "campaign/build.log",
+      "sourceBytes": 14336,
+      "sourceSha256": "83e1bb90b7400775ee7230e1ebd175f996ca33f30a361521801e43884963955c",
+      "storedBytes": 14336,
+      "storedSha256": "83e1bb90b7400775ee7230e1ebd175f996ca33f30a361521801e43884963955c"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/compile_post_macros.C",
+      "path": "campaign/compile_post_macros.C",
+      "sourceBytes": 304,
+      "sourceSha256": "80cc64fe77e3a03309cc9b07ba24391dbeb39c5949869842a00130e1fe851ea8",
+      "storedBytes": 304,
+      "storedSha256": "80cc64fe77e3a03309cc9b07ba24391dbeb39c5949869842a00130e1fe851ea8"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/compile_post_macros.log",
+      "path": "campaign/compile_post_macros.log",
+      "sourceBytes": 2394,
+      "sourceSha256": "ae08f50e925e9cd3a4babc92e70b4b18eb561009f5ddc2a0058ebc1e98fe592e",
+      "storedBytes": 2394,
+      "storedSha256": "ae08f50e925e9cd3a4babc92e70b4b18eb561009f5ddc2a0058ebc1e98fe592e"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/compile_post_macros_v2.log",
+      "path": "campaign/compile_post_macros_v2.log",
+      "sourceBytes": 913,
+      "sourceSha256": "dee6f2ec1171572a1a590415cbad7341ff000cd2a9afea4932efd47e5b776ffa",
+      "storedBytes": 913,
+      "storedSha256": "dee6f2ec1171572a1a590415cbad7341ff000cd2a9afea4932efd47e5b776ffa"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/fixture_result.json",
+      "path": "campaign/fixture_result.json",
+      "sourceBytes": 1782,
+      "sourceSha256": "f9d91d2411b0a9eb6b6d45c34545898dd6b7b28ceb9f3074581f8c6d14552114",
+      "storedBytes": 1782,
+      "storedSha256": "f9d91d2411b0a9eb6b6d45c34545898dd6b7b28ceb9f3074581f8c6d14552114"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/he4_y_postprocess_settings.json",
+      "path": "campaign/he4_y_postprocess_settings.json",
+      "sourceBytes": 4519,
+      "sourceSha256": "7f7bbdf4f7b549ae43d74053e9f99be39716ae9d9539bb4fcad21894de6ad542",
+      "storedBytes": 4519,
+      "storedSha256": "7f7bbdf4f7b549ae43d74053e9f99be39716ae9d9539bb4fcad21894de6ad542"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/he4_y_watch_settings.json",
+      "path": "campaign/he4_y_watch_settings.json",
+      "sourceBytes": 889,
+      "sourceSha256": "0663ea5d9a052afd5c60a691e96a518c526cbdfb9e10ec2922254afb3a0b6714",
+      "storedBytes": 889,
+      "storedSha256": "0663ea5d9a052afd5c60a691e96a518c526cbdfb9e10ec2922254afb3a0b6714"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/launch.log",
+      "path": "campaign/launch.log",
+      "sourceBytes": 0,
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "storedBytes": 0,
+      "storedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/launch_config.json",
+      "path": "campaign/launch_config.json",
+      "sourceBytes": 28797,
+      "sourceSha256": "75f65f962472f51120de95c439eff59c6c625b162f9b744fd00c95c797ef3283",
+      "storedBytes": 28797,
+      "storedSha256": "75f65f962472f51120de95c439eff59c6c625b162f9b744fd00c95c797ef3283"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/launch_once.py",
+      "path": "campaign/launch_once.py",
+      "sourceBytes": 29770,
+      "sourceSha256": "e6fed65763cb0591aaf703543725662b859def35f41d6fefea00b755c58d3640",
+      "storedBytes": 29770,
+      "storedSha256": "e6fed65763cb0591aaf703543725662b859def35f41d6fefea00b755c58d3640"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/launch_preflight.json",
+      "path": "campaign/launch_preflight.json",
+      "sourceBytes": 7229,
+      "sourceSha256": "8b03abeec10d068d5bb80976a082b3fe865497dea8a3e69c83b78aa0c93cd875",
+      "storedBytes": 7229,
+      "storedSha256": "8b03abeec10d068d5bb80976a082b3fe865497dea8a3e69c83b78aa0c93cd875"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/launch_state.json",
+      "path": "campaign/launch_state.json",
+      "sourceBytes": 403,
+      "sourceSha256": "61287a62dc1a583fe0725db29746cb0cb2ba65a810d6bef6153f162a9ce031d6",
+      "storedBytes": 403,
+      "storedSha256": "61287a62dc1a583fe0725db29746cb0cb2ba65a810d6bef6153f162a9ce031d6"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/periods.list",
+      "path": "campaign/periods.list",
+      "sourceBytes": 3280,
+      "sourceSha256": "b2afaeb07e7f3d3428812810f2bc148c6296912caa10367a81d6be1cbd4189c4",
+      "storedBytes": 3280,
+      "storedSha256": "b2afaeb07e7f3d3428812810f2bc148c6296912caa10367a81d6be1cbd4189c4"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot.list",
+      "path": "campaign/pilot.list",
+      "sourceBytes": 123,
+      "sourceSha256": "93af9d0e7764a389103246c5e6f3b0e08ca670fc30f99551c5567669236453c3",
+      "storedBytes": 123,
+      "storedSha256": "93af9d0e7764a389103246c5e6f3b0e08ca670fc30f99551c5567669236453c3"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot.log",
+      "path": "campaign/pilot.log",
+      "sourceBytes": 23490,
+      "sourceSha256": "1f175743d3afa792a3a517de5d9dfd25b00a9a687491167e19fa9cf3bbea92dd",
+      "storedBytes": 23490,
+      "storedSha256": "1f175743d3afa792a3a517de5d9dfd25b00a9a687491167e19fa9cf3bbea92dd"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot.time",
+      "path": "campaign/pilot.time",
+      "sourceBytes": 1176,
+      "sourceSha256": "b84b0fcbe864c4af8840424ddcffc0296bf5e203ae983e83331c2856c43863f6",
+      "storedBytes": 1176,
+      "storedSha256": "b84b0fcbe864c4af8840424ddcffc0296bf5e203ae983e83331c2856c43863f6"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_command.json",
+      "path": "campaign/pilot_command.json",
+      "sourceBytes": 6647,
+      "sourceSha256": "17e94d78a998b1bb56b0e692bc2ff752b521b09c027b629fbaf627a918705876",
+      "storedBytes": 6647,
+      "storedSha256": "17e94d78a998b1bb56b0e692bc2ff752b521b09c027b629fbaf627a918705876"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_comparison.json",
+      "path": "campaign/pilot_comparison.json",
+      "sourceBytes": 3581,
+      "sourceSha256": "affc8066bbd8b2520e330b9a66bccf29e6414e92306c33ec6f06089480be5912",
+      "storedBytes": 3581,
+      "storedSha256": "affc8066bbd8b2520e330b9a66bccf29e6414e92306c33ec6f06089480be5912"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_comparison.log",
+      "path": "campaign/pilot_comparison.log",
+      "sourceBytes": 1216,
+      "sourceSha256": "ab419a2013b535f994e5b83a8588526d71c4b2e37487f56f39aa485c3b9bd6c8",
+      "storedBytes": 1216,
+      "storedSha256": "ab419a2013b535f994e5b83a8588526d71c4b2e37487f56f39aa485c3b9bd6c8"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_001.log",
+      "path": "campaign/pilot_postprocess_001.log",
+      "sourceBytes": 913,
+      "sourceSha256": "c53d1485a88b4ceb932470c9e1b3078e1909915d2bb076e0661fd755cfe95f5d",
+      "storedBytes": 913,
+      "storedSha256": "c53d1485a88b4ceb932470c9e1b3078e1909915d2bb076e0661fd755cfe95f5d"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_002.log",
+      "path": "campaign/pilot_postprocess_002.log",
+      "sourceBytes": 178,
+      "sourceSha256": "b1b311877983422a10ffcc99bfdb426a155364cceb25777c035f3afdbae5315c",
+      "storedBytes": 178,
+      "storedSha256": "b1b311877983422a10ffcc99bfdb426a155364cceb25777c035f3afdbae5315c"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_003/completed.json",
+      "path": "campaign/pilot_postprocess_003/completed.json",
+      "sourceBytes": 4591,
+      "sourceSha256": "42908abdbab3a23f5030837cc887f5c882db993b14b0132b70cf3fd02d407add",
+      "storedBytes": 4591,
+      "storedSha256": "42908abdbab3a23f5030837cc887f5c882db993b14b0132b70cf3fd02d407add"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_003/draw.log",
+      "path": "campaign/pilot_postprocess_003/draw.log",
+      "sourceBytes": 24319,
+      "sourceSha256": "388e69da4f557eb149e68b2d2dabf9cf659a812aced7894687f2391b2bd0f0fe",
+      "storedBytes": 24319,
+      "storedSha256": "388e69da4f557eb149e68b2d2dabf9cf659a812aced7894687f2391b2bd0f0fe"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_003/extract.log",
+      "path": "campaign/pilot_postprocess_003/extract.log",
+      "sourceBytes": 1102,
+      "sourceSha256": "6a065aa9c8ec63d16504c2a18687f4efe210e71877005dd8f2e3bf8b8e6cbea1",
+      "storedBytes": 1102,
+      "storedSha256": "6a065aa9c8ec63d16504c2a18687f4efe210e71877005dd8f2e3bf8b8e6cbea1"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_003.log",
+      "path": "campaign/pilot_postprocess_003.log",
+      "sourceBytes": 178,
+      "sourceSha256": "6c6e6a001501c67dabeae8ac73c789eb406b80b1380ef6bef7491c9637959016",
+      "storedBytes": 178,
+      "storedSha256": "6c6e6a001501c67dabeae8ac73c789eb406b80b1380ef6bef7491c9637959016"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_validation.json",
+      "path": "campaign/pilot_postprocess_validation.json",
+      "sourceBytes": 3297,
+      "sourceSha256": "70e4e363b5b36831e6264dfbb15b149cde5be57a445cdbb5196a6765ea2a35e8",
+      "storedBytes": 3297,
+      "storedSha256": "70e4e363b5b36831e6264dfbb15b149cde5be57a445cdbb5196a6765ea2a35e8"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_run_result.json",
+      "path": "campaign/pilot_run_result.json",
+      "sourceBytes": 505,
+      "sourceSha256": "481bf75f69b9b95f599abb02b4f089ea8b84793783b7962f1370c0969b59253d",
+      "storedBytes": 505,
+      "storedSha256": "481bf75f69b9b95f599abb02b4f089ea8b84793783b7962f1370c0969b59253d"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/postprocess_he4_y.py",
+      "path": "campaign/postprocess_he4_y.py",
+      "sourceBytes": 13486,
+      "sourceSha256": "5fb1767f30425e2e6b6775c26fd819c7329a93d60005c69da0b1ef9d4a427e3d",
+      "storedBytes": 13486,
+      "storedSha256": "5fb1767f30425e2e6b6775c26fd819c7329a93d60005c69da0b1ef9d4a427e3d"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/prepare_configs.py",
+      "path": "campaign/prepare_configs.py",
+      "sourceBytes": 5615,
+      "sourceSha256": "10e384d6cdfb0c255c270f333c5cc64677c1256fb8d91508c1b739daa7bab7d4",
+      "storedBytes": 5615,
+      "storedSha256": "10e384d6cdfb0c255c270f333c5cc64677c1256fb8d91508c1b739daa7bab7d4"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/prepare_submission.py",
+      "path": "campaign/prepare_submission.py",
+      "sourceBytes": 6646,
+      "sourceSha256": "f2d0c2c1e781c56e8ed941bf4157fc786db94ffcffb8bab1a07118934b421d8b",
+      "storedBytes": 6646,
+      "storedSha256": "f2d0c2c1e781c56e8ed941bf4157fc786db94ffcffb8bab1a07118934b421d8b"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/rapidity_binning.json",
+      "path": "campaign/rapidity_binning.json",
+      "sourceBytes": 305,
+      "sourceSha256": "e7230d054d2b263b9dd87b77415b937fbdbeb0f0751825cecb8da0fe8da89de6",
+      "storedBytes": 305,
+      "storedSha256": "e7230d054d2b263b9dd87b77415b937fbdbeb0f0751825cecb8da0fe8da89de6"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/run_he4_ylab_binning_test.C",
+      "path": "campaign/run_he4_ylab_binning_test.C",
+      "sourceBytes": 1686,
+      "sourceSha256": "6f35e1105a30cfd5341ac2d95a11e957781317a5758ceeaf51dc2e87dcef4b05",
+      "storedBytes": 1686,
+      "storedSha256": "6f35e1105a30cfd5341ac2d95a11e957781317a5758ceeaf51dc2e87dcef4b05"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/run_pilot.py",
+      "path": "campaign/run_pilot.py",
+      "sourceBytes": 3027,
+      "sourceSha256": "10b60954edf46fa38a6641bec96faa279cae47b9a08b135fb3c4f64cc693aa82",
+      "storedBytes": 3027,
+      "storedSha256": "10b60954edf46fa38a6641bec96faa279cae47b9a08b135fb3c4f64cc693aa82"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/scope.json",
+      "path": "campaign/scope.json",
+      "sourceBytes": 980,
+      "sourceSha256": "5ec724ac4f320109b83586097a94ef980be4a4d33ab5b15963b58ecb7d6ab3f2",
+      "storedBytes": 980,
+      "storedSha256": "5ec724ac4f320109b83586097a94ef980be4a4d33ab5b15963b58ecb7d6ab3f2"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/source_before_manifest.json",
+      "path": "campaign/source_before_manifest.json",
+      "sourceBytes": 5169,
+      "sourceSha256": "ced2126114488bbc792aa612fdeb225883a6967c50208ae7ec1325d96b347f20",
+      "storedBytes": 5169,
+      "storedSha256": "ced2126114488bbc792aa612fdeb225883a6967c50208ae7ec1325d96b347f20"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/source_implementation_status.json",
+      "path": "campaign/source_implementation_status.json",
+      "sourceBytes": 930,
+      "sourceSha256": "21faca68264eea63751880e9521b6ac2c66ea950641cabc1e5ebeec3cbbcf2b6",
+      "storedBytes": 930,
+      "storedSha256": "21faca68264eea63751880e9521b6ac2c66ea950641cabc1e5ebeec3cbbcf2b6"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/source_preservation.json",
+      "path": "campaign/source_preservation.json",
+      "sourceBytes": 18861,
+      "sourceSha256": "ab5bd6edfe9f333c10264e116966fda610f22a39fd216543b5bac2b2308e07cc",
+      "storedBytes": 18861,
+      "storedSha256": "ab5bd6edfe9f333c10264e116966fda610f22a39fd216543b5bac2b2308e07cc"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/start_tmux_launcher.sh",
+      "path": "campaign/start_tmux_launcher.sh",
+      "sourceBytes": 617,
+      "sourceSha256": "dec4e065685f17453d81c8503cc2827867851325e38aa88076e496284d182037",
+      "storedBytes": 617,
+      "storedSha256": "dec4e065685f17453d81c8503cc2827867851325e38aa88076e496284d182037"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/submit.log",
+      "path": "campaign/submit.log",
+      "sourceBytes": 2979,
+      "sourceSha256": "35649ebbe16f34616165113ba02ca97aa765b08c91fb6c2fef3cbb6298dea2ff",
+      "storedBytes": 2979,
+      "storedSha256": "35649ebbe16f34616165113ba02ca97aa765b08c91fb6c2fef3cbb6298dea2ff"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/submit_attempt.json",
+      "path": "campaign/submit_attempt.json",
+      "sourceBytes": 1328,
+      "sourceSha256": "31c0b41d197327a99f7a15b6f81329e456d5a052a61fe46781026d11c2b56caf",
+      "storedBytes": 1328,
+      "storedSha256": "31c0b41d197327a99f7a15b6f81329e456d5a052a61fe46781026d11c2b56caf"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/test_he4_ylab_binning.C",
+      "path": "campaign/test_he4_ylab_binning.C",
+      "sourceBytes": 12777,
+      "sourceSha256": "7e944ef79e8b8eee5908565513715552192841440465b33d2c04c77e38c6e136",
+      "storedBytes": 12777,
+      "storedSha256": "7e944ef79e8b8eee5908565513715552192841440465b33d2c04c77e38c6e136"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/test_he4_ylab_binning.log",
+      "path": "campaign/test_he4_ylab_binning.log",
+      "sourceBytes": 1818,
+      "sourceSha256": "b7d7ba052efc6ea15c11048a8449953c8cdacb0b8c926d5f939194c3f340bac8",
+      "storedBytes": 1818,
+      "storedSha256": "b7d7ba052efc6ea15c11048a8449953c8cdacb0b8c926d5f939194c3f340bac8"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/test_he4_ylab_binning_v2.log",
+      "path": "campaign/test_he4_ylab_binning_v2.log",
+      "sourceBytes": 7103,
+      "sourceSha256": "559eaa1bc7f53ebff9ea52b1210f53e29bcc4f7d7d02814dcd7b9a2b37c5687e",
+      "storedBytes": 7103,
+      "storedSha256": "559eaa1bc7f53ebff9ea52b1210f53e29bcc4f7d7d02814dcd7b9a2b37c5687e"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/tmux_started.json",
+      "path": "campaign/tmux_started.json",
+      "sourceBytes": 688,
+      "sourceSha256": "505c20266027d0d1f193d1e08ecb947f0fa6c7b0a86fdfdec9496b2ccd69f1ac",
+      "storedBytes": 688,
+      "storedSha256": "505c20266027d0d1f193d1e08ecb947f0fa6c7b0a86fdfdec9496b2ccd69f1ac"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/tmux_started_v2.json",
+      "path": "campaign/tmux_started_v2.json",
+      "sourceBytes": 335,
+      "sourceSha256": "2afaae9aa79915eed3fa654ec31a2243427491de02afffc7e318c31aba2dadc6",
+      "storedBytes": 335,
+      "storedSha256": "2afaae9aa79915eed3fa654ec31a2243427491de02afffc7e318c31aba2dadc6"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/verify_source_preservation.py",
+      "path": "campaign/verify_source_preservation.py",
+      "sourceBytes": 5068,
+      "sourceSha256": "a491338a4a80fc4e253524c7dd1779ea1a83ed36ba21ba7fbd820a716f11dcd6",
+      "storedBytes": 5068,
+      "storedSha256": "a491338a4a80fc4e253524c7dd1779ea1a83ed36ba21ba7fbd820a716f11dcd6"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/watch_he4_y.py",
+      "path": "campaign/watch_he4_y.py",
+      "sourceBytes": 10561,
+      "sourceSha256": "96bdb4e32af71672a3e6c2e5bb52fc6bc7a9cb7934786e1c0204bff9e4f6eeb4",
+      "storedBytes": 10561,
+      "storedSha256": "96bdb4e32af71672a3e6c2e5bb52fc6bc7a9cb7934786e1c0204bff9e4f6eeb4"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/watch_validate_settings_001.json",
+      "path": "campaign/watch_validate_settings_001.json",
+      "sourceBytes": 12528,
+      "sourceSha256": "29b9f7cc16c49f12101a2453489371d00e479236cb86d2a2168ee614962c9fad",
+      "storedBytes": 12528,
+      "storedSha256": "29b9f7cc16c49f12101a2453489371d00e479236cb86d2a2168ee614962c9fad"
+    }
+  ]
+}

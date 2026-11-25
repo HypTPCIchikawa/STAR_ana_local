@@ -1,0 +1,531 @@
+{
+  "passed": true,
+  "checkedAtUtc": "2026-11-20T15:30:14.523099+00:00",
+  "sourceManifest": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/source_before_manifest.json",
+  "sourceManifestSha256": "7cedf9a6115c90b9c4eb2bc00fba5d48971fe090e1f04c5c75f4a9e8f0084c9e",
+  "baselineFilesChecked": 38,
+  "allowedChanged": [
+    {
+      "path": "Makefile",
+      "beforeSha256": "15450af02375a1adf9e1cf58c8e0018685094cf6748acac4f218b6a28b36f8bf",
+      "currentSha256": "a95136a43184825f9e98d8d532ed0f526a7d2efbfa1dd3415f44101f64d36130",
+      "snapshotSha256": "15450af02375a1adf9e1cf58c8e0018685094cf6748acac4f218b6a28b36f8bf",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "StMaker/StFemtoMaker/README.md",
+      "beforeSha256": "d0a29dce25f474018f25d814b74101afa6b3816b49096f0e7cc8caeaa639d4d6",
+      "currentSha256": "0d28aa4479f4a55da6da7914e23d4c3c01099ad6fdc2d57b03b9cc0404fab56d",
+      "snapshotSha256": "d0a29dce25f474018f25d814b74101afa6b3816b49096f0e7cc8caeaa639d4d6",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "StMaker/StFemtoMaker/StFemtoMaker.cxx",
+      "beforeSha256": "a40346f8b8f9794aaa5a4484d8e82f49c3d7e5bad42e1b787ca2360ec7f981a3",
+      "currentSha256": "9fa9f73637c586a692a48bf110fb8b392938574dc66037b1083907a599c3f3e5",
+      "snapshotSha256": "a40346f8b8f9794aaa5a4484d8e82f49c3d7e5bad42e1b787ca2360ec7f981a3",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "StMaker/StFemtoMaker/StFemtoMaker.h",
+      "beforeSha256": "ba356dfb92a61c7f77451a60072f4f3691bf09a2a6db47dfbeeb802b73a8f3bb",
+      "currentSha256": "5e4bec11c498cc39fc684c9d3eacea5e35cae503a3812155a45570dffcb81e1e",
+      "snapshotSha256": "ba356dfb92a61c7f77451a60072f4f3691bf09a2a6db47dfbeeb802b73a8f3bb",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "StMaker/common/FemtoLambdaLegacy.cxx",
+      "beforeSha256": "48a6dd8df1875153345080ee514e4b4cd242d0b93d827be79daa527d95e62bd2",
+      "currentSha256": "5a701233f5722749e9f090f8c605ee16c688956f067c2d7f0f02103b46f2dce3",
+      "snapshotSha256": "48a6dd8df1875153345080ee514e4b4cd242d0b93d827be79daa527d95e62bd2",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "StMaker/common/FemtoLambdaLegacy.h",
+      "beforeSha256": "b5f46be866de0446a60bba30c8a98a9ec65f566560b92b4b0ec60fcce0c0dc80",
+      "currentSha256": "5e67ef4434a4d994b27e5d01b591677f640bccc5d06dcf167755cc99254c1a93",
+      "snapshotSha256": "b5f46be866de0446a60bba30c8a98a9ec65f566560b92b4b0ec60fcce0c0dc80",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "include/FemtoEpdEventPlane.h",
+      "beforeSha256": "6851e40577a23591a642ad431566d894a060c1e83fbec79ee5feb7fe2bf6f06f",
+      "currentSha256": "17133c212b02346a83c4915d24cdada179981d85c5bd3f1d043153c2677ef122",
+      "snapshotSha256": "6851e40577a23591a642ad431566d894a060c1e83fbec79ee5feb7fe2bf6f06f",
+      "originalTrackedChange": false
+    }
+  ],
+  "unchanged": [
+    {
+      "path": "StMaker/common/FemtoEpdEventPlane.cxx",
+      "beforeSha256": "d389144e320cec1b6246910f782e2124760936e7fe53fc512116e808ab0e9d03",
+      "currentSha256": "d389144e320cec1b6246910f782e2124760936e7fe53fc512116e808ab0e9d03",
+      "snapshotSha256": "d389144e320cec1b6246910f782e2124760936e7fe53fc512116e808ab0e9d03",
+      "originalTrackedChange": false
+    },
+    {
+      "path": "analysis/anaFemtoLambda_4He_tree.C",
+      "beforeSha256": "a704670e0b35f75ad441ec5b9b5f5457845a11b68f12f48e62e3bec8a182f93b",
+      "currentSha256": "a704670e0b35f75ad441ec5b9b5f5457845a11b68f12f48e62e3bec8a182f93b",
+      "snapshotSha256": "a704670e0b35f75ad441ec5b9b5f5457845a11b68f12f48e62e3bec8a182f93b",
+      "originalTrackedChange": false
+    },
+    {
+      "path": "analysis/run_anaFemtoLambda_4He_tree.C",
+      "beforeSha256": "61005aa499bda2d7102e0cf4b139f2b6262223b16b612acb663c05e616484d66",
+      "currentSha256": "61005aa499bda2d7102e0cf4b139f2b6262223b16b612acb663c05e616484d66",
+      "snapshotSha256": "61005aa499bda2d7102e0cf4b139f2b6262223b16b612acb663c05e616484d66",
+      "originalTrackedChange": false
+    },
+    {
+      "path": "common/macro/checkHistAnaFemtoLambda.C",
+      "beforeSha256": "27b23231412546192f1998bd42efe316d04075d4de09b76dcc2a6149e19e5dea",
+      "currentSha256": "27b23231412546192f1998bd42efe316d04075d4de09b76dcc2a6149e19e5dea",
+      "snapshotSha256": "27b23231412546192f1998bd42efe316d04075d4de09b76dcc2a6149e19e5dea",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "config/cuts/mixing/mixing_femtoLambda_epd8_pool100.yaml",
+      "beforeSha256": "cbd844f023548aa3988fc022d9d7d6a9dfae87645f4f210fff2b0b0ff2f7c385",
+      "currentSha256": "cbd844f023548aa3988fc022d9d7d6a9dfae87645f4f210fff2b0b0ff2f7c385",
+      "snapshotSha256": "cbd844f023548aa3988fc022d9d7d6a9dfae87645f4f210fff2b0b0ff2f7c385",
+      "originalTrackedChange": false
+    },
+    {
+      "path": "config/event_plane/lambda_he4_xialei_epd8.yaml",
+      "beforeSha256": "ccc0a0868f0fb40d0d75c622a2e133392a5b591458c2336f11ec7d813e58d64d",
+      "currentSha256": "ccc0a0868f0fb40d0d75c622a2e133392a5b591458c2336f11ec7d813e58d64d",
+      "snapshotSha256": "ccc0a0868f0fb40d0d75c622a2e133392a5b591458c2336f11ec7d813e58d64d",
+      "originalTrackedChange": false
+    },
+    {
+      "path": "config/hist/hist_auau3p85_femtoLambda_he4_he3_control_epdPairY10YLabMerging20261113_nuclear.yaml",
+      "beforeSha256": "0272779ba55203d1e90a77ede46d88123b811085c728270aed9d9263a7864102",
+      "currentSha256": "0272779ba55203d1e90a77ede46d88123b811085c728270aed9d9263a7864102",
+      "snapshotSha256": "0272779ba55203d1e90a77ede46d88123b811085c728270aed9d9263a7864102",
+      "originalTrackedChange": false
+    },
+    {
+      "path": "config/hist/hist_auau3p85_femtoLambda_tree_replay_kf.yaml",
+      "beforeSha256": "909d65bf358185ad481257022c4eb8b0ef3919f8ccf110474c86fd57ba20668e",
+      "currentSha256": "909d65bf358185ad481257022c4eb8b0ef3919f8ccf110474c86fd57ba20668e",
+      "snapshotSha256": "909d65bf358185ad481257022c4eb8b0ef3919f8ccf110474c86fd57ba20668e",
+      "originalTrackedChange": false
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_3He_KFParticle_highpurity.yaml",
+      "beforeSha256": "54f3e66d877deec1af5d4b4fd08b72ced8da9990c1f8bda1227a8efd5480fd40",
+      "currentSha256": "54f3e66d877deec1af5d4b4fd08b72ced8da9990c1f8bda1227a8efd5480fd40",
+      "snapshotSha256": "54f3e66d877deec1af5d4b4fd08b72ced8da9990c1f8bda1227a8efd5480fd40",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_highpurity.yaml",
+      "beforeSha256": "2ae9496c9d46ac606474c29a0db2b174a987b41675d5a709943d6f136c73dec5",
+      "currentSha256": "2ae9496c9d46ac606474c29a0db2b174a987b41675d5a709943d6f136c73dec5",
+      "snapshotSha256": "2ae9496c9d46ac606474c29a0db2b174a987b41675d5a709943d6f136c73dec5",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_periodMix100.yaml",
+      "beforeSha256": "f8f8736ee6bbda263cca71ceb8e74f9622b3acf16b610f085eba5c2cce71daec",
+      "currentSha256": "f8f8736ee6bbda263cca71ceb8e74f9622b3acf16b610f085eba5c2cce71daec",
+      "snapshotSha256": "f8f8736ee6bbda263cca71ceb8e74f9622b3acf16b610f085eba5c2cce71daec",
+      "originalTrackedChange": false
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_d_KFParticle_highpurity.yaml",
+      "beforeSha256": "62ddbc22dbde9ac753cd9561ac48807a9212c8496de11f6232a19ccbd9234feb",
+      "currentSha256": "62ddbc22dbde9ac753cd9561ac48807a9212c8496de11f6232a19ccbd9234feb",
+      "snapshotSha256": "62ddbc22dbde9ac753cd9561ac48807a9212c8496de11f6232a19ccbd9234feb",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_t_KFParticle_highpurity.yaml",
+      "beforeSha256": "874edbfa51944dc284637901d92352731219e8a6b810c399ae3b39a1918ec78b",
+      "currentSha256": "874edbfa51944dc284637901d92352731219e8a6b810c399ae3b39a1918ec78b",
+      "snapshotSha256": "874edbfa51944dc284637901d92352731219e8a6b810c399ae3b39a1918ec78b",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "config/maker/maker_anaFemtoLambda_3He_KFParticle.yaml",
+      "beforeSha256": "1389551a9088a17717c9f122c8389afcbe5776c08811458d2ac7d6a05fb31476",
+      "currentSha256": "1389551a9088a17717c9f122c8389afcbe5776c08811458d2ac7d6a05fb31476",
+      "snapshotSha256": "1389551a9088a17717c9f122c8389afcbe5776c08811458d2ac7d6a05fb31476",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "config/maker/maker_anaFemtoLambda_4He_KFParticle.yaml",
+      "beforeSha256": "3a75316ea60ba0daa00ad5c75d9ef557815e490908f618211be48e68198abcbe",
+      "currentSha256": "3a75316ea60ba0daa00ad5c75d9ef557815e490908f618211be48e68198abcbe",
+      "snapshotSha256": "3a75316ea60ba0daa00ad5c75d9ef557815e490908f618211be48e68198abcbe",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "config/maker/maker_anaFemtoLambda_d_KFParticle.yaml",
+      "beforeSha256": "1fcaa0512c527e8c564d68b92bba1675aee6dcf986593995a929feeb0eb5df6d",
+      "currentSha256": "1fcaa0512c527e8c564d68b92bba1675aee6dcf986593995a929feeb0eb5df6d",
+      "snapshotSha256": "1fcaa0512c527e8c564d68b92bba1675aee6dcf986593995a929feeb0eb5df6d",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "config/maker/maker_anaFemtoLambda_t_KFParticle.yaml",
+      "beforeSha256": "7e8fa7de5d36cbba4760ea5288a32e4b97aed17e8b77a50c555359eea3e77044",
+      "currentSha256": "7e8fa7de5d36cbba4760ea5288a32e4b97aed17e8b77a50c555359eea3e77044",
+      "snapshotSha256": "7e8fa7de5d36cbba4760ea5288a32e4b97aed17e8b77a50c555359eea3e77044",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "config/maker/maker_auau3p85_anaFemtoLambda_4He_KFParticle_epdPairY10YLabMerging20261113.yaml",
+      "beforeSha256": "6953c7cb6a6a6926bd0f0058d93edb1f2ec0958c6dbd174435d09ce2767b242f",
+      "currentSha256": "6953c7cb6a6a6926bd0f0058d93edb1f2ec0958c6dbd174435d09ce2767b242f",
+      "snapshotSha256": "6953c7cb6a6a6926bd0f0058d93edb1f2ec0958c6dbd174435d09ce2767b242f",
+      "originalTrackedChange": false
+    },
+    {
+      "path": "config/maker/maker_auau3p85_anaFemtoLambda_4He_KFParticle_he3Control.yaml",
+      "beforeSha256": "55c89dc699f97b0fb574cc3bdf6ecc6a3d27f5faffa019d9269ca04ac47faaf2",
+      "currentSha256": "55c89dc699f97b0fb574cc3bdf6ecc6a3d27f5faffa019d9269ca04ac47faaf2",
+      "snapshotSha256": "55c89dc699f97b0fb574cc3bdf6ecc6a3d27f5faffa019d9269ca04ac47faaf2",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "docs/REFERENCE.md",
+      "beforeSha256": "d9eb317f3a740d65efc807ff3c93345b58fef3b3743c5167dedb709b04bc9ce1",
+      "currentSha256": "d9eb317f3a740d65efc807ff3c93345b58fef3b3743c5167dedb709b04bc9ce1",
+      "snapshotSha256": "d9eb317f3a740d65efc807ff3c93345b58fef3b3743c5167dedb709b04bc9ce1",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "include/FemtoCandidate.h",
+      "beforeSha256": "412cf340d867fc00cad077ad29a0d0cf263ba615438c755ae9475aca4e19169f",
+      "currentSha256": "412cf340d867fc00cad077ad29a0d0cf263ba615438c755ae9475aca4e19169f",
+      "snapshotSha256": "412cf340d867fc00cad077ad29a0d0cf263ba615438c755ae9475aca4e19169f",
+      "originalTrackedChange": false
+    },
+    {
+      "path": "include/FemtoCandidateEventStoreConfig.h",
+      "beforeSha256": "27b9eff05cbcc4b8bc59d77c68fb7612e3cd44858b5ced2dfac5f1b26e304f4b",
+      "currentSha256": "27b9eff05cbcc4b8bc59d77c68fb7612e3cd44858b5ced2dfac5f1b26e304f4b",
+      "snapshotSha256": "27b9eff05cbcc4b8bc59d77c68fb7612e3cd44858b5ced2dfac5f1b26e304f4b",
+      "originalTrackedChange": false
+    },
+    {
+      "path": "include/FemtoLambdaReducedTree.h",
+      "beforeSha256": "a7b5c2a2332cf555ff4a5342bc8809f9a9bb77ac01f12df7026056ce19d31702",
+      "currentSha256": "a7b5c2a2332cf555ff4a5342bc8809f9a9bb77ac01f12df7026056ce19d31702",
+      "snapshotSha256": "a7b5c2a2332cf555ff4a5342bc8809f9a9bb77ac01f12df7026056ce19d31702",
+      "originalTrackedChange": false
+    },
+    {
+      "path": "include/FemtoLambdaReducedTreeConfig.h",
+      "beforeSha256": "6fe1d04d05a543407cc66f60e2eecbe4fa90a5ad367cde47f9daa16c875029cc",
+      "currentSha256": "6fe1d04d05a543407cc66f60e2eecbe4fa90a5ad367cde47f9daa16c875029cc",
+      "snapshotSha256": "6fe1d04d05a543407cc66f60e2eecbe4fa90a5ad367cde47f9daa16c875029cc",
+      "originalTrackedChange": false
+    },
+    {
+      "path": "include/FemtoLambdaTreeLinkDef.h",
+      "beforeSha256": "e0dbf2fc6e95b8c56d3867aafaa5e623b79bf4a148217a12122ca197c27f00b5",
+      "currentSha256": "e0dbf2fc6e95b8c56d3867aafaa5e623b79bf4a148217a12122ca197c27f00b5",
+      "snapshotSha256": "e0dbf2fc6e95b8c56d3867aafaa5e623b79bf4a148217a12122ca197c27f00b5",
+      "originalTrackedChange": false
+    },
+    {
+      "path": "job/run/README.md",
+      "beforeSha256": "365919e374b9a2b7e481aa5ee368a4869a61760a511ec83bc26b5c9a9fbe20c7",
+      "currentSha256": "365919e374b9a2b7e481aa5ee368a4869a61760a511ec83bc26b5c9a9fbe20c7",
+      "snapshotSha256": "365919e374b9a2b7e481aa5ee368a4869a61760a511ec83bc26b5c9a9fbe20c7",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "tools/auau3p85GeV/Draw_LambdaInvMass.C",
+      "beforeSha256": "8e2138b441e38450c77d189da4e3b510b42858a4bb27a40f3eb847340630ae21",
+      "currentSha256": "8e2138b441e38450c77d189da4e3b510b42858a4bb27a40f3eb847340630ae21",
+      "snapshotSha256": "8e2138b441e38450c77d189da4e3b510b42858a4bb27a40f3eb847340630ae21",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "tools/auau3p85GeV/check_Lambda_SN.C",
+      "beforeSha256": "ef072df11ea6b9a80f3f9489299af4ac5d778ff5fe0572a575e2f094da73962f",
+      "currentSha256": "ef072df11ea6b9a80f3f9489299af4ac5d778ff5fe0572a575e2f094da73962f",
+      "snapshotSha256": "ef072df11ea6b9a80f3f9489299af4ac5d778ff5fe0572a575e2f094da73962f",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "tools/auau3p85GeV/draw_LambdaNuclearId_relamom_sum_CFsub.C",
+      "beforeSha256": "d8e326348c650c2cd7eff316ca6c27ab36c9054e0f5432e0d0114cb5f0c183ce",
+      "currentSha256": "d8e326348c650c2cd7eff316ca6c27ab36c9054e0f5432e0d0114cb5f0c183ce",
+      "snapshotSha256": "d8e326348c650c2cd7eff316ca6c27ab36c9054e0f5432e0d0114cb5f0c183ce",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "tools/auau3p85GeV/draw_LambdaNuclearId_relamom_sum_CFsub_method5.C",
+      "beforeSha256": "5d55c7bcbb5ab080abe07fd9c02a906b01edbc6823e7896cbd72872749bada2e",
+      "currentSha256": "5d55c7bcbb5ab080abe07fd9c02a906b01edbc6823e7896cbd72872749bada2e",
+      "snapshotSha256": "5d55c7bcbb5ab080abe07fd9c02a906b01edbc6823e7896cbd72872749bada2e",
+      "originalTrackedChange": true
+    },
+    {
+      "path": "tools/draw_LambdaNuclearId_relamom_sum_CFsub_method5.C",
+      "beforeSha256": "e1eebfe451d08c08921554936b6b913a2d7016f20b69ab0b827ec5a76038db64",
+      "currentSha256": "e1eebfe451d08c08921554936b6b913a2d7016f20b69ab0b827ec5a76038db64",
+      "snapshotSha256": "e1eebfe451d08c08921554936b6b913a2d7016f20b69ab0b827ec5a76038db64",
+      "originalTrackedChange": true
+    }
+  ],
+  "unexpected": [],
+  "expectedNewFilesObserved": [
+    {
+      "path": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100.yaml",
+      "exists": true,
+      "sha256": "40a08bc1e8ee5794890ba2a7d2ac7b565bfba24b24b447531de69b31430b2e2c"
+    },
+    {
+      "path": "config/maker/maker_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100.yaml",
+      "exists": true,
+      "sha256": "2215e20edfbed30e76efa34153174a7d96557a9533180f59a932cbbb0aa6b548"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100_kf.yaml",
+      "exists": true,
+      "sha256": "ffb9dfb9c9fbe8530ab3560ed31f76ece3318b8c229f69b30784f4fe35f480df"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100_nuclear.yaml",
+      "exists": true,
+      "sha256": "e64c1f1c2e890fa5df982e536d6e99f33c8b08747ff9322fefea7b8553121327"
+    },
+    {
+      "path": "config/cuts/mixing/mixing_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100.yaml",
+      "exists": true,
+      "sha256": "0c3767bcd8092fa7b6c556d08e87d5e76f539b79089561a0d1cc6ee12c10c57f"
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100.yaml",
+      "exists": true,
+      "sha256": "01f29b7fd5eeed2c55bf4429b051c4ad3fe59c7dddc70175cf9565f16b055e2f"
+    },
+    {
+      "path": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100.yaml",
+      "exists": true,
+      "sha256": "11afb670fc015282af3eea7589766d843deee10d36fc183d5e967e35751aaea2"
+    },
+    {
+      "path": "config/maker/maker_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100.yaml",
+      "exists": true,
+      "sha256": "b6f6fe652217c8c15e6c9bca022d70de139eda07da7772ac37b162dbf682d045"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100_kf.yaml",
+      "exists": true,
+      "sha256": "ffb9dfb9c9fbe8530ab3560ed31f76ece3318b8c229f69b30784f4fe35f480df"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100_nuclear.yaml",
+      "exists": true,
+      "sha256": "e64c1f1c2e890fa5df982e536d6e99f33c8b08747ff9322fefea7b8553121327"
+    },
+    {
+      "path": "config/cuts/mixing/mixing_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100.yaml",
+      "exists": true,
+      "sha256": "0c3767bcd8092fa7b6c556d08e87d5e76f539b79089561a0d1cc6ee12c10c57f"
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100.yaml",
+      "exists": true,
+      "sha256": "c500e2f2835ed2fdf49a9b5440dd8389bd630bbaca446fcc56a4441debd3ce26"
+    },
+    {
+      "path": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOff_mix100.yaml",
+      "exists": true,
+      "sha256": "e701cb20b1d5f593361974c351c10464342151d433f8bb07db3019d70c0f54bd"
+    },
+    {
+      "path": "config/maker/maker_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOff_mix100.yaml",
+      "exists": true,
+      "sha256": "2215e20edfbed30e76efa34153174a7d96557a9533180f59a932cbbb0aa6b548"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOff_mix100_kf.yaml",
+      "exists": true,
+      "sha256": "f54bc737366be39d0fb08b0f36e6b1d595fdf0e1a2cabe7830ffb0efd50da624"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOff_mix100_nuclear.yaml",
+      "exists": true,
+      "sha256": "e64c1f1c2e890fa5df982e536d6e99f33c8b08747ff9322fefea7b8553121327"
+    },
+    {
+      "path": "config/cuts/mixing/mixing_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOff_mix100.yaml",
+      "exists": true,
+      "sha256": "e96b3c321b40b936b6e9dc63336393f208b1b9c5d273886e12e7c9b7db3a453d"
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOff_mix100.yaml",
+      "exists": true,
+      "sha256": "15a34fe85cc6f15ca33da55918653a1bd474d2a5f16e02001229b2ddd7dfb135"
+    },
+    {
+      "path": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOn_mix100.yaml",
+      "exists": true,
+      "sha256": "6db6bff5691affdbdaff80c232a9a7105a01e0af7996926107916f2fa7191fa5"
+    },
+    {
+      "path": "config/maker/maker_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOn_mix100.yaml",
+      "exists": true,
+      "sha256": "b6f6fe652217c8c15e6c9bca022d70de139eda07da7772ac37b162dbf682d045"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOn_mix100_kf.yaml",
+      "exists": true,
+      "sha256": "f54bc737366be39d0fb08b0f36e6b1d595fdf0e1a2cabe7830ffb0efd50da624"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOn_mix100_nuclear.yaml",
+      "exists": true,
+      "sha256": "e64c1f1c2e890fa5df982e536d6e99f33c8b08747ff9322fefea7b8553121327"
+    },
+    {
+      "path": "config/cuts/mixing/mixing_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOn_mix100.yaml",
+      "exists": true,
+      "sha256": "e96b3c321b40b936b6e9dc63336393f208b1b9c5d273886e12e7c9b7db3a453d"
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOn_mix100.yaml",
+      "exists": true,
+      "sha256": "b8eb1e423117c27bb537d92c9d2899bff41c83e6285ddca515be9c7d95bab1ba"
+    },
+    {
+      "path": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100.yaml",
+      "exists": true,
+      "sha256": "db5641e59f56db99c98ff754c5fceb86a80c4f7fa7c2644adf185941bd8632f0"
+    },
+    {
+      "path": "config/maker/maker_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100.yaml",
+      "exists": true,
+      "sha256": "2215e20edfbed30e76efa34153174a7d96557a9533180f59a932cbbb0aa6b548"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100_kf.yaml",
+      "exists": true,
+      "sha256": "6b8e12376fbf94acc9c1e90d52b3948f4522e964af34bcf332eb4b8f31262808"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100_nuclear.yaml",
+      "exists": true,
+      "sha256": "e64c1f1c2e890fa5df982e536d6e99f33c8b08747ff9322fefea7b8553121327"
+    },
+    {
+      "path": "config/cuts/mixing/mixing_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100.yaml",
+      "exists": true,
+      "sha256": "ef5cef4886b5dc9325a8ed07dbdc0f9be6abb092833158d52ebea8362786cf4f"
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100.yaml",
+      "exists": true,
+      "sha256": "9128fddf3d358f4676e119e6959715079bf92827246b08ed9b4a870535f7d65e"
+    },
+    {
+      "path": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100.yaml",
+      "exists": true,
+      "sha256": "f7b4f98c62d143b0c8f1e6097069b4b9125da0c341240e043299d7c9d39ce52b"
+    },
+    {
+      "path": "config/maker/maker_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100.yaml",
+      "exists": true,
+      "sha256": "b6f6fe652217c8c15e6c9bca022d70de139eda07da7772ac37b162dbf682d045"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100_kf.yaml",
+      "exists": true,
+      "sha256": "6b8e12376fbf94acc9c1e90d52b3948f4522e964af34bcf332eb4b8f31262808"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100_nuclear.yaml",
+      "exists": true,
+      "sha256": "e64c1f1c2e890fa5df982e536d6e99f33c8b08747ff9322fefea7b8553121327"
+    },
+    {
+      "path": "config/cuts/mixing/mixing_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100.yaml",
+      "exists": true,
+      "sha256": "ef5cef4886b5dc9325a8ed07dbdc0f9be6abb092833158d52ebea8362786cf4f"
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100.yaml",
+      "exists": true,
+      "sha256": "f06a2a2dc4b19d8b6f52fc783d64f09e3c99c92e00a4c9b95296b1d3d3252db8"
+    },
+    {
+      "path": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOff_mix100.yaml",
+      "exists": true,
+      "sha256": "dd453f824d4c5ac3598d5be1057d44c0268f7cdc803f99e90899eae74d51a5a6"
+    },
+    {
+      "path": "config/maker/maker_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOff_mix100.yaml",
+      "exists": true,
+      "sha256": "2215e20edfbed30e76efa34153174a7d96557a9533180f59a932cbbb0aa6b548"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOff_mix100_kf.yaml",
+      "exists": true,
+      "sha256": "7bdd0c37b8dc83a619453e113b2b3d67aa4d483b960be5b08c7bff8550eb8930"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOff_mix100_nuclear.yaml",
+      "exists": true,
+      "sha256": "e64c1f1c2e890fa5df982e536d6e99f33c8b08747ff9322fefea7b8553121327"
+    },
+    {
+      "path": "config/cuts/mixing/mixing_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOff_mix100.yaml",
+      "exists": true,
+      "sha256": "fbe1eae90b67bde90351823920b071aacd1c0bdba5d9308d0a82e78a96412907"
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOff_mix100.yaml",
+      "exists": true,
+      "sha256": "59f0985d0784de9024c1330ccf79c1f047cb6d199d83d9597224f9b2153d3b2e"
+    },
+    {
+      "path": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOn_mix100.yaml",
+      "exists": true,
+      "sha256": "df6bbea193f9e780b1cbadb55911d0f07379adf61cec539401d676885fb0a789"
+    },
+    {
+      "path": "config/maker/maker_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOn_mix100.yaml",
+      "exists": true,
+      "sha256": "b6f6fe652217c8c15e6c9bca022d70de139eda07da7772ac37b162dbf682d045"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOn_mix100_kf.yaml",
+      "exists": true,
+      "sha256": "7bdd0c37b8dc83a619453e113b2b3d67aa4d483b960be5b08c7bff8550eb8930"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOn_mix100_nuclear.yaml",
+      "exists": true,
+      "sha256": "e64c1f1c2e890fa5df982e536d6e99f33c8b08747ff9322fefea7b8553121327"
+    },
+    {
+      "path": "config/cuts/mixing/mixing_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOn_mix100.yaml",
+      "exists": true,
+      "sha256": "fbe1eae90b67bde90351823920b071aacd1c0bdba5d9308d0a82e78a96412907"
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOn_mix100.yaml",
+      "exists": true,
+      "sha256": "b4ea1504af05cc44df9ffaa2e149e4e0404eee4f6baa29897cbb688cec3afa32"
+    },
+    {
+      "path": "include/FemtoLambdaPairGeometry.h",
+      "exists": true,
+      "sha256": "b9d92c6980bb6bfe917abc8fd41d138e4d23eaff72a3437d20cb2bf47fd6a824"
+    },
+    {
+      "path": "tests/test_femto_lambda_pair_geometry.C",
+      "exists": true,
+      "sha256": "081ab418c6c654fa66c7a4c7c7938d8615679d23276c432f2653932d7d2be008"
+    }
+  ],
+  "scope": "All existing files in the initial source_before_manifest are compared by SHA256. Every preserved source snapshot is also verified. New case configurations and pair-geometry/test additions are listed separately; source files are never edited."
+}

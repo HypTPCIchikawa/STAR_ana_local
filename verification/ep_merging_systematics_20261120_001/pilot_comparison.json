@@ -1,0 +1,112 @@
+{
+  "passed": true,
+  "createdUtc": "2026-11-20T15:30:20.729326+00:00",
+  "pilotCases": 8,
+  "numericalEpTest": {
+    "passed": true,
+    "log": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/test_ep_bins.log",
+      "bytes": 1046,
+      "mtimeNs": 1795184589971844557,
+      "sha256": "280c0826e0c558404865e5424407daa1cc4c3137993298b1ac0eb8c1e88baec9"
+    },
+    "coverage": "N=1/8/16/32, invalid values, exact Float_t hierarchy, all32 boundaries with nextafter, 20000-point deterministic grid; existing original assertions retained."
+  },
+  "storedEventsPerCase": 400000,
+  "maximumConcurrentProcesses": 4,
+  "runtimeSourceConfigLibrariesUnchanged": true,
+  "noRootJobsRerunForDriverRecovery": true,
+  "allOldEp8OffHistogramsExact": {
+    "allOldHistogramsExact": true,
+    "histograms": 1311,
+    "nonempty": 1062,
+    "flowInclusiveBins": 46692476
+  },
+  "crossEpSameCutSE": {
+    "exact": true,
+    "histogramsPerCutSummed": 1174,
+    "flowInclusiveBinComparisons": 80722836
+  },
+  "sameFullScalarLedgerAcrossEightCasesAndOldBaseline": true,
+  "segmentStartEvents": [
+    1,
+    182434,
+    357248
+  ],
+  "epdEventsSeen": 400000,
+  "epdEventsValid": 289602,
+  "epdEventsRejected": 110398,
+  "allEightPlaneClosureAndCanonicalPoolHierarchy": true,
+  "cutAccountingChecks": 89446947,
+  "realPilotNonemptySignalRejectionSE": false,
+  "realPilotNonemptySignalRejectionME": true,
+  "syntheticActualLegacyNonemptySEAndBothMEDirections": true,
+  "unreachablePolicy": "keep",
+  "notes": [
+    "The 400k real-data SE signal has zero strict-box rejections; this is permitted. Actual-Legacy synthetic integration separately exercises nonempty SE and both ME directions.",
+    "Previous chat-summary 100116 is unsubstantiated by prior study JSON/log. Previous chat-summary 607 was the number of compared SE histograms, not SE pair entries. Direct old/new full He4 SE=560 ME=116183, signal SE=256 ME=51337.",
+    "The pilot-driver harvest race affected final bookkeeping only; completed output/log/time files were recovered without replay. Driver before/after hashes are recorded; runtime physics code/config/libs are unchanged."
+  ],
+  "reports": {
+    "pilot_matrix_results.json": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilot_matrix_results.json",
+      "bytes": 17329,
+      "mtimeNs": 1795187651189744691,
+      "sha256": "c188045f914e52c29b081ade116ff7007685297a0c96247fa8f75efbfd283ee3"
+    },
+    "pilot_recovery.json": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilot_recovery.json",
+      "bytes": 704,
+      "mtimeNs": 1795187651198957000,
+      "sha256": "2f9a2888ddcad61283df3e3f2459f4ac0a406101e130dd52b8deced674b4fcca"
+    },
+    "pilot_ep_comparison.json": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilot_ep_comparison.json",
+      "bytes": 2379,
+      "mtimeNs": 1795187893477988031,
+      "sha256": "bbc57cda119f3b4d511b509b8330ffff9986458547394a68342e622f87a52283"
+    },
+    "pilot_merging_accounting.json": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilot_merging_accounting.json",
+      "bytes": 7983,
+      "mtimeNs": 1795187709432245912,
+      "sha256": "19d5187c53e1b6244d2d227aeec0df40fd7b07f966c2091f2192b07c42d3f164"
+    },
+    "test_actual_lambda_merging_paircut_result.json": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/test_actual_lambda_merging_paircut_result.json",
+      "bytes": 3866,
+      "mtimeNs": 1795185944515372000,
+      "sha256": "046fc3f693fd712964e4f244a32c199886596bd9b26a2e48836d5d3758e1eb31"
+    },
+    "pilot_baseline_counts.json": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilot_baseline_counts.json",
+      "bytes": 906,
+      "mtimeNs": 1795188088932011000,
+      "sha256": "e0770837267136b9d45deb9f1ce7517e7550acb57373d7ad52d76c71d88f8f4b"
+    },
+    "config_validation.json": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/config_validation.json",
+      "bytes": 369,
+      "mtimeNs": 1795183833625698495,
+      "sha256": "15909486ca42f373a869d38ccbff4cdbab952ad4dfb15dd6a10842951c828a23"
+    }
+  },
+  "finalPins": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilot_final_pins.json",
+    "bytes": 45894,
+    "mtimeNs": 1795188620734198000,
+    "sha256": "ff8db023a5aab1259410c4bf4115ffe2dd8043d79458bca9d3051690db78597f"
+  },
+  "resources": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/resource.json",
+    "bytes": 23731,
+    "mtimeNs": 1795187651196816000,
+    "sha256": "ee0c1f28a2f422f743eb3ecf51897c325672614a93922edd0adb06622f8cef70"
+  },
+  "resourceProjection": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilot_resource_projection.json",
+    "bytes": 3455,
+    "mtimeNs": 1795188620740209000,
+    "sha256": "057e1c8adec85a9230a35af225376b8c5a9adcf8e76ce795c1a1364ad6b4ac74"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "completed": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/completed.json",
+    "bytes": 4756,
+    "device": 48,
+    "inode": 944554269,
+    "mtimeNs": 1795351855144637000,
+    "sha256": "94334a2ac0a6b1297ac7eb6868b7be9c7029025b26b3d8348b9aeba848f6b7b4"
+  },
+  "metrics": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y_cf_metrics.json",
+    "bytes": 4904057,
+    "device": 48,
+    "inode": 944554220,
+    "mtimeNs": 1795351844315082061,
+    "sha256": "551d200b6776119e98633d8223f4dd175c397a6360a119060c1b5a15e7b74961"
+  }
+}

@@ -1,0 +1,11 @@
+# A process handles one period; original producer boundaries retain the pool.
+mode: replay
+speciesKeys:
+- lambda
+- he3
+- he4
+resetPoolAtSegmentBoundary: false
+requireOriginalMixing: false
+compressionLevel: 6
+autoFlush: -30000000
+storePrePidControl: false

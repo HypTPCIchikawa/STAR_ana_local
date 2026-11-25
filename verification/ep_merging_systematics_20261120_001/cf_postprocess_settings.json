@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "normalizationGeVc": [0.4, 0.5],
+  "normalizationInterval": "half-open [low, high)",
+  "displayRebin": 4,
+  "displayKGeVc": [0.0, 1.0],
+  "displayCFRange": [0.0, 2.0],
+  "highKWindowsGeVc": {"k060_100": [0.6, 1.0], "k100_150": [1.0, 1.5]},
+  "centralities": [
+    {"id": "inclusive_cent9_0_8", "label": "all accepted cent9 0-8", "cent9": [0, 8]},
+    {"id": "c00_60", "label": "0-60%", "cent9": [2, 8]},
+    {"id": "c00_20", "label": "0-20%", "cent9": [6, 8]},
+    {"id": "c00_10", "label": "0-10%", "cent9": [7, 8]},
+    {"id": "c10_20", "label": "10-20%", "cent9": [6, 6]},
+    {"id": "cent9_0", "label": "cent9=0 (70-80%)", "cent9": [0, 0]},
+    {"id": "cent9_1", "label": "cent9=1 (60-70%)", "cent9": [1, 1]},
+    {"id": "cent9_2", "label": "cent9=2 (50-60%)", "cent9": [2, 2]},
+    {"id": "cent9_3", "label": "cent9=3 (40-50%)", "cent9": [3, 3]},
+    {"id": "cent9_4", "label": "cent9=4 (30-40%)", "cent9": [4, 4]},
+    {"id": "cent9_5", "label": "cent9=5 (20-30%)", "cent9": [5, 5]},
+    {"id": "cent9_6", "label": "cent9=6 (10-20%)", "cent9": [6, 6]},
+    {"id": "cent9_7", "label": "cent9=7 (5-10%)", "cent9": [7, 7]},
+    {"id": "cent9_8", "label": "cent9=8 (0-5%)", "cent9": [8, 8]}
+  ],
+  "diagnosticCentralities": ["c00_60"],
+  "requiredValidCentralities": ["c00_60"],
+  "histograms": {
+    "SECent": "hKstarSEVsCent_lambda_he4_signal",
+    "MECent": "hKstarMEVsCent_lambda_he4_signal",
+    "SEPlaneCent": "hKstarSEVsEpdBinVsCent_lambda_he4_signal",
+    "MEPlaneCent": "hKstarMEVsEpdBinVsCent_lambda_he4_signal"
+  },
+  "centralityCombination": "sum raw SE and raw ME over selected cent9 bins, then one global normalization; no averaging of CFs",
+  "requiredMixing": {"mixingMode": "bufferAll", "mixBothDirections": "true", "nVzBins": "10", "nCentralityBins": "9", "bufferSize": "100", "maxMixEvents": "100", "minVz": "198.0", "maxVz": "202.0", "vzOutOfRangePolicy": "clamp"},
+  "requiredReducedSettings": {"mode": "replay", "resetPoolAtSegmentBoundary": "false", "requireOriginalMixing": "false", "storePrePidControl": "false"},
+  "pairProjectionAbsoluteTolerance": 0.000001,
+  "pairProjectionRelativeTolerance": 0.00000001,
+  "requiredPairCut": {"phiMax": 0.05, "etaMax": 0.05, "radiusMeters": 1.4},
+  "baselineReuseJobid": "2D07F680577123CABC16FDD9159CFD9E",
+  "mainconfForRoot": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_periodMix100.yaml"
+}

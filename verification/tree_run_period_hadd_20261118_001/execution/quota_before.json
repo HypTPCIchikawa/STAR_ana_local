@@ -1,0 +1,34 @@
+{
+  "returncode": 0,
+  "fields": {
+    "version": "1",
+    "reserved": "",
+    "filesystemName": "gpfs",
+    "quotaType": "USR",
+    "id": "102335",
+    "name": "yichikawa",
+    "blockUsage": "749900032",
+    "blockQuota": "2482348032",
+    "blockLimit": "3019218944",
+    "blockInDoubt": "329472",
+    "blockGrace": "none",
+    "filesUsage": "476751",
+    "filesQuota": "0",
+    "filesLimit": "0",
+    "filesInDoubt": "39",
+    "filesGrace": "none",
+    "remarks": "rcf.bnl.gov",
+    "fid": "18",
+    "filesetname": "star-pwg",
+    "": ""
+  },
+  "softHeadroomBytesAfterInDoubt": 1773689372672,
+  "checkedJst": "2026-11-18T17:59:21.792751+09:00",
+  "command": [
+    "/usr/lpp/mmfs/bin/mmlsquota",
+    "-Y",
+    "-u",
+    "yichikawa",
+    "rcf.bnl.gov:gpfs:star-pwg"
+  ]
+}

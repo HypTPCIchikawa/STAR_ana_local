@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "pilot": true,
+  "sources": 1,
+  "events": 400000,
+  "curves": 320,
+  "inputStatsUnchanged": true,
+  "pinsUnchanged": true,
+  "treeEntriesRead": 0,
+  "artifacts": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_003/he4_y_cf_metrics.json",
+      "bytes": 4488065,
+      "device": 48,
+      "inode": 935624668,
+      "mtimeNs": 1795325291079090053,
+      "sha256": "76d97d5d8407eefcb41e94859159d407285a2df41c841216bb5412e8786735e7"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_003/raw_histograms.json",
+      "bytes": 244968,
+      "device": 48,
+      "inode": 935624629,
+      "mtimeNs": 1795325289094180223,
+      "sha256": "eb7eaf3fde1a8402e45cff0465e0cf7db3bf9fce179d9f85dd1d8d5e9bf899c6"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_003/he4_y4_CF.pdf",
+      "bytes": 254529,
+      "device": 48,
+      "inode": 936149327,
+      "mtimeNs": 1795325302870256704,
+      "sha256": "ba807b2b2b470ea720bd829d6f12c30946c9d641485c12f0e9ea19236024c377"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_003/he4_y8_CF.pdf",
+      "bytes": 450353,
+      "device": 48,
+      "inode": 936149331,
+      "mtimeNs": 1795325307002656735,
+      "sha256": "d0fe61bc8a6fa121d69a81b586077c77d51d9b7b6e60eb9bca3c7e9a0a5b2e09"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_003/he4_y4_CF_highk.pdf",
+      "bytes": 120470,
+      "device": 48,
+      "inode": 936149329,
+      "mtimeNs": 1795325302873606090,
+      "sha256": "9fc7cdb8aaa5c7ee7252d64087183579348e18f7b3366e387a43353988172534"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_003/he4_y8_CF_highk.pdf",
+      "bytes": 206211,
+      "device": 48,
+      "inode": 936149333,
+      "mtimeNs": 1795325307009930893,
+      "sha256": "66d5eebdc3ae6f7d50ca25b7596b2c9d78ff9a1e2a373bb5c81c4f7ace6fe24f"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_003/he4_y4_SE_ME_scaled.pdf",
+      "bytes": 300120,
+      "device": 48,
+      "inode": 936149328,
+      "mtimeNs": 1795325302871950868,
+      "sha256": "e935533dfd3a4dc9f83cbc4fdd1a6115300b8e43d6e6e06788a8c1f3a734e2c0"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_003/he4_y8_SE_ME_scaled.pdf",
+      "bytes": 485788,
+      "device": 48,
+      "inode": 936149332,
+      "mtimeNs": 1795325307005892214,
+      "sha256": "449d87d27c5cd81ba2e80f4ea942bf8ea76fdbf4b67796aa04d72bf1c68285e2"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_003/he4_y_flow_controls.pdf",
+      "bytes": 49841,
+      "device": 48,
+      "inode": 936149416,
+      "mtimeNs": 1795325307093468607,
+      "sha256": "cb2d39e3aae745e7a8b1e358520f1dcf97ccfd0c5e5dcfda22873e375d2da822"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_003/cf_histograms.root",
+      "bytes": 1064085,
+      "device": 48,
+      "inode": 936149316,
+      "mtimeNs": 1795325300652883121,
+      "sha256": "aa2d6d1fcaef7c11befda87a5b6b6a16a554e29c4e978321cbb63d43c337e07b"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_003/curve_metadata.tsv",
+      "bytes": 20190,
+      "device": 48,
+      "inode": 935624691,
+      "mtimeNs": 1795325291084190000,
+      "sha256": "cbd0fcb7a059b5d0101bfccb7c0384ef709224744622485f365af8794e06410f"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_003/curve_bins.tsv",
+      "bytes": 778729,
+      "device": 48,
+      "inode": 935624692,
+      "mtimeNs": 1795325291186866195,
+      "sha256": "96c6bb1c9ab034b7bee007fc2ddcfb39d9ea1e3e61be63b4899273d7e881f666"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "runmeta": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100_epCut20261120_6A21EE258585F2B438551377515209BF.json",
+    "bytes": 4967,
+    "sha256": "7e8aed1ec75aff0e34d137dc741f8233ccb96c70e174d1d9b847119ac7132bb0"
+  },
+  "configlog": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/configlog/config_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100_epCut20261120_6A21EE258585F2B438551377515209BF.txt",
+    "bytes": 228226,
+    "sha256": "b007f49599f681193d682307ed428d67d70d2719d56c430fb915462f0fa4d7f2"
+  },
+  "joblistlog": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/joblistlog/joblist_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100_epCut20261120_6A21EE258585F2B438551377515209BF.xml",
+    "bytes": 5325,
+    "sha256": "9cb214a491d37e4c2053f50684b5e1a181fc39c440bd5e4d73672d961eee5adf"
+  },
+  "runtimeBundle": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runtime_bundle_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100_epCut20261120_6A21EE258585F2B438551377515209BF.tar.gz",
+    "bytes": 52013534,
+    "sha256": "5d824d81f508a9d16c50cc086f8b6f78210f61c9e31007ec8d0d0fd68083a6e7"
+  },
+  "sumsArtifacts": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/sums_artifacts_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100_epCut20261120_6A21EE258585F2B438551377515209BF.tar.gz",
+    "bytes": 26820,
+    "sha256": "7d552aa4408617ddba2b76322b5bad5156c5bc2c0c72c7301f1173d6e64f2e9e"
+  },
+  "runtimeZip": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100_epCut20261120_20261120103126.zip",
+    "bytes": 50540033,
+    "sha256": "6b5a88bc95d238ba214c979f75b6c2d255735866667ab6da1d253673cb00d1b6",
+    "pinnedShippedMembersVerified": 38
+  }
+}

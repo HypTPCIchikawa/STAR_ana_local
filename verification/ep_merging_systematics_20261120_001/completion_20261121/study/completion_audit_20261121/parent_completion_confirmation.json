@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checkedUTC": "2026-11-21T11:27:53.234092+00:00",
+  "newWorkers": 140,
+  "reusedWorkers": 20,
+  "outputRoots": 160,
+  "caseEvents": 1819447887,
+  "lastNativeEndNY": "2026-11-21T02:44:35-05:00",
+  "successMailNY": "2026-11-21T02:55:39.707797-05:00",
+  "independentCompletionChecks": 4762,
+  "CFIndependentChecks": 3720,
+  "artifactHashesPassed": true,
+  "representativePagesVisuallyChecked": true,
+  "curves": 226,
+  "quotaSoftHeadroomBytes": 1134745092096,
+  "originalOutputsUnmodified": true,
+  "noResubmit": true,
+  "noHadd": true,
+  "noMailResend": true
+}

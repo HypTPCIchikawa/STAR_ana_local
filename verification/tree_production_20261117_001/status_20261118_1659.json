@@ -1,0 +1,31 @@
+{
+  "checkedJST": "2026-11-18T16:59:02.695105+09:00",
+  "jobid": "9037A6F05FAD08FC8E9BD9286C8A38A5",
+  "liveStatus": {
+    "checkedAt": "2026-11-18T16:59:02.628636+09:00",
+    "expectedSubjobs": 4058,
+    "emailContent": "minimal",
+    "submitted": 4058,
+    "terminal": 4057,
+    "queued": 1,
+    "queueStates": {
+      "2": 1
+    },
+    "outcomes": {
+      "exit_0": 4057
+    },
+    "stateDirectory": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_production_20261117_001/tree/notify",
+    "allTerminal": false
+  },
+  "recoveredRootCount": 4023,
+  "nonemptyRootCount": 4023,
+  "mailSentRecordExists": false,
+  "previouslyUnrecoveredFailedJobs": 34,
+  "lastKnownRunningSubjob": 2869,
+  "remoteInspection": {
+    "directSsh": "Host key verification unavailable; strict checking retained",
+    "authenticatedCondorSsh": "denied by SCHEDD_ENABLE_SSH_TO_JOB",
+    "progressConclusion": "Current child/event progress not observable; Running/lease/CPU alone does not prove analysis progress"
+  },
+  "actions": "Read-only status/diagnostic queries and records; no cancellation/resubmission/code change or manual email"
+}

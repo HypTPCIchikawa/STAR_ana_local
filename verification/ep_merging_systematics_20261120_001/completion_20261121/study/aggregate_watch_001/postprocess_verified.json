@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "finishedAtUtc": "2026-11-21T07:55:39.088475+00:00",
+  "completion": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/cf_comparison/completed.json",
+    "bytes": 3514,
+    "device": 48,
+    "inode": 929845489,
+    "mtimeNs": 1795247738539374000,
+    "sha256": "163517fb63d010f20baf0d25360b4842c8742c0ff2ce8a1845c9479c82800f48"
+  },
+  "comparison": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/cf_comparison/cf_comparison.json",
+    "bytes": 3386714,
+    "device": 48,
+    "inode": 929845480,
+    "mtimeNs": 1795247731516261592,
+    "sha256": "d2f26eba38ca5ef72118fc5dbdfa901a323696864de456f3bb3ec2b797f48015"
+  }
+}

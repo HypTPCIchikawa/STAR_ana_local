@@ -1,0 +1,11 @@
+# Full pre-PID control capability; larger than the standard compact profile.
+mode: replay
+speciesKeys:
+- lambda
+- he3
+- he4
+resetPoolAtSegmentBoundary: true
+requireOriginalMixing: true
+compressionLevel: 6
+autoFlush: -30000000
+storePrePidControl: true

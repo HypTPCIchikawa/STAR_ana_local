@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checkedJst": "2026-11-20T21:33:55.767926+09:00",
+  "jobid": "2D07F680577123CABC16FDD9159CFD9E",
+  "normalJobs": 20,
+  "outputRoots": 20,
+  "outputBytes": 11491533504,
+  "storedEventsProcessed": 1819447887,
+  "allOutputPolicies": "replay, period continuation, bufferSize=100, maxMixEvents=100, bidirectional bufferAll",
+  "he4SignalSE": 2221923,
+  "he4SignalME": 459780318,
+  "he3SignalSE": 10842199,
+  "he3SignalME": 2141220417,
+  "fullEventReplayPerformedByAudit": false,
+  "auditLedgerRowsRead": 40,
+  "completionLogAudit": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/completion_log_audit_20261120.json",
+  "rootMetadataAudit": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/output_root_check_20261120.json",
+  "notificationAcceptedAtJst": "2026-11-19T23:20:55.229849+09:00",
+  "firstStageMissing34": "deferred",
+  "uncalibrated81": "deferred",
+  "haddPerformed": false
+}

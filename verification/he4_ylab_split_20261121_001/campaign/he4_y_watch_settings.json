@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "analysisCampaign": "analysis_campaign.json",
+  "postprocessSettings": "he4_y_postprocess_settings.json",
+  "sharedCompletionHelper": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/watch_production_matrix.py",
+  "sharedEventParser": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/script/watch_job_notify.py",
+  "pollSeconds": 300,
+  "settleSeconds": 300,
+  "commandTimeoutSeconds": 45,
+  "postprocessTimeoutSeconds": 3600,
+  "recipient": "yudai.ichikawa.d3@tohoku.ac.jp",
+  "sendmail": "/usr/sbin/sendmail",
+  "fatalPatterns": [
+    "(?i)segmentation (?:violation|fault)",
+    "(?i)\\bfatal(?: in|:)",
+    "(?i)terminate called|std::bad_alloc|assertion .* failed",
+    "Error in <(?:TFile|TBuffer|TStreamerInfo|TTree|TBranch)",
+    "(?i)uncaught exception|core dumped"
+  ]
+}

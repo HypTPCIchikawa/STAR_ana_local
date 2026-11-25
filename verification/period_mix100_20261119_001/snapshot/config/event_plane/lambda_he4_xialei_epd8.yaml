@@ -1,0 +1,31 @@
+source: xialeiEpdPsi1
+harmonic: 1
+bins: 8
+invalidPolicy: reject
+writeDetailedLedger: false
+recenterFile: event_plane/xialei_epd_2021P24iy/recenterpar.root
+recenterSha256: 03b4e70b5af1143e628b09a69a8aca791f0ec39b4ddb2ab842bbac13372dd5d0
+shiftFile: event_plane/xialei_epd_2021P24iy/shiftpar.root
+shiftSha256: 75621a71e6a90b161e5e45eeda76754c0aac30ab312540abea07b8b18e85d5e0
+runListFile: event_plane/xialei_epd_2021P24iy/runs_2021.txt
+runListSha256: ebeb32e590666fe8db88eb9b458755a07313644a72ca1301fb65658df48be840
+randomSeed: 20261112
+centralityThresholds: [5, 10, 19, 33, 51, 77, 111, 155, 183]
+minNMip: 0.3
+maxTileWeight: 2.0
+shiftTerms: 20
+epdRowGroups: [[1, 4], [5, 8], [9, 12], [13, 16]]
+triggerIds: [820010, 820020, 820030]
+minVz: 198.0
+maxVz: 202.0
+vertexCenterX: -0.42
+vertexCenterY: -2.25
+maxVertexRadius: 2.0
+pileupMinCoefficients: [-3.23041, 1.36531, 0.0355345, -0.000264418, -2.90964e-7]
+pileupMaxCoefficients: [15.927, 5.35274, 0.00422332, -0.000642979, 3.0e-6]
+tpcMinPt: 0.2
+tpcMaxPt: 2.0
+tpcEtaRanges: [[-2.4, -1.28], [-1.18, 0.0]]
+tpcMinNHitsFit: 15
+tpcMinFitRatio: 0.52
+tpcMaxDca: 3.0

@@ -1,0 +1,25 @@
+{
+  "producerJob": "138E847187F25065C66F97429A3CCF40",
+  "workers": 418,
+  "good": 415,
+  "failed": [
+    44,
+    328,
+    354
+  ],
+  "originalGoodInputs": 7871,
+  "originalRead": 241907322,
+  "originalStored": 232436427,
+  "directlyRecovered": {
+    "run": 22121049,
+    "entries": 14273,
+    "stored": 13652
+  },
+  "missingTTreeFiles": [
+    "st_physics_22123020_raw_2000015.picoDst.root",
+    "st_physics_22123040_raw_7000007.picoDst.root"
+  ],
+  "unavailableCatalogueEntries": 53600,
+  "additionalRetryFiles": 54,
+  "fullUsableInputsIfRecoveryPasses": 7926
+}

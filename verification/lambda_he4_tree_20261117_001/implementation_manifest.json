@@ -1,0 +1,485 @@
+{
+  "recordedUTC": "2026-11-17T03:16:23.420237+00:00",
+  "baseMainHead": "f35f4424f35a2bb8c06458721259ae21bf24c50d",
+  "basePrivateHead": "a128fcb31c4b6c075674db255763f25c1703707f",
+  "workingTreeSourceRevision": "unrecorded; exact file SHA and source snapshots recorded here",
+  "dataset": "2021 P24iy calibrated388; uncalibrated81 on hold",
+  "standardCapability": "storePrePidControl=false; 108 producer QA and 540 selected PID/rigidity QA retained",
+  "sourceAndConfiguration": [
+    {
+      "path": "Makefile",
+      "bytes": 21461,
+      "sha256": "15450af02375a1adf9e1cf58c8e0018685094cf6748acac4f218b6a28b36f8bf"
+    },
+    {
+      "path": "StMaker/StFemtoMaker/README.md",
+      "bytes": 59467,
+      "sha256": "d0a29dce25f474018f25d814b74101afa6b3816b49096f0e7cc8caeaa639d4d6"
+    },
+    {
+      "path": "StMaker/StFemtoMaker/StFemtoMaker.cxx",
+      "bytes": 179876,
+      "sha256": "a40346f8b8f9794aaa5a4484d8e82f49c3d7e5bad42e1b787ca2360ec7f981a3"
+    },
+    {
+      "path": "StMaker/StFemtoMaker/StFemtoMaker.h",
+      "bytes": 16235,
+      "sha256": "ba356dfb92a61c7f77451a60072f4f3691bf09a2a6db47dfbeeb802b73a8f3bb"
+    },
+    {
+      "path": "StMaker/common/FemtoLambdaLegacy.cxx",
+      "bytes": 87185,
+      "sha256": "48a6dd8df1875153345080ee514e4b4cd242d0b93d827be79daa527d95e62bd2"
+    },
+    {
+      "path": "StMaker/common/FemtoLambdaLegacy.h",
+      "bytes": 7924,
+      "sha256": "b5f46be866de0446a60bba30c8a98a9ec65f566560b92b4b0ec60fcce0c0dc80"
+    },
+    {
+      "path": "docs/REFERENCE.md",
+      "bytes": 96924,
+      "sha256": "d9eb317f3a740d65efc807ff3c93345b58fef3b3743c5167dedb709b04bc9ce1"
+    },
+    {
+      "path": "job/run/README.md",
+      "bytes": 24989,
+      "sha256": "365919e374b9a2b7e481aa5ee368a4869a61760a511ec83bc26b5c9a9fbe20c7"
+    },
+    {
+      "path": "analysis/anaFemtoLambda_4He_tree.C",
+      "bytes": 6318,
+      "sha256": "a704670e0b35f75ad441ec5b9b5f5457845a11b68f12f48e62e3bec8a182f93b"
+    },
+    {
+      "path": "analysis/run_anaFemtoLambda_4He_tree.C",
+      "bytes": 3386,
+      "sha256": "61005aa499bda2d7102e0cf4b139f2b6262223b16b612acb663c05e616484d66"
+    },
+    {
+      "path": "include/FemtoLambdaReducedTree.h",
+      "bytes": 37967,
+      "sha256": "a7b5c2a2332cf555ff4a5342bc8809f9a9bb77ac01f12df7026056ce19d31702"
+    },
+    {
+      "path": "include/FemtoLambdaReducedTreeConfig.h",
+      "bytes": 6637,
+      "sha256": "6fe1d04d05a543407cc66f60e2eecbe4fa90a5ad367cde47f9daa16c875029cc"
+    },
+    {
+      "path": "include/FemtoLambdaTreeTypes.h",
+      "bytes": 117,
+      "sha256": "cb3ca3fa791066220531584633703cfe7b898dc6e8917ff4c1700cf75d41a8c1"
+    },
+    {
+      "path": "include/FemtoLambdaTreeLinkDef.h",
+      "bytes": 162,
+      "sha256": "d523d6303d63b7a0be4028db045382c6972f883f11ceaf1bf8759f07a69a6484"
+    },
+    {
+      "path": "script/run_anaFemtoLambda_4He_tree.sh",
+      "bytes": 260,
+      "sha256": "7d081eee991d1eef440511934716e0c9d52ac4010c3f01be1065a0506ea396b2"
+    },
+    {
+      "path": "script/run_femtoLambda_tree_common.sh",
+      "bytes": 2387,
+      "sha256": "a10d48196c727d6c9a73133360b3aa9cb7602021d7c16058c2fcac3b8dbc7a84"
+    },
+    {
+      "path": "script/singularity_run_anaFemtoLambda_4He_tree.sh",
+      "bytes": 265,
+      "sha256": "12b9a1297e795bde9ca1ae2531a5ef76321731df189e2f7ff19aceda7f49bba3"
+    },
+    {
+      "path": "tests/test_femto_reduced_geometry.C",
+      "bytes": 18451,
+      "sha256": "cf45f9fca42807d021451be4575039e741f5e514dab2e831c487304ceba6bb92"
+    },
+    {
+      "path": "tests/run_femto_reduced_geometry_test.C",
+      "bytes": 1891,
+      "sha256": "bcdc38db69184beb736304d74c52d61b4f4286f7e2cb0a407213e50fe38168c0"
+    },
+    {
+      "path": "tests/test_femto_lambda_reduced_tree.C",
+      "bytes": 11406,
+      "sha256": "cbcf74e2e74a9863505836ece86615a7042fd66ed7159f861b586b0782ea202b"
+    },
+    {
+      "path": "tests/run_femto_lambda_reduced_tree_test.C",
+      "bytes": 1652,
+      "sha256": "60757c0b24bdaf5aa36475e21ee56996268fdfa61c38b06e9f49c1b7c6ac81e2"
+    },
+    {
+      "path": "tests/test_femto_lambda_reduced_tree_config.C",
+      "bytes": 3416,
+      "sha256": "74df352ab4c34f3464495a78da3170f17593d94dbc8bcaa300dbe3fec44875f2"
+    },
+    {
+      "path": "tests/run_femto_lambda_reduced_tree_config_test.C",
+      "bytes": 1983,
+      "sha256": "101a103f11198fc8ac30ba37c78b8031f7991895a655fa128d3d1eaaa5adb68c"
+    },
+    {
+      "path": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree.yaml",
+      "bytes": 1421,
+      "sha256": "487aa936664f6d1f1f5d4ddaf44ba2e4757ec13cda8c6580476b67e2f1546671"
+    },
+    {
+      "path": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_fullControl.yaml",
+      "bytes": 1573,
+      "sha256": "d15efe6b3a740ed88571bd5262d31bba44a5b1ebc14aaed7abe2f436612b7688"
+    },
+    {
+      "path": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_replay.yaml",
+      "bytes": 1329,
+      "sha256": "ee3153c70a1e64ff55d1d40768129d3db85463b6f68865901e74db1caa2518fe"
+    },
+    {
+      "path": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_replay_ep1.yaml",
+      "bytes": 1357,
+      "sha256": "1fd6d56d8152703b044e7432e2c5ccd86876a920d277dfa951476a624a526627"
+    },
+    {
+      "path": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_replay_fullControl.yaml",
+      "bytes": 1481,
+      "sha256": "d3d774de0fb5b89add9e0c7500b6494265b20bc425ea7e691b964c3c596ecacd"
+    },
+    {
+      "path": "config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_replay_pairY5.yaml",
+      "bytes": 1443,
+      "sha256": "bed87d6517055fe9292a0fed87c667b53d7de13d8797a0d534d35abfbb8a0a6b"
+    },
+    {
+      "path": "config/calibration/dedx_he4_auau3p85_2021P24iy_accepted_20261022.yaml",
+      "bytes": 1761,
+      "sha256": "464e641b8e1135ab830c4f5ca4d32ef6fa5123dc87f53a045435fb87529b53da"
+    },
+    {
+      "path": "config/cuts/centrality/centrality_auau3p85_femtoLambda.yaml",
+      "bytes": 325,
+      "sha256": "1cf50324a4c7f3ef308be960b87c9ebea3693031abf4f8352838027614ce4ca0"
+    },
+    {
+      "path": "config/cuts/event/event_femtoLambda_imp5.yaml",
+      "bytes": 247,
+      "sha256": "493c22c8ec457820047b563fda66ef916efec31b5cc7bb29b02b47c395c7aac7"
+    },
+    {
+      "path": "config/cuts/kf/kf_auau3p85_anaLambda_KFParticle_highpurity.yaml",
+      "bytes": 1671,
+      "sha256": "581bab50e769a28428fe5970f72cae9acd7da104c931f83d2060a0e15f9dd425"
+    },
+    {
+      "path": "config/cuts/mixing/mixing_femtoLambda_epd1.yaml",
+      "bytes": 343,
+      "sha256": "b2f1d0a183d72963d68a36b123d398509abbf13acf0a8365484e290b940c8045"
+    },
+    {
+      "path": "config/cuts/mixing/mixing_femtoLambda_epd8.yaml",
+      "bytes": 343,
+      "sha256": "ef360422435c5a43245d8ae53e180439ba2dad27a635ac2b96b8d6f3eb23a95a"
+    },
+    {
+      "path": "config/cuts/nuclearid/nuclearid_femtoLambda_auau3p85_he4_accepted_20261022.yaml",
+      "bytes": 1539,
+      "sha256": "8d6fe1d422908fcd204bf59243bc4440aa4fac52f64f00b3ec8a37b471f1776f"
+    },
+    {
+      "path": "config/event_plane/lambda_he4_xialei_epd8.yaml",
+      "bytes": 1100,
+      "sha256": "ccc0a0868f0fb40d0d75c622a2e133392a5b591458c2336f11ec7d813e58d64d"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_femtoLambda_he4_he3_control_epdPairY10YLabMerging20261113_nuclear.yaml",
+      "bytes": 92588,
+      "sha256": "0272779ba55203d1e90a77ede46d88123b811085c728270aed9d9263a7864102"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_femtoLambda_he4_he3_pid_pair_qa_noJointSparse.yaml",
+      "bytes": 180403,
+      "sha256": "5630bb7cc31be49831dfd87f07793e4fd01fed37232214def552db2ce81f4b5d"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_femtoLambda_he4_he3_pid_pair_qa_selectedOnly.yaml",
+      "bytes": 88721,
+      "sha256": "40cb6be15fbc71000ff1dbb8860902317114e4f71ee8762a5acf2111547ef763"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_femtoLambda_tree_producer_kf.yaml",
+      "bytes": 12672,
+      "sha256": "6414b6904808bf1f5cf7b2ba4796e06b2b865643c9c2c8493955e9059fb1dadb"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_femtoLambda_tree_producer_nuclear.yaml",
+      "bytes": 5254,
+      "sha256": "0f6af833062ea765dbab555d69de421d00e75ae2a647308056153b4e954e5b55"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_femtoLambda_tree_replay_kf.yaml",
+      "bytes": 33038,
+      "sha256": "909d65bf358185ad481257022c4eb8b0ef3919f8ccf110474c86fd57ba20668e"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_femtoLambda_tree_replay_pairY5_kf.yaml",
+      "bytes": 33032,
+      "sha256": "5d599eb0c0c80dfc1c75c64251788d16cea99f0c11fe0dbe2fceed2ab3e9aaff"
+    },
+    {
+      "path": "config/hist/hist_auau3p85_femtoLambda_tree_replay_pairY5_nuclear.yaml",
+      "bytes": 92630,
+      "sha256": "ffa317a463397ac7456d25b19a64173b8dfa799dab60182d808373c36d965521"
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree.yaml",
+      "bytes": 889,
+      "sha256": "911a4fc65a25ca540060b7429a8008f560878d47c4bc39ea32fe54dbf7cbbbc2"
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_fullControl.yaml",
+      "bytes": 898,
+      "sha256": "a9a04584f38295aaf05eb135156182ab7ca54884fbcf263d15dfac8a1d9bcf1f"
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_replay.yaml",
+      "bytes": 927,
+      "sha256": "8e049e4c8ce1b2a8fad7d2c9ed41a7cccfb52daecaf371a970fa564823384c40"
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_replay_ep1.yaml",
+      "bytes": 930,
+      "sha256": "a96917be11e28683b55f6303122bd0604a470129275498fe8f1fc551b21bf396"
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_replay_fullControl.yaml",
+      "bytes": 936,
+      "sha256": "a05cfef071188f3e6fdff24835e62413dcd12c2a9b78b6aece0908544f28b53c"
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_replay_pairY5.yaml",
+      "bytes": 885,
+      "sha256": "f9a8d81d79eef5593effac11af88ff7ac0cb734dc19b1f3692711ca182ec129c"
+    },
+    {
+      "path": "config/maker/maker_auau3p85_anaFemtoLambda_4He_KFParticle_epdPairY10YLabMerging20261113.yaml",
+      "bytes": 3257,
+      "sha256": "6953c7cb6a6a6926bd0f0058d93edb1f2ec0958c6dbd174435d09ce2767b242f"
+    },
+    {
+      "path": "config/maker/maker_auau3p85_anaFemtoLambda_4He_tree_pairY5.yaml",
+      "bytes": 2952,
+      "sha256": "2941093645ece29860c97fcc2082ca20ad8ce97dc6a3a6b347e83031f9332e8c"
+    },
+    {
+      "path": "config/reduced_tree/lambda_he4_remix.yaml",
+      "bytes": 257,
+      "sha256": "96a2525bd336e86b738214f9270d48aefa9e220b0ee2f0cdfc2fd9ae64b1b79d"
+    },
+    {
+      "path": "config/reduced_tree/lambda_he4_replay.yaml",
+      "bytes": 256,
+      "sha256": "8d0ecb053fd47fada78a7d588b1dd8d518dce1ccfc584d0a738eb47f0cb383df"
+    },
+    {
+      "path": "config/reduced_tree/lambda_he4_replay_fullControl.yaml",
+      "bytes": 251,
+      "sha256": "cbbe24a5516839d387e372e31719e67751216d4fc60bfca451709f05d5349e54"
+    },
+    {
+      "path": "config/reduced_tree/lambda_he4_write.yaml",
+      "bytes": 255,
+      "sha256": "0877243e6fd6eecd8d49a202cf51fc211e0a4b7c1f0b210bcbdb9e1bfb59577e"
+    },
+    {
+      "path": "config/reduced_tree/lambda_he4_write_fullControl.yaml",
+      "bytes": 250,
+      "sha256": "1f23e7ff1d0c598595da2b6f360cbb05af0cbb8f25e38445762b0bc8b9f19708"
+    }
+  ],
+  "runtimeExternalDependenciesHashOnly": [
+    {
+      "path": "config/event_plane/xialei_epd_2021P24iy/recenterpar.root",
+      "bytes": 3827598,
+      "sha256": "03b4e70b5af1143e628b09a69a8aca791f0ec39b4ddb2ab842bbac13372dd5d0"
+    },
+    {
+      "path": "config/event_plane/xialei_epd_2021P24iy/shiftpar.root",
+      "bytes": 40788318,
+      "sha256": "75621a71e6a90b161e5e45eeda76754c0aac30ab312540abea07b8b18e85d5e0"
+    },
+    {
+      "path": "config/event_plane/xialei_epd_2021P24iy/runs_2021.txt",
+      "bytes": 3492,
+      "sha256": "ebeb32e590666fe8db88eb9b458755a07313644a72ca1301fb65658df48be840"
+    },
+    {
+      "path": "rootfile/femto_lambda_pair_rapidity_validation_20261113_001/covered388_pico_files.list",
+      "bytes": 13734152,
+      "sha256": "b469b4a926dd4781256d3e289c08655c53dd71f41f343411967df342070fd9c5"
+    }
+  ],
+  "loadedProjectLibrariesHashOnly": [
+    {
+      "path": "lib/libStarAnaConfig.so",
+      "bytes": 1050472,
+      "sha256": "2f14d195fe5104d95a83215c42a1f5672c459bb7918f0d6bc6653ffa4bd9cefc"
+    },
+    {
+      "path": "lib/libStRefMultCorr.so",
+      "bytes": 1547416,
+      "sha256": "81f9d82d854d9384d34af76b6fbf17327f4db0316094b2dfefa4a4d0418236d9"
+    },
+    {
+      "path": "lib/libKFParticle.so",
+      "bytes": 536408,
+      "sha256": "c53c9eeab0f8c1f5d1018521cc0e916304bda42750cb6c83a282dedf4047095d"
+    },
+    {
+      "path": "lib/libStKfParticleCommon.so",
+      "bytes": 321744,
+      "sha256": "764b0306c292dfedc0a669fd61415c4af893b088258d0640a6f85173da5191d7"
+    },
+    {
+      "path": "lib/libStCommon.so",
+      "bytes": 654528,
+      "sha256": "a1dfa2699fbee10a01c975ac5f553d662554a9cc2c358a447fd9727227315760"
+    },
+    {
+      "path": "lib/libStFemtoMaker.so",
+      "bytes": 674856,
+      "sha256": "87edef6246b73b0c50c152e5bbc3f7082a6f72f30ad3ce16f37abb0485c00c68"
+    }
+  ],
+  "validationArtifacts": [
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/compact_closure.json",
+      "bytes": 32731,
+      "sha256": "ea10b47283be0d123a098640be1b9d08ebe509ad885895234052b5c91e56f199"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/compact_prior_reference_closure.json",
+      "bytes": 32773,
+      "sha256": "fc8ce7e4621bf901377d9025cd4eec0a3195f6fe3f342d680acc5964b8d91a96"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/compact_pairY5_closure.json",
+      "bytes": 1710,
+      "sha256": "dbd65d2e7764085357528295f46405568c3cdce4a8544d5c08677862b5b5810e"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/closure_final_10k.json",
+      "bytes": 5648,
+      "sha256": "28219e23bfe626797a16d4c98f1047f7d9183d36af9cd9809bb560075703b3a0"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/pairY5_closure_10k.json",
+      "bytes": 1696,
+      "sha256": "c30a840a4d5d04051a20753ffb30663e010a2b90ea785f2bdbf982ae065c052c"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/storage_projection.json",
+      "bytes": 2654,
+      "sha256": "d35851998d378f4ee5a76a58e9abfd96e50c1d3672620d7fbf4dd70eaf51c72a"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/full_coverage.json",
+      "bytes": 68,
+      "sha256": "f8671e963d0d598c5f5bbfa2466efacec0dedd433b9441bcef7d6473ed4b543e"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/prechange_entries_regression.json",
+      "bytes": 347,
+      "sha256": "8cbcabe06bc7e588b9c1123286d17b6e32d140eec06e766e2f70896399456c86"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/preexisting_edits_preserved.json",
+      "bytes": 2179,
+      "sha256": "40a687cb7004deb7e034694cdd586c159bc7bbdc59fb12c13383150e9e129a23"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/quota_final_raw.txt",
+      "bytes": 356,
+      "sha256": "cc983154f090e39c8d5af3f942da81e40778135ea9d4e989231b5f2cb2132837"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/quota_final_command.json",
+      "bytes": 143,
+      "sha256": "254d98b0da580773cbe0b7a2cdf42b641c7ca25bc2f915031fc7616b29a48866"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/test_femto_lambda_hist_contract.log",
+      "bytes": 192,
+      "sha256": "3781b69c843a34774256244cf5bf1cef2eda211cfc08b0dbde491db8ae895491"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/test_femto_lambda_entries.log",
+      "bytes": 1212,
+      "sha256": "f18cc555a072775d3a4f07b3d1bfc66ea7e6229fc5de5c632192bc966ae2d8ee"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/prechange_entries_regression.log",
+      "bytes": 1272,
+      "sha256": "160bb5f66480e4c4cb316047a9ed39c1797fb579681ecafdb6b45088dd5decfc"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/capability_config_002.log",
+      "bytes": 1288,
+      "sha256": "880232f95cf6d8c5bdf55bcdb841e8a014603bf690d7f8f332907e9a18d8f55d"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/io_fixture_002.log",
+      "bytes": 3419,
+      "sha256": "cc30c90cd334d2e0d386648a2cbb3463f463bb6ca4efa7b6b36c2c32776014f3"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/geometry_fixture_compact.log",
+      "bytes": 16464,
+      "sha256": "35a57ec6fe885a7253551dbaed644be17f2c1f1fd91d0a7e491bf680cf8a199c"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/memory_producer_v2.time.txt",
+      "bytes": 1184,
+      "sha256": "cc7e7c4ef26aaaa0f36e58ae64a6853985fcbd6beee7ac159e0994462123014b"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/memory_replay_v2.time.txt",
+      "bytes": 1155,
+      "sha256": "fa5ad5b2cfa969afd71c8563a202a1da5a12fdcb9a9c8b01bed831e531bfbc14"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/build_command.json",
+      "bytes": 134,
+      "sha256": "65bbae34f0d89659cee38f1141baf8a92b76f786509d9c462bffac67277c069f"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/producer_compact_command.json",
+      "bytes": 495,
+      "sha256": "83967deea80cc5e727fbd046722fc5ed62a5af10344efb2d52814cde587897f8"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/compact_replay_command.json",
+      "bytes": 473,
+      "sha256": "ee9a5b0afd76e0551bcc5f9d565c958d92ccb70acffa155eb388bea083e3dfb3"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/compact_ep1_command.json",
+      "bytes": 471,
+      "sha256": "9c9cc285fae82b0a9407eb2c0df8078677af98dd36087193dca09b604a3928d5"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/compact_pairY5_command.json",
+      "bytes": 480,
+      "sha256": "1dd4bee6ed76dd57ee50a5664bbcde0e14eba09365af67f979cc9e449466da80"
+    }
+  ],
+  "build": "SL24y/ROOT5 via script/singularity_make.sh, --no-clean -j4; PASS",
+  "requiredClosures": "compact QA108/pair1186; historical reference; fullControl QA108/pair1726; EP1; pairY5; IO/capability/geometry all PASS",
+  "knownPreexistingTestFailures": [
+    "test_eight_mainconfs_reference_presets_and_real_macros",
+    "test_nuclear_pair_pid_qa_is_opt_in_for_canonical_production"
+  ],
+  "productionSubmitted": false,
+  "gitCommitOrPushPerformed": false,
+  "provenanceScope": "Referenced runtime configuration and project library checksums. Calibration historical source ROOTs are provenance, not runtime inputs, and are not rehashed/copied. Original ordered producer source manifests are retained separately."
+}

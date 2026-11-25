@@ -1,0 +1,429 @@
+[
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/input_manifest.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/input_manifest.json",
+    "originalBytes": 18585,
+    "originalSha256": "08823296f4ee5848e588211f49aea4294eceadf21fd289cd9b10b1c7bacaf602",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/periods.list",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/periods.list",
+    "originalBytes": 3280,
+    "originalSha256": "b2afaeb07e7f3d3428812810f2bc148c6296912caa10367a81d6be1cbd4189c4",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/launch_config.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/launch_config.json",
+    "originalBytes": 25047,
+    "originalSha256": "8639c566ed341bb1e7c3354f8751b8a8065d75a3a507027d12103a52a45b3c82",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/pilot_status.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/pilot_status.json",
+    "originalBytes": 5759,
+    "originalSha256": "9d1adaeb7d0287adac50883b52b05b0a10df4b4329592717b4f79956d152daa3",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/pilot_comparison.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/pilot_comparison.json",
+    "originalBytes": 11580,
+    "originalSha256": "8bc45fa260a3b0aa0f287a054c3ce8b9bf9a8f290cc62d8b75ff26edc3aaab6a",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/pilot_B_ep8_plane_sum.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/pilot_B_ep8_plane_sum.json",
+    "originalBytes": 534,
+    "originalSha256": "98baa36a6aabdec76e6ae4f223e8d8bf1659f0b549aa3fe782bebb110a112314",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/pilot_B_period100.time",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/pilot_B_period100.time",
+    "originalBytes": 1192,
+    "originalSha256": "9df983f4a990f092a47d0ed8f41297874fcef7b94e9156b2400e0c345b4c7127",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/pilot_A_reset100.time",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/pilot_A_reset100.time",
+    "originalBytes": 1203,
+    "originalSha256": "6eed27b33f1fce0775f45a9d608b6b54b51ea16ef9ce033d3dab5b6ba4da440f",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/pilot_C_period20.time",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/pilot_C_period20.time",
+    "originalBytes": 1197,
+    "originalSha256": "ec819b364823816a5ffac403000ad718e8f15c20836128551145028963bcd63c",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/dictionary_fresh_process_smoke.log",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/dictionary_fresh_process_smoke.log",
+    "originalBytes": 11181,
+    "originalSha256": "9037273e3c71f4b5cec6f85ebfc1319504976998c1b607a6bf8210d29e660078",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/FemtoLambdaTreeLinkDef_before.h",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/FemtoLambdaTreeLinkDef_before.h",
+    "originalBytes": 162,
+    "originalSha256": "d523d6303d63b7a0be4028db045382c6972f883f11ceaf1bf8759f07a69a6484",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/build.log",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/build.log",
+    "originalBytes": 12803,
+    "originalSha256": "687f2a808a1b5be5abd6d35ba300c7b42161b236b638b9d9eabe3c89e934bee8",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/build_dictionary_fix.log",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/build_dictionary_fix.log",
+    "originalBytes": 13988,
+    "originalSha256": "dee2a40e1ab04cd02fedcffe8c994cb06ec79c442f89960ac9c53aec9816464c",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/run_pilots.py",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/run_pilots.py",
+    "originalBytes": 4415,
+    "originalSha256": "712b0849b44120807195b630a4b669d8ec7db9eb008bca563909519edb6af353",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/ComparePeriodMix.C",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/ComparePeriodMix.C",
+    "originalBytes": 14455,
+    "originalSha256": "0c8bb9910d4c5e01a0fe723030230917aebbdbb8ff9b25415056ebb0d7391fb3",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/launch_once.py",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/launch_once.py",
+    "originalBytes": 29414,
+    "originalSha256": "e1c64597b42fe427b36c07e20b1bedc4205384b6f225a7ab7542580a35df1d61",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/prepare_submission.py",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/prepare_submission.py",
+    "originalBytes": 5262,
+    "originalSha256": "804acb0ec7670368ce84104db188a40f269ff89a8ee1df55c0447da4d3f84f01",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/launch_state.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/launch_state.json",
+    "originalBytes": 1913,
+    "originalSha256": "d68ac2a85f037f4227f274cc4ec676bdbc5e4697aadf0b18cbc2f6b87238d78b",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/input_coverage.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/input_coverage.json",
+    "originalBytes": 9600,
+    "originalSha256": "bd10c8eceb0567e6a0904b0530a1d88a88b8a0099a0ab245277bafb1a55a4561",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/native_resources.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/native_resources.json",
+    "originalBytes": 7154,
+    "originalSha256": "a5bc69f744a3d4be929772434b2e320db3a932db0ca26450b8d424dc632e46ed",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/submission_artifacts.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/submission_artifacts.json",
+    "originalBytes": 2009,
+    "originalSha256": "70c6e04cbf518acec5bb5ff94985636d5119fabd32cf109637270b672d95932c",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/tmux_launch.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/tmux_launch.json",
+    "originalBytes": 1407,
+    "originalSha256": "c45319abcbf3ee72997f7657b251cf103598a0bc5726ee76b6fcb2d691e71868",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/notify/settings.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/notify/settings.json",
+    "originalBytes": 680,
+    "originalSha256": "93ff8403658ea92a2abf515c082ad06220b1e5a21cdfc6313c8f9f14e0cde779",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/primitive_vector_probe_no_aclic.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/primitive_vector_probe_no_aclic.json",
+    "originalBytes": 1092,
+    "originalSha256": "7ae369b39308d3103f9ba397f9c31dfe10135f8fb867e7a5c51d0b8f6239ba41",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/prepare_submission.py",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/rootfile/femto_lambda_period_mix100_20261119_001/prepare_submission.py",
+    "originalBytes": 5262,
+    "originalSha256": "804acb0ec7670368ce84104db188a40f269ff89a8ee1df55c0447da4d3f84f01",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/launch_once.py",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/rootfile/femto_lambda_period_mix100_20261119_001/launch_once.py",
+    "originalBytes": 29414,
+    "originalSha256": "e1c64597b42fe427b36c07e20b1bedc4205384b6f225a7ab7542580a35df1d61",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/joblist/joblist_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119.xml",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/job/joblist/joblist_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119.xml",
+    "originalBytes": 5148,
+    "originalSha256": "4902d7905c7830b12b47bed1d037cec50b60d0bd12cc8d08454bce71c664194c",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/submit.sh",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/job/run/submit.sh",
+    "originalBytes": 9431,
+    "originalSha256": "20570668ff79de0fb1a60a0ba72300a791970bac9034274646123f67720bb054",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/script/watch_job_notify.py",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/script/watch_job_notify.py",
+    "originalBytes": 13198,
+    "originalSha256": "f5b7acb34887153bdeaf8da2a8a39f4bd8874870b0e0ded2a00c0b3175c25ae7",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/analysis/FemtoLambdaRunSupport.h",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/analysis/FemtoLambdaRunSupport.h",
+    "originalBytes": 10041,
+    "originalSha256": "53efa40dddf9fe1035ce6917a9e585313c9eb714a41176622ce8e45a0f7b5eb6",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/analysis/anaFemtoLambda_4He_tree.C",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/analysis/anaFemtoLambda_4He_tree.C",
+    "originalBytes": 6318,
+    "originalSha256": "a704670e0b35f75ad441ec5b9b5f5457845a11b68f12f48e62e3bec8a182f93b",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/analysis/run_anaFemtoLambda_4He_tree.C",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/analysis/run_anaFemtoLambda_4He_tree.C",
+    "originalBytes": 3386,
+    "originalSha256": "61005aa499bda2d7102e0cf4b139f2b6262223b16b612acb663c05e616484d66",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/include/FemtoLambdaReducedTree.h",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/include/FemtoLambdaReducedTree.h",
+    "originalBytes": 37967,
+    "originalSha256": "a7b5c2a2332cf555ff4a5342bc8809f9a9bb77ac01f12df7026056ce19d31702",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/include/FemtoLambdaReducedTreeConfig.h",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/include/FemtoLambdaReducedTreeConfig.h",
+    "originalBytes": 6637,
+    "originalSha256": "6fe1d04d05a543407cc66f60e2eecbe4fa90a5ad367cde47f9daa16c875029cc",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/include/FemtoLambdaTreeTypes.h",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/include/FemtoLambdaTreeTypes.h",
+    "originalBytes": 117,
+    "originalSha256": "cb3ca3fa791066220531584633703cfe7b898dc6e8917ff4c1700cf75d41a8c1",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/include/FemtoLambdaTreeLinkDef.h",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/include/FemtoLambdaTreeLinkDef.h",
+    "originalBytes": 425,
+    "originalSha256": "e0dbf2fc6e95b8c56d3867aafaa5e623b79bf4a148217a12122ca197c27f00b5",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/include/FemtoCandidateEventStore.h",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/include/FemtoCandidateEventStore.h",
+    "originalBytes": 26234,
+    "originalSha256": "06d9f8b30f857f0ef75452fac5acc62d3941e48d072ea5f41673ad6f3337c5fd",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/include/FemtoCandidateEventStoreConfig.h",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/include/FemtoCandidateEventStoreConfig.h",
+    "originalBytes": 6735,
+    "originalSha256": "27b9eff05cbcc4b8bc59d77c68fb7612e3cd44858b5ced2dfac5f1b26e304f4b",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/StMaker/StFemtoMaker/StFemtoMaker.cxx",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/StMaker/StFemtoMaker/StFemtoMaker.cxx",
+    "originalBytes": 179876,
+    "originalSha256": "a40346f8b8f9794aaa5a4484d8e82f49c3d7e5bad42e1b787ca2360ec7f981a3",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/StMaker/StFemtoMaker/StFemtoMaker.h",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/StMaker/StFemtoMaker/StFemtoMaker.h",
+    "originalBytes": 16235,
+    "originalSha256": "ba356dfb92a61c7f77451a60072f4f3691bf09a2a6db47dfbeeb802b73a8f3bb",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/StMaker/common/FemtoLambdaLegacy.cxx",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/StMaker/common/FemtoLambdaLegacy.cxx",
+    "originalBytes": 87185,
+    "originalSha256": "48a6dd8df1875153345080ee514e4b4cd242d0b93d827be79daa527d95e62bd2",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/StMaker/common/FemtoLambdaLegacy.h",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/StMaker/common/FemtoLambdaLegacy.h",
+    "originalBytes": 7924,
+    "originalSha256": "b5f46be866de0446a60bba30c8a98a9ec65f566560b92b4b0ec60fcce0c0dc80",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_periodMix100.yaml",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_periodMix100.yaml",
+    "originalBytes": 931,
+    "originalSha256": "f8f8736ee6bbda263cca71ceb8e74f9622b3acf16b610f085eba5c2cce71daec",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_periodMix100.yaml",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_periodMix100.yaml",
+    "originalBytes": 1370,
+    "originalSha256": "bf539bf780a09d6449343f1e5aa0bab72ada8a23ab295ed3e989a12857ce4c01",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/event/event_femtoLambda_imp5.yaml",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/config/cuts/event/event_femtoLambda_imp5.yaml",
+    "originalBytes": 247,
+    "originalSha256": "493c22c8ec457820047b563fda66ef916efec31b5cc7bb29b02b47c395c7aac7",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/centrality/centrality_auau3p85_femtoLambda.yaml",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/config/cuts/centrality/centrality_auau3p85_femtoLambda.yaml",
+    "originalBytes": 325,
+    "originalSha256": "1cf50324a4c7f3ef308be960b87c9ebea3693031abf4f8352838027614ce4ca0",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/kf/kf_auau3p85_anaLambda_KFParticle_highpurity.yaml",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/config/cuts/kf/kf_auau3p85_anaLambda_KFParticle_highpurity.yaml",
+    "originalBytes": 1671,
+    "originalSha256": "581bab50e769a28428fe5970f72cae9acd7da104c931f83d2060a0e15f9dd425",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/nuclearid/nuclearid_femtoLambda_auau3p85_he4_accepted_20261022.yaml",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/config/cuts/nuclearid/nuclearid_femtoLambda_auau3p85_he4_accepted_20261022.yaml",
+    "originalBytes": 1539,
+    "originalSha256": "8d6fe1d422908fcd204bf59243bc4440aa4fac52f64f00b3ec8a37b471f1776f",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/maker/maker_auau3p85_anaFemtoLambda_4He_KFParticle_epdPairY10YLabMerging20261113.yaml",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/config/maker/maker_auau3p85_anaFemtoLambda_4He_KFParticle_epdPairY10YLabMerging20261113.yaml",
+    "originalBytes": 3257,
+    "originalSha256": "6953c7cb6a6a6926bd0f0058d93edb1f2ec0958c6dbd174435d09ce2767b242f",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/mixing/mixing_femtoLambda_epd8_pool100.yaml",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/config/cuts/mixing/mixing_femtoLambda_epd8_pool100.yaml",
+    "originalBytes": 251,
+    "originalSha256": "cbd844f023548aa3988fc022d9d7d6a9dfae87645f4f210fff2b0b0ff2f7c385",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_femtoLambda_tree_replay_kf.yaml",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/config/hist/hist_auau3p85_femtoLambda_tree_replay_kf.yaml",
+    "originalBytes": 33038,
+    "originalSha256": "909d65bf358185ad481257022c4eb8b0ef3919f8ccf110474c86fd57ba20668e",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_femtoLambda_he4_he3_control_epdPairY10YLabMerging20261113_nuclear.yaml",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/config/hist/hist_auau3p85_femtoLambda_he4_he3_control_epdPairY10YLabMerging20261113_nuclear.yaml",
+    "originalBytes": 92588,
+    "originalSha256": "0272779ba55203d1e90a77ede46d88123b811085c728270aed9d9263a7864102",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/event_plane/lambda_he4_xialei_epd8.yaml",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/config/event_plane/lambda_he4_xialei_epd8.yaml",
+    "originalBytes": 1100,
+    "originalSha256": "ccc0a0868f0fb40d0d75c622a2e133392a5b591458c2336f11ec7d813e58d64d",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/reduced_tree/lambda_he4_period_mix.yaml",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/config/reduced_tree/lambda_he4_period_mix.yaml",
+    "originalBytes": 255,
+    "originalSha256": "93e94dddd5f5db84af76e43a7bb6a911aba8105cdde18a856ad35fc43ab46083",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_femtoLambda_he4_he3_pid_pair_qa_selectedOnly.yaml",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/config/hist/hist_auau3p85_femtoLambda_he4_he3_pid_pair_qa_selectedOnly.yaml",
+    "originalBytes": 88721,
+    "originalSha256": "40cb6be15fbc71000ff1dbb8860902317114e4f71ee8762a5acf2111547ef763",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/event_plane/xialei_epd_2021P24iy/runs_2021.txt",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/config/event_plane/xialei_epd_2021P24iy/runs_2021.txt",
+    "originalBytes": 3492,
+    "originalSha256": "ebeb32e590666fe8db88eb9b458755a07313644a72ca1301fb65658df48be840",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/calibration/dedx_he4_auau3p85_2021P24iy_accepted_20261022.yaml",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/snapshot/config/calibration/dedx_he4_auau3p85_2021P24iy_accepted_20261022.yaml",
+    "originalBytes": 1761,
+    "originalSha256": "464e641b8e1135ab830c4f5ca4d32ef6fa5123dc87f53a045435fb87529b53da",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/submitted/runmeta_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.json",
+    "originalBytes": 4908,
+    "originalSha256": "6f2eaf826f925826b41089f9df229b122232467075c5d8e9ac9ff8bb2eef0821",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/configlog/config_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.txt",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/submitted/config_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.txt",
+    "originalBytes": 226287,
+    "originalSha256": "45017fd5190929b164cf6d1853cd930cf2c12e653391c2c4ea98e03d7453d1b4",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/joblistlog/joblist_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.xml",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/submitted/joblist_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.xml",
+    "originalBytes": 5148,
+    "originalSha256": "4902d7905c7830b12b47bed1d037cec50b60d0bd12cc8d08454bce71c664194c",
+    "gzip": false
+  },
+  {
+    "original": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/post_submission_audit.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/evidence/post_submission_audit.json",
+    "originalBytes": 3355,
+    "originalSha256": "9ac7dddbac0ff513d90ae213a922c7e67ee4eefbcaac8caa7d6469bde6c930a8",
+    "gzip": false
+  }
+]

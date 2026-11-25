@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "inputs": [
+    {
+      "path": "rootfile/femto_lambda_period_mix100_20261119_001/pilot_B_period100.root",
+      "entries": {
+        "hKstarSE_lambda_he4": 560,
+        "hKstarME_lambda_he4": 116183,
+        "hKstarSE_lambda_he4_signal": 256,
+        "hKstarME_lambda_he4_signal": 51337
+      }
+    },
+    {
+      "path": "rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilots/ep8_mergingOff.root",
+      "entries": {
+        "hKstarSE_lambda_he4": 560,
+        "hKstarME_lambda_he4": 116183,
+        "hKstarSE_lambda_he4_signal": 256,
+        "hKstarME_lambda_he4_signal": 51337
+      }
+    }
+  ],
+  "explanation": "Direct old and new ROOT GetEntries are identical for all four named histograms, with kstar underflow/overflow included. Earlier chat-summary numbers 607/100116 match neither these full-mass nor signal histograms; no ROOT comparison failure is present."
+}

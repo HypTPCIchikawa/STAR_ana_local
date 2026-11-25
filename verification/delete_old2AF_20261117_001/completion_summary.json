@@ -1,0 +1,47 @@
+{
+  "recordedJST": "2026-11-17T14:27:08.490837+09:00",
+  "deletion": {
+    "startedJST": "2026-11-17T14:22:42.365611+09:00",
+    "phase": "deleted and verified",
+    "userAuthorizedCount": 13027,
+    "manifestSha256": "8d9b6451287df40aeabd5bc13cf2888b420cfe1ff03219fe631f7a22f9a1ed9c",
+    "deletedCount": 13027,
+    "deletedLogicalBytes": 2071420278951,
+    "deletedAllocatedBytes": 2072761335808,
+    "errors": [],
+    "finishedJST": "2026-11-17T14:24:17.602184+09:00",
+    "remainingTargetCount": 0,
+    "protectedFileFingerprintsUnchanged": true,
+    "otherDirectChildrenUnchanged": true
+  },
+  "quotaBefore": {
+    "blockUsage": 2308315648,
+    "blockQuota": 2482348032,
+    "blockLimit": 3019218944,
+    "blockInDoubt": 329728,
+    "filesUsage": 468409,
+    "units": "KiB for blocks",
+    "usedBytes": 2363715223552,
+    "softHeadroomAfterInDoubtBytes": 177871519744,
+    "hardHeadroomAfterInDoubtBytes": 727627333632
+  },
+  "quotaAfter": {
+    "blockUsage": 284459776,
+    "blockQuota": 2482348032,
+    "blockLimit": 3019218944,
+    "blockInDoubt": 657408,
+    "filesUsage": 455392,
+    "units": "KiB for blocks",
+    "usedBytes": 291286810624,
+    "softHeadroomAfterInDoubtBytes": 2249964388352,
+    "hardHeadroomAfterInDoubtBytes": 2799720202240
+  },
+  "quotaUsageDecreaseBytes": 2072428412928,
+  "deletedAllocationBytes": 2072761335808,
+  "journalRows": 13027,
+  "explicitUserAuthorization": true,
+  "derivedQaAndPdfPreserved": true,
+  "sourceAndJobSubmissionNotChanged": true,
+  "newMergingComparisonStatus": "Todo recorded; not executed",
+  "note": "Quota usage delta includes filesystem accounting timing and newly written small audit/docs; it need not equal sum of deleted st_blocks exactly."
+}

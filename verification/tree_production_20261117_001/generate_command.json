@@ -1,0 +1,14 @@
+[
+  "python3",
+  "script/generate_joblist_from_list.py",
+  "--mainconf",
+  "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree.yaml",
+  "--input",
+  "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_production_20261117_001/covered388_pico_files.list",
+  "--files-per-subjob",
+  "25",
+  "--label",
+  "treeWrite20261117",
+  "--output-dir",
+  "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/production20261117"
+]

@@ -1,0 +1,79 @@
+{
+  "anaName": "auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119",
+  "createdAt": "2026-11-19T07:10:13Z",
+  "git": {
+    "branch": "main",
+    "commit": "f35f4424f35a2bb8c06458721259ae21bf24c50d",
+    "detachedHead": false,
+    "diffAgainstHead": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/gitdiff_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.patch",
+      "sha256": "b7384687ba60c03576b91330dd3a093d4fe0a8a8c6f74fffc453ad916bd18e37",
+      "sizeBytes": 180604
+    },
+    "isDirty": true,
+    "shortCommit": "f35f442",
+    "status": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/gitstatus_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.txt",
+      "sha256": "a1d4068e369658737a31ceced7c1ba4a09e3c6d497f448202cdf44fc51fa20a9",
+      "sizeBytes": 6507
+    },
+    "submoduleStatus": [
+      " a128fcb31c4b6c075674db255763f25c1703707f star_local (heads/main)"
+    ],
+    "submoduleStatusFile": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/gitsubmodules_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.txt",
+      "sha256": "2ba8badcf94f645ce10a0f54f098534ea77eed6302163eac7b5632d1d554560b",
+      "sizeBytes": 66
+    }
+  },
+  "jobPrefix": "auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix100202611192D07F680577123CABC16FDD9159CFD9E",
+  "jobid": "2D07F680577123CABC16FDD9159CFD9E",
+  "projectRoot": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer",
+  "runtime": {
+    "libraryTag": "SL24y",
+    "root4starPath": "/star/nfs4/AFS/star/packages/SL24y/.sl73_x8664_gcc485/bin/root4star",
+    "rootConfigPath": "/cvmfs/star.sdcc.bnl.gov/star-spack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/root-5.34.38-eyawaunrtayjlt3aqon5claakm3c7xl7/bin/root-config",
+    "rootVersion": "5.34/38",
+    "runtimeBundle": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runtime_bundle_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.tar.gz",
+      "sha256": "a403001a1aa93dcea3c2d7884f4f606ad6771e693453f9fc06f8c124ebc1bd3a",
+      "sizeBytes": 51912443
+    },
+    "singularityImage": "/cvmfs/singularity.opensciencegrid.org/star-bnl/star-sw:latest",
+    "starHostSys": "sl73_x8664_gcc485",
+    "sumsArtifacts": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/sums_artifacts_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.tar.gz",
+      "sha256": "e02ee77af80f1d27b10b81c0820689f8976bac9a7baceafc13c57776723b325f",
+      "sizeBytes": 26789
+    }
+  },
+  "schemaVersion": 1,
+  "submit": {
+    "analysisInfo": "analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_periodMix100.yaml",
+    "configSnapshot": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/configlog/config_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.txt",
+      "sha256": "45017fd5190929b164cf6d1853cd930cf2c12e653391c2c4ea98e03d7453d1b4",
+      "sizeBytes": 226287
+    },
+    "host": "starsub03.sdcc.bnl.gov",
+    "joblistSnapshot": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/joblistlog/joblist_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.xml",
+      "sha256": "4902d7905c7830b12b47bed1d037cec50b60d0bd12cc8d08454bce71c664194c",
+      "sizeBytes": 5148
+    },
+    "mainconf": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_periodMix100.yaml",
+    "reportPath": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix100202611192D07F680577123CABC16FDD9159CFD9E.report",
+    "sessionPath": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix100202611192D07F680577123CABC16FDD9159CFD9E.session.xml",
+    "submitStdout": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/submit_stdout_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.txt",
+      "sha256": "acdaf8e483cb4f92bc3517310a3f400bc4d2d2ef320fbe28bf9aae0372b0cc7b",
+      "sizeBytes": 5370
+    },
+    "submittedXml": {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/joblist_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119.xml",
+      "sha256": "4902d7905c7830b12b47bed1d037cec50b60d0bd12cc8d08454bce71c664194c",
+      "sizeBytes": 5148
+    },
+    "user": "yichikawa"
+  }
+}

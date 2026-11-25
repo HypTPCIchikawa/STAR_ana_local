@@ -1,0 +1,9 @@
+[
+  "bash",
+  "script/singularity_run_anaFemtoLambda_4He_tree.sh",
+  "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_replay.yaml",
+  "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/production20261117/auau3p85_anaFemtoLambda_4He_tree_9037A6F05FAD08FC8E9BD9286C8A38A5_3405.root",
+  "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_production_20261117_001/farm_probe_replay.root",
+  "farmProbe20261117",
+  "10000"
+]

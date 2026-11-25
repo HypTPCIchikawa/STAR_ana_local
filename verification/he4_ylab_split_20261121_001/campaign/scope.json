@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "particle": "physical he4",
+  "rapidity": {
+    "schemaVersion": 1,
+    "frame": "lab",
+    "nBins": 8,
+    "min": -1.0,
+    "max": 0.0,
+    "coarseBins": 4,
+    "coarseGroupSize": 2,
+    "intervalConvention": "ROOT half-open [low,high); exact maximum is overflow",
+    "retainYUnderflowOverflow": true,
+    "referenceEPBins": 8,
+    "referencePairCutEnabled": false
+  },
+  "referenceEPBins": 8,
+  "referencePairCut": false,
+  "mixingDepth": 100,
+  "withinPeriodContinuous": true,
+  "sourcePeriods": 20,
+  "produceRapidityBins": 8,
+  "coarseRapidityBins": 4,
+  "rapidityRangePendingQAAudit": false,
+  "newPicoDstJobs": false,
+  "uncalibratedRunsDeferred": 81,
+  "missingProducersDeferred": 34,
+  "baseline": "EP8/cutOff/depth100/periodContinuous",
+  "plannedProductionJobs": 20,
+  "QAInputCount": 127785819,
+  "QAInRangeFraction": 0.9991043450603858,
+  "QAPopulation": "producer selected single-particle, all cent and EP validity; not pair population"
+}

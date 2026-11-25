@@ -1,0 +1,27 @@
+{
+  "checkedAtUtc": "2026-11-22T05:53:43.324626+00:00",
+  "allTerminal": false,
+  "cases": [
+    {
+      "caseId": "he4Y8",
+      "jobid": "FEDC5185F359546FB1B7B39F70DC8144",
+      "submitted": 20,
+      "terminal": 0,
+      "outcomes": {},
+      "queueStates": {
+        "2": 20
+      },
+      "allTerminal": false,
+      "eventLog": {
+        "path": "/tmp/yichikawa/schedFEDC5185F359546FB1B7B39F70DC8144.condor.log",
+        "bytes": 14517,
+        "device": 64770,
+        "inode": 5242968,
+        "mtimeNs": 1795326605663669100,
+        "sha256": "b05b371077618a219081ba3657562638ba5b8edbf417ebe76ead07977e796457"
+      }
+    }
+  ],
+  "phase": "waiting",
+  "expectedWorkers": 20
+}

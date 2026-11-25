@@ -266,3 +266,14 @@ Pico StPicoTrackにはgMom/DCA origin/charge/helix、nHitsFit等、topologyMap/i
 ## 解析コードdebug完了 — 01:49 JST / 2026-11-13
 
 ユーザーの今回の明示指示でproduction FillMerging修正を実装し、batch-matched build・独立helix回帰・実Picoの修正hist/aliasを検証した。[詳細](../../../../analysisnote/20261113/lambda_he4_epd_ylab_merging_implementation.md)。旧physics SE/ME1675hist・約4000万cellsは不変。新close-pair cutなし。旧全成功統計の図を更新したものではなく、元から保留中の2D ME/逆rigidity/geometry cache・効率調査は引き続き未実施。本番再投入・mailなし。
+
+
+## 2026-11-17：旧候補cache廃止後の傾向確認Todo
+
+ユーザーが旧2AF候補ROOT13,027本の削除を明示指示した。作成済みの最終PDF/集約QA ROOT/検証・source記録を保持する。[削除と再確認のTodo](../17/old2AF_retirement_and_merging_recheck.md)。
+
+- [ ] 新しい`anaFemtoLambda_4He_tree`からΔφ*–Δηを再作成し、`final_fullstats_20261112_004/track_merging_fullstats.pdf`と、proton/π⁻の全域・原点zoomの傾向が一致するか確認する。fixed r=1.4m/globalηなどの定義とevent/PID/統計差を照合して比較する。
+
+これは今後実施する再確認であり、新しいQA job投入や比較完了を意味しない。
+
+旧2AFの13,027本は2026-11-17に削除完了・残存0本を確認した。既存全統計のPDF/集約QA ROOT/検証資料は指紋不変で保持。上の新treeからの傾向比較は未実施のTodoとして維持する。

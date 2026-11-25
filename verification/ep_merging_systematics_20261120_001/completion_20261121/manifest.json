@@ -1,0 +1,120 @@
+{
+  "savedUTC": "2026-11-21T11:27:58.094643+00:00",
+  "records": [
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/completion_verified.json",
+      "copy": "study/aggregate_watch_001/completion_verified.json",
+      "bytes": 659730,
+      "sha256": "604bcc595777c266862a54c52d5409f7521b7368c79a3c6e947ff8b88a24f055"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/postprocess_verified.json",
+      "copy": "study/aggregate_watch_001/postprocess_verified.json",
+      "bytes": 851,
+      "sha256": "2ba18a43aabd827b587fb092a7afd3af856fbd9a49852c0a00ba0e7c25ad27e0"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/sent.json",
+      "copy": "study/aggregate_watch_001/sent.json",
+      "bytes": 255,
+      "sha256": "4b9b0d6ea8df919931f85d9d9397ab6c15e3ab0424b8816bc528c0dfc53ae759"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/status.json",
+      "copy": "study/aggregate_watch_001/status.json",
+      "bytes": 369,
+      "sha256": "a01ef4eb4ce03a1677726e2da4ff413ad97fb01b058d46cd3647760a055bb05e"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/cf_comparison/completed.json",
+      "copy": "study/aggregate_watch_001/cf_comparison/completed.json",
+      "bytes": 3514,
+      "sha256": "163517fb63d010f20baf0d25360b4842c8742c0ff2ce8a1845c9479c82800f48"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/cf_comparison/cf_comparison.json",
+      "copy": "study/aggregate_watch_001/cf_comparison/cf_comparison.json.gz",
+      "bytes": 3386714,
+      "sha256": "d2f26eba38ca5ef72118fc5dbdfa901a323696864de456f3bb3ec2b797f48015"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/cf_comparison/input_provenance.json",
+      "copy": "study/aggregate_watch_001/cf_comparison/input_provenance.json",
+      "bytes": 73425,
+      "sha256": "1991a680cd1ed46dfa14caadfa56fedd5c428285e87635fa4505ca4a435fa699"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/completion_audit_20261121/summarize_cf.py",
+      "copy": "study/completion_audit_20261121/summarize_cf.py",
+      "bytes": 5923,
+      "sha256": "764be55a2de22ca54f91188387c656eecae2c3df9c823f54ad46597d149085e9"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/completion_audit_20261121/cf_results_summary.json",
+      "copy": "study/completion_audit_20261121/cf_results_summary.json",
+      "bytes": 16333,
+      "sha256": "51346935335e41264264a775fb8beea16329f03a46be7695d8ccf3fd0da8b8bc"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/completion_audit_20261121/cf_results_summary.tsv",
+      "copy": "study/completion_audit_20261121/cf_results_summary.tsv",
+      "bytes": 817,
+      "sha256": "74a3a3925ce5ba5744b6dcb9e5e408c227e6cfb8099d337d5425fd29b131b9c7"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/completion_audit_20261121/published_pdf_manifest.json",
+      "copy": "study/completion_audit_20261121/published_pdf_manifest.json",
+      "bytes": 1459,
+      "sha256": "e92c6a13a686b8491c0580da1304ed1eb24ed5c77e6d913ac11bdb37da0a0e67"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/completion_audit_20261121/audit_completion_independent.py",
+      "copy": "study/completion_audit_20261121/audit_completion_independent.py",
+      "bytes": 6109,
+      "sha256": "b51923088efd1c448e66a5ebb87e222d30e59198bd1b503f35ab383960431fe7"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/completion_audit_20261121/quota_after_completion.json",
+      "copy": "study/completion_audit_20261121/quota_after_completion.json",
+      "bytes": 633,
+      "sha256": "6f3fa0fa993f88a170d86537d86c3959c38374b90edada9e2bc34ec9852b60ed"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/completion_audit_20261121/independent_completion_agent.json",
+      "copy": "study/completion_audit_20261121/independent_completion_agent.json",
+      "bytes": 3693,
+      "sha256": "50bd60b2b8d31950bb33fd00785064fecb4cea83332208aa48fb7dad84319b8f"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/completion_audit_20261121/parent_completion_confirmation.json",
+      "copy": "study/completion_audit_20261121/parent_completion_confirmation.json",
+      "bytes": 581,
+      "sha256": "9a96551e844aba340afb76253a85aded9cee596ec0e594b74924a3734a7aecf0"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261121_lambda_ep_cut_comparison/README.md",
+      "copy": "figures/README.md",
+      "bytes": 2437,
+      "sha256": "8bdcf90570ef86256a65f028d92b7751cf3654df047da9fb79b67d6c329f00ac"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261121_lambda_ep_cut_comparison/cf_comparison.pdf",
+      "copy": "figures/cf_comparison.pdf",
+      "bytes": 619942,
+      "sha256": "29b699a785820633d9ec9af80ffbe9920a477fa8b842c4d6a84f46125f3b9556"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261121_lambda_ep_cut_comparison/cf_plane_diagnostic.pdf",
+      "copy": "figures/cf_plane_diagnostic.pdf.gz",
+      "bytes": 1273138,
+      "sha256": "2a9b45846c6f50146ef4960a78de6397d01354141980df25dbd62db5427c03e2"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261121_lambda_ep_cut_comparison/raw_se_me_scaled.pdf",
+      "copy": "figures/raw_se_me_scaled.pdf",
+      "bytes": 980807,
+      "sha256": "bc9e0666db584387636e2136f415b8b475c1d478455e670818455776471c7b57"
+    }
+  ],
+  "rootFilesCopied": 0
+}

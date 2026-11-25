@@ -1,0 +1,351 @@
+{
+  "preparedJST": "2026-11-17T14:20:23.635570+09:00",
+  "phase": "prepared; deletion not started",
+  "explicitUserAuthorization": "旧2AF候補ROOT・13,027本を削除しましょう。TodoとしてΔφ*–Δηヒストと指定PDFの傾向一致確認を追記。",
+  "targetDirectory": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle",
+  "targetDirectoryResolved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_KFParticle",
+  "targetDirectoryIdentity": {
+    "device": 48,
+    "inode": 954722619
+  },
+  "prefix": "auau3p85_anaFemtoLambda_4He_KFParticle_2AF731F2C75544890B4E858354DDE43D_",
+  "count": 13027,
+  "logicalBytes": 2071420278951,
+  "allocatedBytes": 2072761335808,
+  "zeroByteFiles": 2492,
+  "manifest": "targets.jsonl.gz",
+  "manifestSha256": "8d9b6451287df40aeabd5bc13cf2888b420cfe1ff03219fe631f7a22f9a1ed9c",
+  "protectedFiles": [
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/final_fullstats_20261112_004/track_merging_fullstats.pdf",
+      "device": 48,
+      "inode": 5177619,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 1,
+      "bytes": 39818,
+      "allocatedBytes": 262144,
+      "mtimeNs": 1794435141793693000,
+      "ctimeNs": 1794435141793548185,
+      "sha256": "44c1b3dc0ea61ed45bbbcde753fe0061800e33febe8d16d396ecc8a684ef24de"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/final_fullstats_20261112_004/track_merging_fullstats_comparison.pdf",
+      "device": 48,
+      "inode": 976667,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 1,
+      "bytes": 118791,
+      "allocatedBytes": 262144,
+      "mtimeNs": 1794435142400748755,
+      "ctimeNs": 1794435142400748755,
+      "sha256": "0af03a4c0655f5b8f91ec26d2bae226630626214dcebb0377b99297100d7edac"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/final_fullstats_20261112_004/track_merging_fullstats.png",
+      "device": 48,
+      "inode": 975273,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 1,
+      "bytes": 76018,
+      "allocatedBytes": 262144,
+      "mtimeNs": 1794435142193451771,
+      "ctimeNs": 1794435142193451771,
+      "sha256": "58884eeda3f245e726f2b6907ad8a706c8dd23d999f085697cbf3c3cb4c31281"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/final_fullstats_20261112_004/completed.json",
+      "device": 48,
+      "inode": 5177667,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 1,
+      "bytes": 4660,
+      "allocatedBytes": 262144,
+      "mtimeNs": 1794435314203588000,
+      "ctimeNs": 1794435314201448913,
+      "sha256": "435f88bc3be63ffb32dd14485d2cd1eccf93a2d52df332556c671d89765b03de"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/final_fullstats_20261112_004/independent_campaign_validation.json",
+      "device": 48,
+      "inode": 5177723,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 1,
+      "bytes": 10196,
+      "allocatedBytes": 262144,
+      "mtimeNs": 1794435226136938000,
+      "ctimeNs": 1794435226134473993,
+      "sha256": "cced0f13924a0b7b0dc3eff4eb6e743052efc0fc54a843afb91941487afc97b4"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_10087_20261111T162940Z.root",
+      "device": 48,
+      "inode": 2150504016,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 1,
+      "bytes": 2743967,
+      "allocatedBytes": 2883584,
+      "mtimeNs": 1794414583665935185,
+      "ctimeNs": 1794414583665935185,
+      "sha256": "f0cb59e9ea4978e3e9b151fe086b37498d0036d2fc43df3cafc7c43a1f78e89b"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10/covered388p25/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10_FD44A5EB1B0AA22C546F169E86482587_merge.root",
+      "device": 48,
+      "inode": 769683426,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 2,
+      "bytes": 9282201802,
+      "allocatedBytes": 9282256896,
+      "mtimeNs": 1794636078792117886,
+      "ctimeNs": 1794650580724186000,
+      "hashPolicy": "stat only for large current CF result"
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10/covered388p25/auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10_DA0DEB4347BD834F1096F8D8798F2133_merge.root",
+      "device": 48,
+      "inode": 769683428,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 2,
+      "bytes": 9282162513,
+      "allocatedBytes": 9282256896,
+      "mtimeNs": 1794636086144273909,
+      "ctimeNs": 1794650542507315000,
+      "hashPolicy": "stat only for large current CF result"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/producer_compact_10k.root",
+      "device": 48,
+      "inode": 713946422,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 1,
+      "bytes": 3100258,
+      "allocatedBytes": 3145728,
+      "mtimeNs": 1794882320982605428,
+      "ctimeNs": 1794882320982605428,
+      "sha256": "62fa70023b0c91ddeafa3445d39754a75748d757e6501083552e6027ed530c88"
+    },
+    {
+      "path": "rootfile/femto_lambda_tree_implementation_20261117_001/compact_replay_10k.root",
+      "device": 48,
+      "inode": 713946602,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 1,
+      "bytes": 2264468,
+      "allocatedBytes": 2359296,
+      "mtimeNs": 1794882669434936327,
+      "ctimeNs": 1794882669434936327,
+      "sha256": "0e46838e764e02745a921d46d24bee8b8b187df7c4d9a6714e5b1d00ef472cff"
+    }
+  ],
+  "otherDirectChildren": [
+    {
+      "name": ".merge_staging_auau3p85_anaFemtoLambda_4He_KFParticle_1CE33994716F7896423A80AB994BAB14",
+      "device": 48,
+      "inode": 46839502,
+      "mode": 16877
+    },
+    {
+      "name": ".merge_staging_partial_merge_20261023",
+      "device": 48,
+      "inode": 130472766,
+      "mode": 16877
+    },
+    {
+      "name": ".merge_staging_partial_merge_accepted_20261025",
+      "device": 48,
+      "inode": 334439448,
+      "mode": 16877
+    },
+    {
+      "name": ".merge_staging_partial_merge_checkpoint_20261023",
+      "device": 48,
+      "inode": 143343936,
+      "mode": 16877
+    },
+    {
+      "name": ".merge_staging_partial_merge_native_verified_20261025",
+      "device": 48,
+      "inode": 124336031,
+      "mode": 16877
+    },
+    {
+      "name": ".merge_staging_split_sparse_final_20261026",
+      "device": 48,
+      "inode": 985993282,
+      "mode": 16877
+    },
+    {
+      "name": "README.md",
+      "device": 48,
+      "inode": 955248680,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 1,
+      "bytes": 19545,
+      "allocatedBytes": 262144,
+      "mtimeNs": 1793766798621432000,
+      "ctimeNs": 1793766798619571978
+    },
+    {
+      "name": "README_outputs_04BF2DAE47164B6F040E3A460E539289.md",
+      "device": 48,
+      "inode": 988094679,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 1,
+      "bytes": 5623,
+      "allocatedBytes": 262144,
+      "mtimeNs": 1793766798638877000,
+      "ctimeNs": 1793766798636543570
+    },
+    {
+      "name": "archive",
+      "device": 48,
+      "inode": 174388211,
+      "mode": 16877
+    },
+    {
+      "name": "auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_merge.root",
+      "device": 48,
+      "inode": 985993881,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 1,
+      "bytes": 14064010756,
+      "allocatedBytes": 14064025600,
+      "mtimeNs": 1792979968489270322,
+      "ctimeNs": 1793766309286229000
+    },
+    {
+      "name": "auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_outputs.json",
+      "device": 48,
+      "inode": 585330258,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 1,
+      "bytes": 5566,
+      "allocatedBytes": 262144,
+      "mtimeNs": 1792980546853271000,
+      "ctimeNs": 1792980546853139109
+    },
+    {
+      "name": "auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_pid_pair_joint_part000.root",
+      "device": 48,
+      "inode": 983893531,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 1,
+      "bytes": 296584743,
+      "allocatedBytes": 296747008,
+      "mtimeNs": 1792974306306331787,
+      "ctimeNs": 1793766309287155000
+    },
+    {
+      "name": "auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_pid_pair_joint_part001.root",
+      "device": 48,
+      "inode": 986520591,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 1,
+      "bytes": 296964946,
+      "allocatedBytes": 297009152,
+      "mtimeNs": 1792974362068097703,
+      "ctimeNs": 1793766309285540000
+    },
+    {
+      "name": "auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_pid_pair_joint_part002.root",
+      "device": 48,
+      "inode": 985993882,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 1,
+      "bytes": 262328952,
+      "allocatedBytes": 262406144,
+      "mtimeNs": 1792974412553130373,
+      "ctimeNs": 1793766309284385000
+    },
+    {
+      "name": "auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_pid_pair_joint_parts.list",
+      "device": 48,
+      "inode": 583754567,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 1,
+      "bytes": 627,
+      "allocatedBytes": 262144,
+      "mtimeNs": 1792980546847730000,
+      "ctimeNs": 1792980546847608407
+    },
+    {
+      "name": "auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_project_joint_parts.C",
+      "device": 48,
+      "inode": 539101756,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 1,
+      "bytes": 1697,
+      "allocatedBytes": 262144,
+      "mtimeNs": 1792980546884864000,
+      "ctimeNs": 1792980546884673954
+    },
+    {
+      "name": "auau3p85_anaFemtoLambda_4He_KFParticle_1CE33994716F7896423A80AB994BAB14_merge.root",
+      "device": 48,
+      "inode": 438719630,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 2,
+      "bytes": 11019456466,
+      "allocatedBytes": 11019485184,
+      "mtimeNs": 1793978966351719773,
+      "ctimeNs": 1793979655811238000
+    },
+    {
+      "name": "auau3p85_anaFemtoLambda_4He_KFParticle_2021P24iy_partial_merge.root",
+      "device": 48,
+      "inode": 82490341,
+      "mode": 33188,
+      "uid": 102335,
+      "nlink": 1,
+      "bytes": 10522646853,
+      "allocatedBytes": 10522722304,
+      "mtimeNs": 1790979373044137604,
+      "ctimeNs": 1793766311138652000
+    },
+    {
+      "name": "pdf",
+      "device": 48,
+      "inode": 841613891,
+      "mode": 16877
+    },
+    {
+      "name": "recoveries",
+      "device": 48,
+      "inode": 1005569835,
+      "mode": 16877
+    },
+    {
+      "name": "subjobs",
+      "device": 48,
+      "inode": 841613595,
+      "mode": 16877
+    },
+    {
+      "name": "tests",
+      "device": 48,
+      "inode": 180690965,
+      "mode": 16877
+    }
+  ],
+  "policy": "Only exact old2AF numeric-subjob .root files in this directory. Do not delete logs/scripts/config/derived QA/PDF/other campaign outputs. No full-content backup of retired old2AF ROOT requested or made."
+}

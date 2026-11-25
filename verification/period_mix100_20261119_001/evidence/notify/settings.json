@@ -1,0 +1,13 @@
+{
+  "runmeta": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_tree_periodMix100_periodMix10020261119_2D07F680577123CABC16FDD9159CFD9E.json",
+  "eventLog": "/tmp/yichikawa/sched2D07F680577123CABC16FDD9159CFD9E.condor.log",
+  "email": "yudai.ichikawa.d3@tohoku.ac.jp",
+  "emailContent": "minimal",
+  "stateDirectory": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/notify",
+  "pollSeconds": 300,
+  "settleSeconds": 300,
+  "expectedSubjobs": 20,
+  "pid": 1776689,
+  "host": "starsub03.sdcc.bnl.gov",
+  "startedAt": "2026-11-19T16:10:19.425843+09:00"
+}

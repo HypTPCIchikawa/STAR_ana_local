@@ -1,0 +1,155 @@
+{
+  "createdUTC": "2026-11-22T04:54:06.997847+00:00",
+  "files": [
+    {
+      "path": "Makefile",
+      "bytes": 21529,
+      "sha256": "a95136a43184825f9e98d8d532ed0f526a7d2efbfa1dd3415f44101f64d36130",
+      "planned": true
+    },
+    {
+      "path": "StMaker/StFemtoMaker/README.md",
+      "bytes": 61706,
+      "sha256": "0d28aa4479f4a55da6da7914e23d4c3c01099ad6fdc2d57b03b9cc0404fab56d",
+      "planned": true
+    },
+    {
+      "path": "StMaker/StFemtoMaker/StFemtoMaker.cxx",
+      "bytes": 181625,
+      "sha256": "9fa9f73637c586a692a48bf110fb8b392938574dc66037b1083907a599c3f3e5",
+      "planned": false
+    },
+    {
+      "path": "StMaker/StFemtoMaker/StFemtoMaker.h",
+      "bytes": 16403,
+      "sha256": "5e4bec11c498cc39fc684c9d3eacea5e35cae503a3812155a45570dffcb81e1e",
+      "planned": false
+    },
+    {
+      "path": "StMaker/common/FemtoLambdaLegacy.cxx",
+      "bytes": 96026,
+      "sha256": "5a701233f5722749e9f090f8c605ee16c688956f067c2d7f0f02103b46f2dce3",
+      "planned": true
+    },
+    {
+      "path": "StMaker/common/FemtoLambdaLegacy.h",
+      "bytes": 8860,
+      "sha256": "5e67ef4434a4d994b27e5d01b591677f640bccc5d06dcf167755cc99254c1a93",
+      "planned": true
+    },
+    {
+      "path": "common/macro/checkHistAnaFemtoLambda.C",
+      "bytes": 25471,
+      "sha256": "27b23231412546192f1998bd42efe316d04075d4de09b76dcc2a6149e19e5dea",
+      "planned": false
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_3He_KFParticle_highpurity.yaml",
+      "bytes": 748,
+      "sha256": "54f3e66d877deec1af5d4b4fd08b72ced8da9990c1f8bda1227a8efd5480fd40",
+      "planned": false
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_KFParticle_highpurity.yaml",
+      "bytes": 888,
+      "sha256": "2ae9496c9d46ac606474c29a0db2b174a987b41675d5a709943d6f136c73dec5",
+      "planned": false
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_d_KFParticle_highpurity.yaml",
+      "bytes": 754,
+      "sha256": "62ddbc22dbde9ac753cd9561ac48807a9212c8496de11f6232a19ccbd9234feb",
+      "planned": false
+    },
+    {
+      "path": "config/mainconf/main_auau3p85_anaFemtoLambda_t_KFParticle_highpurity.yaml",
+      "bytes": 750,
+      "sha256": "874edbfa51944dc284637901d92352731219e8a6b810c399ae3b39a1918ec78b",
+      "planned": false
+    },
+    {
+      "path": "config/maker/maker_anaFemtoLambda_3He_KFParticle.yaml",
+      "bytes": 1956,
+      "sha256": "1389551a9088a17717c9f122c8389afcbe5776c08811458d2ac7d6a05fb31476",
+      "planned": false
+    },
+    {
+      "path": "config/maker/maker_anaFemtoLambda_4He_KFParticle.yaml",
+      "bytes": 1956,
+      "sha256": "3a75316ea60ba0daa00ad5c75d9ef557815e490908f618211be48e68198abcbe",
+      "planned": false
+    },
+    {
+      "path": "config/maker/maker_anaFemtoLambda_d_KFParticle.yaml",
+      "bytes": 2016,
+      "sha256": "1fcaa0512c527e8c564d68b92bba1675aee6dcf986593995a929feeb0eb5df6d",
+      "planned": false
+    },
+    {
+      "path": "config/maker/maker_anaFemtoLambda_t_KFParticle.yaml",
+      "bytes": 1992,
+      "sha256": "7e8fa7de5d36cbba4760ea5288a32e4b97aed17e8b77a50c555359eea3e77044",
+      "planned": false
+    },
+    {
+      "path": "config/maker/maker_auau3p85_anaFemtoLambda_4He_KFParticle_he3Control.yaml",
+      "bytes": 3117,
+      "sha256": "55c89dc699f97b0fb574cc3bdf6ecc6a3d27f5faffa019d9269ca04ac47faaf2",
+      "planned": false
+    },
+    {
+      "path": "docs/REFERENCE.md",
+      "bytes": 96924,
+      "sha256": "d9eb317f3a740d65efc807ff3c93345b58fef3b3743c5167dedb709b04bc9ce1",
+      "planned": false
+    },
+    {
+      "path": "include/FemtoEpdEventPlane.h",
+      "bytes": 3399,
+      "sha256": "17133c212b02346a83c4915d24cdada179981d85c5bd3f1d043153c2677ef122",
+      "planned": false
+    },
+    {
+      "path": "job/run/README.md",
+      "bytes": 24989,
+      "sha256": "365919e374b9a2b7e481aa5ee368a4869a61760a511ec83bc26b5c9a9fbe20c7",
+      "planned": false
+    },
+    {
+      "path": "tools/auau3p85GeV/Draw_LambdaInvMass.C",
+      "bytes": 2430,
+      "sha256": "8e2138b441e38450c77d189da4e3b510b42858a4bb27a40f3eb847340630ae21",
+      "planned": false
+    },
+    {
+      "path": "tools/auau3p85GeV/check_Lambda_SN.C",
+      "bytes": 1826,
+      "sha256": "ef072df11ea6b9a80f3f9489299af4ac5d778ff5fe0572a575e2f094da73962f",
+      "planned": false
+    },
+    {
+      "path": "tools/auau3p85GeV/draw_LambdaNuclearId_relamom_sum_CFsub.C",
+      "bytes": 21920,
+      "sha256": "d8e326348c650c2cd7eff316ca6c27ab36c9054e0f5432e0d0114cb5f0c183ce",
+      "planned": false
+    },
+    {
+      "path": "tools/auau3p85GeV/draw_LambdaNuclearId_relamom_sum_CFsub_method5.C",
+      "bytes": 13903,
+      "sha256": "5d55c7bcbb5ab080abe07fd9c02a906b01edbc6823e7896cbd72872749bada2e",
+      "planned": false
+    },
+    {
+      "path": "tools/draw_LambdaNuclearId_relamom_sum_CFsub_method5.C",
+      "bytes": 13951,
+      "sha256": "e1eebfe451d08c08921554936b6b913a2d7016f20b69ab0b827ec5a76038db64",
+      "planned": false
+    }
+  ],
+  "plannedSourceEdits": [
+    "StMaker/common/FemtoLambdaLegacy.cxx",
+    "StMaker/common/FemtoLambdaLegacy.h",
+    "StMaker/StFemtoMaker/README.md",
+    "Makefile"
+  ]
+}

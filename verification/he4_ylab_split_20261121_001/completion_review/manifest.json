@@ -1,0 +1,66 @@
+{
+  "checkedAtUTC": "2026-11-22T13:57:10.196315+00:00",
+  "files": [
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/completion_verified.json",
+      "path": "completion_verified.json",
+      "sha256": "3169879262f8631cb4b33d983a1f995549fcb39c8f72c044f1c02d1a2372522f",
+      "bytes": 73742
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/postprocess_verified.json",
+      "path": "postprocess_verified.json",
+      "sha256": "8f6efe1fb926ba1324d9844cb50e61baebd13e57b0c687215011dd33971f546a",
+      "bytes": 769
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/sent.json",
+      "path": "sent.json",
+      "sha256": "3ae220192f3dd7de05246029620e45c0d3125d2a90de25fc8d907659dfdb8091",
+      "bytes": 255
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/launch_state.json",
+      "path": "launch_state.json",
+      "sha256": "51c5197ed293bfe301e5f90f5d63639b93d9307aeaf784664748ab7bf6ec5158",
+      "bytes": 1026
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/completed.json",
+      "path": "completed.json",
+      "sha256": "94334a2ac0a6b1297ac7eb6868b7be9c7029025b26b3d8348b9aeba848f6b7b4",
+      "bytes": 4756
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/input_provenance.json",
+      "path": "input_provenance.json",
+      "sha256": "b8980388e12655f5ce5faa2dc4597c91c73a44b63e100b554077199de3ca366e",
+      "bytes": 23442
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/extract.log",
+      "path": "extract.log",
+      "sha256": "95891f6c88f5d6f3c52fba327a6b8fd5288340d9b7735e6f427371805fc4d3b5",
+      "bytes": 1647
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_review_20261122_001/verification.json",
+      "path": "verification.json",
+      "sha256": "eb421ae1bb78b7114e7fe1a172e635d168b7f192f35b6f33558a31efec0d6624",
+      "bytes": 12639
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_review_20261122_001/numeric_summary.json",
+      "path": "numeric_summary.json",
+      "sha256": "3d3eba45f13a3c1515cfc6b65d8f5ffe8cb92a35b21fde32ecd6f7349400972e",
+      "bytes": 44965
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y_cf_metrics.json",
+      "path": "he4_y_cf_metrics.json.gz",
+      "sourceSha256": "551d200b6776119e98633d8223f4dd175c397a6360a119060c1b5a15e7b74961",
+      "storedSha256": "19fd14f62b5b293cfc222350d2324061206eab48cd788921cae234759018bbd5",
+      "storedBytes": 531587
+    }
+  ]
+}

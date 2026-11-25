@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "producerSources": 20,
+  "producerEntries": 127785819,
+  "sumContents": 127785819,
+  "replayRepresentativeEntries": 0,
+  "nativeYRange": [
+    -5,
+    5
+  ],
+  "nativeWidth": 0.04999999999999982,
+  "occupiedRegularBinEnvelope": [
+    -1.25,
+    0
+  ],
+  "yUnderflow": 0,
+  "yOverflow": 0,
+  "ranges": [
+    {
+      "bounds": [
+        -1.5,
+        0.5
+      ],
+      "inside": 127785819,
+      "below": 0,
+      "atOrAbove": 0,
+      "fractionInside": 1.0
+    },
+    {
+      "bounds": [
+        -2,
+        0
+      ],
+      "inside": 127785819,
+      "below": 0,
+      "atOrAbove": 0,
+      "fractionInside": 1.0
+    },
+    {
+      "bounds": [
+        -1,
+        0
+      ],
+      "inside": 127671367,
+      "below": 114452,
+      "atOrAbove": 0,
+      "fractionInside": 0.9991043450603858
+    },
+    {
+      "bounds": [
+        -2,
+        0.5
+      ],
+      "inside": 127785819,
+      "below": 0,
+      "atOrAbove": 0,
+      "fractionInside": 1.0
+    },
+    {
+      "bounds": [
+        -2,
+        2
+      ],
+      "inside": 127785819,
+      "below": 0,
+      "atOrAbove": 0,
+      "fractionInside": 1.0
+    }
+  ],
+  "fourAndEightRangeMinus1p5To0p5": {
+    "eightEdges": [
+      -1.5,
+      -1.25,
+      -1.0,
+      -0.75,
+      -0.5,
+      -0.25,
+      0.0,
+      0.25,
+      0.5
+    ],
+    "eightCounts": [
+      0,
+      114452,
+      5017097,
+      21807910,
+      53976218,
+      46870142,
+      0,
+      0
+    ],
+    "fourEdges": [
+      -1.5,
+      -1.0,
+      -0.5,
+      0.0,
+      0.5
+    ],
+    "fourCounts": [
+      114452,
+      26825007,
+      100846360,
+      0
+    ]
+  },
+  "sourceStatsUnchanged": true,
+  "treeEntriesRead": 0,
+  "scope": "fixed producer single-particle QA; all accepted centralities and EP validity states; not a pair-weighted/cent9-filtered distribution",
+  "sourceFilesUnchanged": 21
+}

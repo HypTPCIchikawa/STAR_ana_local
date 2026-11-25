@@ -1,0 +1,1058 @@
+{
+  "passed": true,
+  "schemaVersion": 1,
+  "createdUtc": "2026-11-21T04:30:43.166666+00:00",
+  "checks": 12113,
+  "sourceSha256": {
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/cf_baseline_ep8Off_002/raw_histograms.json": "89cff02dfd335348f14d1a1166ecb51b789c34d5d8b6ea364135d0d400cd9f7d",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/cf_baseline_ep8Off_002/cf_comparison.json": "d9bd3664736073d6329bcadb78d10231e61497336d566b245ca9910ccb7c0731"
+  },
+  "helperSha256": "4caadd1f0baf387fb6a89da6dfb69c4fffdec47eab4b18e9df8ca6edf15d88a4",
+  "treeEntriesRead": 0,
+  "centralityCombination": "Sum raw native-bin SE and ME over cent9 2-8, then derive one alpha for each plane.",
+  "normalization": "alpha=SE([.4,.5))/ME([.4,.5)); integralCF(W)=SE(W)/(alpha*ME(W)).",
+  "intervalConvention": "Half-open intervals; all bounds align with native X edges. X under/overflow are included in closure and listed separately, not folded into high-k windows.",
+  "closure": [
+    {
+      "cent9": 0,
+      "field": "SE",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 5,
+      "overflow": 1,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 0,
+      "field": "ME",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 6639,
+      "overflow": 2366,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 0,
+      "field": "SEVariance",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 5,
+      "overflow": 1,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 0,
+      "field": "MEVariance",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 6639.0,
+      "overflow": 2366,
+      "maxAbsoluteDifference": 7.105427357601002e-15
+    },
+    {
+      "cent9": 1,
+      "field": "SE",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 210,
+      "overflow": 63,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 1,
+      "field": "ME",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 90018,
+      "overflow": 34660,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 1,
+      "field": "SEVariance",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 210.0,
+      "overflow": 63,
+      "maxAbsoluteDifference": 4.440892098500626e-16
+    },
+    {
+      "cent9": 1,
+      "field": "MEVariance",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 90018.0,
+      "overflow": 34660,
+      "maxAbsoluteDifference": 7.105427357601002e-15
+    },
+    {
+      "cent9": 2,
+      "field": "SE",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 1671,
+      "overflow": 734,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 2,
+      "field": "ME",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 518588,
+      "overflow": 234686,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 2,
+      "field": "SEVariance",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 1671.0,
+      "overflow": 734.0,
+      "maxAbsoluteDifference": 1.7763568394002505e-15
+    },
+    {
+      "cent9": 2,
+      "field": "MEVariance",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 518588.0,
+      "overflow": 234686,
+      "maxAbsoluteDifference": 5.684341886080802e-14
+    },
+    {
+      "cent9": 3,
+      "field": "SE",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 10156,
+      "overflow": 5381,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 3,
+      "field": "ME",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 2395020,
+      "overflow": 1230086,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 3,
+      "field": "SEVariance",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 10156.0,
+      "overflow": 5381,
+      "maxAbsoluteDifference": 7.105427357601002e-15
+    },
+    {
+      "cent9": 3,
+      "field": "MEVariance",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 2395020.0,
+      "overflow": 1230086,
+      "maxAbsoluteDifference": 5.684341886080802e-14
+    },
+    {
+      "cent9": 4,
+      "field": "SE",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 38328,
+      "overflow": 22036,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 4,
+      "field": "ME",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 7866026,
+      "overflow": 4612641,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 4,
+      "field": "SEVariance",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 38328.0,
+      "overflow": 22036,
+      "maxAbsoluteDifference": 2.842170943040401e-14
+    },
+    {
+      "cent9": 4,
+      "field": "MEVariance",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 7866026.0,
+      "overflow": 4612641,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 5,
+      "field": "SE",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 117310,
+      "overflow": 76401,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 5,
+      "field": "ME",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 23269506,
+      "overflow": 15461462,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 5,
+      "field": "SEVariance",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 117310.0,
+      "overflow": 76401,
+      "maxAbsoluteDifference": 2.842170943040401e-14
+    },
+    {
+      "cent9": 5,
+      "field": "MEVariance",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 23269506.0,
+      "overflow": 15461462,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 6,
+      "field": "SE",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 257182,
+      "overflow": 186085,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 6,
+      "field": "ME",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 50783392,
+      "overflow": 38073050,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 6,
+      "field": "SEVariance",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 257182.0,
+      "overflow": 186085,
+      "maxAbsoluteDifference": 2.2737367544323206e-13
+    },
+    {
+      "cent9": 6,
+      "field": "MEVariance",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 50783392.0,
+      "overflow": 38073050,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 7,
+      "field": "SE",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 222465,
+      "overflow": 171020,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 7,
+      "field": "ME",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 44047415,
+      "overflow": 35701731,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 7,
+      "field": "SEVariance",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 222465.0,
+      "overflow": 171020,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 7,
+      "field": "MEVariance",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 44047415.0,
+      "overflow": 35701731,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 8,
+      "field": "SE",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 626649,
+      "overflow": 486226,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 8,
+      "field": "ME",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 127531627,
+      "overflow": 107921405,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "cent9": 8,
+      "field": "SEVariance",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 626649.0,
+      "overflow": 486226,
+      "maxAbsoluteDifference": 5.684341886080802e-14
+    },
+    {
+      "cent9": 8,
+      "field": "MEVariance",
+      "binsChecked": 202,
+      "underflow": 0,
+      "regular": 127531627.0,
+      "overflow": 107921405,
+      "maxAbsoluteDifference": 0
+    }
+  ],
+  "curves": [
+    {
+      "plane": -1,
+      "centrality": "0-60%",
+      "cent9": [
+        2,
+        8
+      ],
+      "nativeBinWidthGeVc": 0.005,
+      "normalizationGeVc": [
+        0.4,
+        0.5
+      ],
+      "normSE": 119333,
+      "normME": 22854688,
+      "normAlpha": 0.005221379526161109,
+      "normalizationWindowIntegralCF": 1.0,
+      "countsIncludingFlow": {
+        "SE": {
+          "underflow": 0,
+          "regular": 1273761,
+          "overflow": 947883,
+          "allIncludingFlow": 2221644
+        },
+        "ME": {
+          "underflow": 0,
+          "regular": 256411574,
+          "overflow": 203235061,
+          "allIncludingFlow": 459646635
+        }
+      },
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "SE": 157596,
+          "ME": 30633991,
+          "alphaScaledME": 159951.6934120037,
+          "integralCF": 0.9852724696953605
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "SE": 405750,
+          "ME": 81688706,
+          "alphaScaledME": 426527.7370269942,
+          "integralCF": 0.9512863168716289
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1.0
+          ],
+          "SE": 453413,
+          "ME": 95200344,
+          "alphaScaledME": 497077.1270450946,
+          "integralCF": 0.9121582453317483
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1.0
+          ],
+          "SE": 859163,
+          "ME": 176889050,
+          "alphaScaledME": 923604.8640720889,
+          "integralCF": 0.930227885777939
+        }
+      }
+    },
+    {
+      "plane": 0,
+      "centrality": "0-60%",
+      "cent9": [
+        2,
+        8
+      ],
+      "nativeBinWidthGeVc": 0.005,
+      "normalizationGeVc": [
+        0.4,
+        0.5
+      ],
+      "normSE": 14728,
+      "normME": 2856670,
+      "normAlpha": 0.005155653260614632,
+      "normalizationWindowIntegralCF": 1.0,
+      "countsIncludingFlow": {
+        "SE": {
+          "underflow": 0,
+          "regular": 159780,
+          "overflow": 120895,
+          "allIncludingFlow": 280675
+        },
+        "ME": {
+          "underflow": 0,
+          "regular": 32204277,
+          "overflow": 25939627,
+          "allIncludingFlow": 58143904
+        }
+      },
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "SE": 19734,
+          "ME": 3833272,
+          "alphaScaledME": 19763.02128562277,
+          "integralCF": 0.99853153598312
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "SE": 51085,
+          "ME": 10252732,
+          "alphaScaledME": 52859.531166007975,
+          "integralCF": 0.9664293056169005
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1.0
+          ],
+          "SE": 57048,
+          "ME": 12009021,
+          "alphaScaledME": 61914.34827543959,
+          "integralCF": 0.9214019300697381
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1.0
+          ],
+          "SE": 108133,
+          "ME": 22261753,
+          "alphaScaledME": 114773.87944144757,
+          "integralCF": 0.9421394530378714
+        }
+      }
+    },
+    {
+      "plane": 1,
+      "centrality": "0-60%",
+      "cent9": [
+        2,
+        8
+      ],
+      "nativeBinWidthGeVc": 0.005,
+      "normalizationGeVc": [
+        0.4,
+        0.5
+      ],
+      "normSE": 14673,
+      "normME": 2781750,
+      "normAlpha": 0.005274737125909949,
+      "normalizationWindowIntegralCF": 1.0,
+      "countsIncludingFlow": {
+        "SE": {
+          "underflow": 0,
+          "regular": 157866,
+          "overflow": 123158,
+          "allIncludingFlow": 281024
+        },
+        "ME": {
+          "underflow": 0,
+          "regular": 31724206,
+          "overflow": 26394725,
+          "allIncludingFlow": 58118931
+        }
+      },
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "SE": 19083,
+          "ME": 3745610,
+          "alphaScaledME": 19757.108126179563,
+          "integralCF": 0.9658802228608385
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "SE": 50197,
+          "ME": 10097285,
+          "alphaScaledME": 53260.52406039364,
+          "integralCF": 0.942480399612294
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1.0
+          ],
+          "SE": 57253,
+          "ME": 11951038,
+          "alphaScaledME": 63038.58383176058,
+          "integralCF": 0.9082215449636157
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1.0
+          ],
+          "SE": 107450,
+          "ME": 22048323,
+          "alphaScaledME": 116299.10789215422,
+          "integralCF": 0.9239107844201168
+        }
+      }
+    },
+    {
+      "plane": 2,
+      "centrality": "0-60%",
+      "cent9": [
+        2,
+        8
+      ],
+      "nativeBinWidthGeVc": 0.005,
+      "normalizationGeVc": [
+        0.4,
+        0.5
+      ],
+      "normSE": 14423,
+      "normME": 2750687,
+      "normAlpha": 0.005243417371732953,
+      "normalizationWindowIntegralCF": 1.0,
+      "countsIncludingFlow": {
+        "SE": {
+          "underflow": 0,
+          "regular": 156842,
+          "overflow": 121918,
+          "allIncludingFlow": 278760
+        },
+        "ME": {
+          "underflow": 0,
+          "regular": 31462093,
+          "overflow": 26267805,
+          "allIncludingFlow": 57729898
+        }
+      },
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "SE": 19220,
+          "ME": 3712586,
+          "alphaScaledME": 19466.637926452557,
+          "integralCF": 0.9873302247987359
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "SE": 49893,
+          "ME": 10023143,
+          "alphaScaledME": 52555.52212556354,
+          "integralCF": 0.9493388702484518
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1.0
+          ],
+          "SE": 56641,
+          "ME": 11867480,
+          "alphaScaledME": 62226.150790693384,
+          "integralCF": 0.9102443149749075
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1.0
+          ],
+          "SE": 106534,
+          "ME": 21890623,
+          "alphaScaledME": 114781.67291625692,
+          "integralCF": 0.9281446880263341
+        }
+      }
+    },
+    {
+      "plane": 3,
+      "centrality": "0-60%",
+      "cent9": [
+        2,
+        8
+      ],
+      "nativeBinWidthGeVc": 0.005,
+      "normalizationGeVc": [
+        0.4,
+        0.5
+      ],
+      "normSE": 14687,
+      "normME": 2785760,
+      "normAlpha": 0.005272169892596634,
+      "normalizationWindowIntegralCF": 1.0000000000000002,
+      "countsIncludingFlow": {
+        "SE": {
+          "underflow": 0,
+          "regular": 156476,
+          "overflow": 119261,
+          "allIncludingFlow": 275737
+        },
+        "ME": {
+          "underflow": 0,
+          "regular": 31580125,
+          "overflow": 25721259,
+          "allIncludingFlow": 57301384
+        }
+      },
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "SE": 19356,
+          "ME": 3750634,
+          "alphaScaledME": 19773.979652949285,
+          "integralCF": 0.9788621380073614
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "SE": 49773,
+          "ME": 10061384,
+          "alphaScaledME": 53045.32580265349,
+          "integralCF": 0.9383107605969346
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1.0
+          ],
+          "SE": 56036,
+          "ME": 11822219,
+          "alphaScaledME": 62328.74707548389,
+          "integralCF": 0.8990394100516254
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1.0
+          ],
+          "SE": 105809,
+          "ME": 21883603,
+          "alphaScaledME": 115374.07287813738,
+          "integralCF": 0.9170951268380689
+        }
+      }
+    },
+    {
+      "plane": 4,
+      "centrality": "0-60%",
+      "cent9": [
+        2,
+        8
+      ],
+      "nativeBinWidthGeVc": 0.005,
+      "normalizationGeVc": [
+        0.4,
+        0.5
+      ],
+      "normSE": 15085,
+      "normME": 2858197,
+      "normAlpha": 0.005277802754673663,
+      "normalizationWindowIntegralCF": 1.0000000000000002,
+      "countsIncludingFlow": {
+        "SE": {
+          "underflow": 0,
+          "regular": 158417,
+          "overflow": 116612,
+          "allIncludingFlow": 275029
+        },
+        "ME": {
+          "underflow": 0,
+          "regular": 31926439,
+          "overflow": 24951569,
+          "allIncludingFlow": 56878008
+        }
+      },
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "SE": 19673,
+          "ME": 3827203,
+          "alphaScaledME": 20199.222536095305,
+          "integralCF": 0.9739483767182145
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "SE": 50465,
+          "ME": 10176721,
+          "alphaScaledME": 53710.72612734531,
+          "integralCF": 0.9395702430153362
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1.0
+          ],
+          "SE": 56057,
+          "ME": 11800235,
+          "alphaScaledME": 62279.31278879657,
+          "integralCF": 0.9000902143879163
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1.0
+          ],
+          "SE": 106522,
+          "ME": 21976956,
+          "alphaScaledME": 115990.03891614189,
+          "integralCF": 0.9183719653462048
+        }
+      }
+    },
+    {
+      "plane": 5,
+      "centrality": "0-60%",
+      "cent9": [
+        2,
+        8
+      ],
+      "nativeBinWidthGeVc": 0.005,
+      "normalizationGeVc": [
+        0.4,
+        0.5
+      ],
+      "normSE": 15251,
+      "normME": 2936119,
+      "normAlpha": 0.005194271758058852,
+      "normalizationWindowIntegralCF": 1.0000000000000002,
+      "countsIncludingFlow": {
+        "SE": {
+          "underflow": 0,
+          "regular": 161000,
+          "overflow": 114029,
+          "allIncludingFlow": 275029
+        },
+        "ME": {
+          "underflow": 0,
+          "regular": 32384510,
+          "overflow": 24380390,
+          "allIncludingFlow": 56764900
+        }
+      },
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "SE": 19945,
+          "ME": 3910879,
+          "alphaScaledME": 20314.168338885447,
+          "integralCF": 0.9818270513108438
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "SE": 51331,
+          "ME": 10321253,
+          "alphaScaledME": 53611.3929656802,
+          "integralCF": 0.9574643962871845
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1.0
+          ],
+          "SE": 56580,
+          "ME": 11847593,
+          "alphaScaledME": 61539.61772087575,
+          "integralCF": 0.9194077262005265
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1.0
+          ],
+          "SE": 107911,
+          "ME": 22168846,
+          "alphaScaledME": 115151.01068655595,
+          "integralCF": 0.9371259475414988
+        }
+      }
+    },
+    {
+      "plane": 6,
+      "centrality": "0-60%",
+      "cent9": [
+        2,
+        8
+      ],
+      "nativeBinWidthGeVc": 0.005,
+      "normalizationGeVc": [
+        0.4,
+        0.5
+      ],
+      "normSE": 15257,
+      "normME": 2959186,
+      "normAlpha": 0.005155809739570274,
+      "normalizationWindowIntegralCF": 1.0,
+      "countsIncludingFlow": {
+        "SE": {
+          "underflow": 0,
+          "regular": 161817,
+          "overflow": 114113,
+          "allIncludingFlow": 275930
+        },
+        "ME": {
+          "underflow": 0,
+          "regular": 32589151,
+          "overflow": 24443098,
+          "allIncludingFlow": 57032249
+        }
+      },
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "SE": 20407,
+          "ME": 3940927,
+          "alphaScaledME": 20318.669809535462,
+          "integralCF": 1.0043472427719202
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "SE": 51552,
+          "ME": 10392403,
+          "alphaScaledME": 53581.252604939335,
+          "integralCF": 0.9621275631627867
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1.0
+          ],
+          "SE": 56691,
+          "ME": 11907084,
+          "alphaScaledME": 61390.65965708138,
+          "integralCF": 0.9234466662627028
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1.0
+          ],
+          "SE": 108243,
+          "ME": 22299487,
+          "alphaScaledME": 114971.9122620207,
+          "integralCF": 0.9414734248597559
+        }
+      }
+    },
+    {
+      "plane": 7,
+      "centrality": "0-60%",
+      "cent9": [
+        2,
+        8
+      ],
+      "nativeBinWidthGeVc": 0.005,
+      "normalizationGeVc": [
+        0.4,
+        0.5
+      ],
+      "normSE": 15229,
+      "normME": 2926319,
+      "normAlpha": 0.005204148966671098,
+      "normalizationWindowIntegralCF": 1.0,
+      "countsIncludingFlow": {
+        "SE": {
+          "underflow": 0,
+          "regular": 161563,
+          "overflow": 117897,
+          "allIncludingFlow": 279460
+        },
+        "ME": {
+          "underflow": 0,
+          "regular": 32540773,
+          "overflow": 25136588,
+          "allIncludingFlow": 57677361
+        }
+      },
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "SE": 20178,
+          "ME": 3912880,
+          "alphaScaledME": 20363.210408708004,
+          "integralCF": 0.990904655749724
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "SE": 51454,
+          "ME": 10363785,
+          "alphaScaledME": 53934.68099855143,
+          "integralCF": 0.9540058279269686
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1.0
+          ],
+          "SE": 57107,
+          "ME": 11995674,
+          "alphaScaledME": 62427.27445162336,
+          "integralCF": 0.9147764418940605
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1.0
+          ],
+          "SE": 108561,
+          "ME": 22359459,
+          "alphaScaledME": 116361.95545017478,
+          "integralCF": 0.9329595706775907
+        }
+      }
+    }
+  ],
+  "planeRanges": {
+    "k050_060": {
+      "windowGeVc": [
+        0.5,
+        0.6
+      ],
+      "minimum": 0.9658802228608385,
+      "maximum": 1.0043472427719202,
+      "minimumPlane": 1,
+      "maximumPlane": 6,
+      "allEightBelowUnity": false,
+      "allEightAboveUnity": false
+    },
+    "k060_080": {
+      "windowGeVc": [
+        0.6,
+        0.8
+      ],
+      "minimum": 0.9383107605969346,
+      "maximum": 0.9664293056169005,
+      "minimumPlane": 3,
+      "maximumPlane": 0,
+      "allEightBelowUnity": true,
+      "allEightAboveUnity": false
+    },
+    "k080_100": {
+      "windowGeVc": [
+        0.8,
+        1.0
+      ],
+      "minimum": 0.8990394100516254,
+      "maximum": 0.9234466662627028,
+      "minimumPlane": 3,
+      "maximumPlane": 6,
+      "allEightBelowUnity": true,
+      "allEightAboveUnity": false
+    },
+    "k060_100": {
+      "windowGeVc": [
+        0.6,
+        1.0
+      ],
+      "minimum": 0.9170951268380689,
+      "maximum": 0.9421394530378714,
+      "minimumPlane": 3,
+      "maximumPlane": 0,
+      "allEightBelowUnity": true,
+      "allEightAboveUnity": false
+    }
+  },
+  "limitations": [
+    "Descriptive ratios only; no significance test or fitted convergence claim.",
+    "Normalization-window unity is imposed by construction.",
+    "All windows for one curve share its estimated alpha, so their values are correlated.",
+    "Pairs reuse events and tracks in SE/ME; event/shared-ME and normalization covariance are not evaluated.",
+    "Native k* axis ends at 1 GeV/c. Overflow preserves total counts but cannot recover the shape above 1 GeV/c.",
+    "Raw Lambda-He4 signal before background subtraction/purity correction; this independent arithmetic does not establish original direct-Pico equivalence."
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "recordedJST": "2026-11-17T13:07:36.531020+09:00",
+  "scope": "read-only capacity audit; no deletion/move/compression performed",
+  "units": "bytes; GB=1e9, GiB=2**30. Allocated=st_blocks*512 / du. Symlinks not followed; hardlinks deduplicated in ROOT directory aggregates.",
+  "quota": {
+    "blockUsageKiB": 2308314624,
+    "blockQuotaKiB": 2482348032,
+    "blockLimitKiB": 3019218944,
+    "blockInDoubtKiB": 2048,
+    "filesUsage": 468405
+  },
+  "quotaUsedBytes": 2363714174976,
+  "softHeadroomAfterInDoubtBytes": 178208112640,
+  "hardHeadroomAfterInDoubtBytes": 727963926528,
+  "rootGroups": [
+    {
+      "name": "旧2AF候補保存ROOT",
+      "pathPattern": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/auau3p85_anaFemtoLambda_4He_KFParticle_2AF731F2C75544890B4E858354DDE43D_*.root",
+      "files": 13027,
+      "logicalBytes": 2071420278951,
+      "allocatedBytes": 2072761335808,
+      "emptyFiles": 2492,
+      "decision": "旧cache廃止の判断後の削除検討候補。重複ではなく候補payloadは独立。"
+    },
+    {
+      "name": "現行EP1出力全体",
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10",
+      "files": 4068,
+      "logicalBytes": 60076600345,
+      "allocatedBytes": 60624994304,
+      "decision": "確定merged保持。元subjob/中間の削除量は未分離。"
+    },
+    {
+      "name": "現行EP8出力全体",
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10",
+      "files": 4067,
+      "logicalBytes": 60068398141,
+      "allocatedBytes": 60618702848,
+      "decision": "確定merged保持。元subjob/中間の削除量は未分離。"
+    },
+    {
+      "name": "LambdaNuclearId出力",
+      "path": "rootfile/auau3p85_anaLambdaNuclearId",
+      "files": 8693,
+      "logicalBytes": 25379955683,
+      "allocatedBytes": 26643791872,
+      "allocatedIncludingDirectoryBytes": 26677877760,
+      "decision": "既存merge対応と現在参照を確認してから判断。"
+    }
+  ],
+  "standaloneMergedRoots": [
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/auau3p85_anaFemtoLambda_4He_KFParticle_04BF2DAE47164B6F040E3A460E539289_merge.root",
+      "logicalBytes": 14064010756,
+      "allocatedBytes": 14064025600,
+      "nlink": 1
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/auau3p85_anaFemtoLambda_4He_KFParticle_1CE33994716F7896423A80AB994BAB14_merge.root",
+      "logicalBytes": 11019456466,
+      "allocatedBytes": 11019485184,
+      "nlink": 2
+    },
+    {
+      "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/auau3p85_anaFemtoLambda_4He_KFParticle_2021P24iy_partial_merge.root",
+      "logicalBytes": 10522646853,
+      "allocatedBytes": 10522722304,
+      "nlink": 1
+    }
+  ],
+  "currentRawLogs": [
+    {
+      "path": "log/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10",
+      "files": 4058,
+      "logicalBytes": 682475071,
+      "allocatedBytes": 1128792064
+    },
+    {
+      "path": "log/auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10",
+      "files": 4058,
+      "logicalBytes": 682451735,
+      "allocatedBytes": 1080033280
+    },
+    {
+      "path": "err/auau3p85_anaFemtoLambda_4He_KFParticle_epd1_pairY10",
+      "files": 4058,
+      "logicalBytes": 20899994,
+      "allocatedBytes": 1063780352
+    },
+    {
+      "path": "err/auau3p85_anaFemtoLambda_4He_KFParticle_epd8_pairY10",
+      "files": 4058,
+      "logicalBytes": 20897571,
+      "allocatedBytes": 1063780352
+    }
+  ],
+  "generatedCshLists": [
+    {
+      "jobid": "2AF731F2C75544890B4E858354DDE43D",
+      "name": "旧2AF",
+      "cshFiles": 26994,
+      "listFiles": 26995,
+      "logicalBytes": 296476367,
+      "allocatedBytes": 6880599552,
+      "archive": "runmeta/runtime_bundle/sums_artifactsなし。唯一の実行資料として圧縮保全が先。"
+    },
+    {
+      "jobid": "523CF569AAF0FFC0623304893ECA9B00",
+      "name": "NuclearId",
+      "cshFiles": 8652,
+      "listFiles": 8653,
+      "logicalBytes": 190095568,
+      "allocatedBytes": 4547936256,
+      "archive": "SUMS tarとrunmetaあり。csh basename/size一致、list全coverage/個々の内容SHAは未検証。"
+    },
+    {
+      "jobid": "FD44A5EB1B0AA22C546F169E86482587",
+      "name": "EP1",
+      "cshFiles": 4058,
+      "listFiles": 4059,
+      "logicalBytes": 108243342,
+      "allocatedBytes": 2141454336,
+      "archive": "SUMS/runtime tarあり。全member coverage/内容一致は未検証。"
+    },
+    {
+      "jobid": "DA0DEB4347BD834F1096F8D8798F2133",
+      "name": "EP8",
+      "cshFiles": 4058,
+      "listFiles": 4059,
+      "logicalBytes": 108243342,
+      "allocatedBytes": 2141454336,
+      "archive": "SUMS/runtime tarあり。全member coverage/内容一致は未検証。"
+    }
+  ],
+  "otherMeasured": {
+    "jobRunAllocatedBytes": 20445446144,
+    "jobRunLooseFiles": 88981,
+    "jobRunLooseAllocatedBytes": 16526259200,
+    "jobRunDirectoryMetadataBytes": 536870912,
+    "oldEmptyLogErrDirectoryMetadataBytes": 333453312,
+    "mainExcludingRootfileLogErrJobAllocatedBytes": 3836015616,
+    "outerBackupAllocatedBytes": 447164928,
+    "otherPwgExcludingGitStar3AllocatedBytes": 6154928128,
+    "tmpAnaAllocatedBytes": 5545098752,
+    "twoNov13PackagesAndZipsAllocatedBytes": 573155328,
+    "jobRunRunmetaAllocatedBytes": 557852672
+  },
+  "currentAcceptedLogSubset": {
+    "files": 16092,
+    "allocatedBytes": 4283432960
+  },
+  "excludedLogSubsetToRetain": {
+    "files": 140,
+    "allocatedBytes": 52953088
+  },
+  "newCompactTreeSingleSampleProjectionBytes": 465308286774.7536,
+  "deficitRelativeToCurrentSoftBytes": 287100174134.7536,
+  "softHeadroomIfOld2AFRetiredBytes": 2250969448448,
+  "queue": "condor user queue 0 jobs at read; no active local ROOT/Python analysis seen; tmux server itself is not active processing.",
+  "limitations": [
+    "Not an exhaustive full-filesystem manifest; largest ROOT campaign and major output directories measured.",
+    "ROOT directory regular-file totals exclude directory metadata unless separately shown.",
+    "Final EP1/EP8 merged roots are included in their directory totals, not extra capacity.",
+    "2AF candidate payload is not replaced by hist-only merges.",
+    "Production capacity projection remains single-run/10k extrapolation; QA/temp/replay/allocated overhead extra.",
+    "Tar full member-content verification not completed; no deletion-ready claim."
+  ],
+  "old2AFActualUsage": {
+    "purpose": "11/11-12 track-merging deltaPhiStar/deltaEta QA recalculation using stored candidates plus original Pico Event/Track, followed by final plot generation",
+    "adoptedJobs": 10087,
+    "dispatchedJobs": 10225,
+    "he4LambdaSignalPairs": 1022830,
+    "record": "star_local/Todo/2026/11/11/track_merging_audit_20261111.md",
+    "derivedOutputs": [
+      {
+        "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/aggregate/qa_10087_20261111T162940Z.root",
+        "exists": true,
+        "bytes": 2743967
+      },
+      {
+        "path": "rootfile/auau3p85_anaFemtoLambda_4He_KFParticle/pdf/track_merging_campaign_20261111_001/final_fullstats_20261112_004/track_merging_fullstats.pdf",
+        "exists": true,
+        "bytes": 39818
+      }
+    ]
+  },
+  "postCleanup": {
+    "old2AFDeleted": true,
+    "deletedCount": 13027,
+    "deletedAllocatedBytes": 2072761335808,
+    "proof": "../delete_old2AF_20261117_001/completion_summary.json",
+    "quotaAfter": {
+      "blockUsage": 284459776,
+      "blockQuota": 2482348032,
+      "blockLimit": 3019218944,
+      "blockInDoubt": 657408,
+      "filesUsage": 455392,
+      "units": "KiB for blocks",
+      "usedBytes": 291286810624,
+      "softHeadroomAfterInDoubtBytes": 2249964388352,
+      "hardHeadroomAfterInDoubtBytes": 2799720202240
+    },
+    "referencePdfQaRetained": true,
+    "newTreeMergingTrendComparison": "Todo; not executed"
+  }
+}

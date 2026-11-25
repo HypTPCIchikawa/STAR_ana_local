@@ -1,0 +1,13 @@
+{
+  "session": "he4_ylab8_20261121_001",
+  "command": [
+    "/cvmfs/star.sdcc.bnl.gov/star-spack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/python-3.8.13-myixjs7jesskpbhwiowibizezfh52rky/bin/python3",
+    "-u",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/launch_once.py",
+    "--config",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/launch_config.json",
+    "--submit"
+  ],
+  "log": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/launch.log",
+  "startedUTC": "2026-11-22T05:44:37.439608+00:00"
+}

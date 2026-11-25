@@ -1,0 +1,14 @@
+{
+  "startedJST": "2026-11-17T14:22:42.365611+09:00",
+  "phase": "deleted and verified",
+  "userAuthorizedCount": 13027,
+  "manifestSha256": "8d9b6451287df40aeabd5bc13cf2888b420cfe1ff03219fe631f7a22f9a1ed9c",
+  "deletedCount": 13027,
+  "deletedLogicalBytes": 2071420278951,
+  "deletedAllocatedBytes": 2072761335808,
+  "errors": [],
+  "finishedJST": "2026-11-17T14:24:17.602184+09:00",
+  "remainingTargetCount": 0,
+  "protectedFileFingerprintsUnchanged": true,
+  "otherDirectChildrenUnchanged": true
+}

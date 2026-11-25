@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "createdUTC": "2026-11-22T05:42:31.609457+00:00",
+  "pilotDirectory": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/pilot_postprocess_003",
+  "completedSha256": "42908abdbab3a23f5030837cc887f5c882db993b14b0132b70cf3fd02d407add",
+  "sources": 1,
+  "events": 400000,
+  "curves": 320,
+  "projectionChecks": 14544,
+  "maxProjectionCountDifference": 0,
+  "allMassInclusiveReferenceCountErrorEquality": true,
+  "inputStatsUnchanged": true,
+  "pinsUnchanged": true,
+  "visualReview": {
+    "passed": true,
+    "pages": [
+      "he4_y8_CF_highk.pdf page1",
+      "he4_y4_SE_ME_scaled.pdf page1",
+      "he4_y_flow_controls.pdf page1"
+    ],
+    "highKFixedAxes": [
+      0.7,
+      1.3
+    ],
+    "normalizationUnavailableShown": true,
+    "physicalLabAndEP8CutOffLabels": true
+  },
+  "pilotPhysicsConclusion": false,
+  "primaryRapidityPairPopulation": {
+    "centralityId": "c00_60",
+    "centralityLabel": "0-60%",
+    "kstarInterval": "all native bins including kstar underflow/overflow",
+    "pairCut": "Off",
+    "EPBins": 8,
+    "SE": {
+      "allY": 256,
+      "inRange": 255,
+      "rapidityUnderflow": 1,
+      "rapidityOverflow": 0,
+      "rapidityUnderflowFraction": 0.00390625,
+      "rapidityOverflowFraction": 0.0
+    },
+    "ME": {
+      "allY": 51305,
+      "inRange": 51239,
+      "rapidityUnderflow": 66,
+      "rapidityOverflow": 0,
+      "rapidityUnderflowFraction": 0.0012864243251145113,
+      "rapidityOverflowFraction": 0.0
+    }
+  },
+  "helperFreeze": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/ExtractHe4Y.C",
+      "sha256": "f9fb11aec99fc689ee52e2594539c579b45352b7f8b30da46f8756199178cd70"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/DrawHe4Y.C",
+      "sha256": "be507953b7f21d6e934474f731c040f97e2b7cb2768deddfcaa9ab9892c0f748"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/postprocess_he4_y.py",
+      "sha256": "5fb1767f30425e2e6b6775c26fd819c7329a93d60005c69da0b1ef9d4a427e3d"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/watch_he4_y.py",
+      "sha256": "96bdb4e32af71672a3e6c2e5bb52fc6bc7a9cb7934786e1c0204bff9e4f6eeb4"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/he4_y_postprocess_settings.json",
+      "sha256": "7f7bbdf4f7b549ae43d74053e9f99be39716ae9d9539bb4fcad21894de6ad542"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/he4_y_watch_settings.json",
+      "sha256": "0663ea5d9a052afd5c60a691e96a518c526cbdfb9e10ec2922254afb3a0b6714"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/POSTPROCESS.md",
+      "sha256": "22d49c0e092635b90462b969c46df4983dcbe5ff9b0939fd26ae8d456fd481a1"
+    }
+  ],
+  "helperEditsPlanned": false,
+  "watcherStarted": false,
+  "mailSent": false
+}

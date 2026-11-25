@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "cases": "cases.json",
+  "postprocessSettings": "cf_postprocess_settings.json",
+  "sharedEventParser": "../../script/watch_job_notify.py",
+  "pollSeconds": 300,
+  "settleSeconds": 300,
+  "commandTimeoutSeconds": 45,
+  "postprocessTimeoutSeconds": 3600,
+  "additionalPinFiles": ["prepare_production_matrix.py", "run_production_matrix.py"],
+  "recipient": "yudai.ichikawa.d3@tohoku.ac.jp",
+  "sendmail": "/usr/sbin/sendmail",
+  "baselineLaunchDirectory": "../femto_lambda_period_mix100_20261119_001",
+  "baselineLaunchConfig": "../femto_lambda_period_mix100_20261119_001/launch_config.json",
+  "baselineInputProvenance": "cf_baseline_ep8Off_002/input_provenance.json",
+  "baselineCompleted": "cf_baseline_ep8Off_002/completed.json",
+  "fatalPatterns": [
+    "(?i)segmentation (?:violation|fault)",
+    "(?i)\\bfatal(?: in|:)",
+    "(?i)terminate called|std::bad_alloc|assertion .* failed",
+    "Error in <(?:TFile|TBuffer|TStreamerInfo|TTree|TBranch)",
+    "(?i)uncaught exception|core dumped"
+  ]
+}

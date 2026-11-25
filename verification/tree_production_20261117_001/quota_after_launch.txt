@@ -1,0 +1,2 @@
+mmlsquota:user:HEADER:version:reserved:reserved:filesystemName:quotaType:id:name:blockUsage:blockQuota:blockLimit:blockInDoubt:blockGrace:filesUsage:filesQuota:filesLimit:filesInDoubt:filesGrace:remarks:fid:filesetname:
+mmlsquota:user:0:1:::gpfs:USR:102335:yichikawa:285700096:2482348032:3019218944:11641600:none:462326:0:0:2432:none:rcf.bnl.gov:18:star-pwg:

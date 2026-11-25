@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-11-24T22:32:17-05:00",
+  "recoveryJob": "6032753F3B9B818737A0D2E026578E93",
+  "processedIfSuccessful": 7926,
+  "originalValidatedOutputs": 415,
+  "singleFileRecoveredOutputs": 1,
+  "recoveryInputCount": 54,
+  "missingPicoTreeFiles": 2,
+  "nativeInputPartitionVerified": true,
+  "campaignState": {
+    "phase": "waiting_earlyProducerRecovery20261124",
+    "checkedUTC": "2026-11-25T03:31:38.858037+00:00",
+    "jobid": "6032753F3B9B818737A0D2E026578E93",
+    "workers": 54,
+    "terminal": 0,
+    "queue": {
+      "1": 54
+    },
+    "runmeta": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_tree_early81EP8_earlyProducerRecovery20261124_6032753F3B9B818737A0D2E026578E93.json"
+  },
+  "mailWatcherPid": 857598,
+  "mailWatcherPhase": "waiting_earlyProducerRecovery20261124",
+  "mailSent": false,
+  "recoverySession": "epd_early81_recovery_20261124",
+  "mailSession": "epd_early81_recovery_mail_20261124"
+}

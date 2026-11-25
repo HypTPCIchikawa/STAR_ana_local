@@ -1,0 +1,14 @@
+{
+  "input": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/production20261117/auau3p85_anaFemtoLambda_4He_tree_9037A6F05FAD08FC8E9BD9286C8A38A5_3405.root",
+  "bytes": 30749291,
+  "inode": 2156299444,
+  "mtimeNs": 1794895537651476847,
+  "probeEvents": 10000,
+  "scope": "One settled farm ROOT whose producer completion log has status0 and requested=completed; project-side replay, no PicoDst reread",
+  "returnCode": 0,
+  "sourceUnchanged": true,
+  "completionLines": [
+    "FemtoLambda tree replay job=farmProbe20261117 requested=10000 completed=10000 available=118240 status=0 RealTime=3.47932 CpuTime=3.06"
+  ],
+  "passed": true
+}

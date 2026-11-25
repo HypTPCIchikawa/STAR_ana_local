@@ -1,0 +1,245 @@
+{
+  "passed": true,
+  "checkedAtUTC": "2026-11-22T13:55:20.826675+00:00",
+  "workers": 20,
+  "events": 1819447887,
+  "totalOutputBytes": 11494216306,
+  "rootStatChecks": [
+    {
+      "period": 0,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_0.root",
+      "bytes": 578793560,
+      "completed": 91040515
+    },
+    {
+      "period": 1,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_1.root",
+      "bytes": 556495288,
+      "completed": 87421760
+    },
+    {
+      "period": 2,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_2.root",
+      "bytes": 560683561,
+      "completed": 87596220
+    },
+    {
+      "period": 3,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_3.root",
+      "bytes": 581607041,
+      "completed": 90818334
+    },
+    {
+      "period": 4,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_4.root",
+      "bytes": 576078398,
+      "completed": 91046915
+    },
+    {
+      "period": 5,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_5.root",
+      "bytes": 573392019,
+      "completed": 90505160
+    },
+    {
+      "period": 6,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_6.root",
+      "bytes": 588497727,
+      "completed": 93673595
+    },
+    {
+      "period": 7,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_7.root",
+      "bytes": 562974272,
+      "completed": 88960957
+    },
+    {
+      "period": 8,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_8.root",
+      "bytes": 573560995,
+      "completed": 90741888
+    },
+    {
+      "period": 9,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_9.root",
+      "bytes": 573000442,
+      "completed": 90789339
+    },
+    {
+      "period": 10,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_10.root",
+      "bytes": 574602172,
+      "completed": 91257378
+    },
+    {
+      "period": 11,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_11.root",
+      "bytes": 571059561,
+      "completed": 90867761
+    },
+    {
+      "period": 12,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_12.root",
+      "bytes": 573158698,
+      "completed": 90866756
+    },
+    {
+      "period": 13,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_13.root",
+      "bytes": 581362460,
+      "completed": 92194024
+    },
+    {
+      "period": 14,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_14.root",
+      "bytes": 584354279,
+      "completed": 92970453
+    },
+    {
+      "period": 15,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_15.root",
+      "bytes": 588555269,
+      "completed": 93455508
+    },
+    {
+      "period": 16,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_16.root",
+      "bytes": 562256092,
+      "completed": 89528409
+    },
+    {
+      "period": 17,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_17.root",
+      "bytes": 576017949,
+      "completed": 91589405
+    },
+    {
+      "period": 18,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_18.root",
+      "bytes": 587237563,
+      "completed": 93329021
+    },
+    {
+      "period": 19,
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100/production20261121/auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100_FEDC5185F359546FB1B7B39F70DC8144_19.root",
+      "bytes": 570528960,
+      "completed": 90794489
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y_cf_metrics.json",
+      "bytes": 4904057,
+      "sha256": "551d200b6776119e98633d8223f4dd175c397a6360a119060c1b5a15e7b74961"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/raw_histograms.json",
+      "bytes": 306239,
+      "sha256": "91e8ea79e17b3092f91f60ad82f2ff49ca8079089e9df5460e4881aff9bf5600"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y4_CF.pdf",
+      "bytes": 915621,
+      "sha256": "a7f5df2512efdea0a0c2a4bd5dee7ba140b47a970d58ea7d469db26f345d03a8"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y8_CF.pdf",
+      "bytes": 1767639,
+      "sha256": "87a4bf01ec680294793fb8219a7319c78ebad1c49d4e6704065bbde72655f820"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y4_CF_highk.pdf",
+      "bytes": 517040,
+      "sha256": "81563e8ecc3bf0087bbf334afe42f6fa446504396c7bf01cf0eed5cd77dfebdf"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y8_CF_highk.pdf",
+      "bytes": 983371,
+      "sha256": "34e5d266b67ddcf0947d042c127c920938dba2db428ffc44a3aa723f85aeef94"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y4_SE_ME_scaled.pdf",
+      "bytes": 625603,
+      "sha256": "ab402236079d93170dd3a4a14c1bf8f8b51a5257af1bca270cfb3c5732d84bfe"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y8_SE_ME_scaled.pdf",
+      "bytes": 1188218,
+      "sha256": "9514f5bc6d8711b9d9c8a358509f7feecc13320e7ecbe13e5a5209cf148a2c93"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y_flow_controls.pdf",
+      "bytes": 63252,
+      "sha256": "515067e0a741be9cf284f46445258dab7a380f8c7a0f59d49a7b83c13fa3348d"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/cf_histograms.root",
+      "bytes": 1735173,
+      "sha256": "f0d5082d7bdd9138ba70e46d1283b9735a89ffdb48705b2fc2b4653d66d06c6c"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/curve_metadata.tsv",
+      "bytes": 25368,
+      "sha256": "6b3893e1cf0af55cd0d4024996b3a2c96fd4d04faba552b1929bd65e1cc68ea2"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/curve_bins.tsv",
+      "bytes": 1210547,
+      "sha256": "ee38e60fb5ba366dfa17420362d281005e02bf2622eb42537f10df748176ce4e"
+    }
+  ],
+  "pdfs": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y4_CF.pdf",
+      "pages": 16,
+      "decodeReturnCode": 0
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y4_CF_highk.pdf",
+      "pages": 16,
+      "decodeReturnCode": 0
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y4_SE_ME_scaled.pdf",
+      "pages": 16,
+      "decodeReturnCode": 0
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y8_CF.pdf",
+      "pages": 16,
+      "decodeReturnCode": 0
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y8_CF_highk.pdf",
+      "pages": 16,
+      "decodeReturnCode": 0
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y8_SE_ME_scaled.pdf",
+      "pages": 16,
+      "decodeReturnCode": 0
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y_flow_controls.pdf",
+      "pages": 2,
+      "decodeReturnCode": 0
+    }
+  ],
+  "mail": {
+    "sentAtUtc": "2026-11-22T12:50:55.787276+00:00",
+    "recipient": "yudai.ichikawa.d3@tohoku.ac.jp",
+    "mailStatus": "accepted_by_local_sendmail",
+    "messageId": "<179535185525.3510711.12748214337268828847@starsub03.sdcc.bnl.gov>",
+    "kind": "success"
+  },
+  "treeEntriesRead": 0,
+  "visualReview": {
+    "passed": true,
+    "pages": [
+      "he4_y4_CF_highk page1",
+      "he4_y8_CF_highk page1",
+      "he4_y4_SE_ME_scaled page1"
+    ],
+    "finding": "Low He4 Y panels near1; highY panels retain falling CF and scaled SE below ME; labels, ranges and legends readable"
+  }
+}

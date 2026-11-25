@@ -1,0 +1,1156 @@
+{
+  "inputs": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/cf_baseline_ep8Off_002/raw_histograms.json",
+      "bytes": 279249,
+      "device": 48,
+      "inode": 841068322,
+      "mtimeNs": 1795185125328683573,
+      "sha256": "89cff02dfd335348f14d1a1166ecb51b789c34d5d8b6ea364135d0d400cd9f7d"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/cf_baseline_ep8Off_002/input_provenance.json",
+      "bytes": 10199,
+      "device": 48,
+      "inode": 841067538,
+      "mtimeNs": 1795185115814793000,
+      "sha256": "e2e18f2b3045f89dc2f69a98fa39eead7a9e66b4de7d5cfac1ccbdeef17250d5"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/cf_baseline_ep8Off_002/completed.json",
+      "bytes": 3265,
+      "device": 48,
+      "inode": 841068398,
+      "mtimeNs": 1795185130945982000,
+      "sha256": "e0317a85314d1aeffa6fa221fdbc0ebb01fcc9e9b7025139dc52837ff6c53265"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/watch_matrix_validate_settings.json",
+      "bytes": 45438,
+      "device": 48,
+      "inode": 841594155,
+      "mtimeNs": 1795188782446167000,
+      "sha256": "4c3dbcc7b4b61a3a3d00dba7284d3a02e6aaea92eaf27ad2507b2c9e13853567"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/independent_metrics_validation.json",
+      "bytes": 25065,
+      "device": 48,
+      "inode": 904105513,
+      "mtimeNs": 1795235443172016000,
+      "sha256": "db33e52cb41b135a936c7a85714ddf17e06e6e45d4c22e7407952df38ab18629"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/include/FemtoEpdEventPlane.h",
+      "bytes": 3399,
+      "device": 48,
+      "inode": 571056104,
+      "mtimeNs": 1795181786546799000,
+      "sha256": "17133c212b02346a83c4915d24cdada179981d85c5bd3f1d043153c2677ef122"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/ep8_cf_settings.json",
+      "bytes": 2051,
+      "device": 48,
+      "inode": 904632095,
+      "mtimeNs": 1795235625859671000,
+      "sha256": "33cb94638a9a7c45fb60d4ce4a8a97a40e995b7f14bdaace4b0509e6efa5b4ce"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/prepare_ep8_cf.py",
+      "bytes": 14388,
+      "device": 48,
+      "inode": 904632096,
+      "mtimeNs": 1795235625861717000,
+      "sha256": "147b7b8ea51e31ffb1f290440c108cfe18b68266d3690bc9fe2290409643c62b"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/DrawEP8CF.C",
+      "bytes": 12890,
+      "device": 48,
+      "inode": 906206196,
+      "mtimeNs": 1795235766195649000,
+      "sha256": "362f3da6e52fc55fab6306477443cf1de27256fcbeedb13a6992fd61cd6b3741"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_periodMix100.yaml",
+      "bytes": 931,
+      "device": 48,
+      "inode": 1015110602,
+      "mtimeNs": 1795068104029230000,
+      "sha256": "f8f8736ee6bbda263cca71ceb8e74f9622b3acf16b610f085eba5c2cce71daec"
+    }
+  ],
+  "sourceStats": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_0.root",
+      "bytes": 578656174,
+      "device": 48,
+      "inode": 623634316,
+      "mtimeNs": 1795097526886284864,
+      "caseId": "ep8_mergingOff",
+      "period": 0
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_1.root",
+      "bytes": 556359537,
+      "device": 48,
+      "inode": 2162450277,
+      "mtimeNs": 1795093028572947384,
+      "caseId": "ep8_mergingOff",
+      "period": 1
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_2.root",
+      "bytes": 560545946,
+      "device": 48,
+      "inode": 2162435765,
+      "mtimeNs": 1795087001097428185,
+      "caseId": "ep8_mergingOff",
+      "period": 2
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_3.root",
+      "bytes": 581468818,
+      "device": 48,
+      "inode": 235896433,
+      "mtimeNs": 1795086806975957558,
+      "caseId": "ep8_mergingOff",
+      "period": 3
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_4.root",
+      "bytes": 575943712,
+      "device": 48,
+      "inode": 736952918,
+      "mtimeNs": 1795088975055580835,
+      "caseId": "ep8_mergingOff",
+      "period": 4
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_5.root",
+      "bytes": 573256864,
+      "device": 48,
+      "inode": 2162365685,
+      "mtimeNs": 1795090080254950513,
+      "caseId": "ep8_mergingOff",
+      "period": 5
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_6.root",
+      "bytes": 588364271,
+      "device": 48,
+      "inode": 2161060643,
+      "mtimeNs": 1795089641676120388,
+      "caseId": "ep8_mergingOff",
+      "period": 6
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_7.root",
+      "bytes": 562840214,
+      "device": 48,
+      "inode": 655002599,
+      "mtimeNs": 1795086891393015871,
+      "caseId": "ep8_mergingOff",
+      "period": 7
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_8.root",
+      "bytes": 573427067,
+      "device": 48,
+      "inode": 229105199,
+      "mtimeNs": 1795088522863677607,
+      "caseId": "ep8_mergingOff",
+      "period": 8
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_9.root",
+      "bytes": 572866767,
+      "device": 48,
+      "inode": 2162487904,
+      "mtimeNs": 1795089416480859151,
+      "caseId": "ep8_mergingOff",
+      "period": 9
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_10.root",
+      "bytes": 574469160,
+      "device": 48,
+      "inode": 2160373293,
+      "mtimeNs": 1795090997420253246,
+      "caseId": "ep8_mergingOff",
+      "period": 10
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_11.root",
+      "bytes": 570927061,
+      "device": 48,
+      "inode": 579203880,
+      "mtimeNs": 1795091922616091880,
+      "caseId": "ep8_mergingOff",
+      "period": 11
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_12.root",
+      "bytes": 573025897,
+      "device": 48,
+      "inode": 552396789,
+      "mtimeNs": 1795090894275173237,
+      "caseId": "ep8_mergingOff",
+      "period": 12
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_13.root",
+      "bytes": 581228963,
+      "device": 48,
+      "inode": 650797080,
+      "mtimeNs": 1795087741794492946,
+      "caseId": "ep8_mergingOff",
+      "period": 13
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_14.root",
+      "bytes": 584221406,
+      "device": 48,
+      "inode": 593904112,
+      "mtimeNs": 1795093154316387412,
+      "caseId": "ep8_mergingOff",
+      "period": 14
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_15.root",
+      "bytes": 588421928,
+      "device": 48,
+      "inode": 390537728,
+      "mtimeNs": 1795090110978168726,
+      "caseId": "ep8_mergingOff",
+      "period": 15
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_16.root",
+      "bytes": 562122932,
+      "device": 48,
+      "inode": 2160817084,
+      "mtimeNs": 1795088124998063111,
+      "caseId": "ep8_mergingOff",
+      "period": 16
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_17.root",
+      "bytes": 575885240,
+      "device": 48,
+      "inode": 587994149,
+      "mtimeNs": 1795087746001949824,
+      "caseId": "ep8_mergingOff",
+      "period": 17
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_18.root",
+      "bytes": 587104772,
+      "device": 48,
+      "inode": 2163023231,
+      "mtimeNs": 1795089488505264090,
+      "caseId": "ep8_mergingOff",
+      "period": 18
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119/auau3p85_anaFemtoLambda_4He_tree_periodMix100_2D07F680577123CABC16FDD9159CFD9E_19.root",
+      "bytes": 570396775,
+      "device": 48,
+      "inode": 436474497,
+      "mtimeNs": 1795092667933904075,
+      "caseId": "ep8_mergingOff",
+      "period": 19
+    }
+  ],
+  "protectedProductionPins": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/watch_production_matrix.py",
+      "bytes": 37348,
+      "device": 48,
+      "inode": 841593016,
+      "mtimeNs": 1795188134095988000,
+      "sha256": "d6cf19bd582586fa6bfa20b82a0dc63ec33b890eca62bcabd5df6dce573be2e4"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/watch_matrix_settings.json",
+      "bytes": 1024,
+      "device": 48,
+      "inode": 841592985,
+      "mtimeNs": 1795188134076933000,
+      "sha256": "907fe88f5bda7a24aec36af82489f6379342f2c68f25eb7feb37c2bbd17ba58b"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production_matrix.json",
+      "bytes": 3616,
+      "device": 48,
+      "inode": 841594154,
+      "mtimeNs": 1795188711273253000,
+      "sha256": "9061c68972aaae91b601dd6c76832e4c8ffbf66e14a1a077af374aa5711aa26d"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/cases.json",
+      "bytes": 31939,
+      "device": 48,
+      "inode": 841067232,
+      "mtimeNs": 1795183827728293000,
+      "sha256": "adea9a3c1ec3846bb65730d831b1f9ecc5e0daddc1d3846d6cd20fb0c929600e"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/input_manifest.json",
+      "bytes": 18585,
+      "device": 48,
+      "inode": 1015110625,
+      "mtimeNs": 1795068920497489000,
+      "sha256": "08823296f4ee5848e588211f49aea4294eceadf21fd289cd9b10b1c7bacaf602"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/periods.list",
+      "bytes": 3280,
+      "device": 48,
+      "inode": 841067231,
+      "mtimeNs": 1795183827718062000,
+      "sha256": "b2afaeb07e7f3d3428812810f2bc148c6296912caa10367a81d6be1cbd4189c4"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/script/watch_job_notify.py",
+      "bytes": 13198,
+      "device": 48,
+      "inode": 530932815,
+      "mtimeNs": 1793773765352129000,
+      "sha256": "f5b7acb34887153bdeaf8da2a8a39f4bd8874870b0e0ded2a00c0b3175c25ae7"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/cf_postprocess_settings.json",
+      "bytes": 2396,
+      "device": 48,
+      "inode": 841067478,
+      "mtimeNs": 1795188134083106000,
+      "sha256": "72cdc5a12433c5231006906c5a5fd68c57c21930b6e9fbeabe17523bdaab708c"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/postprocess_cf.py",
+      "bytes": 23033,
+      "device": 48,
+      "inode": 841067518,
+      "mtimeNs": 1795188134089916000,
+      "sha256": "24841cfff63ce36519671f8ad34606e6f2bc7ac217b814afdb6caf60ee4a1c83"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/ExtractPeriodCF.C",
+      "bytes": 16573,
+      "device": 48,
+      "inode": 841067501,
+      "mtimeNs": 1795185096053551000,
+      "sha256": "5b26772487108836a378824188495a1f0cd41438117b0457c13be2efa3714586"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/DrawPeriodCF.C",
+      "bytes": 14969,
+      "device": 48,
+      "inode": 841067691,
+      "mtimeNs": 1795185096062718000,
+      "sha256": "14f38d938349e55d9b27a8860ae23949b4dbb166bb0fd876a87188773b0175f3"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/prepare_production_matrix.py",
+      "bytes": 7432,
+      "device": 48,
+      "inode": 841592974,
+      "mtimeNs": 1795188038657422000,
+      "sha256": "ee7dbfc30cee3669cea6e308ec53ed0261c570c93545a0c0e1e9c9a262d40c9a"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/run_production_matrix.py",
+      "bytes": 3871,
+      "device": 48,
+      "inode": 841593068,
+      "mtimeNs": 1795186384755188000,
+      "sha256": "597af60b62c7206c8443bf349197705ffe90f71a745ac6bcc073813e016b93d1"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/submit.sh",
+      "bytes": 9431,
+      "device": 48,
+      "inode": 862600109,
+      "mtimeNs": 1781239510978934000,
+      "sha256": "20570668ff79de0fb1a60a0ba72300a791970bac9034274646123f67720bb054"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/analysis/FemtoLambdaRunSupport.h",
+      "bytes": 10041,
+      "device": 48,
+      "inode": 149569497,
+      "mtimeNs": 1794496592646140000,
+      "sha256": "53efa40dddf9fe1035ce6917a9e585313c9eb714a41176622ce8e45a0f7b5eb6"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/analysis/anaFemtoLambda_4He_tree.C",
+      "bytes": 6318,
+      "device": 48,
+      "inode": 659394059,
+      "mtimeNs": 1794877293702011000,
+      "sha256": "a704670e0b35f75ad441ec5b9b5f5457845a11b68f12f48e62e3bec8a182f93b"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/analysis/run_anaFemtoLambda_4He_tree.C",
+      "bytes": 3386,
+      "device": 48,
+      "inode": 958818551,
+      "mtimeNs": 1794877298090988000,
+      "sha256": "61005aa499bda2d7102e0cf4b139f2b6262223b16b612acb663c05e616484d66"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/include/FemtoLambdaReducedTree.h",
+      "bytes": 37967,
+      "device": 48,
+      "inode": 874769214,
+      "mtimeNs": 1794877874290116000,
+      "sha256": "a7b5c2a2332cf555ff4a5342bc8809f9a9bb77ac01f12df7026056ce19d31702"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/include/FemtoLambdaReducedTreeConfig.h",
+      "bytes": 6637,
+      "device": 48,
+      "inode": 10860598,
+      "mtimeNs": 1794881617814837000,
+      "sha256": "6fe1d04d05a543407cc66f60e2eecbe4fa90a5ad367cde47f9daa16c875029cc"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/include/FemtoLambdaTreeTypes.h",
+      "bytes": 117,
+      "device": 48,
+      "inode": 9287666,
+      "mtimeNs": 1794877599420794125,
+      "sha256": "cb3ca3fa791066220531584633703cfe7b898dc6e8917ff4c1700cf75d41a8c1"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/include/FemtoLambdaTreeLinkDef.h",
+      "bytes": 425,
+      "device": 48,
+      "inode": 10860582,
+      "mtimeNs": 1795071504255938000,
+      "sha256": "e0dbf2fc6e95b8c56d3867aafaa5e623b79bf4a148217a12122ca197c27f00b5"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/include/FemtoCandidateEventStore.h",
+      "bytes": 26234,
+      "device": 48,
+      "inode": 1042468828,
+      "mtimeNs": 1794496592855266000,
+      "sha256": "06d9f8b30f857f0ef75452fac5acc62d3941e48d072ea5f41673ad6f3337c5fd"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/include/FemtoCandidateEventStoreConfig.h",
+      "bytes": 6735,
+      "device": 48,
+      "inode": 1042993297,
+      "mtimeNs": 1793620100186634000,
+      "sha256": "27b9eff05cbcc4b8bc59d77c68fb7612e3cd44858b5ced2dfac5f1b26e304f4b"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/StMaker/StFemtoMaker/StFemtoMaker.cxx",
+      "bytes": 181625,
+      "device": 48,
+      "inode": 797965826,
+      "mtimeNs": 1795183404598165000,
+      "sha256": "9fa9f73637c586a692a48bf110fb8b392938574dc66037b1083907a599c3f3e5"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/StMaker/StFemtoMaker/StFemtoMaker.h",
+      "bytes": 16403,
+      "device": 48,
+      "inode": 797965828,
+      "mtimeNs": 1795182556536268000,
+      "sha256": "5e4bec11c498cc39fc684c9d3eacea5e35cae503a3812155a45570dffcb81e1e"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/StMaker/common/FemtoLambdaLegacy.cxx",
+      "bytes": 96026,
+      "device": 48,
+      "inode": 151669050,
+      "mtimeNs": 1795184812284910000,
+      "sha256": "5a701233f5722749e9f090f8c605ee16c688956f067c2d7f0f02103b46f2dce3"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/StMaker/common/FemtoLambdaLegacy.h",
+      "bytes": 8860,
+      "device": 48,
+      "inode": 149568643,
+      "mtimeNs": 1795182556544194000,
+      "sha256": "5e67ef4434a4d994b27e5d01b591677f640bccc5d06dcf167755cc99254c1a93"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/lib/libStarAnaConfig.so",
+      "bytes": 1050472,
+      "device": 48,
+      "inode": 841592958,
+      "mtimeNs": 1795185484001180748,
+      "sha256": "2f14d195fe5104d95a83215c42a1f5672c459bb7918f0d6bc6653ffa4bd9cefc"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/lib/libStRefMultCorr.so",
+      "bytes": 1547416,
+      "device": 48,
+      "inode": 841067451,
+      "mtimeNs": 1795185483762093166,
+      "sha256": "81f9d82d854d9384d34af76b6fbf17327f4db0316094b2dfefa4a4d0418236d9"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/lib/libKFParticle.so",
+      "bytes": 536408,
+      "device": 48,
+      "inode": 841067373,
+      "mtimeNs": 1795184291253489669,
+      "sha256": "c53c9eeab0f8c1f5d1018521cc0e916304bda42750cb6c83a282dedf4047095d"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/lib/libStKfParticleCommon.so",
+      "bytes": 321744,
+      "device": 48,
+      "inode": 841067247,
+      "mtimeNs": 1795185484576679343,
+      "sha256": "764b0306c292dfedc0a669fd61415c4af893b088258d0640a6f85173da5191d7"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/lib/libStCommon.so",
+      "bytes": 744312,
+      "device": 48,
+      "inode": 841067295,
+      "mtimeNs": 1795185492588347018,
+      "sha256": "9e5883b7e676a8780fc0268fb8ca8abb03eb50552c8e2247923cde18daa3caa5"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/lib/libStFemtoMaker.so",
+      "bytes": 679544,
+      "device": 48,
+      "inode": 841067419,
+      "mtimeNs": 1795185493305667666,
+      "sha256": "202f35806b0b53267244afc59f3d03d0a8d1a802628613a3597c5ae8b88b4617"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep1_mergingOff/launch_once.py",
+      "bytes": 29061,
+      "device": 48,
+      "inode": 663513703,
+      "mtimeNs": 1795188653816444000,
+      "sha256": "c008d09cbad058fe12426c39f1baa5eb9b937a401c4531f77f74739afe0f867e"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/joblist/joblist_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100_epCut20261120.xml",
+      "bytes": 5310,
+      "device": 48,
+      "inode": 665089088,
+      "mtimeNs": 1795188661508271000,
+      "sha256": "35ef63bdfd68ecdd6d4eee5afa8c19408cf3cfdc5498f3778cbd4dfb68b85aa6"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100.yaml",
+      "bytes": 886,
+      "device": 48,
+      "inode": 841067063,
+      "mtimeNs": 1795183827638489000,
+      "sha256": "01f29b7fd5eeed2c55bf4429b051c4ad3fe59c7dddc70175cf9565f16b055e2f"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/test_actual_lambda_merging_paircut_result.json",
+      "bytes": 3866,
+      "device": 48,
+      "inode": 841593014,
+      "mtimeNs": 1795185944515372000,
+      "sha256": "046fc3f693fd712964e4f244a32c199886596bd9b26a2e48836d5d3758e1eb31"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/include/FemtoLambdaPairGeometry.h",
+      "bytes": 1599,
+      "device": 48,
+      "inode": 841066909,
+      "mtimeNs": 1795184048982459000,
+      "sha256": "b9d92c6980bb6bfe917abc8fd41d138e4d23eaff72a3437d20cb2bf47fd6a824"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/include/FemtoEpdEventPlane.h",
+      "bytes": 3399,
+      "device": 48,
+      "inode": 571056104,
+      "mtimeNs": 1795181786546799000,
+      "sha256": "17133c212b02346a83c4915d24cdada179981d85c5bd3f1d043153c2677ef122"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/Makefile",
+      "bytes": 21529,
+      "device": 48,
+      "inode": 797965818,
+      "mtimeNs": 1795183404604679000,
+      "sha256": "a95136a43184825f9e98d8d532ed0f526a7d2efbfa1dd3415f44101f64d36130"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100.yaml",
+      "bytes": 1433,
+      "device": 48,
+      "inode": 841067057,
+      "mtimeNs": 1795183827626158000,
+      "sha256": "40a08bc1e8ee5794890ba2a7d2ac7b565bfba24b24b447531de69b31430b2e2c"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/event/event_femtoLambda_imp5.yaml",
+      "bytes": 247,
+      "device": 48,
+      "inode": 151143850,
+      "mtimeNs": 1790746540395039617,
+      "sha256": "493c22c8ec457820047b563fda66ef916efec31b5cc7bb29b02b47c395c7aac7"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/centrality/centrality_auau3p85_femtoLambda.yaml",
+      "bytes": 325,
+      "device": 48,
+      "inode": 151143858,
+      "mtimeNs": 1790746540397729177,
+      "sha256": "1cf50324a4c7f3ef308be960b87c9ebea3693031abf4f8352838027614ce4ca0"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/kf/kf_auau3p85_anaLambda_KFParticle_highpurity.yaml",
+      "bytes": 1671,
+      "device": 48,
+      "inode": 797438467,
+      "mtimeNs": 1790654601740854000,
+      "sha256": "581bab50e769a28428fe5970f72cae9acd7da104c931f83d2060a0e15f9dd425"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/nuclearid/nuclearid_femtoLambda_auau3p85_he4_accepted_20261022.yaml",
+      "bytes": 1539,
+      "device": 48,
+      "inode": 239694260,
+      "mtimeNs": 1792633086873226000,
+      "sha256": "8d6fe1d422908fcd204bf59243bc4440aa4fac52f64f00b3ec8a37b471f1776f"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/maker/maker_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100.yaml",
+      "bytes": 3003,
+      "device": 48,
+      "inode": 841067058,
+      "mtimeNs": 1795183827628803000,
+      "sha256": "2215e20edfbed30e76efa34153174a7d96557a9533180f59a932cbbb0aa6b548"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/mixing/mixing_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100.yaml",
+      "bytes": 182,
+      "device": 48,
+      "inode": 841067062,
+      "mtimeNs": 1795183827634872488,
+      "sha256": "0c3767bcd8092fa7b6c556d08e87d5e76f539b79089561a0d1cc6ee12c10c57f"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100_kf.yaml",
+      "bytes": 33035,
+      "device": 48,
+      "inode": 841067059,
+      "mtimeNs": 1795183827631151000,
+      "sha256": "ffb9dfb9c9fbe8530ab3560ed31f76ece3318b8c229f69b30784f4fe35f480df"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100_nuclear.yaml",
+      "bytes": 94753,
+      "device": 48,
+      "inode": 841067060,
+      "mtimeNs": 1795183827632836000,
+      "sha256": "e64c1f1c2e890fa5df982e536d6e99f33c8b08747ff9322fefea7b8553121327"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/event_plane/lambda_he4_xialei_epd8.yaml",
+      "bytes": 1100,
+      "device": 48,
+      "inode": 786957055,
+      "mtimeNs": 1794496873689006000,
+      "sha256": "ccc0a0868f0fb40d0d75c622a2e133392a5b591458c2336f11ec7d813e58d64d"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/reduced_tree/lambda_he4_period_mix.yaml",
+      "bytes": 255,
+      "device": 48,
+      "inode": 1015110603,
+      "mtimeNs": 1795068104044124016,
+      "sha256": "93e94dddd5f5db84af76e43a7bb6a911aba8105cdde18a856ad35fc43ab46083"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_femtoLambda_he4_he3_pid_pair_qa_selectedOnly.yaml",
+      "bytes": 88721,
+      "device": 48,
+      "inode": 713945928,
+      "mtimeNs": 1794881878078040000,
+      "sha256": "40cb6be15fbc71000ff1dbb8860902317114e4f71ee8762a5acf2111547ef763"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/event_plane/xialei_epd_2021P24iy/recenterpar.root",
+      "bytes": 3827598,
+      "device": 48,
+      "inode": 786956983,
+      "mtimeNs": 1794496007545115330,
+      "sha256": "03b4e70b5af1143e628b09a69a8aca791f0ec39b4ddb2ab842bbac13372dd5d0"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/event_plane/xialei_epd_2021P24iy/shiftpar.root",
+      "bytes": 40788318,
+      "device": 48,
+      "inode": 786956987,
+      "mtimeNs": 1794496008110790308,
+      "sha256": "75621a71e6a90b161e5e45eeda76754c0aac30ab312540abea07b8b18e85d5e0"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/event_plane/xialei_epd_2021P24iy/runs_2021.txt",
+      "bytes": 3492,
+      "device": 48,
+      "inode": 786956989,
+      "mtimeNs": 1794496008895738000,
+      "sha256": "ebeb32e590666fe8db88eb9b458755a07313644a72ca1301fb65658df48be840"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/calibration/dedx_he4_auau3p85_2021P24iy_accepted_20261022.yaml",
+      "bytes": 1761,
+      "device": 48,
+      "inode": 239694201,
+      "mtimeNs": 1792633086851648000,
+      "sha256": "464e641b8e1135ab830c4f5ca4d32ef6fa5123dc87f53a045435fb87529b53da"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep1_mergingOff/config.json",
+      "bytes": 26409,
+      "device": 48,
+      "inode": 665089008,
+      "mtimeNs": 1795188662587110000,
+      "sha256": "9dbdef51d0b4c8f19e9f3bf8cf816d72ea57679bced96d003f2fb1e592049513"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep1_mergingOn/launch_once.py",
+      "bytes": 29061,
+      "device": 48,
+      "inode": 665089168,
+      "mtimeNs": 1795188662591541000,
+      "sha256": "c008d09cbad058fe12426c39f1baa5eb9b937a401c4531f77f74739afe0f867e"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/joblist/joblist_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100_epCut20261120.xml",
+      "bytes": 5295,
+      "device": 48,
+      "inode": 665089843,
+      "mtimeNs": 1795188669922113000,
+      "sha256": "de9e136e6850b4492a177ba0533de247e76f3f3e7f48859acf1c8c6da022ff37"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100.yaml",
+      "bytes": 881,
+      "device": 48,
+      "inode": 841067085,
+      "mtimeNs": 1795183827653025000,
+      "sha256": "c500e2f2835ed2fdf49a9b5440dd8389bd630bbaca446fcc56a4441debd3ce26"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100.yaml",
+      "bytes": 1426,
+      "device": 48,
+      "inode": 841067066,
+      "mtimeNs": 1795183827640857000,
+      "sha256": "11afb670fc015282af3eea7589766d843deee10d36fc183d5e967e35751aaea2"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/maker/maker_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100.yaml",
+      "bytes": 3002,
+      "device": 48,
+      "inode": 841067070,
+      "mtimeNs": 1795183827642671000,
+      "sha256": "b6f6fe652217c8c15e6c9bca022d70de139eda07da7772ac37b162dbf682d045"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/mixing/mixing_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100.yaml",
+      "bytes": 182,
+      "device": 48,
+      "inode": 841067084,
+      "mtimeNs": 1795183827650571711,
+      "sha256": "0c3767bcd8092fa7b6c556d08e87d5e76f539b79089561a0d1cc6ee12c10c57f"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100_kf.yaml",
+      "bytes": 33035,
+      "device": 48,
+      "inode": 841067073,
+      "mtimeNs": 1795183827645826000,
+      "sha256": "ffb9dfb9c9fbe8530ab3560ed31f76ece3318b8c229f69b30784f4fe35f480df"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100_nuclear.yaml",
+      "bytes": 94753,
+      "device": 48,
+      "inode": 841067078,
+      "mtimeNs": 1795183827649199000,
+      "sha256": "e64c1f1c2e890fa5df982e536d6e99f33c8b08747ff9322fefea7b8553121327"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep1_mergingOn/config.json",
+      "bytes": 26391,
+      "device": 48,
+      "inode": 665089772,
+      "mtimeNs": 1795188670410813000,
+      "sha256": "4723b47d9e6b68c00e52dac1c2a018dadd14e83635567be7c01cdb61f783527f"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep8_mergingOn/launch_once.py",
+      "bytes": 29061,
+      "device": 48,
+      "inode": 665614361,
+      "mtimeNs": 1795188670413960000,
+      "sha256": "c008d09cbad058fe12426c39f1baa5eb9b937a401c4531f77f74739afe0f867e"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/joblist/joblist_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOn_mix100_epCut20261120.xml",
+      "bytes": 5295,
+      "device": 48,
+      "inode": 841593997,
+      "mtimeNs": 1795188677939653000,
+      "sha256": "91bb0028e3de72f8b8e88684a54f323bd2dcbdee3737fa0a55eefff196c59596"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOn_mix100.yaml",
+      "bytes": 881,
+      "device": 48,
+      "inode": 841067110,
+      "mtimeNs": 1795183827674375000,
+      "sha256": "b8eb1e423117c27bb537d92c9d2899bff41c83e6285ddca515be9c7d95bab1ba"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOn_mix100.yaml",
+      "bytes": 1426,
+      "device": 48,
+      "inode": 841067097,
+      "mtimeNs": 1795183827666280000,
+      "sha256": "6db6bff5691affdbdaff80c232a9a7105a01e0af7996926107916f2fa7191fa5"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/maker/maker_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOn_mix100.yaml",
+      "bytes": 3002,
+      "device": 48,
+      "inode": 841067098,
+      "mtimeNs": 1795183827667466000,
+      "sha256": "b6f6fe652217c8c15e6c9bca022d70de139eda07da7772ac37b162dbf682d045"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/mixing/mixing_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOn_mix100.yaml",
+      "bytes": 182,
+      "device": 48,
+      "inode": 841067106,
+      "mtimeNs": 1795183827672939862,
+      "sha256": "e96b3c321b40b936b6e9dc63336393f208b1b9c5d273886e12e7c9b7db3a453d"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOn_mix100_kf.yaml",
+      "bytes": 33035,
+      "device": 48,
+      "inode": 841067099,
+      "mtimeNs": 1795183827669746000,
+      "sha256": "f54bc737366be39d0fb08b0f36e6b1d595fdf0e1a2cabe7830ffb0efd50da624"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOn_mix100_nuclear.yaml",
+      "bytes": 94753,
+      "device": 48,
+      "inode": 841067104,
+      "mtimeNs": 1795183827671511000,
+      "sha256": "e64c1f1c2e890fa5df982e536d6e99f33c8b08747ff9322fefea7b8553121327"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep8_mergingOn/config.json",
+      "bytes": 26391,
+      "device": 48,
+      "inode": 759644809,
+      "mtimeNs": 1795188678459102000,
+      "sha256": "df87a714f944b0ee5b5ecd29d4cd2b0c670c630c42632d3395e0d92efa279090"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep16_mergingOff/launch_once.py",
+      "bytes": 29061,
+      "device": 48,
+      "inode": 841594000,
+      "mtimeNs": 1795188678462480000,
+      "sha256": "c008d09cbad058fe12426c39f1baa5eb9b937a401c4531f77f74739afe0f867e"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/joblist/joblist_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100_epCut20261120.xml",
+      "bytes": 5325,
+      "device": 48,
+      "inode": 841594029,
+      "mtimeNs": 1795188686949356000,
+      "sha256": "9cb214a491d37e4c2053f50684b5e1a181fc39c440bd5e4d73672d961eee5adf"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100.yaml",
+      "bytes": 891,
+      "device": 48,
+      "inode": 841067152,
+      "mtimeNs": 1795183827683618000,
+      "sha256": "9128fddf3d358f4676e119e6959715079bf92827246b08ed9b4a870535f7d65e"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100.yaml",
+      "bytes": 1440,
+      "device": 48,
+      "inode": 841067111,
+      "mtimeNs": 1795183827676544000,
+      "sha256": "db5641e59f56db99c98ff754c5fceb86a80c4f7fa7c2644adf185941bd8632f0"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/maker/maker_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100.yaml",
+      "bytes": 3003,
+      "device": 48,
+      "inode": 841067116,
+      "mtimeNs": 1795183827678142000,
+      "sha256": "2215e20edfbed30e76efa34153174a7d96557a9533180f59a932cbbb0aa6b548"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/mixing/mixing_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100.yaml",
+      "bytes": 183,
+      "device": 48,
+      "inode": 841067130,
+      "mtimeNs": 1795183827682124232,
+      "sha256": "ef5cef4886b5dc9325a8ed07dbdc0f9be6abb092833158d52ebea8362786cf4f"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100_kf.yaml",
+      "bytes": 33054,
+      "device": 48,
+      "inode": 841067117,
+      "mtimeNs": 1795183827679500000,
+      "sha256": "6b8e12376fbf94acc9c1e90d52b3948f4522e964af34bcf332eb4b8f31262808"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100_nuclear.yaml",
+      "bytes": 94753,
+      "device": 48,
+      "inode": 841067123,
+      "mtimeNs": 1795183827680983000,
+      "sha256": "e64c1f1c2e890fa5df982e536d6e99f33c8b08747ff9322fefea7b8553121327"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep16_mergingOff/config.json",
+      "bytes": 26427,
+      "device": 48,
+      "inode": 841594017,
+      "mtimeNs": 1795188687459676000,
+      "sha256": "b9dfa1cd0fbd6dd2244f964f2bab8870b70ad7c639cf79fe4a2f3fd8c328f1ab"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep16_mergingOn/launch_once.py",
+      "bytes": 29061,
+      "device": 48,
+      "inode": 841594072,
+      "mtimeNs": 1795188687465511000,
+      "sha256": "c008d09cbad058fe12426c39f1baa5eb9b937a401c4531f77f74739afe0f867e"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/joblist/joblist_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100_epCut20261120.xml",
+      "bytes": 5310,
+      "device": 48,
+      "inode": 841594097,
+      "mtimeNs": 1795188695169066000,
+      "sha256": "5932fe074f978d884a830706d6e03fbf4cc171a83c9c0a0febdd21a1d9172e1e"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100.yaml",
+      "bytes": 886,
+      "device": 48,
+      "inode": 841067188,
+      "mtimeNs": 1795183827695469000,
+      "sha256": "f06a2a2dc4b19d8b6f52fc783d64f09e3c99c92e00a4c9b95296b1d3d3252db8"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100.yaml",
+      "bytes": 1433,
+      "device": 48,
+      "inode": 841067155,
+      "mtimeNs": 1795183827685060000,
+      "sha256": "f7b4f98c62d143b0c8f1e6097069b4b9125da0c341240e043299d7c9d39ce52b"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/maker/maker_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100.yaml",
+      "bytes": 3002,
+      "device": 48,
+      "inode": 841067165,
+      "mtimeNs": 1795183827686652000,
+      "sha256": "b6f6fe652217c8c15e6c9bca022d70de139eda07da7772ac37b162dbf682d045"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/mixing/mixing_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100.yaml",
+      "bytes": 183,
+      "device": 48,
+      "inode": 841067182,
+      "mtimeNs": 1795183827693154114,
+      "sha256": "ef5cef4886b5dc9325a8ed07dbdc0f9be6abb092833158d52ebea8362786cf4f"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100_kf.yaml",
+      "bytes": 33054,
+      "device": 48,
+      "inode": 841067167,
+      "mtimeNs": 1795183827687915000,
+      "sha256": "6b8e12376fbf94acc9c1e90d52b3948f4522e964af34bcf332eb4b8f31262808"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100_nuclear.yaml",
+      "bytes": 94753,
+      "device": 48,
+      "inode": 841067173,
+      "mtimeNs": 1795183827691500000,
+      "sha256": "e64c1f1c2e890fa5df982e536d6e99f33c8b08747ff9322fefea7b8553121327"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep16_mergingOn/config.json",
+      "bytes": 26409,
+      "device": 48,
+      "inode": 841594095,
+      "mtimeNs": 1795188695652741000,
+      "sha256": "b48c0d0bfee9aa68f4892196d53f452d2f9116b08638725137be5219aa8b54ab"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep32_mergingOff/launch_once.py",
+      "bytes": 29061,
+      "device": 48,
+      "inode": 841594107,
+      "mtimeNs": 1795188695657831000,
+      "sha256": "c008d09cbad058fe12426c39f1baa5eb9b937a401c4531f77f74739afe0f867e"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/joblist/joblist_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOff_mix100_epCut20261120.xml",
+      "bytes": 5325,
+      "device": 48,
+      "inode": 841594127,
+      "mtimeNs": 1795188703202504000,
+      "sha256": "4b6e2578b4906455bbee146581f00e77cb4c3b798f88fbcab3cb0e96adb12fff"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOff_mix100.yaml",
+      "bytes": 891,
+      "device": 48,
+      "inode": 841067204,
+      "mtimeNs": 1795183827704216000,
+      "sha256": "59f0985d0784de9024c1330ccf79c1f047cb6d199d83d9597224f9b2153d3b2e"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOff_mix100.yaml",
+      "bytes": 1440,
+      "device": 48,
+      "inode": 841067190,
+      "mtimeNs": 1795183827697155000,
+      "sha256": "dd453f824d4c5ac3598d5be1057d44c0268f7cdc803f99e90899eae74d51a5a6"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/maker/maker_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOff_mix100.yaml",
+      "bytes": 3003,
+      "device": 48,
+      "inode": 841067191,
+      "mtimeNs": 1795183827698680000,
+      "sha256": "2215e20edfbed30e76efa34153174a7d96557a9533180f59a932cbbb0aa6b548"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/mixing/mixing_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOff_mix100.yaml",
+      "bytes": 183,
+      "device": 48,
+      "inode": 841067201,
+      "mtimeNs": 1795183827702789079,
+      "sha256": "fbe1eae90b67bde90351823920b071aacd1c0bdba5d9308d0a82e78a96412907"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOff_mix100_kf.yaml",
+      "bytes": 33054,
+      "device": 48,
+      "inode": 841067192,
+      "mtimeNs": 1795183827699947000,
+      "sha256": "7bdd0c37b8dc83a619453e113b2b3d67aa4d483b960be5b08c7bff8550eb8930"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOff_mix100_nuclear.yaml",
+      "bytes": 94753,
+      "device": 48,
+      "inode": 841067198,
+      "mtimeNs": 1795183827701383000,
+      "sha256": "e64c1f1c2e890fa5df982e536d6e99f33c8b08747ff9322fefea7b8553121327"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep32_mergingOff/config.json",
+      "bytes": 26427,
+      "device": 48,
+      "inode": 841594124,
+      "mtimeNs": 1795188703683833000,
+      "sha256": "cfc991b14d6fa1235833449fd7ce495123f35aec75d2cff279e94982f26e0cbf"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep32_mergingOn/launch_once.py",
+      "bytes": 29061,
+      "device": 48,
+      "inode": 841594130,
+      "mtimeNs": 1795188703687032000,
+      "sha256": "c008d09cbad058fe12426c39f1baa5eb9b937a401c4531f77f74739afe0f867e"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/joblist/joblist_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOn_mix100_epCut20261120.xml",
+      "bytes": 5310,
+      "device": 48,
+      "inode": 841594148,
+      "mtimeNs": 1795188710777043000,
+      "sha256": "c5e9491e447840f2e14bf7315bd430b86089f9d1a0d3ff627e0d6b94d1ff4ec6"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOn_mix100.yaml",
+      "bytes": 886,
+      "device": 48,
+      "inode": 841067230,
+      "mtimeNs": 1795183827715491000,
+      "sha256": "b4ea1504af05cc44df9ffaa2e149e4e0404eee4f6baa29897cbb688cec3afa32"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/analysis/analysis_info_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOn_mix100.yaml",
+      "bytes": 1433,
+      "device": 48,
+      "inode": 841067205,
+      "mtimeNs": 1795183827706905000,
+      "sha256": "df6bbea193f9e780b1cbadb55911d0f07379adf61cec539401d676885fb0a789"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/maker/maker_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOn_mix100.yaml",
+      "bytes": 3002,
+      "device": 48,
+      "inode": 841067210,
+      "mtimeNs": 1795183827708273000,
+      "sha256": "b6f6fe652217c8c15e6c9bca022d70de139eda07da7772ac37b162dbf682d045"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/cuts/mixing/mixing_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOn_mix100.yaml",
+      "bytes": 183,
+      "device": 48,
+      "inode": 841067225,
+      "mtimeNs": 1795183827713193679,
+      "sha256": "fbe1eae90b67bde90351823920b071aacd1c0bdba5d9308d0a82e78a96412907"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOn_mix100_kf.yaml",
+      "bytes": 33054,
+      "device": 48,
+      "inode": 841067212,
+      "mtimeNs": 1795183827709662000,
+      "sha256": "7bdd0c37b8dc83a619453e113b2b3d67aa4d483b960be5b08c7bff8550eb8930"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/config/hist/hist_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOn_mix100_nuclear.yaml",
+      "bytes": 94753,
+      "device": 48,
+      "inode": 841067215,
+      "mtimeNs": 1795183827711853000,
+      "sha256": "e64c1f1c2e890fa5df982e536d6e99f33c8b08747ff9322fefea7b8553121327"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep32_mergingOn/config.json",
+      "bytes": 26409,
+      "device": 48,
+      "inode": 841594145,
+      "mtimeNs": 1795188711269022000,
+      "sha256": "2eb3bfe7dee6bc0d682b32cc9b40cc0f37f92e15dc94a2522de694278c2aa161"
+    }
+  ]
+}

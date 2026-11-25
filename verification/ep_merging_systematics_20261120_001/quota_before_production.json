@@ -1,0 +1,29 @@
+{
+  "checkedAtUTC": "2026-11-20T15:21:41.344161+00:00",
+  "rawFieldsKiB": {
+    "version": "1",
+    "reserved": "",
+    "filesystemName": "gpfs",
+    "quotaType": "USR",
+    "id": "102335",
+    "name": "yichikawa",
+    "blockUsage": "1216315648",
+    "blockQuota": "2406563840",
+    "blockLimit": "2943434752",
+    "blockInDoubt": "845056",
+    "blockGrace": "none",
+    "filesUsage": "478881",
+    "filesQuota": "0",
+    "filesLimit": "0",
+    "filesInDoubt": "82",
+    "filesGrace": "none",
+    "remarks": "rcf.bnl.gov",
+    "fid": "18",
+    "filesetname": "star-pwg",
+    "": ""
+  },
+  "softHeadroomAfterInDoubtBytes": 1217948811264,
+  "productionEstimatedBytes": 100000000000,
+  "requiredReserveBytes": 500000000000,
+  "passed": true
+}

@@ -1,0 +1,630 @@
+{
+  "savedAtJST": "2026-11-21T00:47:51.825372+09:00",
+  "records": [
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/source_before_manifest.json",
+      "copy": "source_before_manifest.json",
+      "sourceBytes": 16071,
+      "sha256": "7cedf9a6115c90b9c4eb2bc00fba5d48971fe090e1f04c5c75f4a9e8f0084c9e"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/merging_plot_inputs.json",
+      "copy": "merging_plot_inputs.json",
+      "sourceBytes": 11190,
+      "sha256": "4389229dc5cbe3b993352988865b09be4f9436e658723749dd9fbd7aa936f806"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/merging_current_vs_old_metrics.json",
+      "copy": "merging_current_vs_old_metrics.json",
+      "sourceBytes": 5761,
+      "sha256": "fc24e38bda530ed9c6a6e5f7c85c7f0302727013b7c1895c327573d5da57fefc"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/cases.json",
+      "copy": "cases.json",
+      "sourceBytes": 31939,
+      "sha256": "adea9a3c1ec3846bb65730d831b1f9ecc5e0daddc1d3846d6cd20fb0c929600e"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/merging_plot_validation.json",
+      "copy": "merging_plot_validation.json",
+      "sourceBytes": 2476,
+      "sha256": "71f6b16743ec9c51d1f5d5b0050a7152461f84aefd7d298c076d64d1f95ef255"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/config_validation.json",
+      "copy": "config_validation.json",
+      "sourceBytes": 369,
+      "sha256": "15909486ca42f373a869d38ccbff4cdbab952ad4dfb15dd6a10842951c828a23"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/cf_postprocess_settings.json",
+      "copy": "cf_postprocess_settings.json",
+      "sourceBytes": 2396,
+      "sha256": "72cdc5a12433c5231006906c5a5fd68c57c21930b6e9fbeabe17523bdaab708c"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/quota_before_production.json",
+      "copy": "quota_before_production.json",
+      "sourceBytes": 739,
+      "sha256": "ef47f0627bad3b341ca5f9bdb90f3d594dcc7460f28fbae97e4211315dec8bda"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilot_baseline_counts.json",
+      "copy": "pilot_baseline_counts.json",
+      "sourceBytes": 906,
+      "sha256": "e0770837267136b9d45deb9f1ce7517e7550acb57373d7ad52d76c71d88f8f4b"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/test_actual_lambda_merging_paircut_result.json",
+      "copy": "test_actual_lambda_merging_paircut_result.json",
+      "sourceBytes": 3866,
+      "sha256": "046fc3f693fd712964e4f244a32c199886596bd9b26a2e48836d5d3758e1eb31"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/watch_matrix_settings.json",
+      "copy": "watch_matrix_settings.json",
+      "sourceBytes": 1024,
+      "sha256": "907fe88f5bda7a24aec36af82489f6379342f2c68f25eb7feb37c2bbd17ba58b"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilot_matrix_pins.json",
+      "copy": "pilot_matrix_pins.json",
+      "sourceBytes": 20501,
+      "sha256": "30634fbe5b69223a7a7cb0c38839b4f312d185c0231aa0c625577b18bcc97267"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilot_matrix_status.json",
+      "copy": "pilot_matrix_status.json",
+      "sourceBytes": 36964,
+      "sha256": "7449b139abc01ff63a74266a77588b9ab4819293fb7c7d59f5c0281cd49ab0fb"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilot_matrix_results.json",
+      "copy": "pilot_matrix_results.json",
+      "sourceBytes": 17329,
+      "sha256": "c188045f914e52c29b081ade116ff7007685297a0c96247fa8f75efbfd283ee3"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilot_recovery.json",
+      "copy": "pilot_recovery.json",
+      "sourceBytes": 704,
+      "sha256": "2f9a2888ddcad61283df3e3f2459f4ac0a406101e130dd52b8deced674b4fcca"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilot_merging_accounting.json",
+      "copy": "pilot_merging_accounting.json",
+      "sourceBytes": 7983,
+      "sha256": "19d5187c53e1b6244d2d227aeec0df40fd7b07f966c2091f2192b07c42d3f164"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilot_ep_comparison.json",
+      "copy": "pilot_ep_comparison.json",
+      "sourceBytes": 2379,
+      "sha256": "bbc57cda119f3b4d511b509b8330ffff9986458547394a68342e622f87a52283"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/source_preservation_check.json",
+      "copy": "source_preservation_check.json",
+      "sourceBytes": 26295,
+      "sha256": "83fd7783b4e394720e6becd4ff4ede9bd3e9e029fab4bf9c76c8a0e986588dbb"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/watcher_baseline_check_002.json",
+      "copy": "watcher_baseline_check_002.json",
+      "sourceBytes": 81969,
+      "sha256": "b221013a6b7cb991b20a829d19f032da7b9b5c318aba9510b49e42b2b62e00b8"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilot_final_pins.json",
+      "copy": "pilot_final_pins.json",
+      "sourceBytes": 45894,
+      "sha256": "ff8db023a5aab1259410c4bf4115ffe2dd8043d79458bca9d3051690db78597f"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilot_resource_projection.json",
+      "copy": "pilot_resource_projection.json",
+      "sourceBytes": 3455,
+      "sha256": "057e1c8adec85a9230a35af225376b8c5a9adcf8e76ce795c1a1364ad6b4ac74"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilot_comparison.json",
+      "copy": "pilot_comparison.json",
+      "sourceBytes": 5648,
+      "sha256": "cd2f831bae562a4d87eea95543cf6bc7d5a7eaeb6c871df7c00012661718db1b"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilot_completed_baseline_resource_projection.json",
+      "copy": "pilot_completed_baseline_resource_projection.json",
+      "sourceBytes": 3687,
+      "sha256": "c9d84e17b35abe28c2b6b1d0b1cd6ce5e5735849ac0fe6f1d724041d7c5ab25c"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production_matrix.json",
+      "copy": "production_matrix.json",
+      "sourceBytes": 3616,
+      "sha256": "9061c68972aaae91b601dd6c76832e4c8ffbf66e14a1a077af374aa5711aa26d"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/watch_matrix_validate_settings.json",
+      "copy": "watch_matrix_validate_settings.json",
+      "sourceBytes": 45438,
+      "sha256": "4c3dbcc7b4b61a3a3d00dba7284d3a02e6aaea92eaf27ad2507b2c9e13853567"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/matrix_launch_attempt.json",
+      "copy": "matrix_launch_attempt.json",
+      "sourceBytes": 216,
+      "sha256": "5aed7e1121704a7747a5a6cb7af3e052565f6469ae06ca12e19d31caeb23511f"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/matrix_launch_state.json",
+      "copy": "matrix_launch_state.json",
+      "sourceBytes": 2962,
+      "sha256": "d100bed559a5a3d16f3679863ce30e7d63099f992e4a95fadfce975417774f71"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/independent_submission_audit.json",
+      "copy": "independent_submission_audit.json",
+      "sourceBytes": 7800,
+      "sha256": "83ca6403298df130812af1153b4cbdd2f8d6fcf05945f79f2381573c6d31ef72"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/independent_live_queue_20261120.json",
+      "copy": "independent_live_queue_20261120.json",
+      "sourceBytes": 53918,
+      "sha256": "41ae732714972d99a69869ac4f325d08e62836481281f161aadbb8ae7d25818f"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/quota_after_submission.json",
+      "copy": "quota_after_submission.json",
+      "sourceBytes": 707,
+      "sha256": "d62b4cf962275893ce24dc2a95cf94eb7e9afca17d3e0bc32550643645cc696c"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/prepare_merging_plot.py",
+      "copy": "prepare_merging_plot.py",
+      "sourceBytes": 3285,
+      "sha256": "dea8a13d9a0ba57ee9701a5893ae706dcdcdeb655c8c46231bb4fa664b87b40a"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/validate_merging_plot.py",
+      "copy": "validate_merging_plot.py",
+      "sourceBytes": 3970,
+      "sha256": "266c3e72c7fb433eda9da0b3b97bd1ab55d390027bd07086350e53505b3b45ea"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/prepare_configs.py",
+      "copy": "prepare_configs.py",
+      "sourceBytes": 13062,
+      "sha256": "6e20a2b8b85311fdb50b367cae36979ab9a5accd98c5ee0b19294e96563a4275"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/postprocess_cf.py",
+      "copy": "postprocess_cf.py",
+      "sourceBytes": 23033,
+      "sha256": "24841cfff63ce36519671f8ad34606e6f2bc7ac217b814afdb6caf60ee4a1c83"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/run_actual_paircut_validation.py",
+      "copy": "run_actual_paircut_validation.py",
+      "sourceBytes": 3972,
+      "sha256": "4fdb6838ae453727f8e7583891a7d5925d944d88c2d9bcfec7bec7f8c97ee095"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/watch_production_matrix.py",
+      "copy": "watch_production_matrix.py",
+      "sourceBytes": 37348,
+      "sha256": "d6cf19bd582586fa6bfa20b82a0dc63ec33b890eca62bcabd5df6dce573be2e4"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/prepare_production_matrix.py",
+      "copy": "prepare_production_matrix.py",
+      "sourceBytes": 7432,
+      "sha256": "ee7dbfc30cee3669cea6e308ec53ed0261c570c93545a0c0e1e9c9a262d40c9a"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/run_pilot_matrix.py",
+      "copy": "run_pilot_matrix.py",
+      "sourceBytes": 7199,
+      "sha256": "719fc5bb386d209b9d05319e39ee2c6952624e5386f1cf50ef280684200dad77"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/run_production_matrix.py",
+      "copy": "run_production_matrix.py",
+      "sourceBytes": 3871,
+      "sha256": "597af60b62c7206c8443bf349197705ffe90f71a745ac6bcc073813e016b93d1"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/run_pilot_matrix_before_harvest_fix.py",
+      "copy": "run_pilot_matrix_before_harvest_fix.py",
+      "sourceBytes": 7181,
+      "sha256": "1afe341eda6dccaaf36d760c6b559d890a1bb44874b5c61869f96e4351de954f"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/recover_pilot_results.py",
+      "copy": "recover_pilot_results.py",
+      "sourceBytes": 3733,
+      "sha256": "649b283feb44bd8995282043a9921c454e02890cfbdec0c4283a700dd5281011"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/finalize_pilot_gate.py",
+      "copy": "finalize_pilot_gate.py",
+      "sourceBytes": 6393,
+      "sha256": "68d526e3c059ec60fa74e1e52930c0280d5da7f5cd4e690d9b323f805c662dc6"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/check_source_preservation.py",
+      "copy": "check_source_preservation.py",
+      "sourceBytes": 3634,
+      "sha256": "fa9529d67b69b0c3339fe613f0631e1a5cfb9aca9f69893d070ccc920fc348b9"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/project_from_completed_baseline.py",
+      "copy": "project_from_completed_baseline.py",
+      "sourceBytes": 3473,
+      "sha256": "a97ff3d2c1dd3ef7c3297803091c67587d1fe41e8ccb0bdc022de31d30f64804"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/independent_submission_audit.py",
+      "copy": "independent_submission_audit.py",
+      "sourceBytes": 6896,
+      "sha256": "c4ac688945d23b4da5cf697dfd4506dd3da8c63f2be3db4a38ec8eea3907fb14"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/DrawMergingCurrentVsOld.C",
+      "copy": "DrawMergingCurrentVsOld.C",
+      "sourceBytes": 15427,
+      "sha256": "0b90e956bd4f63c09080376ed5e17ed64e0cd8a54823a1b143bab2a19091292e"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/ExtractPeriodCF.C",
+      "copy": "ExtractPeriodCF.C",
+      "sourceBytes": 16573,
+      "sha256": "5b26772487108836a378824188495a1f0cd41438117b0457c13be2efa3714586"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/test_actual_lambda_merging_paircut.C",
+      "copy": "test_actual_lambda_merging_paircut.C",
+      "sourceBytes": 12818,
+      "sha256": "469713ca097eab8a9e2342512ac87ff29a2d4bd397ae7bfcd40f1f4a05b485de"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/DrawPeriodCF.C",
+      "copy": "DrawPeriodCF.C",
+      "sourceBytes": 14969,
+      "sha256": "14f38d938349e55d9b27a8860ae23949b4dbb166bb0fd876a87188773b0175f3"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/run_actual_lambda_merging_paircut.C",
+      "copy": "run_actual_lambda_merging_paircut.C",
+      "sourceBytes": 1974,
+      "sha256": "920425a6834992b9ca1cd4bbc030b52fe3aef7b8bf66603ba348a84e6586c2d7"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/ValidatePilotMergingAccounting.C",
+      "copy": "ValidatePilotMergingAccounting.C",
+      "sourceBytes": 8779,
+      "sha256": "8680e64c698bb9f65d678e47a5b799bf9d2f04c8890fbc5d6a2d16d454e8f92c"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/CompareEpdMatrix.C",
+      "copy": "CompareEpdMatrix.C",
+      "sourceBytes": 10864,
+      "sha256": "f83c78b1b0df1e425315f7d92e2605b7933ce07df7e24954b361b1934c263f15"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/InspectBaselineCounts.C",
+      "copy": "InspectBaselineCounts.C",
+      "sourceBytes": 1299,
+      "sha256": "ea1093dcdaeac20e4f05c68826c7f91200b9b51b4c8fea30484c4dfa0cbb1aa5"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/CF_POSTPROCESS.md",
+      "copy": "CF_POSTPROCESS.md",
+      "sourceBytes": 6215,
+      "sha256": "7025b6f5f0e46c6e9cdf9a036d32bfb98b0686f7bb6c6d6f62519f7db9724a1b"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/WATCH_MATRIX.md",
+      "copy": "WATCH_MATRIX.md",
+      "sourceBytes": 6871,
+      "sha256": "f114d92739b3452be0a1fe5e9093ab2eda7fdaaa12324aa2f322b3d31adfce6f"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/build_verify.log",
+      "copy": "build_verify.log",
+      "sourceBytes": 12803,
+      "sha256": "687f2a808a1b5be5abd6d35ba300c7b42161b236b638b9d9eabe3c89e934bee8"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/test_pair_geometry.log",
+      "copy": "test_pair_geometry.log",
+      "sourceBytes": 703,
+      "sha256": "5016cbc99b3776eb1627f33400e7776dfc89571a27ac07291f2515685042aa97"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/test_ep_bins.log",
+      "copy": "test_ep_bins.log",
+      "sourceBytes": 1046,
+      "sha256": "280c0826e0c558404865e5424407daa1cc4c3137993298b1ac0eb8c1e88baec9"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/pilot_incremental_build.log",
+      "copy": "pilot_incremental_build.log",
+      "sourceBytes": 13582,
+      "sha256": "0102703e213183b3dbf463bc2b61e6dc7a07ff890c8f63164569c790289112f1"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep1_mergingOff/config.json",
+      "copy": "production/ep1_mergingOff/config.json",
+      "sourceBytes": 26409,
+      "sha256": "9dbdef51d0b4c8f19e9f3bf8cf816d72ea57679bced96d003f2fb1e592049513"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep1_mergingOff/launch_state.json",
+      "copy": "production/ep1_mergingOff/launch_state.json",
+      "sourceBytes": 952,
+      "sha256": "cdf081f06775509381f59a6f57f8e5340b43009b29b1ed037275363b959e51ba"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep1_mergingOff/launch_preflight.json",
+      "copy": "production/ep1_mergingOff/launch_preflight.json",
+      "sourceBytes": 7232,
+      "sha256": "288e4eb3fa2960d66408f9018400eace6105deac704463b638012e1c05bec223"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep1_mergingOff/input_coverage.json",
+      "copy": "production/ep1_mergingOff/input_coverage.json",
+      "sourceBytes": 9640,
+      "sha256": "7c6e0a983c5a22e6dc0fe57dd06537040612e2a6f66f52889f731254eb20d903"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep1_mergingOff/submission_artifacts.json",
+      "copy": "production/ep1_mergingOff/submission_artifacts.json",
+      "sourceBytes": 2021,
+      "sha256": "503a3513be33ecf8b3c560621bb8a62b380eb2eb9893f5fbe5691c43d2fe33f0"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep1_mergingOff/native_resources.json",
+      "copy": "production/ep1_mergingOff/native_resources.json",
+      "sourceBytes": 7322,
+      "sha256": "7d69d7810c432f32c7d8922b6f099d7f305fb56f3500a17051ec7af5acad9ced"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep1_mergingOn/config.json",
+      "copy": "production/ep1_mergingOn/config.json",
+      "sourceBytes": 26391,
+      "sha256": "4723b47d9e6b68c00e52dac1c2a018dadd14e83635567be7c01cdb61f783527f"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep1_mergingOn/launch_state.json",
+      "copy": "production/ep1_mergingOn/launch_state.json",
+      "sourceBytes": 949,
+      "sha256": "e85f21e58800356182a012f91dc63f54d65bc5cae475b53a9a63ee4ef788bfad"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep1_mergingOn/launch_preflight.json",
+      "copy": "production/ep1_mergingOn/launch_preflight.json",
+      "sourceBytes": 7232,
+      "sha256": "d64568396a2334e740a1a9130789734f0f81ae5d4786755e4a3be71dfcead009"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep1_mergingOn/input_coverage.json",
+      "copy": "production/ep1_mergingOn/input_coverage.json",
+      "sourceBytes": 9620,
+      "sha256": "417d100dc8872dfd01113fc2d883add50f8294e34b7f3573c45a6b45c3df48a3"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep1_mergingOn/submission_artifacts.json",
+      "copy": "production/ep1_mergingOn/submission_artifacts.json",
+      "sourceBytes": 2015,
+      "sha256": "fb9909ab1efd564ce9d09742eaeb5cff3da9040de3e08b6f1407908f137256f6"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep1_mergingOn/native_resources.json",
+      "copy": "production/ep1_mergingOn/native_resources.json",
+      "sourceBytes": 7301,
+      "sha256": "93d8160f30c811e6a3b572a24c6784adbb24b4d94f9d7bbafa5581b3793758da"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep8_mergingOn/config.json",
+      "copy": "production/ep8_mergingOn/config.json",
+      "sourceBytes": 26391,
+      "sha256": "df87a714f944b0ee5b5ecd29d4cd2b0c670c630c42632d3395e0d92efa279090"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep8_mergingOn/launch_state.json",
+      "copy": "production/ep8_mergingOn/launch_state.json",
+      "sourceBytes": 949,
+      "sha256": "f3dfecef19e3b0349167937f15d7f3acb4fe4ca16d7e953a9a86e18bbc8d421d"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep8_mergingOn/launch_preflight.json",
+      "copy": "production/ep8_mergingOn/launch_preflight.json",
+      "sourceBytes": 7234,
+      "sha256": "3a2ae7a134ad68ea9a4861feb71410f537ab3f8130a13c8bd634c3307113b316"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep8_mergingOn/input_coverage.json",
+      "copy": "production/ep8_mergingOn/input_coverage.json",
+      "sourceBytes": 9620,
+      "sha256": "88d3ea69056fdd0f0fa7f8a6f0bb47e2ae5e44a734222f321bae1392a7429926"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep8_mergingOn/submission_artifacts.json",
+      "copy": "production/ep8_mergingOn/submission_artifacts.json",
+      "sourceBytes": 2015,
+      "sha256": "ee70c8505b12a9b550574ef9adf6ada1a2d4b3c76b142fe102e9bee6ea21a271"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep8_mergingOn/native_resources.json",
+      "copy": "production/ep8_mergingOn/native_resources.json",
+      "sourceBytes": 7301,
+      "sha256": "2af890303bc14ead62f3453e427f3534b86b07d865f438018aff3efb7ab8a1f4"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep16_mergingOff/config.json",
+      "copy": "production/ep16_mergingOff/config.json",
+      "sourceBytes": 26427,
+      "sha256": "b9dfa1cd0fbd6dd2244f964f2bab8870b70ad7c639cf79fe4a2f3fd8c328f1ab"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep16_mergingOff/launch_state.json",
+      "copy": "production/ep16_mergingOff/launch_state.json",
+      "sourceBytes": 955,
+      "sha256": "2a32439a9decebd6a02a09a8017d8c4e0b197efa527d90a7a441643e661e8636"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep16_mergingOff/launch_preflight.json",
+      "copy": "production/ep16_mergingOff/launch_preflight.json",
+      "sourceBytes": 7236,
+      "sha256": "89993f3da0847eabebf19eead481f10e2c57c939b5f2a6c224ead3aa8262c402"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep16_mergingOff/input_coverage.json",
+      "copy": "production/ep16_mergingOff/input_coverage.json",
+      "sourceBytes": 9660,
+      "sha256": "33057c8f7a288f0ce2055dcca40f385869e0f996fa809957898291f6c4b2e9ce"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep16_mergingOff/submission_artifacts.json",
+      "copy": "production/ep16_mergingOff/submission_artifacts.json",
+      "sourceBytes": 2027,
+      "sha256": "8b7abe9054399f5f1b793c76d50132224039cd07dc47e3f3cf130a5bae43cf10"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep16_mergingOff/native_resources.json",
+      "copy": "production/ep16_mergingOff/native_resources.json",
+      "sourceBytes": 7343,
+      "sha256": "e59a086e4f7cccb63e9b11e48332db57af24c2e0685379440d499d8d46e835a0"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep16_mergingOn/config.json",
+      "copy": "production/ep16_mergingOn/config.json",
+      "sourceBytes": 26409,
+      "sha256": "b48c0d0bfee9aa68f4892196d53f452d2f9116b08638725137be5219aa8b54ab"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep16_mergingOn/launch_state.json",
+      "copy": "production/ep16_mergingOn/launch_state.json",
+      "sourceBytes": 952,
+      "sha256": "1eb6bc3f494ed0aef7ff57e9c6b243c02315c3cd64b2ae0147fb94486e665c33"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep16_mergingOn/launch_preflight.json",
+      "copy": "production/ep16_mergingOn/launch_preflight.json",
+      "sourceBytes": 7235,
+      "sha256": "32863aab00720949d1cdabad21c81ca0b4aa34d291807203800848bda49ecac3"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep16_mergingOn/input_coverage.json",
+      "copy": "production/ep16_mergingOn/input_coverage.json",
+      "sourceBytes": 9640,
+      "sha256": "43e2e5b5b3c9d33a10a86f528e78c1ae55ffd73231b6c154ff520376b922f01b"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep16_mergingOn/submission_artifacts.json",
+      "copy": "production/ep16_mergingOn/submission_artifacts.json",
+      "sourceBytes": 2021,
+      "sha256": "5d0ef5b534bfb27ade5e567f588d5fcb5ba6e7e58fcda2a40183fd711dc3d5ec"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep16_mergingOn/native_resources.json",
+      "copy": "production/ep16_mergingOn/native_resources.json",
+      "sourceBytes": 7322,
+      "sha256": "e75be5a9c945549b33830421c1dbc029a29848d6bb83e9b8a79f3b1e1d78d07f"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep32_mergingOff/config.json",
+      "copy": "production/ep32_mergingOff/config.json",
+      "sourceBytes": 26427,
+      "sha256": "cfc991b14d6fa1235833449fd7ce495123f35aec75d2cff279e94982f26e0cbf"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep32_mergingOff/launch_state.json",
+      "copy": "production/ep32_mergingOff/launch_state.json",
+      "sourceBytes": 955,
+      "sha256": "78dabb84351f8ebe48d8ecd5576827743db4eee30ffa11bc8f6a2379574efc32"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep32_mergingOff/launch_preflight.json",
+      "copy": "production/ep32_mergingOff/launch_preflight.json",
+      "sourceBytes": 7236,
+      "sha256": "8861b3d884fb453d22a0d111537958e815abbcba181423beddae678e831be64d"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep32_mergingOff/input_coverage.json",
+      "copy": "production/ep32_mergingOff/input_coverage.json",
+      "sourceBytes": 9660,
+      "sha256": "79cb1bf5b3f31710db2d3202d8bc8aab57b35bdeaf335ad437d9354df632f0c1"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep32_mergingOff/submission_artifacts.json",
+      "copy": "production/ep32_mergingOff/submission_artifacts.json",
+      "sourceBytes": 2027,
+      "sha256": "cbcbedfd2337d38e43679861ebc2abe34470ea32491936e750e4fd8bbedfc41e"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep32_mergingOff/native_resources.json",
+      "copy": "production/ep32_mergingOff/native_resources.json",
+      "sourceBytes": 7343,
+      "sha256": "f0f9231d565c488233e833f0bfbfa6e80cf9b3b0706365533ef8a02019ab6158"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep32_mergingOn/config.json",
+      "copy": "production/ep32_mergingOn/config.json",
+      "sourceBytes": 26409,
+      "sha256": "2eb3bfe7dee6bc0d682b32cc9b40cc0f37f92e15dc94a2522de694278c2aa161"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep32_mergingOn/launch_state.json",
+      "copy": "production/ep32_mergingOn/launch_state.json",
+      "sourceBytes": 952,
+      "sha256": "e3656e24d2ae961c3227eea0eee2db92138fce234ccfcff2ec308b9b89e482dd"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep32_mergingOn/launch_preflight.json",
+      "copy": "production/ep32_mergingOn/launch_preflight.json",
+      "sourceBytes": 7235,
+      "sha256": "3857272e4dad80f48957ccde14d62a69b61546f731943fd91957a69cdcfd73da"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep32_mergingOn/input_coverage.json",
+      "copy": "production/ep32_mergingOn/input_coverage.json",
+      "sourceBytes": 9640,
+      "sha256": "513b739d2c5449cc4e1b64a908714cb6b82c70945ce06838687448a7f0c61e29"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep32_mergingOn/submission_artifacts.json",
+      "copy": "production/ep32_mergingOn/submission_artifacts.json",
+      "sourceBytes": 2021,
+      "sha256": "7c1b404f24bad7c76335cc1b837ce4a50cef57a11bed217b28b0daa1e43e9b5d"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/production/ep32_mergingOn/native_resources.json",
+      "copy": "production/ep32_mergingOn/native_resources.json",
+      "sourceBytes": 7322,
+      "sha256": "c59b4c1d3a1e73b5f137479b4f9e22b91fc5dc6f0cab127836a1f8183ed0ed16"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/startup_pins.json",
+      "copy": "aggregate_watch_001/startup_pins.json",
+      "sourceBytes": 130446,
+      "sha256": "c0c51e2ffbb9569c6f689cdf2fd3652a11a21635fa63fd9eff4d9dd8e88e5127"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/pid.json",
+      "copy": "aggregate_watch_001/pid.json",
+      "sourceBytes": 111,
+      "sha256": "a204a754826559601669faa1fac9dc682819bda10b4edc0dc89bcebe07cdec30"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/status.json",
+      "copy": "aggregate_watch_001/status.json",
+      "sourceBytes": 4145,
+      "sha256": "8fd87942a3671b4bb6e430e6850fd0255f495b67b344eb0d5bb05127fc984eb9"
+    }
+  ],
+  "rootFilesCopied": 0
+}

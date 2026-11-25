@@ -1,0 +1,15 @@
+{
+  "reviewedBy": "capacity_logs_audit",
+  "passed": true,
+  "jobid": "9037A6F05FAD08FC8E9BD9286C8A38A5",
+  "actualJobs": 4058,
+  "sampleWorker": 4057,
+  "sampleWorkerInputFiles": 18,
+  "frozenZipBytes": 50370776,
+  "criticalZipEntriesCompared": 13,
+  "criticalSourceConfigLibraryCalibrationHashesMatch": true,
+  "noMergeInWorker": true,
+  "dictionaryInLibStCommon": true,
+  "fingerprintPortabilityCodeReview": "PASS reported by capacity_roots_audit: resolved scratch paths not serialized into selection fingerprint",
+  "reviewScope": "XML,generated worker and13ZIP entries; not a claim all production ROOT files already complete"
+}

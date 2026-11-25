@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "createdUtc": "2026-11-21T04:37:36.588156+00:00",
+  "sourceAudit": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/closure_root_audit.json",
+  "sourceAuditSha256": "f7c4897e598c7ae0ba4edecfa4e6f3bc991990a3874d9477f0f3d80669e84e17",
+  "nativeRootMacro": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/plot_matched_closure_root.C",
+  "nativeRootMacroSha256": "69d27900bc2754c0837f0339440b8ac04af435484f14ce9a140aad6e07f30e22",
+  "artifacts": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep8_cf_closure_report/closure_matched_seme.pdf",
+      "bytes": 24916,
+      "sha256": "7d9eae89ac342c8566bf968886191e78ffea4b43aa1c6a3211997a503ea5df2a"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep8_cf_closure_report/closure_matched_seme.png",
+      "bytes": 44304,
+      "sha256": "86bb3b12544f88e52186ec2c5bc030f7921a88244441f0a1436234b4e72bdc4c"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep8_cf_closure_report/closure_matched_seme_he3_control.pdf",
+      "bytes": 26270,
+      "sha256": "03eddcdc4b7894f71a6ff18db15b47425564c75817e6f500e14b347c1905c6ae"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep8_cf_closure_report/closure_matched_seme_he3_control.png",
+      "bytes": 43902,
+      "sha256": "a07886e33ec6d9109e1486c2f79ebbd1af4f56ad233179f15b38d3f7e3501ab8"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep8_cf_closure_report/closure_matched_cf.pdf",
+      "bytes": 23593,
+      "sha256": "dafd35ec7cdf0b0aff5f4155de5277b7ac8168e1993b8c1a0d20c74623fd92d5"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep8_cf_closure_report/closure_matched_cf.png",
+      "bytes": 38948,
+      "sha256": "be2fab8594f605c152404f7d2d624da5ffda559c0954938551b847432db74bf6"
+    }
+  ],
+  "picoEvents": 10000,
+  "reconstructedReplayEvents": 9761,
+  "epdValid": 9374,
+  "epdRejected": 387,
+  "selectedLambda": 174,
+  "producerQaHistograms": 108,
+  "producerQaNonemptyFromArchivedClosure": 107,
+  "pairHistograms": 1186,
+  "nonemptyPairHistograms": 587,
+  "flowInclusiveCells": 46336786,
+  "rebinFactor": 10,
+  "displayBinWidthGeVc": 0.05,
+  "signalPairs": {
+    "he4": {
+      "SE": 13,
+      "ME": 403,
+      "visibleSE": 8,
+      "visibleME": 228,
+      "normalizationSE": 1,
+      "normalizationME": 24
+    },
+    "he3": {
+      "SE": 58,
+      "ME": 2111,
+      "normalizationSE": 6,
+      "normalizationME": 148
+    }
+  },
+  "sameEpdCalibrationDefinition": true,
+  "settings": "mode: replay\nspeciesKeys:\n  - lambda\n  - he3\n  - he4\nresetPoolAtSegmentBoundary: true\nrequireOriginalMixing: true\ncompressionLevel: 6\nautoFlush: -30000000\nstorePrePidControl: false",
+  "mixing": "mixingMode: bufferAll\nmixBothDirections: true\nnVzBins: 10\nnCentralityBins: 9\nnEventPlaneBins: 8\nbufferSize: 20\nmaxMixEvents: 20\nminVz: 198.0\nmaxVz: 202.0\nvzOutOfRangePolicy: clamp",
+  "sourcePico": "source argument: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_epd_ylab_merging_validation_20261112_001/st_physics_22159051_raw_4500001.picoDst.root\n",
+  "eventPayloadRead": false,
+  "limits": [
+    "Compact excludes540 nonselected prePID pair histograms.",
+    "Sample normalization uncertainty/covariance omitted in CF figure; He4 has1 SE pair in H.",
+    "Matched closure uses depth20 and segment reset. Full-stat periodMix100 intentionally uses depth100 and pool continuation; all-stat equality to old direct-Pico production is not asserted.",
+    "Embedded source revision unrecorded. Independent pre-Nov13 reference closure is documented in Todo, not freshly reread because its JSON extraction timed out."
+  ]
+}

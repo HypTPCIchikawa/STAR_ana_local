@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "reportedBy": "capacity_roots_audit",
+  "remainingExactTargetFiles": 0,
+  "otherDirectChildrenCount": 22,
+  "otherDirectChildrenNamesAndStatUnchanged": true,
+  "protectedStatCompared": 10,
+  "protectedSha256Compared": 8,
+  "allProtectedComparisonsPassed": true,
+  "largeCurrentEpMergedPolicy": "2 files stat only; no original SHA recorded",
+  "independentReviewerMutations": false
+}

@@ -1,0 +1,60 @@
+{
+  "recordedUTC": "2026-11-17T03:08:55.365289+00:00",
+  "scope": "single run / first 10000 input-event extrapolation; no full-production storage guarantee",
+  "inputDataset": "2021 P24iy; calibrated388; uncalibrated81 on hold",
+  "pilotInputEvents": 10000,
+  "fullInputEventsMeasured": 1842342504,
+  "eventCoverageEvidence": "full_coverage.json",
+  "compactProducer": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_implementation_20261117_001/producer_compact_10k.root",
+    "logicalBytes": 3100258,
+    "allocatedBytes": 3145728,
+    "keyCount": 140,
+    "histogramCount": 108,
+    "summedKeyBytes": 550673,
+    "histogramKeyBytes": 520198,
+    "treeZipBytes": 2525634,
+    "treeTotalBytes": 9735169
+  },
+  "fullControlProducer": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_implementation_20261117_001/producer_10k.root",
+    "logicalBytes": 23832870,
+    "allocatedBytes": 23855104,
+    "keyCount": 137,
+    "histogramCount": 108,
+    "summedKeyBytes": 575295,
+    "histogramKeyBytes": 520198,
+    "treeZipBytes": 23234130,
+    "treeTotalBytes": 86288890
+  },
+  "reductionFactorTotalRoot": 7.6873827920127935,
+  "compactTreeZipBytesPerInputEvent": 252.5634,
+  "projectedCompactTreeZipBytes": 465308286774.7536,
+  "projectedCompactTreeGiB": 433.35211162898094,
+  "projectedFullControlTreeZipBytes": 4280522524246.152,
+  "qaPerProducerMeasuredBytes": 520198,
+  "qaProjection": "Add per-producer QA and metadata/ROOT/block overhead using actual producer count and occupancy; do not scale pilot histogram bytes by events.",
+  "quotaKiBAndFileCounts": {
+    "blockUsage": 2308283904,
+    "blockQuota": 2482348032,
+    "blockLimit": 3019218944,
+    "blockInDoubt": 329472,
+    "filesUsage": 468265,
+    "filesQuota": 0,
+    "filesLimit": 0
+  },
+  "quotaRaw": "quota_final_raw.txt",
+  "softHeadroomAfterInDoubtBytes": 177904287744,
+  "softHeadroomAfterInDoubtGiB": 165.686279296875,
+  "hardHeadroomAfterInDoubtBytes": 727660101632,
+  "hardHeadroomAfterInDoubtGiB": 677.686279296875,
+  "treeOnlyExcessOverSoftHeadroomBytes": 287403999030.7536,
+  "twoTreeCopiesExceedHardHeadroom": true,
+  "peakRssKiBWrapperAndChildren": {
+    "memory_producer_v2": 301536,
+    "memory_replay_v2": 402336
+  },
+  "productionSubmitted": false,
+  "decision": "Need capacity/alternate-storage plan before full production. Default replay uses ordered original producer files; avoid an extra hadded tree copy.",
+  "remainingUncertainty": "Representativeness across runs/centralities; actual split count/QA occupancy; allocated blocks and temporary/replay outputs."
+}

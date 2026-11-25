@@ -1,0 +1,120 @@
+{
+  "passed": true,
+  "checkedAtUTC": "2026-11-21T11:25:20.936118+00:00",
+  "checks": 4762,
+  "newWorkers": 140,
+  "reusedBaselineWorkers": 20,
+  "totalRoots": 160,
+  "normalWorkers": 160,
+  "missingRoots": 0,
+  "badRootHeaders": 0,
+  "eventsPerCase": 1819447887,
+  "sourceRichRootsStatChecked": 20,
+  "rootStatsAndHeadersChecked": 160,
+  "logSHA256Checked": 320,
+  "liveReplayCompletionMarkersChecked": 160,
+  "currentNativeListsChecked": 140,
+  "freshTargetedQueueCount": 0,
+  "queueChecks": [
+    {
+      "command": [
+        "condor_q",
+        "-name",
+        "starsub03.sdcc.bnl.gov",
+        "-constraint",
+        "regexp(\"99BF51C534E3EDB9BF7D4E00D0719DC2\",Out) || regexp(\"A41640F4766ED2F6E154BD81C5343138\",Out) || regexp(\"A730E40D32DC4EDD890D4FFB7F46F217\",Out) || regexp(\"6A21EE258585F2B438551377515209BF\",Out) || regexp(\"EA9E4CBE1B57C76D5337C29F5EA78FF5\",Out) || regexp(\"C44F820BF5267ECB143D2529198B3E3C\",Out) || regexp(\"9F620F840BE41704A1DE1DB1D5082DC4\",Out)",
+        "-json",
+        "-attributes",
+        "ClusterId,ProcId,JobStatus,Out"
+      ],
+      "returnCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "condor_q",
+        "-name",
+        "starsub03.sdcc.bnl.gov",
+        "-constraint",
+        "regexp(\"99BF51C534E3EDB9BF7D4E00D0719DC2\",Out) || regexp(\"A41640F4766ED2F6E154BD81C5343138\",Out) || regexp(\"A730E40D32DC4EDD890D4FFB7F46F217\",Out) || regexp(\"6A21EE258585F2B438551377515209BF\",Out) || regexp(\"EA9E4CBE1B57C76D5337C29F5EA78FF5\",Out) || regexp(\"C44F820BF5267ECB143D2529198B3E3C\",Out) || regexp(\"9F620F840BE41704A1DE1DB1D5082DC4\",Out)",
+        "-autoformat",
+        "ClusterId",
+        "ProcId",
+        "JobStatus"
+      ],
+      "returnCode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "cases": [
+    {
+      "caseId": "ep1_mergingOff",
+      "workers": 20,
+      "events": 1819447887,
+      "rootBytes": 11491743210,
+      "lastFinishedAmericaNewYork": "2026-11-20T17:39:54-05:00"
+    },
+    {
+      "caseId": "ep1_mergingOn",
+      "workers": 20,
+      "events": 1819447887,
+      "rootBytes": 11491686136,
+      "lastFinishedAmericaNewYork": "2026-11-20T18:13:06-05:00"
+    },
+    {
+      "caseId": "ep8_mergingOn",
+      "workers": 20,
+      "events": 1819447887,
+      "rootBytes": 11496609866,
+      "lastFinishedAmericaNewYork": "2026-11-20T18:03:58-05:00"
+    },
+    {
+      "caseId": "ep16_mergingOff",
+      "workers": 20,
+      "events": 1819447887,
+      "rootBytes": 11501042178,
+      "lastFinishedAmericaNewYork": "2026-11-20T20:06:13-05:00"
+    },
+    {
+      "caseId": "ep16_mergingOn",
+      "workers": 20,
+      "events": 1819447887,
+      "rootBytes": 11500983227,
+      "lastFinishedAmericaNewYork": "2026-11-20T18:45:35-05:00"
+    },
+    {
+      "caseId": "ep32_mergingOff",
+      "workers": 20,
+      "events": 1819447887,
+      "rootBytes": 11508661165,
+      "lastFinishedAmericaNewYork": "2026-11-21T02:44:35-05:00"
+    },
+    {
+      "caseId": "ep32_mergingOn",
+      "workers": 20,
+      "events": 1819447887,
+      "rootBytes": 11508599242,
+      "lastFinishedAmericaNewYork": "2026-11-20T23:53:29-05:00"
+    },
+    {
+      "caseId": "ep8_mergingOff",
+      "workers": 20,
+      "events": 1819447887,
+      "rootBytes": 11491533504,
+      "lastFinishedAmericaNewYork": "2026-11-19T09:12:15-05:00"
+    }
+  ],
+  "totalOutputBytes": 91990858528,
+  "newOutputBytes": 80499325024,
+  "latestNativeEnd": {
+    "americaNewYork": "2026-11-21T02:44:35-05:00",
+    "caseId": "ep32_mergingOff",
+    "period": 0
+  },
+  "mailAcceptedAmericaNewYork": "2026-11-21T02:55:39.707797-05:00",
+  "mailResent": false,
+  "jobResubmitted": false,
+  "haddExecuted": false
+}

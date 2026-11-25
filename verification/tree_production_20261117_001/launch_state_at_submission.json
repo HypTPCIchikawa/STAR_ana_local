@@ -1,0 +1,43 @@
+{
+  "phase": "monitor_started",
+  "startedAtJst": "2026-11-17T14:49:08.130369+09:00",
+  "pid": 2786661,
+  "host": "starsub03.sdcc.bnl.gov",
+  "automaticResubmit": false,
+  "automaticMerge": false,
+  "mainconf": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree.yaml",
+  "anaName": "auau3p85_anaFemtoLambda_4He_tree_treeWrite20261117",
+  "submitStartedAtJst": "2026-11-17T14:49:09.782322+09:00",
+  "submitReturnCode": 0,
+  "submitReturnedAtJst": "2026-11-17T15:16:40.270064+09:00",
+  "possibleReportIds": [
+    "9037A6F05FAD08FC8E9BD9286C8A38A5"
+  ],
+  "jobid": "9037A6F05FAD08FC8E9BD9286C8A38A5",
+  "runmeta": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_tree_treeWrite20261117_9037A6F05FAD08FC8E9BD9286C8A38A5.json",
+  "eventLog": "/tmp/yichikawa/sched9037A6F05FAD08FC8E9BD9286C8A38A5.condor.log",
+  "actualJobs": 4058,
+  "inputFiles": 73054,
+  "monitorCommand": [
+    "/cvmfs/star.sdcc.bnl.gov/star-spack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/python-3.8.13-myixjs7jesskpbhwiowibizezfh52rky/bin/python3",
+    "-u",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/script/watch_job_notify.py",
+    "--runmeta",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_tree_treeWrite20261117_9037A6F05FAD08FC8E9BD9286C8A38A5.json",
+    "--event-log",
+    "/tmp/yichikawa/sched9037A6F05FAD08FC8E9BD9286C8A38A5.condor.log",
+    "--email",
+    "yudai.ichikawa.d3@tohoku.ac.jp",
+    "--email-content",
+    "minimal",
+    "--poll-sec",
+    "300",
+    "--settle-sec",
+    "300",
+    "--state-dir",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_production_20261117_001/tree/notify",
+    "--watch"
+  ],
+  "monitorPid": 2819679,
+  "monitorStartedAtJst": "2026-11-17T15:17:59.097830+09:00"
+}

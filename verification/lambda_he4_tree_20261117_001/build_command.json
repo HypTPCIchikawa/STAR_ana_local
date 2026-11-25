@@ -1,0 +1,7 @@
+[
+  "bash",
+  "script/singularity_make.sh",
+  "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree.yaml",
+  "--no-clean",
+  "-j4"
+]

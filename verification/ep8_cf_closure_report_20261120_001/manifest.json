@@ -1,0 +1,205 @@
+{
+  "savedUTC": "2026-11-21T04:51:58.244263+00:00",
+  "records": [
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/audit_matched_closure.C",
+      "copy": "study/audit_matched_closure.C",
+      "bytes": 7896,
+      "sha256": "fca16def505516004c78098edb1d54cfc78beb82afc3338fb0f520f74f6f822d"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/closure_root_audit.json",
+      "copy": "study/closure_root_audit.json",
+      "bytes": 249783,
+      "sha256": "f7c4897e598c7ae0ba4edecfa4e6f3bc991990a3874d9477f0f3d80669e84e17"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/validate_ep8_native_metrics.py",
+      "copy": "study/validate_ep8_native_metrics.py",
+      "bytes": 8782,
+      "sha256": "4caadd1f0baf387fb6a89da6dfb69c4fffdec47eab4b18e9df8ca6edf15d88a4"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/independent_metrics_validation.json",
+      "copy": "study/independent_metrics_validation.json",
+      "bytes": 25065,
+      "sha256": "db33e52cb41b135a936c7a85714ddf17e06e6e45d4c22e7407952df38ab18629"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/plot_matched_closure.py",
+      "copy": "study/plot_matched_closure.py",
+      "bytes": 5575,
+      "sha256": "93bd6a1f6f4843199fe887df85e94c837b8deaff293b00446faaaa77b0efdb6c"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/report_plan.json",
+      "copy": "study/report_plan.json",
+      "bytes": 1245,
+      "sha256": "2393f3d70f64120d47e69e960bcbf922ce3e96597e4b2854b47371e5d098323c"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/README.md",
+      "copy": "study/README.md",
+      "bytes": 2084,
+      "sha256": "5adb11934db86da964b63c6737e572a56339d6a6a1d22c1719eee3763ba1a3c2"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/closure_histograms.tsv",
+      "copy": "study/closure_histograms.tsv",
+      "bytes": 78204,
+      "sha256": "71aeb8450f63f6d7e8e13fc425f2dfd55ed893a2517b66d4ae77fc859ec3d9ad"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/ep8_cf_settings.json",
+      "copy": "study/ep8_cf_settings.json",
+      "bytes": 2051,
+      "sha256": "33cb94638a9a7c45fb60d4ce4a8a97a40e995b7f14bdaace4b0509e6efa5b4ce"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/prepare_ep8_cf.py",
+      "copy": "study/prepare_ep8_cf.py",
+      "bytes": 14388,
+      "sha256": "147b7b8ea51e31ffb1f290440c108cfe18b68266d3690bc9fe2290409643c62b"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/plot_matched_closure_root.C",
+      "copy": "study/plot_matched_closure_root.C",
+      "bytes": 9292,
+      "sha256": "69d27900bc2754c0837f0339440b8ac04af435484f14ce9a140aad6e07f30e22"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/DrawEP8CF.C",
+      "copy": "study/DrawEP8CF.C",
+      "bytes": 12890,
+      "sha256": "362f3da6e52fc55fab6306477443cf1de27256fcbeedb13a6992fd61cd6b3741"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/build_report.py",
+      "copy": "study/build_report.py",
+      "bytes": 2763,
+      "sha256": "19cf9a52480b5cf98ee8dd39b34d4de6c7f5719a316ff9c877d1b1d096cf1ccc"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/closure_plot_artifacts.json",
+      "copy": "study/closure_plot_artifacts.json",
+      "bytes": 4115,
+      "sha256": "99522b4854f9757cdf69d8e4e031a271e0d8b258f2cf9ba8fdc4371e8a57d4df"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/PolishEP8Heatmap.C",
+      "copy": "study/PolishEP8Heatmap.C",
+      "bytes": 4721,
+      "sha256": "acf7dc0cea623e1ca387cbade09fd42e85a5289d283a9622f085474259e95833"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/ep8_heatmap_polish_validation.json",
+      "copy": "study/ep8_heatmap_polish_validation.json",
+      "bytes": 1607,
+      "sha256": "f6fa99a61a71a949e6fd16e4718713307e759459c14a9f4c3dda4ec34a00a698"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/EP8_CF_README.md",
+      "copy": "study/EP8_CF_README.md",
+      "bytes": 4236,
+      "sha256": "277c80ced5aab7d7fb1a7334f68c62b4dcf6b8b4c58f7a66850ebafc2498041d"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/ep8_figure_handoff_manifest.json",
+      "copy": "study/ep8_figure_handoff_manifest.json",
+      "bytes": 22640,
+      "sha256": "5db478685aa26aef876a779d42db72218efa1eb56307075c9e4420181e96b098"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/report_validation.json",
+      "copy": "study/report_validation.json",
+      "bytes": 1053,
+      "sha256": "a2cf9d1632225f20eb7f27aca13755af12f443e4bfc42b92d8219c61b73089df"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/ep8_data_001/ep8_cf_metrics.json",
+      "copy": "study/ep8_data_001/ep8_cf_metrics.json.gz",
+      "bytes": 2241237,
+      "sha256": "bec566ba76d29201b03e6deaf2b79cf71c19bcc61949611ef016689e89939597"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/ep8_data_001/ep8_source_provenance.json",
+      "copy": "study/ep8_data_001/ep8_source_provenance.json",
+      "bytes": 50912,
+      "sha256": "9c71729038867f20c3562395a00e052f5affab6947143ae70a436dece07e57b5"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/ep8_data_001/ep8_highk_windows.csv",
+      "copy": "study/ep8_data_001/ep8_highk_windows.csv",
+      "bytes": 77852,
+      "sha256": "51d2dbe89ca09678fa108d12184c97dacd5a76b4d6155275d1ad3140a361fa17"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/ep8_data_001/ep8_curve_metadata.tsv",
+      "copy": "study/ep8_data_001/ep8_curve_metadata.tsv",
+      "bytes": 12445,
+      "sha256": "a70a5b44112a535a7138e5e57020befbcc939f1f0c5a86e97b51aa2afa3dc2d6"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/ep8_data_001/ep8_curve_bins.tsv",
+      "copy": "study/ep8_data_001/ep8_curve_bins.tsv",
+      "bytes": 549700,
+      "sha256": "946cc9b73fde824009e5bb954773b16270ce0b4606c0cdad9b9f3b3c965a4d73"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/ep8_data_001/ep8_plot_windows.tsv",
+      "copy": "study/ep8_data_001/ep8_plot_windows.tsv",
+      "bytes": 54798,
+      "sha256": "f342b77bd18950fee8f3cac57d20c4be502f0313203460804a06e71356b2824f"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/ep8_data_001/ep8_plot_settings.tsv",
+      "copy": "study/ep8_data_001/ep8_plot_settings.tsv",
+      "bytes": 510,
+      "sha256": "d0fc2772772fa13ca3a3b3cbb8cb0b1d557626c87991a90db4f771b929ba73d0"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001/ep8_data_001/ep8_completed.json",
+      "copy": "study/ep8_data_001/ep8_completed.json",
+      "bytes": 27572,
+      "sha256": "129bf99523da9a7503ad5890c6117f986821741819076db3c8ac3ebfb3d97dcd"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep8_cf_closure_report/lambda_he4_ep8_cf_and_tree_closure_ja.pdf",
+      "copy": "report/lambda_he4_ep8_cf_and_tree_closure_ja.pdf",
+      "bytes": 798794,
+      "sha256": "ac1ce136985d20f0b9ea46a61e71d593aad0c1eae14656854e90d8186e6fdebd"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep8_cf_closure_report/lambda_he4_ep8_cf_and_tree_closure_ja.tex",
+      "copy": "report/lambda_he4_ep8_cf_and_tree_closure_ja.tex",
+      "bytes": 12866,
+      "sha256": "a2283ac8b814b40b885398d1301865b159b9d42e801c03126007f4d5e5dc9954"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep8_cf_closure_report/computed_summary.tex",
+      "copy": "report/computed_summary.tex",
+      "bytes": 285,
+      "sha256": "b3942c567fe18439bb96f982e0a7bcc573f07840f0364638bc1fc352144ba286"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep8_cf_closure_report/report_validation_note.tex",
+      "copy": "report/report_validation_note.tex",
+      "bytes": 520,
+      "sha256": "28db971e9706367a190ab4b0189b22ba9ed165b0ccfd65aaf7654d04d3f74eb4"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep8_cf_closure_report/report_build.json",
+      "copy": "report/report_build.json",
+      "bytes": 958,
+      "sha256": "c950248de0408150ff07ced126cea4ee0fb8a20e3ef4606b89e6f927fa943884"
+    },
+    {
+      "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep8_cf_closure_report/README.md",
+      "copy": "report/README.md",
+      "bytes": 2027,
+      "sha256": "11adc7f936a97c369c83a1b17a7bd312782c7a0437921949aef68392b645f366"
+    }
+  ],
+  "rootFilesCopied": 0,
+  "compiledLibrariesCopied": 0
+}

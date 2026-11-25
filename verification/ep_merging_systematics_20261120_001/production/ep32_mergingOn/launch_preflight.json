@@ -1,0 +1,179 @@
+{
+  "passed": true,
+  "checkedAtUTC": "2026-11-20T15:43:46.434497+00:00",
+  "sourceCount": 20,
+  "sources": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_00_runs_22158032_22160028.root",
+      "bytes": 23079997172,
+      "mtimeNs": 1794993622733643342,
+      "inode": 950499261,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_01_runs_22160028_22161010.root",
+      "bytes": 22471581511,
+      "mtimeNs": 1794994954188134607,
+      "inode": 952599101,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_02_runs_22161010_22161031.root",
+      "bytes": 22613614704,
+      "mtimeNs": 1794996212992430431,
+      "inode": 961530683,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_03_runs_22161031_22163011.root",
+      "bytes": 23445940165,
+      "mtimeNs": 1794997551978610918,
+      "inode": 961530705,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_04_runs_22163011_22163030.root",
+      "bytes": 23287967636,
+      "mtimeNs": 1794998782420959083,
+      "inode": 667882934,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_05_runs_22163030_22164009.root",
+      "bytes": 23215429451,
+      "mtimeNs": 1794999974777351467,
+      "inode": 961530743,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_06_runs_22164009_22164031.root",
+      "bytes": 23924088071,
+      "mtimeNs": 1795001460537961326,
+      "inode": 961530834,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_07_runs_22164031_22165015.root",
+      "bytes": 22804368082,
+      "mtimeNs": 1795002653780822734,
+      "inode": 961530860,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_08_runs_22165015_22165035.root",
+      "bytes": 23229331839,
+      "mtimeNs": 1795003774547751026,
+      "inode": 961530891,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_09_runs_22165035_22166030.root",
+      "bytes": 23197860285,
+      "mtimeNs": 1795004901433945376,
+      "inode": 961530992,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_10_runs_22166030_22167011.root",
+      "bytes": 23291314979,
+      "mtimeNs": 1795006225721979029,
+      "inode": 961531040,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_11_runs_22167011_22169003.root",
+      "bytes": 23178843778,
+      "mtimeNs": 1795007385266120528,
+      "inode": 961531162,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_12_runs_22169003_22170008.root",
+      "bytes": 23202615298,
+      "mtimeNs": 1795008489288295435,
+      "inode": 961531187,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_13_runs_22170008_22171031.root",
+      "bytes": 23512584777,
+      "mtimeNs": 1795009587073659078,
+      "inode": 740899290,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_14_runs_22171031_22173003.root",
+      "bytes": 23698650794,
+      "mtimeNs": 1795010760902204278,
+      "inode": 719887907,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_15_runs_22173003_22173023.root",
+      "bytes": 23822371527,
+      "mtimeNs": 1795011906724650265,
+      "inode": 961531254,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_16_runs_22173024_22174047.root",
+      "bytes": 22780847618,
+      "mtimeNs": 1795013124098526487,
+      "inode": 961531314,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_17_runs_22174047_22175010.root",
+      "bytes": 23346975131,
+      "mtimeNs": 1795014373282584038,
+      "inode": 790803992,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_18_runs_22175010_22177006.root",
+      "bytes": 23825675428,
+      "mtimeNs": 1795015641031448488,
+      "inode": 732494315,
+      "device": 48
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001/group_19_runs_22177006_22179022.root",
+      "bytes": 23174130710,
+      "mtimeNs": 1795016876497514681,
+      "inode": 866975177,
+      "device": 48
+    }
+  ],
+  "inputListSha256": "b2afaeb07e7f3d3428812810f2bc148c6296912caa10367a81d6be1cbd4189c4",
+  "pinnedFileCount": 46,
+  "package": "auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOn_mix100_epCut20261120_20261120103150",
+  "quota": {
+    "checkedAtUTC": "2026-11-20T15:43:46.434465+00:00",
+    "rawFieldsKiB": {
+      "version": "1",
+      "reserved": "",
+      "filesystemName": "gpfs",
+      "quotaType": "USR",
+      "id": "102335",
+      "name": "yichikawa",
+      "blockUsage": "1219492608",
+      "blockQuota": "2406563840",
+      "blockLimit": "2943434752",
+      "blockInDoubt": "11451648",
+      "blockGrace": "none",
+      "filesUsage": "484730",
+      "filesQuota": "0",
+      "filesLimit": "0",
+      "filesInDoubt": "1430",
+      "filesGrace": "none",
+      "remarks": "rcf.bnl.gov",
+      "fid": "18",
+      "filesetname": "star-pwg",
+      "": ""
+    },
+    "softHeadroomAfterInDoubtBytes": 1203834454016
+  },
+  "notifierTreeReplayMarkerSupported": true,
+  "automaticResubmit": false,
+  "automaticMerge": false
+}

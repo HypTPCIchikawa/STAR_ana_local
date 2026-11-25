@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-11-19T23:20:49.410011+09:00",
+  "expectedSubjobs": 20,
+  "emailContent": "minimal",
+  "submitted": 20,
+  "terminal": 20,
+  "queued": 0,
+  "queueStates": {},
+  "outcomes": {
+    "exit_0": 20
+  },
+  "stateDirectory": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/notify",
+  "output": {
+    "rootDirectory": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree_periodMix100/production20261119",
+    "rootsWithValidHeader": 20,
+    "missingRoots": [],
+    "badRootHeaders": [],
+    "analysisCompletionUnconfirmed": []
+  }
+}

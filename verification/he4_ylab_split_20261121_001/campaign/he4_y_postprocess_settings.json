@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "inputManifest": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/input_manifest.json",
+  "sourcePeriodList": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/periods.list",
+  "referenceOutputsList": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/output_roots_20261120.list",
+  "mainconfForRoot": "config/mainconf/main_auau3p85_anaFemtoLambda_4He_tree_he4YLab8_mix100.yaml",
+  "rapidityBinning": {
+    "frame": "lab",
+    "nBins": 8,
+    "min": -1,
+    "max": 0
+  },
+  "coarseBins": 4,
+  "requiredEPBins": 8,
+  "requiredPairCut": false,
+  "normalizationGeVc": [
+    0.4,
+    0.5
+  ],
+  "normalizationInterval": "half-open [low, high)",
+  "displayRebin": 4,
+  "displayKGeVc": [
+    0,
+    1
+  ],
+  "displayCFRange": [
+    0,
+    2
+  ],
+  "highKWindowsGeVc": {
+    "k050_060": [
+      0.5,
+      0.6
+    ],
+    "k060_080": [
+      0.6,
+      0.8
+    ],
+    "k080_100": [
+      0.8,
+      1
+    ],
+    "k060_100": [
+      0.6,
+      1
+    ]
+  },
+  "centralities": [
+    {
+      "id": "c00_60",
+      "label": "0-60%",
+      "cent9": [
+        2,
+        8
+      ]
+    },
+    {
+      "id": "c00_10",
+      "label": "0-10%",
+      "cent9": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "c10_20",
+      "label": "10-20%",
+      "cent9": [
+        6,
+        6
+      ]
+    },
+    {
+      "id": "c20_30",
+      "label": "20-30%",
+      "cent9": [
+        5,
+        5
+      ]
+    },
+    {
+      "id": "c30_40",
+      "label": "30-40%",
+      "cent9": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "c40_50",
+      "label": "40-50%",
+      "cent9": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "c50_60",
+      "label": "50-60%",
+      "cent9": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "cent9_8",
+      "label": "0-5% (c8)",
+      "cent9": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "cent9_7",
+      "label": "5-10% (c7)",
+      "cent9": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "cent9_6",
+      "label": "10-20% (c6)",
+      "cent9": [
+        6,
+        6
+      ]
+    },
+    {
+      "id": "cent9_5",
+      "label": "20-30% (c5)",
+      "cent9": [
+        5,
+        5
+      ]
+    },
+    {
+      "id": "cent9_4",
+      "label": "30-40% (c4)",
+      "cent9": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "cent9_3",
+      "label": "40-50% (c3)",
+      "cent9": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "cent9_2",
+      "label": "50-60% (c2)",
+      "cent9": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "cent9_1",
+      "label": "60-70% (c1)",
+      "cent9": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "cent9_0",
+      "label": "70-80% (c0)",
+      "cent9": [
+        0,
+        0
+      ]
+    }
+  ],
+  "diagnosticCentralities": [
+    "c00_60"
+  ],
+  "requiredValidCentralities": [
+    "c00_60"
+  ],
+  "projectionAbsoluteTolerance": 1e-06,
+  "projectionRelativeTolerance": 1e-08,
+  "metadata": {
+    "nBins": "he4RapidityLabNBins",
+    "min": "he4RapidityLabMin",
+    "max": "he4RapidityLabMax",
+    "definition": "FemtoHe4RapidityBinningDefinition"
+  },
+  "requiredDefinitionTokens": [
+    "selected physical He4 candidate rapidity",
+    "laboratory frame, no CM shift or extra charge correction",
+    "underflow/overflow",
+    "same physical pair definition in SE and both ME directions",
+    "nucleus candidate's own P4",
+    "He3AsHe4 excluded",
+    "no event rejection, pair veto, pool or weight change"
+  ],
+  "requiredMixing": {
+    "mixingMode": "bufferAll",
+    "mixBothDirections": "true",
+    "nVzBins": "10",
+    "nCentralityBins": "9",
+    "nEventPlaneBins": "8",
+    "bufferSize": "100",
+    "maxMixEvents": "100",
+    "minVz": "198.0",
+    "maxVz": "202.0",
+    "vzOutOfRangePolicy": "clamp"
+  },
+  "requiredReducedSettings": {
+    "mode": "replay",
+    "resetPoolAtSegmentBoundary": "false",
+    "requireOriginalMixing": "false",
+    "storePrePidControl": "false"
+  },
+  "sharedCFMath": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/postprocess_cf.py",
+  "sharedExtractorUtilities": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/ExtractPeriodCF.C",
+  "highKPlotGeVc": [
+    0.5,
+    1.0
+  ],
+  "highKCFRange": [
+    0.7,
+    1.3
+  ]
+}

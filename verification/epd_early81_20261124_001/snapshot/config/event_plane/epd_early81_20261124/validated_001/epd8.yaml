@@ -1,0 +1,65 @@
+source: xialeiEpdPsi1
+harmonic: 1
+bins: 8
+invalidPolicy: reject
+writeDetailedLedger: false
+recenterFile: event_plane/epd_early81_20261124/validated_001/recenterpar.root
+recenterSha256: e29d244a932af0ddda3beff028537f05016dd2d9be6f49a463e60717ec5be958
+shiftFile: event_plane/epd_early81_20261124/validated_001/shiftpar.root
+shiftSha256: e02821c75b4ebbec19df04dc1187bc23320563577ecb47cb4044faa5a2ebf365
+runListFile: event_plane/epd_early81_20261124/validated_001/runs.txt
+runListSha256: a5050749be31c63cd56671bf660f7a78605fabc9b22d2c6473f10cec2ae7fc5a
+randomSeed: 20261112
+centralityThresholds:
+- 5
+- 10
+- 19
+- 33
+- 51
+- 77
+- 111
+- 155
+- 183
+minNMip: 0.3
+maxTileWeight: 2.0
+shiftTerms: 20
+epdRowGroups:
+- - 1
+  - 4
+- - 5
+  - 8
+- - 9
+  - 12
+- - 13
+  - 16
+triggerIds:
+- 820010
+- 820020
+- 820030
+minVz: 198.0
+maxVz: 202.0
+vertexCenterX: -0.42
+vertexCenterY: -2.25
+maxVertexRadius: 2.0
+pileupMinCoefficients:
+- -3.23041
+- 1.36531
+- 0.0355345
+- -0.000264418
+- -2.90964e-07
+pileupMaxCoefficients:
+- 15.927
+- 5.35274
+- 0.00422332
+- -0.000642979
+- 3.0e-06
+tpcMinPt: 0.2
+tpcMaxPt: 2.0
+tpcEtaRanges:
+- - -2.4
+  - -1.28
+- - -1.18
+  - 0.0
+tpcMinNHitsFit: 15
+tpcMinFitRatio: 0.52
+tpcMaxDca: 3.0

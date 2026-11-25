@@ -1,0 +1,10 @@
+mode: replay
+speciesKeys:
+- lambda
+- he3
+- he4
+resetPoolAtSegmentBoundary: true
+requireOriginalMixing: false
+compressionLevel: 6
+autoFlush: -30000000
+storePrePidControl: false

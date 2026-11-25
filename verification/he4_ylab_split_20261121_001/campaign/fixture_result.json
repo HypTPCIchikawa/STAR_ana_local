@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "recordedUTC": "2026-11-22T05:16:45.131232+00:00",
+  "checks": 93775373,
+  "pairCalls": 1188,
+  "batchMatchedBuild": true,
+  "star": "SL24y",
+  "root": "5.34.38",
+  "compiler": "GCC4.8.5",
+  "producerQaOnly": false,
+  "collectPrePidControls": false,
+  "log": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/test_he4_ylab_binning_v2.log",
+  "logSHA256": "559eaa1bc7f53ebff9ea52b1210f53e29bcc4f7d7d02814dcd7b9a2b37c5687e",
+  "pins": {
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/run_he4_ylab_binning_test.C": "6f35e1105a30cfd5341ac2d95a11e957781317a5758ceeaf51dc2e87dcef4b05",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/test_he4_ylab_binning.C": "7e944ef79e8b8eee5908565513715552192841440465b33d2c04c77e38c6e136",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/StMaker/common/FemtoLambdaLegacy.cxx": "525875e3a54e67250db9911e6c4f730a67e3d06f55d0c745864336d392ea32ce",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/StMaker/common/FemtoLambdaLegacy.h": "fb021e7ba84eda412990536dcb25f0acc17ad06b6033b220104a9a4dfb9a20cd",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/lib/libStCommon.so": "b250b74cb79ce6dd3edb5b07350f41ba0102c3927cc5420d6350ff6993ac3eed",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/lib/libStFemtoMaker.so": "ffc8f2854d114d2ee84ad0daeaae9edc0442092eba8c9bec8a85d2aec8f6ac7b"
+  },
+  "initialFailedTest": "test_he4_ylab_binning.log: fixture used direct default prePID=true against compact selectedOnly profile; only fixture Init arguments corrected; public source unchanged"
+}

@@ -1,0 +1,21 @@
+{
+  "phase": "submitted_verified",
+  "pid": 1064576,
+  "host": "starsub03.sdcc.bnl.gov",
+  "startedAtUTC": "2026-11-20T15:35:35.780589+00:00",
+  "anaName": "auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100",
+  "submitName": "auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100_epCut20261120",
+  "automaticResubmit": false,
+  "automaticMerge": false,
+  "submitStartedAtUTC": "2026-11-20T15:35:37.150864+00:00",
+  "submitReturnCode": 0,
+  "submitReturnedAtUTC": "2026-11-20T15:37:13.254821+00:00",
+  "possibleReportIds": [
+    "A41640F4766ED2F6E154BD81C5343138"
+  ],
+  "jobid": "A41640F4766ED2F6E154BD81C5343138",
+  "runmeta": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100_epCut20261120_A41640F4766ED2F6E154BD81C5343138.json",
+  "eventLog": "/tmp/yichikawa/schedA41640F4766ED2F6E154BD81C5343138.condor.log",
+  "actualJobs": 20,
+  "sourceCount": 20
+}

@@ -1,0 +1,42 @@
+analysis:
+  anaName: auau3p85_anaFemtoLambda_4He_tree_early81EP8
+  baseAnaMacro: anaFemtoLambda_4He_tree
+  baseRunMacro: run_anaFemtoLambda_4He_tree
+  decayChannel: p+pi-
+  errDir: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/epd_early81_20261124_001/physics_errors/auau3p85_anaFemtoLambda_4He_tree_early81EP8
+  filesPerJob: 25
+  jobName: auau3p85_anaFemtoLambda_4He_tree_early81EP8
+  logDir: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/epd_early81_20261124_001/physics_logs/auau3p85_anaFemtoLambda_4He_tree_early81EP8
+  maxEvents: -1
+  mode: fxtmult
+  nFiles: all
+  name: auau3p85_anaFemtoLambda_4He_tree_early81EP8
+  outputFileStem: auau3p85_anaFemtoLambda_4He_tree_early81EP8
+  scratchSubdir: auau3p85_anaFemtoLambda_4He_tree_early81EP8
+  targetParticle: Lambda-he4
+  type: femto
+  workDir: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer
+analyst:
+  email: yudai.ichikawa.d3@tohoku.ac.jp
+  institute: Tohoku University
+  name: Yudai Ichikawa
+dataset:
+  allPicoDstList: /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/epd_early81_20261124_001/physics_pico.list
+  collisionSystem: Au+Au
+  dataFormat: picoDst
+  dataQuality: production
+  goodRunList: ''
+  runRange:
+    min: 22121033
+    max: 22125011
+starTag:
+  collision: auau3p85
+  filenameFilter: st_physics
+  filenameNotFilter: adc
+  filetype: daq_reco_picoDst
+  libraryTag: SL24y
+  productionTag: P24iy
+  storage: local
+  stream: st_physics
+  triggerSets: production_3p85GeV_fixedTarget_2021
+  year: year2021

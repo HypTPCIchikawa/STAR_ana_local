@@ -1,0 +1,114 @@
+[
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/README.md",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/tree_run_period_hadd_20261118_001/execution/README.md",
+    "sourceBytes": 4304,
+    "sourceSha256": "3bec153f3b8a69b04e2404a72731f933e0203c985e0e7314154060d2728b841f",
+    "gzip": false
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/run_grouped_merge.py",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/tree_run_period_hadd_20261118_001/execution/run_grouped_merge.py",
+    "sourceBytes": 13122,
+    "sourceSha256": "ce817a959b2126470440d6bb7384971b3639bbfe15f5dae7a1b11c3c942a4bf4",
+    "gzip": false
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/merge_config.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/tree_run_period_hadd_20261118_001/execution/merge_config.json",
+    "sourceBytes": 4476,
+    "sourceSha256": "d839856547801ea320402c1bc66c04045ed6f717989e6b5e0f4c5650f4902543",
+    "gzip": false
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/launch_preflight.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/tree_run_period_hadd_20261118_001/execution/launch_preflight.json",
+    "sourceBytes": 546,
+    "sourceSha256": "018b5724cd7c9a28d477a39a81d6679dd4c5873bb16a8e47d907d259d1b5249a",
+    "gzip": false
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/tmux_launch.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/tree_run_period_hadd_20261118_001/execution/tmux_launch.json",
+    "sourceBytes": 1577,
+    "sourceSha256": "53cd9884ab0b087f64e12e47e7394f7a76e4854ccd667a68c2a6a9513c775227",
+    "gzip": false
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/source_snapshot_final.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/tree_run_period_hadd_20261118_001/execution/source_snapshot_final.json.gz",
+    "sourceBytes": 3794502,
+    "sourceSha256": "9502f9b8c09af154cc6232d654c4026e0c836bab93f83f4b9662ec80c90fd2f0",
+    "gzip": true
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/source_files_final.list",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/tree_run_period_hadd_20261118_001/execution/source_files_final.list",
+    "sourceBytes": 795643,
+    "sourceSha256": "ba64af79ac7f29d11500134e956093e3c9697815f28bac314f4362a39bf87ed2",
+    "gzip": false
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/quota_before.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/tree_run_period_hadd_20261118_001/execution/quota_before.json",
+    "sourceBytes": 771,
+    "sourceSha256": "bdd4abf2a1b770d0c41ab3a90ed3aa4d0f229a210943784626e131e7f50ce13f",
+    "gzip": false
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/run_grouped_tree_validation.C",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/tree_run_period_hadd_20261118_001/execution/validation/run_grouped_tree_validation.C",
+    "sourceBytes": 3010,
+    "sourceSha256": "45cb4da4a149daa58daa0d8936f8890926c751f3127c8d988e0ee4d4e7d10273",
+    "gzip": false
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/tree_group_validation.C",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/tree_run_period_hadd_20261118_001/execution/validation/tree_group_validation.C",
+    "sourceBytes": 22851,
+    "sourceSha256": "54152c84acfbed2fa00d2178a577b1d92a9303b8a1cb700fc273370d176091f3",
+    "gzip": false
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/check_source_catalog.py",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/tree_run_period_hadd_20261118_001/execution/validation/check_source_catalog.py",
+    "sourceBytes": 4618,
+    "sourceSha256": "0bee9fe62877434fcd9a30b1f29dae29dda7bf63891f9b0eb0054cbb54caabc5",
+    "gzip": false
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/README.md",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/tree_run_period_hadd_20261118_001/execution/validation/README.md",
+    "sourceBytes": 3209,
+    "sourceSha256": "c68f679ebd480b7bba88353322b662d2779db475dcddabc0d817f14d5f943339",
+    "gzip": false
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/runtime_probe.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/tree_run_period_hadd_20261118_001/execution/validation/runtime_probe.json",
+    "sourceBytes": 218,
+    "sourceSha256": "b08e8d867095bae4b2568eca8dc73f8d081ac10e55349842f0170b1b0c59316d",
+    "gzip": false
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/small_merge_probe_merge.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/tree_run_period_hadd_20261118_001/execution/validation/small_merge_probe_merge.json",
+    "sourceBytes": 380,
+    "sourceSha256": "7ededc5dfff6e928635f37abdc9133f938604fbfd4cd6947899f9ed0bb7823f8",
+    "gzip": false
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/small_merge_probe_check.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/tree_run_period_hadd_20261118_001/execution/validation/small_merge_probe_check.json",
+    "sourceBytes": 41216,
+    "sourceSha256": "4d7fc6a6ec1439cb69f10a2580c7e6e4be6af97e8a1adbef8237e4e24aa5b997",
+    "gzip": false
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/validation/small_merge_probe_validation.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/tree_run_period_hadd_20261118_001/execution/validation/small_merge_probe_validation.json",
+    "sourceBytes": 4423,
+    "sourceSha256": "8826b2694daff11882f42ba5e5ab4fddaf37076200d58535308e9c560fbec1bf",
+    "gzip": false
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "frame": "lab",
+  "nBins": 8,
+  "min": -1.0,
+  "max": 0.0,
+  "coarseBins": 4,
+  "coarseGroupSize": 2,
+  "intervalConvention": "ROOT half-open [low,high); exact maximum is overflow",
+  "retainYUnderflowOverflow": true,
+  "referenceEPBins": 8,
+  "referencePairCutEnabled": false
+}

@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "/usr/lpp/mmfs/bin/mmlsquota",
+    "-u",
+    "yichikawa",
+    "-Y",
+    "rcf.bnl.gov:gpfs:star-pwg"
+  ],
+  "returncode": 0
+}

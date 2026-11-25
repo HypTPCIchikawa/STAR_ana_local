@@ -1,0 +1,15 @@
+{
+"passed":true,
+"scope":"same stored sample, EP8 mixing, pairY10 merged by two versus pairY5",
+"absoluteTolerance":0,
+"includesAllUnderflowOverflowCells":true,
+"sameStoredInput":true,
+"meaningfulNonemptyHe4Signal":true,
+"pairRapidityRebin":{"compared":8,"failed":0,"nonemptyReferenceHistograms":7,"contentBinMismatches":0,"errorBinMismatches":0,"entriesMismatches":0,"axisMismatches":0,"statsComponentsDifferingAdvisory":0,"maxContentDifference":0,"maxErrorDifference":0},
+"inclusivePairInvariance":{"compared":1194,"failed":0,"nonemptyReferenceHistograms":595,"contentBinMismatches":0,"errorBinMismatches":0,"entriesMismatches":0,"axisMismatches":0,"statsComponentsDifferingAdvisory":0,"maxContentDifference":0,"maxErrorDifference":0},
+"he4SignalEntries":{"pairY10SE":13,"pairY10ME":403,"pairY5SE":13,"pairY5ME":403},
+"files":{"pairY10":{"path":"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_implementation_20261117_001/compact_replay_10k.root","logicalBytes":2264468,"allocatedBytes":2359296,"histogramKeyBytes":2002424,"treeZipBytes":63420},"pairY5":{"path":"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_implementation_20261117_001/compact_pairY5_10k.root","logicalBytes":2261111,"allocatedBytes":2359296,"histogramKeyBytes":1999056,"treeZipBytes":63420}},
+"keySizesTsv":"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_implementation_20261117_001/compact_pairY5_closure.json.keys.tsv",
+"differencesTsv":"/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_implementation_20261117_001/compact_pairY5_closure.json.differences.tsv",
+"errors":[]
+}

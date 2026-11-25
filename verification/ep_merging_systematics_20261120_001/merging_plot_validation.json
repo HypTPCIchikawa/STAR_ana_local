@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "checkedJst": "2026-11-20T22:56:39.909590+09:00",
+  "currentInputFingerprintsUnchanged": true,
+  "oldInputSha256Unchanged": true,
+  "pages": 3,
+  "pdfAndPngArtifacts": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep_merging_systematics/track_merging_current_vs_old_20261120.pdf",
+      "bytes": 189543,
+      "sha256": "6f00d1b1ee6c5eff0b66a92327962bd2a1c77620f8d37c993ad7958729c8690c"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep_merging_systematics/track_merging_current_vs_old_20261120_current_raw.png",
+      "bytes": 107808,
+      "sha256": "cb1d095fc816c217bfeabb73fb5026957faabb397bb43f4b18487d1334ba0609"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep_merging_systematics/track_merging_current_vs_old_20261120_comparison_full.png",
+      "bytes": 66359,
+      "sha256": "ed09b5c45bcf6347a0bf6772e7ae939ce1e7f8cd3d5ba228c44ae1fb697a10fe"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep_merging_systematics/track_merging_current_vs_old_20261120_comparison_zoom.png",
+      "bytes": 54373,
+      "sha256": "894477f68e67eb3efa75a669a23816179b8bf2fbb4bd959c3d7b8a61d364ea2e"
+    }
+  ],
+  "metrics": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep_merging_systematics/track_merging_current_vs_old_20261120_metrics.json",
+  "metricsSha256": "fc24e38bda530ed9c6a6e5f7c85c7f0302727013b7c1895c327573d5da57fefc",
+  "sourceHelper": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/DrawMergingCurrentVsOld.C",
+  "sourceHelperSha256": "0b90e956bd4f63c09080376ed5e17ed64e0cd8a54823a1b143bab2a19091292e",
+  "inputManifest": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/merging_plot_inputs.json",
+  "inputManifestSha256": "4389229dc5cbe3b993352988865b09be4f9436e658723749dd9fbd7aa936f806",
+  "bareEventFieldAliasesExact": true,
+  "strictPairCutCountsReported": false,
+  "eventPayloadReplayed": false,
+  "visualInspection": "Current raw and comparison origin-zoom PNGs inspected: axes, rectangle, target and density notes are readable. Cohort counts appear on comparison pages."
+}

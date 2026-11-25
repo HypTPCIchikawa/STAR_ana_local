@@ -1,0 +1,62 @@
+[
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/completion_verified_20261120.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/completion_20261120/completion_verified_20261120.json",
+    "bytes": 1028,
+    "sha256": "b385a005164a12fadad5c349451b7c8ee23ed11d346367487e319dbdec36918f"
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/completion_log_audit_20261120.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/completion_20261120/completion_log_audit_20261120.json",
+    "bytes": 21123,
+    "sha256": "7a7b04fde5d4ba7d737d0462bf0b19a817cb8fbe4bec3dec70e9cd42ed403cb8"
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/output_root_check_20261120.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/completion_20261120/output_root_check_20261120.json",
+    "bytes": 9918,
+    "sha256": "92662d0253ed220104c6f7203fc81386fdfa62735c42bb7c391a658885f1fcd2"
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/output_snapshot_20261120.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/completion_20261120/output_snapshot_20261120.json",
+    "bytes": 10071,
+    "sha256": "fdecead8b956532344e7f63c010bad63c9301870215bfdad68f684a84d0f35ce"
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/output_roots_20261120.list",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/completion_20261120/output_roots_20261120.list",
+    "bytes": 4430,
+    "sha256": "357af6d2511ca4b8a96101ce3a92295bb8266daada828d5c9fd2fbf5fb769f4c"
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/output_check_manifest_20261120.tsv",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/completion_20261120/output_check_manifest_20261120.tsv",
+    "bytes": 4740,
+    "sha256": "9dec340c7cd2f467cff96c78430cf182bf6e97f564f12b851961ceb5c85eedee"
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/CheckPeriodOutputs20261120.C",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/completion_20261120/CheckPeriodOutputs20261120.C",
+    "bytes": 5498,
+    "sha256": "19908312e0d36acf453f39dcdbc78b8c3ad22ef78f2af9423182f9cee6c4bf50"
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/notify/status.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/completion_20261120/notify/status.json",
+    "bytes": 659,
+    "sha256": "c4ea42068ac9151e22d4b23c94c322f7c8524d8d2c3e9f39157b39a1a9181e7c"
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/notify/sent.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/completion_20261120/notify/sent.json",
+    "bytes": 798,
+    "sha256": "cef5fe7df9bffee6d66b11a4710632f699f95350c5f79350cd8131d7b923b063"
+  },
+  {
+    "source": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_period_mix100_20261119_001/launch_state.json",
+    "saved": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/star_local/verification/period_mix100_20261119_001/completion_20261120/launch_state.json",
+    "bytes": 2122,
+    "sha256": "bad4f3af0ad38407882a9e7c125c38b8d6237a8d65b6b2e44d2d4eaf70ff72d9"
+  }
+]

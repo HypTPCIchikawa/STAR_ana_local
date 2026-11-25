@@ -1,0 +1,190 @@
+{
+  "passed": true,
+  "phase": "complete",
+  "checkedAtUTC": "2026-11-20T15:45:45.677524+00:00",
+  "matrixPhase": "watching",
+  "verifiedCases": 7,
+  "actualJobs": 140,
+  "cases": {
+    "ep1_mergingOff": {
+      "caseId": "ep1_mergingOff",
+      "jobid": "99BF51C534E3EDB9BF7D4E00D0719DC2",
+      "actualJobs": 20,
+      "sourceCount": 20,
+      "pinnedCurrentFiles": 46,
+      "pinnedShippedMembers": 38,
+      "artifacts": 6,
+      "nativeDescriptions": 1,
+      "queueReceiptJobs": 20,
+      "queueReceiptCheckedAtUTC": "2026-11-20T15:35:35.195798+00:00",
+      "resources": {
+        "request_memory": 4096,
+        "request_disk": 65536000
+      },
+      "runmeta": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100_epCut20261120_99BF51C534E3EDB9BF7D4E00D0719DC2.json",
+      "eventLog": "/tmp/yichikawa/sched99BF51C534E3EDB9BF7D4E00D0719DC2.condor.log",
+      "checkedAtUTC": "2026-11-20T15:36:38.264145+00:00",
+      "passed": true
+    },
+    "ep1_mergingOn": {
+      "caseId": "ep1_mergingOn",
+      "jobid": "A41640F4766ED2F6E154BD81C5343138",
+      "actualJobs": 20,
+      "sourceCount": 20,
+      "pinnedCurrentFiles": 46,
+      "pinnedShippedMembers": 38,
+      "artifacts": 6,
+      "nativeDescriptions": 1,
+      "queueReceiptJobs": 20,
+      "queueReceiptCheckedAtUTC": "2026-11-20T15:37:14.718596+00:00",
+      "resources": {
+        "request_memory": 4096,
+        "request_disk": 65536000
+      },
+      "runmeta": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100_epCut20261120_A41640F4766ED2F6E154BD81C5343138.json",
+      "eventLog": "/tmp/yichikawa/schedA41640F4766ED2F6E154BD81C5343138.condor.log",
+      "checkedAtUTC": "2026-11-20T15:37:39.940357+00:00",
+      "passed": true
+    },
+    "ep8_mergingOn": {
+      "caseId": "ep8_mergingOn",
+      "jobid": "A730E40D32DC4EDD890D4FFB7F46F217",
+      "actualJobs": 20,
+      "sourceCount": 20,
+      "pinnedCurrentFiles": 46,
+      "pinnedShippedMembers": 38,
+      "artifacts": 6,
+      "nativeDescriptions": 1,
+      "queueReceiptJobs": 20,
+      "queueReceiptCheckedAtUTC": "2026-11-20T15:39:00.803004+00:00",
+      "resources": {
+        "request_memory": 4096,
+        "request_disk": 65536000
+      },
+      "runmeta": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_tree_ep8_mergingOn_mix100_epCut20261120_A730E40D32DC4EDD890D4FFB7F46F217.json",
+      "eventLog": "/tmp/yichikawa/schedA730E40D32DC4EDD890D4FFB7F46F217.condor.log",
+      "checkedAtUTC": "2026-11-20T15:39:11.004646+00:00",
+      "passed": true
+    },
+    "ep16_mergingOff": {
+      "caseId": "ep16_mergingOff",
+      "jobid": "6A21EE258585F2B438551377515209BF",
+      "actualJobs": 20,
+      "sourceCount": 20,
+      "pinnedCurrentFiles": 46,
+      "pinnedShippedMembers": 38,
+      "artifacts": 6,
+      "nativeDescriptions": 1,
+      "queueReceiptJobs": 20,
+      "queueReceiptCheckedAtUTC": "2026-11-20T15:40:30.186895+00:00",
+      "resources": {
+        "request_memory": 4096,
+        "request_disk": 65536000
+      },
+      "runmeta": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOff_mix100_epCut20261120_6A21EE258585F2B438551377515209BF.json",
+      "eventLog": "/tmp/yichikawa/sched6A21EE258585F2B438551377515209BF.condor.log",
+      "checkedAtUTC": "2026-11-20T15:40:42.060158+00:00",
+      "passed": true
+    },
+    "ep16_mergingOn": {
+      "caseId": "ep16_mergingOn",
+      "jobid": "EA9E4CBE1B57C76D5337C29F5EA78FF5",
+      "actualJobs": 20,
+      "sourceCount": 20,
+      "pinnedCurrentFiles": 46,
+      "pinnedShippedMembers": 38,
+      "artifacts": 6,
+      "nativeDescriptions": 1,
+      "queueReceiptJobs": 20,
+      "queueReceiptCheckedAtUTC": "2026-11-20T15:42:07.464141+00:00",
+      "resources": {
+        "request_memory": 4096,
+        "request_disk": 65536000
+      },
+      "runmeta": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100_epCut20261120_EA9E4CBE1B57C76D5337C29F5EA78FF5.json",
+      "eventLog": "/tmp/yichikawa/schedEA9E4CBE1B57C76D5337C29F5EA78FF5.condor.log",
+      "checkedAtUTC": "2026-11-20T15:42:13.055147+00:00",
+      "passed": true
+    },
+    "ep32_mergingOff": {
+      "caseId": "ep32_mergingOff",
+      "jobid": "C44F820BF5267ECB143D2529198B3E3C",
+      "actualJobs": 20,
+      "sourceCount": 20,
+      "pinnedCurrentFiles": 46,
+      "pinnedShippedMembers": 38,
+      "artifacts": 6,
+      "nativeDescriptions": 1,
+      "queueReceiptJobs": 20,
+      "queueReceiptCheckedAtUTC": "2026-11-20T15:43:44.930618+00:00",
+      "resources": {
+        "request_memory": 4096,
+        "request_disk": 65536000
+      },
+      "runmeta": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOff_mix100_epCut20261120_C44F820BF5267ECB143D2529198B3E3C.json",
+      "eventLog": "/tmp/yichikawa/schedC44F820BF5267ECB143D2529198B3E3C.condor.log",
+      "checkedAtUTC": "2026-11-20T15:44:14.634316+00:00",
+      "passed": true
+    },
+    "ep32_mergingOn": {
+      "caseId": "ep32_mergingOn",
+      "jobid": "9F620F840BE41704A1DE1DB1D5082DC4",
+      "actualJobs": 20,
+      "sourceCount": 20,
+      "pinnedCurrentFiles": 46,
+      "pinnedShippedMembers": 38,
+      "artifacts": 6,
+      "nativeDescriptions": 1,
+      "queueReceiptJobs": 20,
+      "queueReceiptCheckedAtUTC": "2026-11-20T15:45:30.791992+00:00",
+      "resources": {
+        "request_memory": 4096,
+        "request_disk": 65536000
+      },
+      "runmeta": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_tree_ep32_mergingOn_mix100_epCut20261120_9F620F840BE41704A1DE1DB1D5082DC4.json",
+      "eventLog": "/tmp/yichikawa/sched9F620F840BE41704A1DE1DB1D5082DC4.condor.log",
+      "checkedAtUTC": "2026-11-20T15:45:45.676832+00:00",
+      "passed": true
+    }
+  },
+  "readOnly": true,
+  "noSubmissionOrRetry": true,
+  "watchSettings": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/watch_matrix_settings.json",
+    "sha256": "907fe88f5bda7a24aec36af82489f6379342f2c68f25eb7feb37c2bbd17ba58b",
+    "settings": {
+      "schemaVersion": 1,
+      "cases": "cases.json",
+      "postprocessSettings": "cf_postprocess_settings.json",
+      "sharedEventParser": "../../script/watch_job_notify.py",
+      "pollSeconds": 300,
+      "settleSeconds": 300,
+      "commandTimeoutSeconds": 45,
+      "postprocessTimeoutSeconds": 3600,
+      "additionalPinFiles": [
+        "prepare_production_matrix.py",
+        "run_production_matrix.py"
+      ],
+      "recipient": "yudai.ichikawa.d3@tohoku.ac.jp",
+      "sendmail": "/usr/sbin/sendmail",
+      "baselineLaunchDirectory": "../femto_lambda_period_mix100_20261119_001",
+      "baselineLaunchConfig": "../femto_lambda_period_mix100_20261119_001/launch_config.json",
+      "baselineInputProvenance": "cf_baseline_ep8Off_002/input_provenance.json",
+      "baselineCompleted": "cf_baseline_ep8Off_002/completed.json",
+      "fatalPatterns": [
+        "(?i)segmentation (?:violation|fault)",
+        "(?i)\\bfatal(?: in|:)",
+        "(?i)terminate called|std::bad_alloc|assertion .* failed",
+        "Error in <(?:TFile|TBuffer|TStreamerInfo|TTree|TBranch)",
+        "(?i)uncaught exception|core dumped"
+      ]
+    }
+  },
+  "aggregateWatchDirectoryExists": true,
+  "aggregateWatchFiles": [
+    "pid.json",
+    "startup_pins.json",
+    "status.json",
+    "watcher.lock"
+  ]
+}

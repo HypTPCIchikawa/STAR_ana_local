@@ -1,0 +1,33 @@
+{
+  "runmeta": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100_epCut20261120_99BF51C534E3EDB9BF7D4E00D0719DC2.json",
+    "bytes": 4952,
+    "sha256": "97652ea91ca09956f0d33f7054b079d89a0b51e383bba5281a69f24a7cc8c918"
+  },
+  "configlog": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/configlog/config_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100_epCut20261120_99BF51C534E3EDB9BF7D4E00D0719DC2.txt",
+    "bytes": 228188,
+    "sha256": "2ff4fbd93b62952e588d603926dcc1d76c42b359d7839113ad563eccbc288956"
+  },
+  "joblistlog": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/joblistlog/joblist_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100_epCut20261120_99BF51C534E3EDB9BF7D4E00D0719DC2.xml",
+    "bytes": 5310,
+    "sha256": "35ef63bdfd68ecdd6d4eee5afa8c19408cf3cfdc5498f3778cbd4dfb68b85aa6"
+  },
+  "runtimeBundle": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runtime_bundle_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100_epCut20261120_99BF51C534E3EDB9BF7D4E00D0719DC2.tar.gz",
+    "bytes": 52013534,
+    "sha256": "5d824d81f508a9d16c50cc086f8b6f78210f61c9e31007ec8d0d0fd68083a6e7"
+  },
+  "sumsArtifacts": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/sums_artifacts_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100_epCut20261120_99BF51C534E3EDB9BF7D4E00D0719DC2.tar.gz",
+    "bytes": 26762,
+    "sha256": "d330bfa1efc5762960595a6da3b00b7732ae0b7576122bb592b5195f75471abc"
+  },
+  "runtimeZip": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOff_mix100_epCut20261120_20261120103101.zip",
+    "bytes": 50540033,
+    "sha256": "4edf86a0dc8cc4d119310e80855358cfceef06521770364068fed34772441849",
+    "pinnedShippedMembersVerified": 38
+  }
+}

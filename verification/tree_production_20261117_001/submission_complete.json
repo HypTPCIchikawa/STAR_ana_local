@@ -1,0 +1,37 @@
+{
+  "checkedJST": "2026-11-17T15:24:47.853130+09:00",
+  "jobid": "9037A6F05FAD08FC8E9BD9286C8A38A5",
+  "submissionComplete": true,
+  "expectedJobs": 4058,
+  "inputFiles": 73054,
+  "runs": 388,
+  "heldRuns": 81,
+  "queueStates": {
+    "2": 1413,
+    "1": 2469
+  },
+  "inQueue": 3882,
+  "rootOutputsCurrentlyPresent": 163,
+  "postSubmissionAudit": "passed",
+  "coverage": {
+    "passed": true,
+    "nativeHelper": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_production_20261117_001/launch.py:coverage",
+    "contiguousLists": 4058,
+    "workerJobs": 4058,
+    "inputFiles": 73054,
+    "maxFiles": 19,
+    "frozenInputSha256": "b469b4a926dd4781256d3e289c08655c53dd71f41f343411967df342070fd9c5",
+    "savedGroupingMatches": true
+  },
+  "artifactCount": 5,
+  "completionWatcherPid": 2819679,
+  "completionWatcherLive": true,
+  "completionEmail": "yudai.ichikawa.d3@tohoku.ac.jp",
+  "emailContent": "minimal",
+  "emailSent": false,
+  "softHeadroomBytes": 2141384081408,
+  "outputDirectory": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/production20261117",
+  "automaticMerge": false,
+  "automaticResubmit": false,
+  "processingComplete": false
+}

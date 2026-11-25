@@ -1,0 +1,11 @@
+{
+  "startedJST": "2026-11-17T15:02:23.001668+09:00",
+  "session": "he4_tree_prod_audit_20261117_001",
+  "returnCode": 0,
+  "command": [
+    "/cvmfs/star.sdcc.bnl.gov/star-spack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/python-3.8.13-myixjs7jesskpbhwiowibizezfh52rky/bin/python3",
+    "-u",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_production_20261117_001/post_submission_audit.py"
+  ],
+  "purpose": "Verify all4058 submission records, coverage, provenance artifacts and completion-only watcher after SUMS returns; no resubmit/merge/email by observer."
+}

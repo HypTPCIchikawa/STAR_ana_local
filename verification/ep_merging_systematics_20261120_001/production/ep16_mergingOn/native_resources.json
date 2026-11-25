@@ -1,0 +1,181 @@
+{
+  "descriptions": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100_epCut20261120EA9E4CBE1B57C76D5337C29F5EA78FF5_0_19.condor",
+      "resources": {
+        "request_memory": "4096",
+        "request_disk": "65536000"
+      }
+    }
+  ],
+  "queue": {
+    "checkedAtUTC": "2026-11-20T15:42:07.464141+00:00",
+    "queueJobCount": 20,
+    "states": {
+      "2": 20
+    },
+    "ads": [
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_19.out",
+        "ProcId": 0,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      },
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_18.out",
+        "ProcId": 1,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      },
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_17.out",
+        "ProcId": 2,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      },
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_16.out",
+        "ProcId": 3,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      },
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_15.out",
+        "ProcId": 4,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      },
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_14.out",
+        "ProcId": 5,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      },
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_13.out",
+        "ProcId": 6,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      },
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_12.out",
+        "ProcId": 7,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      },
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_11.out",
+        "ProcId": 8,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      },
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_10.out",
+        "ProcId": 9,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      },
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_9.out",
+        "ProcId": 10,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      },
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_8.out",
+        "ProcId": 11,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      },
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_7.out",
+        "ProcId": 12,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      },
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_6.out",
+        "ProcId": 13,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      },
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_5.out",
+        "ProcId": 14,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      },
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_4.out",
+        "ProcId": 15,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      },
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_3.out",
+        "ProcId": 16,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      },
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_2.out",
+        "ProcId": 17,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      },
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_1.out",
+        "ProcId": 18,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      },
+      {
+        "ClusterId": 881174,
+        "JobStatus": 2,
+        "Out": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/log/auau3p85_anaFemtoLambda_4He_tree_ep16_mergingOn_mix100/stdout.EA9E4CBE1B57C76D5337C29F5EA78FF5_0.out",
+        "ProcId": 19,
+        "RequestDisk": 65536000,
+        "RequestMemory": 4096
+      }
+    ],
+    "queueEmptyDoesNotProveAnalysisSuccess": true
+  }
+}

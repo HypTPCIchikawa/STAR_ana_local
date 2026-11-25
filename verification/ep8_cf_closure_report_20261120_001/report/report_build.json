@@ -1,0 +1,36 @@
+{
+  "generated": true,
+  "pdf": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep8_cf_closure_report/lambda_he4_ep8_cf_and_tree_closure_ja.pdf",
+  "bytes": 798794,
+  "sha256": "ac1ce136985d20f0b9ea46a61e71d593aad0c1eae14656854e90d8186e6fdebd",
+  "pdfinfo": "Pages: 12 (XeLaTeX log; independently rendered below)\n",
+  "figureFiles": [
+    "computed_summary.tex",
+    "report_validation_note.tex",
+    "ep8_cf_c00_60_panels.pdf",
+    "ep8_cf_c00_60_highk_panels.pdf",
+    "ep8_seme_c00_60_panels.pdf",
+    "ep8_highk_c00_60_table.pdf",
+    "ep8_highk_primary_heatmap_v2.pdf",
+    "ep8_cf_six_centralities_overlay.pdf",
+    "closure_matched_seme.pdf",
+    "ep8_cf_nine_cent9_overlay.pdf"
+  ],
+  "visualReviewPending": false,
+  "visualReviewPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "scientificReviewPassed": true,
+  "glyphAndOverflowChecksPassed": true
+}

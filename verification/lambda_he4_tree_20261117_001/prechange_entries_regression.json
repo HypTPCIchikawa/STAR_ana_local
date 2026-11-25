@@ -1,0 +1,7 @@
+{
+  "snapshot": "/tmp/lambda-tree-prechange-p507ppak",
+  "sourceHead": "f35f4424f35a2bb8c06458721259ae21bf24c50d",
+  "preexistingOverridePatch": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/git_remote_correction_20261116_001/main_before.patch",
+  "testExitBeforeImplementation": 1,
+  "actualWorkingTreeUntouched": true
+}

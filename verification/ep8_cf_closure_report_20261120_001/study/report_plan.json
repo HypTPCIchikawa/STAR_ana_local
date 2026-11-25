@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "documentLanguage": "ja",
+  "reportFile": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/share/figure/20261120_lambda_ep8_cf_closure_report/lambda_he4_ep8_cf_and_tree_closure_ja.pdf",
+  "studyDirectory": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_ep8_cf_closure_report_20261120_001",
+  "physicsInputs": "completed EP8 periodMix100 output only",
+  "baselineJobid": "2D07F680577123CABC16FDD9159CFD9E",
+  "normalizationGeVc": [
+    0.4,
+    0.5
+  ],
+  "primaryCentrality": "0-60%",
+  "highKDomainGeVc": [
+    0.5,
+    1.0
+  ],
+  "backgroundTreatment": "raw signal before sideband/purity correction",
+  "cuts": "no proton-He4 pair veto in completed baseline",
+  "closureSample": "same PicoDst first 10000 input events, 9761 reconstructed, original depth20/reset=true",
+  "sourceModification": false,
+  "submitJobs": false,
+  "modifyRunningWatcher": false,
+  "plannedFigures": [
+    "EP8 each-plane CF full axis and high-k zoom",
+    "scaled SE/ME by plane",
+    "high-k integrated CF by plane and independent centrality",
+    "old direct-Pico vs compact-tree/replay raw pair histograms and zero differences",
+    "closure sample statistics, exact agreement and scope"
+  ]
+}

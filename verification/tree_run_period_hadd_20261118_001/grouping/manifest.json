@@ -1,0 +1,43 @@
+{
+  "status": "grouping_summary_copies_verified",
+  "files": [
+    {
+      "source": "rootfile/femto_lambda_tree_grouped_merge_20261118_001/grouping_analysis/computed_final_run_cohorts/groups_20/summary.csv",
+      "saved": "groups_20_summary.csv",
+      "sourceBytes": 5441,
+      "savedBytes": 5441,
+      "gzip": false,
+      "sourceSha256": "ffd0ee70360c22f18d99beddc806017fb0c0994172e14be449e88fdb9afb3d10",
+      "savedSha256": "ffd0ee70360c22f18d99beddc806017fb0c0994172e14be449e88fdb9afb3d10"
+    },
+    {
+      "source": "rootfile/femto_lambda_tree_grouped_merge_20261118_001/grouping_analysis/computed_final_run_cohorts/groups_20/split_runs.csv",
+      "saved": "groups_20_split_runs.csv",
+      "sourceBytes": 2175,
+      "savedBytes": 2175,
+      "gzip": false,
+      "sourceSha256": "df7c300fe459bdf082db690c3da9856e97e53e45768961450c7054f1b3441de2",
+      "savedSha256": "df7c300fe459bdf082db690c3da9856e97e53e45768961450c7054f1b3441de2"
+    },
+    {
+      "source": "rootfile/femto_lambda_tree_grouped_merge_20261118_001/grouping_analysis/computed_final_run_cohorts/alternatives_summary.json",
+      "saved": "alternatives_summary.json",
+      "sourceBytes": 6065,
+      "savedBytes": 6065,
+      "gzip": false,
+      "sourceSha256": "526336d87ecaa341ad6ea82186dc1ccf949996222ab12ce76e0c223293bb9e6e",
+      "savedSha256": "526336d87ecaa341ad6ea82186dc1ccf949996222ab12ce76e0c223293bb9e6e"
+    },
+    {
+      "source": "rootfile/femto_lambda_tree_grouped_merge_20261118_001/grouping_analysis/computed_final_run_cohorts/analysis_provenance.json",
+      "saved": "analysis_provenance.json",
+      "sourceBytes": 1557,
+      "savedBytes": 1557,
+      "gzip": false,
+      "sourceSha256": "5645a0d2ebd893ee388d7dcd22352a9a27a08e6d4a7def33b8fbb724bae0b0d4",
+      "savedSha256": "5645a0d2ebd893ee388d7dcd22352a9a27a08e6d4a7def33b8fbb724bae0b0d4"
+    }
+  ],
+  "sourceSnapshotSha256": "9502f9b8c09af154cc6232d654c4026e0c836bab93f83f4b9662ec80c90fd2f0",
+  "noteGroupRowsValidated": 20
+}

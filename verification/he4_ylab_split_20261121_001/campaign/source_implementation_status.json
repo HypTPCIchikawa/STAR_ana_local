@@ -1,0 +1,27 @@
+{
+  "implemented": true,
+  "buildRun": false,
+  "testsRun": false,
+  "publicFilesChanged": [
+    "StMaker/common/FemtoLambdaLegacy.h",
+    "StMaker/common/FemtoLambdaLegacy.cxx",
+    "StMaker/StFemtoMaker/README.md"
+  ],
+  "sourceSha256": {
+    "StMaker/common/FemtoLambdaLegacy.h": "fb021e7ba84eda412990536dcb25f0acc17ad06b6033b220104a9a4dfb9a20cd",
+    "StMaker/common/FemtoLambdaLegacy.cxx": "525875e3a54e67250db9911e6c4f730a67e3d06f55d0c745864336d392ea32ce",
+    "StMaker/StFemtoMaker/README.md": "8e22d736aed458bc8634918ddaa72e00e42866de9afe1fa06909fd1d73ee4585"
+  },
+  "newFixtureFiles": [
+    "test_he4_ylab_binning.C",
+    "run_he4_ylab_binning_test.C"
+  ],
+  "newBlock": "he4RapidityBinning",
+  "newHistograms": "hKstar{SE,ME}VsHe4YLabVsCent_lambda_he4{,_signal,_leftSB,_rightSB}",
+  "metadata": [
+    "he4RapidityLabNBins",
+    "he4RapidityLabMin",
+    "he4RapidityLabMax",
+    "FemtoHe4RapidityBinningDefinition"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "session": "he4_tree_period_hadd_20261118_001",
+  "createdJst": "2026-11-18T18:09:57.629669+09:00",
+  "tmuxCommand": [
+    "tmux",
+    "new-session",
+    "-d",
+    "-s",
+    "he4_tree_period_hadd_20261118_001",
+    "-c",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer",
+    "/bin/bash",
+    "-c",
+    "exec /cvmfs/star.sdcc.bnl.gov/star-spack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/python-3.8.13-myixjs7jesskpbhwiowibizezfh52rky/bin/python3 -u /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/run_grouped_merge.py --config /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/merge_config.json > /gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/tmux_merge.log 2>&1"
+  ],
+  "driverArgv": [
+    "/cvmfs/star.sdcc.bnl.gov/star-spack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/python-3.8.13-myixjs7jesskpbhwiowibizezfh52rky/bin/python3",
+    "-u",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/run_grouped_merge.py",
+    "--config",
+    "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_tree_grouped_merge_20261118_001/merge_config.json"
+  ],
+  "requestedSources": 4024,
+  "requestedGroups": 20,
+  "outputDirectory": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/auau3p85_anaFemtoLambda_4He_tree/run_periods20261118_001"
+}

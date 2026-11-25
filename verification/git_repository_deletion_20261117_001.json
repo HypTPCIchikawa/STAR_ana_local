@@ -1,0 +1,62 @@
+{
+  "predelete_verification": {
+    "verifiedAtJst": "2026-11-17T09:29:47.339680+09:00",
+    "authenticatedAccount": "HypTPCIchikawa",
+    "deleteTarget": {
+      "id": 1429165992,
+      "fullName": "HypTPCIchikawa/star_local_submodule",
+      "admin": true,
+      "openIssues": 0,
+      "forks": 0,
+      "refs": [
+        "aaed3cd53a63aa1d420a0a5d141b89e61e46e6f6\trefs/heads/main"
+      ]
+    },
+    "protectedRepository": {
+      "id": 1158941728,
+      "fullName": "HypTPCIchikawa/STAR_ana_local",
+      "mainCommit": "a128fcb31c4b6c075674db255763f25c1703707f"
+    },
+    "publicMainCommit": "f35f4424f35a2bb8c06458721259ae21bf24c50d",
+    "parentGitlinkMatches": true,
+    "bothOriginalHistoriesPreserved": true,
+    "priorPreservationReceipt": "rootfile/git_remote_correction_20261116_001/final_push_verification.json",
+    "deletionPerformed": false
+  },
+  "delete_response": {
+    "executedAtJst": "2026-11-17T09:30:51.255975+09:00",
+    "repository": "HypTPCIchikawa/star_local_submodule",
+    "repositoryId": 1429165992,
+    "httpStatus": 204,
+    "cliExitCode": 0,
+    "githubRequestId": "505A:8E461:E5ABE7:2D73841:6AFBA03A",
+    "deleted": true
+  },
+  "postdelete_verification": {
+    "verifiedAtJst": "2026-11-17T09:32:46.118144+09:00",
+    "deletedRepository": "HypTPCIchikawa/star_local_submodule",
+    "deletedRepositoryId": 1429165992,
+    "deleteHttpStatus": 204,
+    "authenticatedGetAfterDelete": 404,
+    "protectedRepository": "HypTPCIchikawa/STAR_ana_local",
+    "protectedRepositoryId": 1158941728,
+    "protectedMainCommit": "a128fcb31c4b6c075674db255763f25c1703707f",
+    "publicRepository": "star-tohoku/star-analyzer",
+    "publicMainCommit": "f35f4424f35a2bb8c06458721259ae21bf24c50d",
+    "remoteHeadsAndGitlinkUnchanged": true,
+    "existingAnalysisOverridesUnchanged": true,
+    "localPersonalWorkspaceRetained": true,
+    "treeCodeImplementation": "not changed; plan remains available"
+  },
+  "temporary_auth_cleanup": {
+    "completedAtJst": "2026-11-17T09:32:46.139838+09:00",
+    "isolatedCredentialFilesRemoved": [
+      "hosts.yml",
+      "config.yml"
+    ],
+    "isolatedDirectoryRemoved": true,
+    "temporaryCliRemoved": true,
+    "remoteVerificationPassed": true,
+    "existingGitHubConfigModified": false
+  }
+}

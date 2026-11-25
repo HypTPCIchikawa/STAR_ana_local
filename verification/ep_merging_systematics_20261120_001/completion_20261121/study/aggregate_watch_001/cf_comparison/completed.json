@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "mode": "compare",
+  "cases": [
+    "ep1_mergingOff",
+    "ep1_mergingOn",
+    "ep8_mergingOff",
+    "ep8_mergingOn",
+    "ep16_mergingOff",
+    "ep16_mergingOn",
+    "ep32_mergingOff",
+    "ep32_mergingOn"
+  ],
+  "sources": 160,
+  "curves": 226,
+  "inputStatsUnchanged": true,
+  "pinsUnchanged": true,
+  "treeEntriesRead": 0,
+  "artifacts": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/cf_comparison/cf_comparison.json",
+      "bytes": 3386714,
+      "device": 48,
+      "inode": 929845480,
+      "mtimeNs": 1795247731516261592,
+      "sha256": "d2f26eba38ca5ef72118fc5dbdfa901a323696864de456f3bb3ec2b797f48015"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/cf_comparison/cf_comparison.pdf",
+      "bytes": 619942,
+      "device": 48,
+      "inode": 929845486,
+      "mtimeNs": 1795247738041870259,
+      "sha256": "29b699a785820633d9ec9af80ffbe9920a477fa8b842c4d6a84f46125f3b9556"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/cf_comparison/cf_plane_diagnostic.pdf",
+      "bytes": 1273138,
+      "device": 48,
+      "inode": 929845488,
+      "mtimeNs": 1795247738079810515,
+      "sha256": "2a9b45846c6f50146ef4960a78de6397d01354141980df25dbd62db5427c03e2"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/cf_comparison/raw_se_me_scaled.pdf",
+      "bytes": 980807,
+      "device": 48,
+      "inode": 929845487,
+      "mtimeNs": 1795247738064485190,
+      "sha256": "bc9e0666db584387636e2136f415b8b475c1d478455e670818455776471c7b57"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/cf_comparison/cf_histograms.root",
+      "bytes": 1460309,
+      "device": 48,
+      "inode": 929845485,
+      "mtimeNs": 1795247733656376053,
+      "sha256": "630fd67e00403634f4a0fa5b954b9c31409a3a8fd0523e2f71370c9837bf41c1"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/cf_comparison/raw_histograms.json",
+      "bytes": 3361831,
+      "device": 48,
+      "inode": 929845479,
+      "mtimeNs": 1795247730559030617,
+      "sha256": "52bfe0b97aa68ef7637df0daffcc557eb926a616ee90ab8bdb747cf38ea29088"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/cf_comparison/curve_metadata.tsv",
+      "bytes": 16784,
+      "device": 48,
+      "inode": 929845481,
+      "mtimeNs": 1795247731520987000,
+      "sha256": "7df8c08ca9bb4b5afb29d87f07ce3b691b8b36db152295d1c36f2a4b2ae0f709"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/aggregate_watch_001/cf_comparison/curve_bins.tsv",
+      "bytes": 1133765,
+      "device": 48,
+      "inode": 929845482,
+      "mtimeNs": 1795247731613710914,
+      "sha256": "f84961fc8cc577553b883d856dd2ebbe8e8bc78f1cb1c021d13c849df74f47d3"
+    }
+  ]
+}

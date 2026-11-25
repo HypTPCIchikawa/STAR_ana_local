@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "recoveredJst": "2026-11-21T00:14:11.197381+09:00",
+  "noRootJobsRerun": true,
+  "runtimeSourceConfigLibUnchanged": true,
+  "driverChanges": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/femto_lambda_ep_merging_systematics_20261120_001/run_pilot_matrix.py",
+      "before": "1afe341eda6dccaaf36d760c6b559d890a1bb44874b5c61869f96e4351de954f",
+      "after": "719fc5bb386d209b9d05319e39ee2c6952624e5386f1cf50ef280684200dad77",
+      "reason": "Final harvest loop must include completed but unharvested children; no physics code or configuration change."
+    }
+  ],
+  "recoveredCases": [
+    "ep32_mergingOff",
+    "ep32_mergingOn"
+  ]
+}

@@ -1,0 +1,1596 @@
+{
+  "events": 1819447887,
+  "EPValidEvents": 1736875306,
+  "normalization": "alpha=SE(H)/ME(H); CF=SE/(alpha ME)",
+  "normalizationGeVc": [
+    0.4,
+    0.5
+  ],
+  "highKDefinition": "Ratio of integrated SE/ME over window, divided by normalization-window ratio; not an arithmetic mean of CF bins",
+  "primary": [
+    {
+      "caseId": "he4Y4",
+      "kind": "inclusive_all_y",
+      "rapidityBin": -1,
+      "rapidityRange": null,
+      "normSE": 119333,
+      "normME": 22854688,
+      "available": true,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 157596,
+          "ME": 30633991,
+          "integralCF": 0.9852724696953605,
+          "arithmeticMeanOfValidDisplayBins": 0.9852071291402371,
+          "validDisplayBins": 5,
+          "SEVariance": 157596.0,
+          "MEVariance": 30633991,
+          "fixedAlphaCountError": 0.002488272839757558
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 405750,
+          "ME": 81688706,
+          "integralCF": 0.9512863168716289,
+          "arithmeticMeanOfValidDisplayBins": 0.952173762385262,
+          "validDisplayBins": 10,
+          "SEVariance": 405750.0,
+          "MEVariance": 81688706,
+          "fixedAlphaCountError": 0.001497124412353233
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 453413,
+          "ME": 95200344,
+          "integralCF": 0.9121582453317483,
+          "arithmeticMeanOfValidDisplayBins": 0.9122251516330037,
+          "validDisplayBins": 10,
+          "SEVariance": 453413,
+          "MEVariance": 95200344,
+          "fixedAlphaCountError": 0.0013578598959906696
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 859163,
+          "ME": 176889050,
+          "integralCF": 0.930227885777939,
+          "arithmeticMeanOfValidDisplayBins": 0.9321994570091329,
+          "validDisplayBins": 20,
+          "SEVariance": 859163.0,
+          "MEVariance": 176889050,
+          "fixedAlphaCountError": 0.0010060132906896677
+        }
+      }
+    },
+    {
+      "caseId": "he4Y4",
+      "kind": "inclusive_in_range",
+      "rapidityBin": -2,
+      "rapidityRange": [
+        -1,
+        0
+      ],
+      "normSE": 119168,
+      "normME": 22820266,
+      "available": true,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 157389,
+          "ME": 30595473,
+          "integralCF": 0.9850953205651456,
+          "arithmeticMeanOfValidDisplayBins": 0.985020081396676,
+          "validDisplayBins": 5,
+          "SEVariance": 157389.0,
+          "MEVariance": 30595473.0,
+          "fixedAlphaCountError": 0.0024894605696788247
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 405301,
+          "ME": 81602559,
+          "integralCF": 0.9511192002909769,
+          "arithmeticMeanOfValidDisplayBins": 0.9520097352548952,
+          "validDisplayBins": 10,
+          "SEVariance": 405301.0,
+          "MEVariance": 81602559.0,
+          "fixedAlphaCountError": 0.0014976901092871447
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 452949,
+          "ME": 95108424,
+          "integralCF": 0.9119927202577848,
+          "arithmeticMeanOfValidDisplayBins": 0.9120603008894989,
+          "validDisplayBins": 10,
+          "SEVariance": 452949.0,
+          "MEVariance": 95108424.0,
+          "fixedAlphaCountError": 0.001358308495459835
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 858250,
+          "ME": 176710983,
+          "integralCF": 0.9300607590472634,
+          "arithmeticMeanOfValidDisplayBins": 0.932035018072197,
+          "validDisplayBins": 20,
+          "SEVariance": 858250.0,
+          "MEVariance": 176710983.0,
+          "fixedAlphaCountError": 0.0010063672682495389
+        }
+      }
+    },
+    {
+      "caseId": "he4Y4",
+      "kind": "rapidity_underflow",
+      "rapidityBin": -3,
+      "rapidityRange": [
+        null,
+        -1
+      ],
+      "normSE": 165,
+      "normME": 34422,
+      "available": true,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 207,
+          "ME": 38518,
+          "integralCF": 1.1211372250990093,
+          "arithmeticMeanOfValidDisplayBins": 1.1247854430481645,
+          "validDisplayBins": 5,
+          "SEVariance": 207.0,
+          "MEVariance": 38518.0,
+          "fixedAlphaCountError": 0.0781335305363116
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 449,
+          "ME": 86147,
+          "integralCF": 1.0873224097921417,
+          "arithmeticMeanOfValidDisplayBins": 1.08759251015555,
+          "validDisplayBins": 10,
+          "SEVariance": 449.0,
+          "MEVariance": 86147.0,
+          "fixedAlphaCountError": 0.05144746795088474
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 464,
+          "ME": 91920,
+          "integralCF": 1.0530769839386027,
+          "arithmeticMeanOfValidDisplayBins": 1.053284837974196,
+          "validDisplayBins": 10,
+          "SEVariance": 464.0,
+          "MEVariance": 91920.0,
+          "fixedAlphaCountError": 0.049011106097142876
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 913,
+          "ME": 178067,
+          "integralCF": 1.0696445719869487,
+          "arithmeticMeanOfValidDisplayBins": 1.070438674064873,
+          "validDisplayBins": 20,
+          "SEVariance": 913.0,
+          "MEVariance": 178067.0,
+          "fixedAlphaCountError": 0.03549070560143784
+        }
+      }
+    },
+    {
+      "caseId": "he4Y4",
+      "kind": "rapidity_overflow",
+      "rapidityBin": -4,
+      "rapidityRange": [
+        0,
+        null
+      ],
+      "normSE": 0,
+      "normME": 0,
+      "available": false,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": false,
+          "unavailableReason": "zero normalization or ME window",
+          "SE": 0,
+          "ME": 0,
+          "integralCF": null,
+          "arithmeticMeanOfValidDisplayBins": null,
+          "validDisplayBins": 0,
+          "SEVariance": 0,
+          "MEVariance": 0,
+          "fixedAlphaCountError": null
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": false,
+          "unavailableReason": "zero normalization or ME window",
+          "SE": 0,
+          "ME": 0,
+          "integralCF": null,
+          "arithmeticMeanOfValidDisplayBins": null,
+          "validDisplayBins": 0,
+          "SEVariance": 0,
+          "MEVariance": 0,
+          "fixedAlphaCountError": null
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": false,
+          "unavailableReason": "zero normalization or ME window",
+          "SE": 0,
+          "ME": 0,
+          "integralCF": null,
+          "arithmeticMeanOfValidDisplayBins": null,
+          "validDisplayBins": 0,
+          "SEVariance": 0,
+          "MEVariance": 0,
+          "fixedAlphaCountError": null
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": false,
+          "unavailableReason": "zero normalization or ME window",
+          "SE": 0,
+          "ME": 0,
+          "integralCF": null,
+          "arithmeticMeanOfValidDisplayBins": null,
+          "validDisplayBins": 0,
+          "SEVariance": 0,
+          "MEVariance": 0,
+          "fixedAlphaCountError": null
+        }
+      }
+    },
+    {
+      "caseId": "he4Y4",
+      "kind": "rapidity_bin",
+      "rapidityBin": 0,
+      "rapidityRange": [
+        -1,
+        -0.75
+      ],
+      "normSE": 10126,
+      "normME": 1913767,
+      "available": true,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 11735,
+          "ME": 2274630,
+          "integralCF": 0.9750423285542389,
+          "arithmeticMeanOfValidDisplayBins": 0.9746292055892715,
+          "validDisplayBins": 5,
+          "SEVariance": 11735.0,
+          "MEVariance": 2274630.0,
+          "fixedAlphaCountError": 0.009024004911192882
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 27197,
+          "ME": 5215616,
+          "integralCF": 0.9855224703400745,
+          "arithmeticMeanOfValidDisplayBins": 0.9853905143918233,
+          "validDisplayBins": 10,
+          "SEVariance": 27197.0,
+          "MEVariance": 5215616.0,
+          "fixedAlphaCountError": 0.005991497873850293
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 28516,
+          "ME": 5426351,
+          "integralCF": 0.9931889113889691,
+          "arithmeticMeanOfValidDisplayBins": 0.9931363362995418,
+          "validDisplayBins": 10,
+          "SEVariance": 28516.0,
+          "MEVariance": 5426351.0,
+          "fixedAlphaCountError": 0.005896926313949929
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 55713,
+          "ME": 10641967,
+          "integralCF": 0.9894315972949045,
+          "arithmeticMeanOfValidDisplayBins": 0.9892634253456825,
+          "validDisplayBins": 20,
+          "SEVariance": 55713.0,
+          "MEVariance": 10641967.0,
+          "fixedAlphaCountError": 0.0042028254206083904
+        }
+      }
+    },
+    {
+      "caseId": "he4Y4",
+      "kind": "rapidity_bin",
+      "rapidityBin": 1,
+      "rapidityRange": [
+        -0.75,
+        -0.5
+      ],
+      "normSE": 36677,
+      "normME": 7011522,
+      "available": true,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 45090,
+          "ME": 8570019,
+          "integralCF": 1.005812309370552,
+          "arithmeticMeanOfValidDisplayBins": 1.0058284240723137,
+          "validDisplayBins": 5,
+          "SEVariance": 45090.0,
+          "MEVariance": 8570019.0,
+          "fixedAlphaCountError": 0.004749154787058586
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 105613,
+          "ME": 20532516,
+          "integralCF": 0.9833173567223992,
+          "arithmeticMeanOfValidDisplayBins": 0.9833866654546896,
+          "validDisplayBins": 10,
+          "SEVariance": 105613.0,
+          "MEVariance": 20532516.0,
+          "fixedAlphaCountError": 0.003033535571215478
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 111540,
+          "ME": 22063973,
+          "integralCF": 0.9664189084820817,
+          "arithmeticMeanOfValidDisplayBins": 0.9662490178677796,
+          "validDisplayBins": 10,
+          "SEVariance": 111540.0,
+          "MEVariance": 22063973.0,
+          "fixedAlphaCountError": 0.002900982289883298
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 217153,
+          "ME": 42596489,
+          "integralCF": 0.9745643605372849,
+          "arithmeticMeanOfValidDisplayBins": 0.9748178416612344,
+          "validDisplayBins": 20,
+          "SEVariance": 217153.0,
+          "MEVariance": 42596489.0,
+          "fixedAlphaCountError": 0.0020966782651194943
+        }
+      }
+    },
+    {
+      "caseId": "he4Y4",
+      "kind": "rapidity_bin",
+      "rapidityBin": 2,
+      "rapidityRange": [
+        -0.5,
+        -0.25
+      ],
+      "normSE": 48508,
+      "normME": 9346998,
+      "available": true,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 65279,
+          "ME": 12835395,
+          "integralCF": 0.9799931396207586,
+          "arithmeticMeanOfValidDisplayBins": 0.9802355250310025,
+          "validDisplayBins": 5,
+          "SEVariance": 65279.0,
+          "MEVariance": 12835395.0,
+          "fixedAlphaCountError": 0.0038453676662670603
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 169497,
+          "ME": 34675273,
+          "integralCF": 0.9418915651898446,
+          "arithmeticMeanOfValidDisplayBins": 0.9429499583054461,
+          "validDisplayBins": 10,
+          "SEVariance": 169497.0,
+          "MEVariance": 34675273.0,
+          "fixedAlphaCountError": 0.0022933944460001806
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 184171,
+          "ME": 39441718,
+          "integralCF": 0.8997548646840687,
+          "arithmeticMeanOfValidDisplayBins": 0.8997169844508586,
+          "validDisplayBins": 10,
+          "SEVariance": 184171.0,
+          "MEVariance": 39441718,
+          "fixedAlphaCountError": 0.0021014795968335126
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 353668,
+          "ME": 74116991,
+          "integralCF": 0.9194683146453201,
+          "arithmeticMeanOfValidDisplayBins": 0.9213334713781522,
+          "validDisplayBins": 20,
+          "SEVariance": 353668.0,
+          "MEVariance": 74116991.0,
+          "fixedAlphaCountError": 0.0015497890686921292
+        }
+      }
+    },
+    {
+      "caseId": "he4Y4",
+      "kind": "rapidity_bin",
+      "rapidityBin": 3,
+      "rapidityRange": [
+        -0.25,
+        0
+      ],
+      "normSE": 23857,
+      "normME": 4547979,
+      "available": true,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 35285,
+          "ME": 6915429,
+          "integralCF": 0.9726881277489708,
+          "arithmeticMeanOfValidDisplayBins": 0.9718670240802239,
+          "validDisplayBins": 5,
+          "SEVariance": 35285.0,
+          "MEVariance": 6915429.0,
+          "fixedAlphaCountError": 0.005191390526952648
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 102994,
+          "ME": 21179154,
+          "integralCF": 0.9270559318921697,
+          "arithmeticMeanOfValidDisplayBins": 0.9292851562452885,
+          "validDisplayBins": 10,
+          "SEVariance": 102994.0,
+          "MEVariance": 21179154,
+          "fixedAlphaCountError": 0.002895698891687923
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 128722,
+          "ME": 28176382,
+          "integralCF": 0.8709037738722019,
+          "arithmeticMeanOfValidDisplayBins": 0.8712507850459359,
+          "validDisplayBins": 10,
+          "SEVariance": 128722.0,
+          "MEVariance": 28176382.0,
+          "fixedAlphaCountError": 0.0024329520359176572
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 231716,
+          "ME": 49355536,
+          "integralCF": 0.8949994538813753,
+          "arithmeticMeanOfValidDisplayBins": 0.9002679706456123,
+          "validDisplayBins": 20,
+          "SEVariance": 231716.0,
+          "MEVariance": 49355536.0,
+          "fixedAlphaCountError": 0.0018636392273892533
+        }
+      }
+    },
+    {
+      "caseId": "he4Y8",
+      "kind": "inclusive_all_y",
+      "rapidityBin": -1,
+      "rapidityRange": null,
+      "normSE": 119333,
+      "normME": 22854688,
+      "available": true,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 157596,
+          "ME": 30633991,
+          "integralCF": 0.9852724696953605,
+          "arithmeticMeanOfValidDisplayBins": 0.9852071291402371,
+          "validDisplayBins": 5,
+          "SEVariance": 157596.0,
+          "MEVariance": 30633991,
+          "fixedAlphaCountError": 0.002488272839757558
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 405750,
+          "ME": 81688706,
+          "integralCF": 0.9512863168716289,
+          "arithmeticMeanOfValidDisplayBins": 0.952173762385262,
+          "validDisplayBins": 10,
+          "SEVariance": 405750.0,
+          "MEVariance": 81688706,
+          "fixedAlphaCountError": 0.001497124412353233
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 453413,
+          "ME": 95200344,
+          "integralCF": 0.9121582453317483,
+          "arithmeticMeanOfValidDisplayBins": 0.9122251516330037,
+          "validDisplayBins": 10,
+          "SEVariance": 453413,
+          "MEVariance": 95200344,
+          "fixedAlphaCountError": 0.0013578598959906696
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 859163,
+          "ME": 176889050,
+          "integralCF": 0.930227885777939,
+          "arithmeticMeanOfValidDisplayBins": 0.9321994570091329,
+          "validDisplayBins": 20,
+          "SEVariance": 859163.0,
+          "MEVariance": 176889050,
+          "fixedAlphaCountError": 0.0010060132906896677
+        }
+      }
+    },
+    {
+      "caseId": "he4Y8",
+      "kind": "inclusive_in_range",
+      "rapidityBin": -2,
+      "rapidityRange": [
+        -1,
+        0
+      ],
+      "normSE": 119168,
+      "normME": 22820266,
+      "available": true,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 157389,
+          "ME": 30595473,
+          "integralCF": 0.9850953205651456,
+          "arithmeticMeanOfValidDisplayBins": 0.985020081396676,
+          "validDisplayBins": 5,
+          "SEVariance": 157389.0,
+          "MEVariance": 30595473.0,
+          "fixedAlphaCountError": 0.0024894605696788247
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 405301,
+          "ME": 81602559,
+          "integralCF": 0.9511192002909769,
+          "arithmeticMeanOfValidDisplayBins": 0.9520097352548952,
+          "validDisplayBins": 10,
+          "SEVariance": 405301.0,
+          "MEVariance": 81602559.0,
+          "fixedAlphaCountError": 0.0014976901092871447
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 452949,
+          "ME": 95108424,
+          "integralCF": 0.9119927202577848,
+          "arithmeticMeanOfValidDisplayBins": 0.9120603008894989,
+          "validDisplayBins": 10,
+          "SEVariance": 452949.0,
+          "MEVariance": 95108424.0,
+          "fixedAlphaCountError": 0.001358308495459835
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 858250,
+          "ME": 176710983,
+          "integralCF": 0.9300607590472634,
+          "arithmeticMeanOfValidDisplayBins": 0.932035018072197,
+          "validDisplayBins": 20,
+          "SEVariance": 858250.0,
+          "MEVariance": 176710983.0,
+          "fixedAlphaCountError": 0.0010063672682495389
+        }
+      }
+    },
+    {
+      "caseId": "he4Y8",
+      "kind": "rapidity_underflow",
+      "rapidityBin": -3,
+      "rapidityRange": [
+        null,
+        -1
+      ],
+      "normSE": 165,
+      "normME": 34422,
+      "available": true,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 207,
+          "ME": 38518,
+          "integralCF": 1.1211372250990093,
+          "arithmeticMeanOfValidDisplayBins": 1.1247854430481645,
+          "validDisplayBins": 5,
+          "SEVariance": 207.0,
+          "MEVariance": 38518.0,
+          "fixedAlphaCountError": 0.0781335305363116
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 449,
+          "ME": 86147,
+          "integralCF": 1.0873224097921417,
+          "arithmeticMeanOfValidDisplayBins": 1.08759251015555,
+          "validDisplayBins": 10,
+          "SEVariance": 449.0,
+          "MEVariance": 86147.0,
+          "fixedAlphaCountError": 0.05144746795088474
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 464,
+          "ME": 91920,
+          "integralCF": 1.0530769839386027,
+          "arithmeticMeanOfValidDisplayBins": 1.053284837974196,
+          "validDisplayBins": 10,
+          "SEVariance": 464.0,
+          "MEVariance": 91920.0,
+          "fixedAlphaCountError": 0.049011106097142876
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 913,
+          "ME": 178067,
+          "integralCF": 1.0696445719869487,
+          "arithmeticMeanOfValidDisplayBins": 1.070438674064873,
+          "validDisplayBins": 20,
+          "SEVariance": 913.0,
+          "MEVariance": 178067.0,
+          "fixedAlphaCountError": 0.03549070560143784
+        }
+      }
+    },
+    {
+      "caseId": "he4Y8",
+      "kind": "rapidity_overflow",
+      "rapidityBin": -4,
+      "rapidityRange": [
+        0,
+        null
+      ],
+      "normSE": 0,
+      "normME": 0,
+      "available": false,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": false,
+          "unavailableReason": "zero normalization or ME window",
+          "SE": 0,
+          "ME": 0,
+          "integralCF": null,
+          "arithmeticMeanOfValidDisplayBins": null,
+          "validDisplayBins": 0,
+          "SEVariance": 0,
+          "MEVariance": 0,
+          "fixedAlphaCountError": null
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": false,
+          "unavailableReason": "zero normalization or ME window",
+          "SE": 0,
+          "ME": 0,
+          "integralCF": null,
+          "arithmeticMeanOfValidDisplayBins": null,
+          "validDisplayBins": 0,
+          "SEVariance": 0,
+          "MEVariance": 0,
+          "fixedAlphaCountError": null
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": false,
+          "unavailableReason": "zero normalization or ME window",
+          "SE": 0,
+          "ME": 0,
+          "integralCF": null,
+          "arithmeticMeanOfValidDisplayBins": null,
+          "validDisplayBins": 0,
+          "SEVariance": 0,
+          "MEVariance": 0,
+          "fixedAlphaCountError": null
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": false,
+          "unavailableReason": "zero normalization or ME window",
+          "SE": 0,
+          "ME": 0,
+          "integralCF": null,
+          "arithmeticMeanOfValidDisplayBins": null,
+          "validDisplayBins": 0,
+          "SEVariance": 0,
+          "MEVariance": 0,
+          "fixedAlphaCountError": null
+        }
+      }
+    },
+    {
+      "caseId": "he4Y8",
+      "kind": "rapidity_bin",
+      "rapidityBin": 0,
+      "rapidityRange": [
+        -1,
+        -0.875
+      ],
+      "normSE": 1178,
+      "normME": 217796,
+      "available": true,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 1311,
+          "ME": 239688,
+          "integralCF": 1.011255761522237,
+          "arithmeticMeanOfValidDisplayBins": 1.01039872083476,
+          "validDisplayBins": 5,
+          "SEVariance": 1311.0,
+          "MEVariance": 239688.0,
+          "fixedAlphaCountError": 0.02800555202562768
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 2593,
+          "ME": 504889,
+          "integralCF": 0.9495355231487097,
+          "arithmeticMeanOfValidDisplayBins": 0.9494723257259551,
+          "validDisplayBins": 10,
+          "SEVariance": 2593.0,
+          "MEVariance": 504889.0,
+          "fixedAlphaCountError": 0.018694864656518154
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 2982,
+          "ME": 537484,
+          "integralCF": 1.0257622388228804,
+          "arithmeticMeanOfValidDisplayBins": 1.0254695486137009,
+          "validDisplayBins": 10,
+          "SEVariance": 2982.0,
+          "MEVariance": 537484.0,
+          "fixedAlphaCountError": 0.0188362439640393
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 5575,
+          "ME": 1042373,
+          "integralCF": 0.9888406855497082,
+          "arithmeticMeanOfValidDisplayBins": 0.987470937169828,
+          "validDisplayBins": 20,
+          "SEVariance": 5575.0,
+          "MEVariance": 1042373.0,
+          "fixedAlphaCountError": 0.013278902464556434
+        }
+      }
+    },
+    {
+      "caseId": "he4Y8",
+      "kind": "rapidity_bin",
+      "rapidityBin": 1,
+      "rapidityRange": [
+        -0.875,
+        -0.75
+      ],
+      "normSE": 8948,
+      "normME": 1695971,
+      "available": true,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 10424,
+          "ME": 2034942,
+          "integralCF": 0.9709006987644829,
+          "arithmeticMeanOfValidDisplayBins": 0.9706110034685936,
+          "validDisplayBins": 5,
+          "SEVariance": 10424.0,
+          "MEVariance": 2034942.0,
+          "fixedAlphaCountError": 0.009533823570786262
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 24604,
+          "ME": 4710727,
+          "integralCF": 0.9899430896838436,
+          "arithmeticMeanOfValidDisplayBins": 0.989827074398564,
+          "validDisplayBins": 10,
+          "SEVariance": 24604.0,
+          "MEVariance": 4710727.0,
+          "fixedAlphaCountError": 0.006327593508528343
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 25534,
+          "ME": 4888867,
+          "integralCF": 0.9899267907134909,
+          "arithmeticMeanOfValidDisplayBins": 0.9898042303481545,
+          "validDisplayBins": 10,
+          "SEVariance": 25534.0,
+          "MEVariance": 4888867.0,
+          "fixedAlphaCountError": 0.006211190291673978
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 50138,
+          "ME": 9599594,
+          "integralCF": 0.989934788968387,
+          "arithmeticMeanOfValidDisplayBins": 0.9898156523733592,
+          "validDisplayBins": 20,
+          "SEVariance": 50138.0,
+          "MEVariance": 9599594.0,
+          "fixedAlphaCountError": 0.004432556468095295
+        }
+      }
+    },
+    {
+      "caseId": "he4Y8",
+      "kind": "rapidity_bin",
+      "rapidityBin": 2,
+      "rapidityRange": [
+        -0.75,
+        -0.625
+      ],
+      "normSE": 16986,
+      "normME": 3231876,
+      "available": true,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 20547,
+          "ME": 3881001,
+          "integralCF": 1.0073218073679207,
+          "arithmeticMeanOfValidDisplayBins": 1.0071999481464389,
+          "validDisplayBins": 5,
+          "SEVariance": 20547.0,
+          "MEVariance": 3881001,
+          "fixedAlphaCountError": 0.007045967334070184
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 47442,
+          "ME": 9068596,
+          "integralCF": 0.9953744852277499,
+          "arithmeticMeanOfValidDisplayBins": 0.9951892079693584,
+          "validDisplayBins": 10,
+          "SEVariance": 47442.0,
+          "MEVariance": 9068596.0,
+          "fixedAlphaCountError": 0.004581820231553345
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 49768,
+          "ME": 9682698,
+          "integralCF": 0.9779516223987799,
+          "arithmeticMeanOfValidDisplayBins": 0.9778120301788265,
+          "validDisplayBins": 10,
+          "SEVariance": 49768.0,
+          "MEVariance": 9682698.0,
+          "fixedAlphaCountError": 0.004394966121357631
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 97210,
+          "ME": 18751294,
+          "integralCF": 0.9863777557717273,
+          "arithmeticMeanOfValidDisplayBins": 0.9865006190740926,
+          "validDisplayBins": 20,
+          "SEVariance": 97210.0,
+          "MEVariance": 18751294.0,
+          "fixedAlphaCountError": 0.003171835237864801
+        }
+      }
+    },
+    {
+      "caseId": "he4Y8",
+      "kind": "rapidity_bin",
+      "rapidityBin": 3,
+      "rapidityRange": [
+        -0.625,
+        -0.5
+      ],
+      "normSE": 19691,
+      "normME": 3779646,
+      "available": true,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 24543,
+          "ME": 4689018,
+          "integralCF": 1.0046831098601774,
+          "arithmeticMeanOfValidDisplayBins": 1.0048356361057602,
+          "validDisplayBins": 5,
+          "SEVariance": 24543.0,
+          "MEVariance": 4689018.0,
+          "fixedAlphaCountError": 0.006429821159005743
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 58171,
+          "ME": 11463920,
+          "integralCF": 0.9739950207896064,
+          "arithmeticMeanOfValidDisplayBins": 0.9743224036798642,
+          "validDisplayBins": 10,
+          "SEVariance": 58171.0,
+          "MEVariance": 11463920.0,
+          "fixedAlphaCountError": 0.004048578355527479
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 61772,
+          "ME": 12381275,
+          "integralCF": 0.9576562485320781,
+          "arithmeticMeanOfValidDisplayBins": 0.9574611769772121,
+          "validDisplayBins": 10,
+          "SEVariance": 61772.0,
+          "MEVariance": 12381275,
+          "fixedAlphaCountError": 0.003862731321911577
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 119943,
+          "ME": 23845195,
+          "integralCF": 0.9655113479790955,
+          "arithmeticMeanOfValidDisplayBins": 0.965891790328538,
+          "validDisplayBins": 20,
+          "SEVariance": 119943.0,
+          "MEVariance": 23845195.0,
+          "fixedAlphaCountError": 0.0027948561309069394
+        }
+      }
+    },
+    {
+      "caseId": "he4Y8",
+      "kind": "rapidity_bin",
+      "rapidityBin": 4,
+      "rapidityRange": [
+        -0.5,
+        -0.375
+      ],
+      "normSE": 22308,
+      "normME": 4315625,
+      "available": true,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 29012,
+          "ME": 5690364,
+          "integralCF": 0.9863264624278831,
+          "arithmeticMeanOfValidDisplayBins": 0.9860633493098246,
+          "validDisplayBins": 5,
+          "SEVariance": 29012.0,
+          "MEVariance": 5690364.0,
+          "fixedAlphaCountError": 0.005805453501335258
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 73190,
+          "ME": 14785270,
+          "integralCF": 0.9576472190318607,
+          "arithmeticMeanOfValidDisplayBins": 0.9588227004677339,
+          "validDisplayBins": 10,
+          "SEVariance": 73190.0,
+          "MEVariance": 14785270,
+          "fixedAlphaCountError": 0.0035485583274225676
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 77689,
+          "ME": 16310449,
+          "integralCF": 0.9214604065696089,
+          "arithmeticMeanOfValidDisplayBins": 0.9214084857017479,
+          "validDisplayBins": 10,
+          "SEVariance": 77689.0,
+          "MEVariance": 16310449,
+          "fixedAlphaCountError": 0.0033138188296874763
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 150879,
+          "ME": 31095719,
+          "integralCF": 0.9386663696378292,
+          "arithmeticMeanOfValidDisplayBins": 0.9401155930847409,
+          "validDisplayBins": 20,
+          "SEVariance": 150879.0,
+          "MEVariance": 31095719,
+          "fixedAlphaCountError": 0.00242241154886943
+        }
+      }
+    },
+    {
+      "caseId": "he4Y8",
+      "kind": "rapidity_bin",
+      "rapidityBin": 5,
+      "rapidityRange": [
+        -0.375,
+        -0.25
+      ],
+      "normSE": 26200,
+      "normME": 5031373,
+      "available": true,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 36267,
+          "ME": 7145031,
+          "integralCF": 0.9747488656454968,
+          "arithmeticMeanOfValidDisplayBins": 0.9754863311314063,
+          "validDisplayBins": 5,
+          "SEVariance": 36267.0,
+          "MEVariance": 7145031,
+          "fixedAlphaCountError": 0.0051314055319141814
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 96307,
+          "ME": 19890003,
+          "integralCF": 0.9298400101811398,
+          "arithmeticMeanOfValidDisplayBins": 0.9307436776801457,
+          "validDisplayBins": 10,
+          "SEVariance": 96307.0,
+          "MEVariance": 19890003.0,
+          "fixedAlphaCountError": 0.0030035038126130444
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 106482,
+          "ME": 23131269,
+          "integralCF": 0.8840197425015681,
+          "arithmeticMeanOfValidDisplayBins": 0.8839997275390594,
+          "validDisplayBins": 10,
+          "SEVariance": 106482.0,
+          "MEVariance": 23131269,
+          "fixedAlphaCountError": 0.0027153210195073603
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 202789,
+          "ME": 43021272,
+          "integralCF": 0.9052038037633432,
+          "arithmeticMeanOfValidDisplayBins": 0.9073717026096026,
+          "validDisplayBins": 20,
+          "SEVariance": 202789.0,
+          "MEVariance": 43021272.0,
+          "fixedAlphaCountError": 0.002014862127440117
+        }
+      }
+    },
+    {
+      "caseId": "he4Y8",
+      "kind": "rapidity_bin",
+      "rapidityBin": 6,
+      "rapidityRange": [
+        -0.25,
+        -0.125
+      ],
+      "normSE": 19309,
+      "normME": 3701478,
+      "available": true,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 28211,
+          "ME": 5544305,
+          "integralCF": 0.9754089977129491,
+          "arithmeticMeanOfValidDisplayBins": 0.9740565580497925,
+          "validDisplayBins": 5,
+          "SEVariance": 28211.0,
+          "MEVariance": 5544305,
+          "fixedAlphaCountError": 0.005822099487243882
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 80550,
+          "ME": 16660962,
+          "integralCF": 0.9267889792685375,
+          "arithmeticMeanOfValidDisplayBins": 0.9289909881821339,
+          "validDisplayBins": 10,
+          "SEVariance": 80550.0,
+          "MEVariance": 16660962,
+          "fixedAlphaCountError": 0.0032733722077333896
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 98340,
+          "ME": 21605282,
+          "integralCF": 0.8725406210058758,
+          "arithmeticMeanOfValidDisplayBins": 0.8728386229656625,
+          "validDisplayBins": 10,
+          "SEVariance": 98340.0,
+          "MEVariance": 21605282.0,
+          "fixedAlphaCountError": 0.0027887314308516777
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 178890,
+          "ME": 38266244,
+          "integralCF": 0.8961601284646322,
+          "arithmeticMeanOfValidDisplayBins": 0.9009148055738982,
+          "validDisplayBins": 20,
+          "SEVariance": 178890.0,
+          "MEVariance": 38266244.0,
+          "fixedAlphaCountError": 0.002123759608871922
+        }
+      }
+    },
+    {
+      "caseId": "he4Y8",
+      "kind": "rapidity_bin",
+      "rapidityBin": 7,
+      "rapidityRange": [
+        -0.125,
+        0
+      ],
+      "normSE": 4548,
+      "normME": 846501,
+      "available": true,
+      "highK": {
+        "k050_060": {
+          "windowGeVc": [
+            0.5,
+            0.6
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 7074,
+          "ME": 1371124,
+          "integralCF": 0.9602743802459657,
+          "arithmeticMeanOfValidDisplayBins": 0.96203574713268,
+          "validDisplayBins": 5,
+          "SEVariance": 7074.0,
+          "MEVariance": 1371124.0,
+          "fixedAlphaCountError": 0.01144669881321967
+        },
+        "k060_080": {
+          "windowGeVc": [
+            0.6,
+            0.8
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 22444,
+          "ME": 4518192,
+          "integralCF": 0.9245759602788042,
+          "arithmeticMeanOfValidDisplayBins": 0.9269131177235927,
+          "validDisplayBins": 10,
+          "SEVariance": 22444.0,
+          "MEVariance": 4518192,
+          "fixedAlphaCountError": 0.006186834093879159
+        },
+        "k080_100": {
+          "windowGeVc": [
+            0.8,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 30382,
+          "ME": 6571100,
+          "integralCF": 0.8605682170938879,
+          "arithmeticMeanOfValidDisplayBins": 0.8610758657208141,
+          "validDisplayBins": 10,
+          "SEVariance": 30382.0,
+          "MEVariance": 6571100,
+          "fixedAlphaCountError": 0.004948559612121589
+        },
+        "k060_100": {
+          "windowGeVc": [
+            0.6,
+            1
+          ],
+          "available": true,
+          "unavailableReason": null,
+          "SE": 52826,
+          "ME": 11089292,
+          "integralCF": 0.8866473638235568,
+          "arithmeticMeanOfValidDisplayBins": 0.8939944917222034,
+          "validDisplayBins": 20,
+          "SEVariance": 52826.0,
+          "MEVariance": 11089292,
+          "fixedAlphaCountError": 0.003866865182455063
+        }
+      }
+    }
+  ],
+  "rapidityPairPopulation": {
+    "centralityId": "c00_60",
+    "centralityLabel": "0-60%",
+    "kstarInterval": "all native bins including kstar underflow/overflow",
+    "pairCut": "Off",
+    "EPBins": 8,
+    "SE": {
+      "allY": 2221644,
+      "inRange": 2217539,
+      "rapidityUnderflow": 4105,
+      "rapidityOverflow": 0,
+      "rapidityUnderflowFraction": 0.0018477307795488386,
+      "rapidityOverflowFraction": 0.0
+    },
+    "ME": {
+      "allY": 459646635,
+      "inRange": 458891550,
+      "rapidityUnderflow": 755085,
+      "rapidityOverflow": 0,
+      "rapidityUnderflowFraction": 0.0016427510668059172,
+      "rapidityOverflowFraction": 0.0
+    }
+  },
+  "unavailableByKind": {
+    "rapidity_overflow": 32,
+    "rapidity_underflow": 16,
+    "rapidity_bin": 19
+  },
+  "statisticalLimit": "Count errors hold alpha fixed. Normalization covariance and shared-event/shared-ME correlations are not included; no significance test. Y under/overflow are separate controls and remain in all-Y inclusive.",
+  "conclusion": "Low Y slices have CF closer to1; highY slices retain highk deficit and decreasing shape. Rapidity selection has not resolved all highk CF behavior. Pools remain cent9 x Vz x EP8."
+}

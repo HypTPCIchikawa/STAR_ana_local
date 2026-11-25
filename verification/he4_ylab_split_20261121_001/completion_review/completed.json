@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "pilot": false,
+  "sources": 20,
+  "events": 1819447887,
+  "curves": 320,
+  "inputStatsUnchanged": true,
+  "pinsUnchanged": true,
+  "treeEntriesRead": 0,
+  "artifacts": [
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y_cf_metrics.json",
+      "bytes": 4904057,
+      "device": 48,
+      "inode": 944554220,
+      "mtimeNs": 1795351844315082061,
+      "sha256": "551d200b6776119e98633d8223f4dd175c397a6360a119060c1b5a15e7b74961"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/raw_histograms.json",
+      "bytes": 306239,
+      "device": 48,
+      "inode": 944554214,
+      "mtimeNs": 1795351842415961687,
+      "sha256": "91e8ea79e17b3092f91f60ad82f2ff49ca8079089e9df5460e4881aff9bf5600"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y4_CF.pdf",
+      "bytes": 915621,
+      "device": 48,
+      "inode": 944554229,
+      "mtimeNs": 1795351849075650750,
+      "sha256": "a7f5df2512efdea0a0c2a4bd5dee7ba140b47a970d58ea7d469db26f345d03a8"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y8_CF.pdf",
+      "bytes": 1767639,
+      "device": 48,
+      "inode": 944554238,
+      "mtimeNs": 1795351854888321285,
+      "sha256": "87a4bf01ec680294793fb8219a7319c78ebad1c49d4e6704065bbde72655f820"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y4_CF_highk.pdf",
+      "bytes": 517040,
+      "device": 48,
+      "inode": 944554231,
+      "mtimeNs": 1795351849083625707,
+      "sha256": "81563e8ecc3bf0087bbf334afe42f6fa446504396c7bf01cf0eed5cd77dfebdf"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y8_CF_highk.pdf",
+      "bytes": 983371,
+      "device": 48,
+      "inode": 944554240,
+      "mtimeNs": 1795351854899982118,
+      "sha256": "34e5d266b67ddcf0947d042c127c920938dba2db428ffc44a3aa723f85aeef94"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y4_SE_ME_scaled.pdf",
+      "bytes": 625603,
+      "device": 48,
+      "inode": 944554230,
+      "mtimeNs": 1795351849081912851,
+      "sha256": "ab402236079d93170dd3a4a14c1bf8f8b51a5257af1bca270cfb3c5732d84bfe"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y8_SE_ME_scaled.pdf",
+      "bytes": 1188218,
+      "device": 48,
+      "inode": 944554239,
+      "mtimeNs": 1795351854897538843,
+      "sha256": "9514f5bc6d8711b9d9c8a358509f7feecc13320e7ecbe13e5a5209cf148a2c93"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/he4_y_flow_controls.pdf",
+      "bytes": 63252,
+      "device": 48,
+      "inode": 944554268,
+      "mtimeNs": 1795351854988773428,
+      "sha256": "515067e0a741be9cf284f46445258dab7a380f8c7a0f59d49a7b83c13fa3348d"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/cf_histograms.root",
+      "bytes": 1735173,
+      "device": 48,
+      "inode": 944554228,
+      "mtimeNs": 1795351846158901468,
+      "sha256": "f0d5082d7bdd9138ba70e46d1283b9735a89ffdb48705b2fc2b4653d66d06c6c"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/curve_metadata.tsv",
+      "bytes": 25368,
+      "device": 48,
+      "inode": 944554222,
+      "mtimeNs": 1795351844320893000,
+      "sha256": "6b3893e1cf0af55cd0d4024996b3a2c96fd4d04faba552b1929bd65e1cc68ea2"
+    },
+    {
+      "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/rootfile/lambda_he4_ylab_split_20261121_001/completion_watch_001/he4_y_results/curve_bins.tsv",
+      "bytes": 1210547,
+      "device": 48,
+      "inode": 944554223,
+      "mtimeNs": 1795351844425401229,
+      "sha256": "ee38e60fb5ba366dfa17420362d281005e02bf2622eb42537f10df748176ce4e"
+    }
+  ]
+}

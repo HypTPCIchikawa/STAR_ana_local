@@ -1,0 +1,31 @@
+{
+  "runmeta": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_tree_treeWrite20261117_9037A6F05FAD08FC8E9BD9286C8A38A5.json",
+    "sizeBytes": 4678,
+    "sha256": "8050559c956ef0600f0151267ef2c54a1872371ee0af5a0aa3ca9132b01354e1"
+  },
+  "configlog": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/configlog/config_auau3p85_anaFemtoLambda_4He_tree_treeWrite20261117_9037A6F05FAD08FC8E9BD9286C8A38A5.txt",
+    "sizeBytes": 118619,
+    "sha256": "af831ff0136731325d6386a13dac47039ba5ea57e6915e9714995d140c4e137d",
+    "recordedSha256Matched": true
+  },
+  "joblistlog": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/joblistlog/joblist_auau3p85_anaFemtoLambda_4He_tree_treeWrite20261117_9037A6F05FAD08FC8E9BD9286C8A38A5.xml",
+    "sizeBytes": 5140,
+    "sha256": "ea847201b6aa00ef68da4669740473ac5f4756307fcac3dcc9218e61cdc53d5a",
+    "recordedSha256Matched": true
+  },
+  "runtimeBundle": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runtime_bundle_auau3p85_anaFemtoLambda_4He_tree_treeWrite20261117_9037A6F05FAD08FC8E9BD9286C8A38A5.tar.gz",
+    "sizeBytes": 51874442,
+    "sha256": "65b4b6c0a5e691a40d89f3c78ad96b411e1f6f2a68fdc315711e1cb6fd1a3656",
+    "recordedSha256Matched": true
+  },
+  "sumsArtifacts": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/sums_artifacts_auau3p85_anaFemtoLambda_4He_tree_treeWrite20261117_9037A6F05FAD08FC8E9BD9286C8A38A5.tar.gz",
+    "sizeBytes": 2585718,
+    "sha256": "ac272bf5e0d9fadff164d049c31ec1b560d39ee4e89052f74071096f3e7ea7fc",
+    "recordedSha256Matched": true
+  }
+}

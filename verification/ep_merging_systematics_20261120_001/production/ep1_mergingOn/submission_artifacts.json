@@ -1,0 +1,33 @@
+{
+  "runmeta": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runmeta_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100_epCut20261120_A41640F4766ED2F6E154BD81C5343138.json",
+    "bytes": 4937,
+    "sha256": "04b58913909071848357e019900d7f9270bf76db4a7534dbedaf9a9907821293"
+  },
+  "configlog": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/configlog/config_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100_epCut20261120_A41640F4766ED2F6E154BD81C5343138.txt",
+    "bytes": 228169,
+    "sha256": "8e459b17dba618ce9fce88ad46e2892030ef553ab42382349e1d4af15e793722"
+  },
+  "joblistlog": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/joblistlog/joblist_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100_epCut20261120_A41640F4766ED2F6E154BD81C5343138.xml",
+    "bytes": 5295,
+    "sha256": "de9e136e6850b4492a177ba0533de247e76f3f3e7f48859acf1c8c6da022ff37"
+  },
+  "runtimeBundle": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/runtime_bundle_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100_epCut20261120_A41640F4766ED2F6E154BD81C5343138.tar.gz",
+    "bytes": 52013534,
+    "sha256": "5d824d81f508a9d16c50cc086f8b6f78210f61c9e31007ec8d0d0fd68083a6e7"
+  },
+  "sumsArtifacts": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/runmeta/sums_artifacts_auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100_epCut20261120_A41640F4766ED2F6E154BD81C5343138.tar.gz",
+    "bytes": 26638,
+    "sha256": "a99ea2db41059226c76d8f8eeadbc469dda07202a6f4d807fe26c08e91fc989e"
+  },
+  "runtimeZip": {
+    "path": "/gpfs/mnt/gpfs01/star/pwg/yichikawa/git_STAR_3/star-analyzer/job/run/auau3p85_anaFemtoLambda_4He_tree_ep1_mergingOn_mix100_epCut20261120_20261120103109.zip",
+    "bytes": 50540033,
+    "sha256": "d285ccbcc0a7abdecaa4e58b5f8844b41089a3fd3094aebd921421c48132e7b2",
+    "pinnedShippedMembersVerified": 38
+  }
+}
